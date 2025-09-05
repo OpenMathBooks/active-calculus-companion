@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2025                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+    <!-- Has LaTeX macros, which may be needed       -->
+    <!-- May have some unnecessary stuff, but OK now -->
+<docinfo>
+  <macros>
+		\newcommand{\dollar}{\$}
+		\DeclareMathOperator{\erf}{erf}
+		\DeclareMathOperator{\arctanh}{arctanh}
+                \DeclareMathOperator{\arcsec}{arcsec}
+
+                % This macro should only be used in ancillary production!
+                \raggedbottom
+  </macros>
+  <cross-references text="type-global" />
+  <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
+  <rename element="objectives" xml:lang="en-US">Motivating Questions</rename>
+    <!-- PreTeXt doesn't like renaming to whitespace, so using U+3164 (Hangul Filler) -->
+  <!-- here inside the rename element. -->
+  <rename element="worksheet" xml:lang="en-US">ㅤ</rename>
+</docinfo>
+  <book xml:id="acs-activity-workbook" permid="KKE">
+      <title><line>Activities Workbook</line>
+      <line>for</line>
+      <line>Active Calculus Single Variable</line>
+      <line>Chapters 5<ndash/>8, 2nd Edition</line>
+      </title>
+    <frontmatter permid="WYW">
+      <xi:include href="./bibinfo.xml" />
+      <xi:include href="./titlepage.xml" />
+      <xi:include href="./colophon.xml" />
+
+      <preface permid="qRN">
+        <p permid="Dgf">
+          This Activities Workbook for <pubtitle>Active Calculus Single Variable</pubtitle> collects all the Preview Activities and Activities in a way that each starts on a new page.
+          The Activities Workbook provides space for students to write and organize their work as they complete the activities found in the text.
+        </p>
+
+        <p permid="jno">
+          The design of this workbook is such that each Preview Activity and Activity starts on a right-hand page.
+          The workbook is offered in two volumes:
+          the first for chapters 1<ndash />4 and the second for chapters 5<ndash />8.  This workbook is for chapters 5<ndash />8.
+        </p>
+      </preface>
+    </frontmatter>
+
+    <xi:include href="./chap-5-wb.xml" />
+    <xi:include href="./chap-6-wb.xml" />
+    <xi:include href="./chap-7-wb.xml" />
+    <xi:include href="./chap-8-wb.xml" />
+
+    <backmatter>
+
+  <appendix xml:id="integral-table" permid="Alz">
+    <title>A Short Table of Integrals</title>
+    <p permid="IzS">
+      <ol marker="a." permid="lcB">
+        <li permid="RjK">
+          <p permid="GKF">
+            <m>\int \frac{du}{a^2 + u^2} = \frac{1}{a} \arctan \left( \frac{u}{a} \right) + C</m>
+          </p>
+        </li>
+
+        <li permid="xqT">
+          <p permid="mRO">
+            <m>\int \frac{du}{\sqrt{u^2 \pm a^2}} = \ln |u + \sqrt{u^2 \pm a^2}| + C</m>
+          </p>
+        </li>
+
+        <li permid="dyc">
+          <p permid="SYX">
+            <m>\int \sqrt{u^2 \pm a^2} \, du = \frac{u}{2}\sqrt{u^2 \pm a^2} \pm \frac{a^2}{2}\ln|u + \sqrt{u^2 \pm a^2}| + C</m>
+          </p>
+        </li>
+
+        <li permid="JFl">
+          <p permid="zgg">
+            <m>\int \frac{u^2 du}{\sqrt{u^2 \pm a^2}} = \frac{u}{2}\sqrt{u^2 \pm a^2} \mp \frac{a^2}{2}\ln|u + \sqrt{u^2 \pm a^2}| + C</m>
+          </p>
+        </li>
+
+        <li permid="pMu">
+          <p permid="fnp">
+            <m>\int \frac{du}{u\sqrt{u^2+a^2}} = -\frac{1}{a} \ln \left| \frac{a+\sqrt{u^2 + a^2}}{u} \right| + C</m>
+          </p>
+        </li>
+
+        <li permid="VTD">
+          <p permid="Luy">
+            <m>\int \frac{du}{u\sqrt{u^2-a^2}} = \frac{1}{a} \arcsec \left( \frac{u}{a} \right) + C</m>
+          </p>
+        </li>
+
+        <li permid="CaM">
+          <p permid="rBH">
+            <m>\int \frac{du}{\sqrt{a^2 - u^2}} = \arcsin \left( \frac{u}{a} \right) + C</m>
+          </p>
+        </li>
+
+        <li permid="ihV">
+          <p permid="XIQ">
+            <m>\int \sqrt{a^2 - u^2} \, du = \frac{u}{2}\sqrt{a^2 - u^2} + \frac{a^2}{2} \arcsin \left( \frac{u}{a} \right) + C</m>
+          </p>
+        </li>
+
+        <li permid="Ope">
+          <p permid="DPZ">
+            <m>\int \frac{u^2}{\sqrt{a^2 - u^2}} \, du = -\frac{u}{2}\sqrt{a^2 - u^2} + \frac{a^2}{2} \arcsin \left( \frac{u}{a} \right) + C</m>
+          </p>
+        </li>
+
+        <li permid="uwn">
+          <p permid="jXi">
+            <m>\int \frac{du}{u\sqrt{a^2 - u^2}} = -\frac{1}{a} \ln \left| \frac{a + \sqrt{a^2 - u^2}}{u} \right| + C</m>
+          </p>
+        </li>
+
+        <li permid="aDw">
+          <p permid="Qer">
+            <m>\int \frac{du}{u^2\sqrt{a^2 - u^2}} = -\frac{\sqrt{a^2-u^2}}{a^2 u} + C</m>
+          </p>
+        </li>
+      </ol>
+    </p>
+  </appendix>
+
+        <colophon>
+    <p>
+      This book was authored in <pretext />.
+    </p>
+  </colophon>
+</backmatter>
+
+  </book>
+</pretext>
+

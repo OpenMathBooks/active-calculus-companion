@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2019                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<worksheet component="static" label="ws-PA-2-7">
+   
+    <exploration xml:id="PA-2-7">
+      <introduction>
+        <p>
+    Let <m>f</m> be a differentiable function of <m>x</m>
+    (whose formula is not known)
+    and recall that <m>\frac{d}{dx}[f(x)]</m> and <m>f'(x)</m> are interchangeable notations.
+    Determine each of the following derivatives of combinations of explicit functions of <m>x</m>,
+    the unknown function <m>f</m>,
+    and an arbitrary constant <m>c</m>.
+
+    </p>
+      </introduction>
+      <task workspace="2.75cm" xml:id="PA-2-7-task-0">
+        <statement>
+          <p>
+            <m>\frac{d}{dx} \left[ x^2 + f(x) \right]</m>
+          </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="2.75cm" xml:id="PA-2-7-task-1">
+        <statement>
+          <p>
+            <m>\frac{d}{dx} \left[ x^2 f(x) \right]</m>
+          </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="2.75cm" xml:id="PA-2-7-task-2">
+        <statement>
+          <p>
+            <m>\frac{d}{dx} \left[ c + x + f(x)^2 \right]</m>
+          </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="2.75cm" xml:id="PA-2-7-task-3">
+        <statement>
+          <p>
+            <m>\frac{d}{dx} \left[ f(x^2) \right]</m>
+          </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="2.75cm" xml:id="PA-2-7-task-4">
+        <statement>
+          <p>
+            <m>\frac{d}{dx} \left[ xf(x) + f(cx) + cf(x) \right]</m>
+          </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+    </exploration>
+   
+</worksheet>

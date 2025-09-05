@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- **********************************************************************-->
-<!-- Copyright 2012-2022                                                   -->
+<!-- Copyright 2012-2019                                                   -->
 <!-- Matthew Boelkins                                                      -->
 <!--                                                                       -->
 <!-- This file is part of Active Calculus.                                 -->
@@ -12,27 +12,7 @@
 <!-- "share and share alike".  All trademarks are the registered marks of  -->
 <!-- their respective owners.                                              -->
 <!-- **********************************************************************-->
-<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
-  <xi:include href="./bookinfo.xml" />
-    <!-- ISBN, website, other metadata -->
-  <book permid="qaP">
-    <title>Active Calculus</title>
-    <subtitle component="proteus">PROTEUS Version<nbsp/></subtitle>
-    <subtitle component="ed2-static">2nd Ed</subtitle>
-    <subtitle component="runestone">2nd Ed</subtitle>
-    <subtitle component="ed1">1st Ed</subtitle>
-    <xi:include href="./frontmatter.xml" />
-
-    <xi:include href="./chap-1.xml" />
-    <xi:include href="./chap-2.xml" />
-    <xi:include href="./chap-3.xml" />
-    <xi:include href="./chap-4.xml" />
-    <xi:include href="./chap-5.xml" />
-    <xi:include href="./chap-6.xml" />
-    <xi:include href="./chap-7.xml" />
-    <xi:include href="./chap-8.xml" />
-    <xi:include href="safranski.xml" />    
-    <xi:include href="./backmatter.xml" />
-  </book>
-</pretext>
+<exploration label="csafranski__6-_5Preview" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="PA-6-5" permid="tAY" component="runestone">
+  <webwork source="csafranski/6.5Preview.pg" />
+</exploration>
 

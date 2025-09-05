@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- **********************************************************************-->
+<!-- Copyright 2012-2019                                                   -->
+<!-- Matthew Boelkins                                                      -->
+<!--                                                                       -->
+<!-- This file is part of Active Calculus.                                 -->
+<!--                                                                       -->
+<!-- Permission is granted to copy, distribute and/or modify this document -->
+<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
+<!-- may be used for free by any party so long as attribution is given to  -->
+<!-- the author(s), the work and its derivatives are used in the spirit of -->
+<!-- "share and share alike".  All trademarks are the registered marks of  -->
+<!-- their respective owners.                                              -->
+<!-- **********************************************************************-->
+<worksheet component="static" label="ws-PA-1-6">
+   
+    <exploration xml:id="PA-1-6">
+      <introduction>
+        <p>
+    The position of a car driving along a straight road at time <m>t</m> in minutes is given by the function
+    <m>y = s(t)</m> whose graph is provided.
+    The car's position function has units measured in thousands of feet.
+    For instance,
+    the point <m>(2,4)</m> on the graph indicates that after 2 minutes,
+    the car has traveled 4000 feet.
+  </p>
+          <image width="30%" source="images/1_6_PA1"/>
+
+      </introduction>
+      <task workspace="3cm" xml:id="PA-1-6-task-0">
+        <statement>
+          <p>
+          In everyday language,
+          describe the behavior of the car over the provided time interval.
+          In particular,
+          you should carefully discuss what is happening on each of the time intervals <m>[0,1]</m>,
+          <m>[1,2]</m>, <m>[2,3]</m>,
+          <m>[3,4]</m>, and <m>[4,5]</m>,
+          plus provide commentary overall on what the car is doing on the interval <m>[0,12]</m>.
+        </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="0.1cm" xml:id="PA-1-6-task-1">
+        <statement>
+          <p>
+          On the lefthand axes provided,
+          sketch a careful, accurate graph of <m>y = s'(t)</m>.
+        </p>
+          <image width="80%" source="images/1_6_PA1b"/>
+
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="4cm" xml:id="PA-1-6-task-2">
+        <statement>
+          <p>
+          What is the meaning of the function
+          <m>y = s'(t)</m> in the context of the given problem?
+          What can we say about the car's behavior when <m>s'(t)</m> is positive? when <m>s'(t)</m> is zero? when <m>s'(t)</m> is negative?
+        </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="4cm" xml:id="PA-1-6-task-3">
+        <statement>
+          <p>
+          Rename the function you graphed in (b) to be called <m>y = v(t)</m>.
+          Describe the behavior of <m>v</m> in words,
+          using phrases like <q><m>v</m> is increasing on the interval <m>\ldots</m></q>
+          and <q><m>v</m> is constant on the interval <m>\ldots</m>.</q></p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+      <task workspace="4cm" xml:id="PA-1-6-task-4">
+        <statement>
+          <p>
+          Sketch a graph of the function
+          <m>y = v'(t)</m> on the righthand axes provide in (b).
+          Write at least one sentence to explain how the behavior of <m>v'(t)</m> is connected to the graph of <m>y=v(t)</m>.
+        </p>
+        </statement>
+        <hint/>
+         
+         
+      </task>
+    </exploration>
+   
+</worksheet>
