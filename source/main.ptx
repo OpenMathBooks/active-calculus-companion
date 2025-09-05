@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- **********************************************************************-->
-<!-- Copyright 2012-2022                                                   -->
-<!-- Matthew Boelkins                                                      -->
-<!--                                                                       -->
-<!-- This file is part of Active Calculus.                                 -->
-<!--                                                                       -->
-<!-- Permission is granted to copy, distribute and/or modify this document -->
-<!-- under the terms of the Creative Commons BY-SA license.  The work      -->
-<!-- may be used for free by any party so long as attribution is given to  -->
-<!-- the author(s), the work and its derivatives are used in the spirit of -->
-<!-- "share and share alike".  All trademarks are the registered marks of  -->
-<!-- their respective owners.                                              -->
-<!-- **********************************************************************-->
+
 <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
   <xi:include href="./bookinfo.xml" />
-    <!-- ISBN, website, other metadata -->
-  <book permid="qaP">
-    <title>Active Calculus</title>
-    <subtitle component="proteus">PROTEUS Version<nbsp/></subtitle>
-    <subtitle component="ed2-static">2nd Ed</subtitle>
-    <subtitle component="runestone">2nd Ed</subtitle>
-    <subtitle component="ed1">1st Ed</subtitle>
+
+  <book>
+    <title>The Active Calculus Companion</title>
     <xi:include href="./frontmatter.xml" />
 
     <xi:include href="./chap-1.xml" />
