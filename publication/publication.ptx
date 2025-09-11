@@ -21,8 +21,8 @@
     <!-- There are four components (statement/hint/answer/solution) for each -->
     <!-- of five exercise types (inline/divisional/worksheet/reading/        -->
     <!-- project).                                                           -->
-      <!--<exercise-inline statement="yes" hint="yes" answer="no" solution="no" />-->
-      <!--<exercise-divisional statement="yes" hint="yes" answer="no" solution="yes" />-->
+      <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+      <exercise-divisional statement="yes" hint="yes" answer="no" solution="no" />
       <!--<exercise-worksheet statement="yes" hint="yes" answer="no" solution="no" />-->
       <!--<exercise-reading statement="yes" hint="yes" answer="no" solution="no" />-->
       <!--<exercise-project statement="yes" hint="yes" answer="yes" solution="yes" />-->
@@ -121,7 +121,7 @@
 
     <!-- Whether to knowl a particular elements is set here    -->
     <!-- Lots of elements have this possibility; see the guide -->
-      <!--<knowl
+      <knowl
         theorem="no"
         proof="yes"
         definition="no"
@@ -136,17 +136,17 @@
         table="no"
         listing="no"
         list="no"
-        exercise-inline="yes"
+        exercise-inline="no"
         exercise-divisional="no"
         exercise-worksheet="no"
         exercise-readingquestion="no"
-      />-->
+      />
 
     <!-- Specify the theme for the html by giving names to     -->
     <!-- override defaults.  Ex:<css theme="denver"/>          -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
-      <!--<css theme="denver"/>-->
+      <!-- <css theme="salem"/> -->
 
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
@@ -171,13 +171,14 @@
       <!-- <baseurl href="https://changetomywebsite.org"/> -->
 
     <!-- Control behavior of online WeBWorK, per type: -->
-      <!--<webwork
+      <webwork
         inline="dynamic"
         divisional="dynamic"
         reading="static"
         worksheet="static"
         project="dynamic"
-      />-->
+      />
+      
 
     <!-- Use the tabbed viewer for tasks in exercises. "project" and "reading" can be added to the list of types in the @tabbed-tasks attribute (but not worksheet). -->
       <!--<exercises tabbed-tasks="inline divisional"/>-->
@@ -208,7 +209,7 @@
 
 
   <!-- To use WeBWorK, you need a server.  -->
-    <!-- <webwork server="https://webwork-ptx.aimath.org" /> -->
+    <webwork server="https://webwork.runestone.academy" />
     <!-- @course, @coursepassword, @user, and @userpassword can also be set. -->
     <!-- You can also set how tasks are revealed for webwork problems using the @task-reveal attribute on the above-->
 
