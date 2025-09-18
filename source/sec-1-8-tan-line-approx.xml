@@ -75,13 +75,83 @@
 
 <exercises xml:id="ap-tan-line-approx">
   <title>Additional Practice</title>
+  <exercise label="tangentline-given-derivative-eqns-2">
+    <webwork source="Contrib/METU-NCC/MAT101/Final/Tangent.pg" />
+  </exercise>
   
+  <exercise label="tangentline-given-derivative-eqn">
+    <webwork source="Library/Wiley/setAnton_Section_2.2/Question7.pg" />
+  </exercise>
+
+  <exercise label="tangentline-given-derivative-val-1">
+    <webwork source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg" />
+  </exercise>
+
+  <exercise label="tangentline-given-derivative-val-3">
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" />
+  </exercise>
+  <exercise labe="tangentline-given-derivative-val-4">
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg" />
+  </exercise>
+
+  <!-- Some new problems -->
+
+  <exercise label="tangentline-lin-w-given-d-1">
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob1.pg"/>
+    </webwork>
+  </exercise>
+
+  <exercise label="tangentline-lin-w-given-d-2">
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob2.pg"/>
+    </webwork>
+  </exercise>
+
+
 </exercises>
 
 
 <exercises xml:id="fe-tan-line-approx">
   <title>Foundations</title>
-  
+  <introduction>
+    <p>
+      To be able to find the equation of a tangent line, you must know how to find the equation of a line given a point and a slope.  Here are some practice exercises for this foundational skill.
+    </p>
+  </introduction>
+
+
+  <exercise label="linear-eqns-pnt-slope-1">
+    <webwork source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-pnt-slope-2">
+    <webwork source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-pnt-slope-3">
+    <webwork source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-find-eqn-1">
+    <webwork source="Contrib/METU-NCC/MAT101/Midterm/line.pg" />
+  </exercise>
+
+  <exercise  label="linear-eqn-find-eqn-2">
+    <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-from-graph-1">
+    <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-from-graph-2">
+    <webwork source="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg" />
+  </exercise>
+
+  <exercise label="linear-eqn-from-graph-3">
+    <webwork source="Library/NAU/setFunctionBasicGraphs/Linear.pg" />
+  </exercise>
+
+
 </exercises>
 
 
