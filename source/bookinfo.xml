@@ -44,10 +44,10 @@
   <cross-references text="type-global" />
   <initialism>AC</initialism>
 
-  <document-id component="runestone-doc" edition="2">ac-single</document-id>
-  <document-id component="proteus" edition="2">active-calc-proteus</document-id>
+  <document-id edition="0">ac-companion</document-id>
   <blurb shelf="Mathematics">
-    Active Calculus Single Variable supports an active learning approach in the first two semesters of calculus. Every section of Active Calculus Single Variable offers engaging activities for students to complete before and during class; additional exercises that challenge students to connect and assimilate core concepts; interactive WeBWorK exercises; opportunities for students to develop conceptual understanding and improve their skills at communicating mathematical idea.  The text is free and open-source, available in HTML, PDF, and print formats.  Ancillary materials for instructors are also available.
+    The Active Calculus Companion is intended to give students using Active Calculus (Single Variable) additional practice exercises, as well as help them sure up foundational skills.
+    Note: this book is still in early draft form. 
   </blurb>
   <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
 
