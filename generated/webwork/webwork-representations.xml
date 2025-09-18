@@ -1,0 +1,1154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-representations>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-1" ww-id="webwork-1">
+    <static seed="1">
+      <statement><p>Let F be the function below.  Evaluate each of the following expressions.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-1-image-1.png" width="33%"/>
+<p>Note:  Enter 'DNE' if the limit does not exist or is not defined.</p>
+<p>a) <m>\displaystyle \lim_{x \to -1^-} F(x)</m> = <fillin characters="4" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle \lim_{x \to -1^+} F(x)</m> = <fillin characters="4" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle \lim_{x \to -1} F(x)</m> = <fillin characters="4" name="AnSwEr0003"/></p>
+<p>d) <m>F(-1)</m> = <fillin characters="4" name="AnSwEr0004"/></p>
+<p>e) <m>\displaystyle \lim_{x \to 1^-} F(x)</m> = <fillin characters="4" name="AnSwEr0005"/></p>
+<p>f) <m>\displaystyle \lim_{x \to 1^+} F(x)</m> = <fillin characters="4" name="AnSwEr0006"/></p>
+<p>g) <m>\displaystyle \lim_{x \to 1} F(x)</m> = <fillin characters="4" name="AnSwEr0007"/></p>
+<p>h) <m>\displaystyle \lim_{x \to 3} F(x)</m> = <fillin characters="4" name="AnSwEr0008"/></p>
+<p>i) <m>F(3)</m> = <fillin characters="4" name="AnSwEr0009"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/1_2_1.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DBsubject(Calculus - single variable)
+## DBchapter(Limits and continuity)
+## DBsection(Finding limits using graphs)
+## Institution(Univeristy of Utah)
+## Author(Utah ww group)
+## Level(2)
+## TitleText1('Mathematical Applications')
+## AuthorText1('Ronal J. Harshbarger and James J. Reynolds')
+## EditionText1('8')
+## Section1('.')
+## Problem1('')
+## KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "PGgraphmacros.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a=random(-3,3,1);
+$b=random(-2,3,1);
+$c=random(-3,2,1);
+$m1=random(-1,1,0.5);
+$m2=($b - $a)/2;
+$m3=($c - $b - 1)/2;
+$m4=random(-1,1,0.5);
+@slice = NchooseK(3,3);
+
+@colors = ("blue", "red", "green");
+@sc = @colors[@slice];  #scrambled colors
+@sa = ('A','B','C')[@slice];
+
+$f1 = FEQ("${m1}*(x+1)+$a for x in [-2,-1) using color:$sc[0] and weight:2");
+$f2 = FEQ("${m2}*(x-1)+$b for x in (-1,1) using color=$sc[0] and weight:2");
+$f3 = FEQ("${m3}*(x-3)+$c for x in [1,3) using color=$sc[0] and weight=2");
+$f4 = FEQ("1+$a for x in [-1,-1] using color=$sc[0] and weight=2");
+$f5 = FEQ("${m4}*(x-3)+$c for x in (3,4] using color=$sc[0] and weight=2");
+
+$graph = init_graph(-3,-6,5,6,'axes'=>[0,0],'grid'=>[8,12]);
+
+($f1Ref,$f2Ref,$f3Ref,$f4Ref,$f5Ref) = plot_functions($graph,$f1,$f2,$f3,$f4,$f5);
+
+$fig=image(insertGraph($graph), width=>200,height=>200,tex_size=>450);
+
+
+
+BEGIN_TEXT
+$PAR
+Let F be the function below.  Evaluate each of the following expressions.  $PAR
+
+$fig
+
+$PAR
+Note:  Enter 'DNE' if the limit does not exist or is not defined. $PAR
+
+a) \( \displaystyle \lim_{x \to -1^-} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+b) \( \displaystyle \lim_{x \to -1^+} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+c) \( \displaystyle \lim_{x \to -1} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+d) \( F(-1) \) = \{ans_rule(4)\}
+$PAR
+
+e) \( \displaystyle \lim_{x \to 1^-} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+f) \( \displaystyle \lim_{x \to 1^+} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+g) \( \displaystyle \lim_{x \to 1} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+h) \( \displaystyle \lim_{x \to 3} F(x) \) = \{ans_rule(4)\}
+$PAR
+
+i) \( F(3) \) = \{ans_rule(4)\}
+$PAR
+
+END_TEXT
+
+$ap1 = 1 + $a;
+$bp1 = 1 + $b;
+
+ANS(num_cmp($a, strings=>['DNE']))  ;
+ANS(num_cmp($a, strings=>['DNE']))  ;
+ANS(num_cmp($a, strings=>['DNE']))  ;
+ANS(num_cmp($ap1, strings=>['DNE']));
+ANS(num_cmp($b, strings=>['DNE']))  ;
+ANS(num_cmp($bp1, strings=>['DNE']));
+ANS(num_cmp('DNE', strings=>['DNE'])) ;
+ANS(num_cmp($c, strings=>['DNE']))  ;
+ANS(num_cmp('DNE', strings=>['DNE'])) ;
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-2" ww-id="webwork-2">
+    <static seed="2" source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg">
+      <statement><p>Evaluate each expression using the given graph of <m>f(x)</m>.</p>
+<p>Enter <alert> DNE </alert> if the limit or value does not exist.</p>
+<p>If you are having a hard time seeing the picture clearly, click
+on the picture.  It will expand to a larger picture on its own page so
+that you can inspect it more clearly.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-2-image-1.png" width="66%"/>
+<p>a) <m>\displaystyle \lim_{x \to 1^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle \lim_{x \to 1^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle \lim_{x \to 1}f(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>\displaystyle \lim_{x \to -1^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+<p>e) <m>\displaystyle \lim_{x \to -1^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0005"/></p>
+<p>f)  <m>\displaystyle \lim_{x \to -1}f(x) =</m> <fillin characters="20" name="AnSwEr0006"/></p>
+<p>In problems g-i, assume <m>a</m> is an <alert> integer </alert> such that 
+<m>-3 \leq a \leq 3</m>.</p>
+<p>d) <m>\displaystyle \lim_{x \to a^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0007"/></p>
+<p>e) <m>\displaystyle \lim_{x \to a^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0008"/></p>
+<p>f)  <m>\displaystyle \lim_{x \to a}f(x) =</m> <fillin characters="20" name="AnSwEr0009"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>a-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>a</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-3" ww-id="webwork-3">
+    <static seed="3" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg">
+      <statement><p>Determine <m>\lim\limits_{x \to 1} f(x)</m> for the function <m>f(x)</m> shown in the figure below</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-3-image-1.png" width="50%"/>
+<p>The limit as <m>x \to 1</m> is  <fillin characters="5" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+The graph suggests that <m>f(x) \to 3</m> as <m>x \to 1</m>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-4" ww-id="webwork-4">
+    <static seed="4" source="Library/UMN/calculusStewartCCC/s_2_2_6.pg">
+      <statement><p>Use the given graph of the function <m>f</m> to find the following limits.  If a limit <em> does not exist, </em> type "DNE".</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-4-image-1.png" width="66%"/>
+<p><alert> 1. </alert> <m>\displaystyle \lim_{x \to 2^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert>  <m>\displaystyle \lim_{x \to 2^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p><alert> 3. </alert>  <m>\displaystyle \lim_{x \to 2}f(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p><alert> 4. </alert>  <m>\displaystyle \lim_{x \to 0}f(x) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+<p><alert> 5. </alert>  <m>\displaystyle f(0) =</m> <fillin characters="20" name="AnSwEr0005"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2+2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_2_2_6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_2_2_6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-5" ww-id="webwork-5">
+    <static seed="5" source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg">
+      <statement><p>Approximate the given limit both numerically and graphically.</p>
+<p><m>f(x) = \left\lbrace\begin{array}{ll}
+   x + 5 \amp  \quad x \leq 0, \\
+   3x + 3 \amp  \quad x &gt; 0
+   \end{array}\right.</m></p>
+<p><m>\lim\limits_{x \to 0} f(x)  =</m>  <fillin characters="5" name="AnSwEr0001"/></p>
+<p>(Enter DNE if the limit doesn't exist)</p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{DNE}</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+        <row>
+<cell> <m>x</m> </cell>
+<cell> <m>f(x)</m> </cell>
+<cell> <m>x</m> </cell>
+<cell> <m>f(x)</m> </cell>
+</row>
+
+        <row>
+<cell> 0.002 </cell>
+<cell>3.006</cell>
+<cell> -0.002 </cell>
+<cell>4.998</cell>
+</row>
+
+        <row>
+<cell> 0.001 </cell>
+<cell>3.003</cell>
+<cell> -0.001 </cell>
+<cell>4.999</cell>
+</row>
+
+        <row>
+<cell> 0.0005 </cell>
+<cell>3.0015</cell>
+<cell>-0.0005 </cell>
+<cell>4.9995</cell>
+</row>
+
+        <row>
+<cell> 0.0001 </cell>
+<cell>3.0003</cell>
+<cell>-0.0001  </cell>
+<cell>4.9999</cell>
+</row>
+
+        
+</tabular>
+
+
+
+The limit as <m>x \to 0</m> does not exist because the function does not
+approach a single number from both left and right.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-6" ww-id="webwork-6">
+    <static seed="6" source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg">
+      <task><title>Part 1 - 1 point</title>
+<statement><p>Consider the function <m>\displaystyle{ f(x) = {2+5x} }</m>. Complete the table with the appropriate values for <m>f(x)</m>. Round to four decimal places.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+</row>
+<row>
+<cell>1.9</cell>
+<cell><fillin characters="12" name="AnSwEr0001"/></cell>
+<cell>2.1</cell>
+<cell><fillin characters="12" name="AnSwEr0002"/></cell>
+</row>
+<row>
+<cell>1.99</cell>
+<cell><fillin characters="12" name="AnSwEr0003"/></cell>
+<cell>2.01</cell>
+<cell><fillin characters="12" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell>1.999</cell>
+<cell><fillin characters="12" name="AnSwEr0005"/></cell>
+<cell>2.001</cell>
+<cell><fillin characters="12" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+</statement><answer><p><m>11.5</m></p></answer><answer><p><m>12.5</m></p></answer><answer><p><m>11.95</m></p></answer><answer><p><m>12.05</m></p></answer><answer><p><m>11.995</m></p></answer><answer><p><m>12.005</m></p></answer></task>
+      <task><title>Part 2 - 1 point</title>
+<statement><p>The results from the table indicate the two-sided limit of <m>\displaystyle{ \lim_{x \to 2} {2+5x}}</m> is <fillin characters="10" name="AnSwEr0007"/>  (if the two-sided limit does not exist, type in DNE).</p>
+</statement><hint><p>Recall, the two sided limit exists if and only if both one sided limits exist and are equal. In other words,</p>
+<p><m>\displaystyle{\lim_{x\rightarrow a} f(x)}</m> exists and is equal to <m>L</m> if and only if <m>\displaystyle{\lim_{x\rightarrow a^+} f(x)=\lim_{x\rightarrow a^-} f(x) = L}</m></p>
+</hint><answer><p><m>12</m></p></answer></task>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-7" ww-id="webwork-7">
+    <static seed="7" source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg">
+      <task><title>Part 1 - 1 point</title>
+<statement><p>Consider the function <m>\displaystyle{ f(x) = {\frac{x^{2}-9}{x^{2}+3x-18}} }</m>  .  Complete the table with the appropriate values for <m>f(x)</m>. Round to five decimal places where needed.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+</row>
+<row>
+<cell>2.9</cell>
+<cell><fillin characters="12" name="AnSwEr0001"/></cell>
+<cell>3.1</cell>
+<cell><fillin characters="12" name="AnSwEr0002"/></cell>
+</row>
+<row>
+<cell>2.99</cell>
+<cell><fillin characters="12" name="AnSwEr0003"/></cell>
+<cell>3.01</cell>
+<cell><fillin characters="12" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell>2.999</cell>
+<cell><fillin characters="12" name="AnSwEr0005"/></cell>
+<cell>3.001</cell>
+<cell><fillin characters="12" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+</statement><hint><p>Plug each <m>x</m> value into the function <m>\displaystyle{ f(x) = {\frac{x^{2}-9}{x^{2}+3x-18}} }</m>. It might be easier to factor and simplify first but it is not necessary.</p>
+</hint><answer><p><m>0.662921</m></p></answer><answer><p><m>0.67033</m></p></answer><answer><p><m>0.666296</m></p></answer><answer><p><m>0.667037</m></p></answer><answer><p><m>0.66663</m></p></answer><answer><p><m>0.666704</m></p></answer></task>
+      <task><title>Part 2 - 1 point</title>
+<statement><p>Your results from the table indicate the two-sided limit of <m>\displaystyle{ \lim_{x \to 3} \left({\frac{x^{2}-9}{x^{2}+3x-18}}\right)}</m> is <fillin characters="10" name="AnSwEr0007"/>  (if the two-sided limit does not exist, type in DNE).</p>
+</statement><hint><p>Recall, the two sided limit exists if and only if both one sided limits exist and are equal. In other words,</p>
+<p><m>\displaystyle{\lim_{x\rightarrow a} f(x)}</m> exists and is equal to <m>L</m> if and only if <m>\displaystyle{\lim_{x\rightarrow a^+} f(x)=\lim_{x\rightarrow a^-} f(x) = L}</m></p>
+</hint><answer><p><m>0.666667</m></p></answer></task>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-8" ww-id="webwork-8">
+    <static seed="8" source="Library/ASU-topics/setLimitConcepts/3-2-25.pg">
+      <statement><p>Evaluate the limit
+<me>\lim_{ x \rightarrow 6 } \frac{4 x}{3 + x^5}</me>
+If the limit does not exist enter DNE.</p>
+<p>Limit = <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.00308523</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setLimitConcepts/3-2-25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setLimitConcepts/3-2-25.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-9" ww-id="webwork-9">
+    <static seed="9" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg">
+      <task><title>Part 1: Evaluate the limit</title>
+<statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 5} {\frac{x^{2}+4x-45}{x-5}} = \lim_{x\to 5} }</m> <fillin characters="7" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 5}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement><answer><p><m>x+9</m></p></answer><answer><p><m>14</m></p></answer></task>
+      <task><title>Part 2: Follow-up question</title>
+<statement><p>Select the true statement</p>
+<p><var form="buttons">
+<li>
+<p><m>\displaystyle \frac{x^{2}+4x-45}{x-5} = x+9</m> for all <m>x</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle \frac{x^{2}+4x-45}{x-5} = x+9</m> for all <m>x \not= 5</m>.</p>
+</li>
+</var></p>
+</statement></task>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-10" ww-id="webwork-10">
+    <static seed="10" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg">
+      <task><title>Part 1: Evaluate the limit</title>
+<statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to -3} {\frac{x^{2}-9}{x+3}} = \lim_{x\to -3} }</m> <fillin characters="7" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to -3}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement><answer><p><m>x-3</m></p></answer><answer><p><m>-6</m></p></answer></task>
+      <task><title>Part 2: Follow-up question</title>
+<statement><p>Select the true statement</p>
+<p><var form="buttons">
+<li>
+<p><m>\displaystyle \frac{x^{2}-9}{x+3} = x-3</m> for all <m>x</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle \frac{x^{2}-9}{x+3} = x-3</m> for all <m>x \not= -3</m>.</p>
+</li>
+</var></p>
+</statement></task>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-11" ww-id="webwork-11">
+    <static seed="11" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg">
+      <task><title>Part 1: Evaluate the limit</title>
+<statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 4} {\frac{x^{2}-16}{x-4}} = \lim_{x\to 4} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 4}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement><answer><p><m>x+4</m></p></answer><answer><p><m>8</m></p></answer></task>
+      <task><title>Part 2: Follow-up question</title>
+<statement><p><m>\displaystyle{ \lim_{x\to 4} \frac{ x - 4 }{ \sqrt{x} - \sqrt{4} } = \lim_{x\to 4} }</m> <fillin characters="17" name="AnSwEr0003"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0004"/>.</p>
+<p>Hint: Think of <m>x-4</m> as a difference of squares and factor it, or use the <lq/>conjugate trick<rq/>.</p>
+</statement><answer><p><m>\sqrt{x}+2</m></p></answer><answer><p><m>4</m></p></answer></task>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-12" ww-id="webwork-12">
+    <static seed="12" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg">
+      <statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 5} \left( {\frac{1}{x-5}-\frac{10}{x^{2}-25}} \right) = \lim_{x\to 5} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 5}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{x+5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.1</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-13" ww-id="webwork-13">
+    <static seed="13" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg">
+      <statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 6} \left( {\frac{\frac{1}{x}-\frac{1}{6}}{x-6}} \right) = \lim_{x\to 6} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 6}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1}{6x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-0.0277778</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-14" ww-id="webwork-14">
+    <static seed="14" source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg">
+      <statement><p>Evaluate the limit, if it exists. If not, enter DNE.</p>
+<p><m>\displaystyle \lim_{x \to 7} \frac{\sqrt{x+18}-5}{x-7} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{10}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-15" ww-id="webwork-15">
+    <static seed="15" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg">
+      <statement><p>Evaluate the limit:</p>
+<p><m>\lim\limits_{h \to 0} \frac {\sqrt {h + 7} - 7} {h}  =</m>  <fillin characters="6" name="AnSwEr0001"/></p>
+<p>If the limit doesn't exist enter <m>F</m></p>
+</statement>
+      <answer>
+        <p>F</p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+<m>\lim\limits_{h \to 0} \frac {\sqrt {h + 7} - 7} {h}</m> doesn't exist, because the numerator approaches a non-zero value (specifically, <m>\sqrt{7}-7</m>), while the denominator approaches 0.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-16" ww-id="webwork-16">
+    <static seed="16" source="Contrib/METU-NCC/MAT101/Final/Tangent.pg">
+      <statement><p>In the parts below, <m>f{\small(x)}</m> and <m>f'{\small(x)}</m> have values given in the table below</p>
+<tabular valign="top">
+<col halign="center" right="minor"/>
+<col halign="center"/>
+<col halign="center"/>
+<row bottom="minor" header="yes">
+<cell><m>x</m></cell>
+<cell><m>f{\small(x)}</m></cell>
+<cell><m>f'{\small(x)}</m></cell>
+</row>
+<row>
+<cell><m>1</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>2</m></cell>
+<cell><m>4</m></cell>
+<cell><m>3</m></cell>
+</row>
+<row>
+<cell><m>3</m></cell>
+<cell><m>2</m></cell>
+<cell><m>1</m></cell>
+</row>
+<row>
+<cell><m>4</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+</row>
+</tabular>
+<p>Give formulas for the following tangent lines at <m>x=1</m>.</p>
+<p><alert> (A) </alert> The tangent line to <m>y=f{\small(x)}</m> at <m>x=1</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0001"/></p>
+<p><alert> (B) </alert> The tangent line to <m>y=f{\small(x)} + x</m> at <m>x=1</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0002"/></p>
+<p><alert> (C) </alert> The tangent line to <m>y= x  f{\small(x)}</m> at <m>x=1</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0003"/></p>
+<p><alert> (D) </alert> The tangent line to <m>y= f{\small(x+1)}</m> at <m>x=1</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4\mathopen{}\left(x-1\right)+3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5\mathopen{}\left(x-1\right)+4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7\mathopen{}\left(x-1\right)+3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3\mathopen{}\left(x-1\right)+4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Final/Tangent.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/METU-NCC/MAT101/Final/Tangent.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-17" ww-id="webwork-17">
+    <static seed="17" source="Library/Wiley/setAnton_Section_2.2/Question7.pg">
+      <statement><p>Given that <m>\small{f(8) = -5}</m> and <m>\small{f'(8) = 7}</m>, find an equation for the
+tangent line to the graph of <m>\small{y = f(x)}</m> at <m>\small{x = 8}</m>.</p>
+<p><m>\small{y =}</m> <fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7x+\left(-61\right)</m>
+        </p>
+      </answer>
+      <solution><m>\small{f'(8) = 7}</m>, the slope of the tangent line at <m>\small{x = 8}</m> is <m>\small{7}</m>.
+Since <m>\small{f(8) = -5}</m>, the tangent line contains the point <m>\small{(8,-5)}</m>.
+
+
+
+Therefore, the equation of the tangent line to <m>\small{f(x)}</m> at <m>\small{x = 8}</m> is <m>\small{y  + 5 = 7(x - 8)}</m>,
+or <m>\small{y = 7 x  - 61}</m>.
+ 
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_2.2/Question7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Wiley/setAnton_Section_2.2/Question7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-18" ww-id="webwork-18">
+    <static seed="18" source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg">
+      <statement><p>Suppose <m>f(x)</m> is a function with <m>f(3) = 2</m> and 
+<m>f'(3) = -2</m>.</p>
+<p><alert> A.</alert> <m>\quad</m> Give the equation of the 
+tangent line to <m>y=f(x)</m> at <m>x=3</m></p>
+<p><m>\quad y =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> B.</alert> <m>\quad</m> Estimate the following values.</p>
+<p><m>\quad \displaystyle f\left({\frac{7}{2}}\right) \approx</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p><m>\quad \displaystyle f\left({\frac{3}{2}}\right) \approx</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2+\left(-2\right)\mathopen{}\left(x-3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-19" ww-id="webwork-19">
+    <static seed="19" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg">
+      <statement><p>Given that <m>f(-8) = 6</m> and <m>f'(-8) = 6</m>, approximate
+<m>f(-8.2)</m>.</p>
+<p><m>f(-8.2) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4.8</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Using the formula, <m>f(c + h) \approx f(c) + f'(c)\cdot h</m>,
+<me>f(-8.2) = f(-8  - 0.2) \approx f(-8) + f'(-8)\cdot (-0.2)
+  = 6 + 6 \cdot (-0.2) = 4.8.</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-20" ww-id="webwork-20">
+    <static seed="20" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg">
+      <statement><p>Given that <m>P(88) = 29</m> and <m>P'(88) = 3</m>, approximate
+<m>P(94)</m>.</p>
+<p><m>P(94) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>47</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Using the formula, <m>f(c + h) \approx f(c) + f'(c)\cdot h</m>, with 
+the function <m>P</m>,
+<me>P(94) = P(88 + 6) \approx P(88) + P'(88)\cdot (6)
+  = 29 + 3 \cdot (6) = 47.</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-21" ww-id="webwork-21">
+    <static seed="21">
+      <statement><p>It turns out that the function <m>f(x) = {\frac{1}{x}}</m> has derivative <m>f'(x) = {\frac{-1}{x^{2}}}</m>.</p>
+<p>Find the linear approximation <m>L(x)</m> to <m>y={\frac{1}{x}}</m> at <m>x=-4</m>.</p>
+<p><m>L(x)=</m><fillin characters="31" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.0625\mathopen{}\left(x-\left(-4\right)\right)+\left(-0.25\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/1_8_6.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## College Algebra, use substitution to reduce an equation to a quadratic form
+## ENDDESCRIPTION
+
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Applications of differentiation)
+## DBsection(Linear approximation and differentials)
+## Date(05/11/2018)
+## Institution(Colorado Community College System)
+## Author(Eric Fleming)
+## MO(1)
+## KEYWORDS('Linear approximation','reciprocal')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"AnswerFormatHelp.pl",
+"PGML.pl",
+"PGcourse.pl",
+"parserAssignment.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+###########################
+#  Setup
+
+Context("Numeric");
+Context()->variables->add(y => 'Real');
+parser::Assignment->Allow;
+parser::Assignment->Function("f");
+
+$a=non_zero_random(-10,10,1);
+$b=non_zero_random(-10,10,1);
+$c=non_zero_random(-10,10,1);
+$d=random(2,10,1);
+
+$f=Formula("1/x");
+$feval=$f->eval(x=>$a);
+$fprime=Formula("-1/x^2");
+$m=$fprime->eval(x=>$a);
+
+
+$ans=Formula("$m (x-$a) +$feval");
+
+###########################
+#  Main text
+
+BEGIN_PGML
+It turns out that the function [`f(x) = [$f]`] has derivative [`f'(x) = [$fprime]`].
+
+Find the linear approximation [`L(x)`] to [`y=[$f]`] at [`x=[$a]`].
+
+[`L(x)=`][_______________________________]{$ans}
+
+
+
+END_PGML
+
+
+############################
+#  Solution
+
+#BEGIN_PGML_SOLUTION
+#Solution explanation goes here.
+#END_PGML_SOLUTION
+
+COMMENT('MathObject version. Uses PGML.');
+
+ENDDOCUMENT();
+    ]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-22" ww-id="webwork-22">
+    <static seed="22">
+      <statement><p>The function <m>f(x) = x^{4}+3x^{2}+2</m> has derivative <m>f'(x) = 4x^{3}+6x</m>.</p>
+<p>Find the local linearization <m>L(x)</m> of <m>f</m> at <m>x=2.</m></p>
+<p><m>L(x) =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>44\mathopen{}\left(x-2\right)+30</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/1_8_7.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+#DESCRIPTION
+##  Calculus: Linear approximation
+##ENDDESCRIPTION
+
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Applications of differentiation)
+## DBsection(Linear approximation and differentials)
+## Date(11/17/2010)
+## Institution(University of Minnesota)
+## Author(Justin Sukiennik)
+## Level(3)
+## MO(1)
+## TitleText1('Calculus: Concepts and Contexts')
+## AuthorText1('Stewart')
+## EditionText1('4 Custom UMTYMP Ed.')
+## Section1('3.9')
+## Problem1('5')
+## KEYWORDS('calculus', 'derivative', 'linear approximations')
+
+#####################################################################
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "MathObjects.pl",
+  "PGgraphmacros.pl",
+  "PGcourse.pl"
+);
+#####################################################################
+
+TEXT(beginproblem());
+
+$showPartialCorrectAnswers = 1;
+
+#####################################################################
+
+Context("Numeric");
+
+$a = non_zero_random(-2,2,1);
+$b = non_zero_random(-3,3,1);
+$c = non_zero_random(-2,5,1);
+
+$f = Formula("x^4-$b*x^2+$c")->reduce;
+$df = Formula("4x^3-2*$b*x")->reduce;
+$m = Compute("4*$a^3-2*$b*$a");
+$b = Compute("($a)^4-$b*($a)^2+$c");
+
+$ans = Formula("$m*(x-$a)+$b");
+
+#####################################################################
+Context()->texStrings;
+BEGIN_TEXT
+The function \(f(x) = $f\) has derivative \(f'(x) = $df\).
+
+Find the local linearization \(L(x)\) of \(f\) at \(x=$a.\)
+$PAR
+\( L(x) = \) \{ans_rule(40)\}
+END_TEXT
+Context()->normalStrings;
+
+#####################################################################
+
+ANS($ans->cmp());
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+    ]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-23" ww-id="webwork-23">
+    <static seed="23" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg">
+      <statement><p>A line<rsq/>s equation is given in point-slope form:</p>
+<p><m>{y-4}={4\mathopen{}\left(x-2\right)}</m></p>
+<p>This line<rsq/>s slope is <fillin characters="5" name="AnSwEr0001"/>.</p>
+<p>A point on this line that is apparent from the given equation is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(2,4\right)</m>
+        </p>
+      </answer>
+      <solution><p>Compare the given equation with a generic point-slope equation:</p>
+<p><m>\begin{aligned}
+   y-y_{1} \amp = m(x-x_{1}) \\
+   {y-4} \amp = {4\mathopen{}\left(x-2\right)}
+\end{aligned}</m></p>
+<p>We can see the slope is <m>4</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(2,4\right)}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-24" ww-id="webwork-24">
+    <static seed="24" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg">
+      <statement><p>A line<rsq/>s equation is given in point-slope form:</p>
+<p><m>{y}={4\mathopen{}\left(x-4\right)+19}</m></p>
+<p>This line<rsq/>s slope is <fillin characters="5" name="AnSwEr0001"/>.</p>
+<p>A point on this line that is apparent from the given equation is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(4,19\right)</m>
+        </p>
+      </answer>
+      <solution><p>Compare the given equation with a generic point-slope equation:</p>
+<p><m>\begin{aligned}
+   y \amp = m(x-x_{1})+y_{1} \\
+   {y} \amp = {4\mathopen{}\left(x-4\right)+19}
+\end{aligned}</m></p>
+<p>We can see the slope is <m>4</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(4,19\right)}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
+    <static seed="25" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg">
+      <statement><p>A line<rsq/>s equation is given in point-slope form:</p>
+<p><m>{y}={-5\mathopen{}\left(x+4\right)+17}</m></p>
+<p>This line<rsq/>s slope is <fillin characters="5" name="AnSwEr0001"/>.</p>
+<p>A point on this line that is apparent from the given equation is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(-4,17\right)</m>
+        </p>
+      </answer>
+      <solution><p>Compare the given equation with a generic point-slope equation:</p>
+<p><m>\begin{aligned}
+   y \amp = m(x-x_{1})+y_1 \\
+   {y} \amp = {-5\mathopen{}\left(x+4\right)+17}
+\end{aligned}</m></p>
+<p>We can see the slope is <m>-5</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(-4,17\right)}</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-26" ww-id="webwork-26">
+    <static seed="26" source="Contrib/METU-NCC/MAT101/Midterm/line.pg">
+      <statement><p>Give the equations for the following lines:</p>
+<p><alert> (A) </alert>
+Line through the point <m>(3,1)</m> with slope <m>-{\frac{5}{2}}</m>.</p>
+<p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> (B) </alert>
+Line satisfying <m>y(-4) = 3</m> and <m>y(2) = 4</m>.</p>
+<p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1-\left({\frac{5}{2}}\right)\mathopen{}\left(x-3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3+\left({\frac{1}{6}}\right)\mathopen{}\left(x+4\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Midterm/line.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/METU-NCC/MAT101/Midterm/line.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-27" ww-id="webwork-27">
+    <static seed="27" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg">
+      <statement><p>Find an equation of the line passing through the points <m>(-8,3)</m> with the slope <m>m = {{\frac{5}{7}}}</m></p>
+<p><fillin characters="32" name="AnSwEr0001"/></p>
+<p><ul label="disc">
+<li>
+<p>Do not use decimal approximations in your answer.</p>
+</li>
+</ul></p>
+</statement>
+      <hint><p><em>Hint:</em> Use the point-slope form of a line. <m>y = m (x-x_A) + y_A</m></p>
+</hint>
+      <answer>
+        <p>
+          <m>y = \frac{5}{7}\mathopen{}\left(x+8\right)+3</m>
+        </p>
+      </answer>
+      <solution><p><alert>Use the point-slope form of a line:</alert></p>
+<p><m>y = m (x - x_A) + y_A</m></p>
+<p><m>y = {{\frac{5}{7}}\mathopen{}\left(x+8\right)+3}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-28" ww-id="webwork-28">
+    <static seed="28" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg">
+      <statement><p>Find an equation for the line graphed below:</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-28-image-1.png" width="66%"/>
+<p><fillin characters="32" name="AnSwEr0001"/></p>
+<p><ul label="disc">
+<li>
+<p>Do not use decimal approximations in your answer.</p>
+</li>
+</ul></p>
+</statement>
+      <hint><p>Start by identifying a couple of <lq/>nice<rq/> points on the grid that the line passes through.</p>
+<p>Once have two points for your line to pass through, you can determine the slope.</p>
+<p>Use the point-slope form of a line. <m>y = m (x-x_A) + y_A</m></p>
+</hint>
+      <answer>
+        <p>
+          <m>y = \frac{-4}{5}\mathopen{}\left(x-3\right)+3</m>
+        </p>
+      </answer>
+      <solution><p>The graphed line passes through the points: <m>A = (-2,7)</m>, <m>B = (3,3)</m>, <m>C = (8,-1)</m></p>
+<p><alert>Select any pair of points on the line to compute the slope:</alert></p>
+<p><m>m = \frac{\Delta y}{\Delta x} = \frac{3-7}{3 + 2} = {-{\frac{4}{5}}}</m></p>
+<p><alert>Use the point-slope form of a line:</alert></p>
+<p><m>y = m (x - x_A) + y_A</m></p>
+<p><m>y = {-{\frac{4}{5}}\mathopen{}\left(x-3\right)+3}</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-29" ww-id="webwork-29">
+    <static seed="29" source="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-29-image-1.png" width="41%"/>
+<p>Find the formula for <m>f</m>.</p>
+<p><m>f(x)=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-30" ww-id="webwork-30">
+    <static seed="30" source="Library/NAU/setFunctionBasicGraphs/Linear.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-30-image-1.png" width="41%"/>
+<p>Find the formula for <m>f</m>.</p>
+<p><m>f(x)=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2-x</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/NAU/setFunctionBasicGraphs/Linear.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/NAU/setFunctionBasicGraphs/Linear.pg"/>
+  </webwork-reps>
+</webwork-representations>

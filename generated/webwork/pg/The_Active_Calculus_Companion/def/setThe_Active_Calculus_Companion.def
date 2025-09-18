@@ -1,0 +1,67 @@
+openDate          = 09/18/2025 at 12:00am
+dueDate           = 03/18/2026 at 10:00pm
+answerDate        = 03/18/2026 at 10:00pm
+paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
+screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
+description       = The Active Calculus Companion
+problemListV2
+problem_start
+source_file = The_Active_Calculus_Companion/1_2_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_2_2_6.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLimitConcepts/3-2-25.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg
+problem_id = 15
+problem_end
