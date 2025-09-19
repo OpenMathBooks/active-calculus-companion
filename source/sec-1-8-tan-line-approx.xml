@@ -90,7 +90,8 @@
   <exercise label="tangentline-given-derivative-val-3">
     <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" />
   </exercise>
-  <exercise labe="tangentline-given-derivative-val-4">
+
+  <exercise label="tangentline-given-derivative-val-4">
     <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg" />
   </exercise>
 
