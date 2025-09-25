@@ -1,6 +1,6 @@
-openDate          = 09/18/2025 at 12:00am
-dueDate           = 03/18/2026 at 10:00pm
-answerDate        = 03/18/2026 at 10:00pm
+openDate          = 09/25/2025 at 12:00am
+dueDate           = 03/25/2026 at 10:00pm
+answerDate        = 03/25/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 description       = The Active Calculus Companion
@@ -64,4 +64,196 @@ problem_end
 problem_start
 source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg
 problem_id = 15
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Final/Tangent.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_2.2/Question7.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_8_6.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_8_7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Midterm/line.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/NAU/setFunctionBasicGraphs/Linear.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec1/Q09.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec1/Q11.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_1_18.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q01.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q03.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q05.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/Exponents/negExp36.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg
+problem_id = 27
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_32.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg
+problem_id = 6
 problem_end

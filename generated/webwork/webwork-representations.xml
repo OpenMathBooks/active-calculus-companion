@@ -1151,4 +1151,667 @@ Line satisfying <m>y(-4) = 3</m> and <m>y(2) = 4</m>.</p>
     <rendering-data sourceFilePath="Library/NAU/setFunctionBasicGraphs/Linear.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/NAU/setFunctionBasicGraphs/Linear.pg"/>
   </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-31" ww-id="webwork-31">
+    <static seed="31" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg">
+      <statement><p>Let <m>f(x) = 10</m>.
+Find <m>f'(x)</m>.</p>
+<p><m>f'(x)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-32" ww-id="webwork-32">
+    <static seed="32" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg">
+      <statement><p>Suppose that <m>f(x) =  8x^{2}-7x+2</m>.
+Evaluate each of the following:</p>
+<p><m>f'(5)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p><m>f'(-7)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>73</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-119</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-33" ww-id="webwork-33">
+    <static seed="33" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg">
+      <statement><p>Differentiate the following function:
+<me>\displaystyle f(x)= x^2+7 x + 53</me></p>
+<p><m>f'(x)=</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2x+7</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-34" ww-id="webwork-34">
+    <static seed="34" source="Library/Michigan/Chap3Sec1/Q09.pg">
+      <statement><p>Find the derivative of 
+<m>y=x^{15/16}</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{15}{16}x^{\frac{15}{16}-1}</m>
+        </p>
+      </answer>
+      <solution><me>{dy\over dx} = \frac{15}{16}\cdot x^{(15/16) - 1} = 
+  \frac{15}{16}\cdot x^{-1/16}</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec1/Q09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec1/Q09.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-35" ww-id="webwork-35">
+    <static seed="35" source="Library/Michigan/Chap3Sec1/Q11.pg">
+      <statement><p>Find the derivative of 
+<m>\displaystyle{f(x)=\frac{1}{x^{17}} }</m>.</p>
+<p><m>f'(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1\cdot 17x^{-1\cdot \left(17+1\right)}</m>
+        </p>
+      </answer>
+      <solution><m>f(x) = \frac{1}{x^{17}} = x^{-17}</m>, so
+
+<me>f'(x) = -17 x^{-17 - 1} = -17 x^{-18}.</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec1/Q11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec1/Q11.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-36" ww-id="webwork-36">
+    <static seed="36" source="Library/UMN/calculusStewartCCC/s_3_1_18.pg">
+      <statement><p>Differentiate <m>\displaystyle f(x) = \frac{x^{3}-5 x+4}{x^{3}}.</m></p>
+<p>Answer: <m>\displaystyle \frac{d f}{d x} =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(3-1\right)\cdot 5x^{-3}-4\cdot 3x^{-3-1}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_1_18.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_3_1_18.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-37" ww-id="webwork-37">
+    <static seed="37" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg">
+      <statement><p>Differentiate the following function:
+<me>\displaystyle f(t) = \sqrt[2]{t}-\frac{1}{\sqrt[2]{t}}</me></p>
+<p><m>f'(t)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.5\mathopen{}\left(t^{-0.5}+t^{-1.5}\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-38" ww-id="webwork-38">
+    <static seed="38" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg">
+      <statement><p>Differentiate the following function:
+<me>\displaystyle g(x) = x^{3} + \frac{1}{x^{3}}</me></p>
+<p><m>g'(x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3x^{2}-3x^{-4}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-39" ww-id="webwork-39">
+    <static seed="39" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg">
+      <statement><p>Differentiate the following function:
+<me>\displaystyle u = \sqrt[3]{t^2} + 3 \sqrt{t^3}</me></p>
+<p><m>u'=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.666667t^{-0.333333}+4.5t^{0.5}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-40" ww-id="webwork-40">
+    <static seed="40" source="Library/Michigan/Chap3Sec2/Q01.pg">
+      <statement><p>Find the derivative of
+<m>f(x)=8 e^x+x^{3}</m>.</p>
+<p><m>f'(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8e^{x}+3x^{3-1}</m>
+        </p>
+      </answer>
+      <solution><me>f'(x) = 8 e^x + 3 x^{2}</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec2/Q01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec2/Q01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-41" ww-id="webwork-41">
+    <static seed="41" source="Library/Michigan/Chap3Sec2/Q03.pg">
+      <statement><p>Find the derivative of
+<m>y = 9^x + 22</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\ln\mathopen{}\left(9\right)\cdot 9^{x}</m>
+        </p>
+      </answer>
+      <solution><me>{dy\over dx} = \ln(9) 9^x</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec2/Q03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec2/Q03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-42" ww-id="webwork-42">
+    <static seed="42" source="Library/Michigan/Chap3Sec2/Q05.pg">
+      <statement><p>Find the derivative of 
+<m>y = 11 x^6 + 4^x + 14</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>11\cdot 6x^{6-1}+\ln\mathopen{}\left(4\right)\cdot 4^{x}</m>
+        </p>
+      </answer>
+      <solution><me>{dy\over dx} = 66 x^{5} + \ln(4)\cdot 4^x</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec2/Q05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec2/Q05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-43" ww-id="webwork-43">
+    <static seed="43" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg">
+      <statement><p>Differentiate the  function 
+<m>\displaystyle G(x) = \sqrt{x}+3 e^x</m></p>
+<p><m>G'(x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.5x^{-0.5}+3e^{x}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-44" ww-id="webwork-44">
+    <static seed="44" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg">
+      <statement><p>Suppose that
+<m>\displaystyle{f(x) = \frac{12 x + 18}{x}}</m>.
+Evaluate each of the following:</p>
+<p><m>f'(-5)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>f'(5)</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-18}{\left(-5\right)^{2}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{-18}{5^{2}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-45" ww-id="webwork-45">
+    <static seed="45" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg">
+      <statement><p>Find the equation of the tangent line to the curve <m>y=x^4+6 e^x</m> at the point <m>(0,6)</m>.</p>
+<p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\mathopen{}\left(x+1\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-46" ww-id="webwork-46">
+    <static seed="46" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg">
+      <statement><p>Let <m>f</m> and <m>g</m> be functions that satisfy
+<m>f'(2) = -10</m> and <m>g'(2) = -7</m>.  Find <m>h'(2)</m>
+for each function <m>h</m> given below:</p>
+<p>(A) <m>h(x) = 12 f(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(B) <m>h(x) = -9 g(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(C) <m>h(x) = 4 f(x) + 11 g(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0003"/></p>
+<p>(D) <m>h(x) = 6 g(x) - 3 f(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0004"/></p>
+<p>(E) <m>h(x) = 12 f(x) + 3 g(x)  -    8</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0005"/></p>
+<p>(F) <m>h(x) = -5 g(x) - 5 f(x)  -    6 x</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0006"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-120</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>63</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-117</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-141</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>79</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-47" ww-id="webwork-47">
+    <static seed="47" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg">
+      <statement><p>Find the equation of the tangent line to the curve <m>y=(1+2x)^2</m> at the point <m>(1,9)</m>.</p>
+<p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>12\mathopen{}\left(x-1\right)+9</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-48" ww-id="webwork-48">
+    <static seed="48" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg">
+      <statement><p>Find the equation of the tangent line to the curve <m>y=x \sqrt{x}</m> at the point <m>(4,8)</m>.</p>
+<p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{3}{2}\cdot 4^{\frac{1}{2}}\mathopen{}\left(x-4\right)+8</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-49" ww-id="webwork-49">
+    <static seed="49" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg">
+      <statement><p>Evaluate: <m>x^{4} \cdot x^{3} = x^{n}</m> for <m>n =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>Note: Your answer should be completely simplified.
+Unsimplified answers will not be accepted.</p>
+</statement>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-50" ww-id="webwork-50">
+    <static seed="50" source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg">
+      <statement><p>Simplify the following expression, and write your answer using only <em>positive</em> exponents.</p>
+<p><m>\displaystyle\frac{-7r^{23}}{13r^{37}}=</m><fillin characters="12" name="AnSwEr0001"/></p>
+<p>Note that you may have to be careful with grouping parenthesis in this problem; 1/2r
+is not the same as 1/(2r).</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-7}{13r^{14}}</m>
+        </p>
+      </answer>
+      <solution><p>We use the properties of exponents to help us here, remembering that <m>\displaystyle{\frac{a^m}{a^n} = a^{m-n}}</m></p>
+<p><m>\displaystyle{           \begin{aligned}
+                 \displaystyle\frac{-7r^{23}}{13r^{37}} \amp = \frac{-7}{13}r^{23-37}\\
+                                                       \amp  =\frac{-7}{13}r^{-14}\\
+                                    \amp  = -\frac{7}{13 r^{14}}
+           \end{aligned}
+    }</m></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-51" ww-id="webwork-51">
+    <static seed="51" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg">
+      <statement><p>Rewrite the following using a single exponent.</p>
+<p><m>\displaystyle \frac{7^a 5^a}{35^b} = 35^x</m> for <m>x</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>a-b</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-52" ww-id="webwork-52">
+    <static seed="52" source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg">
+      <statement><p>Simplify the expression:</p>
+<p><m>(5 x^{2} )(-5 x^{-7})</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-\frac{25}{x^{5}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-53" ww-id="webwork-53">
+    <static seed="53" source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg">
+      <statement><p>Combine radicals, if possible.  Simplify your 
+answer as much as possible.</p>
+<p><m>\sqrt[3]{7 x} + 9 \sqrt[3]{7 x} - 4 \sqrt[3]{7 x}</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\mathopen{}\left(7x\right)^{\frac{1}{3}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-54" ww-id="webwork-54">
+    <static seed="54" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
+      <statement><p>Simplify each expression as much as possible
+and leave it without radicals.</p>
+<p>(a) <m>\sqrt{ w^{8} x^{4} } =</m>
+<fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>\sqrt[3]{ 27 w^{6} } =</m>
+<fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) <m>\sqrt{25 x^{6} y^{2} } =</m>
+<fillin characters="10" name="AnSwEr0003"/></p>
+<p>(d) <m>\sqrt{ 18 w^{5} y^{6} } \sqrt{ 2 y^{2} w^{7} } =</m>
+<fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>w^{4}x^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3w^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5x^{3}y^{1}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6w^{6}y^{4}</m>
+        </p>
+      </answer>
+      <solution><alert> SOLUTION </alert>
+
+
+
+(a) <m>\sqrt{ w^{8} x^{4} } = (w^{8} x^{4})^{1/2} =
+       w^{8/2} x^{4/2} = w^{4}x^{2}</m>.
+
+
+
+(b) <m>\sqrt[3]{ 27 w^{6} } = (27 w^{6})^{1/3} = 27^{1/3} w^{6/3} =
+       3w^{2}</m>.
+
+
+
+(c) <m>\sqrt{25 x^{6} y^{2} } = (25 x^{6} y^{2})^{1/2} =
+       5x^{3}y^{1}</m>.
+
+
+
+(d) <m>\sqrt{ 18 w^{5} y^{6} } \sqrt{ 2 y^{2} w^{7} } =
+       \sqrt{ (18 w^{5} y^{6})\cdot (2 y^{2} w^{7}) } =
+       ( 36 w^{12} y^{8} )^{1/2} =
+       6w^{6}y^{4}</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-55" ww-id="webwork-55">
+    <static seed="55" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
+      <statement><p>Simplify and write the following as a single rational exponent of <m>p</m>. If</p>
+<p><me>\displaystyle \frac{p^{4/7}}{p^{4/3}} = p^m</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{16}{21}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-56" ww-id="webwork-56">
+    <static seed="56" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg">
+      <statement><p>Simplify. If</p>
+<p><me>\displaystyle \left(16 y^{2}\right)^{3/2} = A y^m</me></p>
+<p>then</p>
+<p><m>A =</m> <fillin characters="10" name="AnSwEr0001"/> and <m>m =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4^{3}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-57" ww-id="webwork-57">
+    <static seed="57" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg">
+      <statement><p>Simplify and write the following in exponential notation. If</p>
+<p><me>\frac{ y^{ \frac{2}{3} } ~r^{ \frac{4}{9} }  }{ y^{ -\frac{4}{3} }    r^{ \frac{11}{36} } } = y^{m} \cdot r^n</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/>
+    and    
+<m>n =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\frac{5}{36}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-58" ww-id="webwork-58">
+    <static seed="58" source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg">
+      <statement><p>Let <me>f(x) = 6 \sin x + 12 \cos x</me></p>
+<p><m>f'(x) =</m>  <fillin characters="35" name="AnSwEr0001"/></p>
+<p><m>f'( - \frac {  \pi } {6} ) =</m> <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\cos\mathopen{}\left(x\right)-12\sin\mathopen{}\left(x\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6\cos\mathopen{}\left(-0.523599\right)-12\sin\mathopen{}\left(-0.523599\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-59" ww-id="webwork-59">
+    <static seed="59" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
+      <statement><p>Differentiate <m>\displaystyle f(x) = 6 x^2 - 6 \cos x.</m></p>
+<p>Answer: <m>\displaystyle f'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot 6x+6\sin\mathopen{}\left(x\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_3_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_3_3_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-60" ww-id="webwork-60">
+    <static seed="60" source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg">
+      <statement><p>Let <me>f(x) = 9 \sin x + 4 \cos x</me></p>
+<p><m>f'(x) =</m>  <fillin characters="35" name="AnSwEr0001"/></p>
+<p><m>f'(  \frac { 5 \pi } {6} ) =</m> <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9\cos\mathopen{}\left(x\right)-4\sin\mathopen{}\left(x\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9\cos\mathopen{}\left(2.61799\right)-4\sin\mathopen{}\left(2.61799\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-61" ww-id="webwork-61">
+    <static seed="61" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
+      <statement><p>Differentiate <m>\displaystyle f(x) = 8 x^2 - 9 \cos x.</m></p>
+<p>Answer: <m>\displaystyle f'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot 8x+9\sin\mathopen{}\left(x\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_3_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_3_3_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-62" ww-id="webwork-62">
+    <static seed="62" source="Library/Rochester/setDerivatives4Trig/s2_4_32.pg">
+      <statement><p>Find the equation of the tangent line to the curve
+ <m>y =   6 \sin x</m>
+at the point <m>( \pi/6 , 3)</m>.</p>
+<p>The equation of this tangent line can be written in the form <m>y = mx+b</m> where</p>
+<p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>and <m>b =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{6\sqrt{3}}{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3-5.19615\cdot 0.523599</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p>The derivative of <m>f(x) = 6 \sin x</m> is 
+<m>f'(x) = 6 \cos x</m>.</p>
+<p>So the slope of the tangent  line at <m>\left(\frac{ \pi}{6} , 3\right)</m> is 
+<me>m = f'\left(\frac{\pi}{6}\right) = 6 \cos\left(\frac{\pi}{6}\right) = 6 \frac{\sqrt{3}}{2} =  3 \sqrt{3}</me>
+Therefore the equation of the tangent line is
+<me>y - 3 = 3 \sqrt{3} \left( x -\frac{ \pi}{6}\right) \quad \text{or} \quad
+ y = \sqrt{3} x  + 3 - 3 \sqrt{3} \frac{\pi}{6}</me>
+Thus 
+<me>b = 3 - {\frac{1}{2}} \sqrt{3} \pi</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives4Trig/s2_4_32.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives4Trig/s2_4_32.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-63" ww-id="webwork-63">
+    <static seed="63" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg">
+      <statement><p>Find the equation of the tangent line to the curve <m>y=x - 10 \cos{x}</m> at the point <m>(0,-10)</m>.</p>
+<p><m>y =</m> <fillin characters="50" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>x+-10</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg"/>
+  </webwork-reps>
 </webwork-representations>
