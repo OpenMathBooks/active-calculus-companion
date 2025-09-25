@@ -3,7 +3,7 @@
 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-2-2-sin-cos">
   <title>The sine and cosine functions</title>
-  <objectives>
+  <!-- <objectives>
     <ul>
       <li>
         <p>
@@ -25,85 +25,10 @@
         </p>
       </li>
     </ul>
-  </objectives>
-
-  <subsection><title>Introduction</title>
-    <p>
-      Throughout <xref ref="C-2">Chapter</xref>,
-      we will develop shortcut derivative rules to help us bypass the limit definition and quickly compute <m>f'(x)</m> from a formula for <m>f(x)</m>.
-      In <xref ref="sec-2-1-elem-rules">Section</xref>,
-      we stated the rule for power functions,
-      <me>
-        \text{if}~ f(x) = x^n,~ \text{then}~ f'(x) = nx^{n-1}
-      </me>,
-      and the rule for exponential functions,
-      <me>
-        \text{if}~ a ~ \text{is a positive real number and}~ f(x) = a^x,~
-        \text{then}~ f'(x) = a^x \ln(a)
-      </me>.
-      Later in this section,
-      we will use a graphical argument to conjecture derivative formulas for the sine and cosine functions.  In <xref ref="PA-2-2">Preview Activity</xref> we use a graphical approach to understand why the rule for exponential functions is plausible.
-    </p>
-
-    <xi:include href="./previews/PA-2-2-WW.xml" />
-    <xi:include href="./previews/PA-2-2.xml" />
-  </subsection>
-  <xi:include href="./proteus/proteus-2-2.xml" />
-  <subsection>
-    <title>The sine and cosine functions</title>
-    <p>
-      The sine and cosine functions are among the most important functions in all of mathematics.
-      Sometimes called the <em>circular</em>
-      functions due to their definition on the unit circle,
-      these periodic functions play a key role in modeling repeating phenomena such as tidal elevations,
-      the behavior of an oscillating mass attached to a spring,
-      or the location of a point on a bicycle tire.
-      Like polynomial and exponential functions,
-      the sine and cosine functions are considered basic functions,
-      ones that are often used in building more complicated functions.
-      As such, we would like to know formulas for
-      <m>\frac{d}{dx} [\sin(x)]</m> and <m>\frac{d}{dx} [\cos(x)]</m>,
-      and the next two activities lead us to that end.
-    </p>
-
-    <xi:include href="./activities/act-2-2-1.xml"/>
-
-    <xi:include href="./activities/act-2-2-2.xml"/>
-
-    <p>
-      The results of the two preceding activities suggest that the sine and cosine functions not only have beautiful connections such as the identities <m>\sin^2(x) + \cos^2(x) = 1</m> and
-      <m>\cos(x - \frac{\pi}{2}) = \sin(x)</m>,
-      but that they are even further linked through calculus,
-      as the derivative of each involves the other.
-      We have now added the sine and cosine functions to our library of basic functions whose derivatives we know.
-      The constant multiple and sum rules still hold, of course,
-      as well as all of the inherent meaning of the derivative.
-    </p>
-    <p>
-      The following rules summarize the results of the activities<fn>
-      These two rules may be formally proved using the limit definition of the derivative and the expansion identities for
-      <m>\sin(x+h)</m> and <m>\cos(x+h)</m>.
-      </fn>.
-    </p>
-
-    <assemblage xml:id="sine-cosine-fxns">
-      <title>The derivatives of the sine and cosine functions</title>
-      <p>
-            <idx><h>derivative</h><h>cosine</h></idx>
-            <idx><h>derivative</h><h>sine</h></idx>
-        For all real numbers <m>x</m>,
-        <me>
-          \frac{d}{dx} [\sin(x)] = \cos(x) \ \ \text{and}  \ \ \frac{d}{dx} [\cos(x)] = -\sin(x)
-        </me>.
-      </p>
-    </assemblage>
+  </objectives> -->
 
 
-
-    <xi:include href="./activities/act-2-2-3.xml"/>
-  </subsection>
-
-  <subsection>
+  <!-- <subsection>
     <title>Summary</title>
     <p>
       <ul>
@@ -135,7 +60,39 @@
         </li>
       </ul>
     </p>
-  </subsection>
+  </subsection> -->
 
-  <xi:include href="./exercises/ez-2-2.xml"/>
+<subsection xml:id="ap-sin-cos">
+  <title>Additional Practice</title>
+  
+  <exercise label="derivatives-basic-trig-1">
+    <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" />
+  </exercise>
+
+  <exercise label="derivatives-basic-trig-2">
+    <webwork source="Library/UMN/calculusStewartCCC/s_3_3_1.pg" />
+  </exercise>
+
+  <exercise label="derivatives-basic-trig-3">
+    <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" />
+  </exercise>
+  <exercise label="derivatives-basic-trig-4">
+    <webwork source="Library/UMN/calculusStewartCCC/s_3_3_1.pg" />
+  </exercise>
+
+
+  <exercise label="derivatives-basic-trig-tangent-1">
+    <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_32.pg" />
+  </exercise>
+
+  <exercise label="derivatives-basic-trig-tangent-2">
+    <webwork source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg" />
+  </exercise>
+</subsection>
+
+<subsection xml:id="fe-sin-cos">
+  <title>Foundations</title>
+  
+  
+</subsection>
 </section>
