@@ -8,7 +8,8 @@
     <xi:include href="./frontmatter.xml" />
 
     <xi:include href="./chap-1.xml" />
-    <!-- <xi:include href="./chap-2.xml" />
+    <xi:include href="./chap-2.xml" />
+    <!-- 
     <xi:include href="./chap-3.xml" />
     <xi:include href="./chap-4.xml" /> -->
     <!-- <xi:include href="./chap-5.xml" /> -->
