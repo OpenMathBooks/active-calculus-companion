@@ -57,6 +57,6 @@
   <!-- PreTeXt doesn't like renaming to whitespace, so using U+3164 (Hangul Filler) -->
   <!-- here inside the rename element. -->
   <rename element="worksheet" xml:lang="en-US"> </rename>
-  <!-- <rename element="inlineexercise" xml:lang="en-US">Question</rename> -->
+  <rename element="inlineexercise" xml:lang="en-US">Exercise</rename>
 </docinfo>
 
