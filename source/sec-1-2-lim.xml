@@ -38,7 +38,79 @@
   <!-- do we put them into separate files for easier editing later? -->
   
 
-  <subsection><title>Additional Section Exercises</title>
+  <subsection><title>Foundational Exercises</title>
+    <p>
+      This section is about limits, the behavior of a function's output value as the input value is getting closer
+      and closer (but not equal to) a specified number.  A function can be described by a graph, a table of values,
+      or by an algebraic formula, so we work on interpreting limits of functions described in graphical, numerical, and algebraic ways.
+    </p>
+    <p>
+      It would be helpful to practice how we can interpret information about a function from a graph, or from a 
+      piecewise description of a function.  Calculating an algebraic limit can also require us to use algebraic simplification
+      techniques such as factoring, combining rational functions using a common denominator, and rationalizing a radical function
+      using the conjugate.  
+    </p>
+    <exercise label="functions-piecewise-1"><title>Values of a piecewise function</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg"/>
+    </exercise>
+    <exercise label="functions-piecewise-2"><title>Values of a piecewise function</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_51.pg"/>
+    </exercise>
+    <exercise label="functions-find-x-or-y-values-1"><title>Output and input values from a graph</title>
+      <webwork source="Contrib/RRCC/College_Algebra/MAT121/3.1/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_1_53.pg"/>
+    </exercise>
+    <exercise label="functions-find-x-or-y-values-2"><title>Values from a graph</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_14_function.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-1"><title>Factoring</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-2"><title>Factoring</title>
+      <webwork source="Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-3"><title>Factoring</title>
+      <webwork source="Library/PCC/BasicAlgebra/Factoring/factoring115.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-4"><title>Factoring</title>
+      <webwork source="Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-5"><title>Factoring</title>
+      <webwork source="Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-cancel-1"><title>Factoring numerator and denominator</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg"/>
+    </exercise>
+    <exercise label="polynomials-factor-cancel-2"><title>Factoring numerator and denominator</title>
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_09_MultDivRatExp.pg"/>
+    </exercise>
+    <exercise label="adding-rational-functions-1"><title>Adding rational functions</title>
+      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
+    </exercise>
+    <exercise label="adding-rational-functions-2"><title>Adding rational functions</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg"/>
+    </exercise>
+    <exercise label="adding-rational-functions-3"><title>Adding rational functions</title>
+      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
+    </exercise>
+    <exercise label="adding-rational-functions-4"><title>Adding rational functions</title>
+      <webwork source="Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg"/>
+    </exercise>
+    <exercise label="rationalizing-conjugates-1"><title>Radicals and conjugates</title>
+      <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg"/>
+    </exercise>
+    <exercise label="rationalizing-radical-functions-2"><title>Rationalizing radicals</title>
+      <webwork source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg"/>
+    </exercise> 
+    <exercise label="rationalizing-radical-functions-3"><title>Rationalizing radicals</title>
+      <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg"/>
+    </exercise>
+    <exercise label="rationalizing-radical-functions-4"><title>Rationalizing radicals</title>
+      <webwork source="Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rationalizing/Rationalize2.pg"/>
+    </exercise>
+  </subsection>
+
+
+  <exercises><title>Additional Practice Exercises</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
     <webwork source="Library/UMN/calculusStewartCCC/s_2_2_5.pg"/>
@@ -101,62 +173,6 @@
   
   <!-- </exercises> -->
     
-  </subsection>
+</exercises>
 
-  <subsection><title>Foundational Exercises</title>
-    <exercise label="functions-piecewise-1"><title>Values of a piecewise function</title>
-      <webwork source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg"/>
-    </exercise>
-    <exercise label="functions-piecewise-2"><title>Values of a piecewise function</title>
-      <webwork source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_51.pg"/>
-    </exercise>
-    <exercise label="functions-find-x-or-y-values-1"><title>Output and input values from a graph</title>
-      <webwork source="Contrib/RRCC/College_Algebra/MAT121/3.1/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_1_53.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-1"><title>Factoring</title>
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-2"><title>Factoring</title>
-      <webwork source="Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-3"><title>Factoring</title>
-      <webwork source="Library/PCC/BasicAlgebra/Factoring/factoring115.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-4"><title>Factoring</title>
-      <webwork source="Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-5"><title>Factoring</title>
-      <webwork source="Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-cancel-1"><title>Factoring numerator and denominator</title>
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg"/>
-    </exercise>
-    <exercise label="polynomials-factor-cancel-2"><title>Factoring numerator and denominator</title>
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_09_MultDivRatExp.pg"/>
-    </exercise>
-    <exercise label="adding-rational-functions-1"><title>Adding rational functions</title>
-      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg"/>
-    </exercise>
-    <exercise label="adding-rational-functions-2"><title>Adding rational functions</title>
-      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg"/>
-    </exercise>
-    <exercise label="adding-rational-functions-3"><title>Adding rational functions</title>
-      <webwork source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg"/>
-    </exercise>
-    <exercise label="adding-rational-functions-4"><title>Adding rational functions</title>
-      <webwork source="Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg"/>
-    </exercise>
-    <exercise label="rationalizing-conjugates-1"><title>Radicals and conjugates</title>
-      <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg"/>
-    </exercise>
-    <exercise label="rationalizing-radical-functions-2"><title>Rationalizing radicals</title>
-      <webwork source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg"/>
-    </exercise> 
-    <exercise label="rationalizing-radical-functions-3"><title>Rationalizing radicals</title>
-      <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg"/>
-    </exercise>
-    <exercise label="rationalizing-radical-functions-4"><title>Rationalizing radicals</title>
-      <webwork source="Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rationalizing/Rationalize2.pg"/>
-    </exercise>
-  </subsection>
 </section>
