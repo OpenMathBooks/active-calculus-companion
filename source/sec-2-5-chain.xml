@@ -64,7 +64,7 @@
         </me>.
       </p>
       <p>
-        Another formulation of the chain rule which says the same thing using different notation is 
+        Another formulation of this rule which says the same thing using different notation is 
         <me>
           \frac{dC}{dx}=\frac{df}{dg}\frac{dg}{dx}
         </me>.
@@ -114,12 +114,73 @@
 
   <exercises><title>Additional Practice Exercises</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
-  <!-- <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
-    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
+  <exercise label="chainrule-algebra-1"><title>Chain rule</title>
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg"/>
   </exercise>
-  <exercise label="limits-from-graph-2"><title>Limits from a graph</title>
-    <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
-  </exercise> -->
+  
+    <exercise label="chainrule-algebra-2"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-3"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-4"><title>Chain rule</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_43.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-5"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-6"><title>Chain rule</title>
+    <webwork source="Library/NAU/setCalcI/chainLeibnitz.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-7"><title>Chain rule</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-8"><title>Chain rule</title>
+    <webwork source="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg"/>
+  </exercise>
+  <exercise label="chainrule-solvingpieces-1"><title>Using chain rule and information</title>
+    <webwork source="Library/NAU/setCalcI/chainEquTang.pg"/>
+  </exercise>
+  <exercise label="chainrule-solvingpieces-2"><title>Using chain rule and information</title>
+    <webwork source="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg"/>
+  </exercise>
+  <exercise label="chainrule-graph-1"><title>Chain rule from graph</title>
+    <webwork source="Library/Michigan/Chap3Sec4/Q57.pg"/>
+  </exercise>
+  <exercise label="chainrule-graph-2"><title>Chain rule from graph</title>
+    <webwork source="Library/Michigan/Chap3Sec6/Q49.pg"/>
+  </exercise>
+  <exercise label="chainrule-table-1"><title>Chain rule from a table of values</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg"/>
+  </exercise>
+  <exercise label="chainrule-table-2"><title>Chain rule from a table of values</title>
+    <introduction>
+      <p>
+        Recall that the <em>central difference</em> is a way of approximating the value 
+        of the derivative at a specified number by calculating the slope of the line through the two points 
+        on either side of the specified number.  That's what this problem is asking you to use along with the chain rule. 
+      </p>
+    </introduction>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg"/>
+  </exercise>
+  
+  <exercise label="derivrules-algebra-1"><title>Multiple rules</title>
+    <webwork source="Library/AlfredUniv/gateway/calcI/misc/prob2.pg"/>
+  </exercise>
+  <exercise label="derivrules-table-1"><title>Multiple rules with a table</title>
+    <webwork source="Contrib/METU-NCC/MAT101/Final/Table1.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-2"><title>Multiple rules</title>
+    <webwork source="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-3"><title>Multiple rules</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-4"><title>Multiple rules</title>
+    <webwork source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg"/>
+  </exercise>
+  
     
   </exercises>
 </section>
