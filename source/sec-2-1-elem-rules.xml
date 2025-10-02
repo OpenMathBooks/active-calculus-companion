@@ -88,8 +88,56 @@
     </p>
   </subsection> -->
 
-  <subsection xml:id="ap-elem-rules">
-    <title>Additional Practice</title>
+  <subsection xml:id="fe-elem-rules">
+    <title>Foundations</title>
+    <p>
+      Sometimes before computing a derivative, it is helpful to rewrite the function in a more standard form.  Let's review how to write radicals as power functions, as well as powers of <m>x</m> in the denominator of a fraction as power functions.
+    </p>
+
+    <p>
+      We start with some practice with basic rules of exponents.
+    </p>
+
+    <exercise label="exponents-simplify-1">
+      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg" />
+    </exercise>
+
+    <exercise label="exponents-simplify-2">
+      <webwork source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" />
+    </exercise>
+
+    <exercise label="exponents-simplify-3">
+      <webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" />
+    </exercise>
+
+    <exercise label="exponents-simplify-4">
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" />
+    </exercise>
+
+    <exercise label="exponents-radicals-2">
+      <webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
+    </exercise>
+
+    <exercise label="exponents-radicals-3">
+      <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
+    </exercise>
+
+    <exercise label="exponents-radicals-rational-1">
+      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
+    </exercise>
+
+    <exercise label="exponents-simplify-power-1">
+      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg" />
+    </exercise>
+
+    <exercise label="exponents-simplify-power-2">
+      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg" />
+    </exercise>
+  </subsection>
+
+
+  <exercises xml:id="ap-elem-rules">
+    <title>Additional Practice Exercises</title>
 
     <exercise label="derivatives-constant">
       <webwork source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg" />
@@ -145,52 +193,7 @@
     <exercise label="derivatives-power-simplify-tangent">
       <webwork source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg" />
     </exercise>
-  </subsection>
+  </exercises>
 
-  <subsection xml:id="fe-elem-rules">
-    <title>Foundations</title>
-    <p>
-      Sometimes before computing a derivative, it is helpful to rewrite the function in a more standard form.  Let's review how to write radicals as power functions, as well as powers of <m>x</m> in the denominator of a fraction as power functions.
-    </p>
 
-    <p>
-      We start with some practice with basic rules of exponents.
-    </p>
-
-    <exercise label="exponents-simplify-1">
-      <webwork source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg" />
-    </exercise>
-
-    <exercise label="exponents-simplify-2">
-      <webwork source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg" />
-    </exercise>
-
-    <exercise label="exponents-simplify-3">
-      <webwork source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg" />
-    </exercise>
-
-    <exercise label="exponents-simplify-4">
-      <webwork source="Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg" />
-    </exercise>
-
-    <exercise label="exponents-radicals-2">
-      <webwork source="Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg" />
-    </exercise>
-
-    <exercise label="exponents-radicals-3">
-      <webwork source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg" />
-    </exercise>
-
-    <exercise label="exponents-radicals-rational-1">
-      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg" />
-    </exercise>
-
-    <exercise label="exponents-simplify-power-1">
-      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg" />
-    </exercise>
-
-    <exercise label="exponents-simplify-power-2">
-      <webwork source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg" />
-    </exercise>
-  </subsection>
 </section>

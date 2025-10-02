@@ -73,44 +73,6 @@
     </p>
   </subsection> -->
 
-<subsection xml:id="ap-tan-line-approx">
-  <title>Additional Practice</title>
-  <exercise label="tangentline-given-derivative-eqns-2">
-    <webwork source="Contrib/METU-NCC/MAT101/Final/Tangent.pg" />
-  </exercise>
-  
-  <exercise label="tangentline-given-derivative-eqn">
-    <webwork source="Library/Wiley/setAnton_Section_2.2/Question7.pg" />
-  </exercise>
-
-  <exercise label="tangentline-given-derivative-val-1">
-    <webwork source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg" />
-  </exercise>
-
-  <exercise label="tangentline-given-derivative-val-3">
-    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" />
-  </exercise>
-
-  <exercise label="tangentline-given-derivative-val-4">
-    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg" />
-  </exercise>
-
-  <!-- Some new problems -->
-
-  <exercise label="tangentline-lin-w-given-d-1">
-    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob1.pg"/>
-    </webwork>
-  </exercise>
-
-  <exercise label="tangentline-lin-w-given-d-2">
-    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob2.pg"/>
-    </webwork>
-  </exercise>
-
-
-</subsection>
-
-
 <subsection xml:id="fe-tan-line-approx">
   <title>Foundations</title>
   <introduction>
@@ -154,6 +116,45 @@
 
 
 </subsection>
+
+<exercises xml:id="ap-tan-line-approx">
+  <title>Additional Practice</title>
+  <exercise label="tangentline-given-derivative-eqns-2">
+    <webwork source="Contrib/METU-NCC/MAT101/Final/Tangent.pg" />
+  </exercise>
+  
+  <exercise label="tangentline-given-derivative-eqn">
+    <webwork source="Library/Wiley/setAnton_Section_2.2/Question7.pg" />
+  </exercise>
+
+  <exercise label="tangentline-given-derivative-val-1">
+    <webwork source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg" />
+  </exercise>
+
+  <exercise label="tangentline-given-derivative-val-3">
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" />
+  </exercise>
+
+  <exercise label="tangentline-given-derivative-val-4">
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg" />
+  </exercise>
+
+  <!-- Some new problems -->
+
+  <exercise label="tangentline-lin-w-given-d-1">
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob1.pg"/>
+    </webwork>
+  </exercise>
+
+  <exercise label="tangentline-lin-w-given-d-2">
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-8_prob2.pg"/>
+    </webwork>
+  </exercise>
+
+
+</exercises>
+
+
 
 
 </section>
