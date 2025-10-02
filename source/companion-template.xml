@@ -40,22 +40,28 @@
   <!-- do we put them into separate files for easier editing later? -->
   
 
-  <subsection><title>Additional Section Exercises</title>
-    <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
-  <!-- <exercise label="limits-from-graph-1">
-    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
-  </exercise>
-  <exercise label="limits-from-graph-2">
-    <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
-  </exercise> -->
-  
-  <!-- </exercises> -->
+  <subsection><title>Foundational Exercises</title>
+    <p>
+      Some introductory comments.
+    </p>
+    <!-- <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
+        <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
+      </exercise>
+      <exercise label="limits-from-graph-2"><title>Limits from a graph</title>
+        <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
+      </exercise> -->
+        
     
   </subsection>
 
-  <subsection><title>Foundational Exercises</title>
+  <exercises><title>Additional Practice Exercises</title>
+    <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
+  <!-- <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
+  </exercise>
+  <exercise label="limits-from-graph-2"><title>Limits from a graph</title>
+    <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
+  </exercise> -->
     
-    
-    
-  </subsection>
+  </exercises>
 </section>
