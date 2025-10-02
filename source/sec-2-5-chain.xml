@@ -7,245 +7,51 @@
     <ul>
       <li>
         <p>
-          What is a composite function and how do we recognize its structure algebraically?
+          Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.
         </p>
       </li>
 
       <li>
         <p>
-          Given a composite function
-          <m>C(x) = f(g(x))</m> that is built from differentiable functions <m>f</m> and <m>g</m>,
-          how do we compute <m>C'(x)</m> in terms of <m>f</m>,
-          <m>g</m>, <m>f'</m>, and <m>g'</m>?
-          What is the statement of the Chain Rule?
+          Use a combination of basic derivative rules (including trigonometric and exponential), 
+          product and quotient rules, and chain rule to take the derivative of a complicated function.  
         </p>
       </li>
     </ul>
   </objectives>
+  <outcomes>
+      <ul>
+        <li>
+          <p>
+            Structure of functions: composition, product, quotient
+          </p>
+        </li>
+        <li>
+          <p>
+            All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.
+          </p>
+        </li>
+        <li>
+          <p>
+            What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.
+          </p>
+        </li>
+      </ul>
+    </outcomes>
 
-  <subsection><title>Introduction</title>
+
+  <subsection><title>Foundational Exercises</title>
     <p>
-      In addition to learning how to differentiate a variety of basic functions,
-      we have also been developing our ability to use rules to differentiate certain algebraic combinations of them.
+      One of the most useful ways of constructing functions from other functions is <q>composition</q>: doing one
+      function and then doing another function to the result.  Rather than substituting a <em>number</em> in for the input
+      of a function, we substitute a whole second <em>function</em> in for the input of a function.  
     </p>
-
-    <example>
-      <statement>
-        <p>
-          State the rule(s) required to find the derivative of each of the following combinations of
-          <m>f(x) = \sin(x)</m> and <m>g(x) = x^2</m>:
-          <me>
-            s(x) = 3x^2 - 5\sin(x)
-          </me>,
-          <me>
-            p(x) = x^2 \sin(x), \text{and}
-          </me>
-          <me>
-            q(x) = \frac{\sin(x)}{x^2}
-          </me>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Finding <m>s'</m> uses the sum and constant multiple rules,
-          because <m>s(x) = 3g(x) - 5f(x)</m>.
-          Determining <m>p'</m> requires the product rule,
-          because <m>p(x) = g(x) \cdot f(x)</m>.
-          To calculate <m>q'</m> we use the quotient rule,
-          because <m>q(x) =\frac{f(x)}{g(x)}</m>.
-        </p>
-      </solution>
-    </example>
-
     <p>
-      There is one more natural way to combine basic functions algebraically,
-      and that is by <em>composing</em> them.
-      For instance, let's consider the function
-      <me>
-        C(x) = \sin(x^2)
-      </me>,
-      and observe that any input <m>x</m> passes through a
-      <em>chain</em> of functions.
-      In the process that defines the function <m>C(x)</m>,
-      <m>x</m> is first squared, and then the sine of the result is taken.
-      Using an arrow diagram,
-      <me>
-        x \longrightarrow x^2 \longrightarrow \sin(x^2)
-      </me>.
+      We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the 
+      rate of change of the more complicated function.  We treat the <q>inside</q> or <q>substituted</q> function
+      as if it were a single variable, take the derivative of the <q>outer</q> function with respect to that variable,
+      and multiply by the derivative of the <q>inside</q> function.
     </p>
-
-    <p>
-      In terms of the elementary functions <m>f</m> and <m>g</m>,
-      we observe that <m>x</m> is the input for the function <m>g</m>,
-      and the result is used as the input for <m>f</m>.
-      We write
-      <me>
-        C(x) = f(g(x)) = \sin(x^2)
-      </me>
-      and say that <m>C</m> is the <em>composition</em>
-          <idx><h>composition</h></idx>
-      of <m>f</m> and <m>g</m>.
-      We will refer to <m>g</m>,
-      the function that is first applied to <m>x</m>,
-      as the <em>inner</em> function, while <m>f</m>,
-      the function that is applied to the result,
-      is the <em>outer</em> function.
-    </p>
-
-    <p>
-      Given a composite function
-      <m>C(x) = f(g(x))</m> that is built from differentiable functions <m>f</m> and <m>g</m>,
-      how do we compute <m>C'(x)</m> in terms of <m>f</m>,
-      <m>g</m>, <m>f'</m>, and <m>g'</m>?
-      In the same way that the rate of change of a product of two functions,
-      <m>p(x) = f(x) \cdot g(x)</m>,
-      depends on the behavior of both <m>f</m> and <m>g</m>,
-      it makes sense intuitively that the rate of change of a composite function
-      <m>C(x) = f(g(x))</m> will also depend on some combination of <m>f</m> and <m>g</m> and their derivatives.
-      The rule that describes how to compute <m>C'</m> in terms of <m>f</m> and <m>g</m> and their derivatives is called the <em>chain rule</em>.
-    </p>
-
-    <p>
-      But before we can learn what the chain rule says and why it works,
-      we first need to be comfortable decomposing composite functions so that we can correctly identify the inner and outer functions,
-      as we did in the example above with <m>C(x) = \sin(x^2)</m>.
-    </p>
-
-    <xi:include href="./previews/PA-2-5-WW.xml" />
-    <xi:include href="./previews/PA-2-5.xml" />
-  </subsection>
-
-  
-  <xi:include href="./proteus/proteus-2-5.xml" />
-
-  
-
-  <subsection>
-    <title>The chain rule</title>
-    <p>
-      Often a composite function cannot be written in an alternate algebraic form.
-      For instance, the function
-      <m>C(x) = \sin(x^2)</m> cannot be expanded or otherwise rewritten,
-      so it presents no alternate approaches to taking the derivative.
-      But some composite functions can be expanded or simplified,
-      and these provide a way to explore how the chain rule works.
-    </p>
-
-    <example xml:id="ex-2-5-linear">
-      <statement>
-        <p>
-          Let <m>f(x) = -4x + 7</m> and <m>g(x) = 3x - 5</m>.
-          Determine a formula for <m>C(x) = f(g(x))</m> and compute <m>C'(x)</m>.
-          How is <m>C'</m> related to <m>f</m> and <m>g</m> and their derivatives?
-        </p>
-      </statement>
-      <solution>
-        <p>
-          By the rules given for <m>f</m> and <m>g</m>,
-          <md>
-            <mrow>C(x) =\mathstrut \amp  f(g(x))</mrow>
-            <mrow>=\mathstrut \amp  f(3x-5)</mrow>
-            <mrow>=\mathstrut \amp  -4(3x-5) + 7</mrow>
-            <mrow>=\mathstrut \amp  -12x + 20 + 7</mrow>
-            <mrow>=\mathstrut \amp  -12x + 27</mrow>
-          </md>.
-        </p>
-
-        <p>
-          Thus, <m>C'(x) = -12</m>.
-          Noting that <m>f'(x) = -4</m> and <m>g'(x) = 3</m>,
-          we observe that <m>C'</m> appears to be the product of <m>f'</m> and <m>g'</m>.
-        </p>
-      </solution>
-    </example>
-
-    <p>
-      It may seem that
-      <xref ref="ex-2-5-linear">Example</xref>
-      is too elementary to illustrate how to differentiate a composite function.
-      Linear functions are the simplest of all functions, and
-      composing linear functions yields another linear function.
-      While this example does not illustrate the full complexity of a composition of nonlinear functions,
-      at the same time we remember that any differentiable function is
-      <em>locally</em> linear,
-      and thus any function with a derivative behaves like a line when viewed up close.
-      The fact that the derivatives of the linear functions <m>f</m> and <m>g</m> are multiplied to find the derivative of their composition turns out to be a key insight.
-    </p>
-
-    <p>
-      We now consider a composition involving a nonlinear function.
-    </p>
-
-    <example xml:id="ex-2-5-double-angle">
-      <statement>
-        <p>
-          Let <m>C(x) = \sin(2x)</m>.
-          Use the double angle identity to rewrite <m>C</m> as a product of basic functions,
-          and use the product rule to find <m>C'</m>.
-          Rewrite <m>C'</m> in the simplest form possible.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          Using the double angle identity for the sine function, we write
-          <me>
-            C(x) = \sin(2x) = 2\sin(x)\cos(x)
-          </me>.
-        </p>
-
-        <p>
-          Applying the product rule and simplifying, we find
-          <me>
-            C'(x) = 2\sin(x)(-\sin(x)) + \cos(x)(2\cos(x)) = 2(\cos^2(x) - \sin^2(x))
-          </me>.
-        </p>
-
-        <p>
-          Next, we recall that a double angle identity for the cosine tells us
-          <me>
-            \cos(2x) = \cos^2(x) - \sin^2(x)
-          </me>.
-        </p>
-
-        <p>
-          Substituting this result into our expression for <m>C'(x)</m>,
-          we now have that
-          <me>
-            C'(x) = 2 \cos(2x)
-          </me>.
-        </p>
-      </solution>
-    </example>
-
-    <p>
-      In <xref ref="ex-2-5-double-angle">Example</xref>,
-      if we let <m>g(x) = 2x</m> and <m>f(x) = \sin(x)</m>,
-      we observe that <m>C(x) = f(g(x))</m>.
-      Now, <m>g'(x) = 2</m> and <m>f'(x) = \cos(x)</m>,
-      so we can view the structure of <m>C'(x)</m> as
-      <me>
-        C'(x) = 2\cos(2x) = g'(x) f'(g(x))
-      </me>.
-    </p>
-
-    <p>
-      In this example, as in the example involving linear functions,
-      we see that the derivative of the composite function <m>C(x) = f(g(x))</m>
-      is found by multiplying the derivatives of <m>f</m> and <m>g</m>,
-      but with <m>f'</m> evaluated at <m>g(x)</m>.
-    </p>
-
-    <p>
-      It makes sense intuitively that these two quantities are involved in the rate of change of a composite function:
-      if we ask how fast <m>C</m> is changing at a given <m>x</m> value,
-      it clearly matters how fast <m>g</m> is changing at <m>x</m>,
-      as well as how fast <m>f</m> is changing at the value of <m>g(x)</m>.
-      It turns out that this structure holds for all differentiable functions<fn>
-      Like other differentiation rules,
-      the Chain Rule can be proved formally using the limit definition of the derivative.
-      </fn> as is stated in the Chain Rule.
-    </p>
-
     <assemblage xml:id="chain-rule">
       <title>The Chain Rule</title>
       <p>
@@ -257,304 +63,124 @@
           C'(x) = f'(g(x)) g'(x)
         </me>.
       </p>
+      <p>
+        Another formulation of this rule which says the same thing using different notation is 
+        <me>
+          \frac{dC}{dx}=\frac{df}{dg}\frac{dg}{dx}
+        </me>.
+      </p>
     </assemblage>
 
-    <p>
-      As with the product and quotient rules,
-      it is often helpful to think verbally about what the chain rule says:
-      <q>If <m>C</m> is a composite function defined by an outer function <m>f</m> and an inner function <m>g</m>,
-      then <m>C'</m> is given by the derivative of the outer function
-      evaluated at the inner function,
-      times the derivative of the inner function.</q>
-    </p>
-
-    <p>
-      It is helpful to identify clearly the inner function <m>g</m> and outer function <m>f</m>,
-      compute their derivatives individually,
-      and then put all of the pieces together by the chain rule.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          Determine the derivative of the function
-          <me>
-            r(x) = (\tan(x))^2
-          </me>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          The function <m>r</m> is composite,
-          with inner function <m>g(x) = \tan(x)</m> and outer function <m>f(x) = x^2</m>.
-          Organizing the key information involving <m>f</m>,
-          <m>g</m>, and their derivatives, we have
-        </p>
-
-          <tabular>
-            <row>
-              <cell><m>f(x) = x^2</m></cell>
-              <cell/>
-              <cell><m>g(x) = \tan(x)</m></cell>
-            </row>
-            <row>
-              <cell><m>f'(x) = 2x</m></cell>
-              <cell/>
-              <cell><m>g'(x) = \sec^2(x)</m></cell>
-            </row>
-            <row>
-              <cell><m>f'(g(x)) = 2\tan(x)</m></cell>
-              <cell/>
-              <cell/>
-            </row>
-          </tabular>
-
-        <p>
-          Applying the chain rule, we find that
-          <me>
-            r'(x) = f'(g(x))g'(x) = 2\tan(x) \sec^2(x)
-          </me>.
-        </p>
-      </solution>
-    </example>
-
-    <p>
-      As a side note,
-      we remark that <m>r(x)</m> is usually written as <m>\tan^2(x)</m>.
-      This is common notation for powers of trigonometric functions:
-      <m>\cos^4(x)</m>, <m>\sin^5(x)</m>,
-      and <m>\sec^2(x)</m> are all composite functions,
-      with the outer function a power function and the inner function a trigonometric one.
-    </p>
-
-    <xi:include href="./activities/act-2-5-1.xml"/>
+    <exercise label="fcns-compose-graph-1"><title>Composition from a graph</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-graph-2"><title>Composition from a graph</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_45.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-algebra-1"><title>Composition using algebra</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_11.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-algebra-2"><title>Composition using algebra</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_13.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-algebra-3"><title>Composition using algebra</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_16.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-table-1"><title>Composition using a table of values</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_59.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-table-2"><title>Composition using a table of values</title>
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-algebra-4"><title>Composition using algebra</title>
+      <webwork source="Contrib/CUNY/OPLremix/Library/Rochester/setAlgebra17FunComposition/s0_1_87_mo.pg"/>
+    </exercise>
+    <!-- <exercise label="fcns-inverse-algebra-1"><title>Inverse Functions using a table of values</title>
+      <webwork source="Contrib/METU-NCC/MAT100/Ch3/3.5_Comp_Table2.pg"/>
+    </exercise> -->
+    <exercise label="fcns-compose-identify-1"><title>Identifying functions in a composition</title>
+      <webwork source="Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-identify-2"><title>Identifying functions in a composition</title>
+      <webwork source="Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-algebra-5"><title>Composition using algebra</title>
+      <webwork source="Library/Michigan/Chap1Sec3/Q03.pg"/>
+    </exercise>
+    <exercise label="fcns-compose-graph-3"><title>Composition using graphs</title>
+      <webwork source="Library/Michigan/Chap1Sec3/Q43.pg"/>
+    </exercise>
   </subsection>
 
-  <subsection>
-    <title>Using multiple rules simultaneously</title>
-    <p>
-      The chain rule now joins the sum,
-      constant multiple, product,
-      and quotient rules in our collection of techniques for finding the derivative of a function through understanding its algebraic structure and the basic functions that constitute it.
-      It takes practice to get comfortable applying multiple rules to differentiate a single function, but
-      using proper notation and taking a few extra steps will help.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          Find a formula for the derivative of <m>h(t) = 3^{t^2 + 2t}\sec^4(t)</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          We first observe that <m>h</m> is the product of two functions:
-          <m>h(t) = a(t) \cdot b(t)</m>, where
-          <m>a(t) = 3^{t^2 + 2t}</m> and <m>b(t) = \sec^4(t)</m>.
-          We will need to use the product rule to differentiate <m>h</m>.
-          And because <m>a</m> and <m>b</m> are composite functions,
-          we will need
-          the chain rule.
-          We therefore begin by computing <m>a'(t)</m> and <m>b'(t)</m>.
-        </p>
-
-        <p>
-          Writing <m>a(t) = f(g(t)) = 3^{t^2 + 2t}</m>,
-          and finding the derivatives of <m>f</m> and <m>g</m>, we have
-        </p>
-
-          <tabular>
-            <row>
-              <cell><m>f(t) = 3^t</m></cell>
-              <cell/>
-              <cell><m>g(t) = t^2 + 2t</m></cell>
-            </row>
-            <row>
-              <cell><m>f'(t) = 3^t \ln(3)</m></cell>
-              <cell/>
-              <cell><m>g'(t) = 2t+2</m></cell>
-            </row>
-            <row>
-              <cell><m>f'(g(t)) = 3^{t^2 + 2t}\ln(3)</m></cell>
-              <cell/>
-              <cell/>
-            </row>
-          </tabular>
-
-
-        <p>
-          Thus, by the chain rule,
-          it follows that <m>a'(t) = f'(g(t))g'(t) = 3^{t^2 + 2t}\ln(3) (2t+2)</m>.
-        </p>
-
-        <p>
-          Turning next to <m>b</m>,
-          we write <m>b(t) = r(s(t)) = \sec^4(t)</m> and find the derivatives of <m>r</m> and <m>s</m>.
-        </p>
-
-          <tabular>
-            <row>
-              <cell><m>r(t) = t^4</m></cell>
-              <cell/>
-              <cell><m>s(t) = \sec(t)</m></cell>
-            </row>
-            <row>
-              <cell><m>r'(t) = 4t^3</m></cell>
-              <cell/>
-              <cell><m>s'(t) = \sec(t)\tan(t)</m></cell>
-            </row>
-            <row>
-              <cell><m>r'(s(t)) = 4\sec^3(t)</m></cell>
-              <cell/>
-              <cell/>
-            </row>
-          </tabular>
-
-
-        <p>
-          By the chain rule,
-          <me>
-            b'(t) = r'(s(t))s'(t) = 4\sec^3(t)\sec(t)\tan(t) = 4 \sec^4(t) \tan(t)
-          </me>.
-        </p>
-
-        <p>
-          Now we are finally ready to compute the derivative of the function <m>h</m>.
-          Recalling that <m>h(t) = 3^{t^2 + 2t}\sec^4(t)</m>,
-          by the product rule we have
-          <me>
-            h'(t) = 3^{t^2 + 2t} \frac{d}{dt}[\sec^4(t)] + \sec^4(t) \frac{d}{dt}[3^{t^2 + 2t}]
-          </me>.
-        </p>
-
-        <p>
-          From our work above with <m>a</m> and <m>b</m>,
-          we know the derivatives of
-          <m>3^{t^2 + 2t}</m> and <m>\sec^4(t)</m>, and therefore
-          <me>
-            h'(t) = 3^{t^2 + 2t} 4\sec^4(t) \tan(t) + \sec^4(t) 3^{t^2 + 2t}\ln(3) (2t+2)
-          </me>.
-        </p>
-      </solution>
-    </example>
-
-    <xi:include href="./activities/act-2-5-2.xml"/>
-
-    <p>
-      The chain rule now adds substantially to our ability to compute derivatives.
-      Whether we are finding the equation of the tangent line to a curve,
-      the instantaneous velocity of a moving particle,
-      or the instantaneous rate of change of a certain quantity,
-      if the function under consideration is a composition,
-      the chain rule is often an essential tool.
-    </p>
-
-    <xi:include href="./activities/act-2-5-3.xml"/>
-  </subsection>
-
-  <subsection>
-    <title>The composite version of basic function rules</title>
-    <p>
-      As we gain more experience with differention,
-      we will become more comfortable in simply writing down the derivative without taking multiple steps.
-      This is particularly simple when the inner function is linear,
-      since the derivative of a linear function is a constant.
-    </p>
-
-    <example>
-      <statement>
-        <p>
-          For each of the following composite functions whose inside function is linear, find the overall function's derivative using the chain rule: <m>f(x) = (5x+7)^{10}</m>, <m>g(x) = \tan(17x)</m>, and <m>h(x) = e^{-3x}</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          For each of the three given functions, the derivative of the inner function is constant.  By the chain rule, we see
-          <me>
-            \frac{d}{dx} \left[ (5x+7)^{10} \right] = 10(5x+7)^9 \cdot 5
-          </me>,
-          <me>
-            \frac{d}{dx} \left[ \tan(17x) \right] = 17\sec^2(17x), \ \text{and}
-          </me>
-          <me>
-            \frac{d}{dx} \left[ e^{-3x} \right] = -3e^{-3x}
-          </me>.
-        </p>
-      </solution>
-    </example>
-
-    <p>
-      More generally, we can think about how each basic function rule has a corresponding chain rule version.  The next example demonstrates this for two familiar functions.
-    </p>
-
-    <example xml:id="ex-2-5-basic-to-chain">
-      <statement>
-        <p>
-          Develop a chain rule version of the two basic derivative rules that state <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m> and <m>\frac{d}{dx}[a^x] = a^x \ln(a)</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          To determine
-          <me>
-            \frac{d}{dx}[\sin(u(x))]
-          </me>,
-          where <m>u</m> is a differentiable function of <m>x</m>,
-          we use the chain rule with the sine function as the outer function.
-          Applying the chain rule, we find that
-          <me>
-            \frac{d}{dx}[\sin(u(x))] = \cos(u(x)) \cdot u'(x)
-          </me>.
-          This rule is analogous to the basic derivative rule that <m>\frac{d}{dx}[\sin(x)] = \cos(x)</m>.
-        </p>
-
-        <p>
-          Similarly, since <m>\frac{d}{dx}[a^x] = a^x \ln(a)</m>,
-          it follows by the chain rule that
-          <me>
-            \frac{d}{dx}[a^{u(x)}] = a^{u(x)} \ln(a) \cdot u'(x)
-          </me>.
-          This rule is analogous to the basic derivative rule that <m>\frac{d}{dx}[a^{x}] = a^{x} \ln(a)</m>.
-        </p>
-      </solution>  
-    </example>
-
-    <p>
-      An excellent exercise for getting comfortable with the derivative rules is to complete <xref ref="ex-2-5-basic-to-chain">Example</xref> for every basic function.  That is, 
-      write down a list of all the basic functions whose derivatives you know, and
-      list their corresponding derivatives.
-      Then, corresponding to each basic rule, write a composite function with the inner function being an unknown function <m>u(x)</m> and the outer function being a basic function.
-      Finally, write the chain rule for the composite function, such as <m>\frac{d}{dx}[\sin(u(x))] = \cos(u(x)) \cdot u'(x)</m>.
-    </p>
-
-  </subsection>
-
-  <subsection>
-    <title>Summary</title>
-    <p>
-      <ul>
-        <li>
-          <p>
-            A composite function is one where the input variable <m>x</m> first passes through one function,
-            and then the resulting output passes through another.
-            For example, the function
-            <m>h(x) = 2^{\sin(x)}</m> is composite since <m>x \longrightarrow \sin(x) \longrightarrow 2^{\sin(x)}</m>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Given a composite function
-            <m>C(x) = f(g(x))</m> where <m>f</m> and <m>g</m> are differentiable functions,
-            the chain rule tells us that
-            <me>
-              C'(x) = f'(g(x)) g'(x)
-            </me>.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-2-5.xml"/>
+  <exercises><title>Additional Practice Exercises</title>
+    <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
+  <exercise label="chainrule-algebra-1"><title>Chain rule</title>
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg"/>
+  </exercise>
+  
+    <exercise label="chainrule-algebra-2"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-3"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-4"><title>Chain rule</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_43.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-5"><title>Chain rule</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-6"><title>Chain rule</title>
+    <webwork source="Library/NAU/setCalcI/chainLeibnitz.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-7"><title>Chain rule</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg"/>
+  </exercise>
+  <exercise label="chainrule-algebra-8"><title>Chain rule</title>
+    <webwork source="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg"/>
+  </exercise>
+  <exercise label="chainrule-solvingpieces-1"><title>Using chain rule and information</title>
+    <webwork source="Library/NAU/setCalcI/chainEquTang.pg"/>
+  </exercise>
+  <exercise label="chainrule-solvingpieces-2"><title>Using chain rule and information</title>
+    <webwork source="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg"/>
+  </exercise>
+  <exercise label="chainrule-graph-1"><title>Chain rule from graph</title>
+    <webwork source="Library/Michigan/Chap3Sec4/Q57.pg"/>
+  </exercise>
+  <exercise label="chainrule-graph-2"><title>Chain rule from graph</title>
+    <webwork source="Library/Michigan/Chap3Sec6/Q49.pg"/>
+  </exercise>
+  <exercise label="chainrule-table-1"><title>Chain rule from a table of values</title>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg"/>
+  </exercise>
+  <exercise label="chainrule-table-2"><title>Chain rule from a table of values</title>
+    <introduction>
+      <p>
+        Recall that the <em>central difference</em> is a way of approximating the value 
+        of the derivative at a specified number by calculating the slope of the line through the two points 
+        on either side of the specified number.  That's what this problem is asking you to use along with the chain rule. 
+      </p>
+    </introduction>
+    <webwork source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg"/>
+  </exercise>
+  
+  <exercise label="derivrules-algebra-1"><title>Multiple rules</title>
+    <webwork source="Library/AlfredUniv/gateway/calcI/misc/prob2.pg"/>
+  </exercise>
+  <exercise label="derivrules-table-1"><title>Multiple rules with a table</title>
+    <webwork source="Contrib/METU-NCC/MAT101/Final/Table1.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-2"><title>Multiple rules</title>
+    <webwork source="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-3"><title>Multiple rules</title>
+    <webwork source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg"/>
+  </exercise>
+  <exercise label="derivrules-algebra-4"><title>Multiple rules</title>
+    <webwork source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg"/>
+  </exercise>
+  
+    
+  </exercises>
 </section>
