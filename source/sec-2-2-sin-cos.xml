@@ -62,8 +62,14 @@
     </p>
   </subsection> -->
 
-<subsection xml:id="ap-sin-cos">
-  <title>Additional Practice</title>
+<subsection xml:id="fe-sin-cos">
+  <title>Foundations</title>
+  
+  
+</subsection>
+
+<exercises xml:id="ap-sin-cos">
+  <title>Additional Practice Exercises</title>
   
   <exercise label="derivatives-basic-trig-1">
     <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" />
@@ -88,11 +94,7 @@
   <exercise label="derivatives-basic-trig-tangent-2">
     <webwork source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg" />
   </exercise>
-</subsection>
+</exercises>
 
-<subsection xml:id="fe-sin-cos">
-  <title>Foundations</title>
-  
-  
-</subsection>
+
 </section>

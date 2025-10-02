@@ -34,58 +34,15 @@
 
 
   <subsection>
-    <title>Introduction</title>
+    <title>Foundational Exercises</title>
     <p>
-      Active Calculus provides the following summary of section 2.3:
-      <ul>
-        <li>
-          <p>
-            If a function is a sum, product,
-            or quotient of simpler functions,
-            then we can use the sum, product,
-            or quotient rules to differentiate it in terms of the simpler functions and their derivatives.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The product rule tells us that if <m>P</m> is a product of differentiable functions <m>f</m> and <m>g</m> according to the rule <m>P(x) = f(x) g(x)</m>, then
-            <me>
-              P'(x) = f(x)g'(x) + g(x)f'(x)
-            </me>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The quotient rule tells us that if <m>Q</m> is a quotient of differentiable functions <m>f</m> and <m>g</m> according to the rule <m>Q(x) = \frac{f(x)}{g(x)}</m>, then
-            <me>
-              Q'(x) = \frac{g(x)f'(x) - f(x)g'(x)}{g(x)^2}
-            </me>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            Along with the constant multiple and sum rules,
-            the product and quotient rules enable us to compute the derivative of any function that consists of sums,
-            constant multiples, products,
-            and quotients of basic functions.
-            For instance, if <m>F</m> has the form
-            <me>
-              F(x) = \frac{2a(x) - 5b(x)}{c(x) \cdot d(x)}
-            </me>,
-            then <m>F</m> is a quotient,
-            in which the numerator is a sum of constant multiples and the denominator is a product.
-            This, the derivative of <m>F</m> can be found by applying the quotient rule and then using the sum and constant multiple rules to differentiate the numerator and the product rule to differentiate the denominator.
-          </p>
-        </li>
-      </ul></p>
+      Coming soon.
+    </p>
 
   </subsection>
 
-  <subsection xml:id="ap-prod-quot">
-    <title>Additional Practice</title>
+  <exercises xml:id="ap-prod-quot">
+    <title>Additional Practice Exercises</title>
     
   <exercise label="derivatives-prod-steps-1">
     <webwork source="Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg" />
@@ -214,7 +171,7 @@
     <webwork source="Library/Rochester/instructiveProblems/OldProblems/ur_dr_4_1.pg" />
   </exercise>
 
-  </subsection>
+</exercises>
 
 
 </section>
