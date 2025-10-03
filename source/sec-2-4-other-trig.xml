@@ -31,6 +31,52 @@
 
   <exercises xml:id="ae-other-trig">
     <title>Additional Practice</title>
-    
+    <exercise label="derivatives-trig-adv-1">
+      <webwork source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-2">
+      <webwork source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_e.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-prod-1">
+      <webwork source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-quot-1">
+      <webwork source="Library/ma122DB/set4b/s3_4_9.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-prod-2">
+      <webwork source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-quot-2">
+      <webwork source="Library/Union/setDervTrigonometric/s2_4_31.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-prod-3">
+      <webwork source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-quot-3">
+      <webwork source="Library/UMN/calculusStewartCCC/s_3_3_8.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-prod-4">
+      <webwork source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-quot-4">
+      <webwork source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-prod-5">
+      <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.6_Trigonometric_Functions/3.6.5.pg" />
+    </exercise>
+
+    <exercise label="derivatives-trig-adv-quot-5">
+      <webwork source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg" />
+    </exercise>
   </exercises>
 </section>
