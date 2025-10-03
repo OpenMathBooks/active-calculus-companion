@@ -1,10 +1,90 @@
-openDate          = 09/25/2025 at 12:00am
-dueDate           = 03/25/2026 at 10:00pm
-answerDate        = 03/25/2026 at 10:00pm
+openDate          = 10/03/2025 at 12:00am
+dueDate           = 04/03/2026 at 10:00pm
+answerDate        = 04/03/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 description       = The Active Calculus Companion
 problemListV2
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_2_2_5.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_2_2_6.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLimitConcepts/3-2-25.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.1_Limits_Rates_of_Change_and_Tangent_Lines/2.1.1.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/Rochester/setLimitsRates6Rates/s1_6_14.pg
+problem_id = 17
+problem_end
 problem_start
 source_file = Contrib/METU-NCC/MAT101/Final/Tangent.pg
 problem_id = 1
@@ -26,42 +106,374 @@ source_file = Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = The_Active_Calculus_Companion/1_8_6.pg
+source_file = The_Active_Calculus_Companion/1_8_2_6.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = The_Active_Calculus_Companion/1_8_7.pg
+source_file = The_Active_Calculus_Companion/1_8_2_7.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Contrib/METU-NCC/MAT101/Midterm/line.pg
+source_file = Library/Michigan/Chap3Sec1/Q09.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg
+source_file = Library/Michigan/Chap3Sec1/Q11.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg
+source_file = Library/UMN/calculusStewartCCC/s_3_1_18.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/NAU/setFunctionBasicGraphs/Linear.pg
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg
 problem_id = 8
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q01.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q03.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec2/Q05.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives4Trig/s2_4_32.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_2_10.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_2_4.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/s2_2_11a.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec5/Q23.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec3/Q11.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/5-2-22.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/3-5-51.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/5-2-21.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/OSU/high_school_apcalc/dchmwk4/prob7.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec3/Q15.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_28.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives2Formulas/s2_2_8f.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/ma122DB/set4b/s3_4_10.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_13.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_9.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_10.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_26.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_2.5/Anton2_5Q6.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.3_Product_and_Quotient_Rules/3.3.33.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/Union/setDervProductQuotientRule/3-5-55.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.3_Product_and_Quotient_Rules/3.3.35.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/Union/setDervProductQuotientRule/s2_2_13.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives2Formulas/s2_2_16.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/3-5-49.pg
+problem_id = 25
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/3-5-70.pg
+problem_id = 26
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/3-5-67.pg
+problem_id = 27
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/5-2-12.pg
+problem_id = 28
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec3/Q31.pg
+problem_id = 29
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec3/Q33.pg
+problem_id = 30
+problem_end
+problem_start
+source_file = Library/NAU/setCalcI/producte2x.pg
+problem_id = 31
+problem_end
+problem_start
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C03S02-ProdQuotRules/3-2-25.pg
+problem_id = 32
+problem_end
+problem_start
+source_file = Library/UVA-Stew5e/setUVA-Stew5e-C03S04-DerivsTrig/3-4-25.pg
+problem_id = 33
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/3-5-35.pg
+problem_id = 34
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_2/Stewart5_3_2_24.pg
+problem_id = 35
+problem_end
+problem_start
+source_file = Library/Rochester/instructiveProblems/OldProblems/ur_dr_4_1.pg
+problem_id = 36
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_e.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ma122DB/set4b/s3_4_9.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Union/setDervTrigonometric/s2_4_31.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_3_8.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.6_Trigonometric_Functions/3.6.5.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_5/Stewart5_3_5_43.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/NAU/setCalcI/chainLeibnitz.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/NAU/setCalcI/chainEquTang.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/OSU/high_school_apcalc/dchmwk2/prob15.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec4/Q57.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec6/Q49.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/AlfredUniv/gateway/calcI/misc/prob2.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Final/Table1.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Contrib/UMN/calculusTaalman/t_2_4_prob02.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg
+problem_id = 19
 problem_end

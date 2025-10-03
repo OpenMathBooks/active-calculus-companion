@@ -1,259 +1,199 @@
-openDate          = 09/25/2025 at 12:00am
-dueDate           = 03/25/2026 at 10:00pm
-answerDate        = 03/25/2026 at 10:00pm
+openDate          = 10/03/2025 at 12:00am
+dueDate           = 04/03/2026 at 10:00pm
+answerDate        = 04/03/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 description       = The Active Calculus Companion
 problemListV2
 problem_start
-source_file = The_Active_Calculus_Companion/1_2_1.pg
+source_file = Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg
+source_file = Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_51.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg
+source_file = Contrib/RRCC/College_Algebra/MAT121/3.1/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_1_53.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Library/UMN/calculusStewartCCC/s_2_2_6.pg
+source_file = Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_14_function.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg
+source_file = Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg
+source_file = Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg
 problem_id = 6
 problem_end
 problem_start
-source_file = Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_38.pg
+source_file = Library/PCC/BasicAlgebra/Factoring/factoring115.pg
 problem_id = 7
 problem_end
 problem_start
-source_file = Library/ASU-topics/setLimitConcepts/3-2-25.pg
+source_file = Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg
 problem_id = 8
 problem_end
 problem_start
-source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_02a.pg
+source_file = Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg
 problem_id = 9
 problem_end
 problem_start
-source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg
+source_file = Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg
 problem_id = 10
 problem_end
 problem_start
-source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg
+source_file = Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_09_MultDivRatExp.pg
 problem_id = 11
 problem_end
 problem_start
-source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-24.pg
 problem_id = 12
 problem_end
 problem_start
-source_file = Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_4_4_28.pg
 problem_id = 13
 problem_end
 problem_start
-source_file = Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg
+source_file = Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg
 problem_id = 14
 problem_end
 problem_start
-source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg
+source_file = Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg
 problem_id = 15
 problem_end
 problem_start
-source_file = Contrib/METU-NCC/MAT101/Final/Tangent.pg
-problem_id = 1
-problem_end
-problem_start
-source_file = Library/Wiley/setAnton_Section_2.2/Question7.pg
-problem_id = 2
-problem_end
-problem_start
-source_file = Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg
-problem_id = 3
-problem_end
-problem_start
-source_file = Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg
-problem_id = 4
-problem_end
-problem_start
-source_file = Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg
-problem_id = 5
-problem_end
-problem_start
-source_file = The_Active_Calculus_Companion/1_8_6.pg
-problem_id = 6
-problem_end
-problem_start
-source_file = The_Active_Calculus_Companion/1_8_7.pg
-problem_id = 7
-problem_end
-problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg
-problem_id = 8
-problem_end
-problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg
-problem_id = 9
-problem_end
-problem_start
-source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg
-problem_id = 10
-problem_end
-problem_start
-source_file = Contrib/METU-NCC/MAT101/Midterm/line.pg
-problem_id = 11
-problem_end
-problem_start
-source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg
-problem_id = 12
-problem_end
-problem_start
-source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg
-problem_id = 13
-problem_end
-problem_start
-source_file = Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg
-problem_id = 14
-problem_end
-problem_start
-source_file = Library/NAU/setFunctionBasicGraphs/Linear.pg
-problem_id = 15
-problem_end
-problem_start
-source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg
-problem_id = 1
-problem_end
-problem_start
-source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg
-problem_id = 2
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg
-problem_id = 3
-problem_end
-problem_start
-source_file = Library/Michigan/Chap3Sec1/Q09.pg
-problem_id = 4
-problem_end
-problem_start
-source_file = Library/Michigan/Chap3Sec1/Q11.pg
-problem_id = 5
-problem_end
-problem_start
-source_file = Library/UMN/calculusStewartCCC/s_3_1_18.pg
-problem_id = 6
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_20.pg
-problem_id = 7
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg
-problem_id = 8
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg
-problem_id = 9
-problem_end
-problem_start
-source_file = Library/Michigan/Chap3Sec2/Q01.pg
-problem_id = 10
-problem_end
-problem_start
-source_file = Library/Michigan/Chap3Sec2/Q03.pg
-problem_id = 11
-problem_end
-problem_start
-source_file = Library/Michigan/Chap3Sec2/Q05.pg
-problem_id = 12
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg
-problem_id = 13
-problem_end
-problem_start
-source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg
-problem_id = 14
-problem_end
-problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg
-problem_id = 15
-problem_end
-problem_start
-source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg
 problem_id = 16
 problem_end
 problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg
+source_file = Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg
 problem_id = 17
 problem_end
 problem_start
-source_file = Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg
 problem_id = 18
 problem_end
 problem_start
-source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg
+source_file = Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rationalizing/Rationalize2.pg
 problem_id = 19
 problem_end
 problem_start
-source_file = Library/PCC/BasicAlgebra/Exponents/negExp36.pg
-problem_id = 20
-problem_end
-problem_start
-source_file = Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg
-problem_id = 21
-problem_end
-problem_start
-source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg
-problem_id = 22
-problem_end
-problem_start
-source_file = Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg
-problem_id = 23
-problem_end
-problem_start
-source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg
-problem_id = 24
-problem_end
-problem_start
-source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg
-problem_id = 25
-problem_end
-problem_start
-source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg
-problem_id = 26
-problem_end
-problem_start
-source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg
-problem_id = 27
-problem_end
-problem_start
-source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg
 problem_id = 1
 problem_end
 problem_start
-source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA10.pg
 problem_id = 2
 problem_end
 problem_start
-source_file = Library/Rochester/setDerivatives4Trig/s2_4_21a.pg
+source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg
 problem_id = 3
 problem_end
 problem_start
-source_file = Library/UMN/calculusStewartCCC/s_3_3_1.pg
+source_file = Contrib/METU-NCC/MAT101/Midterm/line.pg
 problem_id = 4
 problem_end
 problem_start
-source_file = Library/Rochester/setDerivatives4Trig/s2_4_32.pg
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/point-slope-formula.pg
 problem_id = 5
 problem_end
 problem_start
-source_file = Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg
+source_file = Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg
 problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/NAU/setFunctionBasicGraphs/Linear.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/Exponents/negExp36.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_01_06_Exponents/16IntAlg_28_Exponents.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/6-2-Fractional-exponents/MCH1-6-2-20-Fractional-exponents.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_45.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_11.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_13.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_16.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_59.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Contrib/CUNY/OPLremix/Library/Rochester/setAlgebra17FunComposition/s0_1_87_mo.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec3/Q03.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec3/Q43.pg
+problem_id = 12
 problem_end

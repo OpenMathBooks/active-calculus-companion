@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AC The chain rule</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="The Active Calculus Companion">
+<meta property="book:author" content="Oscar Levin">
+<meta property="book:author" content="Christina Safranski">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.12';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.a85e2f1fefeea635.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.a707b621c77f7e48.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork.runestone.academy/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="ac-companion" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">The Active Calculus Companion</span></a></h1>
+<p class="byline">Oscar Levin, Christina Safranski</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-2-4-other-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="C-2.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dollar}{\$}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\arctanh}{arctanh}
+              \DeclareMathOperator{\arcsec}{arcsec}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-1.html" class="internal"><span class="codenumber">1</span> <span class="title">Understanding the Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-vel.html" class="internal"><span class="codenumber">1.1</span> <span class="title">How do we measure velocity?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-4" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Foundational Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-5" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-lim.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The notion of limit</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-lim.html#sec-1-2-lim-4" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Foundational Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-lim.html#sec-1-2-lim-5" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-derivative-pt.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The derivative of a function at a point</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Additional Section Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-5" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Foundational Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The derivative function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-2" class="internal"><span class="codenumber">1.4</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-3" class="internal"><span class="codenumber">1.4</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-units.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Interpreting, estimating, and using the derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-2" class="internal"><span class="codenumber">1.5</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-3" class="internal"><span class="codenumber">1.5</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-6-second-d.html" class="internal"><span class="codenumber">1.6</span> <span class="title">The second derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-2" class="internal"><span class="codenumber">1.6</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-3" class="internal"><span class="codenumber">1.6</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Limits, continuity, and differentiability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-2" class="internal"><span class="codenumber">1.7</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-3" class="internal"><span class="codenumber">1.7</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html" class="internal"><span class="codenumber">1.8</span> <span class="title">The tangent line approximation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#fe-tan-line-approx" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#ap-tan-line-approx" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Additional Practice</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="C-2.html" class="internal"><span class="codenumber">2</span> <span class="title">Computing Derivatives</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-elem-rules.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Elementary derivative rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#fe-elem-rules" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#ap-elem-rules" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-sin-cos.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#fe-sin-cos" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#ap-sin-cos" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-prod-quot.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The product and quotient rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#sec-2-3-prod-quot-2" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Foundational Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#ap-prod-quot" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-other-trig.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Derivatives of other trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#fe-other-trig" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#ae-other-trig" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Additional Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-2-5-chain.html" class="internal"><span class="codenumber">2.5</span> <span class="title">The chain rule</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-chain.html#sec-2-5-chain-4" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Foundational Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-chain.html#sec-2-5-chain-5" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Additional Practice Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="integral-table.html" class="internal"><span class="codenumber">A</span> <span class="title">A Short Table of Integrals</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="activities-answers.html" class="internal"><span class="codenumber">B</span> <span class="title">Answers to Activities</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="exercises-answers.html" class="internal"><span class="codenumber">C</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-2-5-chain"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The chain rule</span>
+</h2>
+<article class="objectives goal-like" id="sec-2-5-chain-2"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc" id="sec-2-5-chain-2-1">
+<li id="sec-2-5-chain-2-1-1">
+<div class="para" id="sec-2-5-chain-2-1-1-1">Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-2-5-chain-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-2-5-chain-2-1-2">
+<div class="para" id="sec-2-5-chain-2-1-2-1">Use a combination of basic derivative rules (including trigonometric and exponential), product and quotient rules, and chain rule to take the derivative of a complicated function.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-2-5-chain-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Objectives 2.5"><a href="#sec-2-5-chain-2" title="Copy heading and permalink for Objectives 2.5" aria-label="Copy heading and permalink for Objectives 2.5">🔗</a></div></article><article class="outcomes goal-like" id="sec-2-5-chain-3"><h3 class="heading"><span class="type">Foundations</span></h3>
+<ul class="disc" id="sec-2-5-chain-3-1">
+<li id="sec-2-5-chain-3-1-1">
+<div class="para" id="sec-2-5-chain-3-1-1-1">Structure of functions: composition, product, quotient<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Outcome"><a href="#sec-2-5-chain-3-1-1" title="Copy heading and permalink for Outcome" aria-label="Copy heading and permalink for Outcome">🔗</a></div>
+</li>
+<li id="sec-2-5-chain-3-1-2">
+<div class="para" id="sec-2-5-chain-3-1-2-1">All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Outcome"><a href="#sec-2-5-chain-3-1-2" title="Copy heading and permalink for Outcome" aria-label="Copy heading and permalink for Outcome">🔗</a></div>
+</li>
+<li id="sec-2-5-chain-3-1-3">
+<div class="para" id="sec-2-5-chain-3-1-3-1">What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Outcome"><a href="#sec-2-5-chain-3-1-3" title="Copy heading and permalink for Outcome" aria-label="Copy heading and permalink for Outcome">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Foundations 2.5"><a href="#sec-2-5-chain-3" title="Copy heading and permalink for Foundations 2.5" aria-label="Copy heading and permalink for Foundations 2.5">🔗</a></div></article><section class="subsection" id="sec-2-5-chain-4"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Foundational Exercises</span>
+</h3>
+<div class="para" id="sec-2-5-chain-4-2">One of the most useful ways of constructing functions from other functions is “composition”: doing one function and then doing another function to the result.  Rather than substituting a <em class="emphasis">number</em> in for the input of a function, we substitute a whole second <em class="emphasis">function</em> in for the input of a function.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-2-5-chain-4-3">We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the rate of change of the more complicated function.  We treat the “inside” or “substituted” function as if it were a single variable, take the derivative of the “outer” function with respect to that variable, and multiply by the derivative of the “inside” function.<div class="autopermalink" data-description="Paragraph"><a href="#sec-2-5-chain-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="chain-rule"><h4 class="heading"><span class="title">The Chain Rule.</span></h4>
+<div class="para logical" id="chain-rule-2">
+<div class="para"> If <span class="process-math">\(g\)</span> is differentiable at <span class="process-math">\(x\)</span> and <span class="process-math">\(f\)</span> is differentiable at <span class="process-math">\(g(x)\text{,}\)</span> then the composite function <span class="process-math">\(C\)</span> defined by <span class="process-math">\(C(x) = f(g(x))\)</span> is differentiable at <span class="process-math">\(x\)</span> and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+C'(x) = f'(g(x)) g'(x)\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#chain-rule-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="chain-rule-3">
+<div class="para">Another formulation of this rule which says the same thing using different notation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{dC}{dx}=\frac{df}{dg}\frac{dg}{dx}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#chain-rule-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: The Chain Rule"><a href="#chain-rule" title="Copy heading and permalink for Assemblage: The Chain Rule" aria-label="Copy heading and permalink for Assemblage: The Chain Rule">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-graph-1"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition from a graph.</span>
+</h4>
+<div id="webwork-136" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="136" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-136')">Activate</button></div>
+<div class="problem-contents">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/webwork/images/webwork-136-image-1.png" class="contained"></div></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0" style="max-width:120"><div class="para" id="extracted-webwork-136-1-1-1-1-3-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y = f(x)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y = g(x)\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-136-1-1-2">Use the graphs of <span class="process-math">\(y = f(x)\)</span> and <span class="process-math">\(y = g(x)\)</span> above to the find the function value.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-136-1-1-3">(a) <span class="process-math">\((g\circ f)(2) =\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-136-1-1-4">(b) <span class="process-math">\((g\circ g)(4) =\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-136-1-1-5"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="extracted-webwork-136-1-1-6">If the video does not work, <a class="external" href="" target="_blank">click here to watch on YouTube.</a><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-136-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.1: Composition from a graph"><a href="#fcns-compose-graph-1" title="Copy heading and permalink for Foundational Exercise 2.5.1.1: Composition from a graph" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.1: Composition from a graph">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-graph-2"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition from a graph.</span>
+</h4>
+<div id="webwork-137" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="137" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_45.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-137')">Activate</button></div>
+<div class="problem-contents">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/webwork/images/webwork-137-image-1.png" class="contained"></div></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0" style="max-width:120"><div class="para" id="extracted-webwork-137-1-1-1-1-3-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-137-1-1-1-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y = f(x)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines"></td>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(y = g(x)\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-137-1-1-2">Use the graphs of <span class="process-math">\(y = f(x)\)</span> and <span class="process-math">\(y = g(x)\)</span> above to the find the function value.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-137-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-137-1-1-3">(a) <span class="process-math">\((g\circ f)(3) =\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-137-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-137-1-1-4">(b) <span class="process-math">\((g\circ g)(0) =\)</span> <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-137-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.2: Composition from a graph"><a href="#fcns-compose-graph-2" title="Copy heading and permalink for Foundational Exercise 2.5.1.2: Composition from a graph" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.2: Composition from a graph">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-algebra-1"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using algebra.</span>
+</h4>
+<div id="webwork-138" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="138" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_11.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-138')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-138-1-1-1">Let <span class="process-math">\(f(x) = {-7x^{2}-7}\)</span> and <span class="process-math">\(g(x) = {4x+8}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-138-1-1-2">
+<ul class="square" id="extracted-webwork-138-1-1-2-1">
+<li id="extracted-webwork-138-1-1-2-1-1">
+<div class="para" id="extracted-webwork-138-1-1-2-1-1-1">
+<span class="process-math">\((f\circ g)(x) =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-138-1-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-138-1-1-2-1-2">
+<div class="para" id="extracted-webwork-138-1-1-2-1-2-1">
+<span class="process-math">\((g\circ f)(x) =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-138-1-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-138-1-1-2-1-3">
+<div class="para" id="extracted-webwork-138-1-1-2-1-3-1">
+<span class="process-math">\((f\circ g)(-4) =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-138-1-1-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-138-1-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div> <div class="para" id="extracted-webwork-138-1-1-4">If the video does not work, <a class="external" href="" target="_blank">click here to watch on YouTube.</a><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-138-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.3: Composition using algebra"><a href="#fcns-compose-algebra-1" title="Copy heading and permalink for Foundational Exercise 2.5.1.3: Composition using algebra" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.3: Composition using algebra">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-algebra-2"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using algebra.</span>
+</h4>
+<div id="webwork-139" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="139" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_13.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-139')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-139-1-1-1">Let <span class="process-math">\(f(x) = {\sqrt{x}-2}\)</span> and <span class="process-math">\(g(x) = {x^{2}+8}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-139-1-1-2">
+<ul class="square" id="extracted-webwork-139-1-1-2-1">
+<li id="extracted-webwork-139-1-1-2-1-1">
+<div class="para" id="extracted-webwork-139-1-1-2-1-1-1">
+<span class="process-math">\((f\circ g)(x) =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-1-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-139-1-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-139-1-1-2-1-2">
+<div class="para" id="extracted-webwork-139-1-1-2-1-2-1">
+<span class="process-math">\((g\circ f)(x) =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-1-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-139-1-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-139-1-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="extracted-webwork-139-1-2-1">For any input  <span class="process-math">\(x\)</span>  and functions  <span class="process-math">\(f\)</span>  and  <span class="process-math">\(g\text{,}\)</span>  this action defines a composite function, which we write as <span class="process-math">\(f \circ g\)</span>  such that<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-139-1-2-2">
+<span class="process-math">\(\displaystyle{(f\circ g)(x) = f(g(x))}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-139-1-2-3">The domain of the composite function  <span class="process-math">\(f\circ g\)</span>  is all  <span class="process-math">\(x\)</span>  such that  <span class="process-math">\(x\)</span>  is in the domain of  <span class="process-math">\(g\)</span>  and  <span class="process-math">\(g(x)\)</span>  is in the domain of  <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-139-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 2.5.1.4.1"><a href="#extracted-webwork-139-1-2" title="Copy heading and permalink for Hint 2.5.1.4.1" aria-label="Copy heading and permalink for Hint 2.5.1.4.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.4: Composition using algebra"><a href="#fcns-compose-algebra-2" title="Copy heading and permalink for Foundational Exercise 2.5.1.4: Composition using algebra" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.4: Composition using algebra">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-algebra-3"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using algebra.</span>
+</h4>
+<div id="webwork-140" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="140" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-140')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-140-1-1-1">Let <span class="process-math">\(\displaystyle{f(x) = {\frac{1}{x-5}}}\)</span> and <span class="process-math">\(\displaystyle{g(x) = {\frac{4}{x}-7}}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-140-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-140-1-1-2">
+<ul class="square" id="extracted-webwork-140-1-1-2-1">
+<li id="extracted-webwork-140-1-1-2-1-1">
+<div class="para" id="extracted-webwork-140-1-1-2-1-1-1">
+<span class="process-math">\(\displaystyle{ (f\circ g)(x) = }\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-140-1-1-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-140-1-1-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-140-1-1-2-1-2">
+<div class="para" id="extracted-webwork-140-1-1-2-1-2-1">
+<span class="process-math">\(\displaystyle{ (g\circ f)(x) = }\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-140-1-1-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-140-1-1-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-140-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.5: Composition using algebra"><a href="#fcns-compose-algebra-3" title="Copy heading and permalink for Foundational Exercise 2.5.1.5: Composition using algebra" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.5: Composition using algebra">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-table-1"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using a table of values.</span>
+</h4>
+<div id="webwork-141" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="141" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_59.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-141')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-141-1-1-1">
+<div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-1-1">
+<span class="process-math">\(x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-2-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-3-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-4-1">3<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-5-1">4<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-6-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-7-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-8-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-9-1">8<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-1-10-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-1-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-1-1">
+<span class="process-math">\(f(x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-2-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-3-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-4-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-5-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-6-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-7-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-8-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-9-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-2-10-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-2-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-1-1">
+<span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-2-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-3-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-4-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-5-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-6-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-7-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-8-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-9-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-141-1-1-1-1-3-10-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1-1-3-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-141-1-1-2">Use the table to evaluate the expression,<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-141-1-1-3">
+<span class="process-math">\((f\circ g)(1)=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-141-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.6: Composition using a table of values"><a href="#fcns-compose-table-1" title="Copy heading and permalink for Foundational Exercise 2.5.1.6: Composition using a table of values" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.6: Composition using a table of values">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-table-2"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using a table of values.</span>
+</h4>
+<div id="webwork-142" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="142" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-142')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-142-1-1-1">
+<div class="sbsgroup">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-1-1">
+<span class="process-math">\(x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-2-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-3-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-4-1">3<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-5-1">4<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-6-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-7-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-8-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-9-1">8<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-1-10-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-1-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-1-1">
+<span class="process-math">\(f(x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-2-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-3-1">7<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-4-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-5-1">8<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-6-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-7-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-8-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-9-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-2-10-1">9<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-2-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-1-1">
+<span class="process-math">\(g(x)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-2-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-3-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-4-1">1<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-5-1">5<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-6-1">8<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-7-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-8-1">2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-9-1">6<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel sbspanel--top top" style=""><div class="para" id="extracted-webwork-142-1-1-1-1-3-10-1">4<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1-1-3-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div></div>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-142-1-1-2">Use the table to evaluate the expression,<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-142-1-1-3">
+<span class="process-math">\((g\circ f)(8)=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-142-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.7: Composition using a table of values"><a href="#fcns-compose-table-2" title="Copy heading and permalink for Foundational Exercise 2.5.1.7: Composition using a table of values" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.7: Composition using a table of values">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-algebra-4"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using algebra.</span>
+</h4>
+<div id="webwork-143" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="143" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/CUNY/OPLremix/Library/Rochester/setAlgebra17FunComposition/s0_1_87_mo.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-143')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-143-1-1-1">Let <span class="process-math">\(f(x) = 3 x + 3\)</span> and <span class="process-math">\(g(x) = 4 x^2 + 2 x\text{.}\)</span> Match the functions obtained by composition with the letters labeling their algebraically equivalent expressions.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-143-1-1-2">You must get all of the answers correct to receive credit.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-143-1-1-3">
+<ol class="decimal" id="extracted-webwork-143-1-1-3-1">
+<li id="extracted-webwork-143-1-1-3-1-1">
+<div class="para" id="extracted-webwork-143-1-1-3-1-1-1">
+<span class="process-math">\(\displaystyle g \circ f\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.1"><a href="#extracted-webwork-143-1-1-3-1-1" title="Copy heading and permalink for Item 2.5.1.8.1" aria-label="Copy heading and permalink for Item 2.5.1.8.1">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-3-1-2">
+<div class="para" id="extracted-webwork-143-1-1-3-1-2-1">
+<span class="process-math">\(\displaystyle f \circ f\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.2"><a href="#extracted-webwork-143-1-1-3-1-2" title="Copy heading and permalink for Item 2.5.1.8.2" aria-label="Copy heading and permalink for Item 2.5.1.8.2">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-3-1-3">
+<div class="para" id="extracted-webwork-143-1-1-3-1-3-1">
+<span class="process-math">\(\displaystyle g \circ g\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.3"><a href="#extracted-webwork-143-1-1-3-1-3" title="Copy heading and permalink for Item 2.5.1.8.3" aria-label="Copy heading and permalink for Item 2.5.1.8.3">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-3-1-4">
+<div class="para" id="extracted-webwork-143-1-1-3-1-4-1">
+<span class="process-math">\(\displaystyle f \circ g\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.4"><a href="#extracted-webwork-143-1-1-3-1-4" title="Copy heading and permalink for Item 2.5.1.8.4" aria-label="Copy heading and permalink for Item 2.5.1.8.4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-143-1-1-4">
+<ol class="upper-alpha ol-marker-1" id="extracted-webwork-143-1-1-4-1">
+<li id="extracted-webwork-143-1-1-4-1-1">
+<div class="para" id="extracted-webwork-143-1-1-4-1-1-1">
+<span class="process-math">\(\displaystyle 9 x + 12\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.A"><a href="#extracted-webwork-143-1-1-4-1-1" title="Copy heading and permalink for Item 2.5.1.8.A" aria-label="Copy heading and permalink for Item 2.5.1.8.A">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-4-1-2">
+<div class="para" id="extracted-webwork-143-1-1-4-1-2-1">
+<span class="process-math">\(\displaystyle 12 x^2 + 6 x + 3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-4-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.B"><a href="#extracted-webwork-143-1-1-4-1-2" title="Copy heading and permalink for Item 2.5.1.8.B" aria-label="Copy heading and permalink for Item 2.5.1.8.B">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-4-1-3">
+<div class="para" id="extracted-webwork-143-1-1-4-1-3-1">
+<span class="process-math">\(\displaystyle 36 x^2 + 78 x + 42\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-4-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.C"><a href="#extracted-webwork-143-1-1-4-1-3" title="Copy heading and permalink for Item 2.5.1.8.C" aria-label="Copy heading and permalink for Item 2.5.1.8.C">🔗</a></div>
+</li>
+<li id="extracted-webwork-143-1-1-4-1-4">
+<div class="para" id="extracted-webwork-143-1-1-4-1-4-1">
+<span class="process-math">\(\displaystyle 64 x^4 + 64 x^3 + 24 x^2 + 4 x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-4-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.5.1.8.D"><a href="#extracted-webwork-143-1-1-4-1-4" title="Copy heading and permalink for Item 2.5.1.8.D" aria-label="Copy heading and permalink for Item 2.5.1.8.D">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-143-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.8: Composition using algebra"><a href="#fcns-compose-algebra-4" title="Copy heading and permalink for Foundational Exercise 2.5.1.8: Composition using algebra" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.8: Composition using algebra">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-identify-1"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Identifying functions in a composition.</span>
+</h4>
+<div id="webwork-144" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="144" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-144')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-144-1-1-1">Express the function <span class="process-math">\(y = \sqrt{ x^2 + 9 }\)</span> as a composition <span class="process-math">\(y = f(g(x))\)</span> of two simpler functions <span class="process-math">\(y = f(u)\)</span> and <span class="process-math">\(u = g(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-144-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-144-1-1-2">
+<span class="process-math">\(f(u)\)</span> = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-144-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-144-1-1-3">
+<span class="process-math">\(g(x)\)</span> = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-144-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.9: Identifying functions in a composition"><a href="#fcns-compose-identify-1" title="Copy heading and permalink for Foundational Exercise 2.5.1.9: Identifying functions in a composition" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.9: Identifying functions in a composition">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-identify-2"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Identifying functions in a composition.</span>
+</h4>
+<div id="webwork-145" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="145" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-145')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-145-1-1-1">Let <span class="process-math">\(f(x) = \sqrt{ 7 - 2 x }\)</span> .<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-145-1-1-2">Which of the following decompositions of <span class="process-math">\(f(x) = p (q(x) )\)</span> into a pair of functions <span class="process-math">\(p(x)\)</span> (the outside function)  and <span class="process-math">\(q(x)\)</span> (the inside function) is/are correct ?  Select all that apply if more than one is appropriate.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-145-1-1-3">
+<ul class="square" id="extracted-webwork-145-1-1-3-1">
+<li id="extracted-webwork-145-1-1-3-1-1">
+<div class="para" id="extracted-webwork-145-1-1-3-1-1-1">
+<span class="process-math">\(p(x) = 7 - 2 x\)</span> and <span class="process-math">\(q(x) = \sqrt{x}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-2">
+<div class="para" id="extracted-webwork-145-1-1-3-1-2-1">
+<span class="process-math">\(p(x) = \sqrt{- 2 x}\)</span> and <span class="process-math">\(q(x) = 7 + x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-3">
+<div class="para" id="extracted-webwork-145-1-1-3-1-3-1">
+<span class="process-math">\(p(x) = \sqrt{7 - x}\)</span> and <span class="process-math">\(q(x) = 2 x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-4">
+<div class="para" id="extracted-webwork-145-1-1-3-1-4-1">
+<span class="process-math">\(p(x) = \sqrt{-x}\)</span> and <span class="process-math">\(q(x) = 2 x - 7\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-5">
+<div class="para" id="extracted-webwork-145-1-1-3-1-5-1">
+<span class="process-math">\(p(x) = \sqrt{x}\)</span> and <span class="process-math">\(q(x) = 7 - 2 x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-6">
+<div class="para" id="extracted-webwork-145-1-1-3-1-6-1">
+<span class="process-math">\(p(x) = \sqrt{7 + x}\)</span> and <span class="process-math">\(q(x) = 2 x\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-7">
+<div class="para" id="extracted-webwork-145-1-1-3-1-7-1">All of the above<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-145-1-1-3-1-8">
+<div class="para" id="extracted-webwork-145-1-1-3-1-8-1">None of the above<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-145-1-1-3-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-145-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.10: Identifying functions in a composition"><a href="#fcns-compose-identify-2" title="Copy heading and permalink for Foundational Exercise 2.5.1.10: Identifying functions in a composition" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.10: Identifying functions in a composition">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-algebra-5"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using algebra.</span>
+</h4>
+<div id="webwork-146" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="146" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap1Sec3/Q03.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-146')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-146-1-1-1">For the function <span class="process-math">\(f(x)=2 e^{x}\)</span> and <span class="process-math">\(g(x)=x^{5}\text{,}\)</span> find the following:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-146-1-1-2">
+<em class="alert">(a)</em> <span class="process-math">\(f(g(1))\)</span>= <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-146-1-1-3">
+<em class="alert">(b)</em> <span class="process-math">\(g(f(1))\)</span>= <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-146-1-1-4">
+<em class="alert">(c)</em> <span class="process-math">\(f(g(x))\)</span>= <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-146-1-1-5">
+<em class="alert">(d)</em> <span class="process-math">\(g(f(x))\)</span>= <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-146-1-1-6">
+<em class="alert">(e)</em> <span class="process-math">\(f(t)g(t)\)</span>= <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-146-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.11: Composition using algebra"><a href="#fcns-compose-algebra-5" title="Copy heading and permalink for Foundational Exercise 2.5.1.11: Composition using algebra" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.11: Composition using algebra">🔗</a></div></article><article class="exercise exercise-like" id="fcns-compose-graph-3"><h4 class="heading">
+<span class="type">Foundational Exercise</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.1.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Composition using graphs.</span>
+</h4>
+<div id="webwork-147" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="147" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap1Sec3/Q43.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-147')">Activate</button></div>
+<div class="problem-contents">
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><div class="image-box" style="width: 41%; margin-left: 29.5%; margin-right: 29.5%;"><img src="generated/webwork/images/webwork-147-image-1.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2" style="max-width:120"><div class="para" id="extracted-webwork-147-1-1-1-1-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-147-1-1-1-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-147-1-1-2">Use the figures above, which show the functions <span class="process-math">\(f(x)\)</span> and <span class="process-math">\(g(x)\text{,}\)</span> to find the following values. Note that you can find exact values.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-147-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-147-1-1-3">
+<em class="alert">1.</em> <span class="process-math">\(f(g(10))\)</span>=<span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-147-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-147-1-1-4">
+<em class="alert">2.</em> <span class="process-math">\(g(f(0))\)</span>=<span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-147-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-147-1-1-5">
+<em class="alert">3.</em> <span class="process-math">\(g(g(-6))\)</span>=<span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-147-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Foundational Exercise 2.5.1.12: Composition using graphs"><a href="#fcns-compose-graph-3" title="Copy heading and permalink for Foundational Exercise 2.5.1.12: Composition using graphs" aria-label="Copy heading and permalink for Foundational Exercise 2.5.1.12: Composition using graphs">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.5.1: Foundational Exercises"><a href="#sec-2-5-chain-4" title="Copy heading and permalink for Subsection 2.5.1: Foundational Exercises" aria-label="Copy heading and permalink for Subsection 2.5.1: Foundational Exercises">🔗</a></div></section><section class="exercises" id="sec-2-5-chain-5"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Additional Practice Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="chainrule-algebra-1"><h4 class="heading">
+<span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-148" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="148" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-148')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-148-1-1-1">Given the following functions: <span class="process-math">\(f(u)=u^{5/2}\)</span> and <span class="process-math">\(g(x)=x^{6}+1\text{.}\)</span> Find:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-148-1-1-2">
+<span class="process-math">\(f(g(x))=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-148-1-1-3">
+<span class="process-math">\(f'(u)=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-148-1-1-4">
+<span class="process-math">\(f'(g(x))=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-148-1-1-5">
+<span class="process-math">\(g'(x)=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-148-1-1-6">
+<span class="process-math">\((f\circ g)'(x)=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-148-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.1: Chain rule"><a href="#chainrule-algebra-1" title="Copy heading and permalink for Exercise 2.5.2.1: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.1: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-2"><h4 class="heading">
+<span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-149" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="149" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-149')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-149-1-1-1">Compute the derivative of the given function.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-149-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-149-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = -8 \csc(14 x)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-149-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-149-1-1-3">
+<span class="process-math">\(f'(x) =\)</span><span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-149-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.2: Chain rule"><a href="#chainrule-algebra-2" title="Copy heading and permalink for Exercise 2.5.2.2: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.2: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-3"><h4 class="heading">
+<span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-150" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="150" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-150')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-150-1-1-1">Compute the derivative of the given function.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-150-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-150-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \ln(\cos x)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-150-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-150-1-1-3">
+<span class="process-math">\(f'(x) =\)</span><span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-150-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.3: Chain rule"><a href="#chainrule-algebra-3" title="Copy heading and permalink for Exercise 2.5.2.3: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.3: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-4"><h4 class="heading">
+<span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-151" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="151" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_43.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-151')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-151-1-1-1">Find an equation of the tangent line to the curve at the following point:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-151-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-151-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+y = (1 + 8 x)^{10}, \; (0,1)\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-151-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-151-1-1-3">
+<span class="process-math">\(y=\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-151-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.4: Chain rule"><a href="#chainrule-algebra-4" title="Copy heading and permalink for Exercise 2.5.2.4: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.4: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-5"><h4 class="heading">
+<span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-152" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="152" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-152')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-152-1-1-1">Compute the derivative of the given function.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-152-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-152-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \sin^{7}(3 x)
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-152-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-152-1-1-3">
+<span class="process-math">\(f'(x) =\)</span><span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-152-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.5: Chain rule"><a href="#chainrule-algebra-5" title="Copy heading and permalink for Exercise 2.5.2.5: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.5: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-6"><h4 class="heading">
+<span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-153" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="153" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/NAU/setCalcI/chainLeibnitz.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-153')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-153-1-1-1">Suppose <span class="process-math">\(y = \sin(5 x^2+ 5 x+ 1)\text{.}\)</span> We can write <span class="process-math">\(y = \sin(u)\text{,}\)</span> where <span class="process-math">\(u =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span> . The Leibnitz notation for the chain rule is <span class="process-math">\(\displaystyle \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}\text{.}\)</span> The factors are <span class="process-math">\(\displaystyle \frac{dy}{du} =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> (written as a function of <span class="process-math">\(u\)</span> ) and <span class="process-math">\(\displaystyle \frac{du}{dx} =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> . Now substitue in the function of <span class="process-math">\(x\)</span> for <span class="process-math">\(u\)</span> to get<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-153-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-153-1-1-2">
+<span class="process-math">\(\displaystyle \frac{dy}{dx} =\)</span> <span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span> (written as a function of <span class="process-math">\(x\)</span> ).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-153-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.6: Chain rule"><a href="#chainrule-algebra-6" title="Copy heading and permalink for Exercise 2.5.2.6: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.6: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-7"><h4 class="heading">
+<span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-154" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="154" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-154')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-154-1-1-1">Suppose <span class="process-math">\(f(x)=\sin{x}\text{,}\)</span> and let <span class="process-math">\(k\)</span> be a real number. Let <span class="process-math">\(F(x)=f(x^k)\)</span> and <span class="process-math">\(G(x)=[f(x)]^k\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-154-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-154-1-1-2">Find expressions for (a) <span class="process-math">\(F'(x)\)</span> and (b) <span class="process-math">\(G'(x)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-154-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-154-1-1-3">(a) <span class="process-math">\(F'(x)=\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-154-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-154-1-1-4">(b) <span class="process-math">\(G'(x)=\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-154-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.7: Chain rule"><a href="#chainrule-algebra-7" title="Copy heading and permalink for Exercise 2.5.2.7: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.7: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-algebra-8"><h4 class="heading">
+<span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule.</span>
+</h4>
+<div id="webwork-155" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="155" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-155')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-155-1-1-1">a) The remote operated underwater vessel ROPOS descends at a rate of <span class="process-math">\(6\)</span> meters per minute.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-155-1-1-2">b) The pressure on ROPOS increases by <span class="process-math">\(10\)</span> Pascals for every meter ROPOS descends.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-155-1-1-3">c) Therefore the pressure on ROPOS is increasing by <span class="process-math">\(60\)</span> Pascals every minute.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-155-1-1-4">If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-155-1-1-5">
+<div class="para">a)</div>
+<ul class="square" id="extracted-webwork-155-1-1-5-1">
+<li id="extracted-webwork-155-1-1-5-1-1">
+<div class="para" id="extracted-webwork-155-1-1-5-1-1-1">ds/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-5-1-2">
+<div class="para" id="extracted-webwork-155-1-1-5-1-2-1">dP/ds<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-5-1-3">
+<div class="para" id="extracted-webwork-155-1-1-5-1-3-1">dP/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">=<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+<ul class="square" id="extracted-webwork-155-1-1-5-3">
+<li id="extracted-webwork-155-1-1-5-3-1">
+<div class="para" id="extracted-webwork-155-1-1-5-3-1-1">Pa/m<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-5-3-2">
+<div class="para" id="extracted-webwork-155-1-1-5-3-2-1">m/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-5-3-3">
+<div class="para" id="extracted-webwork-155-1-1-5-3-3-1">Pa/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-5-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-155-1-1-6">
+<div class="para">b)</div>
+<ul class="square" id="extracted-webwork-155-1-1-6-1">
+<li id="extracted-webwork-155-1-1-6-1-1">
+<div class="para" id="extracted-webwork-155-1-1-6-1-1-1">ds/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-6-1-2">
+<div class="para" id="extracted-webwork-155-1-1-6-1-2-1">dP/ds<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-6-1-3">
+<div class="para" id="extracted-webwork-155-1-1-6-1-3-1">dP/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">=<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+<ul class="square" id="extracted-webwork-155-1-1-6-3">
+<li id="extracted-webwork-155-1-1-6-3-1">
+<div class="para" id="extracted-webwork-155-1-1-6-3-1-1">Pa/m<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-6-3-2">
+<div class="para" id="extracted-webwork-155-1-1-6-3-2-1">m/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-6-3-3">
+<div class="para" id="extracted-webwork-155-1-1-6-3-3-1">Pa/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-6-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-155-1-1-7">
+<div class="para">c)</div>
+<ul class="square" id="extracted-webwork-155-1-1-7-1">
+<li id="extracted-webwork-155-1-1-7-1-1">
+<div class="para" id="extracted-webwork-155-1-1-7-1-1-1">dP/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-7-1-2">
+<div class="para" id="extracted-webwork-155-1-1-7-1-2-1">ds/dt<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-7-1-3">
+<div class="para" id="extracted-webwork-155-1-1-7-1-3-1">dP/ds<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">=<span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>
+</div>
+<ul class="square" id="extracted-webwork-155-1-1-7-3">
+<li id="extracted-webwork-155-1-1-7-3-1">
+<div class="para" id="extracted-webwork-155-1-1-7-3-1-1">Pa/m<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-7-3-2">
+<div class="para" id="extracted-webwork-155-1-1-7-3-2-1">m/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-155-1-1-7-3-3">
+<div class="para" id="extracted-webwork-155-1-1-7-3-3-1">Pa/min<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-155-1-1-7-3-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-155-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.8: Chain rule"><a href="#chainrule-algebra-8" title="Copy heading and permalink for Exercise 2.5.2.8: Chain rule" aria-label="Copy heading and permalink for Exercise 2.5.2.8: Chain rule">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-solvingpieces-1"><h4 class="heading">
+<span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using chain rule and information.</span>
+</h4>
+<div id="webwork-156" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="156" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/NAU/setCalcI/chainEquTang.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-156')">Activate</button></div>
+<div class="problem-contents"><div class="para" id="extracted-webwork-156-1-1-1">Find <span class="process-math">\(h'(3)\)</span> if <span class="process-math">\(h=f\circ g\text{,}\)</span> <span class="process-math">\(f(x) = -5 x^2+8\)</span> and the equation of the tangent line of <span class="process-math">\(g\)</span> at <span class="process-math">\(3\)</span> is <span class="process-math">\(y= 6 x+10\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-156-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.9: Using chain rule and information"><a href="#chainrule-solvingpieces-1" title="Copy heading and permalink for Exercise 2.5.2.9: Using chain rule and information" aria-label="Copy heading and permalink for Exercise 2.5.2.9: Using chain rule and information">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-solvingpieces-2"><h4 class="heading">
+<span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Using chain rule and information.</span>
+</h4>
+<div id="webwork-157" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="157" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-157')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-157-1-1-1">
+<div class="para">It is given to you that an equation of the tangent line to the graph of <span class="process-math">\(y=g(x)\)</span> at <span class="process-math">\(x = 9\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3 x + 10 y = -43
+\end{equation*}
+</div>
+<div class="para">It follows that <span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> is the equation of the tangent line to <span class="process-math">\(y = g(x^2)\)</span> at <span class="process-math">\(x = 3\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-157-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-157-1-1-2">and that <span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> is the equation of the tangent line to <span class="process-math">\(y = \left(g(x)\right)^2\)</span> at <span class="process-math">\(x = 9\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-157-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.10: Using chain rule and information"><a href="#chainrule-solvingpieces-2" title="Copy heading and permalink for Exercise 2.5.2.10: Using chain rule and information" aria-label="Copy heading and permalink for Exercise 2.5.2.10: Using chain rule and information">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-graph-1"><h4 class="heading">
+<span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule from graph.</span>
+</h4>
+<div id="webwork-158" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="158" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap3Sec4/Q57.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-158')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-158-1-1-1">Use the figures below to evaluate the indicated derivative, or state that it does not exist.  If the derivative does not exist, enter <em class="alert">dne</em> in the answer blank.  The graph to the left (in black) gives <span class="process-math">\(f(x)\text{,}\)</span> while the graph to the right gives <span class="process-math">\(g(x)\)</span> (which is constant for values of <span class="process-math">\(x\)</span> greater than 20).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-158-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><div class="image-box" style="width: 41%; margin-left: 29.5%; margin-right: 29.5%;"><img src="generated/webwork/images/webwork-158-image-1.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2" style="max-width:120"><div class="para" id="extracted-webwork-158-1-1-2-1-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-158-1-1-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(f(x)\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-158-1-1-3">
+<span class="process-math">\(\frac{d}{dx}f(g(x))|_{x=10} =\)</span> <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-158-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-158-1-1-4">
+<em class="emphasis">(If the derivative does not exist, enter <em class="alert">dne</em>.)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-158-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.11: Chain rule from graph"><a href="#chainrule-graph-1" title="Copy heading and permalink for Exercise 2.5.2.11: Chain rule from graph" aria-label="Copy heading and permalink for Exercise 2.5.2.11: Chain rule from graph">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-graph-2"><h4 class="heading">
+<span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule from graph.</span>
+</h4>
+<div id="webwork-159" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="159" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap3Sec6/Q49.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-159')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-159-1-1-1">Consider the graphs below, which give <span class="process-math">\(m(x)\)</span> in the left graph, in black, and <span class="process-math">\(n(x)\)</span> in the right graph, in blue.  Both functions have a sharp corner at <span class="process-math">\(x = 50\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-159-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><div class="image-box" style="width: 41%; margin-left: 29.5%; margin-right: 29.5%;"><img src="generated/webwork/images/webwork-159-image-1.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2" style="max-width:120"><div class="para" id="extracted-webwork-159-1-1-2-1-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-159-1-1-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(m(x)\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="process-math">\(n(x)\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-159-1-1-3">Let <span class="process-math">\(h(x) = n(m(x))\text{.}\)</span>  Find a point <span class="process-math">\(x\)</span> where <span class="process-math">\(h'(x) = -0.14\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-159-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-159-1-1-4">
+<span class="process-math">\(x =\)</span> <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-159-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.12: Chain rule from graph"><a href="#chainrule-graph-2" title="Copy heading and permalink for Exercise 2.5.2.12: Chain rule from graph" aria-label="Copy heading and permalink for Exercise 2.5.2.12: Chain rule from graph">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-table-1"><h4 class="heading">
+<span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule from a table of values.</span>
+</h4>
+<div id="webwork-160" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="160" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-160')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-160-1-1-1">A table of values for <span class="process-math">\(f,g,f',\)</span> and <span class="process-math">\(g'\)</span> is given below:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-160-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{|c|c|c|c|c|}
+\hline
+x \amp  f(x) \amp  g(x) \amp  f'(x) \amp  g'(x) \\
+\hline
+1 \amp  3 \amp  2 \amp  4 \amp  6\\ 
+2 \amp  1 \amp  8 \amp  5 \amp  7\\
+3 \amp  7 \amp  2 \amp  7 \amp  9\\
+\hline
+\end{array}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-160-1-1-3">(a) If <span class="process-math">\(F(x)=f(f(x))\text{,}\)</span> find <span class="process-math">\(F'(2)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-160-1-1-4">(b) If <span class="process-math">\(G(x)=g(g(x))\text{,}\)</span> find <span class="process-math">\(G'(3)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-160-1-1-5">(a) <span class="process-math">\(F'(2) =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-160-1-1-6">(b) <span class="process-math">\(G'(3) =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-160-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.13: Chain rule from a table of values"><a href="#chainrule-table-1" title="Copy heading and permalink for Exercise 2.5.2.13: Chain rule from a table of values" aria-label="Copy heading and permalink for Exercise 2.5.2.13: Chain rule from a table of values">🔗</a></div></article><article class="exercise exercise-like" id="chainrule-table-2"><h4 class="heading">
+<span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Chain rule from a table of values.</span>
+</h4>
+<div class="introduction" id="chainrule-table-2-2"><div class="para" id="chainrule-table-2-2-1">Recall that the <em class="emphasis">central difference</em> is a way of approximating the value of the derivative at a specified number by calculating the slope of the line through the two points on either side of the specified number.  That’s what this problem is asking you to use along with the chain rule.<div class="autopermalink" data-description="Paragraph"><a href="#chainrule-table-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div id="webwork-161" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="161" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-161')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-161-1-1-1">Use the table below to estimate the value of <span class="process-math">\(h'(.5)\text{,}\)</span> where <span class="process-math">\(h(x)=f(g(x))\)</span> to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at <span class="process-math">\(x=.1\text{,}\)</span> do the secant slopes on <span class="process-math">\([0,.1]\)</span> and <span class="process-math">\([.1,.2]\text{,}\)</span> and then average them).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-161-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-161-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{|c|c|c|}
+\hline
+x \amp  f(x) \amp  g(x) \\
+\hline
+0 \amp  12.6 \amp  .58  \\ 
+.1 \amp  14.8 \amp  .40 \\
+.2 \amp  18.4 \amp  .37 \\
+.3 \amp  23.0 \amp  .26 \\
+.4 \amp  25.9 \amp  .17 \\
+.5 \amp  27.5 \amp  .10 \\
+.6 \amp  29.1 \amp  .05 \\
+\hline
+\end{array}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-161-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-161-1-1-3">
+<span class="process-math">\(h'(.5) =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-161-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.14: Chain rule from a table of values"><a href="#chainrule-table-2" title="Copy heading and permalink for Exercise 2.5.2.14: Chain rule from a table of values" aria-label="Copy heading and permalink for Exercise 2.5.2.14: Chain rule from a table of values">🔗</a></div></article><article class="exercise exercise-like" id="derivrules-algebra-1"><h4 class="heading">
+<span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiple rules.</span>
+</h4>
+<div id="webwork-162" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="162" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/AlfredUniv/gateway/calcI/misc/prob2.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-162')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-162-1-1-1">Find <span class="process-math">\(\&gt;dy/dx\&gt;\)</span> if  <span class="process-math">\(\&gt;y = e^{x}\sqrt{x^{2}+1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-162-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-162-1-1-2">
+<span class="process-math">\(\frac{dy}{dx} =\)</span> <span class="fillin underline" role="img" aria-label="80-character blank" style="width: 36.3636363636364em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-162-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.15: Multiple rules"><a href="#derivrules-algebra-1" title="Copy heading and permalink for Exercise 2.5.2.15: Multiple rules" aria-label="Copy heading and permalink for Exercise 2.5.2.15: Multiple rules">🔗</a></div></article><article class="exercise exercise-like" id="derivrules-table-1"><h4 class="heading">
+<span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiple rules with a table.</span>
+</h4>
+<div id="webwork-163" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="163" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/METU-NCC/MAT101/Final/Table1.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-163')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-163-1-1-1">In the parts below, <span class="process-math">\(f{\small(x)}\text{,}\)</span> <span class="process-math">\(g{\small(x)}\text{,}\)</span> and their derivatives have values given in the table below<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c t b1 r1 l0 t0 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c t b1 r0 l0 t0 lines"><span class="process-math">\(f{\small(x)}\)</span></th>
+<th scope="col" class="c t b1 r1 l0 t0 lines"><span class="process-math">\(f'{\small(x)}\)</span></th>
+<th scope="col" class="c t b1 r0 l0 t0 lines"><span class="process-math">\(g{\small(x)}\)</span></th>
+<th scope="col" class="c t b1 r0 l0 t0 lines"><span class="process-math">\(g'{\small(x)}\)</span></th>
+</tr>
+<tr>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+</tr>
+<tr>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+</tr>
+<tr>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+</tr>
+<tr>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c t b0 r1 l0 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c t b0 r0 l0 t0 lines"><span class="process-math">\(3\)</span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-163-1-1-3">On your answer paper, write formulas for the following <em class="alert">derivatives</em> and then give their values at <span class="process-math">\(x=2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-4">
+<em class="alert">(A)</em> The <em class="alert">sum</em>  <span class="process-math">\((f+g)'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-5">
+<span class="process-math">\(\quad (f+g)'(2) =\)</span><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-6">
+<em class="alert">(B)</em> The <em class="alert">product</em>  <span class="process-math">\((fg)'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-7">
+<span class="process-math">\(\quad (fg)'(2) =\)</span><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-8">
+<em class="alert">(C)</em> The <em class="alert">quotient</em>  <span class="process-math">\(\left(\frac{f}{g}\right)'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-9">
+<span class="process-math">\(\quad \left(\frac{f}{g}\right)'(2) =\)</span><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-10">
+<em class="alert">(D)</em> The <em class="alert">composition</em>  <span class="process-math">\((f{\small(g)})'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-11">
+<span class="process-math">\(\quad \bigl(f(g)\bigr)'(2) =\)</span><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-12">
+<em class="alert">(E)</em> The <em class="alert">logarithm</em>  <span class="process-math">\(\bigl(\ln(f)\bigr)'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-13">
+<span class="process-math">\(\quad \bigl(\ln(f)\bigr)'\)</span> at <span class="process-math">\(x=2\)</span> is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-14">
+<em class="alert">(F)</em> The <em class="alert">exponential</em> <span class="process-math">\(\bigl(e^f\bigr)'\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-163-1-1-15">
+<span class="process-math">\(\quad \bigl(e^f\bigr)'\)</span> at <span class="process-math">\(x=2\)</span> is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-163-1-1-15" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.16: Multiple rules with a table"><a href="#derivrules-table-1" title="Copy heading and permalink for Exercise 2.5.2.16: Multiple rules with a table" aria-label="Copy heading and permalink for Exercise 2.5.2.16: Multiple rules with a table">🔗</a></div></article><article class="exercise exercise-like" id="derivrules-algebra-2"><h4 class="heading">
+<span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiple rules.</span>
+</h4>
+<div id="webwork-164" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="164" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-164')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-164-1-1-1">Suppose <span class="process-math">\(\displaystyle f(x) = h(g(x)k(x)).\)</span> If <span class="process-math">\(g(1)=2,\)</span> <span class="process-math">\(k(1)=0,\)</span> <span class="process-math">\(h(1)=-8,\)</span> <span class="process-math">\(g'(1)=2,\)</span> <span class="process-math">\(k'(1)=-3,\)</span> <span class="process-math">\(h'(1)=7,\)</span> and <span class="process-math">\(h'(0)=4,\)</span> find <span class="process-math">\(f'(1).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-164-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-164-1-1-2">Answer: <span class="process-math">\(f'(1) =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-164-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.17: Multiple rules"><a href="#derivrules-algebra-2" title="Copy heading and permalink for Exercise 2.5.2.17: Multiple rules" aria-label="Copy heading and permalink for Exercise 2.5.2.17: Multiple rules">🔗</a></div></article><article class="exercise exercise-like" id="derivrules-algebra-3"><h4 class="heading">
+<span class="codenumber">18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiple rules.</span>
+</h4>
+<div id="webwork-165" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="165" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-165')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-165-1-1-1">
+<div class="para">Compute the derivative of the given function.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(t) = \sqrt[4]{t}(\cot t + 7 e^{0.5 t}).
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-165-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-165-1-1-2">
+<span class="process-math">\(f'(t) =\)</span><span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-165-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.18: Multiple rules"><a href="#derivrules-algebra-3" title="Copy heading and permalink for Exercise 2.5.2.18: Multiple rules" aria-label="Copy heading and permalink for Exercise 2.5.2.18: Multiple rules">🔗</a></div></article><article class="exercise exercise-like" id="derivrules-algebra-4"><h4 class="heading">
+<span class="codenumber">19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Multiple rules.</span>
+</h4>
+<div id="webwork-166" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="166" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-166')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-166-1-1-1">Find  <span class="process-math">\(f'\text{,}\)</span> given<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-166-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-166-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x\sin^{3}\mathopen{}\left(x^{3}\right)}{\sqrt{x^{7}+1}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-166-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-166-1-1-3">
+<span class="process-math">\(f'( x ) =\)</span><span class="fillin underline" role="img" aria-label="80-character blank" style="width: 36.3636363636364em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-166-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.5.2.19: Multiple rules"><a href="#derivrules-algebra-4" title="Copy heading and permalink for Exercise 2.5.2.19: Multiple rules" aria-label="Copy heading and permalink for Exercise 2.5.2.19: Multiple rules">🔗</a></div></article><div class="autopermalink" data-description="Exercises 2.5.2: Additional Practice Exercises"><a href="#sec-2-5-chain-5" title="Copy heading and permalink for Exercises 2.5.2: Additional Practice Exercises" aria-label="Copy heading and permalink for Exercises 2.5.2: Additional Practice Exercises">🔗</a></div></section><div class="autopermalink" data-description="Section 2.5: The chain rule"><a href="#sec-2-5-chain" title="Copy heading and permalink for Section 2.5: The chain rule" aria-label="Copy heading and permalink for Section 2.5: The chain rule">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-2-4-other-trig.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
