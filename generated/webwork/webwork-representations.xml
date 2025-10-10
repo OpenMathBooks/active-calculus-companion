@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f05a8500)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f06146e8)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f0613ba0)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f0699b80)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4461,20 +4461,20 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
 <p>a)<var form="popup">
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
 <p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
 <li>
-<p>Pa/m</p>
+<p>m/min</p>
 </li>
 <li>
-<p>m/min</p>
+<p>Pa/m</p>
 </li>
 <li>
 <p>Pa/min</p>
@@ -4482,23 +4482,23 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </var></p>
 <p>b)<var form="popup">
 <li>
-<p>ds/dt</p>
+<p>dP/dt</p>
 </li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
-<p>dP/dt</p>
+<p>ds/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
+<li>
+<p>Pa/min</p>
+</li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
 <p>m/min</p>
-</li>
-<li>
-<p>Pa/min</p>
 </li>
 </var></p>
 <p>c)<var form="popup">
@@ -4900,5 +4900,353 @@ Use the Product Rule.
     </static>
     <rendering-data sourceFilePath="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-167" ww-id="webwork-167">
+    <static seed="167" source="Library/AlfredUniv/anton8e/chapter4/4.2/prob16.pg">
+      <statement><p>Find <m>\&gt;dy/dx\&gt;</m> if  <m>\&gt;y = \ln\mathopen{}\left(5x\right)</m>.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5\frac{1}{5x}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter4/4.2/prob16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter4/4.2/prob16.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-168" ww-id="webwork-168">
+    <static seed="168" source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg">
+      <statement><p>Find <m>\&gt;dy/dx\&gt;</m> if  <m>\&gt;y = x\ln\mathopen{}\left(x\right)</m>.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\ln\mathopen{}\left(x\right)+x\frac{1}{x}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-169" ww-id="webwork-169">
+    <static seed="169" source="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg">
+      <statement><p>Suppose that <m>f(x) = 15 e^{x} + 8 \ln(x)</m>.  Find <m>f'(3)</m>.</p>
+<p><m>f'(3)</m> = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>303.95</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-170" ww-id="webwork-170">
+    <static seed="170" source="Library/ASU-topics/setProductQuotientRule/5-2-35.pg">
+      <statement><p>Find the equation of the line tangent to the graph of <m>y=2 \ln(x)</m>
+at <m>x=4</m>.</p>
+<p>Tangent Line: <m>y =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.5\mathopen{}\left(x-4\right)+2\ln\mathopen{}\left(4\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setProductQuotientRule/5-2-35.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setProductQuotientRule/5-2-35.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-171" ww-id="webwork-171">
+    <static seed="171" source="Library/Michigan/Chap3Sec6/Q07.pg">
+      <statement><p>Find the derivative of the function <m>f(x)</m>, below.</p>
+<p><m>f(x) = \ln(e^x + 20)</m></p>
+<p><m>f'(x) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{e^{x}}{e^{x}+20}</m>
+        </p>
+      </answer>
+      <solution><m>f'(x) = \frac{e^x}{e^x + 20}</m>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec6/Q07.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec6/Q07.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-172" ww-id="webwork-172">
+    <static seed="172" source="Library/Michigan/Chap3Sec6/Q27.pg">
+      <statement><p>Find the derivative of the function <m>f(z)</m>, below.</p>
+<p><m>\displaystyle f(z) = \frac{1}{\ln(4z)}</m></p>
+<p><m>f'(z) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1\cdot 1\mathopen{}\left(\ln\mathopen{}\left(4z\right)\right)^{-2}}{z}</m>
+        </p>
+      </answer>
+      <solution><m>\displaystyle \frac{1}{\ln(4z)} = 1 (\ln(4z))^{-1}</m>, so
+that, applying the chain rule,
+
+<m>\displaystyle f'(z) = -1 (\ln(4 z))^{-2}\cdot\left(\frac{4}{4 z}\right) = 
+    \frac{-1}{z (\ln(4z))^2}</m>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec6/Q27.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec6/Q27.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-173" ww-id="webwork-173">
+    <static seed="173" source="Library/Rochester/setDerivatives7Log/sc3_7_2_mo.pg">
+      <statement><p>If <m>f(x) = 2\ln\mathopen{}\left(8+x\right)</m>, find <m>f'( x )</m>.</p>
+<p><m>f'(x) =</m><fillin characters="50" name="AnSwEr0001"/></p>
+<p>Find <m>f'( 2 )</m>.</p>
+<p><m>f'(2) =</m><fillin characters="50" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\frac{1}{8+x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.2</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives7Log/sc3_7_2_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives7Log/sc3_7_2_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-174" ww-id="webwork-174">
+    <static seed="174" source="Library/UCSB/Stewart5_3_8/Stewart5_3_8_13.pg">
+      <statement><p>Differentiate <m>\displaystyle g(x)=\ln{\left(\frac{4 -x}{4 +x}\right)}</m>.</p>
+<p><m>g'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-8}{16-x^{2}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_8/Stewart5_3_8_13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_8/Stewart5_3_8_13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-175" ww-id="webwork-175">
+    <static seed="175" source="Library/Michigan/Chap3Sec6/Q17.pg">
+      <statement><p>Find the derivative of the function <m>g(a)</m>, below.  It may be to
+your advantage to simplify before differentiating.</p>
+<p><m>g(a) = \tan(\arctan(3 a))</m></p>
+<p><m>g'(a) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+<p><em>(Your answer should be in simplified form.)</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><m>\arctan(\tan(3 a)) = 3 a</m>, so 
+<m>g'(a) = 3</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec6/Q17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec6/Q17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-176" ww-id="webwork-176">
+    <static seed="176" source="Library/Michigan/Chap3Sec6/Q25.pg">
+      <statement><p>Find the derivative of the function <m>f(x)</m>, below.  It may be to
+your advantage to simplify before differentiating.</p>
+<p><m>f(x) = \sin(\arcsin(9 x))</m></p>
+<p><m>f'(x) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <solution><m>f'(x) = \frac{d}{dx}(9 x) = 9</m>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec6/Q25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec6/Q25.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-177" ww-id="webwork-177">
+    <static seed="177" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg">
+      <statement><p>Differentiate <m>\displaystyle y=\tan^{-1}(\sqrt{x})</m>.</p>
+<p><m>y' =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{2x^{\frac{1}{2}}\mathopen{}\left(1+x\right)}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-178" ww-id="webwork-178">
+    <static seed="178" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_42.pg">
+      <statement><p>Differentiate <m>\displaystyle y=\sqrt{\arctan(x)}</m>.</p>
+<p><m>y' =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{2\mathopen{}\left(\tan^{-1}\mathopen{}\left(x\right)\right)^{0.5}\mathopen{}\left(1+x^{2}\right)}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_42.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_42.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-179" ww-id="webwork-179">
+    <static seed="179" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_44.pg">
+      <statement><p>Differentiate <m>\displaystyle y=\sqrt{1-x^2}\sin^{-1}{x}.</m></p>
+<p><m>y' =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-x\sin^{-1}\mathopen{}\left(x\right)}{\left(1-x^{2}\right)^{0.5}}+1</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_44.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_44.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-180" ww-id="webwork-180">
+    <static seed="180" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_50.pg">
+      <statement><p>Differentiate <m>y=\displaystyle \arctan(\cos{x}).</m></p>
+<p><m>y' =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-\sin\mathopen{}\left(x\right)}{1+\cos^{2}\mathopen{}\left(x\right)}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_50.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_50.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-181" ww-id="webwork-181">
+    <static seed="181" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_51.pg">
+      <statement><p>Differentiate <m>y=e^x-x^2\arctan{x}</m>.</p>
+<p><m>y' =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>e^{x}-2x\tan^{-1}\mathopen{}\left(x\right)-\frac{x^{2}}{1+x^{2}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_51.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_51.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-182" ww-id="webwork-182">
+    <static seed="182" source="Library/Union/setDervInverseTrig/ur_dr_6_1.pg">
+      <statement><p>Let <m>f(x) = \displaystyle 3x\sin^{-1}\mathopen{}\left(x\right)</m>.  Find <m>f'(x)</m>.</p>
+<p><m>f'(x) =</m> <fillin characters="50" name="AnSwEr0001"/></p>
+<p>Find <m>f'( 0.8 )</m>.</p>
+<p><m>f'( 0.8 ) =</m><fillin characters="50" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3\sin^{-1}\mathopen{}\left(x\right)+3x\frac{1}{\sqrt{1-x^{2}}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6.78189</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervInverseTrig/ur_dr_6_1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervInverseTrig/ur_dr_6_1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-183" ww-id="webwork-183">
+    <static seed="183" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg">
+      <statement><p>Let <m>f(x) = \sin( \arccos( x) )</m>.</p>
+<p>a) First find the derivative by using Chain Rule.</p>
+<p><m>f'(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) Next, we will find the derivative in a different way.
+Rewrite <m>f(x)</m> without trigonometric functions (Hint:
+Set up a right triangle with a side <m>x</m>).  When you have
+finished this step, <m>f(x)</m> can be written as:</p>
+<p><m>f(x) =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+<p>Then find the derivative of this equivalent form of <m>f</m>.</p>
+<p><m>f'(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-x}{\left(1-x^{2}\right)^{0.5}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\sqrt{1-x^{2}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{-x}{\left(1-x^{2}\right)^{0.5}}</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+<me>\dfrac{d}{dx}\left[ \sin(\arccos( x)) \right]
+  = \cos(\arccos( x)) \cdot \dfrac{-1}{\sqrt{1 - x^2}} = \frac{-x}{\sqrt{1 - x^2}}.</me>
+Let <m>\theta = \arccos( x)</m>.  Then <m>\cos \theta = \frac{x}{1}</m>.  Now 
+in a triangle with leg <m>x</m> and hypotenuse 1, the remaining
+side is equal to <m>\sqrt{1 - x^2}</m>.  This implies that 
+<me>\sin \theta = \frac{\sqrt{1 - x^2}}{1} = \sqrt{1 - x^2}.</me>
+But <m>\sin \theta</m> is exactly <m>\sin(\arccos( x)) = f(x)</m>.  Next, find
+the derivative:
+<me>\dfrac{d}{dx}\left[ \sqrt{1 - x^2} \right]
+  = \dfrac{1}{2}(1 - x^2)^{-1/2}(-2x)
+  = \dfrac{-x}{\sqrt{1-x^2}}.</me>
+The answer should match the derivative you found in the first part.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-184" ww-id="webwork-184">
+    <static seed="184" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg">
+      <statement><p>Find the equation of the line tangent to the graph
+of <m>f</m> at the indicated <m>x</m> value.
+<me>y = 6 \sin^{-1} 2 x, \quad x = 0</me></p>
+<p>Tangent line: <m>y=</m><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>12x</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Find the derivative: 
+<me>\dfrac{d}{dx}\left[ 6 \sin^{-1} 2 x \right] = \frac{12}{\sqrt{1-4*x^2}},</me>
+and plug in <m>x = 0</m> to get <m>m = 12</m>.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg"/>
   </webwork-reps>
 </webwork-representations>

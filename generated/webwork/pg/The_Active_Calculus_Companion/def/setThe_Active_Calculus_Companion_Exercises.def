@@ -1,6 +1,6 @@
-openDate          = 10/03/2025 at 12:00am
-dueDate           = 04/03/2026 at 10:00pm
-answerDate        = 04/03/2026 at 10:00pm
+openDate          = 10/09/2025 at 12:00am
+dueDate           = 04/09/2026 at 10:00pm
+answerDate        = 04/09/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 description       = The Active Calculus Companion
@@ -476,4 +476,76 @@ problem_end
 problem_start
 source_file = Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg
 problem_id = 19
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter4/4.2/prob16.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ASU-topics/setProductQuotientRule/5-2-35.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec6/Q07.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec6/Q27.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives7Log/sc3_7_2_mo.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_8/Stewart5_3_8_13.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec6/Q17.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec6/Q25.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_42.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_44.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_50.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_51.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/Union/setDervInverseTrig/ur_dr_6_1.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg
+problem_id = 18
 problem_end
