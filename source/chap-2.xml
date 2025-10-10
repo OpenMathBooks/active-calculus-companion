@@ -9,7 +9,8 @@
   <xi:include  href="./sec-2-4-other-trig.xml" />
 
   <xi:include  href="./sec-2-5-chain.xml" />
-  <!-- <xi:include  href="./sec-2-6-inverse.xml" />
+  <xi:include  href="./sec-2-6-inverse.xml" />
+  <!-- 
   <xi:include  href="./sec-2-7-implicit.xml" /> -->
 </chapter>
 
