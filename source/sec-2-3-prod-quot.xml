@@ -34,7 +34,7 @@
 
 
   <subsection>
-    <title>Foundational Exercises</title>
+    <title>Foundations</title>
     <p>
       Coming soon.
     </p>
@@ -42,7 +42,7 @@
   </subsection>
 
   <exercises xml:id="ap-prod-quot">
-    <title>Additional Practice Exercises</title>
+    <title>Calculus Practice</title>
     
   <exercise label="derivatives-prod-steps-1">
     <webwork source="Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg" />

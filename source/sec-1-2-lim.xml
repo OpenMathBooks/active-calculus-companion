@@ -38,7 +38,7 @@
   <!-- do we put them into separate files for easier editing later? -->
   
 
-  <subsection><title>Foundations</title>
+  <subsection xml:id="subsec-limits-foundations"><title>Foundations</title>
     <p>
       This section is about limits, the behavior of a function's output value as the input value is getting closer
       and closer (but not equal to) a specified number.  A function can be described by a graph, a table of values,
@@ -110,7 +110,7 @@
   </subsection>
 
 
-  <exercises><title>Calculus Practice</title>
+  <exercises xml:id="ap-limits"><title>Calculus Practice</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
     <webwork source="Library/UMN/calculusStewartCCC/s_2_2_5.pg"/>
