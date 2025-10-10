@@ -48,7 +48,7 @@
     
   </subsection>
 
-  <exercises xml:id="sectionname-practice"><title>Calculus Practice</title>
+  <exercises xml:id="ap-sectionname"><title>Calculus Practice</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <!-- <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
     <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
