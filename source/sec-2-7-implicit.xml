@@ -7,358 +7,191 @@
     <ul>
       <li>
         <p>
-          What does it mean to say that a curve is an implicit function of <m>x</m>,
-          rather than an explicit function of <m>x</m>?
+          Calculate <m>\frac{dy}{dx}</m> when <m>y</m> depends on <m>x</m> but isn't 
+          an explicit function of <m>x</m>. 
         </p>
       </li>
-
       <li>
         <p>
-          How does implicit differentiation enable us to find a formula for
-          <m>\frac{dy}{dx}</m> when <m>y</m> is an implicit function of <m>x</m>?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          In the context of an implicit curve,
-          how can we use <m>\frac{dy}{dx}</m> to answer important questions about the tangent line to the curve?
+          Use <m>\frac{dy}{dx}</m> to answer questions about the slope (or equation) of the tangent line to the curve
+          even when <m>y</m> is not an explicit function of <m>x</m>.
         </p>
       </li>
     </ul>
   </objectives>
+  <outcomes>
+    <ul>
+      <li>
+        <p>
+          Recognize explicit and implicit functions of <m>x</m>, in both algebraic and graphical forms.
+        </p>
+      </li>
+      <li>
+        <p>
+          Solve an equation for <m>\frac{dy}{dx}</m>, including factoring out <m>\frac{dy}{dx}</m> from multiple terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          The slope of a horizontal line is 0, and the slope of a vertical line is undefined.
+        </p>
+      </li>
+    </ul>
+  </outcomes>
 
-  <subsection><title>Introduction</title>
-    <p>
-      In all of our studies with derivatives so far,
-      we have worked with functions whose formula is given explicitly in terms of <m>x</m>.
-      But there are many interesting curves whose equations involving <m>x</m> and <m>y</m> are impossible to solve for <m>y</m> in terms of <m>x</m>.
-    </p>
+  <subsection xml:id="subsec-implicit-foundations"><title>Foundations</title>
+    <subsubsection xml:id="subsubsec-what-implicit-fcns">
+      <title>What are implicit and explicit functions?</title>
+        <p>
+          You may remember learning that a function has to pass the Vertical Line Test which is a visual way
+          of seeing if each input resulted in exactly 1 output, not 2 or 3 or more outputs for the same input.  We now would call that an <em>explicit</em> 
+          function of <m>x</m>; an <em>implicit function</em> does not need to pass the Vertical Line Test.  It would
+          be more accurate to say that <m>y</m> depends on <m>x</m>, but it is not necessarily a function of <m>x</m>.
+        </p>
 
-    <figure xml:id="F-2-7-Intro">
-      <caption>At left, the circle given by <m>x^2 + y^2 = 16</m>.  In the middle, the portion of the circle <m>x^2 + y^2 = 16</m> that has been highlighted in the box at left.  And at right, the curve given by <m>x^3 - y^3 = 6xy</m>.</caption>
-      <image width="100%" source="images/2_7_Intro"/>
-    </figure>
-
-    <p>
-      Perhaps the simplest and most natural of all such curves are circles.
-      Because of the circle's symmetry,
-      for each <m>x</m> value strictly between the endpoints of the horizontal diameter,
-      there are two corresponding <m>y</m>-values.
-      For instance, in <xref ref="F-2-7-Intro">Figure</xref>,
-      we have labeled <m>A = (-3,\sqrt{7})</m> and <m>B = (-3,-\sqrt{7})</m>,
-      and these points demonstrate that the circle fails the vertical line test.
-      Hence, it is impossible to represent the circle through a single function of the form <m>y = f(x)</m>.
-      But
-      portions of the circle can be represented explicitly as a function of <m>x</m>,
-      such as the highlighted arc that is magnified in the center of <xref ref="F-2-7-Intro">Figure</xref>.
-      Moreover, it is evident that the circle is locally linear,
-      so we ought to be able to find a tangent line to the curve at every point.
-      Thus, it makes sense to wonder if we can compute
-      <m>\frac{dy}{dx}</m> at any point on the circle,
-      even though we cannot write <m>y</m> explicitly as a function of <m>x</m>.
-    </p>
-
-    <p>
-      We say that the equation <m>x^2 + y^2 = 16</m> defines <m>y</m> <em>implicitly</em>
-      as a function of <m>x</m>.
-      The graph of the equation can be broken into pieces where each piece can be defined by an explicit function of <m>x</m>.
-      For the circle,
-      we could choose to take the top half as one explicit function of <m>x</m>,
-      namely <m>y = \sqrt{16 - x^2}</m> and the bottom half as the explicit function <m>y = -\sqrt{16 - x^2}</m>.
-      The equation for the circle defines an
-      <em> implicit function</em> of <m>x</m>.
-          <idx><h>implicit function</h></idx>
-    </p>
-
-    <p>
-      The righthand curve in <xref ref="F-2-7-Intro">Figure</xref>
-      is called the <em>folium of Descartes</em>
-          <idx><h>folium of Descartes</h></idx>
-      and is just one of many fascinating possibilities for implicitly given curves.
-    </p>
-
-    <p>
-      How can we find an equation for
-      <m>\frac{dy}{dx}</m> without an explicit formula for <m>y</m> in terms of <m>x</m>?
-      To begin answering this question, the following preview activity reminds us of some ways we can compute derivatives of functions in settings where the function's formula is not known.
-    </p>
-
-    <xi:include href="./previews/PA-2-7-WW.xml" />
-    <xi:include href="./previews/PA-2-7.xml" />
-  </subsection>
-  <xi:include href="./proteus/proteus-2-7.xml" />
-
-  <subsection>
-    <title>Implicit Differentiation</title>
-    <p>
-      We begin our exploration of implicit differentiation with the example of the circle given by <m>x^2 + y^2 = 16</m>.
-      How can we find a formula for <m>\frac{dy}{dx}</m>?
-    </p>
-
-    <p>
-      By viewing <m>y</m> as an <em>implicit</em>
-      function of <m>x</m>,
-      we think of <m>y</m> as some function whose formula <m>f(x)</m> is unknown,
-      but which we can differentiate.
-      Just as <m>y</m> represents an unknown formula,
-      so too its derivative with respect to <m>x</m>,
-      <m>\frac{dy}{dx}</m>, will be
-      (at least temporarily)
-      unknown.
-    </p>
-
-    <p>
-      So we view <m>y</m> as an unknown differentiable function of <m>x</m> and
-      differentiate both sides of the equation with respect to <m>x</m>.
-      <me>
-        \frac{d}{dx} \left[ x^2 + y^2 \right] = \frac{d}{dx} \left[ 16 \right]
-      </me>.
-    </p>
-
-    <p>
-      On the right,
-      the derivative of the constant <m>16</m> is <m>0</m>,
-      and on the left we can apply the sum rule,
-      so it follows that
-      <me>
-        \frac{d}{dx} \left[ x^2 \right]  + \frac{d}{dx} \left[ y^2 \right] = 0
-      </me>.
-    </p>
-
-    <p>
-      Note carefully the different roles being played by <m>x</m> and <m>y</m>.
-      Because <m>x</m> is the independent variable,
-      <m>\frac{d}{dx} \left[x^2\right] = 2x</m>.
-      But <m>y</m> is the dependent variable and <m>y</m> is an implicit function of <m>x</m>.
-      Recall <xref ref="PA-2-7">Preview Activity</xref>,
-      where we computed <m>\frac{d}{dx}[f(x)^2]</m>.
-      Computing <m>\frac{d}{dx}[y^2]</m> is the same,
-      and requires the chain rule, 
-      by which we find that <m>\frac{d}{dx}[y^2] = 2y^1 \frac{dy}{dx}</m>.
-      We now have that
-      <me>
-        2x + 2y \frac{dy}{dx} = 0
-      </me>.
-    </p>
-
-    <p>
-      We solve this equation for <m>\frac{dy}{dx}</m> by
-      subtracting <m>2x</m> from both sides and dividing by <m>2y</m>.
-      <me>
-        \frac{dy}{dx} = -\frac{2x}{2y} = -\frac{x}{y}
-      </me>.
-    </p>
-
-    <sidebyside widths="50% 46%" margins="0%" valign="middle">
+        <exercise label="fcn-implicit-or-not-1">
+          <webwork><xi:include parse="text" href="../webworkfiles/sec_2-7_prob1.pg"/></webwork>
+        </exercise>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-slopes-horiz-vert">
+      <title>Slopes of horizontal and vertical lines</title>
+        <p>
+          In implicit differentiation problems, the formula for
+          <m>\frac{dy}{dx}</m> is usually a fraction. To find where the tangent line is horizontal, set the
+          numerator equal to <m>0</m> and solve for either <m>x</m> or <m>y</m> in terms of the other variable, then
+          substitute that expression into the original equation for the curve to solve the equation of one variable.
+          To find where the tangent line is vertical, we do the same thing but with setting the denominator 
+          of <m>\frac{dy}{dx}</m> equal to 0.  
+        </p>
+        <exercise label="implicit-lines-1"><title>Slopes of horizontal and vertical lines</title>
+          <introduction>
+            <p>
+              Note that one of the lines below is horizontal and one line is vertical. Which is which?
+            </p>
+          </introduction>
+          <webwork source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg"/>
+        </exercise>
+        <exercise label="implicit-lines-2"><title>Slopes of horizontal and vertical lines</title>
+          <introduction>
+            <p>
+              Note that one of the lines below is horizontal and one line is vertical. Which is which?
+            </p>
+          </introduction>
+          <webwork source="Library/ASU-topics/setLinesInPlane/lines2.pg"/>
+        </exercise>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-solving-eqns-mult-vars">
+      <title>Solving an equation with multiple variables</title>
       <p>
-        Let's think further about the result that <m>\frac{dy}{dx} = -\frac{x}{y}</m>.
-        First, notice that this expression for the derivative involves both <m>x</m> and <m>y</m>.
-        This makes sense because 
-        there are two corresponding points on the circle for each value of <m>x</m> between <m>-4</m> and <m>4</m>,
-        and the slope of the tangent line is different at each of these points.
-        Second, this formula is entirely consistent with our understanding of circles.
-        The slope of the radius from the origin to the point <m>(a,b)</m> is <m>m_r = \frac{b}{a}</m>.
-        The tangent line to the circle at <m>(a,b)</m> is perpendicular to the radius,
-        and thus has slope <m>m_t = -\frac{a}{b}</m>,
-        as shown in <xref ref="F-2-7-Circle">Figure</xref>.
-        In particular,
-        the slope of the tangent line is zero at <m>(0,4)</m> and <m>(0,-4)</m>,
-        and is undefined at <m>(-4,0)</m> and <m>(4,0)</m>.
+        In implicit differentiation problems, you will often end up with an equation involving <m>x</m>, <m>y</m>, 
+        and <m>\frac{dy}{x}</m>, and you will need to solve the equation for what <m>\frac{dy}{dx}</m> equals. 
       </p>
-
-      <figure width="85%" xml:id="F-2-7-Circle">
-        <caption>The circle given by <m>x^2 + y^2 = 16</m> with point <m>(a,b)</m> on the circle and the tangent line at that point, with labeled slopes of the radial line, <m>m_r</m>, and tangent line, <m>m_t</m>.</caption>
-        <image source="images/2_7_Circle"/>
-      </figure>
-    </sidebyside>
-
-    <p>
-      All of these observations about the circle are consistent with the formula <m>\frac{dy}{dx} = -\frac{x}{y}</m>.
-    </p>
-
-    <example xml:id="Ex-2-7-1">
-      <statement>
-        <p>
-          For the curve given implicitly by <m>x^3 + y^2 - 2xy = 2</m>,
-          find the slope of the tangent line at <m>(-1,1)</m>.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          We begin by differentiating the curve's equation implicitly.
-          Taking the derivative of each side with respect to <m>x</m>,
-          <me>
-            \frac{d}{dx}\left[ x^3 + y^2 - 2xy \right] = \frac{d}{dx} \left[ 2 \right]
-          </me>,
-          by the sum rule and the fact that the derivative of a constant is zero, we have
-          <me>
-            \frac{d}{dx}[x^3] + \frac{d}{dx}[y^2] - \frac{d}{dx}[2xy] = 0
-          </me>.
-        </p>
-
-        <p>
-          For the three derivatives we now must execute,
-          the first uses the simple power rule,
-          the second requires the chain rule
-          (since <m>y</m> is an implicit function of <m>x</m>),
-          and the third necessitates the product rule
-          (again since <m>y</m> is a function of <m>x</m>).
-          Applying these rules, we now find that
-          <me>
-            3x^2 + 2y\frac{dy}{dx} - [2x \frac{dy}{dx} + 2y] = 0
-          </me>.
-        </p>
-
-        <p>
-          We want to solve this equation for <m>\frac{dy}{dx}</m>.
-          To do so, we first collect all of the terms involving
-          <m>\frac{dy}{dx}</m> on one side of the equation.
-          <me>
-            2y\frac{dy}{dx} - 2x \frac{dy}{dx}= 2y - 3x^2
-          </me>.
-        </p>
-
-        <p>
-          Then we factor the left side to isolate <m>\frac{dy}{dx}</m>.
-          <me>
-            \frac{dy}{dx}(2y - 2x) = 2y - 3x^2
-          </me>.
-        </p>
-
-        <p>
-          Finally, we divide both sides by <m>(2y - 2x)</m> and conclude that
-          <me>
-            \frac{dy}{dx} = \frac{2y-3x^2}{2y-2x}
-          </me>.
-        </p>
-
-        <p>
-          Note that the expression for
-          <m>\frac{dy}{dx}</m> depends on both <m>x</m> and <m>y</m>.
-          To find the slope of the tangent line at <m>(-1,1)</m>,
-          we substitute the coordinates into the formula for <m>\frac{dy}{dx}</m>,
-          using the notation
-          <me>
-            \left. \frac{dy}{dx} \right|_{(-1,1)} = \frac{2(1)-3(-1)^2}{2(1)-2(-1)} = -\frac14
-          </me>.
-        </p>
-
-        <p>
-          If we plot<fn>In <em>Desmos</em>, entering the equation <m>x^3 + y^2 - 2xy = 2</m> will automatically graph the corresponding curve.</fn> the implicit curve and its tangent line, as shown in <xref ref="F-2-7-Ex1">Figure</xref>,
-          we see that the slope we have found matches the graph and confirms the local linearity of this curve at <m>(-1,1)</m>.
-        </p>
-        <figure xml:id="F-2-7-Ex1">
-          <caption>The curve <m>x^3 + y^2 - 2xy = 2</m> and its tangent line at <m>(-1,1)</m>.</caption>
-          <image width="47%" source="images/2_7_Ex1"/>
-        </figure>
-      </solution>
-    </example>
-
-    <p>
-      <xref ref="Ex-2-7-1">Example</xref>
-      shows that it is possible when differentiating implicitly to have multiple terms involving <m>\frac{dy}{dx}</m>.
-      We use addition and subtraction to collect all terms involving
-      <m>\frac{dy}{dx}</m> on one side of the equation,
-      then factor to get a single term of <m>\frac{dy}{dx}</m>.
-      Finally, we divide to solve for <m>\frac{dy}{dx}</m>.
-    </p>
-
-    <p>
-      We use the notation
-      <me>
-        \left. \frac{dy}{dx} \right|_{(a,b)}
-      </me>
-      to denote the evaluation of
-      <m>\frac{dy}{dx}</m> at the point <m>(a,b)</m>.
-      This is analogous to writing <m>f'(a)</m> when <m>f'</m> depends on a single variable.
-    </p>
-
-    <p>
-      There is a big difference between writing
-      <m>\frac{d}{dx}</m> and <m>\frac{dy}{dx}</m>.
-      For example,
-      <me>
-        \frac{d}{dx}[x^2 + y^2]
-      </me>
-      gives an instruction to take the derivative with respect to <m>x</m> of the quantity <m>x^2 + y^2</m>,
-      presumably where <m>y</m> is a function of <m>x</m>.
-      On the other hand,
-      <me>
-        \frac{dy}{dx}(x^2 + y^2)
-      </me>
-      means the product of the derivative of <m>y</m> with respect to <m>x</m> with the quantity <m>x^2 + y^2</m>.
-      Understanding this notational subtlety is essential.
-    </p>
-
-    <xi:include href="./activities/act-2-7-1.xml"/>
-
-    <p>
-      It is natural to ask where the tangent line to a curve is vertical or horizontal.
-      The slope of a horizontal tangent line must be zero,
-      while the slope of a vertical tangent line is undefined.
-      Often the formula for
-      <m>\frac{dy}{dx}</m> is expressed as a quotient of functions of <m>x</m> and <m>y</m>, say
-      <me>
-        \frac{dy}{dx} = \frac{p(x,y)}{q(x,y)}
-      </me>.
-    </p>
-
-    <p>
-      The tangent line is horizontal precisely when the numerator is zero and the denominator is nonzero,
-      making the slope of the tangent line zero.
-      If we can solve the equation
-      <m>p(x,y) = 0</m> for either <m>x</m> and <m>y</m> in terms of the other,
-      we can substitute that expression into the original equation for the curve.
-      This gives an equation in a single variable,
-      and if we can solve that equation we can find the point(s) on the curve where <m>p(x,y) = 0</m>.
-      At those points, the tangent line is horizontal.
-    </p>
-
-    <p>
-      Similarly, the tangent line is vertical whenever
-      <m>q(x,y) = 0</m> and <m>p(x,y) \ne 0</m>,
-      making the slope undefined.
-    </p>
-
-    <xi:include href="./activities/act-2-7-2.xml"/>
-
-    <xi:include href="./activities/act-2-7-3.xml"/>
+      <p>
+        It would be good to have some practice solving equations for a variable, including factoring out by the variable. 
+      </p> 
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-implicit-chain-etc">
+      <title>Previous derivative rules and notation</title>
+      <p>
+        Implicitly defined functions often involve sums, products, quotients, and compositions.  This means that 
+        you need to recognize the structure of the different terms in the function and apply the appropriate
+        derivative rules correctly.  
+      </p>
+      <p>
+        For more practice on taking the derivative of a product or quotient, <xref ref="ap-prod-quot"/>
+      </p>
+      <p>
+        For more practice on taking the derivative of a composition, <xref ref="ap-chainrule"/>
+      </p>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-implicit-notations">
+      <title>Different notations for the derivative</title>
+      <p>
+        The difference between
+        <m>\frac{d}{dx}</m> and <m>\frac{dy}{dx}</m> can be confusing.  <m>\frac{d}{dx}</m> is a verb and means <q>take the derivative of what comes next</q>; 
+        <m>\frac{dy}{dx}</m> is a noun and means <q>the derivative of <m>y</m> with respect to <m>x</m>.</q>  Both <m>\frac{dy}{dx}</m> and <m>y'</m> are equivalent notations,
+        but we prefer to use the different forms at different times for reasons that are hard to understand now.
+      </p>
+      <exercise label="implicit-chainrule-1"><title>Treating <m>y</m> as a function of <m>x</m></title>
+        <introduction>
+          <p>
+            In the problems below, treat <m>y</m> as a function of <m>x</m>, which means that you need
+            to use chain rule to take the derivative with respect to <m>x</m> of expressions involving <m>y</m>.
+          </p>
+          <p>
+            Your answers after taking the derivative will have <m>\frac{dy}{dx}</m> in them, which you will write as <m>y'</m>.
+          </p>
+        </introduction>
+        <webwork source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg"/>
+      </exercise>
+      <exercise label="implicit-chainrule-2"><title>Treating <m>y</m> as a function of <m>x</m></title>
+        <introduction>
+          <p>
+            In the problems below, treat <m>y</m> as a function of <m>x</m>, which means that you need
+            to use chain rule to take the derivative with respect to <m>x</m> of expressions involving <m>y</m>.
+          </p>
+          <p>
+            Your answers after taking the derivative will have <m>\frac{dy}{dx}</m> in them, which you will write as <m>y'</m>.
+          </p>
+        </introduction>
+        <webwork source="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg"/>
+      </exercise>
+    </subsubsection>
+    
   </subsection>
 
-  <subsection>
-    <title>Summary</title>
-    <p>
-      <ul>
-        <li>
-          <p>
-            In an equation involving <m>x</m> and <m>y</m> where portions of the graph can be defined by explicit functions of <m>x</m>,
-            we say that <m>y</m> is an implicit function of <m>x</m>.
-            A good example of such a curve is the unit circle.
-          </p>
-        </li>
+  <exercises xml:id="ap-implicit"><title>Calculus Practice</title>
+    <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
+  <!-- <exercise label="limits-from-graph-1">
+    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
+  </exercise>-->
+  
+    <exercise label="implicit-diff-1"><title>Implicit differentiation and the tangent line</title>
+      <webwork source="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-2"><title>Implicit differentiation</title>
+      <webwork source="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-3"><title>Dependent versus independent variable</title>
+      <webwork source="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-4"><title>Slope of the curve</title>
+      <webwork source="Library/ma122DB/set5/s3_6_25_mo.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-5"><title>Equation of the tangent line</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-6"><title>Finding the derivative</title>
+      <webwork source="Library/Michigan/Chap3Sec7/Q13.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-7"><title>Calculating the derivative</title>
+      <webwork source="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-8"><title>Using the tangent line to estimate nearby values</title>
+      <webwork source="Library/Michigan/Chap3Sec7/Q31.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-9"><title>Implicit differentiation and values</title>
+      <webwork source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-10"><title>Horizontal tangent lines</title>
+      <webwork source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-11"><title>Horizontal and vertical tangent lines</title>
+      <webwork source="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg"/>
+    </exercise>
+    <exercise label="implicit-diff-12"><title>Implicit differentiation</title>
+      <webwork source="Library/Michigan/Chap3Sec7/Q15.pg"/>
+    </exercise>
+    
+  
+  
+  
+  
+  </exercises>
+    
 
-        <li>
-          <p>
-            We use implicit differentiation to differentiate an implicitly defined function.
-            We differentiate both sides of the equation with respect to <m>x</m>,
-            treating <m>y</m> as a function of <m>x</m> by applying the chain rule.
-            If possible,
-            we subsequently solve for <m>\frac{dy}{dx}</m> using algebra.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            While <m>\frac{dy}{dx}</m> may now involve both the variables <m>x</m> and <m>y</m>,
-            <m>\frac{dy}{dx}</m> still gives the slope of the tangent line to the curve.
-            It may be used to decide where the tangent line is horizontal (<m>\frac{dy}{dx} = 0</m>) or vertical (<m>\frac{dy}{dx}</m> is undefined),
-            or to find the equation of the tangent line at a particular point on the curve.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection>
-
-  <xi:include href="./exercises/ez-2-7.xml"/>
+  
 </section>
+
+
+    
