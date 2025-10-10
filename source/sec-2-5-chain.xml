@@ -40,7 +40,7 @@
     </outcomes>
 
 
-  <subsection><title>Foundational Exercises</title>
+  <subsection><title>Foundations</title>
     <p>
       One of the most useful ways of constructing functions from other functions is <q>composition</q>: doing one
       function and then doing another function to the result.  Rather than substituting a <em>number</em> in for the input
@@ -112,7 +112,7 @@
     </exercise>
   </subsection>
 
-  <exercises><title>Additional Practice Exercises</title>
+  <exercises><title>Calculus Practice</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <exercise label="chainrule-algebra-1"><title>Chain rule</title>
     <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg"/>
