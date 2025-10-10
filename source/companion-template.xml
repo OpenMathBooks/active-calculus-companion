@@ -32,15 +32,9 @@
         </li>
       </ul>
     </outcomes>
-
-    <!-- Any discussion of activities or sticking points?  Maybe asides? 
-     Or something else that can be knowled? -->
   
 
-  <!-- do we put them into separate files for easier editing later? -->
-  
-
-  <subsection><title>Foundations</title>
+  <subsection xml:id="subsec-sectionname-foundations"><title>Foundations</title>
     <p>
       Some introductory comments.
     </p>
@@ -54,7 +48,7 @@
     
   </subsection>
 
-  <exercises><title>Calculus Practice</title>
+  <exercises xml:id="sectionname-practice"><title>Calculus Practice</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <!-- <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
     <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
