@@ -51,12 +51,12 @@
   </blurb>
   <rename element="exploration" xml:lang="en-US">Preview Activity</rename>
 
-  <!-- <rename element="objectives" xml:lang="en-US">Section Objectives</rename> -->
+  <rename element="objectives" xml:lang="en-US">Calculus Objectives</rename>
   <rename element="outcomes" xml:lang="en-US">Foundations</rename>
   <rename element="inlineexercise" xml:lang="en-US">Foundational Exercise</rename>
   <!-- PreTeXt doesn't like renaming to whitespace, so using U+3164 (Hangul Filler) -->
   <!-- here inside the rename element. -->
-  <rename element="worksheet" xml:lang="en-US"> </rename>
+  <!-- <rename element="worksheet" xml:lang="en-US"> </rename> -->
   <!-- <rename element="inlineexercise" xml:lang="en-US">Exercise</rename> -->
 </docinfo>
 

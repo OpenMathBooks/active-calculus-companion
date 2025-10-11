@@ -69,7 +69,7 @@
 </subsection>
 
 <exercises xml:id="ap-sin-cos">
-  <title>Additional Practice Exercises</title>
+  <title>Calculus Practice</title>
   
   <exercise label="derivatives-basic-trig-1">
     <webwork source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg" />

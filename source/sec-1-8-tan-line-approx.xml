@@ -118,7 +118,7 @@
 </subsection>
 
 <exercises xml:id="ap-tan-line-approx">
-  <title>Additional Practice</title>
+  <title>Calculus Practice</title>
   <exercise label="tangentline-given-derivative-eqns-2">
     <webwork source="Contrib/METU-NCC/MAT101/Final/Tangent.pg" />
   </exercise>
