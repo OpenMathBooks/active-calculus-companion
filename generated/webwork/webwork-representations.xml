@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f06146e8)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f0597178)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f0699b80)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f0614978)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4461,34 +4461,34 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
 <p>a)<var form="popup">
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
 <p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
 <li>
+<p>Pa/min</p>
+</li>
+<li>
 <p>m/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
-<li>
-<p>Pa/min</p>
-</li>
 </var></p>
 <p>b)<var form="popup">
-<li>
-<p>dP/dt</p>
-</li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
 <p>ds/dt</p>
+</li>
+<li>
+<p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
@@ -4506,10 +4506,10 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>dP/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
@@ -5248,5 +5248,1385 @@ and plug in <m>x = 0</m> to get <m>m = 12</m>.
     </static>
     <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-185" ww-id="webwork-185">
+    <static seed="185">
+      <statement><p>Determine if the following relations represent <m>y</m> as an explicit or implicit function of <m>x</m>.</p>
+<p><ul label="square">
+<li>
+<p><m>x={y^{4}}</m></p>
+</li>
+</ul>
+<ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>Explicit function of x</p>
+</li><li>
+<p>Implicit function of x</p>
+</li></ul> <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>Passes vertical line test</p>
+</li><li>
+<p>Doesn't pass vertical line test</p>
+</li></ul></p>
+<p><ul label="square">
+<li>
+<p><m>{7x^{2}}+y=5</m></p>
+</li>
+</ul>
+<ul form="popup" name="AnSwEr0003"><li>
+<p>?</p>
+</li><li>
+<p>Explicit function of x</p>
+</li><li>
+<p>Implicit function of x</p>
+</li></ul> <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>Passes vertical line test</p>
+</li><li>
+<p>Doesn't pass vertical line test</p>
+</li></ul></p>
+<p><ul label="square">
+<li>
+<p><m>{8x}+{y^{2}}=4</m></p>
+</li>
+</ul>
+<ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>Explicit function of x</p>
+</li><li>
+<p>Implicit function of x</p>
+</li></ul> <ul form="popup" name="AnSwEr0006"><li>
+<p>?</p>
+</li><li>
+<p>Passes vertical line test</p>
+</li><li>
+<p>Doesn't pass vertical line test</p>
+</li></ul></p>
+<p><ul label="square">
+<li>
+<p><m>y={\sqrt{1-x^{7}}}</m></p>
+</li>
+</ul>
+<ul form="popup" name="AnSwEr0007"><li>
+<p>?</p>
+</li><li>
+<p>Explicit function of x</p>
+</li><li>
+<p>Implicit function of x</p>
+</li></ul> <ul form="popup" name="AnSwEr0008"><li>
+<p>?</p>
+</li><li>
+<p>Passes vertical line test</p>
+</li><li>
+<p>Doesn't pass vertical line test</p>
+</li></ul></p>
+<p><ul label="square">
+<li>
+<p><m>{-3xy}=1</m></p>
+</li>
+</ul>
+<ul form="popup" name="AnSwEr0009"><li>
+<p>?</p>
+</li><li>
+<p>Explicit function of x</p>
+</li><li>
+<p>Implicit function of x</p>
+</li></ul> <ul form="popup" name="AnSwEr0010"><li>
+<p>?</p>
+</li><li>
+<p>Passes vertical line test</p>
+</li><li>
+<p>Doesn't pass vertical line test</p>
+</li></ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{Implicit function of x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\verb!Doesn't pass vertical line test!}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Explicit function of x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Passes vertical line test}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Implicit function of x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>{\verb!Doesn't pass vertical line test!}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Explicit function of x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Passes vertical line test}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Explicit function of x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{Passes vertical line test}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/2_7_1_1.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## 
+## ENDDESCRIPTION
+
+## DBsubject(Algebra)
+## DBchapter(Functions)
+## DBsection(Definition, concept)
+## Date(12/22/2016)
+## Institution(Red Rocks Community College, Colorado Community College System)
+## Author(Brenda Forland)
+## Editor(Chrissy Safranski)
+## Edited date(10/09/2025)
+## MO(1)
+## KEYWORDS('algebra')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"AnswerFormatHelp.pl",
+"parserPopUp.pl",
+"parserImplicitEquation.pl",
+"PGML.pl",
+"PGcourse.pl",
+);
+
+TEXT(beginproblem());
+
+install_problem_grader(~~&std_problem_grader);
+
+$showPartialCorrectAnswers = 0;
+
+
+###########################
+#  Setup
+
+Context("Numeric");
+ Context()->variables->add(y => 'Real');
+
+$a=list_random(2,4,6);
+$f1 = Compute("y**$a");
+$popup1 = PopUp(
+  ["?","Explicit function of x","Implicit function of x"],
+  "Implicit function of x",
+);
+$popup1a = PopUp(
+  ["?","Passes vertical line test","Doesn't pass vertical line test"],
+  "Doesn't pass vertical line test",
+);
+
+
+Context()->variables->set(
+x=>{limits=>[-1,1]},
+y=>{limits=>[0,4]}
+);
+$b=non_zero_random(2,8);
+$c=non_zero_random(1,5);
+$f2 = Compute("$b*x**2");
+$popup2 = PopUp(
+  ["?","Explicit function of x","Implicit function of x"],
+  "Explicit function of x",
+);
+
+$popup2a = PopUp(
+  ["?","Passes vertical line test","Doesn't pass vertical line test"],
+  "Passes vertical line test",
+);
+
+
+$d=non_zero_random(2,8);
+$e=non_zero_random(-5,5);
+$f3 = Compute("$d*x");
+$f32 = Compute("y**2");
+$popup3 = PopUp(
+  ["?","Explicit function of x","Implicit function of x"],
+  "Implicit function of x",
+);
+$popup3a = PopUp(
+  ["?","Passes vertical line test","Doesn't pass vertical line test"],
+  "Doesn't pass vertical line test",
+);
+
+
+$f4 = Compute("sqrt(1-x^$b)");
+$popup4 = PopUp(
+  ["?","Explicit function of x","Implicit function of x"],
+  "Explicit function of x",
+);
+$popup4a = PopUp(
+  ["?","Passes vertical line test","Doesn't pass vertical line test"],
+  "Passes vertical line test",
+);
+
+
+
+$h=non_zero_random(-10,-2);
+$f5 = Compute("$h*x*y");
+$popup5 = PopUp(
+  ["?","Explicit function of x","Implicit function of x"],
+  "Explicit function of x",
+);
+$popup5a = PopUp(
+  ["?","Passes vertical line test","Doesn't pass vertical line test"],
+  "Passes vertical line test",
+);
+###########################
+#  Main text
+
+BEGIN_PGML
+
+Determine if the following relations represent [`y`] as an explicit or implicit function of [`x`].
+
++ [` x=[$f1] `]     
+[___________]{$popup1} [___________]{$popup1a} 
+
++ [`[$f2]+y=[$c]`]      
+[___________]{$popup2} [___________]{$popup2a} 
+
++ [`[$f3]+[$f32]=[$e]`]      
+[___________]{$popup3} [___________]{$popup3a} 
+
++ [` y=[$f4] `]     
+[___________]{$popup4} [___________]{$popup4a} 
+
++ [`[$f5]=1`]      
+[___________]{$popup5} [___________]{$popup5a} 
+
+
+END_PGML
+
+
+############################
+#  Solution
+
+#BEGIN_PGML_SOLUTION
+#Solution explanation goes here.
+#END_PGML_SOLUTION
+
+COMMENT('MathObject version. Uses PGML.');
+
+ENDDOCUMENT();]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-186" ww-id="webwork-186">
+    <static seed="186" source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg">
+      <statement><p><CENTER/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-186-image-1.png" width="50%"/>
+<p/>
+<p>Use the graphs given above and state if the slope is positive,
+negative, zero or does not exist.</p>
+<p>(Note:  Type either <em> positive </em>, <em> negative </em>, 
+<em> zero </em> or <em> does not exist </em>)</p>
+<p>a) Line A's slope: <fillin characters="25" name="AnSwEr0001"/></p>
+<p>b) Line B's slope: <fillin characters="25" name="AnSwEr0002"/></p>
+<p>c) Line C's slope: <fillin characters="25" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{positive}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{zero}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{does not exist}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-187" ww-id="webwork-187">
+    <static seed="187" source="Library/ASU-topics/setLinesInPlane/lines2.pg">
+      <statement><p>What is the slope of the line through (4,
+-8) and (8,-9)?
+If the slope is undefined, type <em> undefined</em>.</p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+<p>What is the slope of the line through (5,
+-3) and (1,-3)?
+If the slope is undefined, type <em> undefined</em>.</p>
+<p><fillin characters="30" name="AnSwEr0002"/></p>
+<p>What is the slope of the line through (-1,
+8) and (-1,2)?
+If the slope is undefined, type <em> undefined</em>.</p>
+<p><fillin characters="30" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.25</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{undefined}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setLinesInPlane/lines2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setLinesInPlane/lines2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-188" ww-id="webwork-188">
+    <static seed="188" source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg">
+      <statement><p>Compute implicit derivatives of the following expressions</p>
+<p>Write <m>y'</m> for <m>\frac{dy}{dx}</m>.</p>
+<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[3+2x-3y\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[x^{2}y^{2}+x\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0002"/></p>
+<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\frac{x+3}{y+4}\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0003"/></p>
+<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[e^{x^{2}+y}\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0004"/></p>
+<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\ln\mathopen{}\left(xy^{2}\right)\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0005"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2-3y'</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2xy^{2}+2x^{2}yy'+1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{y+4-y'\mathopen{}\left(x+3\right)}{\left(y+4\right)^{2}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(2x+y'\right)e^{x^{2}+y}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{1}{x}+2\frac{y'}{y}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-189" ww-id="webwork-189">
+    <static seed="189" source="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg">
+      <statement><p>Compute implicit derivatives of the following expressions</p>
+<p>Write <m>y'</m> for <m>\frac{dy}{dx}</m>.</p>
+<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;ye^{x}\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;x\ln\mathopen{}\left(y\right)\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0002"/></p>
+<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{2x+3y}\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0003"/></p>
+<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{2xy}\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0004"/></p>
+<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(2xy\right)\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0005"/></p>
+<p><alert> F.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(2x+3y\right)\;\Biggr] =</m>
+<fillin characters="20" name="AnSwEr0006"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>y'e^{x}+ye^{x}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\ln\mathopen{}\left(y\right)+x\frac{y'}{y}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(2+3y'\right)e^{2x+3y}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(2y+2xy'\right)e^{2xy}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{2y+2xy'}{2xy}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{2+3y'}{2x+3y}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-190" ww-id="webwork-190">
+    <static seed="190" source="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg">
+      <statement><p>If <m>2 x^2+ 2 x + xy = 3</m> and <m>y(3) = -7</m>,
+find <m>y'(3)</m> by implicit differentiation.</p>
+<p><m>y' (3) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p>Thus an equation of the tangent line to the graph at the point
+<m>(3, -7)</m> is</p>
+<p><m>y =</m> <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{7}{3}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-\frac{7}{3}x</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-191" ww-id="webwork-191">
+    <static seed="191" source="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg">
+      <statement><p>For the equation given below, evaluate <m>y'</m> at the point
+<m>(-2,1)</m>.
+<me>e^y  +   14 - e^{1} = 3 x^2 + 2 y^2.</me></p>
+<p><m>y'</m> at <m>(-2,1)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9.36243260526837</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-192" ww-id="webwork-192">
+    <static seed="192" source="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg">
+      <statement><p>Use implicit differentiation to find <m>\&gt;da/dt\&gt;</m> if <m>\&gt;a^{4}-t^{4} = 6a^{2}t</m>.</p>
+<p>Answer: <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{3a^{2}+2t^{3}}{2a^{3}-6at}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-193" ww-id="webwork-193">
+    <static seed="193" source="Library/ma122DB/set5/s3_6_25_mo.pg">
+      <statement><p>Find the slope of the tangent line to the
+curve defined by <m>6x^{2}+7xy+9y^{5} = 42</m> at the point
+<m>( -3,1 )</m>.</p>
+<p>The slope of the curve at the point <m>(-3, 1)</m>
+is <fillin characters="8" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{29}{24}}</m>
+        </p>
+      </answer>
+      <solution><p>Differentiating implicitly with respect
+to <m>x</m> gives
+<me>12x+7y+7x\, \frac{dy}{dx}+45y^{4}\, \frac{dy}{dx} = 0,</me>
+or
+<me>\left(7x+45y^{4}\right)\, \frac{dy}{dx} = -(12x+7y),</me>
+and so
+<me>\frac{dy}{dx} = -\frac{12x+7y}{7x+45y^{4}}.</me>
+Hence, the slope of the tangent line to the
+curve at the given point is
+<me>\frac{dy}{dx} \bigg \vert _ {(x, y) = (-3, 1)}
+= -\frac{12\cdot \left(-3\right)+7\cdot 1}{7\cdot \left(-3\right)+45\cdot 1^{4}} \textstyle =\frac{29}{24} .</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set5/s3_6_25_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set5/s3_6_25_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-194" ww-id="webwork-194">
+    <static seed="194" source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg">
+      <statement><p>Find the equation of the tangent line to 
+the curve <m>x^4 + y^4 = 32</m> at the point <m>(2, -2)</m>.</p>
+<p>Tangent line equation: <m>y =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1x+0</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+First use implicit differentiation to find the derivative.
+<me>\begin{array}{rcl}
+    \dfrac{d}{dx}[x^4 + y^4] \amp =\amp  \dfrac{d}{dx}[32]\\
+  \amp \amp \\
+    4x^3 + 4y^3y' \amp =\amp  0\\
+  \amp \amp \\
+    y' \amp =\amp  \dfrac{-4x^3}{4y^3} = -\dfrac{x^3}{y^3}
+  \end{array}</me>
+Plug in (x = 2\) (y = -2\) get the slope.
+<me>m = -\dfrac{(2)^3}{(-2)^3} = -1</me>
+Then use point-slope form to find the equation of the tangent line.
+<me>y  + 2 = -1(x - 2) \; \textrm{or,} \;
+  y = -1 x + 0</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-195" ww-id="webwork-195">
+    <static seed="195" source="Library/Michigan/Chap3Sec7/Q13.pg">
+      <statement><p>Find <m>dy/dx</m> in terms of <m>x</m> and <m>y</m> 
+if
+<m>\cos^2(6 y) + \sin^2(6 y) = y + 5</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><m>\cos^2\theta+\sin^2\theta=1</m>, the equation becomes:
+<m>1=y+5</m> or <m>y=-4</m>. Hence, <m>\frac{dy}{dx}=0</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec7/Q13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec7/Q13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-196" ww-id="webwork-196">
+    <static seed="196" source="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg">
+      <statement><p>Find the slope of the tangent line to the curve
+<m>\sqrt{4x+y}+\sqrt{3xy} = 10</m> at the point <m>(3, 4)</m>.</p>
+<p>The slope of the tangent line to the curve at
+the given point is <fillin characters="15" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>-{\frac{12}{7}}</m>
+        </p>
+      </answer>
+      <solution><p>Differentiating implicitly with respect
+to <m>x</m> gives
+<me>\frac{4}{2 \sqrt{4x+y}} + \frac{1}{2 \sqrt{4x+y}} \, \frac{dy}{dx}
++ \frac{3}{2 \sqrt{3xy}} \left(
+y + x \, \frac{dy}{dx} \right) = 0,</me>
+or (multiplying by <m>2 \sqrt{3xy} \sqrt{4x+y}</m>)
+<me>4 \sqrt{3xy} + 1 \sqrt{3xy} \; \frac{dy}{dx} +
+3 y \sqrt{4x+y} + 3 x \sqrt{4x+y} \; \frac{dy}{dx} = 0,</me>
+so
+<me>\left( 1 \sqrt{3xy} + 3 x \sqrt{4x+y} \right) \, \frac{dy}{dx}
+= - \left( 4 \sqrt{3xy} + 3 y \sqrt{4x+y} \right),</me>
+and therefore
+<me>\frac{dy}{dx} = - \frac
+{4 \sqrt{3xy} + 3 y \sqrt{4x+y}}{1 \sqrt{3xy} + 3 x \sqrt{4x+y}}.</me>
+If <m>x = 3</m> and <m>y = 4</m>, then
+<m>\sqrt{4x+y} = 4</m>, <m>\sqrt{3xy} = 6</m>, and
+hence the slope of the tangent line to
+the curve at the point <m>(3, 4)</m>
+is
+<me>\frac{dy}{dx} \Bigg|_{(x, y) = (3, 4)}
+= - \frac {4 \left( 6 \right) +
+3 \left( 4 \right) \left( 4 \right)}
+{1 \left( 6 \right) +
+3 \left( 3 \right) \left( 4 \right)}
+= -{\frac{12}{7}}.</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-197" ww-id="webwork-197">
+    <static seed="197" source="Library/Michigan/Chap3Sec7/Q31.pg">
+      <statement><p>If <m>x^{5} + y^3 - 2 x y^2 = 33</m>, find <m>dy/dx</m> in terms of
+<m>x</m> and <m>y</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+<p>Using your answer for <m>dy/dx</m>, fill in the following table of
+approximate <m>y</m>-values of points on the curve near 
+<m>x=1, y=4</m>.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>0.96</cell>
+<cell>0.98</cell>
+<cell>1.02</cell>
+<cell>1.04</cell>
+</row>
+<row>
+<cell><fillin characters="8" name="AnSwEr0002"/></cell>
+<cell><fillin characters="8" name="AnSwEr0003"/></cell>
+<cell><fillin characters="8" name="AnSwEr0004"/></cell>
+<cell><fillin characters="8" name="AnSwEr0005"/></cell>
+</row>
+</tabular>
+<p>Finally, find the <m>y</m>-value for <m>x=0.96</m> by substituting 
+<m>x=0.96</m> in the original equation and solving for <m>y</m> using a
+computer or calculator.</p>
+<p><m>y(0.96) \approx</m> <fillin characters="8" name="AnSwEr0006"/></p>
+<p>How large (in magnitude) is the difference between your estimate for 
+<m>y(0.96)</m>
+using <m>dy/dx</m> and your solution with a computer or calculator?
+<fillin characters="8" name="AnSwEr0007"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{2y^{2}-5x^{5-1}}{3y^{2}-2\cdot 2xy}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4+0.84375\cdot \left(0.96-1\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4+0.84375\cdot \left(0.98-1\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4+0.84375\cdot \left(1.02-1\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4+0.84375\cdot \left(1.04-1\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3.96609</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left|4+0.84375\cdot \left(0.96-1\right)-3.96609\right|</m>
+        </p>
+      </answer>
+      <solution><m>5 x^{4} + 3 y^2 \frac{dy}{dx} - 2 y^2 - 4 x y \frac{dy}{dx} = 0</m>,
+so that 
+<m>{dy\over dx} = \frac{2 y^2 - 5 x^{4}}{3y^2 - 4 x y}</m>.
+
+
+
+
+
+We can approximate the curve near <m>x=1</m>,  <m>y=4</m> by its tangent line.  The
+tangent line will have slope
+<m>\frac{2 (4)^2 - 5 (1)^{4}}{3 (4)^2 - 4 (1) (4)} \approx 0.844</m>.
+Thus its equation is
+<m>y \approx 4 + 0.844(x - 1)</m>.
+
+
+
+
+
+Using the <m>y</m>-values of the tangent line to approximate the <m>y</m>-values
+of the curve, we get 
+<m>y(0.96) \approx 3.9663</m>,
+<m>y(0.98) \approx 3.9831</m>,
+<m>y(1.02) \approx 4.0169</m>, and
+<m>y(1.04) \approx 4.0338</m>.
+
+
+
+
+
+When <m>x=0.96</m>, we get the equation 
+<m>(0.96)^{5} + y^3 - 2 (0.96) y^2 = 33</m>, whose
+solution by numerical methods (for example, using a calculator) is 3.96609.
+
+
+
+
+
+The difference between 3.96609 and the estimate is just 
+<m>|3.96609 - 3.9663| = 0.0002</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec7/Q31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec7/Q31.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-198" ww-id="webwork-198">
+    <static seed="198" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg">
+      <statement><p>If <m>38 + 3f(x) + x^2 \left( f(x) \right)^3 = 0</m> and <m>f(2) = -2</m>,
+find <m>f'(2)</m>.</p>
+<p><m>f'(2) =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>{\frac{32}{51}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-199" ww-id="webwork-199">
+    <static seed="199" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg">
+      <statement><p>The curve with equation <m>2y^3+y^2-y^5=x^4-2x^3+x^2</m> has been likened to a bouncing wagon (graph it to see why).</p>
+<p>Find the <m>x</m>-coordinates of the points on this curve that have horizontal tangents. List them below, separating the values with commas.</p>
+<p><m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0, \frac{1}{2}, 1</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-200" ww-id="webwork-200">
+    <static seed="200" source="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg">
+      <statement><p>Use implicit differentiation to find the
+points where the <alert> parabola </alert>
+defined by 
+<me>x^{2}-2xy+y^{2}+4x-8y+16 = 0</me>
+has horizontal and vertical tangent lines.</p>
+<p>The parabola has horizontal tangent lines
+at the 
+<fillin characters="15" name="AnSwEr0001"/>.</p>
+<p>The parabola has vertical tangent lines
+at the point(s) <fillin characters="15" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(1,3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(0,4\right)</m>
+        </p>
+      </answer>
+      <solution><p>Differentiating implicitly with respect
+to <m>x</m> gives <me>2x-2y-2x\, \frac{dy}{dx}+2y\, \frac{dy}{dx}+4-8\, \frac{dy}{dx} = 0,</me> or
+<me>(y-x-4) \, \frac{dy}{dx} = y-x-2,</me>
+and so
+<me>\frac{dy}{dx} = \frac{y-x-2}{y-x-4}.</me>
+The tangent line to the parabola is
+horizontal where <m>\frac{dy}{dx} = 0</m>,
+i.e., where <m>x - y = -2</m>.  The
+equation of the parabola can be written
+in the form <me>\left(x-y\right)^{2}+4\mathopen{}\left(x-y\right)+16-4y = 0,</me>
+and <m>x - y = -2</m> gives <m>12 = 4y</m>,
+or <m>y = 3</m>, and <m>x = 1</m>.
+Hence, the tangent line to the parabola is
+horizontal at the point <m>\left(1,3\right)</m>
+and nowhere else.</p>
+<p>The tangent line the the parabola is
+vertical where <me>0 = \frac{dx}{dy} = \frac{y-x-4}{y-x-2},</me> i.e., where <m>x - y = -4</m>.
+Together with the last displayed
+equation of the parabola, this gives
+<m>16 - 4y = 0</m>, or <m>y = 4</m>,
+and <m>x = 0</m>. Hence, the tangent
+line to the parabola is vertical at the
+point <m>\left(0,4\right)</m> and nowhere else.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-201" ww-id="webwork-201">
+    <static seed="201" source="Library/Michigan/Chap3Sec7/Q15.pg">
+      <statement><p>Find <m>dy/dx</m> in terms of <m>x</m> and <m>y</m> 
+if
+<m>\arcsin(x^{3} y) = x y^{3}</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1y^{3}+\frac{3x^{3-1}y}{\sqrt{1-x^{2\cdot 3}y^{2}}}}{3xy^{3-1}-\frac{x^{3}}{\sqrt{1-x^{2\cdot 3}y^{2}}}}</m>
+        </p>
+      </answer>
+      <solution><m>x</m>.
+<me>\frac{1}{\sqrt{1 - x^{6} y^2}} (3 x^{2} y + x^{3} \frac{dy}{dx}) =
+    y^{3} + 3 x y^{2} \frac{dy}{dx},</me>
+so, clearing the denominator,
+<me>3 x^{2} y + x^{3} \frac{dy}{dx} = 
+    \sqrt{1 - x^{6} y^2} (y^{3} + 3 x y^{2} \frac{dy}{dx}).</me>
+Thus
+<me>( x^{3} - (3 x y^{2}) \sqrt{1 - x^{6} y^2} ) \frac{dy}{dx} = 
+    y^{3} \sqrt{1 - x^{6} y^2} - 3 x^{2} y,</me>
+and finally
+<me>\frac{dy}{dx} = 
+\frac{y^{3} \sqrt{1 - x^{6} y^2} - 3 x^{2} y}{x^{3} - (3 x y^{2}) \sqrt{1 - x^{6} y^2}}.</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap3Sec7/Q15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap3Sec7/Q15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-202" ww-id="webwork-202">
+    <static seed="202" source="Library/Michigan/Chap4Sec6/Q12.pg">
+      <statement><p>If <m>x^2 + y^2 = 36</m> and <m>dx/dt=3</m>,
+find <m>dy/dt</m> when <m>y</m> is positive and</p>
+<p><alert>(a)</alert>
+<m>x=0</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0001"/></p>
+<p><alert>(b)</alert>
+<m>x=2</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0002"/></p>
+<p><alert>(c)</alert>
+<m>x=4</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1.06066017177982</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2.68328157299975</m>
+        </p>
+      </answer>
+      <solution><me>2x \frac{dx}{dt} + 2y\frac{dy}{dt} = 0</me>
+and hence
+<me>\frac{dy}{dt} = -\frac{x\frac{dx}{dt}}{y}.</me>
+
+
+
+<alert>(a)</alert>
+When <m>x=0</m>, <m>y=\sqrt{36-0^2}=6</m>, so we have
+<me>\frac{dy}{dt} = -\frac{0\cdot3}{6} = 0.</me>
+
+
+
+
+<alert>(b)</alert>
+When <m>x=2</m>, <m>y=\sqrt{36-2^2}=\sqrt{32}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{2\cdot3}{\sqrt{32}}.</me>
+
+
+
+
+<alert>(c)</alert>
+When <m>x=4</m>, <m>y=\sqrt{36-4^2}=\sqrt{20}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{4\cdot3}{\sqrt{20}}.</me>
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec6/Q12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec6/Q12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-203" ww-id="webwork-203">
+    <static seed="203" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg">
+      <statement><p>Let <m>\&gt;l\&gt;</m> be the length of a diagonal of a rectangle whose sides have lengths <m>\&gt;x\&gt;</m> and <m>\&gt;y\&gt;</m>, and assume that <m>\&gt;x\&gt;</m> and <m>\&gt;y\&gt;</m> vary with time.</p>
+<p>If <m>\&gt;x\&gt;</m> increases at a constant rate of <m>\&gt; \frac {1} {5}\&gt;</m> ft/s and <m>\&gt;y\&gt;</m> decreases at a constant rate of <m>\&gt; \frac {1} {6}\&gt;</m> ft/s, how fast is the size of the diagonal changing when <m>\&gt;x = 4\&gt;</m> ft. and <m>\&gt;y = 9\&gt;</m> ft?</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.0710742315593533</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-204" ww-id="webwork-204">
+    <static seed="204" source="Library/Michigan/Chap4Sec6/Q16.pg">
+      <statement><p>A rectangle has one side of <m>9</m> cm.
+How fast is the area of the rectangle changing
+at the instant when the other side is <m>13</m> cm
+and increasing at <m>5</m> cm per minute?
+(Give <url href="">units</url>.)</p>
+<p>Answer: <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>45\ {\textstyle\frac{\rm\mathstrut cm^{2}}{\rm\mathstrut min}}</m>
+        </p>
+      </answer>
+      <solution><m>9</m> cm
+and that the other (say, the height) is increasing at <m>5</m> cm/min when it is <m>13</m> cm.
+
+Differentiating the equation <m>A = wh</m> with respect to <m>t</m>
+and treating the width <m>w</m> as constant, we have
+<me>\frac{dA}{dt} = w\frac{dh}{dt} = 9\cdot5 = 45 \hbox{ cm}^2\hbox{/min}.</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec6/Q16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec6/Q16.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-205" ww-id="webwork-205">
+    <static seed="205" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg">
+      <statement><p>A spherical balloon is to be deflated so that its radius decreases at a constant rate of <m>\&gt;7\&gt;</m> cm/min.  At what rate must air be removed when the radius is 
+<m>\&gt;8\&gt;</m>  cm?</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>5629.73403523291</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-206" ww-id="webwork-206">
+    <static seed="206" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-206-image-1.jpg" width="66%"/>
+<p>Suppose a police officer is 1/2 mile south of an intersection, driving
+north towards the intersection at 45 mph. At the same time,
+another car is 1/2 mile east of the intersection, 
+driving east (away
+from the intersection) at an unknown speed.  The officer's
+radar gun indicates 25 mph when pointed at the other
+car (that is, the straight-line distance between the officer
+and the other car is increasing at a rate of 25 mph).
+What is the speed of the other car?</p>
+<p>Speed = <fillin characters="15" name="AnSwEr0001"/> mph.</p>
+<p>Now suppose that the officer's radar gun indicates -25 mph
+instead
+(that is, the straight-line distance is decreasing at
+a rate of 25 mph).  What is the speed of the other
+car this time?</p>
+<p>Speed = <fillin characters="15" name="AnSwEr0002"/> mph.</p>
+</statement>
+      <answer>
+        <p>
+          <m>80.3553390593274</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9.64466094067262</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+The two cars and the intersection form a right triangle.
+Let <m>a =</m> distance from the officer's car to the
+intersection (along the north-south street), 
+and <m>b =</m> distance from the intersection
+to the other car (along the west-east street).  Let
+<m>c =</m> straight-line distance from the officer's car to the
+other car.  Then by the Pythagorean Theorem,
+<m>a^2 + b^2 = c^2</m>.
+Take time-derivatives of both sides of this
+equation.  
+<me>\begin{array}{rcl}
+    \dfrac{d}{dt}\left[ a^2 + b^2 \right] \amp =\amp 
+    \dfrac{d}{dt}\left[ c^2 \right] \\
+    \amp \amp \\
+    2a\dfrac{da}{dt} + 2b\dfrac{db}{dt} \amp =\amp  2c\dfrac{dc}{dt}\\
+  \end{array}</me>
+Then plug in
+the known information and solve.
+We have <m>\dfrac{da}{dt} = -45</m>, which is negative
+because the distance from the officer to the intersection
+is decreasing.  We also have <m>\dfrac{dc}{dt} = 25</m>.
+We can find the distance between the cars at this
+specific moment: <m>c = \sqrt{(1/2)^2 + (1/2)^2}
+= \frac{\sqrt{2}}{2}</m>.
+<me>\begin{array}{rcl}
+    2\left(\frac{1}{2}\right)\left(-45\right) + 
+    2\left(\frac{1}{2}\right)\dfrac{db}{dt} \amp =\amp  
+    2\left(\frac{\sqrt{2}}{2}\right)(25)\\
+    \amp \amp \\
+    \dfrac{db}{dt} = 25 \sqrt{2} + 45 \approx 80.3553390593274.
+  \end{array}</me>
+
+
+
+For the second part, <m>\dfrac{dc}{dt} =  -25</m>.
+<me>\begin{array}{rcl}
+    2\left(\frac{1}{2}\right)\left(-45\right) + 
+    2\left(\frac{1}{2}\right)\dfrac{db}{dt} \amp =\amp  
+    2\left(\frac{\sqrt{2}}{2}\right)(-25)\\
+    \amp \amp \\
+    \dfrac{db}{dt} = -25 \sqrt{2} + 45 \approx 9.64466094067262.
+  \end{array}</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-207" ww-id="webwork-207">
+    <static seed="207" source="Library/Union/setDervRelatedRates/an3_7_17.pg">
+      <statement><p>A 17 foot ladder is leaning against a wall.</p>
+<p>If the top slips down the wall at a rate of 2 ft/s,
+how fast will the foot be moving away from the wall when the top is
+16 feet above the ground?</p>
+<p>The foot will be moving at <fillin characters="25" name="AnSwEr0001"/> ft/s.</p>
+</statement>
+      <answer>
+        <p>
+          <m>5.57048</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervRelatedRates/an3_7_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervRelatedRates/an3_7_17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-208" ww-id="webwork-208">
+    <static seed="208" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg">
+      <statement><p>A aircraft is climbing at a 30 degree angle to the horizontal.  How fast is the aircraft gaining altitude if its speed is <m>\&gt;200\&gt;</m> mi/h?</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>100</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-209" ww-id="webwork-209">
+    <static seed="209" source="Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg">
+      <statement><p>A potter forms a piece of clay into a right circular cylinder. 
+As she rolls it, the height <m>h</m> of the cylinder 
+increases and the radius <m>r</m> decreases.  Assume that 
+no clay is lost in the process.  Suppose the height of 
+the cylinder is increasing by <m>0.2</m> centimeters 
+per second.  What is the rate at which the radius is 
+changing when the radius is <m>5</m> centimeters and the 
+height is <m>12</m> centimeters?</p>
+<p><fillin characters="30" name="AnSwEr0001"/>
+(Include  with your
+answer.)</p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.0416667\ {\textstyle\frac{\rm\mathstrut cm}{\rm\mathstrut s}}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-210" ww-id="webwork-210">
+    <static seed="210" source="Library/Union/setDervRelatedRates/an3_7_30.pg">
+      <statement><p>A boat is pulled into a dock by means of a rope attached to a pulley on the
+dock. The rope is attached to the front of the boat, which is 6
+feet below the level of the pulley.</p>
+<p>If the rope is pulled through the pulley at a rate of 10
+ft/min, at what rate will the boat be approaching the dock when
+100 ft of rope is out?</p>
+<p>The boat will be approaching the dock at <fillin characters="25" name="AnSwEr0001"/> ft/min.</p>
+<p><em>Hint</em>: Sketch a diagram of this situation.</p>
+</statement>
+      <answer>
+        <p>
+          <m>10.018</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervRelatedRates/an3_7_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervRelatedRates/an3_7_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-211" ww-id="webwork-211">
+    <static seed="211" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-211-image-1.jpg" width="66%"/>
+<p>A rope, attached to a weight, goes up through a pulley
+at the ceiling and back down to a worker.  The worker
+holds the rope at the same height as the connection
+point between the rope and weight.  
+The distance from the connection point to the ceiling is 30 ft.
+Suppose the worker
+stands directly next to the weight (i.e., a total rope
+length of 60 ft) and begins to walk away at a constant rate
+of 4 ft/s.  How fast is the weight rising
+when the worker has walked:</p>
+<tabular>
+<row>
+<cell>10 feet?  Answer </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="30" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell>30 feet? Answer </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="30" name="AnSwEr0002"/></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>1.26491</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2.82843</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+The worker, weight and pulley form a right
+triangle with height 30, base length <m>x</m>,
+and hypotenuse <m>z</m>.
+The speed at which the weight rises is the
+same as the speed the rope is being pulled.
+This means the rate we are looking for
+is <m>\dfrac{dz}{dt}</m>.
+
+By the Pythagorean Theorem,
+<me>x^2 + 30^2 = z^2</me>
+Take time-derivatives of both sides of the
+equation.  
+<me>2x\dfrac{dx}{dt} = 2z\dfrac{dz}{dt}.</me>
+
+
+
+Then plug in <m>\dfrac{dx}{dt} = 4</m> and solve for
+the unknown rate.
+<me>\dfrac{dz}{dt} = \dfrac{4 x}{z}.</me>
+
+
+
+When <m>x = 10</m>,
+<me>10^2 + 30^2 = z^2 \;\Rightarrow\; z = \sqrt{1000}.</me>
+<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{40}{\sqrt{1000}}
+  \approx 1.26491106406735.</me>
+
+
+
+When <m>x = 30</m>,
+<me>30^2 + 30^2 = z^2 \;\Rightarrow\; z = \sqrt{1800}.</me>
+<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{120}{\sqrt{1800}}
+  \approx 2.82842712474619.</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-212" ww-id="webwork-212">
+    <static seed="212" source="Library/Michigan/Chap4Sec6/Q11.pg">
+      <statement><p>A voltage <m>V</m> across a resistance <m>R</m> generates a current 
+<m>I=V/R</m>. 
+If a constant voltage of 12 volts is put across a resistance that 
+is increasing at a rate of 0.4 ohms per second when the resistance
+is 3 ohms, 
+at what rate is the current changing?
+(Give .)</p>
+<p>rate = <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.533333333333333\ {\textstyle\frac{\rm\mathstrut amp}{\rm\mathstrut s}}</m>
+        </p>
+      </answer>
+      <solution><m>dR/dt=0.4</m> when <m>R=3</m> and <m>V=12</m> and we want to know 
+<m>dI/dt</m>.  Differentiating <m>I=V/R</m> with <m>V</m> constant gives
+<me>\frac{dI}{dt}=V\left(-\frac{1}{R^2}\frac{dR}{dt}\right),</me>
+so substituting  gives
+<me>\frac{dI}{dt}=12\left(-\frac{1}{3^2}\cdot 0.4\right)
+\approx -0.5333 \hbox{ amp/s }.</me>
+(Note that we know the units are amp/s from the Leibnitz form of the
+derivative, <m>dI\over dt</m>.  It is, of course, equally correct to use
+the expression on the right-hand side to determine the units, 
+<m>\left(\frac{\hbox{V}}{\hbox{ohm}{}^2}\right)\left(\frac{\hbox{ohm}}{\hbox{s}}\right)</m>,
+or, in homework-friendly form,
+V/ohm*s.)
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec6/Q11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec6/Q11.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-213" ww-id="webwork-213">
+    <static seed="213" source="Library/Union/setDervRelatedRates/s2_8_21.pg">
+      <statement><p>Gravel is being dumped from a conveyor belt at a rate of
+30 <m>{\rm ft}^3{\rm /min}</m>. It forms a pile in the shape of a right circular
+cone whose base diameter and height are always the same.</p>
+<p>How fast is the height of the pile increasing when the pile is 10 ft high?</p>
+<p>The height is increasing at <fillin characters="20" name="AnSwEr0001"/> ft/min.</p>
+</statement>
+      <answer>
+        <p>
+          <m>0.381972</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervRelatedRates/s2_8_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervRelatedRates/s2_8_21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-214" ww-id="webwork-214">
+    <static seed="214" source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg">
+      <statement><p>A street light is at the top of a 26 ft pole.  A 6 ft tall girl
+walks along a straight path away from the pole with a speed of 8 ft/sec.</p>
+<p>At what rate is the tip of her shadow moving away from the light (ie. away
+from the <alert> top </alert> of the pole) when the girl is 47 ft away from the pole?</p>
+<p>Answer: <fillin characters="40" name="AnSwEr0001"/></p>
+<p>How fast is her shadow lengthening?</p>
+<p>Answer: <fillin characters="40" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{\left(47+14.1\right)\mathopen{}\left(8+2.4\right)}{66.4019}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{8}{\frac{26}{6}-1}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dcfrev/prob7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-215" ww-id="webwork-215">
+    <static seed="215" source="Library/OSU/high_school_apcalc/dcrev2/prob5.pg">
+      <statement><p>Suppose that two boats leave a dock at different times. One heads due north,
+the other due east.
+Find the rate at which the distance between the boats is changing
+when the first boat is 44 miles 
+from the dock traveling at a speed of 48 miles per hour
+and the second boat is 77
+miles from the dock traveling at a speed of 32 miles per hour.</p>
+<p>Answer: <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>51.5984495891107</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dcrev2/prob5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dcrev2/prob5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-216" ww-id="webwork-216">
+    <static seed="216" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg">
+      <statement><p>A water trough is <m>10\,m</m> long and a cross-section has the shape of an isosceles trapezoid that is <m>30\,cm</m> wide at the bottom, <m>80\,cm</m> wide at the top, and has height <m>50\,cm</m>. If the trough is being filled with water at a rate of <m>.2\,m^3/min</m>, how fast is the water level rising when the water is <m>30\,cm</m> deep?</p>
+<p><fillin characters="20" name="AnSwEr0001"/> <m>m/min</m></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.0333333333333333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-217" ww-id="webwork-217">
+    <static seed="217" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg">
+      <statement><p>Two carts, A and B, are connected by a rope <m>39\,ft</m> long that passes over a pulley <m>P</m>. The point <m>Q</m> is on the floor <m>12\,ft</m> directly beneath <m>P</m> and between the carts. Cart A is being pulled away from <m>Q</m> at a speed of <m>2\,ft/s</m>.</p>
+<p>How fast is cart B moving toward <m>Q</m> at the instant when cart A is <m>5\,ft</m> from <m>Q</m>?</p>
+<p><fillin characters="20" name="AnSwEr0001"/> <m>ft/s</m></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.86710996952412</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-218" ww-id="webwork-218">
+    <static seed="218" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg">
+      <statement><p>A television camera is positioned <m>4000\,ft</m> from the base of a rocket launching pad. The angle of elevation of the camera has to change at the correct rate in order to keep the rocket in sight. Also, the mechanism for focusing the camera has to take into account the increasing distance from the camera to the rising rocket. Let's assume the rocket rises vertically and its speed is <m>600\,ft/s</m> when it has risen <m>3000\,ft</m>.</p>
+<p>(a) How fast is the distance from the television camera to the rocket changing at that moment?</p>
+<p>(b) If the television camera is always kept aimed at the rocket, how fast is the camera's angle of elevation changing at that same moment?</p>
+<p>(a) <fillin characters="20" name="AnSwEr0001"/> <m>ft/s</m></p>
+<p>(b) <fillin characters="20" name="AnSwEr0002"/> <m>rad/s</m></p>
+</statement>
+      <answer>
+        <p>
+          <m>360</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.096</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-219" ww-id="webwork-219">
+    <static seed="219" source="Library/UMN/calculusStewartCCC/s_4_1_30.pg">
+      <statement><p>A kite <m>50\text{ft}</m> above the ground moves horizontally at a speed of <m>8\text{ft/s}.</m>  At what rate is the angle between the string and the horizontal decreasing when <m>150\text{ft}</m> of string has been let out?</p>
+<p>Answer (in radians per second): <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{50}{150^{2}}\cdot 8</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_1_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_4_1_30.pg"/>
   </webwork-reps>
 </webwork-representations>

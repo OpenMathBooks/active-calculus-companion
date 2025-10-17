@@ -1,6 +1,6 @@
-openDate          = 10/09/2025 at 12:00am
-dueDate           = 04/09/2026 at 10:00pm
-answerDate        = 04/09/2026 at 10:00pm
+openDate          = 10/16/2025 at 12:00am
+dueDate           = 04/16/2026 at 10:00pm
+answerDate        = 04/16/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 description       = The Active Calculus Companion
@@ -196,4 +196,24 @@ problem_end
 problem_start
 source_file = Library/Michigan/Chap1Sec3/Q43.pg
 problem_id = 12
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/2_7_1_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/ASU-topics/setLinesInPlane/lines2.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/METU-NCC/MAT101/Derivatives/Review2.pg
+problem_id = 5
 problem_end

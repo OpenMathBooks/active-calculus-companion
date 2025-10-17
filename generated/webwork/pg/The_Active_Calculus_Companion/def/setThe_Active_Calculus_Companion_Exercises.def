@@ -1,6 +1,6 @@
-openDate          = 10/09/2025 at 12:00am
-dueDate           = 04/09/2026 at 10:00pm
-answerDate        = 04/09/2026 at 10:00pm
+openDate          = 10/16/2025 at 12:00am
+dueDate           = 04/16/2026 at 10:00pm
+answerDate        = 04/16/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 description       = The Active Calculus Companion
@@ -547,5 +547,125 @@ problem_id = 17
 problem_end
 problem_start
 source_file = Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/OSU/high_school_apcalc/dchmwk5/prob10.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/ASU-topics/setImplicitDerivatives/5-4-17.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/ma122DB/set5/s3_6_25_mo.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec7/Q13.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec7/Q31.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_3_5_prob02.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec7/Q15.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Michigan/Chap4Sec6/Q12.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Michigan/Chap4Sec6/Q16.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Union/setDervRelatedRates/an3_7_17.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Union/setDervRelatedRates/an3_7_30.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap4Sec6/Q11.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Union/setDervRelatedRates/s2_8_21.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/OSU/high_school_apcalc/dcfrev/prob7.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/OSU/high_school_apcalc/dcrev2/prob5.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_4_1_30.pg
 problem_id = 18
 problem_end
