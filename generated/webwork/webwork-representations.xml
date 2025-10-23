@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f0597178)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f1f20808)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f0614978)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f1fc2920)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4461,23 +4461,23 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
 <p>a)<var form="popup">
 <li>
-<p>ds/dt</p>
+<p>dP/dt</p>
 </li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
-<p>dP/dt</p>
+<p>ds/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
-<li>
-<p>Pa/min</p>
-</li>
 <li>
 <p>m/min</p>
 </li>
 <li>
 <p>Pa/m</p>
+</li>
+<li>
+<p>Pa/min</p>
 </li>
 </var></p>
 <p>b)<var form="popup">
@@ -4492,31 +4492,31 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
-<p>Pa/min</p>
-</li>
-<li>
 <p>Pa/m</p>
 </li>
 <li>
 <p>m/min</p>
 </li>
+<li>
+<p>Pa/min</p>
+</li>
 </var></p>
 <p>c)<var form="popup">
 <li>
-<p>dP/dt</p>
+<p>ds/dt</p>
 </li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
-<p>Pa/m</p>
+<p>m/min</p>
 </li>
 <li>
-<p>m/min</p>
+<p>Pa/m</p>
 </li>
 <li>
 <p>Pa/min</p>
@@ -6628,5 +6628,160 @@ miles from the dock traveling at a speed of 32 miles per hour.</p>
     </static>
     <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_1_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/calculusStewartCCC/s_4_1_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-220" ww-id="webwork-220">
+    <static seed="220" source="Library/AlfredUniv/anton8e/chapter2/2.6/prob5.pg">
+      <statement><p>Find <m>\&gt; \displaystyle \lim_{x \to 0} \frac{x^{2}-3\sin\mathopen{}\left(x\right)}{x}</m>.</p>
+<p>Enter <alert> I </alert> for <m>\infty</m>, <alert> -I </alert> for <m>-\infty</m>,
+and <alert> DNE </alert> if the limit does not exist.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter2/2.6/prob5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/AlfredUniv/anton8e/chapter2/2.6/prob5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-221" ww-id="webwork-221">
+    <static seed="221" source="Library/Rochester/setDerivatives21LHospital/osu_dr_21_2_mo.pg">
+      <statement><p>Compute the following limits using l'Hopital's rule if appropriate.
+Use INF to denote <m>\infty</m> and -INF to denote <m>-\infty</m>.</p>
+<p><m>\displaystyle \lim_{x\to 0} \frac{1-\cos\mathopen{}\left(5x\right)}{1-\cos\mathopen{}\left(4x\right)}</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>\displaystyle \lim_{x\to 1} \frac{5^{x}-4^{x}-1}{x^{2}-1}</m> =  <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(\frac{5}{4}\right)^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{5\log\mathopen{}\left(5\right)-4\log\mathopen{}\left(4\right)}{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives21LHospital/osu_dr_21_2_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives21LHospital/osu_dr_21_2_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-222" ww-id="webwork-222">
+    <static seed="222" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg">
+      <statement><p>Find the limit for <m>n&gt;0</m>. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow \infty} \dfrac{\ln x}{x^n} =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-223" ww-id="webwork-223">
+    <static seed="223" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_15.pg">
+      <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow \infty}\dfrac{7 \ln x}{-8 x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-224" ww-id="webwork-224">
+    <static seed="224" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg">
+      <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use 
+<em> inf</em> to represent positive infinity, 
+<em> -inf</em> for negative infinity, and 
+<em> dne</em> for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 0^+}\dfrac{9\ln x}{3  x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-\infty </m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-225" ww-id="webwork-225">
+    <static seed="225" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg">
+      <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 1} \dfrac{10 \ln x}{9 \sin ( \pi x ) }=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.353677651315323</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-226" ww-id="webwork-226">
+    <static seed="226" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg">
+      <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 0} \dfrac{2 \sin x - 2 x}{6 x^3 }=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.0555555555555556</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-227" ww-id="webwork-227">
+    <static seed="227" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg">
+      <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 0} 3 \cot (2 x) \sin (4 x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-228" ww-id="webwork-228">
+    <static seed="228" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_6.pg">
+      <statement><p>Find the .
+Use L'Hospital's Rule if appropriate.</p>
+<p><m>\displaystyle \lim_{x \to -5} \frac{x+5}{x^{2}-2x-35} =</m>
+<fillin characters="5" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{-12}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-229" ww-id="webwork-229">
+    <static seed="229" source="Library/UMN/calculusStewartCCC/s_4_5_28.pg">
+      <statement><p>Find the limit.  Use l'Hospital's Rule where appropriate.
+<me>\lim_{x \to -\infty} x^{2} e^{x}</me></p>
+<p>Limit: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_5_28.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_4_5_28.pg"/>
   </webwork-reps>
 </webwork-representations>
