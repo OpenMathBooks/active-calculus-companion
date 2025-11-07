@@ -23,10 +23,50 @@
 
   <exercises xml:id="cp-applied-opt">
     <title>Calculus Practice</title>
-    <introduction>
-      <p>
-        Coming soon.
-      </p>
-    </introduction>
+
+
+    <exercise label="apps-app-opt-can-1">
+      <webwork source="Library/ASU-topics/setRationalFunctions/prat13.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-window-triangle">
+      <webwork source="Library/Michigan/Chap4Sec5/Q25.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-wire-1">
+      <webwork source="Library/Michigan/Chap4Sec5/Qweb5.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-baggage-1">
+      <webwork source="Library/Michigan/Chap4Sec5/Qweb6.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-margins-1">
+      <webwork source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-rectangle-under-parabola">
+      <webwork source="Library/OSU/high_school_apcalc/dcrev3/prob4.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-box-no-top">
+      <webwork source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-box-no-top-2">
+      <webwork source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-corner-pipe">
+      <webwork source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-ladder-fence">
+      <webwork source="Library/Union/setDervOptimization/nsc4_6_16.pg" />
+    </exercise>
+
+    <exercise label="apps-app-opt-triangle">
+      <webwork source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" />
+    </exercise>
   </exercises>
 </section>

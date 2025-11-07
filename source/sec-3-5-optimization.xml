@@ -35,10 +35,45 @@
 
   <exercises xml:id="cp-optimization">
     <title>Calculus Practice</title>
-    <introduction>
-      <p>
-        Coming soon.
-      </p>
-    </introduction>
+    
+        <exercise label="apps-opt-rational-1">
+          <webwork source="Library/UMN/calculusStewartCCC/s_4_2_48.pg" />
+        </exercise>
+    
+        <exercise label="apps-opt-polynomial-1">
+          <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg" />
+        </exercise>
+    
+        <exercise label="apps-opt-polynomial-2">
+          <webwork source="Library/ma122DB/set7/s4_1_51.pg" />
+        </exercise>
+    
+        <exercise label="apps-opt-polynomial-3">
+          <webwork source="Library/ma122DB/set7/s4_1_53.pg" />
+        </exercise>
+    
+        <exercise label="apps-opt-rational-2">
+          <webwork source="Library/ma122DB/set7/s4_1_57.pg" />
+        </exercise>
+
+        <exercise label="apps-opt-exponential-1">
+          <webwork source="Library/ma122DB/set7/s4_1_61.pg" />
+        </exercise>
+
+        <exercise label="apps-opt-polynomial-4">
+          <webwork source="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg" />
+        </exercise>
+
+        <exercise label="apps-opt-polynomial-5">
+          <webwork source="Library/Union/setDervOptimization/4-5-23.pg" />
+        </exercise>
+
+        <exercise label="apps-opt-polynomial-6">
+          <webwork source="Library/Wiley/setAnton_Section_4.4/question8.pg" />
+        </exercise>
+
+        <exercise label="apps-opt-rational-3">
+          <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg" />
+        </exercise>
   </exercises>
 </section>
