@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f1f20808)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f058e290)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f1fc2920)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f06289a0)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4464,31 +4464,31 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>dP/dt</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
 <li>
-<p>m/min</p>
+<p>Pa/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
-<p>Pa/min</p>
+<p>m/min</p>
 </li>
 </var></p>
 <p>b)<var form="popup">
+<li>
+<p>dP/dt</p>
+</li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
 <p>ds/dt</p>
-</li>
-<li>
-<p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
@@ -4503,23 +4503,23 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </var></p>
 <p>c)<var form="popup">
 <li>
-<p>ds/dt</p>
+<p>dP/dt</p>
 </li>
 <li>
 <p>dP/ds</p>
 </li>
 <li>
-<p>dP/dt</p>
+<p>ds/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
-<p>m/min</p>
+<p>Pa/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
-<p>Pa/min</p>
+<p>m/min</p>
 </li>
 </var></p>
 </statement>
@@ -6783,5 +6783,1624 @@ Use L'Hospital's Rule if appropriate.</p>
     </static>
     <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_5_28.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/UMN/calculusStewartCCC/s_4_5_28.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-230" ww-id="webwork-230">
+    <static seed="230" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_31.pg">
+      <statement><p>List the critical numbers of the following function separating the values by commas.</p>
+<p><m>f(x) = 5 x^2 + 2 x</m></p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.2</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_31.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-231" ww-id="webwork-231">
+    <static seed="231" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg">
+      <statement><p>Find all critical points of the function <m>f(x)=x^2-{6}x+{7}</m></p>
+<p><m>x=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+
+Let <m>f(x)=x^2-{6}x+{7}</m>. Then <m>f'(x)=2x - {6}</m>. 
+
+
+Since <m>f(x)</m> is differentiable everywhere, the critical points are the solutions of <m>f'(x)=0</m>.  Then  <m>2x - {6}=0</m>, 
+
+
+implies <m>2x={6}</m>  or  <m>x=\frac{6}{2}</m>, 
+
+
+and <m>x=3</m> is the lone critical point of <m>f</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-232" ww-id="webwork-232">
+    <static seed="232" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg">
+      <statement><p>Find the critical point and determine if the function is increasing or decreasing on the given intervals.</p>
+<p><m>y= - x^2 + 6 x  - 1</m></p>
+<p>Critical point: <m>c=</m> <fillin characters="4" name="AnSwEr0001"/></p>
+<p>The function is:</p>
+<p><var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>Decreasing</p>
+</li>
+<li>
+<p>Increasing</p>
+</li>
+</var> on <m>(-\infty,c)</m>.</p>
+<p><var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>Decreasing</p>
+</li>
+<li>
+<p>Increasing</p>
+</li>
+</var> on <m>(c,\infty)</m>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Let <m>f(x)= - x^2 + 6 x  - 1</m>. Then <m>f'(x)= -2x + 6 = 0</m> yields the critical point <m>c=3</m>. 
+
+
+As shown in the following table, the critical point <m>c=3</m> is a local maximum. 
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+ <row>
+<cell>x</cell>
+<cell><m>( -\infty, 3)</m></cell>
+<cell>3</cell>
+<cell><m>(3, +\infty)</m></cell>
+</row>
+ <row>
+<cell><m>f'</m></cell>
+<cell>+</cell>
+<cell>0</cell>
+<cell>-</cell>
+</row>
+ <row>
+<cell><m>f</m></cell>
+<cell><m>\nearrow</m></cell>
+<cell>M</cell>
+<cell><m>\searrow</m></cell>
+</row>
+ 
+</tabular>
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-233" ww-id="webwork-233">
+    <static seed="233" source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg">
+      <statement><p>Find all critical numbers of the polynomial
+<me>f(x) = 6x^{3}+9x^{2}+2</me>
+and then list them (separated by commas) in the box below.
+If there are no critical numbers, enter <alert>None</alert>.</p>
+<p>List of critical numbers: <fillin characters="36" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1, 0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-234" ww-id="webwork-234">
+    <static seed="234" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_34.pg">
+      <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
+<p><m>f(x) = 10 x^3 + 10 x^2 + 10 x</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_34.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_34.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-235" ww-id="webwork-235">
+    <static seed="235" source="Library/UMN/calculusStewartCCC/s_4_2_24.pg">
+      <statement><p>Find the critical numbers of the function
+<me>f(x) = 2x^{3}+3x^{2}-36x.</me></p>
+<p>Answer (separate by commas): <m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2, -3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_2_24.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_4_2_24.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-236" ww-id="webwork-236">
+    <static seed="236" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_35.pg">
+      <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
+<p><m>s(t) = 6 t^4 + 8 t^3 - 12 t^2</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1.61803398874989</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.618033988749895</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_35.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_35.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-237" ww-id="webwork-237">
+    <static seed="237" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_36.pg">
+      <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
+<p><m>f(z) = \dfrac {3 z + 3} {8 z^2 + 8 z + 8}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_36.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_36.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-238" ww-id="webwork-238">
+    <static seed="238" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg">
+      <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
+<p><m>f(x) = 4 x e^{5 x}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{N}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-239" ww-id="webwork-239">
+    <static seed="239" source="Library/NAU/setCalcI/secondDerTest.pg">
+      <statement><p>The function <m>f</m> has  a continuous
+second derivative, and it satisfies <m>f(5) = -2</m>, <m>f'(5) = 0</m> and <m>f''(5) = -2</m>.</p>
+<p>We can conclude that
+<var form="buttons">
+<li>
+<p><m>f</m> has a local minimum at 5.</p>
+</li>
+<li>
+<p><m>f</m> has neither a local maximum nor a local minimum at 5.</p>
+</li>
+<li>
+<p><m>f</m> has a local maximum at 5.</p>
+</li>
+<li>
+<p>We cannot determine if A, B, or C hold without more information.</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/NAU/setCalcI/secondDerTest.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/NAU/setCalcI/secondDerTest.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-240" ww-id="webwork-240">
+    <static seed="240" source="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg">
+      <statement><p>Consider the function <m>f(x) = x^{2}e^{12 x}</m>.</p>
+<p>For this function there are three important intervals:
+ <m>(-\infty, A]</m>, <m>[A,B]</m>, and <m>[B,\infty)</m> where
+ <m>A</m> and  <m>B</m> are the critical numbers.</p>
+<p>Find <m>A</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>and  <m>B</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>For each of the following intervals, tell whether <m>f(x)</m>
+is increasing (type in INC) or decreasing (type in DEC).</p>
+<p><m>(-\infty, A]</m>: <fillin characters="20" name="AnSwEr0003"/></p>
+<p><m>[A,B]</m>: <fillin characters="20" name="AnSwEr0004"/></p>
+<p><m>[B,\infty)</m> <fillin characters="20" name="AnSwEr0005"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-0.166667</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{INC}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{DEC}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{INC}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-241" ww-id="webwork-241">
+    <static seed="241" source="Library/OSU/high_school_apcalc/dchmwk8/prob3.pg">
+      <statement><p>Thus <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0004"/> at <m>A</m> (type in MAX or MIN).</p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>-</p>
+      </answer>
+      <answer>
+        <p>+</p>
+      </answer>
+      <answer>
+        <p>MIN</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob3.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-242" ww-id="webwork-242">
+    <static seed="242" source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg">
+      <statement><p>Thus we conclude that <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0005"/> at <m>B</m> (type in
+MAX or MIN).</p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1.18136041286565</m>
+        </p>
+      </answer>
+      <answer>
+        <p>+</p>
+      </answer>
+      <answer>
+        <p>-</p>
+      </answer>
+      <answer>
+        <p>MAX</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-243" ww-id="webwork-243">
+    <static seed="243" source="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg">
+      <statement><p>Thus <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0005"/> at <m>A</m> (type in MAX or MIN)</p>
+<p>and a local <fillin characters="20" name="AnSwEr0006"/> at <m>B</m> (type in MAX or MIN).</p>
+</statement>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>24</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-24</m>
+        </p>
+      </answer>
+      <answer>
+        <p>MIN</p>
+      </answer>
+      <answer>
+        <p>MAX</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-244" ww-id="webwork-244">
+    <static seed="244" source="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg">
+      <statement><p>Thus we conclude that <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0003"/> at <m>A</m> (type in
+MAX or MIN).</p>
+</statement>
+      <answer>
+        <p>
+          <m>1.64872127070013</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-0.270670566473225</m>
+        </p>
+      </answer>
+      <answer>
+        <p>MAX</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-245" ww-id="webwork-245">
+    <static seed="245" source="Library/Michigan/Chap4Sec1/Q09.pg">
+      <statement><p>For the function
+<m>f(x)=-3 x^3 + 81 x + 14</m>,
+find all intervals where the function is increasing:
+<m>f</m> is increasing on <fillin characters="35" name="AnSwEr0001"/></p>
+<p><em>(Give your answer as an interval or a list of intervals,
+e.g.,</em> <alert>(-infinity,8]</alert> <em>or</em>
+<alert>(1,5),(7,10)</alert> <em>.)</em></p>
+<p>Similarly, find all intervals where the function is decreasing:
+<m>f</m> is decreasing on <fillin characters="35" name="AnSwEr0002"/></p>
+<p><em>(Give your answer as an interval or a list of intervals,
+e.g.,</em> <alert>(-infinity,8]</alert> <em>or</em>
+<alert>(1,5),(7,10)</alert> <em>.)</em></p>
+<p>Finally, find all critical points in the graph of <m>f(x)</m></p>
+<p>critical points: <m>x =</m> <fillin characters="35" name="AnSwEr0003"/></p>
+<p><em>(Enter your <m>x</m>-values as a comma-separated list,
+or</em> <alert>none</alert> <em>if there are no critical
+points.)</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(-3,3\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(-\infty ,-3\right), \left(3,\infty \right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3, 3</m>
+        </p>
+      </answer>
+      <solution><m>f'(x) &gt; 0</m>
+and <m>f'(x) \lt  0</m>; critical points are where <m>f'(x) = 0</m>.
+Here <m>f'(x) = -9 x^2  + 81 = -9 ( x - 3 )( x + 3 )</m>,
+so <m>f</m> is increasing on <m>(-3, 3)</m> and decreasing on <m>(-\infty, -3), (3, \infty)</m>.
+Critical points are <m>x = -3</m> and <m>x = 3</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec1/Q09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec1/Q09.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-246" ww-id="webwork-246">
+    <static seed="246" source="Library/Michigan/Chap4Sec1/Q21.pg">
+      <statement><p>Find and classify the critical points of<m>f(x)=3 x^{4}(6 - x)^5</m> as
+local maxima and minima.</p>
+<p>Critical points: <m>x =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p>Classifications: <fillin characters="25" name="AnSwEr0002"/></p>
+<p><em>(Enter your critical points and classifications as
+comma-separated lists, and enter the types in the same order
+as your critical points.  Note that you must enter something
+in both blanks for either to be evaluated.  For the types,
+enter <alert>min</alert>, <alert>max</alert>, or
+<alert>neither</alert>.</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>0, 2.66667, 6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{min}, \text{max}, \text{neither}</m>
+        </p>
+      </answer>
+      <solution><m>f'(x) = 3\left( 4 x^{3} (6 - x)^{5} - 
+    5 x^{4}(6 - x)^{4} \right)</m>.
+Critical points are where this is zero, or, where
+<m>3 x^{3} (6-x)^{4} \left( 4(6 - x) - 5 x \right) = 
+   3 x^{3} (6-x)^{4} \left( 24 - 9 x \right) = 0</m>.
+So critical points are <m>x = 0</m>, <m>x = 6</m> and 
+<m>x = 24/9</m>.  Because 4, the multiplicity of the root 
+<m>x=6</m>, is even, the derivative does not 
+change sign at <m>x = 6</m>.  Checking points on either
+side of the other two critical points shows that 
+<m>x = 0</m> is a local minimum (<m>f'</m> changes from
+negative to positive) and <m>x = 24/9</m> is a local maximum.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec1/Q21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec1/Q21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-247" ww-id="webwork-247">
+    <static seed="247" source="Library/ASU-topics/setPolynomialFunctions/di6.pg">
+      <statement><p>The rabbit population on a small island is observed to be given by the function</p>
+<p><me>P(t) = 120 t - 0.4 t^4 + 1000</me></p>
+<p>where <m>t</m> is the time (in months) since observations of the island began.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-247-image-1.png" width="33%"/>
+<p><alert> Note: </alert> you can get a larger view of the graph by clicking on it</p>
+<p>(a) The maximum population attained at</p>
+<p><m>t =</m> <fillin characters="20" name="AnSwEr0001"/> months.</p>
+<p>The maximum population is</p>
+<p><m>P(t) =</m> <fillin characters="20" name="AnSwEr0002"/> rabbits.</p>
+<p>(b) When does the rabbit population disappear from the island?</p>
+<p><m>t =</m> <fillin characters="20" name="AnSwEr0003"/> months</p>
+</statement>
+      <answer>
+        <p>
+          <m>4.21716332650875</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1379.54469938579</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>8.419856527</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setPolynomialFunctions/di6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setPolynomialFunctions/di6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-248" ww-id="webwork-248">
+    <static seed="248" source="Library/UMN/calculusStewartCCC/s_4_2_48.pg">
+      <statement><p>Find the absolute maximum and absolute minimum values of <m>\displaystyle f(x) = \frac{x^2-9}{x^2+9}</m> on the interval <m>[-5,5].</m></p>
+<p><alert> 1. </alert> Find the absolute maximum of <m>f</m> on the interval.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert> Find the absolute minimum of <m>f</m> on the interval.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{25-9}{25+9}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_2_48.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_4_2_48.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-249" ww-id="webwork-249">
+    <static seed="249" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg">
+      <statement><p>Let <m>f(x)=x^{2}-8x+10</m>.</p>
+<p>Find the critical point <m>c</m> of <m>f(x)</m> and compute <m>f(c)</m>.</p>
+<p>The critical point <m>c</m> is =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>The value of <m>f(c)</m> =  <fillin characters="20" name="AnSwEr0002"/></p>
+<p>Compute the value of <m>f(x)</m> at the endpoints of the interval <m>[0,8]</m>.</p>
+<p><m>f(0)</m> =  <fillin characters="20" name="AnSwEr0003"/></p>
+<p><m>f(8)</m> =  <fillin characters="20" name="AnSwEr0004"/></p>
+<p>Determine the min and max of <m>f(x)</m> on <m>[0,8]</m>.</p>
+<p>Minimum value =  <fillin characters="20" name="AnSwEr0005"/></p>
+<p>Maximum value =  <fillin characters="20" name="AnSwEr0006"/></p>
+<p>Find the extreme values of <m>f(x)</m> on <m>[0,1]</m>.</p>
+<p>Minimum value =  <fillin characters="20" name="AnSwEr0007"/></p>
+<p>Maximum value =  <fillin characters="20" name="AnSwEr0008"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <solution><m>f(x)</m> is the solution to <m>f'(x)=0</m>. The derivative is<m>f'(x)=2x-8</m>. Setting this equal to zero and solving for <m>x</m> gives <m>x=4</m>. Evaluating <m>f(4)</m> yields the critical value -6.
+
+
+
+Evaluating <m>f(0)</m> and <m>f(8)</m>, we find that each is equal to 10.
+
+
+
+The extreme values must occur at critical points or at the endpoints of the interval. Since the value at the critical point is smaller than the value at the endpoints, the value of <m>f(4)</m> is a minimum, and the value of <m>f(0)</m> (or <m>f(8)</m> since they are equal) is a maximum.
+
+
+
+There are no critical points in the interval <m>[0,1]</m>, so the extreme values lie at the endpoints of the interval. Computation yields <m>f(0)=10</m>,<m>f(1)=3</m>, so the minimum is 3 and the maximum is 10.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-250" ww-id="webwork-250">
+    <static seed="250" source="Library/ma122DB/set7/s4_1_51.pg">
+      <statement><p>Consider the function <m>f(x) = 2 x^3+ 24 x^2 - 54 x+ 11 , \quad
+- 9 \leq x \leq 2</m>.</p>
+<p>Find the absolute minimum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Find the absolute maximum value of this function.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-17</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>983</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_51.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set7/s4_1_51.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-251" ww-id="webwork-251">
+    <static seed="251" source="Library/ma122DB/set7/s4_1_53.pg">
+      <statement><p>Consider the function <m>f(x) = x^4 - 72 x^2+ 10 , \quad  -5 \leq x \leq 13</m>.</p>
+<p>Find the absolute minimum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>find the absolute maximum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1286</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>16403</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_53.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set7/s4_1_53.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-252" ww-id="webwork-252">
+    <static seed="252" source="Library/ma122DB/set7/s4_1_57.pg">
+      <statement><p>Consider the function <m>f(x) = \displaystyle \frac{-x}{9x^{2}+1} , \quad 0\le x\le 2.</m></p>
+<p>This function has an absolute minimum value equal to: <fillin characters="15" name="AnSwEr0001"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p>and an absolute maximum value equal to: <fillin characters="20" name="AnSwEr0003"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1}{2\sqrt{9}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{1}{\sqrt{9}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p>The quotient rule gives;
+<me>f'(x) = \frac{9 x^2 -1}{(9 x^2 +1)^2}</me>
+Since <m>f'(x)</m> is defined for all <m>x</m>, the only critical numbers  of <m>f</m> occur
+when <m>f'(x) =0</m>, that is <m>9 x^2  -1 =0</m>.</p>
+<p>This equation is satisfied for <m>x = 1/\sqrt{9}</m> and <m>x = -1/\sqrt{9}</m>.</p>
+<p>However, <m>x = -1/\sqrt{9}</m> is not in the interval <m>[0, 2]</m>. Thus the only critical number is <m>x = 1/\sqrt{9}</m>. 
+The value of <m>f</m> at this critical number is
+<me>f\left(\frac{1}{\sqrt{9}}\right) = - \frac{1}{2\sqrt{9}} \approx -0.166667</me> 
+The values of <m>f</m> at the endpoints of the interval are 
+<me>f(0)= 0 \quad \text{and} \quad f(2) =  -{\frac{2}{37}} \approx -0.0540541</me>
+Comparing these values we can see that the absolute minimum  value is equal to
+<m>- \displaystyle \frac{1}{2\sqrt{9}}</m> and it is attained at <m>x = \displaystyle \frac{1}{\sqrt{9}}</m>, while 
+the absolute maximum value is <m>0</m> and it is attained at <m>x = 0</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_57.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set7/s4_1_57.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-253" ww-id="webwork-253">
+    <static seed="253" source="Library/ma122DB/set7/s4_1_61.pg">
+      <statement><p>Consider the function <m>f(x) = xe^{-2 x}, \quad 0\le x\le 2.</m></p>
+<p>This function has an absolute minimum value equal to: <fillin characters="15" name="AnSwEr0001"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p>and an absolute maximum value equal to: <fillin characters="20" name="AnSwEr0003"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.183939720585721</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.5</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_61.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set7/s4_1_61.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-254" ww-id="webwork-254">
+    <static seed="254" source="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg">
+      <statement><p>Consider the function <m>f(x) =1-6x^{2}, \quad -4 \leq x \leq 2</m>.</p>
+<p>The absolute maximum value is <fillin characters="20" name="AnSwEr0001"/></p>
+<p>and this occurs at <m>x</m> equals <fillin characters="20" name="AnSwEr0002"/></p>
+<p>The absolute minimum value is <fillin characters="20" name="AnSwEr0003"/></p>
+<p>and this occurs at <m>x</m> equals <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-95</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-255" ww-id="webwork-255">
+    <static seed="255" source="Library/Union/setDervOptimization/4-5-23.pg">
+      <statement><p>Find the absolute maximum and absolute minimum values of  the function
+<me>f(x) = x^{3}+6x^{2}-63x+7</me>
+over each of the indicated intervals.</p>
+<p>(a) Interval = <m>[-8, 0]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0002"/></cell>
+</row>
+</tabular>
+<p>(b) Interval = <m>[-5, 4]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0003"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0004"/></cell>
+</row>
+</tabular>
+<p>(c) Interval = <m>[-8, 4]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0005"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>399</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>347</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-101</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>399</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-101</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p><me>f'(x) = 3x^{2}+12x-63 = 3(x-3)(x+7)</me>
+The critical numbers are <m>x = 3</m> and <m>x = -7</m>.</p>
+<p>(a) Only the critical number <m>x = -7</m> is in the interval <m>[-8, 0]</m>.
+The value of the function at this critical number is
+<me>f(-7) = 399</me>
+The values at the endpoints are 
+<me>f(-8) = 383 \quad \text{and} \quad f(0)=7</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>399</m></p>
+<p><B> 2. </B> Absolute minimum = <m>7</m>.</p>
+<p>(b) Only the critical number <m>x = 3</m> is in the interval <m>[-5, 4]</m>.
+The value of the function at this critical number is
+<me>f(3) = -101</me>
+The values at the endpoints are 
+<me>f(-5) = 347 \quad \text{and} \quad f(4)=-85</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>347</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-101</m>.</p>
+<p>(c) Both  critical numbers <m>x = -7</m> and <m>x = 3</m> are in the interval <m>[-8, 4]</m>.
+The values of the function at these critical numbers are
+<me>f(-7) = 399 \quad \text{and} \quad f(3) = -101</me>
+The values at the endpoints are 
+<me>f(-8) = 383 \quad \text{and} \quad f(4)=-85</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>399</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-101</m>.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervOptimization/4-5-23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervOptimization/4-5-23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-256" ww-id="webwork-256">
+    <static seed="256" source="Library/Wiley/setAnton_Section_4.4/question8.pg">
+      <statement><p>Find the absolute maximum and minimum values of <m>f(x) = 5x-x^{2}</m> over the closed interval [0, 3].</p>
+<p>absolute maximum is <fillin characters="15" name="AnSwEr0001"/> and it occurs at x = <fillin characters="15" name="AnSwEr0002"/></p>
+<p>absolute minimum is <fillin characters="15" name="AnSwEr0003"/> and it occurs at x = <fillin characters="15" name="AnSwEr0004"/></p>
+<p><B> Notes:</B>
+If there is more than one <m>\small x</m> value, enter as a comma separated list.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{25}{4}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><m>f</m> is continuous everywhere and therefore the Extreme-Value Theorem guarantees that <m>f</m> has a maximum and a minimum value
+ on the interval [0, 3]. 
+
+ Differentiating, we obtain
+
+<me>f'(x) = 5-2x</me>
+
+Thus <m>f'(x) =0</m> if <m>x ={\frac{5}{2}}</m>.
+
+
+Evaluating <m>f</m> at these critical values and end points yields the following table
+<CENTER>
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+<row>
+<cell>x</cell>
+<cell><m>0</m></cell>
+<cell><m>{\frac{5}{2}}</m></cell>
+<cell><m>3</m></cell>
+</row>
+
+<row>
+<cell><m>\small f(x)</m></cell>
+<cell><m>0</m></cell>
+<cell><m>{\frac{25}{4}}</m></cell>
+<cell><m>6</m></cell>
+</row>
+
+
+</tabular>
+
+</CENTER>
+
+We conclude that
+
+
+<m>f</m> has an absolute maximum of <m>\; \small {\frac{25}{4}} \;</m>which occurs at <m>\small{x = {\frac{5}{2}}}</m> and 
+
+
+<m>f</m> has an absolute minimum of <m>\; \small 0 \;</m> which occurs at <m>\small x =0</m>.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_4.4/question8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Wiley/setAnton_Section_4.4/question8.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-257" ww-id="webwork-257">
+    <static seed="257" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg">
+      <statement><p>Find the maximum and minimum values of the function <m>f(x)=x-\frac{27x}{x+3}</m> on the interval [0,9].</p>
+<p>The minimum value =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>The maximum value =  <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><m>f(x)</m> is the solution to <m>f'(x)=0</m>. The derivative is<m>f'(x)=1-\frac{81}{\left(x+3\right)^{2}}</m>. Setting this equal to zero and solving for <m>x</m> gives <m>x=-3\pm 9</m>, and of these two critical points only -3+9=6 lies in our interval. Evaluating <m>f(-3+9)=f(6)</m> yields the critical value -12. The values of the function at the endpoints of the interval are <m>f(0)=0</m>, <m>f(9)=-11.25</m>, so the minimum value is -12, and the maximum value is 0.
+
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-258" ww-id="webwork-258">
+    <static seed="258" source="Library/ASU-topics/setRationalFunctions/prat13.pg">
+      <statement><p>An aluminum can is to be constructed to contain 2100 <m>cm^3</m> of liquid.</p>
+<p>Let <m>r</m> and <m>h</m> be the radius of the base and the height of the can
+respectively.</p>
+<p>a) Express <m>h</m> in terms of <m>r</m>. (If needed you can enter <m>\pi</m> as pi.)</p>
+<p><m>h =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+<p>b) Express the surface area of the can in terms of <m>r</m>.</p>
+<p>Surface area = <fillin characters="40" name="AnSwEr0002"/></p>
+<p>c) Approximate the value of <m>r</m> that will minimize the amount of
+required material (i.e. the value of <m>r</m> that will minimize the surface area).</p>
+<p>What is the corresponding value of <m>h</m>?</p>
+<p><m>r =</m> <fillin characters="40" name="AnSwEr0003"/></p>
+<p><m>h =</m> <fillin characters="40" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{2100}{3.14159r^{2}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6.28319r^{2}+\frac{4200}{r}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6.93979234383925</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>13.8795846876785</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ASU-topics/setRationalFunctions/prat13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ASU-topics/setRationalFunctions/prat13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-259" ww-id="webwork-259">
+    <static seed="259" source="Library/Michigan/Chap4Sec5/Q25.pg">
+      <statement><p>Consider a window the shape of which is a rectangle of height <m>h</m>
+surmounted by a triangle having a height <m>T</m> that is 1.2 times the
+width <m>w</m> of the rectangle (as shown in the figure below).</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-259-image-1.png" width="33%"/>
+<p>If the cross-sectional area is <m>A</m>, determine the dimensions of
+the window which minimize the perimeter.</p>
+<p><m>h =</m> <fillin characters="55" name="AnSwEr0001"/></p>
+<p><m>w =</m> <fillin characters="55" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{A}{\sqrt{\frac{2A}{2.4}}}-\frac{1.2\sqrt{\frac{2A}{2.4}}}{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\sqrt{\frac{2A}{2.4}}</m>
+        </p>
+      </answer>
+      <solution><m>h w</m>, and the
+area of the triangle is <m>\frac12 w T = 0.6 w^2</m>.  Thus the
+cross-sectional area, <m>A</m> is 
+<me>A = h w + 0.6 w^2.</me>
+
+
+
+The perimeter of the window is <m>P = w + 2 h + 2 d</m>, where <m>d</m> is
+the length of the angled top edges of the triangle.  We can find <m>d</m> by
+looking at half of the triangle and using the Pythagorean theorem: 
+<m>d = \sqrt{ (\frac12 w)^2 + T^2 } = \sqrt{ \frac14 w^2 + 1.2^2 w^2 }
+     = \sqrt{ \frac14 + 1.2^2 } w \approx 1.3 w</m>.  Thus
+<me>P = w + 2h + 2(1.3) w = 3.6 w + 2h.</me>
+
+
+
+From <m>A = h w + 0.6 w^2</m> we get
+<m>h = \frac{A}{w} - 0.6 w</m>.
+Thus,
+<me>P = \frac{2A}{w} - 1.2 w + 3.6 w = \frac{2A}{w} + 2.4 w.</me>
+We now have the perimeter in terms of <m>w</m> and the constant <m>A</m>.
+Differentiating, we obtain
+<me>\frac{dP}{dw} = -\frac{2A}{w^2} + 2.4.</me>
+To find the critical points we set <m>P'=0</m> and solve for <m>w</m>,
+finding
+<m>w = \sqrt{2A/2.4} \approx 0.913 \sqrt{A}</m>.
+Substituting this back into our expression for <m>h</m>, we have
+<m>h = \frac{A}{0.913 \sqrt{A}} - \frac12 (1.2) 0.913 \sqrt{A}
+     \approx 0.548 \sqrt{A}.</m>
+
+
+
+
+Since <m>P\to\infty</m> as <m>w\to 0^+</m> and as <m>w\to\infty</m>, this critical
+point must be a global minimum.  We can also see this because it is
+the only critical point and the second derivative,
+<m>P'' = 4A/w^3 &gt; 0</m>, indicating that <m>P</m> is concave up.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec5/Q25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec5/Q25.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-260" ww-id="webwork-260">
+    <static seed="260" source="Library/Michigan/Chap4Sec5/Qweb5.pg">
+      <statement><p>A wire 8 meters long is cut into two pieces.  One piece is bent
+into a square for a frame for a stained glass ornament, while the
+other piece is bent into a circle for a TV antenna.  To reduce storage
+space, where should the wire be cut to minimize the total area of both
+figures? 
+Give the length of wire used for each:</p>
+<p>For the square: <fillin characters="35" name="AnSwEr0001"/></p>
+<p>For the circle: <fillin characters="35" name="AnSwEr0002"/></p>
+<p>(for both, include )</p>
+<p>Where should the wire be cut to maximize the total area?  
+Again, give the length of wire used for each:</p>
+<p>For the square: <fillin characters="35" name="AnSwEr0003"/></p>
+<p>For the circle: <fillin characters="35" name="AnSwEr0004"/></p>
+<p>(for both, include )</p>
+</statement>
+      <answer>
+        <p>
+          <m>4.48079322809246\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3.51920677190754\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>8\ {\rm m}</m>
+        </p>
+      </answer>
+      <solution><em>the total area enclosed by
+the two figures</em>.  Our first task is therefore to find an
+equation for this area, which will be the sum of the areas of the two
+figures.
+
+
+
+
+Suppose we cut <m>x</m> meters of wire to make the circular antenna.
+Then there are <m>8 - x</m> meters left for the square.  To find the
+area of the circle we need its radius.  The circumference of a circle
+of radius <m>r</m> is <m>C = 2\pi r</m>, so the radius of the circle is
+given by <m>2\pi r = x</m>, and so <m>r = \frac{x}{2\pi}</m>.  The area
+of the circular antenna is therefore 
+<m>A_c = \pi r^2 = \frac{1}{4\pi} x^2</m>.
+
+
+
+
+Then the perimeter of a square with side length <m>s</m> is 
+<m>P = 4 s = 8 - x</m>, so the side length is 
+<m>s = \frac{1}{4}(8 - x)</m>.  Then the area of a square is 
+<m>A_s =  s^2</m>, so the area of the square is 
+<m>A_s =  (\frac{1}{16})(8 - x)^2</m>.
+
+
+
+
+The total area is therefore
+<me>A = \frac{1}{4\pi} x^2 +  (\frac{1}{16})(8 - x)^2
+  = \frac{1}{4\pi} x^2 + \frac{1}{ (16)}(64 - 16 x + x^2).</me>
+The domain for <m>x</m> is <m>0\le x\le 8</m>.  
+
+
+
+ 
+The maximum and minimum of <m>A</m> will occur at critical or end
+points.  Critical points are where <m>dA/dx = 0</m>, or, where
+<me>\frac{1}{2\pi} x + \frac{1}{ (16)}(2x - 16) = 0.</me>
+Collecting all terms in <m>x</m> we have
+<me>\left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) x = 
+  \frac{16 }{16},</me>
+so, after simplifying, 
+<me>x = \frac{8 \pi}{4 + \pi}.</me>
+
+
+
+
+To determine if this is a local maximum or minimum, we use the second
+derivative test.  
+<me>A'' = \left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) &gt; 0,</me>
+so the function is concave up everywhere and this is a local,
+and because there is only one critical point, global, minimum.  Thus
+to minimize area we use <m>\frac{8 \pi}{4 + \pi}</m> meters of wire for the circle and
+<m>8 - \frac{8 \pi}{4 + \pi}</m> meters for the square. 
+
+
+
+ 
+To maximize the area, we must use the endpoints.  The areas at the
+endpoints are
+<me>A(0) = 4\qquad{\rm and}\qquad
+   A(8) = \frac{16}{\pi} \approx 5.09,</me>
+the larger of which is <m>A(8)</m>, so the maximum area occurs when
+all of the wire is used for the circle and none for the square.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec5/Qweb5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec5/Qweb5.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-261" ww-id="webwork-261">
+    <static seed="261" source="Library/Michigan/Chap4Sec5/Qweb6.pg">
+      <statement><p>Some airlines have restrictions on the size of items of luggage that
+passengers are allowed to take with them.  Suppose that one has a rule
+that the sum of the length, width and height of any piece of luggage
+must be less than or equal to 234 cm.  A passenger wants to take a
+box of the maximum allowable volume.  If the length and width are to
+be equal, what should the dimensions be?</p>
+<p>length = width = <fillin characters="35" name="AnSwEr0001"/></p>
+<p>height = <fillin characters="35" name="AnSwEr0002"/></p>
+<p>In this case, what is the volume?</p>
+<p>volume = <fillin characters="35" name="AnSwEr0003"/></p>
+<p>(for each, include )</p>
+<p>If the length is be twice the width, what should the dimensions be?</p>
+<p>length = <fillin characters="35" name="AnSwEr0004"/></p>
+<p>width = <fillin characters="35" name="AnSwEr0005"/></p>
+<p>height = <fillin characters="35" name="AnSwEr0006"/></p>
+<p>In this case, what is the volume?</p>
+<p>volume = <fillin characters="35" name="AnSwEr0007"/></p>
+<p>(for each, include )</p>
+</statement>
+      <answer>
+        <p>
+          <m>78\ {\rm cm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>78\ {\rm cm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>474552\ {\rm cm^{3}}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>104\ {\rm cm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>52\ {\rm cm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>78\ {\rm cm}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>421824\ {\rm cm^{3}}</m>
+        </p>
+      </answer>
+      <solution><m>L</m>, <m>w</m> and <m>h</m>,
+respectively.  Then the volume of the box is <m>V = Lwh</m>.  The sum 
+<m>L + w + h = 234</m>, and, for the first part, we know that 
+<m>L = w</m>.  Thus <m>2w + h = 234</m>, so <m>h = 234 - 2w</m>, and
+the volume equation becomes 
+<m>V = Lwh = w\cdot w\cdot(234 - 2w) = 234\cdot w^2 - 2w^3</m>.
+The domain for <m>w</m> is <m>0\le w\le 234</m>.  
+
+
+
+Critical points are where 
+<m>\frac{dV}{dw} = 2\cdot 234\cdot w - 6\cdot w^2 = 0</m>, so 
+<m>w = 0</m> or <m>w = 78</m>.  The global maximum must occur either at
+this point or at the end points.  <m>V(78) &gt; 0</m> while 
+<m>V(0) = V(234) = 0</m>, so the global maximum is at <m>L=w=78</m>, 
+in which case <m>h=78</m> as well.  The volume is then 
+<m>V = 78^3 = 474552 {\rm cm}^3</m>.
+
+
+
+
+If <m>L = 2w</m>, <m>2w + w + h = 234</m>, so 
+<m>V = (2w)(w)(234 - 3w) = 468 w^2 - 6 w^3</m>.  Proceeding as
+before, we find <m>w = 52</m>, <m>L = 104</m> and <m>h = 78</m>, so that 
+<m>V = 421824</m>.
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap4Sec5/Qweb6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap4Sec5/Qweb6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-262" ww-id="webwork-262">
+    <static seed="262" source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg">
+      <statement><p>A printed poster is to have a total area of 797 square inches with top and
+bottom margins of 3 inches and side margins of 2 inches. What should be the
+dimensions of the poster so that the printed area be as large as possible?</p>
+<p>To solve this problem let <m>x</m> denote the width of the poster in inches and
+let <m>y</m> denote the length in inches. We need to maximize the following
+function of <m>x</m> and <m>y</m>:</p>
+<p><fillin characters="35" name="AnSwEr0001"/></p>
+<p>We can reexpress this as the following function of <m>x</m> alone:</p>
+<p><m>f(x) =</m> <fillin characters="45" name="AnSwEr0002"/></p>
+<p>We find that <m>f(x)</m> has a critical number at <m>x=</m><fillin characters="20" name="AnSwEr0003"/></p>
+<p>To verify that <m>f(x)</m> has a maximum at this critical number we compute
+the second derivative <m>f''(x)</m> and find that its value at the critical
+number is <fillin characters="20" name="AnSwEr0004"/>, a negative number.</p>
+<p>Thus the optimal dimensions of the poster are <fillin characters="20" name="AnSwEr0005"/> inches in
+width and <fillin characters="20" name="AnSwEr0006"/> inches in height giving us a maximumal printed
+area of <fillin characters="20" name="AnSwEr0007"/> square inches.</p>
+</statement>
+      <answer>
+        <p>
+          <m>\left(x-4\right)\mathopen{}\left(y-6\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\left(x-4\right)\mathopen{}\left(\frac{797}{x}-6\right)</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>23.0506688261606</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-0.520592269599613</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>23.0506688261606</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>34.5760032392409</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>544.391974086073</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-263" ww-id="webwork-263">
+    <static seed="263" source="Library/OSU/high_school_apcalc/dcrev3/prob4.pg">
+      <statement><p>A certain magical substance that is used to make solid magical spheres
+costs <m>\$400</m> per cubic foot. The power of a magical sphere depends on its
+surface area, and a magical sphere can be sold for <m>\$60</m> per square foot
+of surface area. If you are manufacturing such a sphere, what size should
+you make them to maximize your profit per sphere?</p>
+<p><m>r=</m> <fillin characters="10" name="AnSwEr0001"/> ft.</p>
+<p>Note 1: the formulas for the volume and surface area of a sphere of radius
+<m>r</m> are <m>V=\frac{4\pi}{3}r^3</m> and <m>A=4\pi r^2</m> respectively.</p>
+<p>Note 2: on a real exam you would be expected to justify that the answer
+above is actually a maximum, rather than, say a minimum.</p>
+</statement>
+      <answer>
+        <p>
+          <m>0.3</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dcrev3/prob4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/OSU/high_school_apcalc/dcrev3/prob4.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-264" ww-id="webwork-264">
+    <static seed="264" source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg">
+      <statement><p>If 1100 square centimeters of material is available to make a box
+with a square base and an open top, find the largest possible volume
+of the box.</p>
+<p>Volume = <fillin characters="30" name="AnSwEr0001"/>
+(include )</p>
+</statement>
+      <answer>
+        <p>
+          <m>3510.57\ {\rm cm^{3}}</m>
+        </p>
+      </answer>
+      <solution><m>x</m> be the length of the sides of the square base.  Then, if <m>h</m> is 
+the height of the box, the volume is given by <m>x^2h</m>.  We need to 
+find an expression for the height <m>h</m> in terms of <m>x</m>.
+
+
+
+This is where we use our information about the amount of material used
+in constructing the box.  If the base of the box has sides of length <m>x</m>, then <m>x^2</m> square centimeters of material are used to make the 
+base. Therefore, we have only <m>1100 - x^2</m> square centimeters of 
+material left to make the sides, of which there are four.  Each of the 
+sides uses <m>hx</m> square centimeters of material.  Therefore, we
+get the formula:
+
+
+
+<me>1100-x^2 = 4(hx) \Rightarrow h = \frac{1100-x^2}{4x}</me>
+
+
+
+Plugging this into our formula for volume, we can now write out <m>v(x)</m>
+as:
+
+
+
+<me>v(x) = x^2\left(\frac{1100-x^2}{4x}\right) = 
+           \frac{{1100}x - x^3}{4}</me>
+
+
+
+Now, we take the derivative of this expression, using the rules for
+taking derivatives of polynomials, to get <m>v'(x) = \frac{1100}{4} - 
+\frac{3}{4}x^2</m>.  Setting this equal to 0 will give us the critical
+points.  When solving, remember that this is a real world situation, so 
+we can not have a negative value for <m>x</m> (which is a length).
+
+
+
+<me>\begin{array}{rcl}
+    v'(x) \amp  = \amp  0 \\
+    \frac{1100}{4} - \frac{3}{4}x^2 \amp  = \amp  0 \\
+    \frac{3}{4}x^2 \amp  = \amp  \frac{1100}{4} \\
+    x^2 \amp  = \amp  \frac{1100}{3} \\
+    x \amp  = \amp  \sqrt{\frac{1100}{3}} \approx 19.15 \\
+  \end{array}</me>
+
+Now, plugging this width into our formula for volume, <m>v(x)</m>, we get
+the maximal volume of <m>v(19.15) = !{3510.57\ {\rm cm^{3}}:\%5.2f}</m>.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-265" ww-id="webwork-265">
+    <static seed="265" source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg">
+      <statement><p>A rectangular storage container with an open top is to have a volume
+of 16 cubic meters.  The length of its base is twice the width.
+Material for the base costs 15 dollars per square meter.
+Material for the sides costs 5 dollars per square meter.  Find
+the cost of materials for the cheapest such container.</p>
+<p>Total cost = <fillin characters="30" name="AnSwEr0001"/>
+(Round to the nearest penny and include monetary units. 
+For example, if your answer is 1.095, enter $1.10 
+including the dollar sign and second decimal place.)</p>
+</statement>
+      <answer>
+        <p>
+          <m>\$226.79</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p>Let <m>w</m> and <m>h</m> denote the width of the base and the height of the container,
+respectively.</p>
+<p>Since the length of the base is twice the width, the volume of the container is
+<me>V= (2w)(w)h =2 w^2 h =  16</me>
+so 
+<me>h = \frac{16}{ 2 w^2}</me>
+The sides have total  area <m>2(2w)h+ 2wh = 6wh</m>, while the base has area <m>w(2w) = 2 w^2</m>, so the cost is
+<me>5 \cdot (6wh ) + 15\cdot (2 w^2)</me>
+Substuting the expression for <m>h</m> gives
+<me>C(w) = 5 \cdot 6 w\cdot  \frac{16}{ 2 w^2} + 15\cdot( 2 w^2 ) 
+= \frac{240}{w} + 30 w^2 \quad w &gt;0</me>
+<me>C'(w) = -\frac{240}{w^2} + 60 w  = \frac{-240+ 60 w^3}{w^2}</me>
+<m>\displaystyle w = \left(4\right)^{1/3}</m> is the critical number. 
+There is an absolute minimum at this critical number since <m>C'(w) \lt 0</m> for
+<m>0 \lt  w \lt   \left(4\right)^{1/3}</m> and <m>C'(w) &gt;0</m> for 
+<m>w &gt; \left(4\right)^{1/3}</m>.</p>
+<p>The total minimum cost is
+<me>C\left(\left(4\right)^{1/3} \right) \approx  \$226.79</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-266" ww-id="webwork-266">
+    <static seed="266" source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg">
+      <statement><p>A steel pipe is being carried down a hallway 9 ft wide. At the
+end of the hall there is a right-angled turn into a narrower
+hallway 6 ft wide. What is the length of the longest pipe that
+can be carried horizontally around the corner?</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-266-image-1.gif" width="75%"/>
+<p><fillin characters="20" name="AnSwEr0001"/> ft</p>
+</statement>
+      <answer>
+        <p>
+          <m>21.0704471376599</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-267" ww-id="webwork-267">
+    <static seed="267" source="Library/Union/setDervOptimization/nsc4_6_16.pg">
+      <statement><p>A fence 6 feet tall runs parallel to a tall building at a distance
+of 3 feet from the building.</p>
+<p>What is the length of the shortest ladder that will
+reach from the ground over the fence to the wall of the building?</p>
+<p>Length of ladder = <fillin characters="20" name="AnSwEr0001"/> feet.</p>
+</statement>
+      <answer>
+        <p>
+          <m>12.4858</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Union/setDervOptimization/nsc4_6_16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Union/setDervOptimization/nsc4_6_16.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-268" ww-id="webwork-268">
+    <static seed="268" source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg">
+      <statement><p>Find the maximal area of a right triangle
+with hypotenuse of length 6.</p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Let <m>x, y</m> be the lengths of the legs of the
+triangle.  By the Pythagorean Theorem,
+<m>x^2 + y^2 = 6^2</m>.  Solving for <m>y</m>,
+we get:
+<me>y = \sqrt{36 - x^2}</me>
+
+
+
+The fundamental equation (to be maximized) is the
+area of the triangle,
+<m>A = \frac{1}{2}xy</m>.  
+Substitute <m>y = \sqrt{36 - x^2}</m>
+and find the critical number(s).
+<me>\begin{array}{rcl}
+    A \amp =\amp  \frac{1}{2}x\sqrt{36 - x^2} \\
+    \amp \amp \\
+    A' \amp =\amp  \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{36 - x^2}}
+     + \sqrt{36 - x^2}\right)\\
+    \amp \amp \\
+    \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{36 - x^2}}
+     + \sqrt{36 - x^2}\right) \amp =\amp  \\
+     \amp \amp \\
+     -x^2 + (36 - x^2) \amp =\amp  0 \\
+    2x^2 \amp =\amp  36 \\
+    x \amp =\amp  \pm \sqrt{18}
+  \end{array}</me> 
+
+
+
+Since lengths are required to be positive, we
+choose <m>x = \sqrt{18}</m>.
+The corresponding <m>y</m> value is:
+<me>y = \sqrt{36 - x^2} = 
+   \sqrt{36 - 18} = \sqrt{18}.</me>
+
+
+
+Therefore, the maximal area is:
+<me>A = \frac{1}{2}xy = \frac{1}{2} \sqrt{18} \cdot \sqrt{18} = 9.</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg"/>
   </webwork-reps>
 </webwork-representations>

@@ -1393,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "The chain rule",
-  "body": " The chain rule     Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.    Use a combination of basic derivative rules (including trigonometric and exponential), product and quotient rules, and chain rule to take the derivative of a complicated function.        Structure of functions: composition, product, quotient    All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.    What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.     Foundations  One of the most useful ways of constructing functions from other functions is composition : doing one function and then doing another function to the result. Rather than substituting a number in for the input of a function, we substitute a whole second function in for the input of a function.  We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the rate of change of the more complicated function. We treat the inside or substituted function as if it were a single variable, take the derivative of the outer function with respect to that variable, and multiply by the derivative of the inside function.   The Chain Rule   chain rule If is differentiable at and is differentiable at , then the composite function defined by is differentiable at and .  Another formulation of this rule which says the same thing using different notation is .   Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)    If the video does not work, click here to watch on YouTube.                  Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)                   Composition using algebra    Let and .                 If the video does not work, click here to watch on YouTube.                       Composition using algebra    Let and .             For any input     and functions     and   ,  this action defines a composite function, which we write as   such that   The domain of the composite function     is all     such that     is in the domain of     and     is in the domain of   .                  Composition using algebra    Let and .                            Composition using a table of values          1    2    3    4    5    6    7    8    9         6    1    5    1    1    9    9    7    7         1    5    1    6    7    9    2    1    1     Use the table to evaluate the expression,               Composition using a table of values          1    2    3    4    5    6    7    8    9         7    7    9    8    1    5    1    2    9         5    2    1    5    8    6    2    6    4     Use the table to evaluate the expression,               Composition using algebra    Let and . Match the functions obtained by composition with the letters labeling their algebraically equivalent expressions.  You must get all of the answers correct to receive credit.                                     Identifying functions in a composition    Express the function as a composition of two simpler functions and .  =  =    sqrt(u)    x^2+9        Identifying functions in a composition    Let .  Which of the following decompositions of into a pair of functions (the outside function) and (the inside function) is\/are correct ? Select all that apply if more than one is appropriate.    and    and    and    and    and    and    All of the above    None of the above     SOLUTION There is often many (even infinite) ways to decompose a given function into a suitable pair of inside and outside functions. In this case, the following decompositions work: The other choices do not work since: If and , then . if and , then . if and , then .       Composition using algebra    For the function and , find the following:  (a)  =  (b)  =  (c)  =  (d)  =  (e)  =                            (a)   (b)   (c)   (d)   (e)         Composition using graphs                  Use the figures above, which show the functions and , to find the following values. Note that you can find exact values.  1.  =  2.  =  3.  =                  1.  which is . 2.  which is . 3.  which is .        Calculus Practice   Chain rule    Given the following functions: and . Find:                                      Solution:                                    Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Find an equation of the tangent line to the curve at the following point:  .               Chain rule    Compute the derivative of the given function.   .        Solution: It may help to rewrite . Use the Chain Rule with inside function and outside function . A second application of Chain Rule is used to find .        Chain rule    Suppose . We can write , where  . The Leibnitz notation for the chain rule is . The factors are  (written as a function of ) and  . Now substitue in the function of for to get   (written as a function of ).                            Chain rule    Suppose , and let be a real number. Let and .  Find expressions for (a) and (b) .  (a)   (b)                   Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/dt    dP\/ds    ds\/dt   =    m\/min    Pa\/m    Pa\/min    b)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/m    m\/min    Pa\/min    c)   ds\/dt    dP\/ds    dP\/dt   =    m\/min    Pa\/m    Pa\/min                         Using chain rule and information    Find if , and the equation of the tangent line of at is .             Using chain rule and information    It is given to you that an equation of the tangent line to the graph of at is It follows that  is the equation of the tangent line to at  and that  is the equation of the tangent line to at .                  Chain rule from graph    Use the figures below to evaluate the indicated derivative, or state that it does not exist. If the derivative does not exist, enter dne in the answer blank. The graph to the left (in black) gives , while the graph to the right gives (which is constant for values of greater than 20).                  (If the derivative does not exist, enter dne .)        The chain rule gives         Chain rule from graph    Consider the graphs below, which give in the left graph, in black, and in the right graph, in blue. Both functions have a sharp corner at .                Let . Find a point where .          Since the chain rule gives we must find values and such that and .  Calculating slopes from the graph of gives for and for . Similarly calculating slopes from the graph of gives for and for .  The only values of the derivative are 1.4 and 0.1 and the only values of the derivative are -1.4 and 1.4. In order to have we must therefore have and . Thus and .  Now and from the graph of we see that for or . The two conditions on we have found are both satisfied when . Thus for all in the interval . The question asks for just one of these values (any will work).        Chain rule from a table of values    A table of values for and is given below:   (a) If , find .  (b) If , find .  (a)   (b)                   Chain rule from a table of values   Recall that the central difference is a way of approximating the value of the derivative at a specified number by calculating the slope of the line through the two points on either side of the specified number. That's what this problem is asking you to use along with the chain rule.     Use the table below to estimate the value of , where to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at , do the secant slopes on and , and then average them).                Multiple rules    Find if .               Multiple rules with a table    In the parts below, , , and their derivatives have values given in the table below                                            On your answer paper, write formulas for the following derivatives and then give their values at  (A) The sum    (B) The product    (C) The quotient    (D) The composition    (E) The logarithm   at is  (F) The exponential   at is                                      Multiple rules    Suppose If      and find  Answer:              Multiple rules    Compute the derivative of the given function.  .        Solution: Use the Product Rule.        Multiple rules    Find , given                "
+  "body": " The chain rule     Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.    Use a combination of basic derivative rules (including trigonometric and exponential), product and quotient rules, and chain rule to take the derivative of a complicated function.        Structure of functions: composition, product, quotient    All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.    What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.     Foundations  One of the most useful ways of constructing functions from other functions is composition : doing one function and then doing another function to the result. Rather than substituting a number in for the input of a function, we substitute a whole second function in for the input of a function.  We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the rate of change of the more complicated function. We treat the inside or substituted function as if it were a single variable, take the derivative of the outer function with respect to that variable, and multiply by the derivative of the inside function.   The Chain Rule   chain rule If is differentiable at and is differentiable at , then the composite function defined by is differentiable at and .  Another formulation of this rule which says the same thing using different notation is .   Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)    If the video does not work, click here to watch on YouTube.                  Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)                   Composition using algebra    Let and .                 If the video does not work, click here to watch on YouTube.                       Composition using algebra    Let and .             For any input     and functions     and   ,  this action defines a composite function, which we write as   such that   The domain of the composite function     is all     such that     is in the domain of     and     is in the domain of   .                  Composition using algebra    Let and .                            Composition using a table of values          1    2    3    4    5    6    7    8    9         6    1    5    1    1    9    9    7    7         1    5    1    6    7    9    2    1    1     Use the table to evaluate the expression,               Composition using a table of values          1    2    3    4    5    6    7    8    9         7    7    9    8    1    5    1    2    9         5    2    1    5    8    6    2    6    4     Use the table to evaluate the expression,               Composition using algebra    Let and . Match the functions obtained by composition with the letters labeling their algebraically equivalent expressions.  You must get all of the answers correct to receive credit.                                     Identifying functions in a composition    Express the function as a composition of two simpler functions and .  =  =    sqrt(u)    x^2+9        Identifying functions in a composition    Let .  Which of the following decompositions of into a pair of functions (the outside function) and (the inside function) is\/are correct ? Select all that apply if more than one is appropriate.    and    and    and    and    and    and    All of the above    None of the above     SOLUTION There is often many (even infinite) ways to decompose a given function into a suitable pair of inside and outside functions. In this case, the following decompositions work: The other choices do not work since: If and , then . if and , then . if and , then .       Composition using algebra    For the function and , find the following:  (a)  =  (b)  =  (c)  =  (d)  =  (e)  =                            (a)   (b)   (c)   (d)   (e)         Composition using graphs                  Use the figures above, which show the functions and , to find the following values. Note that you can find exact values.  1.  =  2.  =  3.  =                  1.  which is . 2.  which is . 3.  which is .        Calculus Practice   Chain rule    Given the following functions: and . Find:                                      Solution:                                    Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Find an equation of the tangent line to the curve at the following point:  .               Chain rule    Compute the derivative of the given function.   .        Solution: It may help to rewrite . Use the Chain Rule with inside function and outside function . A second application of Chain Rule is used to find .        Chain rule    Suppose . We can write , where  . The Leibnitz notation for the chain rule is . The factors are  (written as a function of ) and  . Now substitue in the function of for to get   (written as a function of ).                            Chain rule    Suppose , and let be a real number. Let and .  Find expressions for (a) and (b) .  (a)   (b)                   Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/dt    ds\/dt    dP\/ds   =    Pa\/min    Pa\/m    m\/min    b)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/m    m\/min    Pa\/min    c)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/min    Pa\/m    m\/min                         Using chain rule and information    Find if , and the equation of the tangent line of at is .             Using chain rule and information    It is given to you that an equation of the tangent line to the graph of at is It follows that  is the equation of the tangent line to at  and that  is the equation of the tangent line to at .                  Chain rule from graph    Use the figures below to evaluate the indicated derivative, or state that it does not exist. If the derivative does not exist, enter dne in the answer blank. The graph to the left (in black) gives , while the graph to the right gives (which is constant for values of greater than 20).                  (If the derivative does not exist, enter dne .)        The chain rule gives         Chain rule from graph    Consider the graphs below, which give in the left graph, in black, and in the right graph, in blue. Both functions have a sharp corner at .                Let . Find a point where .          Since the chain rule gives we must find values and such that and .  Calculating slopes from the graph of gives for and for . Similarly calculating slopes from the graph of gives for and for .  The only values of the derivative are 1.4 and 0.1 and the only values of the derivative are -1.4 and 1.4. In order to have we must therefore have and . Thus and .  Now and from the graph of we see that for or . The two conditions on we have found are both satisfied when . Thus for all in the interval . The question asks for just one of these values (any will work).        Chain rule from a table of values    A table of values for and is given below:   (a) If , find .  (b) If , find .  (a)   (b)                   Chain rule from a table of values   Recall that the central difference is a way of approximating the value of the derivative at a specified number by calculating the slope of the line through the two points on either side of the specified number. That's what this problem is asking you to use along with the chain rule.     Use the table below to estimate the value of , where to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at , do the secant slopes on and , and then average them).                Multiple rules    Find if .               Multiple rules with a table    In the parts below, , , and their derivatives have values given in the table below                                            On your answer paper, write formulas for the following derivatives and then give their values at  (A) The sum    (B) The product    (C) The quotient    (D) The composition    (E) The logarithm   at is  (F) The exponential   at is                                      Multiple rules    Suppose If      and find  Answer:              Multiple rules    Compute the derivative of the given function.  .        Solution: Use the Product Rule.        Multiple rules    Find , given                "
 },
 {
   "id": "sec-2-5-chain-2",
@@ -1591,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.2.8",
   "title": "Chain rule.",
-  "body": "Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/dt    dP\/ds    ds\/dt   =    m\/min    Pa\/m    Pa\/min    b)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/m    m\/min    Pa\/min    c)   ds\/dt    dP\/ds    dP\/dt   =    m\/min    Pa\/m    Pa\/min                        "
+  "body": "Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/dt    ds\/dt    dP\/ds   =    Pa\/min    Pa\/m    m\/min    b)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/m    m\/min    Pa\/min    c)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/min    Pa\/m    m\/min                        "
 },
 {
   "id": "chainrule-solvingpieces-1",
@@ -2312,6 +2312,393 @@ var ptx_lunr_docs = [
   "number": "3.2.2.10",
   "title": "",
   "body": "   Find the limit. Use l'Hospital's Rule where appropriate.  Limit:            "
+},
+{
+  "id": "sec-3-3-tests",
+  "level": "1",
+  "url": "sec-3-3-tests.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Using derivatives to identify extreme values",
+  "body": " Using derivatives to identify extreme values    Foundations  Coming soon.    Calculus Practice     List the critical numbers of the following function separating the values by commas.                 Find all critical points of the function          Solution: Let . Then . Since is differentiable everywhere, the critical points are the solutions of . Then , implies or , and is the lone critical point of .          Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Decreasing    Increasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M              Find all critical numbers of the polynomial and then list them (separated by commas) in the box below. If there are no critical numbers, enter None .  List of critical numbers:                List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           Find the critical numbers of the function  Answer (separate by commas):                 List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           The function has a continuous second derivative, and it satisfies , and .  We can conclude that   has a local minimum at 5.    has neither a local maximum nor a local minimum at 5.    has a local maximum at 5.    We cannot determine if A, B, or C hold without more information.             Consider the function .  For this function there are three important intervals: , , and where and are the critical numbers.  Find   and   For each of the following intervals, tell whether is increasing (type in INC) or decreasing (type in DEC).  :  :                                      Thus has a local at (type in MAX or MIN).         -    +    MIN           Thus we conclude that has a local at (type in MAX or MIN).              +    -    MAX           Thus has a local at (type in MAX or MIN)  and a local at (type in MAX or MIN).                        MIN    MAX           Thus we conclude that has a local at (type in MAX or MIN).              MAX           For the function , find all intervals where the function is increasing: is increasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Similarly, find all intervals where the function is decreasing: is decreasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Finally, find all critical points in the graph of  critical points:   (Enter your -values as a comma-separated list, or  none  if there are no critical points.)                  and ; critical points are where . Here , so is increasing on and decreasing on . Critical points are and .          Find and classify the critical points of as local maxima and minima.  Critical points:   Classifications:  (Enter your critical points and classifications as comma-separated lists, and enter the types in the same order as your critical points. Note that you must enter something in both blanks for either to be evaluated. For the types, enter min , max , or neither .             . Critical points are where this is zero, or, where . So critical points are , and . Because 4, the multiplicity of the root , is even, the derivative does not change sign at . Checking points on either side of the other two critical points shows that is a local minimum ( changes from negative to positive) and is a local maximum.          The rabbit population on a small island is observed to be given by the function   where is the time (in months) since observations of the island began.   Note: you can get a larger view of the graph by clicking on it  (a) The maximum population attained at   months.  The maximum population is   rabbits.  (b) When does the rabbit population disappear from the island?   months                        "
+},
+{
+  "id": "tests-cps-quadratic-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-quadratic-1",
+  "type": "Exercise",
+  "number": "3.3.2.1",
+  "title": "",
+  "body": "   List the critical numbers of the following function separating the values by commas.             "
+},
+{
+  "id": "tests-cps-quadratic-2",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-quadratic-2",
+  "type": "Exercise",
+  "number": "3.3.2.2",
+  "title": "",
+  "body": "   Find all critical points of the function          Solution: Let . Then . Since is differentiable everywhere, the critical points are the solutions of . Then , implies or , and is the lone critical point of .      "
+},
+{
+  "id": "tests-cps-quadratic-3",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-quadratic-3",
+  "type": "Exercise",
+  "number": "3.3.2.3",
+  "title": "",
+  "body": "   Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Decreasing    Increasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M          "
+},
+{
+  "id": "tests-cps-cubic-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-cubic-1",
+  "type": "Exercise",
+  "number": "3.3.2.4",
+  "title": "",
+  "body": "   Find all critical numbers of the polynomial and then list them (separated by commas) in the box below. If there are no critical numbers, enter None .  List of critical numbers:            "
+},
+{
+  "id": "tests-cps-cubic-2",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-cubic-2",
+  "type": "Exercise",
+  "number": "3.3.2.5",
+  "title": "",
+  "body": "   List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                       "
+},
+{
+  "id": "tests-cps-cubic-3",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-cubic-3",
+  "type": "Exercise",
+  "number": "3.3.2.6",
+  "title": "",
+  "body": "   Find the critical numbers of the function  Answer (separate by commas):             "
+},
+{
+  "id": "tests-cps-quartic-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-quartic-1",
+  "type": "Exercise",
+  "number": "3.3.2.7",
+  "title": "",
+  "body": "   List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                       "
+},
+{
+  "id": "tests-cps-rational-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-rational-1",
+  "type": "Exercise",
+  "number": "3.3.2.8",
+  "title": "",
+  "body": "   List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                       "
+},
+{
+  "id": "tests-cps-exp-product-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-exp-product-1",
+  "type": "Exercise",
+  "number": "3.3.2.9",
+  "title": "",
+  "body": "   List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                       "
+},
+{
+  "id": "tests-2nd-derivative-test-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-2nd-derivative-test-1",
+  "type": "Exercise",
+  "number": "3.3.2.10",
+  "title": "",
+  "body": "   The function has a continuous second derivative, and it satisfies , and .  We can conclude that   has a local minimum at 5.    has neither a local maximum nor a local minimum at 5.    has a local maximum at 5.    We cannot determine if A, B, or C hold without more information.         "
+},
+{
+  "id": "tests-intervals-3",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-intervals-3",
+  "type": "Exercise",
+  "number": "3.3.2.11",
+  "title": "",
+  "body": "   Consider the function .  For this function there are three important intervals: , , and where and are the critical numbers.  Find   and   For each of the following intervals, tell whether is increasing (type in INC) or decreasing (type in DEC).  :  :                                  "
+},
+{
+  "id": "tests-intervals-4",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-intervals-4",
+  "type": "Exercise",
+  "number": "3.3.2.12",
+  "title": "",
+  "body": "   Thus has a local at (type in MAX or MIN).         -    +    MIN       "
+},
+{
+  "id": "tests-intervals-5",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-intervals-5",
+  "type": "Exercise",
+  "number": "3.3.2.13",
+  "title": "",
+  "body": "   Thus we conclude that has a local at (type in MAX or MIN).              +    -    MAX       "
+},
+{
+  "id": "tests-intervals-6",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-intervals-6",
+  "type": "Exercise",
+  "number": "3.3.2.14",
+  "title": "",
+  "body": "   Thus has a local at (type in MAX or MIN)  and a local at (type in MAX or MIN).                        MIN    MAX       "
+},
+{
+  "id": "tests-2nd-derivative-test-2",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-2nd-derivative-test-2",
+  "type": "Exercise",
+  "number": "3.3.2.15",
+  "title": "",
+  "body": "   Thus we conclude that has a local at (type in MAX or MIN).              MAX       "
+},
+{
+  "id": "tests-intervals-cps-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-intervals-cps-1",
+  "type": "Exercise",
+  "number": "3.3.2.16",
+  "title": "",
+  "body": "   For the function , find all intervals where the function is increasing: is increasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Similarly, find all intervals where the function is decreasing: is decreasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Finally, find all critical points in the graph of  critical points:   (Enter your -values as a comma-separated list, or  none  if there are no critical points.)                  and ; critical points are where . Here , so is increasing on and decreasing on . Critical points are and .      "
+},
+{
+  "id": "tests-cps-1",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-cps-1",
+  "type": "Exercise",
+  "number": "3.3.2.17",
+  "title": "",
+  "body": "   Find and classify the critical points of as local maxima and minima.  Critical points:   Classifications:  (Enter your critical points and classifications as comma-separated lists, and enter the types in the same order as your critical points. Note that you must enter something in both blanks for either to be evaluated. For the types, enter min , max , or neither .             . Critical points are where this is zero, or, where . So critical points are , and . Because 4, the multiplicity of the root , is even, the derivative does not change sign at . Checking points on either side of the other two critical points shows that is a local minimum ( changes from negative to positive) and is a local maximum.      "
+},
+{
+  "id": "tests-applications-racoons",
+  "level": "2",
+  "url": "sec-3-3-tests.html#tests-applications-racoons",
+  "type": "Exercise",
+  "number": "3.3.2.18",
+  "title": "",
+  "body": "   The rabbit population on a small island is observed to be given by the function   where is the time (in months) since observations of the island began.   Note: you can get a larger view of the graph by clicking on it  (a) The maximum population attained at   months.  The maximum population is   rabbits.  (b) When does the rabbit population disappear from the island?   months                      "
+},
+{
+  "id": "sec-3-4-families",
+  "level": "1",
+  "url": "sec-3-4-families.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Using derivatives to describe families of functions",
+  "body": " Using derivatives to describe families of functions    Foundations  Coming soon.    Calculus Practice   Coming soon.    "
+},
+{
+  "id": "sec-3-5-optimization",
+  "level": "1",
+  "url": "sec-3-5-optimization.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Global optimization",
+  "body": " Global optimization    Foundations  Coming soon.    Calculus Practice     Find the absolute maximum and absolute minimum values of on the interval  1. Find the absolute maximum of on the interval.  Answer:  2. Find the absolute minimum of on the interval.  Answer:                     Let .  Find the critical point of and compute .  The critical point is =  The value of =  Compute the value of at the endpoints of the interval .  =  =  Determine the min and max of on .  Minimum value =  Maximum value =  Find the extreme values of on .  Minimum value =  Maximum value =                                           is the solution to . The derivative is . Setting this equal to zero and solving for gives . Evaluating yields the critical value -6. Evaluating and , we find that each is equal to 10. The extreme values must occur at critical points or at the endpoints of the interval. Since the value at the critical point is smaller than the value at the endpoints, the value of is a minimum, and the value of (or since they are equal) is a maximum. There are no critical points in the interval , so the extreme values lie at the endpoints of the interval. Computation yields , , so the minimum is 3 and the maximum is 10.          Consider the function .  Find the absolute minimum value of this function.  Answer:  Find the absolute maximum value of this function.  Answer:                     Consider the function .  Find the absolute minimum value of this function.  Answer:  find the absolute maximum value of this function.  Answer:                     Consider the function  This function has an absolute minimum value equal to:  which is attained at   and an absolute maximum value equal to:  which is attained at                        SOLUTION  The quotient rule gives; Since is defined for all , the only critical numbers of occur when , that is .  This equation is satisfied for and .  However, is not in the interval . Thus the only critical number is . The value of at this critical number is The values of at the endpoints of the interval are Comparing these values we can see that the absolute minimum value is equal to and it is attained at , while the absolute maximum value is and it is attained at .           Consider the function  This function has an absolute minimum value equal to:  which is attained at   and an absolute maximum value equal to:  which is attained at                                Consider the function .  The absolute maximum value is  and this occurs at equals  The absolute minimum value is  and this occurs at equals                               Find the absolute maximum and absolute minimum values of the function over each of the indicated intervals.  (a) Interval = .    1.  Absolute maximum      2.  Absolute minimum      (b) Interval = .    1.  Absolute maximum      2.  Absolute minimum      (c) Interval = .    1.  Absolute maximum      2.  Absolute minimum                                     SOLUTION  The critical numbers are and .  (a) Only the critical number is in the interval . The value of the function at this critical number is The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .  (b) Only the critical number is in the interval . The value of the function at this critical number is The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .  (c) Both critical numbers and are in the interval . The values of the function at these critical numbers are The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .           Find the absolute maximum and minimum values of over the closed interval [0, 3].  absolute maximum is and it occurs at x =  absolute minimum is and it occurs at x =  Notes: If there is more than one value, enter as a comma separated list.                       is continuous everywhere and therefore the Extreme-Value Theorem guarantees that has a maximum and a minimum value on the interval [0, 3]. Differentiating, we obtain Thus if . Evaluating at these critical values and end points yields the following table    x             We conclude that has an absolute maximum of which occurs at and has an absolute minimum of which occurs at .          Find the maximum and minimum values of the function on the interval [0,9].  The minimum value =  The maximum value =             is the solution to . The derivative is . Setting this equal to zero and solving for gives , and of these two critical points only -3+9=6 lies in our interval. Evaluating yields the critical value -12. The values of the function at the endpoints of the interval are , , so the minimum value is -12, and the maximum value is 0.        "
+},
+{
+  "id": "apps-opt-rational-1",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-rational-1",
+  "type": "Exercise",
+  "number": "3.5.2.1",
+  "title": "",
+  "body": "   Find the absolute maximum and absolute minimum values of on the interval  1. Find the absolute maximum of on the interval.  Answer:  2. Find the absolute minimum of on the interval.  Answer:                 "
+},
+{
+  "id": "apps-opt-polynomial-1",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-1",
+  "type": "Exercise",
+  "number": "3.5.2.2",
+  "title": "",
+  "body": "   Let .  Find the critical point of and compute .  The critical point is =  The value of =  Compute the value of at the endpoints of the interval .  =  =  Determine the min and max of on .  Minimum value =  Maximum value =  Find the extreme values of on .  Minimum value =  Maximum value =                                           is the solution to . The derivative is . Setting this equal to zero and solving for gives . Evaluating yields the critical value -6. Evaluating and , we find that each is equal to 10. The extreme values must occur at critical points or at the endpoints of the interval. Since the value at the critical point is smaller than the value at the endpoints, the value of is a minimum, and the value of (or since they are equal) is a maximum. There are no critical points in the interval , so the extreme values lie at the endpoints of the interval. Computation yields , , so the minimum is 3 and the maximum is 10.      "
+},
+{
+  "id": "apps-opt-polynomial-2",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-2",
+  "type": "Exercise",
+  "number": "3.5.2.3",
+  "title": "",
+  "body": "   Consider the function .  Find the absolute minimum value of this function.  Answer:  Find the absolute maximum value of this function.  Answer:                 "
+},
+{
+  "id": "apps-opt-polynomial-3",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-3",
+  "type": "Exercise",
+  "number": "3.5.2.4",
+  "title": "",
+  "body": "   Consider the function .  Find the absolute minimum value of this function.  Answer:  find the absolute maximum value of this function.  Answer:                 "
+},
+{
+  "id": "apps-opt-rational-2",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-rational-2",
+  "type": "Exercise",
+  "number": "3.5.2.5",
+  "title": "",
+  "body": "   Consider the function  This function has an absolute minimum value equal to:  which is attained at   and an absolute maximum value equal to:  which is attained at                        SOLUTION  The quotient rule gives; Since is defined for all , the only critical numbers of occur when , that is .  This equation is satisfied for and .  However, is not in the interval . Thus the only critical number is . The value of at this critical number is The values of at the endpoints of the interval are Comparing these values we can see that the absolute minimum value is equal to and it is attained at , while the absolute maximum value is and it is attained at .       "
+},
+{
+  "id": "apps-opt-exponential-1",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-exponential-1",
+  "type": "Exercise",
+  "number": "3.5.2.6",
+  "title": "",
+  "body": "   Consider the function  This function has an absolute minimum value equal to:  which is attained at   and an absolute maximum value equal to:  which is attained at                            "
+},
+{
+  "id": "apps-opt-polynomial-4",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-4",
+  "type": "Exercise",
+  "number": "3.5.2.7",
+  "title": "",
+  "body": "   Consider the function .  The absolute maximum value is  and this occurs at equals  The absolute minimum value is  and this occurs at equals                           "
+},
+{
+  "id": "apps-opt-polynomial-5",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-5",
+  "type": "Exercise",
+  "number": "3.5.2.8",
+  "title": "",
+  "body": "   Find the absolute maximum and absolute minimum values of the function over each of the indicated intervals.  (a) Interval = .    1.  Absolute maximum      2.  Absolute minimum      (b) Interval = .    1.  Absolute maximum      2.  Absolute minimum      (c) Interval = .    1.  Absolute maximum      2.  Absolute minimum                                     SOLUTION  The critical numbers are and .  (a) Only the critical number is in the interval . The value of the function at this critical number is The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .  (b) Only the critical number is in the interval . The value of the function at this critical number is The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .  (c) Both critical numbers and are in the interval . The values of the function at these critical numbers are The values at the endpoints are Comparing these values we see that:  1. Absolute maximum =  2. Absolute minimum = .       "
+},
+{
+  "id": "apps-opt-polynomial-6",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-polynomial-6",
+  "type": "Exercise",
+  "number": "3.5.2.9",
+  "title": "",
+  "body": "   Find the absolute maximum and minimum values of over the closed interval [0, 3].  absolute maximum is and it occurs at x =  absolute minimum is and it occurs at x =  Notes: If there is more than one value, enter as a comma separated list.                       is continuous everywhere and therefore the Extreme-Value Theorem guarantees that has a maximum and a minimum value on the interval [0, 3]. Differentiating, we obtain Thus if . Evaluating at these critical values and end points yields the following table    x             We conclude that has an absolute maximum of which occurs at and has an absolute minimum of which occurs at .      "
+},
+{
+  "id": "apps-opt-rational-3",
+  "level": "2",
+  "url": "sec-3-5-optimization.html#apps-opt-rational-3",
+  "type": "Exercise",
+  "number": "3.5.2.10",
+  "title": "",
+  "body": "   Find the maximum and minimum values of the function on the interval [0,9].  The minimum value =  The maximum value =             is the solution to . The derivative is . Setting this equal to zero and solving for gives , and of these two critical points only -3+9=6 lies in our interval. Evaluating yields the critical value -12. The values of the function at the endpoints of the interval are , , so the minimum value is -12, and the maximum value is 0.      "
+},
+{
+  "id": "sec-3-6-applied-opt",
+  "level": "1",
+  "url": "sec-3-6-applied-opt.html",
+  "type": "Section",
+  "number": "3.6",
+  "title": "Applied optimization",
+  "body": " Applied optimization    Foundations  Coming soon.    Calculus Practice     An aluminum can is to be constructed to contain 2100 of liquid.  Let and be the radius of the base and the height of the can respectively.  a) Express in terms of . (If needed you can enter as pi.)    b) Express the surface area of the can in terms of .  Surface area =  c) Approximate the value of that will minimize the amount of required material (i.e. the value of that will minimize the surface area).  What is the corresponding value of ?                                   Consider a window the shape of which is a rectangle of height surmounted by a triangle having a height that is 1.2 times the width of the rectangle (as shown in the figure below).   If the cross-sectional area is , determine the dimensions of the window which minimize the perimeter.                 , and the area of the triangle is . Thus the cross-sectional area, is The perimeter of the window is , where is the length of the angled top edges of the triangle. We can find by looking at half of the triangle and using the Pythagorean theorem: . Thus From we get . Thus, We now have the perimeter in terms of and the constant . Differentiating, we obtain To find the critical points we set and solve for , finding . Substituting this back into our expression for , we have Since as and as , this critical point must be a global minimum. We can also see this because it is the only critical point and the second derivative, , indicating that is concave up.          A wire 8 meters long is cut into two pieces. One piece is bent into a square for a frame for a stained glass ornament, while the other piece is bent into a circle for a TV antenna. To reduce storage space, where should the wire be cut to minimize the total area of both figures? Give the length of wire used for each:  For the square:  For the circle:  (for both, include )  Where should the wire be cut to maximize the total area? Again, give the length of wire used for each:  For the square:  For the circle:  (for both, include )                       the total area enclosed by the two figures . Our first task is therefore to find an equation for this area, which will be the sum of the areas of the two figures. Suppose we cut meters of wire to make the circular antenna. Then there are meters left for the square. To find the area of the circle we need its radius. The circumference of a circle of radius is , so the radius of the circle is given by , and so . The area of the circular antenna is therefore . Then the perimeter of a square with side length is , so the side length is . Then the area of a square is , so the area of the square is . The total area is therefore The domain for is . The maximum and minimum of will occur at critical or end points. Critical points are where , or, where Collecting all terms in we have so, after simplifying, To determine if this is a local maximum or minimum, we use the second derivative test. so the function is concave up everywhere and this is a local, and because there is only one critical point, global, minimum. Thus to minimize area we use meters of wire for the circle and meters for the square. To maximize the area, we must use the endpoints. The areas at the endpoints are the larger of which is , so the maximum area occurs when all of the wire is used for the circle and none for the square.          Some airlines have restrictions on the size of items of luggage that passengers are allowed to take with them. Suppose that one has a rule that the sum of the length, width and height of any piece of luggage must be less than or equal to 234 cm. A passenger wants to take a box of the maximum allowable volume. If the length and width are to be equal, what should the dimensions be?  length = width =  height =  In this case, what is the volume?  volume =  (for each, include )  If the length is be twice the width, what should the dimensions be?  length =  width =  height =  In this case, what is the volume?  volume =  (for each, include )                                      , and , respectively. Then the volume of the box is . The sum , and, for the first part, we know that . Thus , so , and the volume equation becomes . The domain for is . Critical points are where , so or . The global maximum must occur either at this point or at the end points. while , so the global maximum is at , in which case as well. The volume is then . If , , so . Proceeding as before, we find , and , so that .          A printed poster is to have a total area of 797 square inches with top and bottom margins of 3 inches and side margins of 2 inches. What should be the dimensions of the poster so that the printed area be as large as possible?  To solve this problem let denote the width of the poster in inches and let denote the length in inches. We need to maximize the following function of and :  We can reexpress this as the following function of alone:    We find that has a critical number at  To verify that has a maximum at this critical number we compute the second derivative and find that its value at the critical number is , a negative number.  Thus the optimal dimensions of the poster are inches in width and inches in height giving us a maximumal printed area of square inches.                                              A certain magical substance that is used to make solid magical spheres costs per cubic foot. The power of a magical sphere depends on its surface area, and a magical sphere can be sold for per square foot of surface area. If you are manufacturing such a sphere, what size should you make them to maximize your profit per sphere?   ft.  Note 1: the formulas for the volume and surface area of a sphere of radius are and respectively.  Note 2: on a real exam you would be expected to justify that the answer above is actually a maximum, rather than, say a minimum.                If 1100 square centimeters of material is available to make a box with a square base and an open top, find the largest possible volume of the box.  Volume = (include )        be the length of the sides of the square base. Then, if is the height of the box, the volume is given by . We need to find an expression for the height in terms of . This is where we use our information about the amount of material used in constructing the box. If the base of the box has sides of length , then square centimeters of material are used to make the base. Therefore, we have only square centimeters of material left to make the sides, of which there are four. Each of the sides uses square centimeters of material. Therefore, we get the formula: Plugging this into our formula for volume, we can now write out as: Now, we take the derivative of this expression, using the rules for taking derivatives of polynomials, to get . Setting this equal to 0 will give us the critical points. When solving, remember that this is a real world situation, so we can not have a negative value for (which is a length). Now, plugging this width into our formula for volume, , we get the maximal volume of .          A rectangular storage container with an open top is to have a volume of 16 cubic meters. The length of its base is twice the width. Material for the base costs 15 dollars per square meter. Material for the sides costs 5 dollars per square meter. Find the cost of materials for the cheapest such container.  Total cost = (Round to the nearest penny and include monetary units. For example, if your answer is 1.095, enter $1.10 including the dollar sign and second decimal place.)        SOLUTION  Let and denote the width of the base and the height of the container, respectively.  Since the length of the base is twice the width, the volume of the container is so The sides have total area , while the base has area , so the cost is Substuting the expression for gives   is the critical number. There is an absolute minimum at this critical number since for and for .  The total minimum cost is           A steel pipe is being carried down a hallway 9 ft wide. At the end of the hall there is a right-angled turn into a narrower hallway 6 ft wide. What is the length of the longest pipe that can be carried horizontally around the corner?   ft                A fence 6 feet tall runs parallel to a tall building at a distance of 3 feet from the building.  What is the length of the shortest ladder that will reach from the ground over the fence to the wall of the building?  Length of ladder = feet.                Find the maximal area of a right triangle with hypotenuse of length 6.        Solution: Let be the lengths of the legs of the triangle. By the Pythagorean Theorem, . Solving for , we get: The fundamental equation (to be maximized) is the area of the triangle, . Substitute and find the critical number(s). Since lengths are required to be positive, we choose . The corresponding value is: Therefore, the maximal area is:         "
+},
+{
+  "id": "apps-app-opt-can-1",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-can-1",
+  "type": "Exercise",
+  "number": "3.6.2.1",
+  "title": "",
+  "body": "   An aluminum can is to be constructed to contain 2100 of liquid.  Let and be the radius of the base and the height of the can respectively.  a) Express in terms of . (If needed you can enter as pi.)    b) Express the surface area of the can in terms of .  Surface area =  c) Approximate the value of that will minimize the amount of required material (i.e. the value of that will minimize the surface area).  What is the corresponding value of ?                               "
+},
+{
+  "id": "apps-app-opt-window-triangle",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-window-triangle",
+  "type": "Exercise",
+  "number": "3.6.2.2",
+  "title": "",
+  "body": "   Consider a window the shape of which is a rectangle of height surmounted by a triangle having a height that is 1.2 times the width of the rectangle (as shown in the figure below).   If the cross-sectional area is , determine the dimensions of the window which minimize the perimeter.                 , and the area of the triangle is . Thus the cross-sectional area, is The perimeter of the window is , where is the length of the angled top edges of the triangle. We can find by looking at half of the triangle and using the Pythagorean theorem: . Thus From we get . Thus, We now have the perimeter in terms of and the constant . Differentiating, we obtain To find the critical points we set and solve for , finding . Substituting this back into our expression for , we have Since as and as , this critical point must be a global minimum. We can also see this because it is the only critical point and the second derivative, , indicating that is concave up.      "
+},
+{
+  "id": "apps-app-opt-wire-1",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-wire-1",
+  "type": "Exercise",
+  "number": "3.6.2.3",
+  "title": "",
+  "body": "   A wire 8 meters long is cut into two pieces. One piece is bent into a square for a frame for a stained glass ornament, while the other piece is bent into a circle for a TV antenna. To reduce storage space, where should the wire be cut to minimize the total area of both figures? Give the length of wire used for each:  For the square:  For the circle:  (for both, include )  Where should the wire be cut to maximize the total area? Again, give the length of wire used for each:  For the square:  For the circle:  (for both, include )                       the total area enclosed by the two figures . Our first task is therefore to find an equation for this area, which will be the sum of the areas of the two figures. Suppose we cut meters of wire to make the circular antenna. Then there are meters left for the square. To find the area of the circle we need its radius. The circumference of a circle of radius is , so the radius of the circle is given by , and so . The area of the circular antenna is therefore . Then the perimeter of a square with side length is , so the side length is . Then the area of a square is , so the area of the square is . The total area is therefore The domain for is . The maximum and minimum of will occur at critical or end points. Critical points are where , or, where Collecting all terms in we have so, after simplifying, To determine if this is a local maximum or minimum, we use the second derivative test. so the function is concave up everywhere and this is a local, and because there is only one critical point, global, minimum. Thus to minimize area we use meters of wire for the circle and meters for the square. To maximize the area, we must use the endpoints. The areas at the endpoints are the larger of which is , so the maximum area occurs when all of the wire is used for the circle and none for the square.      "
+},
+{
+  "id": "apps-app-opt-baggage-1",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-baggage-1",
+  "type": "Exercise",
+  "number": "3.6.2.4",
+  "title": "",
+  "body": "   Some airlines have restrictions on the size of items of luggage that passengers are allowed to take with them. Suppose that one has a rule that the sum of the length, width and height of any piece of luggage must be less than or equal to 234 cm. A passenger wants to take a box of the maximum allowable volume. If the length and width are to be equal, what should the dimensions be?  length = width =  height =  In this case, what is the volume?  volume =  (for each, include )  If the length is be twice the width, what should the dimensions be?  length =  width =  height =  In this case, what is the volume?  volume =  (for each, include )                                      , and , respectively. Then the volume of the box is . The sum , and, for the first part, we know that . Thus , so , and the volume equation becomes . The domain for is . Critical points are where , so or . The global maximum must occur either at this point or at the end points. while , so the global maximum is at , in which case as well. The volume is then . If , , so . Proceeding as before, we find , and , so that .      "
+},
+{
+  "id": "apps-app-opt-margins-1",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-margins-1",
+  "type": "Exercise",
+  "number": "3.6.2.5",
+  "title": "",
+  "body": "   A printed poster is to have a total area of 797 square inches with top and bottom margins of 3 inches and side margins of 2 inches. What should be the dimensions of the poster so that the printed area be as large as possible?  To solve this problem let denote the width of the poster in inches and let denote the length in inches. We need to maximize the following function of and :  We can reexpress this as the following function of alone:    We find that has a critical number at  To verify that has a maximum at this critical number we compute the second derivative and find that its value at the critical number is , a negative number.  Thus the optimal dimensions of the poster are inches in width and inches in height giving us a maximumal printed area of square inches.                                          "
+},
+{
+  "id": "apps-app-opt-rectangle-under-parabola",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-rectangle-under-parabola",
+  "type": "Exercise",
+  "number": "3.6.2.6",
+  "title": "",
+  "body": "   A certain magical substance that is used to make solid magical spheres costs per cubic foot. The power of a magical sphere depends on its surface area, and a magical sphere can be sold for per square foot of surface area. If you are manufacturing such a sphere, what size should you make them to maximize your profit per sphere?   ft.  Note 1: the formulas for the volume and surface area of a sphere of radius are and respectively.  Note 2: on a real exam you would be expected to justify that the answer above is actually a maximum, rather than, say a minimum.            "
+},
+{
+  "id": "apps-app-opt-box-no-top",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-box-no-top",
+  "type": "Exercise",
+  "number": "3.6.2.7",
+  "title": "",
+  "body": "   If 1100 square centimeters of material is available to make a box with a square base and an open top, find the largest possible volume of the box.  Volume = (include )        be the length of the sides of the square base. Then, if is the height of the box, the volume is given by . We need to find an expression for the height in terms of . This is where we use our information about the amount of material used in constructing the box. If the base of the box has sides of length , then square centimeters of material are used to make the base. Therefore, we have only square centimeters of material left to make the sides, of which there are four. Each of the sides uses square centimeters of material. Therefore, we get the formula: Plugging this into our formula for volume, we can now write out as: Now, we take the derivative of this expression, using the rules for taking derivatives of polynomials, to get . Setting this equal to 0 will give us the critical points. When solving, remember that this is a real world situation, so we can not have a negative value for (which is a length). Now, plugging this width into our formula for volume, , we get the maximal volume of .      "
+},
+{
+  "id": "apps-app-opt-box-no-top-2",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-box-no-top-2",
+  "type": "Exercise",
+  "number": "3.6.2.8",
+  "title": "",
+  "body": "   A rectangular storage container with an open top is to have a volume of 16 cubic meters. The length of its base is twice the width. Material for the base costs 15 dollars per square meter. Material for the sides costs 5 dollars per square meter. Find the cost of materials for the cheapest such container.  Total cost = (Round to the nearest penny and include monetary units. For example, if your answer is 1.095, enter $1.10 including the dollar sign and second decimal place.)        SOLUTION  Let and denote the width of the base and the height of the container, respectively.  Since the length of the base is twice the width, the volume of the container is so The sides have total area , while the base has area , so the cost is Substuting the expression for gives   is the critical number. There is an absolute minimum at this critical number since for and for .  The total minimum cost is       "
+},
+{
+  "id": "apps-app-opt-corner-pipe",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-corner-pipe",
+  "type": "Exercise",
+  "number": "3.6.2.9",
+  "title": "",
+  "body": "   A steel pipe is being carried down a hallway 9 ft wide. At the end of the hall there is a right-angled turn into a narrower hallway 6 ft wide. What is the length of the longest pipe that can be carried horizontally around the corner?   ft            "
+},
+{
+  "id": "apps-app-opt-ladder-fence",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-ladder-fence",
+  "type": "Exercise",
+  "number": "3.6.2.10",
+  "title": "",
+  "body": "   A fence 6 feet tall runs parallel to a tall building at a distance of 3 feet from the building.  What is the length of the shortest ladder that will reach from the ground over the fence to the wall of the building?  Length of ladder = feet.            "
+},
+{
+  "id": "apps-app-opt-triangle",
+  "level": "2",
+  "url": "sec-3-6-applied-opt.html#apps-app-opt-triangle",
+  "type": "Exercise",
+  "number": "3.6.2.11",
+  "title": "",
+  "body": "   Find the maximal area of a right triangle with hypotenuse of length 6.        Solution: Let be the lengths of the legs of the triangle. By the Pythagorean Theorem, . Solving for , we get: The fundamental equation (to be maximized) is the area of the triangle, . Substitute and find the critical number(s). Since lengths are required to be positive, we choose . The corresponding value is: Therefore, the maximal area is:       "
 },
 {
   "id": "integral-table",
