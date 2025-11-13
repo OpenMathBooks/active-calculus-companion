@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AC Determining distance traveled from velocity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="The Active Calculus Companion">
+<meta property="book:author" content="Oscar Levin">
+<meta property="book:author" content="Christina Safranski">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.18';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.cefb0224014f3333.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.c50cdcad467c8d3e.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork.runestone.academy/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="ac-companion" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">The Active Calculus Companion</span></a></h1>
+<p class="byline">Oscar Levin, Christina Safranski</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="C-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="C-4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-4-2-Riemann.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dollar}{\$}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\arctanh}{arctanh}
+              \DeclareMathOperator{\arcsec}{arcsec}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-1.html" class="internal"><span class="codenumber">1</span> <span class="title">Understanding the Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-1-vel.html" class="internal"><span class="codenumber">1.1</span> <span class="title">How do we measure velocity?</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-4" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-5" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-2-lim.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The notion of limit</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-lim.html#subsec-limits-foundations" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-lim.html#ap-limits" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-3-derivative-pt.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The derivative of a function at a point</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Additional Section Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-5" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Foundational Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The derivative function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-2" class="internal"><span class="codenumber">1.4</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-3" class="internal"><span class="codenumber">1.4</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-5-units.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Interpreting, estimating, and using the derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-2" class="internal"><span class="codenumber">1.5</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-3" class="internal"><span class="codenumber">1.5</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-6-second-d.html" class="internal"><span class="codenumber">1.6</span> <span class="title">The second derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-2" class="internal"><span class="codenumber">1.6</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-3" class="internal"><span class="codenumber">1.6</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Limits, continuity, and differentiability</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-2" class="internal"><span class="codenumber">1.7</span> <span class="title">Additional Practice</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-3" class="internal"><span class="codenumber">1.7</span> <span class="title">Foundations</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html" class="internal"><span class="codenumber">1.8</span> <span class="title">The tangent line approximation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#fe-tan-line-approx" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#ap-tan-line-approx" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-2.html" class="internal"><span class="codenumber">2</span> <span class="title">Computing Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-1-elem-rules.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Elementary derivative rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#fe-elem-rules" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#ap-elem-rules" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-2-sin-cos.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#fe-sin-cos" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#ap-sin-cos" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-3-prod-quot.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The product and quotient rules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#sec-2-3-prod-quot-2" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#ap-prod-quot" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-4-other-trig.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Derivatives of other trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#fe-other-trig" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#ae-other-trig" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-5-chain.html" class="internal"><span class="codenumber">2.5</span> <span class="title">The chain rule</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-chain.html#sec-2-5-chain-4" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-chain.html#ap-chainrule" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-6-inverse.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Derivatives of inverse functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-6-inverse.html#fe-inverse" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-6-inverse.html#ae-inverse" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Additional Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-2-7-implicit.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Derivatives of functions given implicitly</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-2-7-implicit.html#subsec-implicit-foundations" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Foundations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-what-implicit-fcns" class="internal"><span class="codenumber">2.7.1.1</span> <span class="title">What are implicit and explicit functions?</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-slopes-horiz-vert" class="internal"><span class="codenumber">2.7.1.2</span> <span class="title">Slopes of horizontal and vertical lines</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-solving-eqns-mult-vars" class="internal"><span class="codenumber">2.7.1.3</span> <span class="title">Solving an equation with multiple variables</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-implicit-chain-etc" class="internal"><span class="codenumber">2.7.1.4</span> <span class="title">Previous derivative rules and notation</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-implicit-notations" class="internal"><span class="codenumber">2.7.1.5</span> <span class="title">Different notations for the derivative</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-7-implicit.html#ap-implicit" class="internal"><span class="codenumber">2.7.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-3.html" class="internal"><span class="codenumber">3</span> <span class="title">Using Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-1-rel-rates.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Related rates</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-rel-rates.html#subsec-rel-rates-foundations" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-rel-rates.html#ap-rel-rates" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-2-LHR.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Using derivatives to evaluate limits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-LHR.html#subsec-LHR-foundations" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-LHR.html#ap-LHR" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-3-tests.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Using derivatives to identify extreme values</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-tests.html#subsec-tests-foundations" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-tests.html#cp-tests" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-4-families.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Using derivatives to describe families of functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-families.html#subsec-families-foundations" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-families.html#cp-families" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-5-optimization.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Global optimization</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-optimization.html#subsec-optimization-foundations" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-optimization.html#cp-optimization" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-3-6-applied-opt.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Applied optimization</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-6-applied-opt.html#subsec-applied-opt-foundations" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-6-applied-opt.html#cp-applied-opt" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="C-4.html" class="internal"><span class="codenumber">4</span> <span class="title">The Definite Integral</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-4-1-velocity-distance.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Determining distance traveled from velocity</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-velocity-distance.html#subsec-velocity-distance-foundations" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-velocity-distance.html#cp-velocity-distance" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-2-Riemann.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Riemann sums</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Riemann.html#subsec-Riemann-foundations" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Riemann.html#cp-Riemann" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-3-definite-integral.html" class="internal"><span class="codenumber">4.3</span> <span class="title">The definite integral</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-definite-integral.html#subsec-definite-integral-foundations" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-definite-integral.html#cp-definite-integral" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-4-4-FTC.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-FTC.html#subsec-FTC-foundations" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-FTC.html#cp-FTC" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="integral-table.html" class="internal"><span class="codenumber">A</span> <span class="title">A Short Table of Integrals</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="activities-answers.html" class="internal"><span class="codenumber">B</span> <span class="title">Answers to Activities</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="exercises-answers.html" class="internal"><span class="codenumber">C</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-4-1-velocity-distance"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Determining distance traveled from velocity</span>
+</h2>
+<section class="subsection" id="subsec-velocity-distance-foundations"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Foundations</span>
+</h3>
+<div class="para" id="subsec-velocity-distance-foundations-2">Coming soon.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-velocity-distance-foundations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 4.1.1: Foundations"><a href="#subsec-velocity-distance-foundations" title="Copy heading and permalink for Subsection 4.1.1: Foundations" aria-label="Copy heading and permalink for Subsection 4.1.1: Foundations">🔗</a></div></section><section class="exercises" id="cp-velocity-distance"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculus Practice</span>
+</h3>
+<article class="exercise exercise-like" id="velocity-distance-stopping-car-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-269" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="269" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap5Sec1/Q01.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-269')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-269-1-1-1">A car comes to a stop six seconds after the driver applies the brakes. While the brakes are on, the following velocities are recorded:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Time since brakes applied (sec)</td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">2</td>
+<td class="l m b2 r2 l0 t2 lines">4</td>
+<td class="l m b2 r2 l0 t2 lines">6</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Velocity (ft/s)</td>
+<td class="l m b2 r2 l0 t0 lines">96</td>
+<td class="l m b2 r2 l0 t0 lines">49</td>
+<td class="l m b2 r2 l0 t0 lines">18</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-269-1-1-3">Give lower and upper estimates (using all of the available data) for the distance the car traveled after the brakes were applied.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-269-1-1-4">lower: <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-269-1-1-5">upper: <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-269-1-1-6">(for each, include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-269-1-1-7">
+<em class="emphasis">On a sketch of velocity against time, show the lower and upper estimates you found above.</em>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-269-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-269-1-4-1">SOLUTION<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="extracted-webwork-269-1-4-2">
+<div class="para">To find a lower estimate for the distance the car has traveled, we use the lowest velocity for each of the intervals <span class="process-math">\(0\le t\le 2\text{,}\)</span> <span class="process-math">\(2\le t\le 4\text{,}\)</span> and <span class="process-math">\(4\le t\le 6\)</span> to calculate an estimated distance traveled in each interval.  This gives</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{dist} = (49)(2) + (18)(2) + (0)(2) = 134.
+\end{equation*}
+</div>
+<div class="para">Similarly, for the upper estimate, we take the maximum velocity for each interval, to get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{dist} = (96)(2) + (49)(2) + (18)(2) = 326.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-269-1-4-3">Graphically, each of the terms in these sums is the area of a rectangle, as shown outlined in blue in the figures below.  The lower- and upper estimates are the sum of the areas of these rectangles.  (Note that the height of the last rectangle for the lower estimate is zero, so it does not contribute to the sum.)<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-269-image-1.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2" style="max-width:120"><div class="para" id="extracted-webwork-269-1-4-4-1-2-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-4-4-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">lower estimate</td>
+<td class="l m b2 r2 l0 t0 lines">upper estimate</td>
+</tr>
+</table></div>
+<div class="para" id="extracted-webwork-269-1-4-5">
+<em class="emphasis">(Click on the graphs to see a larger version.)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-269-1-4-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.1.1"><a href="#extracted-webwork-269-1-4" title="Copy heading and permalink for Solution 4.1.2.1.1" aria-label="Copy heading and permalink for Solution 4.1.2.1.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.1"><a href="#velocity-distance-stopping-car-1" title="Copy heading and permalink for Exercise 4.1.2.1" aria-label="Copy heading and permalink for Exercise 4.1.2.1">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-stopping-car-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-270" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="270" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap5Sec1/Q15.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-270')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-270-1-1-1">A student is speeding down Route 11 in his fancy red Porsche when his radar system warns him of an obstacle 400 feet ahead.  He immediately applies the brakes, starts to slow down, and spots a skunk in the road directly ahead of him.  The "black box" in the Porsche records the car’s speed every two seconds, producing the following table.  The speed decreases throughout the 10 seconds it takes to stop, although not necessarily at a uniform rate.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines">Time since brakes applied (sec)</td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">2</td>
+<td class="l m b2 r2 l0 t2 lines">4</td>
+<td class="l m b2 r2 l0 t2 lines">6</td>
+<td class="l m b2 r2 l0 t2 lines">8</td>
+<td class="l m b2 r2 l0 t2 lines">10</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">Speed (ft/sec)</td>
+<td class="l m b2 r2 l0 t0 lines">120</td>
+<td class="l m b2 r2 l0 t0 lines">70</td>
+<td class="l m b2 r2 l0 t0 lines">45</td>
+<td class="l m b2 r2 l0 t0 lines">25</td>
+<td class="l m b2 r2 l0 t0 lines">10</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-270-1-1-3">
+<em class="alert">A.</em> What is your best estimate of the total distance the student’s car traveled before coming to rest (note that the best estimate is probably not the over or under estimate that you can most easily find)?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-270-1-1-4">distance = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-270-1-1-5">
+<em class="alert">B.</em> Which one of the following statements can you justify from the information given?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-270-1-1-6">
+<ul class="circle" id="extracted-webwork-270-1-1-6-1">
+<li id="extracted-webwork-270-1-1-6-1-1">
+<div class="para" id="extracted-webwork-270-1-1-6-1-1-1">The skunk was hit by the car.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-6-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-270-1-1-6-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-270-1-1-6-1-2">
+<div class="para" id="extracted-webwork-270-1-1-6-1-2-1">The car stopped before getting to the skunk.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-6-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-270-1-1-6-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-270-1-1-6-1-3">
+<div class="para" id="extracted-webwork-270-1-1-6-1-3-1">The "black box" data is inconclusive.  The skunk may or may not have been hit.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-6-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-270-1-1-6-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-270-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-270-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<span class="process-math">\(= v\text{,}\)</span><div class="displaymath process-math">
+\begin{equation*}
+\mbox{left-hand sum} = 2 (v(0) + v(2) + v(4) + v(6) + v(8)),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{left-hand sum} = 
+2 (120 + 70 + 45 + 25 + 10)
+= 540,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{right-hand sum} = 2 (v(2) + v(4) + v(6) + v(8) + v(10)),
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{right-hand sum} = 
+2 (70 + 45 + 25 + 10 + 0)
+= 300.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\mbox{distance} = \frac12 (540 + 300) = 420.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.2.1"><a href="#extracted-webwork-270-1-3" title="Copy heading and permalink for Solution 4.1.2.2.1" aria-label="Copy heading and permalink for Solution 4.1.2.2.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.2"><a href="#velocity-distance-stopping-car-2" title="Copy heading and permalink for Exercise 4.1.2.2" aria-label="Copy heading and permalink for Exercise 4.1.2.2">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-stopping-car-3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-271" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="271" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap5Sec1/Q23.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-271')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-271-1-1-1">A car initially going 50 ft/sec brakes at a constant rate (constant negative acceleration), coming to a stop in 8 seconds.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-271-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-271-1-1-2">Graph the velocity for <span class="process-math">\(t=0\)</span> to <span class="process-math">\(t=8\text{.}\)</span>  How far does the car travel before stopping?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-271-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-271-1-1-3">distance = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-271-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-271-1-1-4">How far does the car travel before stopping if its initial velocity is doubled, but it brakes at the same constant rate?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-271-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-271-1-1-5">distance = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-271-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-271-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-271-image-1.png" class="contained"></div>
+<em class="emphasis">(Click on the graph for a larger version.)</em><span class="process-math">\(= \frac12 (8)(50) = 200\text{.}\)</span><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-271-image-2.png" class="contained"></div>
+<em class="emphasis">(Click on the graph for a larger version.)</em><span class="process-math">\(= \frac12 (16) (100) = 800\text{.}\)</span><em class="emphasis">four</em><div class="autopermalink" data-description="Solution 4.1.2.3.1"><a href="#extracted-webwork-271-1-4" title="Copy heading and permalink for Solution 4.1.2.3.1" aria-label="Copy heading and permalink for Solution 4.1.2.3.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.3"><a href="#velocity-distance-stopping-car-3" title="Copy heading and permalink for Exercise 4.1.2.3" aria-label="Copy heading and permalink for Exercise 4.1.2.3">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-two-cars"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-272" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="272" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap5Sec1/Q25.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-272')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-272-1-1-1">Two cars start at the same time and travel in the same direction along a straight road.  The figure below gives the velocity, <span class="process-math">\(v\)</span> (in km/hr), of each car as a function of time (in hr).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/webwork/images/webwork-272-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-272-1-1-3">The velocity of car A is given by the dashed, red curve, and the velocity of car B by solid, blue curve.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-272-1-1-4">
+<em class="alert">(a)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-272-1-1-5">
+<div class="para">Which car attains the larger maximum velocity?</div>
+<ul class="circle" id="extracted-webwork-272-1-1-5-1">
+<li id="extracted-webwork-272-1-1-5-1-1">
+<div class="para" id="extracted-webwork-272-1-1-5-1-1-1">A<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-272-1-1-5-1-2">
+<div class="para" id="extracted-webwork-272-1-1-5-1-2-1">B<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-5-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-272-1-1-6">
+<em class="alert">(b)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-272-1-1-7">
+<div class="para">Which stops first?</div>
+<ul class="circle" id="extracted-webwork-272-1-1-7-1">
+<li id="extracted-webwork-272-1-1-7-1-1">
+<div class="para" id="extracted-webwork-272-1-1-7-1-1-1">A<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-7-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-272-1-1-7-1-2">
+<div class="para" id="extracted-webwork-272-1-1-7-1-2-1">B<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-7-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-272-1-1-8">
+<em class="alert">(c)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-272-1-1-9">
+<div class="para">Which travels farther?</div>
+<ul class="circle" id="extracted-webwork-272-1-1-9-1">
+<li id="extracted-webwork-272-1-1-9-1-1">
+<div class="para" id="extracted-webwork-272-1-1-9-1-1-1">A<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-9-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-9-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-272-1-1-9-1-2">
+<div class="para" id="extracted-webwork-272-1-1-9-1-2-1">B<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-9-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-272-1-1-9-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-272-1-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="extracted-webwork-272-1-2-1">SOLUTION<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-2">
+<em class="alert">(a)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-3">Car A has a velocity that attains the largest maximum value.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-4">
+<em class="alert">(b)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-5">The graph of the velocity of car A returns to zero first, so that car stops first.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-6">
+<em class="alert">(c)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="extracted-webwork-272-1-2-7">The area under the velocity curve for B is largest, so that car travels the farthest.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-272-1-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.4.1"><a href="#extracted-webwork-272-1-2" title="Copy heading and permalink for Solution 4.1.2.4.1" aria-label="Copy heading and permalink for Solution 4.1.2.4.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.4"><a href="#velocity-distance-two-cars" title="Copy heading and permalink for Exercise 4.1.2.4" aria-label="Copy heading and permalink for Exercise 4.1.2.4">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-runner"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-273" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="273" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-273')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-273-1-1-1">The speed of a runner increased during the first three seconds of a race.  Her speed at half-second intervals is given in the table.  Find lower and upper estimates for the distance that she traveled during these three seconds.  The answer to this problem requires that you enter the correct .<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-273-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-273-1-1-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{|l|r|r|r|r|r|r|r|}
+\hline
+t \ (s)    \amp  0 \amp  0.5 \amp  1.0 \amp  1.5 \amp  2.0 \amp  2.5 \amp  3.0 \\
+\hline
+v \ (ft/s) \amp  0 \amp  5.7 \amp  9.6 \amp  14.7 \amp  17.6 \amp  18.9 \amp  20.5 \\
+\hline 
+\end{array}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-273-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-273-1-1-3">Lower estimate = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-273-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-273-1-1-4">Upper estimate = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-273-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.5"><a href="#velocity-distance-runner" title="Copy heading and permalink for Exercise 4.1.2.5" aria-label="Copy heading and permalink for Exercise 4.1.2.5">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-graphically"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-274" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="274" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-274')">Activate</button></div>
+<div class="problem-contents"><div class="tabular-box natural-width"><table class="tabular"><tr>
+<td class="l t b0 r0 l0 t0 lines">The figure shows an interactive graph of velocity <span class="process-math">\(v(t)\text{,}\)</span> in meters per second, where time <span class="process-math">\(t\)</span> is measured in seconds.  You can change the value of <span class="process-math">\(t\)</span> in the graph by clicking and dragging the red dot along the horizontal <span class="process-math">\(t\)</span>-axis. (a) What is the displacement between <span class="process-math">\(t = 0\)</span> seconds and <span class="process-math">\(t = 3\)</span> seconds? <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> (include ) (b) What is the displacement between <span class="process-math">\(t = 0\)</span> seconds and <span class="process-math">\(t = 8\)</span> seconds? <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> (include ) (c) What is the displacement between <span class="process-math">\(t = 3\)</span> seconds and <span class="process-math">\(t = 8\)</span> seconds? <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> (include )</td>
+<td class="l t b0 r0 l0 t0" style="max-width:120"><div class="para" id="extracted-webwork-274-1-1-1-1-2-2">applet<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-274-1-1-1-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></td>
+</tr></table></div></div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.6"><a href="#velocity-distance-graphically" title="Copy heading and permalink for Exercise 4.1.2.6" aria-label="Copy heading and permalink for Exercise 4.1.2.6">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-stopping-car-steps"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-275" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="275" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-275')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-275-1-1-1">A car going at <span class="process-math">\(42 \ \mathrm{ft/s}\)</span> decelerates at a constant <span class="process-math">\(6 \ \mathrm{ft/s^2}\)</span> to come to a stop.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-2">
+<em class="alert">(a)</em> Fill in the following table showing the velocity of the car every second. Fill in a zero velocity for any time after that at which the car comes to a rest.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><span class="process-math">\(t=\)</span></td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">1</td>
+<td class="l m b2 r2 l0 t2 lines">2</td>
+<td class="l m b2 r2 l0 t2 lines">3</td>
+<td class="l m b2 r2 l0 t2 lines">4</td>
+<td class="l m b2 r2 l0 t2 lines">5</td>
+<td class="l m b2 r2 l0 t2 lines">6</td>
+<td class="l m b2 r2 l0 t2 lines">7</td>
+<td class="l m b2 r2 l0 t2 lines">8</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(v=\)</span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+<td class="l m b2 r2 l0 t0 lines"><span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span></td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-275-1-1-4">
+<em class="alert">(b)</em> When does the car come to a stop?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-5">at <span class="process-math">\(t =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-6">Using your table, find left and right sums which estimate the total distance traveled before the car comes to rest.  Which is an overestimate, and which is an underestimate?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-275-1-1-7">
+<div class="para">The</div>
+<ul class="square" id="extracted-webwork-275-1-1-7-1">
+<li id="extracted-webwork-275-1-1-7-1-1">
+<div class="para" id="extracted-webwork-275-1-1-7-1-1-1">left sum<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-7-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-275-1-1-7-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-275-1-1-7-1-2">
+<div class="para" id="extracted-webwork-275-1-1-7-1-2-1">right sum<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-7-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-275-1-1-7-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">is an underestimate, and is = <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-275-1-1-8">
+<div class="para">The</div>
+<ul class="square" id="extracted-webwork-275-1-1-8-1">
+<li id="extracted-webwork-275-1-1-8-1-1">
+<div class="para" id="extracted-webwork-275-1-1-8-1-1-1">left sum<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-8-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-275-1-1-8-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-275-1-1-8-1-2">
+<div class="para" id="extracted-webwork-275-1-1-8-1-2-1">right sum<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-8-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-275-1-1-8-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="para">is an overestimate, and is = <span class="fillin underline" role="img" aria-label="15-character blank" style="width: 6.818181818181818em;"></span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-9">
+<em class="alert">(c)</em> On a sheet of paper, sketch a graph of velocity against time. On the graph, show an area representing the distance traveled before the car comes to rest.  Use the graph to calculate this distance.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-10">distance = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-11">
+<em class="alert">(d)</em> Now find a formula for the velocity of the car as a function of time:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-12">velocity = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-13">and then find the total distance traveled by antidifferentiation.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-275-1-1-14">distance = <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-275-1-1-14" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-275-1-19" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<em class="alert">(a)</em><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><span class="process-math">\(t=\)</span></td>
+<td class="l m b2 r2 l0 t2 lines">0</td>
+<td class="l m b2 r2 l0 t2 lines">1</td>
+<td class="l m b2 r2 l0 t2 lines">2</td>
+<td class="l m b2 r2 l0 t2 lines">3</td>
+<td class="l m b2 r2 l0 t2 lines">4</td>
+<td class="l m b2 r2 l0 t2 lines">5</td>
+<td class="l m b2 r2 l0 t2 lines">6</td>
+<td class="l m b2 r2 l0 t2 lines">7</td>
+<td class="l m b2 r2 l0 t2 lines">8</td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines"><span class="process-math">\(v=\)</span></td>
+<td class="l m b2 r2 l0 t0 lines">42</td>
+<td class="l m b2 r2 l0 t0 lines">36</td>
+<td class="l m b2 r2 l0 t0 lines">30</td>
+<td class="l m b2 r2 l0 t0 lines">24</td>
+<td class="l m b2 r2 l0 t0 lines">18</td>
+<td class="l m b2 r2 l0 t0 lines">12</td>
+<td class="l m b2 r2 l0 t0 lines">6</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+<td class="l m b2 r2 l0 t0 lines">0</td>
+</tr>
+</table></div>
+<em class="alert">(b)</em><span class="process-math">\(a \leq t \leq a + 1\text{,}\)</span><span class="process-math">\(v(a)\text{,}\)</span><span class="process-math">\(v(a + 1)\text{.}\)</span><span class="process-math">\(\Delta t = 1\text{,}\)</span><span class="process-math">\(n = 7\text{.}\)</span><em class="alert">(c)</em><span class="process-math">\(A\)</span><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-275-image-1.png" class="contained"></div>
+<span class="process-math">\(A = \frac12 (\mbox{base})(\mbox{height}) = \frac12 \cdot 42 \cdot 7
+= 147\)</span><em class="alert">(d)</em><span class="process-math">\(v(t) = 42-6t\text{.}\)</span><span class="process-math">\(v(t)\)</span><span class="process-math">\(s(t)\text{,}\)</span><span class="process-math">\(s(t) = 42 t -  t^2\text{.}\)</span><span class="process-math">\(= s(7) - s(0) = 147 - 0 = 147\)</span><div class="autopermalink" data-description="Solution 4.1.2.7.1"><a href="#extracted-webwork-275-1-19" title="Copy heading and permalink for Solution 4.1.2.7.1" aria-label="Copy heading and permalink for Solution 4.1.2.7.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.7"><a href="#velocity-distance-stopping-car-steps" title="Copy heading and permalink for Exercise 4.1.2.7" aria-label="Copy heading and permalink for Exercise 4.1.2.7">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-stone-toss"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-276" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="276" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-276')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-276-1-1-1">A stone thrown upward from the top of a 80 ft cliff at 152 ft/s eventually falls to the beach below.  (For this problem take the acceleration due to gravity to be <span class="process-math">\(g = -32 \ \mathrm{ft/s^2}\text{;}\)</span> take upwards to be a positive direction.)<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-2">
+<em class="alert">(a)</em> How long does the stone take to reach its highest point?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-3">time = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-4">
+<em class="alert">(b)</em> What is its maximum height?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-5">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-6">
+<em class="alert">(c)</em> How long before the stone hits the beach?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-7">time = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-8">
+<em class="alert">(d)</em> What is the velocity of the stone on impact?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-276-1-1-9">velocity = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-276-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-276-1-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<span class="process-math">\(h = -16t^{2}+152t+80\text{.}\)</span><span class="process-math">\(v = -32t+152\text{.}\)</span><span class="process-math">\(a = -32\text{.}\)</span><em class="alert">(a)</em><span class="process-math">\(v = -32t+152 = 0\text{,}\)</span><span class="process-math">\(t = 4.75\ {\rm s}\text{.}\)</span><em class="alert">(b)</em><span class="process-math">\(t=4.75\ {\rm s}\text{,}\)</span><span class="process-math">\(h = -16\cdot 4.75^{2}+152\cdot 4.75+80 = 441\ {\rm ft}\text{.}\)</span><em class="alert">(c)</em><span class="process-math">\(h = 0 = -16t^{2}+152t+80\text{.}\)</span><span class="process-math">\(t = 10\)</span><em class="alert">(d)</em><span class="process-math">\(t=10\text{.}\)</span><span class="process-math">\(v\text{,}\)</span><span class="process-math">\(v = -32\cdot 10+152 = -168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}\text{.}\)</span><div class="autopermalink" data-description="Solution 4.1.2.8.1"><a href="#extracted-webwork-276-1-6" title="Copy heading and permalink for Solution 4.1.2.8.1" aria-label="Copy heading and permalink for Solution 4.1.2.8.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.8"><a href="#velocity-distance-stone-toss" title="Copy heading and permalink for Exercise 4.1.2.8" aria-label="Copy heading and permalink for Exercise 4.1.2.8">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-falling-1"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-277" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="277" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap6Sec5/Q05.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-277')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-277-1-1-1">A ball that is dropped from a window hits the ground in 7 seconds.  How high is the window? (Give your answer in feet; note that the acceleration due to gravity is 32 ft/s<span class="process-math">\({}^2\text{.}\)</span>)<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-277-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-277-1-1-2">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-277-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-277-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<span class="process-math">\(a(t)=-32\text{.}\)</span><span class="process-math">\(v(t)\)</span><span class="process-math">\(a(t)\text{,}\)</span><span class="process-math">\(v(t)=-32t + v_0\text{.}\)</span><span class="process-math">\(v_0=0\text{,}\)</span><span class="process-math">\(v(t)=-32 t\text{.}\)</span><span class="process-math">\(s(t)\)</span><span class="process-math">\(v(t)\text{,}\)</span><span class="process-math">\(s(t)=-16 t^2 + s_0\text{,}\)</span><span class="process-math">\(s_0\)</span><span class="process-math">\(s(7)=0=-16(7)^2+s_0\text{.}\)</span><span class="process-math">\(s_0=784\)</span><div class="autopermalink" data-description="Solution 4.1.2.9.1"><a href="#extracted-webwork-277-1-3" title="Copy heading and permalink for Solution 4.1.2.9.1" aria-label="Copy heading and permalink for Solution 4.1.2.9.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.9"><a href="#velocity-distance-falling-1" title="Copy heading and permalink for Exercise 4.1.2.9" aria-label="Copy heading and permalink for Exercise 4.1.2.9">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-falling-2"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-278" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="278" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-278')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-278-1-1-1">A stone was dropped off a cliff and hit the ground with a speed of 120 ft/s.  Using the fact that acceleration due to gravity is <span class="process-math">\(-32 ft/s^2,\)</span> what is the height (in feet) of the cliff?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-278-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-278-1-1-2">Height of cliff = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span> feet<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-278-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.10"><a href="#velocity-distance-falling-2" title="Copy heading and permalink for Exercise 4.1.2.10" aria-label="Copy heading and permalink for Exercise 4.1.2.10">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-train"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-279" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="279" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-279')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-279-1-1-1">A high-speed "bullet" train accelerates and decelerates at the rate <span class="process-math">\(4 ft/s^2.\)</span>  Its maximum cruising speed is 90 mi/hr.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-2">(a) What is the maximum distance (in miles) the train can travel if it accelerates from rest until it reaches its cruising speed and then runs at that speed for 15 minutes?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-3">Maximum distance = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> miles<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-4">(b) Suppose that the train starts from rest and must come to a complete stop in 15 minutes.  What is the maximum distance (in miles) it can travel under these conditions?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-5">Maximum distance = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> miles<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-6">(c) Find the minimum time (in minutes) that the train takes to travel between two consecutive stations that are 45 miles apart.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-7">Minimum time = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> minutes<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-8">(d) The trip from one station to the next takes 37.5 minutes.  How far apart (in miles) are the stations?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-279-1-1-9">Distance apart = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> miles<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-279-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.11"><a href="#velocity-distance-train" title="Copy heading and permalink for Exercise 4.1.2.11" aria-label="Copy heading and permalink for Exercise 4.1.2.11">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-particle"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-280" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="280" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-280')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-280-1-1-1">
+<div class="para">The velocity function (in meters per second) for a particle moving along a line is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v(t)= 3 t - 2,\,\, 0 \le t \le 3.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-280-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-280-1-1-2">(a) Find the displacement (in meters) of the particle.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-280-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-280-1-1-3">Displacement = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> meters<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-280-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-280-1-1-4">(b) Find the total distance traveled (in meters) by the particle.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-280-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-280-1-1-5">Total distance traveled = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> meters<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-280-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.12"><a href="#velocity-distance-particle" title="Copy heading and permalink for Exercise 4.1.2.12" aria-label="Copy heading and permalink for Exercise 4.1.2.12">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-graph-displacement"><h4 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-281" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="281" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-281')">Activate</button></div>
+<div class="problem-contents">
+<div class="image-box" style="width: 66%; margin-left: 17%; margin-right: 17%;"><img src="generated/webwork/images/webwork-281-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-281-1-1-2">A graph of the velocity function <span class="process-math">\(v(t)\)</span> of an object moving in a straight line is given above.  Velocity is measured in m/s, and time in seconds.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-281-1-1-3">
+<div class="para">a) What is the object’s maximum velocity? <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+<ul class="square" id="extracted-webwork-281-1-1-3-2">
+<li id="extracted-webwork-281-1-1-3-2-1">
+<div class="para" id="extracted-webwork-281-1-1-3-2-1-1">s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-281-1-1-3-2-2">
+<div class="para" id="extracted-webwork-281-1-1-3-2-2-1">m/s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-3-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-281-1-1-3-2-3">
+<div class="para" id="extracted-webwork-281-1-1-3-2-3-1">m<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-3-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-281-1-1-4">
+<div class="para">b) What is the object’s maximum displacement? <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>
+</div>
+<ul class="square" id="extracted-webwork-281-1-1-4-2">
+<li id="extracted-webwork-281-1-1-4-2-1">
+<div class="para" id="extracted-webwork-281-1-1-4-2-1-1">s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-4-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-281-1-1-4-2-2">
+<div class="para" id="extracted-webwork-281-1-1-4-2-2-1">m/s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-4-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-4-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-281-1-1-4-2-3">
+<div class="para" id="extracted-webwork-281-1-1-4-2-3-1">m<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-4-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-281-1-1-4-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-281-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-281-1-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<em class="alert">Solution:</em><span class="process-math">\(v = 4\)</span><span class="process-math">\(v \geq 0\)</span><span class="process-math">\([0, 15]\text{,}\)</span><div class="displaymath process-math">
+\begin{equation*}
+\int_{0}^{15} v(t) \, dt = 
+\int_{0}^{3} v(t) \, dt +
+\int_{3}^{7} v(t) \, dt + 
+\int_{7}^{9} v(t) \, dt + 
+\int_{9}^{15} v(t) \, dt
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= (3)(3) + \frac{1}{2}(4)(3)
++ \frac{1}{2}(2)(4) + (6)(4)
+= 43
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.13.1"><a href="#extracted-webwork-281-1-6" title="Copy heading and permalink for Solution 4.1.2.13.1" aria-label="Copy heading and permalink for Solution 4.1.2.13.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.13"><a href="#velocity-distance-graph-displacement" title="Copy heading and permalink for Exercise 4.1.2.13" aria-label="Copy heading and permalink for Exercise 4.1.2.13">🔗</a></div></article><article class="exercise exercise-like" id="velocity-distance-accel-vel"><h4 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-282" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="282" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-282')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-282-1-1-1">
+<div class="para">The acceleration (in ft/s2) of an object moving along a straight line is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a(t) = 7 {t}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-282-1-1-2">Find the change of the objects’s velocity over the time interval <span class="process-math">\([1, 14]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="extracted-webwork-282-1-1-3">
+<ul class="square" id="extracted-webwork-282-1-1-3-2">
+<li id="extracted-webwork-282-1-1-3-2-1">
+<div class="para" id="extracted-webwork-282-1-1-3-2-1-1">ft<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-282-1-1-3-2-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-282-1-1-3-2-2">
+<div class="para" id="extracted-webwork-282-1-1-3-2-2-1">ft/s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-282-1-1-3-2-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-282-1-1-3-2-3">
+<div class="para" id="extracted-webwork-282-1-1-3-2-3-1">ft/s^2<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-282-1-1-3-2-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="extracted-webwork-282-1-1-3-2-4">
+<div class="para" id="extracted-webwork-282-1-1-3-2-4-1">s<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-3-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#extracted-webwork-282-1-1-3-2-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-282-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="extracted-webwork-282-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<em class="alert">Solution:</em><div class="displaymath process-math">
+\begin{equation*}
+\begin{array}{rcl}
+\displaystyle \int_{1}^{14} \left( 7 t \right) \, dt \amp =\amp  
+\left( 3.5 t^{2}\right) \Big|_{1}^{14}    \\
+\amp =\amp  682.5
+\end{array}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Solution 4.1.2.14.1"><a href="#extracted-webwork-282-1-4" title="Copy heading and permalink for Solution 4.1.2.14.1" aria-label="Copy heading and permalink for Solution 4.1.2.14.1">🔗</a></div>
+</div></details></div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 4.1.2.14"><a href="#velocity-distance-accel-vel" title="Copy heading and permalink for Exercise 4.1.2.14" aria-label="Copy heading and permalink for Exercise 4.1.2.14">🔗</a></div></article><div class="autopermalink" data-description="Exercises 4.1.2: Calculus Practice"><a href="#cp-velocity-distance" title="Copy heading and permalink for Exercises 4.1.2: Calculus Practice" aria-label="Copy heading and permalink for Exercises 4.1.2: Calculus Practice">🔗</a></div></section><div class="autopermalink" data-description="Section 4.1: Determining distance traveled from velocity"><a href="#sec-4-1-velocity-distance" title="Copy heading and permalink for Section 4.1: Determining distance traveled from velocity" aria-label="Copy heading and permalink for Section 4.1: Determining distance traveled from velocity">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="C-4.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-4-2-Riemann.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

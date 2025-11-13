@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f058e290)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f05fbda8)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f06289a0)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f0698990)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4461,13 +4461,13 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
 <p>a)<var form="popup">
 <li>
-<p>dP/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
 <p>ds/dt</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
 <li>
@@ -4492,13 +4492,13 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
+<p>Pa/min</p>
+</li>
+<li>
 <p>Pa/m</p>
 </li>
 <li>
 <p>m/min</p>
-</li>
-<li>
-<p>Pa/min</p>
 </li>
 </var></p>
 <p>c)<var form="popup">
@@ -4506,20 +4506,20 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>dP/dt</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
-<p>Pa/min</p>
+<p>m/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
-<p>m/min</p>
+<p>Pa/min</p>
 </li>
 </var></p>
 </statement>
@@ -6840,21 +6840,21 @@ and <m>x=3</m> is the lone critical point of <m>f</m>.
 <p>The function is:</p>
 <p><var form="popup">
 <li>
-<p>?</p>
+<p>Increasing</p>
 </li>
 <li>
 <p>Decreasing</p>
 </li>
 <li>
-<p>Increasing</p>
+<p>?</p>
 </li>
 </var> on <m>(-\infty,c)</m>.</p>
 <p><var form="popup">
 <li>
-<p>?</p>
+<p>Decreasing</p>
 </li>
 <li>
-<p>Decreasing</p>
+<p>?</p>
 </li>
 <li>
 <p>Increasing</p>
@@ -8402,5 +8402,903 @@ Therefore, the maximal area is:
     </static>
     <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-269" ww-id="webwork-269">
+    <static seed="269" source="Library/Michigan/Chap5Sec1/Q01.pg">
+      <statement><p>A car comes to a stop six seconds after the driver applies the brakes.
+While the brakes are on, the following velocities are recorded:</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>Time since brakes applied (sec)</cell>
+<cell>0</cell>
+<cell>2</cell>
+<cell>4</cell>
+<cell>6</cell>
+</row>
+<row>
+<cell>Velocity (ft/s)</cell>
+<cell>96</cell>
+<cell>49</cell>
+<cell>18</cell>
+<cell>0</cell>
+</row>
+</tabular>
+<p>Give lower and upper estimates (using all of the available data) for
+the distance the car traveled after the brakes were applied.</p>
+<p>lower: <fillin characters="15" name="AnSwEr0001"/></p>
+<p>upper: <fillin characters="15" name="AnSwEr0002"/></p>
+<p>(for each, include )</p>
+<p><em>On a sketch of velocity against time, show the lower and upper
+estimates you found above.</em>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>134\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>326\ {\rm ft}</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p>To find a lower estimate for the distance the car has traveled, we use the
+lowest velocity for each of the intervals <m>0\le t\le 2</m>, <m>2\le t\le 4</m>, 
+and <m>4\le t\le 6</m> to calculate an estimated distance traveled in each
+interval.  This gives 
+<me>\mbox{dist} = (49)(2) + (18)(2) + (0)(2) = 134.</me>
+Similarly, for the upper estimate, we take the maximum velocity for each
+interval, to get 
+<me>\mbox{dist} = (96)(2) + (49)(2) + (18)(2) = 326.</me></p>
+<p>Graphically, each of the terms in these sums is the area of a rectangle,
+as shown outlined in blue in the figures below.  The lower- and
+upper estimates are the sum of the areas of these rectangles.  (Note
+that the height of the last rectangle for the lower estimate is zero,
+so it does not contribute to the sum.)</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-269-image-1.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/webwork-269-image-2.png" width="33%"/>
+<p/></cell>
+</row>
+<row>
+<cell>lower estimate</cell>
+<cell>upper estimate</cell>
+</row>
+</tabular>
+<p><em>(Click on the graphs to see a larger version.)</em></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec1/Q01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-270" ww-id="webwork-270">
+    <static seed="270" source="Library/Michigan/Chap5Sec1/Q15.pg">
+      <statement><p>A student is speeding down Route 11 in his fancy red Porsche when his
+radar system warns him of an obstacle 400 feet ahead.  He immediately
+applies the brakes, starts to slow down, and spots a skunk in the road
+directly ahead of him.  The "black box" in the Porsche records the car's
+speed every two seconds, producing the following table.  The speed
+decreases throughout the 10 seconds it takes to stop, although not
+necessarily at a uniform rate.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>Time since brakes applied (sec)</cell>
+<cell>0</cell>
+<cell>2</cell>
+<cell>4</cell>
+<cell>6</cell>
+<cell>8</cell>
+<cell>10</cell>
+</row>
+<row>
+<cell>Speed (ft/sec)</cell>
+<cell>120</cell>
+<cell>70</cell>
+<cell>45</cell>
+<cell>25</cell>
+<cell>10</cell>
+<cell>0</cell>
+</row>
+</tabular>
+<p><alert>A.</alert>
+What is your best estimate of the total distance the student's car traveled
+before coming to rest (note that the best estimate is probably not the
+over or under estimate that you can most easily find)?</p>
+<p>distance = <fillin characters="35" name="AnSwEr0001"/>
+(include )</p>
+<p><alert>B.</alert>
+Which one of the following statements can you justify from the information given?</p>
+<p><var form="buttons">
+<li>
+<p>The skunk was hit by the car.</p>
+</li>
+<li>
+<p>The car stopped before getting to the skunk.</p>
+</li>
+<li>
+<p>The "black box" data is inconclusive.  The skunk may or may not have been hit.</p>
+</li>
+</var></p>
+</statement>
+      <answer>
+        <p>
+          <m>420\ {\rm ft}</m>
+        </p>
+      </answer>
+      <solution><m>= v</m>,
+<me>\mbox{left-hand sum} = 2 (v(0) + v(2) + v(4) + v(6) + v(8)),</me>
+or
+<me>\mbox{left-hand sum} = 
+  2 (120 + 70 + 45 + 25 + 10)
+  = 540,</me>
+and 
+<me>\mbox{right-hand sum} = 2 (v(2) + v(4) + v(6) + v(8) + v(10)),</me>
+or
+<me>\mbox{right-hand sum} = 
+  2 (70 + 45 + 25 + 10 + 0)
+  = 300.</me>
+Thus we estimate that the distance traveled is 
+<me>\mbox{distance} = \frac12 (540 + 300) = 420.</me>
+
+
+
+
+Using the overestimate and underestimate for the distance traveled, we can
+answer the last question.
+The underestimate for the distance traveled by the Porsche (300) is less than the 400 foot distance to the skunk, but the overestimate (540) is more than that, so the "black box" data is inconclusive.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec1/Q15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-271" ww-id="webwork-271">
+    <static seed="271" source="Library/Michigan/Chap5Sec1/Q23.pg">
+      <statement><p>A car initially going 50 ft/sec brakes at a constant rate (constant
+negative acceleration), coming to a stop in 8 seconds.</p>
+<p>Graph the velocity for <m>t=0</m> to <m>t=8</m>.  How far does the car travel
+before stopping?</p>
+<p>distance = <fillin characters="35" name="AnSwEr0001"/>
+(include )</p>
+<p>How far does the car travel before stopping if its initial velocity is
+doubled, but it brakes at the same constant rate?</p>
+<p>distance = <fillin characters="35" name="AnSwEr0002"/>
+(include )</p>
+</statement>
+      <answer>
+        <p>
+          <m>200\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>800\ {\rm ft}</m>
+        </p>
+      </answer>
+      <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-271-image-1.png" width="33%"/>
+
+
+
+<em>(Click on the graph for a larger version.)</em>
+
+
+
+
+The distance traveled is just the area under the curve, so the distance is
+is d<m>= \frac12 (8)(50) = 200</m>.
+
+
+
+If the car starts off traveling twice the original velocity of 50, but
+decelerates at the same rate, we have the graph
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-271-image-2.png" width="33%"/>
+
+
+
+<em>(Click on the graph for a larger version.)</em>
+
+
+
+
+(In this, the blue curve is the new velocity graph, while the thinner
+black curve is the original.)  As before, we have 
+d<m>= \frac12 (16) (100) = 800</m>.  Note that doubling the initial
+speed results in multiplying the required distance by
+<em>four</em>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec1/Q23.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-272" ww-id="webwork-272">
+    <static seed="272" source="Library/Michigan/Chap5Sec1/Q25.pg">
+      <statement><p>Two cars start at the same time and travel in the same direction along
+a straight road.  The figure below gives the velocity, <m>v</m> (in
+km/hr), of each car as a function of time (in hr).</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-272-image-1.png" width="25%"/>
+<p>The velocity of car A is given by the dashed, red curve, and the velocity of car
+B by solid, blue curve.</p>
+<p><alert>(a)</alert></p>
+<p>Which car attains the larger maximum velocity?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+<p><alert>(b)</alert></p>
+<p>Which stops first?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+<p><alert>(c)</alert></p>
+<p>Which travels farther?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+</statement>
+      <solution><p>SOLUTION</p>
+<p><alert>(a)</alert></p>
+<p>Car A has a velocity that attains the
+largest maximum value.</p>
+<p><alert>(b)</alert></p>
+<p>The graph of the velocity of car A
+returns to zero first, so that car stops first.</p>
+<p><alert>(c)</alert></p>
+<p>The area under the velocity curve for B
+is largest, so that car travels the farthest.</p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec1/Q25.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-273" ww-id="webwork-273">
+    <static seed="273" source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg">
+      <statement><p>The speed of a runner increased during the first three seconds of a
+race.  Her speed at half-second intervals is given in the table.  Find
+lower and upper estimates for the distance that she traveled during
+these three seconds.  The answer to this problem requires that you
+enter the correct .</p>
+<p><me>\begin{array}{|l|r|r|r|r|r|r|r|}
+\hline
+t \ (s)    \amp  0 \amp  0.5 \amp  1.0 \amp  1.5 \amp  2.0 \amp  2.5 \amp  3.0 \\
+\hline
+v \ (ft/s) \amp  0 \amp  5.7 \amp  9.6 \amp  14.7 \amp  17.6 \amp  18.9 \amp  20.5 \\
+\hline 
+\end{array}</me></p>
+<p>Lower estimate = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Upper estimate = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>33.25\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>43.5\ {\rm ft}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-274" ww-id="webwork-274">
+    <static seed="274" source="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg">
+      <statement><tabular valign="top">
+<row>
+<cell>The figure shows an interactive graph of velocity <m>v(t)</m>, in 
+meters per second, where time <m>t</m> is measured in seconds.  You can 
+change the value of <m>t</m> in the graph by clicking and dragging
+the red dot along the horizontal <m>t</m>-axis.
+(a) What is the displacement between <m>t = 0</m> seconds
+and <m>t = 3</m> seconds?
+<fillin characters="20" name="AnSwEr0001"/> (include )
+(b) What is the displacement between <m>t = 0</m> seconds
+and <m>t = 8</m> seconds?
+<fillin characters="20" name="AnSwEr0002"/> (include )
+(c) What is the displacement between <m>t = 3</m> seconds
+and <m>t = 8</m> seconds?
+<fillin characters="20" name="AnSwEr0003"/> (include )</cell>
+<cell><alert>Graph of velocity <m>y = v(t)</m></alert>
+<p>applet </p></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>6.21806\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10.19\ {\rm m}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3.97196\ {\rm m}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-275" ww-id="webwork-275">
+    <static seed="275" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg">
+      <statement><p>A car going at <m>42 \ \mathrm{ft/s}</m> decelerates at a
+constant <m>6 \ \mathrm{ft/s^2}</m> to come to a stop.</p>
+<p><alert>(a)</alert>
+Fill in the following table showing the velocity of the car every second.
+Fill in a zero velocity for any time after that at which the
+car comes to a rest.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell><m>t=</m></cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>4</cell>
+<cell>5</cell>
+<cell>6</cell>
+<cell>7</cell>
+<cell>8</cell>
+</row>
+<row>
+<cell><m>v=</m></cell>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+<cell><fillin characters="5" name="AnSwEr0009"/></cell>
+</row>
+</tabular>
+<p><alert>(b)</alert>
+When does the car come to a stop?</p>
+<p>at <m>t =</m> <fillin characters="10" name="AnSwEr0010"/></p>
+<p>Using your table, find left and right sums which estimate the total
+distance traveled before the car comes to rest.  Which is an
+overestimate, and which is an underestimate?</p>
+<p>The <ul form="popup" name="AnSwEr0011"><li>
+<p>?</p>
+</li><li>
+<p>left sum</p>
+</li><li>
+<p>right sum</p>
+</li></ul> is an underestimate, and is = <fillin characters="15" name="AnSwEr0012"/></p>
+<p>The <ul form="popup" name="AnSwEr0013"><li>
+<p>?</p>
+</li><li>
+<p>left sum</p>
+</li><li>
+<p>right sum</p>
+</li></ul> is an overestimate, and is = <fillin characters="15" name="AnSwEr0014"/></p>
+<p><alert>(c)</alert>
+On a sheet of paper, sketch a graph of velocity against time. On the
+graph, show an area representing the distance traveled before the car
+comes to rest.  Use the graph to calculate this distance.</p>
+<p>distance = <fillin characters="10" name="AnSwEr0015"/></p>
+<p><alert>(d)</alert>
+Now find a formula for the velocity of the car as a function of time:</p>
+<p>velocity = <fillin characters="10" name="AnSwEr0016"/></p>
+<p>and then find the total distance traveled by antidifferentiation.</p>
+<p>distance = <fillin characters="10" name="AnSwEr0017"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>42</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>42-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>36-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>30-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>24-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>18-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>12-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{right sum}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>126</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\text{left sum}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>168</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{42\cdot 7}{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>42-6t</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{42\cdot 7}{2}</m>
+        </p>
+      </answer>
+      <solution><alert>(a)</alert>
+Since the velocity is constantly decreasing, every second its velocity
+decreases by 6 ft/s, so that the car stops after 7 seconds, and we
+have the time and speed values
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+<row>
+<cell><m>t=</m></cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>4</cell>
+<cell>5</cell>
+<cell>6</cell>
+<cell>7</cell>
+<cell>8</cell>
+</row>
+
+<row>
+<cell><m>v=</m></cell>
+<cell>42</cell>
+<cell>36</cell>
+<cell>30</cell>
+<cell>24</cell>
+<cell>18</cell>
+<cell>12</cell>
+<cell>6</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+
+
+</tabular>
+
+
+
+
+
+
+<alert>(b)</alert>
+Over the interval <m>a \leq t \leq a + 1</m>, the left-hand velocity
+is <m>v(a)</m>, and the right-hand velocity is <m>v(a + 1)</m>.  Since we
+are considering one-second intervals, <m>\Delta t = 1</m>, and <m>n = 7</m>.
+The left sum is then 168 ft, and the right sum is 126 ft.  Thus
+the left sum is an overestimate and the right is an underestimate.
+
+
+
+
+<alert>(c)</alert>
+Area <m>A</m> in the figure below represents distance traveled.
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-275-image-1.png" width="33%"/>
+
+
+
+
+<m>A = \frac12 (\mbox{base})(\mbox{height}) = \frac12 \cdot 42 \cdot 7
+    = 147</m> ft.
+
+
+
+
+<alert>(d)</alert>
+The velocity is constantly decreasing at a rate of 6 ft/s, so
+after each second the velocity has dropped by 6 ft.
+Therefore <m>v(t) = 42-6t</m>.
+
+
+
+An antiderivative for <m>v(t)</m> is <m>s(t)</m>, where
+<m>s(t) = 42 t -  t^2</m>.  Thus by the Fundamental Theorem of Calculus,
+the distance traveled
+<m>= s(7) - s(0) = 147 - 0 = 147</m> ft.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-276" ww-id="webwork-276">
+    <static seed="276" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg">
+      <statement><p>A stone thrown upward from the top of a 80 ft
+cliff at 152 ft/s eventually falls to the
+beach below.  (For this problem take the acceleration
+due to gravity to be <m>g = -32 \ \mathrm{ft/s^2}</m>; take
+upwards to be a positive direction.)</p>
+<p><alert>(a)</alert>
+How long does the stone take to reach its highest point?</p>
+<p>time = <fillin characters="35" name="AnSwEr0001"/>
+(include )</p>
+<p><alert>(b)</alert>
+What is its maximum height?</p>
+<p>height = <fillin characters="35" name="AnSwEr0002"/>
+(include )</p>
+<p><alert>(c)</alert>
+How long before the stone hits the beach?</p>
+<p>time = <fillin characters="35" name="AnSwEr0003"/>
+(include )</p>
+<p><alert>(d)</alert>
+What is the velocity of the stone on impact?</p>
+<p>velocity = <fillin characters="35" name="AnSwEr0004"/>
+(include )</p>
+</statement>
+      <answer>
+        <p>
+          <m>4.75\ {\rm s}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>441\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10\ {\rm s}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
+        </p>
+      </answer>
+      <solution><m>h = -16t^{2}+152t+80</m>.
+
+Taking the first derivative, we get
+<m>v = -32t+152</m>.
+
+The second derivative is the acceleration due to gravity,
+<m>a = -32</m>.
+
+
+
+
+<alert>(a)</alert>
+At its highest point, the stone's velocity is zero:
+<m>v = -32t+152 = 0</m>, so that <m>t = 4.75\ {\rm s}</m>.
+
+
+
+
+<alert>(b)</alert>
+At <m>t=4.75\ {\rm s}</m>, the height is
+<m>h = -16\cdot 4.75^{2}+152\cdot 4.75+80 = 441\ {\rm ft}</m>.
+
+
+
+
+<alert>(c)</alert>
+When the stone hits the beach,
+<m>h = 0 = -16t^{2}+152t+80</m>.  Solving, we get <m>t = 10</m> s.
+
+
+
+
+<alert>(d)</alert>
+Impact is at <m>t=10</m>.  The velocity, <m>v</m>, at this time is
+<m>v = -32\cdot 10+152 = -168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>.
+The velocity is negative because the stone is falling.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-277" ww-id="webwork-277">
+    <static seed="277" source="Library/Michigan/Chap6Sec5/Q05.pg">
+      <statement><p>A ball that is dropped from a window hits the ground in 7 seconds.  How
+high is the window?
+(Give your answer in feet; note that the acceleration due to gravity
+is 32 ft/s<m>{}^2</m>.)</p>
+<p>height = <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{32\cdot 7\cdot 7}{2}</m>
+        </p>
+      </answer>
+      <solution><m>a(t)=-32</m>. Since <m>v(t)</m> is the antiderivative of <m>a(t)</m>,
+<m>v(t)=-32t + v_0</m>.  But <m>v_0=0</m>, so <m>v(t)=-32 t</m>.
+Since <m>s(t)</m> is the antiderivative of <m>v(t)</m>,
+<m>s(t)=-16 t^2 + s_0</m>, where
+<m>s_0</m> is the height of the building.  Since the ball hits the ground in
+7 seconds, <m>s(7)=0=-16(7)^2+s_0</m>.  Hence
+<m>s_0=784</m> feet, so the window is
+784 feet high.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap6Sec5/Q05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap6Sec5/Q05.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-278" ww-id="webwork-278">
+    <static seed="278" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg">
+      <statement><p>A stone was dropped off a cliff and hit the ground with a speed of 120 ft/s.  Using the fact that acceleration due to gravity is <m>-32 ft/s^2,</m> what is the height (in feet) of the cliff?</p>
+<p>Height of cliff = <fillin characters="35" name="AnSwEr0001"/> feet</p>
+</statement>
+      <answer>
+        <p>
+          <m>225</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-279" ww-id="webwork-279">
+    <static seed="279" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg">
+      <statement><p>A high-speed "bullet" train accelerates and decelerates at the rate <m>4 ft/s^2.</m>  Its maximum cruising speed is 90 mi/hr.</p>
+<p>(a) What is the maximum distance (in miles) the train can travel if it accelerates from rest until it reaches its cruising speed and then runs at that speed for 15 minutes?</p>
+<p>Maximum distance = <fillin characters="30" name="AnSwEr0001"/> miles</p>
+<p>(b) Suppose that the train starts from rest and must come to a complete stop in 15 minutes.  What is the maximum distance (in miles) it can travel under these conditions?</p>
+<p>Maximum distance = <fillin characters="30" name="AnSwEr0002"/> miles</p>
+<p>(c) Find the minimum time (in minutes) that the train takes to travel between two consecutive stations that are 45 miles apart.</p>
+<p>Minimum time = <fillin characters="30" name="AnSwEr0003"/> minutes</p>
+<p>(d) The trip from one station to the next takes 37.5 minutes.  How far apart (in miles) are the stations?</p>
+<p>Distance apart = <fillin characters="30" name="AnSwEr0004"/> miles</p>
+</statement>
+      <answer>
+        <p>
+          <m>22.9125</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>21.675</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>30.55</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>55.425</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-280" ww-id="webwork-280">
+    <static seed="280" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg">
+      <statement><p>The velocity function (in meters per second) for a particle moving along a line is given by 
+<me>v(t)= 3 t - 2,\,\, 0 \le t \le 3.</me></p>
+<p>(a) Find the displacement (in meters) of the particle.</p>
+<p>Displacement = <fillin characters="30" name="AnSwEr0001"/> meters</p>
+<p>(b) Find the total distance traveled (in meters) by the particle.</p>
+<p>Total distance traveled = <fillin characters="30" name="AnSwEr0002"/> meters</p>
+</statement>
+      <answer>
+        <p>
+          <m>7.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>8.83333333333333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-281" ww-id="webwork-281">
+    <static seed="281" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-281-image-1.png" width="66%"/>
+<p>A graph of the velocity function <m>v(t)</m> of an object moving in
+a straight line is given above.  Velocity is measured in m/s, and
+time in seconds.</p>
+<p>a) What is the object's maximum velocity? 
+<fillin characters="20" name="AnSwEr0001"/> <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>s</p>
+</li><li>
+<p>m/s</p>
+</li><li>
+<p>m</p>
+</li></ul></p>
+<p>b) What is the object's maximum displacement? 
+<fillin characters="20" name="AnSwEr0003"/> <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>s</p>
+</li><li>
+<p>m/s</p>
+</li><li>
+<p>m</p>
+</li></ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>m/s</p>
+      </answer>
+      <answer>
+        <p>
+          <m>43</m>
+        </p>
+      </answer>
+      <answer>
+        <p>m</p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+a) The maximum velocity is the highest value on the graph,
+<m>v = 4</m> m/s.
+
+
+
+b) Since <m>v \geq 0</m> on <m>[0, 15]</m>, the maximum displacement
+is the entire area under the curve on this interval.  Break up
+the integral into rectangles and triangles.
+<me>\int_{0}^{15} v(t) \, dt = 
+  \int_{0}^{3} v(t) \, dt +
+  \int_{3}^{7} v(t) \, dt + 
+  \int_{7}^{9} v(t) \, dt + 
+  \int_{9}^{15} v(t) \, dt</me>
+<me>= (3)(3) + \frac{1}{2}(4)(3)
+  + \frac{1}{2}(2)(4) + (6)(4)
+  = 43</me>
+The units are m (meters) because displacement is a distance measurement.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-282" ww-id="webwork-282">
+    <static seed="282" source="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg">
+      <statement><p>The acceleration (in ft/s<SUP>2</SUP>) 
+of an object moving along a straight
+line is given by
+<me>a(t) = 7 {t}</me></p>
+<p>Find the change of the objects's velocity over the
+time interval <m>[1, 14]</m>.</p>
+<p><fillin characters="15" name="AnSwEr0001"/> <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>ft</p>
+</li><li>
+<p>ft/s</p>
+</li><li>
+<p>ft/s^2</p>
+</li><li>
+<p>s</p>
+</li></ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>682.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>ft/s</p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+The change in velocity is 
+found by a definite integral:
+<me>\begin{array}{rcl}
+    \displaystyle \int_{1}^{14} \left( 7 t \right) \, dt \amp =\amp  
+    \left( 3.5 t^{2}\right) \Big|_{1}^{14}    \\
+    \amp =\amp  682.5
+  \end{array}</me>
+
+
+
+The units for velocity are distance-per-time units.
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg"/>
   </webwork-reps>
 </webwork-representations>
