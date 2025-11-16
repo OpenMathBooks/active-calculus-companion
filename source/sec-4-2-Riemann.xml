@@ -3,28 +3,25 @@
 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-4-2-Riemann">
   <title>Riemann sums</title>
-  <!-- <objectives>
+  <objectives>
     <ul>
       <li>
         <p>
-          How can we use a Riemann sum to estimate the area between a given curve and the horizontal axis over a particular interval?
+          Become familiar with <em>sigma notation</em> for adding a list of terms sharing a common pattern.
         </p>
       </li>
-
       <li>
         <p>
-          What are the differences among left, right,
-          middle, and random Riemann sums?
+          Formalize the rectangle approximations of area between a given curve and the horizontal axis over a particular interval using <em>Riemann sums</em>.
         </p>
       </li>
-
       <li>
         <p>
-          How can we write Riemann sums in an abbreviated form?
+          Calculate left, right, and middle Riemann sums, in expanded form and in sigma notation.
         </p>
       </li>
     </ul>
-  </objectives> -->
+  </objectives>
   <subsection xml:id="subsec-Riemann-foundations">
     <title>Foundations</title>
     <p>
@@ -34,10 +31,67 @@
 
   <exercises xml:id="cp-Riemann">
     <title>Calculus Practice</title>
-    <introduction>
-      <p>
-        Coming soon.
-      </p>
-    </introduction>
+    
+    <exercise label="sigma-notation-meaning"><title>The meaning of sigma notation</title>
+      <webwork source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg" />
+    </exercise>
+
+    <exercise label="sigma-notation-calculation1"><title>Calculating a sum given in sigma notation</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg" />
+    </exercise>
+    
+    <exercise label="sigma-notation-calculation2"><title>Calculating more sums given in sigma notation</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg" />
+    </exercise>
+    
+    <exercise label="sigma-notation-writingsum1"><title>Writing an expanded sum using sigma notation</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg" />
+    </exercise>
+
+    <exercise label="sigma-notation-writingsum2"><title>Writing an expanded sum using sigma notation</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg" />
+    </exercise>
+
+    <!-- <exercise label="riemannsums-area-meaning1"><title>Connecting left, right, or middle Riemann sums with area</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_27.pg" />
+    </exercise> -->
+    <!-- too similar to one in AC already -->
+
+    <exercise label="riemannsums-area-meaning1"><title>Connecting left, right, or middle Riemann sums with area</title>
+      <webwork source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_30.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-area-meaning2"><title>Connecting left, right, or middle Riemann sums with area</title>
+      <webwork source="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-area-velocity"><title>Calculating Riemann sums and interpreting</title>
+      <webwork source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-area1"><title>Calculating Riemann sums</title>
+      <webwork source="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-area2"><title>Calculating Riemann sums</title>
+      <webwork source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-calculating1"><title>Calculating Riemann sums</title>
+      <webwork source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-calculating2"><title>Calculating Riemann sums</title>
+      <!-- <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C05S01-AreaDistance/5-1-03.pg" /> -->
+       <webwork><xi:include parse="text" href="../webworkfiles/riemannsumscalculation.pg"/></webwork>
+    </exercise>
+
+    <exercise label="riemannsums-general-limit1"><title>Calculating a Riemann sum for arbitrary <m>n</m></title>
+      <webwork source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg" />
+    </exercise>
+
+    <exercise label="riemannsums-general-limit2"><title>Calculating a Riemann sum for arbitrary <m>n</m></title>
+      <webwork source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg" />
+    </exercise>
   </exercises>
 </section>
