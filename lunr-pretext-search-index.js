@@ -1393,7 +1393,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "The chain rule",
-  "body": " The chain rule     Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.    Use a combination of basic derivative rules (including trigonometric and exponential), product and quotient rules, and chain rule to take the derivative of a complicated function.        Structure of functions: composition, product, quotient    All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.    What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.     Foundations  One of the most useful ways of constructing functions from other functions is composition : doing one function and then doing another function to the result. Rather than substituting a number in for the input of a function, we substitute a whole second function in for the input of a function.  We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the rate of change of the more complicated function. We treat the inside or substituted function as if it were a single variable, take the derivative of the outer function with respect to that variable, and multiply by the derivative of the inside function.   The Chain Rule   chain rule If is differentiable at and is differentiable at , then the composite function defined by is differentiable at and .  Another formulation of this rule which says the same thing using different notation is .   Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)    If the video does not work, click here to watch on YouTube.                  Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)                   Composition using algebra    Let and .                 If the video does not work, click here to watch on YouTube.                       Composition using algebra    Let and .             For any input     and functions     and   ,  this action defines a composite function, which we write as   such that   The domain of the composite function     is all     such that     is in the domain of     and     is in the domain of   .                  Composition using algebra    Let and .                            Composition using a table of values          1    2    3    4    5    6    7    8    9         6    1    5    1    1    9    9    7    7         1    5    1    6    7    9    2    1    1     Use the table to evaluate the expression,               Composition using a table of values          1    2    3    4    5    6    7    8    9         7    7    9    8    1    5    1    2    9         5    2    1    5    8    6    2    6    4     Use the table to evaluate the expression,               Composition using algebra    Let and . Match the functions obtained by composition with the letters labeling their algebraically equivalent expressions.  You must get all of the answers correct to receive credit.                                     Identifying functions in a composition    Express the function as a composition of two simpler functions and .  =  =    sqrt(u)    x^2+9        Identifying functions in a composition    Let .  Which of the following decompositions of into a pair of functions (the outside function) and (the inside function) is\/are correct ? Select all that apply if more than one is appropriate.    and    and    and    and    and    and    All of the above    None of the above     SOLUTION There is often many (even infinite) ways to decompose a given function into a suitable pair of inside and outside functions. In this case, the following decompositions work: The other choices do not work since: If and , then . if and , then . if and , then .       Composition using algebra    For the function and , find the following:  (a)  =  (b)  =  (c)  =  (d)  =  (e)  =                            (a)   (b)   (c)   (d)   (e)         Composition using graphs                  Use the figures above, which show the functions and , to find the following values. Note that you can find exact values.  1.  =  2.  =  3.  =                  1.  which is . 2.  which is . 3.  which is .        Calculus Practice   Chain rule    Given the following functions: and . Find:                                      Solution:                                    Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Find an equation of the tangent line to the curve at the following point:  .               Chain rule    Compute the derivative of the given function.   .        Solution: It may help to rewrite . Use the Chain Rule with inside function and outside function . A second application of Chain Rule is used to find .        Chain rule    Suppose . We can write , where  . The Leibnitz notation for the chain rule is . The factors are  (written as a function of ) and  . Now substitue in the function of for to get   (written as a function of ).                            Chain rule    Suppose , and let be a real number. Let and .  Find expressions for (a) and (b) .  (a)   (b)                   Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/min    Pa\/m    m\/min    b)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/min    Pa\/m    m\/min    c)   dP\/dt    ds\/dt    dP\/ds   =    m\/min    Pa\/m    Pa\/min                         Using chain rule and information    Find if , and the equation of the tangent line of at is .             Using chain rule and information    It is given to you that an equation of the tangent line to the graph of at is It follows that  is the equation of the tangent line to at  and that  is the equation of the tangent line to at .                  Chain rule from graph    Use the figures below to evaluate the indicated derivative, or state that it does not exist. If the derivative does not exist, enter dne in the answer blank. The graph to the left (in black) gives , while the graph to the right gives (which is constant for values of greater than 20).                  (If the derivative does not exist, enter dne .)        The chain rule gives         Chain rule from graph    Consider the graphs below, which give in the left graph, in black, and in the right graph, in blue. Both functions have a sharp corner at .                Let . Find a point where .          Since the chain rule gives we must find values and such that and .  Calculating slopes from the graph of gives for and for . Similarly calculating slopes from the graph of gives for and for .  The only values of the derivative are 1.4 and 0.1 and the only values of the derivative are -1.4 and 1.4. In order to have we must therefore have and . Thus and .  Now and from the graph of we see that for or . The two conditions on we have found are both satisfied when . Thus for all in the interval . The question asks for just one of these values (any will work).        Chain rule from a table of values    A table of values for and is given below:   (a) If , find .  (b) If , find .  (a)   (b)                   Chain rule from a table of values   Recall that the central difference is a way of approximating the value of the derivative at a specified number by calculating the slope of the line through the two points on either side of the specified number. That's what this problem is asking you to use along with the chain rule.     Use the table below to estimate the value of , where to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at , do the secant slopes on and , and then average them).                Multiple rules    Find if .               Multiple rules with a table    In the parts below, , , and their derivatives have values given in the table below                                            On your answer paper, write formulas for the following derivatives and then give their values at  (A) The sum    (B) The product    (C) The quotient    (D) The composition    (E) The logarithm   at is  (F) The exponential   at is                                      Multiple rules    Suppose If      and find  Answer:              Multiple rules    Compute the derivative of the given function.  .        Solution: Use the Product Rule.        Multiple rules    Find , given                "
+  "body": " The chain rule     Recognize the structure of functions composed with other functions and take the derivative of compositions using the Chain Rule.    Use a combination of basic derivative rules (including trigonometric and exponential), product and quotient rules, and chain rule to take the derivative of a complicated function.        Structure of functions: composition, product, quotient    All the derivative rules already covered: power, exponential, trigonometric, product and quotient rules.    What the derivative tells us about a function: the slope of the tangent line, the instantaneous rate of change.     Foundations  One of the most useful ways of constructing functions from other functions is composition : doing one function and then doing another function to the result. Rather than substituting a number in for the input of a function, we substitute a whole second function in for the input of a function.  We can use our knowledge of how to measure the rates of change of the constituent functions to calculate the rate of change of the more complicated function. We treat the inside or substituted function as if it were a single variable, take the derivative of the outer function with respect to that variable, and multiply by the derivative of the inside function.   The Chain Rule   chain rule If is differentiable at and is differentiable at , then the composite function defined by is differentiable at and .  Another formulation of this rule which says the same thing using different notation is .   Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)    If the video does not work, click here to watch on YouTube.                  Composition from a graph                      Use the graphs of and above to the find the function value.  (a)   (b)                   Composition using algebra    Let and .                 If the video does not work, click here to watch on YouTube.                       Composition using algebra    Let and .             For any input     and functions     and   ,  this action defines a composite function, which we write as   such that   The domain of the composite function     is all     such that     is in the domain of     and     is in the domain of   .                  Composition using algebra    Let and .                            Composition using a table of values          1    2    3    4    5    6    7    8    9         6    1    5    1    1    9    9    7    7         1    5    1    6    7    9    2    1    1     Use the table to evaluate the expression,               Composition using a table of values          1    2    3    4    5    6    7    8    9         7    7    9    8    1    5    1    2    9         5    2    1    5    8    6    2    6    4     Use the table to evaluate the expression,               Composition using algebra    Let and . Match the functions obtained by composition with the letters labeling their algebraically equivalent expressions.  You must get all of the answers correct to receive credit.                                     Identifying functions in a composition    Express the function as a composition of two simpler functions and .  =  =    sqrt(u)    x^2+9        Identifying functions in a composition    Let .  Which of the following decompositions of into a pair of functions (the outside function) and (the inside function) is\/are correct ? Select all that apply if more than one is appropriate.    and    and    and    and    and    and    All of the above    None of the above     SOLUTION There is often many (even infinite) ways to decompose a given function into a suitable pair of inside and outside functions. In this case, the following decompositions work: The other choices do not work since: If and , then . if and , then . if and , then .       Composition using algebra    For the function and , find the following:  (a)  =  (b)  =  (c)  =  (d)  =  (e)  =                            (a)   (b)   (c)   (d)   (e)         Composition using graphs                  Use the figures above, which show the functions and , to find the following values. Note that you can find exact values.  1.  =  2.  =  3.  =                  1.  which is . 2.  which is . 3.  which is .        Calculus Practice   Chain rule    Given the following functions: and . Find:                                      Solution:                                    Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Compute the derivative of the given function.   .        Solution: Use the Chain Rule with inside function and outside function .        Chain rule    Find an equation of the tangent line to the curve at the following point:  .               Chain rule    Compute the derivative of the given function.   .        Solution: It may help to rewrite . Use the Chain Rule with inside function and outside function . A second application of Chain Rule is used to find .        Chain rule    Suppose . We can write , where  . The Leibnitz notation for the chain rule is . The factors are  (written as a function of ) and  . Now substitue in the function of for to get   (written as a function of ).                            Chain rule    Suppose , and let be a real number. Let and .  Find expressions for (a) and (b) .  (a)   (b)                   Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   ds\/dt    dP\/ds    dP\/dt   =    Pa\/m    m\/min    Pa\/min    b)   dP\/dt    ds\/dt    dP\/ds   =    m\/min    Pa\/m    Pa\/min    c)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/m    m\/min    Pa\/min                         Using chain rule and information    Find if , and the equation of the tangent line of at is .             Using chain rule and information    It is given to you that an equation of the tangent line to the graph of at is It follows that  is the equation of the tangent line to at  and that  is the equation of the tangent line to at .                  Chain rule from graph    Use the figures below to evaluate the indicated derivative, or state that it does not exist. If the derivative does not exist, enter dne in the answer blank. The graph to the left (in black) gives , while the graph to the right gives (which is constant for values of greater than 20).                  (If the derivative does not exist, enter dne .)        The chain rule gives         Chain rule from graph    Consider the graphs below, which give in the left graph, in black, and in the right graph, in blue. Both functions have a sharp corner at .                Let . Find a point where .          Since the chain rule gives we must find values and such that and .  Calculating slopes from the graph of gives for and for . Similarly calculating slopes from the graph of gives for and for .  The only values of the derivative are 1.4 and 0.1 and the only values of the derivative are -1.4 and 1.4. In order to have we must therefore have and . Thus and .  Now and from the graph of we see that for or . The two conditions on we have found are both satisfied when . Thus for all in the interval . The question asks for just one of these values (any will work).        Chain rule from a table of values    A table of values for and is given below:   (a) If , find .  (b) If , find .  (a)   (b)                   Chain rule from a table of values   Recall that the central difference is a way of approximating the value of the derivative at a specified number by calculating the slope of the line through the two points on either side of the specified number. That's what this problem is asking you to use along with the chain rule.     Use the table below to estimate the value of , where to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at , do the secant slopes on and , and then average them).                Multiple rules    Find if .               Multiple rules with a table    In the parts below, , , and their derivatives have values given in the table below                                            On your answer paper, write formulas for the following derivatives and then give their values at  (A) The sum    (B) The product    (C) The quotient    (D) The composition    (E) The logarithm   at is  (F) The exponential   at is                                      Multiple rules    Suppose If      and find  Answer:              Multiple rules    Compute the derivative of the given function.  .        Solution: Use the Product Rule.        Multiple rules    Find , given                "
 },
 {
   "id": "sec-2-5-chain-2",
@@ -1591,7 +1591,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.5.2.8",
   "title": "Chain rule.",
-  "body": "Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/min    Pa\/m    m\/min    b)   dP\/dt    dP\/ds    ds\/dt   =    Pa\/min    Pa\/m    m\/min    c)   dP\/dt    ds\/dt    dP\/ds   =    m\/min    Pa\/m    Pa\/min                        "
+  "body": "Chain rule    a) The remote operated underwater vessel ROPOS descends at a rate of meters per minute.  b) The pressure on ROPOS increases by Pascals for every meter ROPOS descends.  c) Therefore the pressure on ROPOS is increasing by Pascals every minute.  If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:  a)   ds\/dt    dP\/ds    dP\/dt   =    Pa\/m    m\/min    Pa\/min    b)   dP\/dt    ds\/dt    dP\/ds   =    m\/min    Pa\/m    Pa\/min    c)   dP\/ds    ds\/dt    dP\/dt   =    Pa\/m    m\/min    Pa\/min                        "
 },
 {
   "id": "chainrule-solvingpieces-1",
@@ -2320,7 +2320,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Using derivatives to identify extreme values",
-  "body": " Using derivatives to identify extreme values    Foundations  Coming soon.    Calculus Practice     List the critical numbers of the following function separating the values by commas.                 Find all critical points of the function          Solution: Let . Then . Since is differentiable everywhere, the critical points are the solutions of . Then , implies or , and is the lone critical point of .          Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Increasing    Decreasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M              Find all critical numbers of the polynomial and then list them (separated by commas) in the box below. If there are no critical numbers, enter None .  List of critical numbers:                List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           Find the critical numbers of the function  Answer (separate by commas):                 List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           The function has a continuous second derivative, and it satisfies , and .  We can conclude that   has a local minimum at 5.    has neither a local maximum nor a local minimum at 5.    has a local maximum at 5.    We cannot determine if A, B, or C hold without more information.             Consider the function .  For this function there are three important intervals: , , and where and are the critical numbers.  Find   and   For each of the following intervals, tell whether is increasing (type in INC) or decreasing (type in DEC).  :  :                                      Thus has a local at (type in MAX or MIN).         -    +    MIN           Thus we conclude that has a local at (type in MAX or MIN).              +    -    MAX           Thus has a local at (type in MAX or MIN)  and a local at (type in MAX or MIN).                        MIN    MAX           Thus we conclude that has a local at (type in MAX or MIN).              MAX           For the function , find all intervals where the function is increasing: is increasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Similarly, find all intervals where the function is decreasing: is decreasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Finally, find all critical points in the graph of  critical points:   (Enter your -values as a comma-separated list, or  none  if there are no critical points.)                  and ; critical points are where . Here , so is increasing on and decreasing on . Critical points are and .          Find and classify the critical points of as local maxima and minima.  Critical points:   Classifications:  (Enter your critical points and classifications as comma-separated lists, and enter the types in the same order as your critical points. Note that you must enter something in both blanks for either to be evaluated. For the types, enter min , max , or neither .             . Critical points are where this is zero, or, where . So critical points are , and . Because 4, the multiplicity of the root , is even, the derivative does not change sign at . Checking points on either side of the other two critical points shows that is a local minimum ( changes from negative to positive) and is a local maximum.          The rabbit population on a small island is observed to be given by the function   where is the time (in months) since observations of the island began.   Note: you can get a larger view of the graph by clicking on it  (a) The maximum population attained at   months.  The maximum population is   rabbits.  (b) When does the rabbit population disappear from the island?   months                        "
+  "body": " Using derivatives to identify extreme values    Foundations  Coming soon.    Calculus Practice     List the critical numbers of the following function separating the values by commas.                 Find all critical points of the function          Solution: Let . Then . Since is differentiable everywhere, the critical points are the solutions of . Then , implies or , and is the lone critical point of .          Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Decreasing    Increasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M              Find all critical numbers of the polynomial and then list them (separated by commas) in the box below. If there are no critical numbers, enter None .  List of critical numbers:                List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           Find the critical numbers of the function  Answer (separate by commas):                 List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.                           The function has a continuous second derivative, and it satisfies , and .  We can conclude that   has a local minimum at 5.    has neither a local maximum nor a local minimum at 5.    has a local maximum at 5.    We cannot determine if A, B, or C hold without more information.             Consider the function .  For this function there are three important intervals: , , and where and are the critical numbers.  Find   and   For each of the following intervals, tell whether is increasing (type in INC) or decreasing (type in DEC).  :  :                                      Thus has a local at (type in MAX or MIN).         -    +    MIN           Thus we conclude that has a local at (type in MAX or MIN).              +    -    MAX           Thus has a local at (type in MAX or MIN)  and a local at (type in MAX or MIN).                        MIN    MAX           Thus we conclude that has a local at (type in MAX or MIN).              MAX           For the function , find all intervals where the function is increasing: is increasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Similarly, find all intervals where the function is decreasing: is decreasing on  (Give your answer as an interval or a list of intervals, e.g.,  (-infinity,8]  or  (1,5),(7,10)  .)  Finally, find all critical points in the graph of  critical points:   (Enter your -values as a comma-separated list, or  none  if there are no critical points.)                  and ; critical points are where . Here , so is increasing on and decreasing on . Critical points are and .          Find and classify the critical points of as local maxima and minima.  Critical points:   Classifications:  (Enter your critical points and classifications as comma-separated lists, and enter the types in the same order as your critical points. Note that you must enter something in both blanks for either to be evaluated. For the types, enter min , max , or neither .             . Critical points are where this is zero, or, where . So critical points are , and . Because 4, the multiplicity of the root , is even, the derivative does not change sign at . Checking points on either side of the other two critical points shows that is a local minimum ( changes from negative to positive) and is a local maximum.          The rabbit population on a small island is observed to be given by the function   where is the time (in months) since observations of the island began.   Note: you can get a larger view of the graph by clicking on it  (a) The maximum population attained at   months.  The maximum population is   rabbits.  (b) When does the rabbit population disappear from the island?   months                        "
 },
 {
   "id": "tests-cps-quadratic-1",
@@ -2347,7 +2347,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.3",
   "title": "",
-  "body": "   Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Increasing    Decreasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M          "
+  "body": "   Find the critical point and determine if the function is increasing or decreasing on the given intervals.   Critical point:   The function is:    Decreasing    Increasing   on .    Decreasing    Increasing   on .        Solution: Let . Then yields the critical point . As shown in the following table, the critical point is a local maximum.   x   3      +  0  -      M          "
 },
 {
   "id": "tests-cps-cubic-1",
@@ -2842,7 +2842,142 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.2",
   "title": "Riemann sums",
-  "body": " Riemann sums    Foundations  Coming soon.    Calculus Practice   Coming soon.    "
+  "body": " Riemann sums     Become familiar with sigma notation for adding a list of terms sharing a common pattern.    Formalize the rectangle approximations of area between a given curve and the horizontal axis over a particular interval using Riemann sums .    Calculate left, right, and middle Riemann sums, in expanded form and in sigma notation.      Foundations  Coming soon.    Calculus Practice  The meaning of sigma notation    Let denote the time it took Tejay van Garderen to ride the j-th stage of the Tour de France in 2013. If there was a total of 21 stages, interpret .  represents  the average time it took 8 cyclists to ride each stage.   the time to ride the first 8 stages.   the average distance rode afters 8 stages.              Calculating a sum given in sigma notation    For the following, write out each term of the summation in the boxes provided. Then compute the sum.  a) =        b) =                                                                      Solution: a) Write out the terms for each value of from 3 to 5, then add the terms. The sum is: b) Write out the terms for each value of from -2 to 3, then add the terms. The sum is:        Calculating more sums given in sigma notation    For the following, write out each term of the summation in the boxes provided. Then compute the sum.  a) =            b) =              c) =                                                                                                     Solution: a) Write out the terms for each value of from 1 to 5, then add the terms. The sum is: . b) Write out the terms for each value of from 1 to 6, then add the terms. The sum is: c) Write out the terms for each value of from 1 to 6, then add the terms. Note, the sum telescopes , which may save you some work when computing the sum.         Writing an expanded sum using sigma notation    Write the sum in summation notation, using the given lower bound.   ,             Solution: Each term is         Writing an expanded sum using sigma notation    Write the sum in summation notation, using the given lower bound.   ,             Solution:            Connecting left, right, or middle Riemann sums with area    The 5 rectangles in the graph below illustrate a   midpoint    left endpoint    right endpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Left endpoint Riemann sum for on          Solution: This is a midpoint Riemann sum. Its value is:          Connecting left, right, or middle Riemann sums with area    a) The rectangles in the graph below illustrate a   right endpoint    left endpoint    midpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Left endpoint Riemann sum for on    b) The rectangles in the graph below illustrate a   right endpoint    left endpoint    midpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Right endpoint Riemann sum for on               Solution: a) This is a left endpoint Riemann sum. Its value is:  b) This is a right endpoint Riemann sum. Its value is:         Calculating Riemann sums and interpreting    Your task is to estimate how far an object traveled during the time interval , but you only have the following data about the velocity of the object.    time (sec)  0  1  2  3  4  5  6  7  8    velocity (feet\/sec)  -3  -4  -1  2  4  3  2  3  1    To get an idea of what the velocity function might look like, you pick up a black pen, plot the data points, and connect them by curves. Your sketch looks something like the black curve in the graph below.         Left endpoint approximation    You decide to use a left endpoint Riemann sum to estimate the total displacement. So, you pick up a blue pen and draw rectangles whose height is determined by the velocity measurement at the left endpoint of each one-second interval. By using the left endpoint Riemann sum as an approximation, you are assuming that the actual velocity is approximately constant on each one-second interval (or, equivalently, that the actual acceleration is approximately zero on each one-second interval), and that the velocity and acceleration have discontinuous jumps every second. This assumption is probably incorrect because it is likely that the velocity and acceleration change continuously over time. However, you decide to use this approximation anyway since it seems like a reasonable approximation to the actual velocity given the limited amount of data.  (A) Using the left endpoint Riemann sum, find approximately how far the object traveled. Your answers must include the correct .  Total displacement =  Total distance traveled =  Using the same data, you also decide to estimate how far the object traveled using a right endpoint Riemann sum. So, you sketch the curve again with a black pen, and draw rectangles whose height is determined by the velocity measurement at the right endpoint of each one-second interval.         Right endpoint approximation    (B) Using the right endpoint Riemann sum, find approximately how far the object traveled. Your answers must include the correct .  Total displacement =  Total distance traveled =                       Solution: Using the left endpoint Riemann sum, the total displacement is the net area of the light blue shaded rectangles, and the total distance is the absolute area of the light blue shaded rectangles. Total displacement = feet. Total distance = feet. We can also make similar calculations using the right endpoint Riemann sum. Total displacement = feet. Total distance = feet.       Calculating Riemann sums    Estimate the area under the graph of from to using approximating rectangles and left endpoints.  Approximation =             Calculating Riemann sums    Given the function , compute the left-endpoint (Riemann) sum using on the interval .    Left-Endpoint Approximation (Left Riemann Sum):  To use a left-endpoint approximation to estimate the area under a curve on an interval with `n` subintervals, we need to first identify a regular partition of the interval.  With we can create a regular partition of subintervals of the form where and .  Then, construct a rectangle on each subinterval , where the height of the rectangle is determined by the function value at the left endpoint of the subinterval. Then, the area of each rectangle is and the approximation for the area, `A`, is given by              Calculating Riemann sums    Racing cars driven by Chris and Kelly are side by side at the start of a race. The table shows the velocities of each car (in miles per hour) during the first ten seconds of the race.   Use the Midpoint Rule (with ) to estimate how much farther (in feet) Kelly travels than Chris does during the first ten seconds.  feet             Calculating Riemann sums      (A) Estimate the area under the graph of  from to using 6 approximating rectangles and right endpoints.  Estimate =  (B) Repeat part (A) using left endpoints.  Estimate =                  Calculating a Riemann sum for arbitrary    Definition: The area of the region that lies under the graph of the continuous function is the limit of the sum of the areas of approximating rectangles  (a) Use the above definition to determine which of the following expressions represents the area under the graph of from to .               (b) Evaluate the limit that is the correct answer to part (a). You may find the following formula for the sum of cubes helpful:  The value of the limit is .    D        Calculating a Riemann sum for arbitrary    In this problem you will calculate the area between and the -axis over the interval using a limit of right-endpoint Riemann sums:   Express the following quantities in terms of , the number of rectangles in the Riemann sum, and , the index for the rectangles in the Riemann sum.   We start by subdividing into equal width subintervals each of width . Express the width of each subinterval in terms of the number of subintervals .     Find the right endpoints of the first, second, and third subintervals and express your answers in terms of .   (Enter a comma separated list.)   Find a general expression for the right endpoint of the th subinterval , where . Express your answer in terms of and .     Find in terms of and .     Find in terms of and .     Find the value of the right-endpoint Riemann sum in terms of .     Find the limit of the right-endpoint Riemann sum.                                               "
+},
+{
+  "id": "sec-4-2-Riemann-2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sec-4-2-Riemann-2",
+  "type": "Calculus Objectives",
+  "number": "4.2",
+  "title": "",
+  "body": "   Become familiar with sigma notation for adding a list of terms sharing a common pattern.    Formalize the rectangle approximations of area between a given curve and the horizontal axis over a particular interval using Riemann sums .    Calculate left, right, and middle Riemann sums, in expanded form and in sigma notation.    "
+},
+{
+  "id": "sigma-notation-meaning",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sigma-notation-meaning",
+  "type": "Exercise",
+  "number": "4.2.2.1",
+  "title": "The meaning of sigma notation.",
+  "body": "The meaning of sigma notation    Let denote the time it took Tejay van Garderen to ride the j-th stage of the Tour de France in 2013. If there was a total of 21 stages, interpret .  represents  the average time it took 8 cyclists to ride each stage.   the time to ride the first 8 stages.   the average distance rode afters 8 stages.             "
+},
+{
+  "id": "sigma-notation-calculation1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sigma-notation-calculation1",
+  "type": "Exercise",
+  "number": "4.2.2.2",
+  "title": "Calculating a sum given in sigma notation.",
+  "body": "Calculating a sum given in sigma notation    For the following, write out each term of the summation in the boxes provided. Then compute the sum.  a) =        b) =                                                                      Solution: a) Write out the terms for each value of from 3 to 5, then add the terms. The sum is: b) Write out the terms for each value of from -2 to 3, then add the terms. The sum is:       "
+},
+{
+  "id": "sigma-notation-calculation2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sigma-notation-calculation2",
+  "type": "Exercise",
+  "number": "4.2.2.3",
+  "title": "Calculating more sums given in sigma notation.",
+  "body": "Calculating more sums given in sigma notation    For the following, write out each term of the summation in the boxes provided. Then compute the sum.  a) =            b) =              c) =                                                                                                     Solution: a) Write out the terms for each value of from 1 to 5, then add the terms. The sum is: . b) Write out the terms for each value of from 1 to 6, then add the terms. The sum is: c) Write out the terms for each value of from 1 to 6, then add the terms. Note, the sum telescopes , which may save you some work when computing the sum.        "
+},
+{
+  "id": "sigma-notation-writingsum1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sigma-notation-writingsum1",
+  "type": "Exercise",
+  "number": "4.2.2.4",
+  "title": "Writing an expanded sum using sigma notation.",
+  "body": "Writing an expanded sum using sigma notation    Write the sum in summation notation, using the given lower bound.   ,             Solution: Each term is        "
+},
+{
+  "id": "sigma-notation-writingsum2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#sigma-notation-writingsum2",
+  "type": "Exercise",
+  "number": "4.2.2.5",
+  "title": "Writing an expanded sum using sigma notation.",
+  "body": "Writing an expanded sum using sigma notation    Write the sum in summation notation, using the given lower bound.   ,             Solution:         "
+},
+{
+  "id": "riemannsums-area-meaning1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-area-meaning1",
+  "type": "Exercise",
+  "number": "4.2.2.6",
+  "title": "Connecting left, right, or middle Riemann sums with area.",
+  "body": "Connecting left, right, or middle Riemann sums with area    The 5 rectangles in the graph below illustrate a   midpoint    left endpoint    right endpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Left endpoint Riemann sum for on          Solution: This is a midpoint Riemann sum. Its value is:         "
+},
+{
+  "id": "riemannsums-area-meaning2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-area-meaning2",
+  "type": "Exercise",
+  "number": "4.2.2.7",
+  "title": "Connecting left, right, or middle Riemann sums with area.",
+  "body": "Connecting left, right, or middle Riemann sums with area    a) The rectangles in the graph below illustrate a   right endpoint    left endpoint    midpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Left endpoint Riemann sum for on    b) The rectangles in the graph below illustrate a   right endpoint    left endpoint    midpoint   Riemann sum for on the interval .  The value of this Riemann sum is .         Right endpoint Riemann sum for on               Solution: a) This is a left endpoint Riemann sum. Its value is:  b) This is a right endpoint Riemann sum. Its value is:        "
+},
+{
+  "id": "riemannsums-area-velocity",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-area-velocity",
+  "type": "Exercise",
+  "number": "4.2.2.8",
+  "title": "Calculating Riemann sums and interpreting.",
+  "body": "Calculating Riemann sums and interpreting    Your task is to estimate how far an object traveled during the time interval , but you only have the following data about the velocity of the object.    time (sec)  0  1  2  3  4  5  6  7  8    velocity (feet\/sec)  -3  -4  -1  2  4  3  2  3  1    To get an idea of what the velocity function might look like, you pick up a black pen, plot the data points, and connect them by curves. Your sketch looks something like the black curve in the graph below.         Left endpoint approximation    You decide to use a left endpoint Riemann sum to estimate the total displacement. So, you pick up a blue pen and draw rectangles whose height is determined by the velocity measurement at the left endpoint of each one-second interval. By using the left endpoint Riemann sum as an approximation, you are assuming that the actual velocity is approximately constant on each one-second interval (or, equivalently, that the actual acceleration is approximately zero on each one-second interval), and that the velocity and acceleration have discontinuous jumps every second. This assumption is probably incorrect because it is likely that the velocity and acceleration change continuously over time. However, you decide to use this approximation anyway since it seems like a reasonable approximation to the actual velocity given the limited amount of data.  (A) Using the left endpoint Riemann sum, find approximately how far the object traveled. Your answers must include the correct .  Total displacement =  Total distance traveled =  Using the same data, you also decide to estimate how far the object traveled using a right endpoint Riemann sum. So, you sketch the curve again with a black pen, and draw rectangles whose height is determined by the velocity measurement at the right endpoint of each one-second interval.         Right endpoint approximation    (B) Using the right endpoint Riemann sum, find approximately how far the object traveled. Your answers must include the correct .  Total displacement =  Total distance traveled =                       Solution: Using the left endpoint Riemann sum, the total displacement is the net area of the light blue shaded rectangles, and the total distance is the absolute area of the light blue shaded rectangles. Total displacement = feet. Total distance = feet. We can also make similar calculations using the right endpoint Riemann sum. Total displacement = feet. Total distance = feet.      "
+},
+{
+  "id": "riemannsums-area1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-area1",
+  "type": "Exercise",
+  "number": "4.2.2.9",
+  "title": "Calculating Riemann sums.",
+  "body": "Calculating Riemann sums    Estimate the area under the graph of from to using approximating rectangles and left endpoints.  Approximation =            "
+},
+{
+  "id": "riemannsums-area2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-area2",
+  "type": "Exercise",
+  "number": "4.2.2.10",
+  "title": "Calculating Riemann sums.",
+  "body": "Calculating Riemann sums    Given the function , compute the left-endpoint (Riemann) sum using on the interval .    Left-Endpoint Approximation (Left Riemann Sum):  To use a left-endpoint approximation to estimate the area under a curve on an interval with `n` subintervals, we need to first identify a regular partition of the interval.  With we can create a regular partition of subintervals of the form where and .  Then, construct a rectangle on each subinterval , where the height of the rectangle is determined by the function value at the left endpoint of the subinterval. Then, the area of each rectangle is and the approximation for the area, `A`, is given by             "
+},
+{
+  "id": "riemannsums-calculating1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-calculating1",
+  "type": "Exercise",
+  "number": "4.2.2.11",
+  "title": "Calculating Riemann sums.",
+  "body": "Calculating Riemann sums    Racing cars driven by Chris and Kelly are side by side at the start of a race. The table shows the velocities of each car (in miles per hour) during the first ten seconds of the race.   Use the Midpoint Rule (with ) to estimate how much farther (in feet) Kelly travels than Chris does during the first ten seconds.  feet            "
+},
+{
+  "id": "riemannsums-calculating2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-calculating2",
+  "type": "Exercise",
+  "number": "4.2.2.12",
+  "title": "Calculating Riemann sums.",
+  "body": "Calculating Riemann sums      (A) Estimate the area under the graph of  from to using 6 approximating rectangles and right endpoints.  Estimate =  (B) Repeat part (A) using left endpoints.  Estimate =                 "
+},
+{
+  "id": "riemannsums-general-limit1",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-general-limit1",
+  "type": "Exercise",
+  "number": "4.2.2.13",
+  "title": "Calculating a Riemann sum for arbitrary <span class=\"process-math\">\\(n\\)<\/span>.",
+  "body": "Calculating a Riemann sum for arbitrary    Definition: The area of the region that lies under the graph of the continuous function is the limit of the sum of the areas of approximating rectangles  (a) Use the above definition to determine which of the following expressions represents the area under the graph of from to .               (b) Evaluate the limit that is the correct answer to part (a). You may find the following formula for the sum of cubes helpful:  The value of the limit is .    D       "
+},
+{
+  "id": "riemannsums-general-limit2",
+  "level": "2",
+  "url": "sec-4-2-Riemann.html#riemannsums-general-limit2",
+  "type": "Exercise",
+  "number": "4.2.2.14",
+  "title": "Calculating a Riemann sum for arbitrary <span class=\"process-math\">\\(n\\)<\/span>.",
+  "body": "Calculating a Riemann sum for arbitrary    In this problem you will calculate the area between and the -axis over the interval using a limit of right-endpoint Riemann sums:   Express the following quantities in terms of , the number of rectangles in the Riemann sum, and , the index for the rectangles in the Riemann sum.   We start by subdividing into equal width subintervals each of width . Express the width of each subinterval in terms of the number of subintervals .     Find the right endpoints of the first, second, and third subintervals and express your answers in terms of .   (Enter a comma separated list.)   Find a general expression for the right endpoint of the th subinterval , where . Express your answer in terms of and .     Find in terms of and .     Find in terms of and .     Find the value of the right-endpoint Riemann sum in terms of .     Find the limit of the right-endpoint Riemann sum.                                             "
 },
 {
   "id": "sec-4-3-definite-integral",
@@ -2851,7 +2986,205 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.3",
   "title": "The definite integral",
-  "body": " The definite integral    Foundations  Coming soon.    Calculus Practice   Coming soon.    "
+  "body": " The definite integral      Understand the definite integral as the exact net-signed area between a function and the axis, and be able to use known area formulas to calculate .    Be able to use known properties of the definite integral that arise from the fact that the definite integral measures the exact net-signed area.      Foundations  Coming soon.    Calculus Practice   Using areas to calculate the definite integral    Evaluate the integral of the function graphed using the formula for areas of triangles.      Use the graph given and break it up into multiple triangles to find the area of each triangle. Then combine those areas appropriately to find the definite integral in question.             Using areas to calculate the definite integral    Evaluate the integral below by interpreting it in terms of areas. In other words, draw a picture of the region the integral represents, and find the area using high school geometry.               Using areas to calculate the definite integral     A graph of is shown above. Using the geometry of the graph, evaluate the definite integrals.  a) =  b) =  c) =  d) =                       Solution: Find the signed area, using the graph. a) Between and , find the area of the quarter-circle with radius . b) Between and , the area under the graph is again a quarter circle of radius , so c) This is the area of the semi-circle: d) Pull out the constant multiple.        Using areas to calculate the definite integral and average value    Suppose  (a) Evaluate the definite integral by interpreting it in terms of signed area.    Suggestion: Draw a picture of the region whose signed area is represented by the integral. Then find the signed area using formulas from high school geometry.  (b) Find the average value of over the interval .  Average value =                  Using areas to calculate the definite integral      Suppose the region on the left in the figure (with blue shading) has area is 33, and the region on the right (with green shading) has area 3. Using the graph of in the figure, find the following integrals.           Graph of                         and the -axis, with area below the axis being counted as negative area. Therefore , , , and .       Using areas to calculate the definite integral    Consider the graph of the function :   Evaluate the following integrals by interpreting them in terms of areas:  (a)   (b)   (c)   (d)                             Using areas to calculate the definite integral    The graph of is shown below. Evaluate each integral by interpreting it in terms of areas.   1.    2.    3.    4.    Note:  You can click on the graph to enlarge the image.                            Using areas to calculate the definite integral    The graph of is shown below. Evaluate each integral by interpreting it in terms of areas.   1.    2.    3.    Note:  You can click on the graph to enlarge the image.                       Using areas to calculate the definite integral     PTX:ERROR: WeBWorK problem Library\/Valdosta\/APEX_Calculus\/5.2\/APEX_5.2_10.pg with seed 305 does not return valid XML It may not be PTX compatible Use -a to halt with returned content      Using properties of the definite integral    Suppose  ,  .  Compute the following integrals.  (a)  (b)  (c)                       Using properties of the definite integral    If , then              Using properties of the definite integral      where  and  .             First recall that and therefore we can rearrange it to look like this:  Applying that in this specific context, we find: Thus we find and .        Using properties of the definite integral    The sum can be written as a single integral in the form Determine and .                      Using properties of the definite integral    If , and find the following integrals.  1.    2.                    Using properties of the definite integral     PTX:ERROR: WeBWorK problem Library\/Valdosta\/APEX_Calculus\/5.2\/APEX_5.2_18-21.pg with seed 311 does not return valid XML It may not be PTX compatible Use -a to halt with returned content      Approximating the average value of a continuous function    The table gives the values of a continuous function .   Use the Midpoint Rule to estimate the average value of on [20, 50].  Midpoint Rule estimate =             Meaning of the definite integral     PTX:ERROR: WeBWorK problem Library\/UMN\/calculusStewartCCC\/s_5_2_47.pg with seed 313 does not return valid XML It may not be PTX compatible Use -a to halt with returned content      Meaning of the definite integral    If is the slope of a trail at a distance miles from the start of the trail, what does represent?    The length of the trail between mi and mi from the start of the trail.    The change in elevation between mi and mi from the start of the trail.    The length of the first 3 miles of the trail.    The change in elevation over the first three miles of the trail.          Meaning of the definite integral    Oil leaks out of a tanker at a rate of liters per minute, where is in minutes. If , write a definite integral expressing the total quantity of oil which leaks out of the tanker in the first hour.  total quantity =  , where  and  .  What are the units of this integral?                   No correct answer specified   , consider the interval . During this interval, oil is leaking out at an approximately constant rate of liters\/minute. Thus, the amount of oil which has leaked out during this interval can be expressed as and the units of are (liters\/minute) minutes liters. The total amount of oil leaked is obtained by adding all these amounts between and . (An hour is 60 minutes.) The sum of all these infinitesimal amounts is the integral        Meaning of the definite integral     PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap5Sec4\/Q31.pg with seed 316 does not return valid XML It may not be PTX compatible Use -a to halt with returned content      Meaning of the definite integral    Let be a linear function such that and .  a. The -intercept of is .  b. The -intercept of is .                   "
+},
+{
+  "id": "sec-4-3-definite-integral-2",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#sec-4-3-definite-integral-2",
+  "type": "Calculus Objectives",
+  "number": "4.3",
+  "title": "",
+  "body": "    Understand the definite integral as the exact net-signed area between a function and the axis, and be able to use known area formulas to calculate .    Be able to use known properties of the definite integral that arise from the fact that the definite integral measures the exact net-signed area.    "
+},
+{
+  "id": "def-int-areas-1",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-1",
+  "type": "Exercise",
+  "number": "4.3.2.1",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral    Evaluate the integral of the function graphed using the formula for areas of triangles.      Use the graph given and break it up into multiple triangles to find the area of each triangle. Then combine those areas appropriately to find the definite integral in question.            "
+},
+{
+  "id": "def-int-areas-2",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-2",
+  "type": "Exercise",
+  "number": "4.3.2.2",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral    Evaluate the integral below by interpreting it in terms of areas. In other words, draw a picture of the region the integral represents, and find the area using high school geometry.              "
+},
+{
+  "id": "def-int-areas-3",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-3",
+  "type": "Exercise",
+  "number": "4.3.2.3",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral     A graph of is shown above. Using the geometry of the graph, evaluate the definite integrals.  a) =  b) =  c) =  d) =                       Solution: Find the signed area, using the graph. a) Between and , find the area of the quarter-circle with radius . b) Between and , the area under the graph is again a quarter circle of radius , so c) This is the area of the semi-circle: d) Pull out the constant multiple.       "
+},
+{
+  "id": "def-int-areas-4",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-4",
+  "type": "Exercise",
+  "number": "4.3.2.4",
+  "title": "Using areas to calculate the definite integral and average value.",
+  "body": "Using areas to calculate the definite integral and average value    Suppose  (a) Evaluate the definite integral by interpreting it in terms of signed area.    Suggestion: Draw a picture of the region whose signed area is represented by the integral. Then find the signed area using formulas from high school geometry.  (b) Find the average value of over the interval .  Average value =                 "
+},
+{
+  "id": "def-int-areas-5",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-5",
+  "type": "Exercise",
+  "number": "4.3.2.5",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral      Suppose the region on the left in the figure (with blue shading) has area is 33, and the region on the right (with green shading) has area 3. Using the graph of in the figure, find the following integrals.           Graph of                         and the -axis, with area below the axis being counted as negative area. Therefore , , , and .      "
+},
+{
+  "id": "def-int-areas-6",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-6",
+  "type": "Exercise",
+  "number": "4.3.2.6",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral    Consider the graph of the function :   Evaluate the following integrals by interpreting them in terms of areas:  (a)   (b)   (c)   (d)                            "
+},
+{
+  "id": "def-int-areas-7",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-7",
+  "type": "Exercise",
+  "number": "4.3.2.7",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral    The graph of is shown below. Evaluate each integral by interpreting it in terms of areas.   1.    2.    3.    4.    Note:  You can click on the graph to enlarge the image.                           "
+},
+{
+  "id": "def-int-areas-8",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-8",
+  "type": "Exercise",
+  "number": "4.3.2.8",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral    The graph of is shown below. Evaluate each integral by interpreting it in terms of areas.   1.    2.    3.    Note:  You can click on the graph to enlarge the image.                      "
+},
+{
+  "id": "def-int-areas-9",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-areas-9",
+  "type": "Exercise",
+  "number": "4.3.2.9",
+  "title": "Using areas to calculate the definite integral.",
+  "body": "Using areas to calculate the definite integral     PTX:ERROR: WeBWorK problem Library\/Valdosta\/APEX_Calculus\/5.2\/APEX_5.2_10.pg with seed 305 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "def-int-properties-1",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-1",
+  "type": "Exercise",
+  "number": "4.3.2.10",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral    Suppose  ,  .  Compute the following integrals.  (a)  (b)  (c)                      "
+},
+{
+  "id": "def-int-properties-2",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-2",
+  "type": "Exercise",
+  "number": "4.3.2.11",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral    If , then             "
+},
+{
+  "id": "def-int-properties-3",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-3",
+  "type": "Exercise",
+  "number": "4.3.2.12",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral      where  and  .             First recall that and therefore we can rearrange it to look like this:  Applying that in this specific context, we find: Thus we find and .       "
+},
+{
+  "id": "def-int-properties-4",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-4",
+  "type": "Exercise",
+  "number": "4.3.2.13",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral    The sum can be written as a single integral in the form Determine and .                     "
+},
+{
+  "id": "def-int-properties-5",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-5",
+  "type": "Exercise",
+  "number": "4.3.2.14",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral    If , and find the following integrals.  1.    2.                   "
+},
+{
+  "id": "def-int-properties-6",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-properties-6",
+  "type": "Exercise",
+  "number": "4.3.2.15",
+  "title": "Using properties of the definite integral.",
+  "body": "Using properties of the definite integral     PTX:ERROR: WeBWorK problem Library\/Valdosta\/APEX_Calculus\/5.2\/APEX_5.2_18-21.pg with seed 311 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "def-int-average-value",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-average-value",
+  "type": "Exercise",
+  "number": "4.3.2.16",
+  "title": "Approximating the average value of a continuous function.",
+  "body": "Approximating the average value of a continuous function    The table gives the values of a continuous function .   Use the Midpoint Rule to estimate the average value of on [20, 50].  Midpoint Rule estimate =            "
+},
+{
+  "id": "def-int-meaning-1",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-meaning-1",
+  "type": "Exercise",
+  "number": "4.3.2.17",
+  "title": "Meaning of the definite integral.",
+  "body": "Meaning of the definite integral     PTX:ERROR: WeBWorK problem Library\/UMN\/calculusStewartCCC\/s_5_2_47.pg with seed 313 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "def-int-meaning-2",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-meaning-2",
+  "type": "Exercise",
+  "number": "4.3.2.18",
+  "title": "Meaning of the definite integral.",
+  "body": "Meaning of the definite integral    If is the slope of a trail at a distance miles from the start of the trail, what does represent?    The length of the trail between mi and mi from the start of the trail.    The change in elevation between mi and mi from the start of the trail.    The length of the first 3 miles of the trail.    The change in elevation over the first three miles of the trail.         "
+},
+{
+  "id": "def-int-meaning-3",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-meaning-3",
+  "type": "Exercise",
+  "number": "4.3.2.19",
+  "title": "Meaning of the definite integral.",
+  "body": "Meaning of the definite integral    Oil leaks out of a tanker at a rate of liters per minute, where is in minutes. If , write a definite integral expressing the total quantity of oil which leaks out of the tanker in the first hour.  total quantity =  , where  and  .  What are the units of this integral?                   No correct answer specified   , consider the interval . During this interval, oil is leaking out at an approximately constant rate of liters\/minute. Thus, the amount of oil which has leaked out during this interval can be expressed as and the units of are (liters\/minute) minutes liters. The total amount of oil leaked is obtained by adding all these amounts between and . (An hour is 60 minutes.) The sum of all these infinitesimal amounts is the integral       "
+},
+{
+  "id": "def-int-meaning-4",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-meaning-4",
+  "type": "Exercise",
+  "number": "4.3.2.20",
+  "title": "Meaning of the definite integral.",
+  "body": "Meaning of the definite integral     PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap5Sec4\/Q31.pg with seed 316 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "def-int-meaning-5",
+  "level": "2",
+  "url": "sec-4-3-definite-integral.html#def-int-meaning-5",
+  "type": "Exercise",
+  "number": "4.3.2.21",
+  "title": "Meaning of the definite integral.",
+  "body": "Meaning of the definite integral    Let be a linear function such that and .  a. The -intercept of is .  b. The -intercept of is .                 "
 },
 {
   "id": "sec-4-4-FTC",
@@ -2860,7 +3193,160 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.4",
   "title": "The Fundamental Theorem of Calculus",
-  "body": " The Fundamental Theorem of Calculus    Foundations  Coming soon.    Calculus Practice   Coming soon.    "
+  "body": " The Fundamental Theorem of Calculus    Foundations  Coming soon.    Calculus Practice     For the function , let . Write the integral and evaluate it with the Fundamental Theorem of Calculus.      (Note that your answer must be exact, not a decimal approximation.)             , so the integral we want is . We can evaluate this with the Fundamental Theorem of Calculus, and have .           PTX:ERROR: WeBWorK problem Library\/UCSB\/Stewart5_5_3\/Stewart5_5_3_21.pg with seed 319 does not return valid XML It may not be PTX compatible Use -a to halt with returned content         Find an antiderivative of          . Then , so must have the form (or this, plus any constant).           PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap6Sec2\/Q21.pg with seed 321 does not return valid XML It may not be PTX compatible Use -a to halt with returned content         Let .  Enter an antiderivative of                Evaluate the definite integral by interpreting it in terms of areas.                  PTX:ERROR: WeBWorK problem Library\/Rochester\/setIntegrals3Definite\/s4_4_20_mo.pg with seed 324 does not return valid XML It may not be PTX compatible Use -a to halt with returned content           The value of is        :           Find area of the region under the curve and above the -axis, for .  area =         (Click on the graph for a larger version.) The area we want is that above the -axis and under the function, for . Thus we need to find We can find the area in a number of ways, the easiest of which is to use a graphing calculator.           PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap5Sec2\/Q17.pg with seed 327 does not return valid XML It may not be PTX compatible Use -a to halt with returned content          Evaluate exactly, using the Fundamental Theorem of Calculus:          is , so an antiderivative of is , and we get            PTX:ERROR: WeBWorK problem Library\/UCSB\/Stewart5_5_4\/Stewart5_5_4_23.pg with seed 329 does not return valid XML It may not be PTX compatible Use -a to halt with returned content         Evaluate the integral  Integral =                Evaluate the integral  Integral =                    PTX:ERROR: WeBWorK problem Library\/ma122DB\/set11\/s5_3_32.pg with seed 332 does not return valid XML It may not be PTX compatible Use -a to halt with returned content         =        SOLUTION             PTX:ERROR: WeBWorK problem Library\/UMN\/calculusStewartCCC\/s_5_3_14.pg with seed 334 does not return valid XML It may not be PTX compatible Use -a to halt with returned content       "
+},
+{
+  "id": "ftc-no-antiderivative-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-no-antiderivative-1",
+  "type": "Exercise",
+  "number": "4.4.2.1",
+  "title": "",
+  "body": "   For the function , let . Write the integral and evaluate it with the Fundamental Theorem of Calculus.      (Note that your answer must be exact, not a decimal approximation.)             , so the integral we want is . We can evaluate this with the Fundamental Theorem of Calculus, and have .      "
+},
+{
+  "id": "ftc-linear-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-linear-1",
+  "type": "Exercise",
+  "number": "4.4.2.2",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UCSB\/Stewart5_5_3\/Stewart5_5_3_21.pg with seed 319 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-antiderivative-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-antiderivative-1",
+  "type": "Exercise",
+  "number": "4.4.2.3",
+  "title": "",
+  "body": "   Find an antiderivative of          . Then , so must have the form (or this, plus any constant).      "
+},
+{
+  "id": "ftc-antiderivative-2",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-antiderivative-2",
+  "type": "Exercise",
+  "number": "4.4.2.4",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap6Sec2\/Q21.pg with seed 321 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-antiderivative-3",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-antiderivative-3",
+  "type": "Exercise",
+  "number": "4.4.2.5",
+  "title": "",
+  "body": "   Let .  Enter an antiderivative of            "
+},
+{
+  "id": "ftc-definite-integral-linear-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-linear-1",
+  "type": "Exercise",
+  "number": "4.4.2.6",
+  "title": "",
+  "body": "   Evaluate the definite integral by interpreting it in terms of areas.             "
+},
+{
+  "id": "ftc-definite-integral-quadratic-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-quadratic-1",
+  "type": "Exercise",
+  "number": "4.4.2.7",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Rochester\/setIntegrals3Definite\/s4_4_20_mo.pg with seed 324 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-definite-integral-rational-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-rational-1",
+  "type": "Exercise",
+  "number": "4.4.2.8",
+  "title": "",
+  "body": "   The value of is        :       "
+},
+{
+  "id": "ftc-area-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-area-1",
+  "type": "Exercise",
+  "number": "4.4.2.9",
+  "title": "",
+  "body": "   Find area of the region under the curve and above the -axis, for .  area =         (Click on the graph for a larger version.) The area we want is that above the -axis and under the function, for . Thus we need to find We can find the area in a number of ways, the easiest of which is to use a graphing calculator.      "
+},
+{
+  "id": "ftc-area-2",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-area-2",
+  "type": "Exercise",
+  "number": "4.4.2.10",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/Michigan\/Chap5Sec2\/Q17.pg with seed 327 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-definite-integral-exp-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-exp-1",
+  "type": "Exercise",
+  "number": "4.4.2.11",
+  "title": "",
+  "body": "   Evaluate exactly, using the Fundamental Theorem of Calculus:          is , so an antiderivative of is , and we get       "
+},
+{
+  "id": "ftc-definite-integral-simplify-1",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-simplify-1",
+  "type": "Exercise",
+  "number": "4.4.2.12",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UCSB\/Stewart5_5_4\/Stewart5_5_4_23.pg with seed 329 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-definite-integral-simplify-2",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-simplify-2",
+  "type": "Exercise",
+  "number": "4.4.2.13",
+  "title": "",
+  "body": "   Evaluate the integral  Integral =            "
+},
+{
+  "id": "ftc-definite-integral-simplify-3",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-simplify-3",
+  "type": "Exercise",
+  "number": "4.4.2.14",
+  "title": "",
+  "body": "   Evaluate the integral  Integral =            "
+},
+{
+  "id": "ftc-definite-integral-trig-3",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-trig-3",
+  "type": "Exercise",
+  "number": "4.4.2.15",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/ma122DB\/set11\/s5_3_32.pg with seed 332 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
+},
+{
+  "id": "ftc-definite-integral-trig-4",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-trig-4",
+  "type": "Exercise",
+  "number": "4.4.2.16",
+  "title": "",
+  "body": "   =        SOLUTION        "
+},
+{
+  "id": "ftc-definite-integral-trig-5",
+  "level": "2",
+  "url": "sec-4-4-FTC.html#ftc-definite-integral-trig-5",
+  "type": "Exercise",
+  "number": "4.4.2.17",
+  "title": "",
+  "body": "    PTX:ERROR: WeBWorK problem Library\/UMN\/calculusStewartCCC\/s_5_3_14.pg with seed 334 does not return valid XML It may not be PTX compatible Use -a to halt with returned content     "
 },
 {
   "id": "integral-table",

@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f05fbda8)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x55a2f05e0d68)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f0698990)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x55a2f0654768)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -4461,23 +4461,23 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
 <p>a)<var form="popup">
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
 <p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
 <li>
-<p>Pa/min</p>
-</li>
-<li>
 <p>Pa/m</p>
 </li>
 <li>
 <p>m/min</p>
+</li>
+<li>
+<p>Pa/min</p>
 </li>
 </var></p>
 <p>b)<var form="popup">
@@ -4485,38 +4485,38 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 <p>dP/dt</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>ds/dt</p>
 </li>
 <li>
-<p>ds/dt</p>
+<p>dP/ds</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
-<p>Pa/min</p>
+<p>m/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
-<p>m/min</p>
+<p>Pa/min</p>
 </li>
 </var></p>
 <p>c)<var form="popup">
 <li>
-<p>dP/dt</p>
+<p>dP/ds</p>
 </li>
 <li>
 <p>ds/dt</p>
 </li>
 <li>
-<p>dP/ds</p>
+<p>dP/dt</p>
 </li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
-<p>m/min</p>
+<p>Pa/m</p>
 </li>
 <li>
-<p>Pa/m</p>
+<p>m/min</p>
 </li>
 <li>
 <p>Pa/min</p>
@@ -6840,10 +6840,10 @@ and <m>x=3</m> is the lone critical point of <m>f</m>.
 <p>The function is:</p>
 <p><var form="popup">
 <li>
-<p>Increasing</p>
+<p>Decreasing</p>
 </li>
 <li>
-<p>Decreasing</p>
+<p>Increasing</p>
 </li>
 <li>
 <p>?</p>
@@ -6851,10 +6851,10 @@ and <m>x=3</m> is the lone critical point of <m>f</m>.
 </var> on <m>(-\infty,c)</m>.</p>
 <p><var form="popup">
 <li>
-<p>Decreasing</p>
+<p>?</p>
 </li>
 <li>
-<p>?</p>
+<p>Decreasing</p>
 </li>
 <li>
 <p>Increasing</p>
@@ -9300,5 +9300,1847 @@ The units for velocity are distance-per-time units.
     </static>
     <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
     <pg source="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-283" ww-id="webwork-283">
+    <static seed="283" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg">
+      <statement><p>Let <m>t_j</m> denote the time it took Tejay van Garderen to ride the j-th stage of the Tour de France in 2013.
+If there was a total of 21 stages, interpret <m>\displaystyle{ \sum_{j=1}^{8}t_j }</m>.</p>
+<p><m>\displaystyle{ \sum_{j=1}^{8}t_j}</m> represents <ul form="popup" name="AnSwEr0001"><li>
+<p>?</p>
+</li><li>
+<p>the average time it took 8 cyclists to ride each stage.</p>
+</li><li>
+<p>the time to ride the first 8 stages.</p>
+</li><li>
+<p>the average distance rode afters 8 stages.</p>
+</li></ul></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{the time to ride the first 8 stages.}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-284" ww-id="webwork-284">
+    <static seed="284" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg">
+      <statement><p>For the following, write out each term of the
+summation in the boxes provided.  Then compute
+the sum.</p>
+<p>a) <m>\displaystyle\sum_{i=3}^{5} i^2</m> 
+= <fillin characters="5" name="AnSwEr0001"/> <m>+</m> <fillin characters="5" name="AnSwEr0002"/> <m>+</m> <fillin characters="5" name="AnSwEr0003"/> <m>=</m>
+<fillin characters="10" name="AnSwEr0004"/></p>
+<p>b) <m>\displaystyle\sum_{i=-2}^{3} (2 i  - 4)</m> 
+= <fillin characters="5" name="AnSwEr0005"/> <m>+</m> <fillin characters="5" name="AnSwEr0006"/> <m>+</m> <fillin characters="5" name="AnSwEr0007"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0008"/> <m>+</m> <fillin characters="5" name="AnSwEr0009"/>  <m>+</m> <fillin characters="5" name="AnSwEr0010"/>
+<m>=</m> <fillin characters="10" name="AnSwEr0011"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>9</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>16</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>25</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>50</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-18</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+a) Write out the terms for each value of <m>i</m> from 3 to 5,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 3 \amp \to\amp  a_{3} = (3)^2 = 9\\
+    i = 4 \amp \to\amp  a_{4} = (4)^2 = 16\\
+    i = 5 \amp \to\amp  a_{5} = (5)^2 = 25\\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=3}^{5} i^2  = 50</m> 
+
+
+
+
+b) Write out the terms for each value of <m>i</m> from -2 to 3,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = -2 \amp \to\amp  a_{-2} = 2(-2)  - 4 = -8\\
+    i = -1 \amp \to\amp  a_{-1} = 2(-1)  - 4 = -6\\
+    i = 0 \amp \to\amp  a_{0} = 2(0)  - 4 = -4\\
+    i = 1 \amp \to\amp  a_{1} = 2(1)  - 4 = -2\\
+    i = 2 \amp \to\amp  a_{2} = 2(2)  - 4 = 0\\
+    i = 3 \amp \to\amp  a_{3} = 2(3)  - 4 = 2\\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=-2}^{3} (2 i  - 4)  = -18</m> 
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-285" ww-id="webwork-285">
+    <static seed="285" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg">
+      <statement><p>For the following, write out each term of the
+summation in the boxes provided.  Then compute
+the sum.</p>
+<p>a) <m>\displaystyle\sum_{i=1}^{5} \dfrac{1}{i}</m> 
+= <fillin characters="5" name="AnSwEr0001"/> <m>+</m> <fillin characters="5" name="AnSwEr0002"/> <m>+</m> <fillin characters="5" name="AnSwEr0003"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0004"/> <m>+</m> <fillin characters="5" name="AnSwEr0005"/>  
+<m>=</m> <fillin characters="10" name="AnSwEr0006"/></p>
+<p>b) <m>\displaystyle\sum_{i=1}^{6} (-1)^i i</m> 
+= <fillin characters="5" name="AnSwEr0007"/> <m>+</m> <fillin characters="5" name="AnSwEr0008"/> <m>+</m> <fillin characters="5" name="AnSwEr0009"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0010"/> <m>+</m> <fillin characters="5" name="AnSwEr0011"/>  <m>+</m> <fillin characters="5" name="AnSwEr0012"/>
+<m>=</m> <fillin characters="10" name="AnSwEr0013"/></p>
+<p>c) <m>\displaystyle\sum_{i=1}^{4}\left( \dfrac{1}{i} - \dfrac{1}{i+1} 
+\right)</m> 
+= <fillin characters="5" name="AnSwEr0014"/> <m>+</m> <fillin characters="5" name="AnSwEr0015"/> <m>+</m> <fillin characters="5" name="AnSwEr0016"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0017"/> 
+<m>=</m> <fillin characters="10" name="AnSwEr0018"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.333333333333333</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.25</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2.28333333333333</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.166666666666667</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.0833333333333333</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.05</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.8</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+a) Write out the terms for each value of <m>i</m> from 1 to 5,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = \frac{1}{1} = 1\\
+    i = 2 \amp \to\amp  a_{2} = \frac{1}{2} \\
+    i = 3 \amp \to\amp  a_{3} = \frac{1}{3} \\
+    i = 4 \amp \to\amp  a_{4} = \frac{1}{4} \\
+    i = 5 \amp \to\amp  a_{5} = \frac{1}{5} \\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=1}^{5} \dfrac{1}{i} =
+1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} =
+\frac{137}{60}</m>.
+
+
+
+
+b) Write out the terms for each value of <m>i</m> from 1 to 6,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = (-1)^1 (1) = -1\\
+    i = 2 \amp \to\amp  a_{2} = (-1)^2 (2) = 2\\
+    i = 3 \amp \to\amp  a_{3} = (-1)^3 (3) = -3\\
+    i = 4 \amp \to\amp  a_{4} = (-1)^4 (4) = 4\\
+    i = 5 \amp \to\amp  a_{5} = (-1)^5 (5) = -5\\
+    i = 6 \amp \to\amp  a_{6} = (-1)^6 (6) = 6\\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=1}^{6} (-1)^i i = -1 + 2
+-3 + 4 - 5 + 6 = 3</m> 
+
+
+
+
+c) Write out the terms for each value of <m>i</m> from 1 to 6,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = \frac{1}{1} - \frac{1}{2} = \frac{1}{2}\\
+    i = 2 \amp \to\amp  a_{2} = \frac{1}{2} - \frac{1}{3} = \frac{1}{6}\\
+    i = 3 \amp \to\amp  a_{3} = \frac{1}{3} - \frac{1}{4} = \frac{1}{12}\\
+    i = 4 \amp \to\amp  a_{4} = \frac{1}{4} - \frac{1}{5} = \frac{1}{20}\\
+  \end{array}</me>
+Note, the sum <alert> telescopes </alert>, which may save you
+some work when computing the
+sum.
+<me>\sum_{i=1}^{4}\left( \dfrac{1}{i} - \dfrac{1}{i+1} 
+  \right)  = \frac{1}{1} - \frac{1}{2} +
+  \frac{1}{2} - \frac{1}{3} +
+  \frac{1}{3} - \frac{1}{4} + 
+  \frac{1}{4} - \frac{1}{5}</me>
+<me>= 1 - \frac{1}{5} = \frac{4}{5}.</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-286" ww-id="webwork-286">
+    <static seed="286" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg">
+      <statement><p>Write the sum in summation notation, using the given
+lower bound.</p>
+<p><me>6+12+18+24+30+36+42 = \sum_{i=1}^{b} a_i</me>
+<m>b =</m><fillin characters="5" name="AnSwEr0001"/>, <m>a_i =</m><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>6i</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Each term is 
+<me>6+12+18+24+30+36+42</me>
+<me>= 6(1) + 6(2) + 6(3) + \cdots + 6(7)
+  = \sum_{i=1}^{7} 6 i</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-287" ww-id="webwork-287">
+    <static seed="287" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg">
+      <statement><p>Write the sum in summation notation, using the given
+lower bound.</p>
+<p><me>\dfrac{1}{2}+\dfrac{2}{3}+\dfrac{3}{4}+\dfrac{4}{5}+\dfrac{5}{6}+\dfrac{6}{7}+\dfrac{7}{8}+\dfrac{8}{9} = \sum_{i=1}^{b} a_i</me>
+<m>b =</m><fillin characters="5" name="AnSwEr0001"/>, <m>a_i =</m><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{i}{i+1}</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+<me>\dfrac{1}{2}+\dfrac{2}{3}+\dfrac{3}{4}+\dfrac{4}{5}+\dfrac{5}{6}+\dfrac{6}{7}+\dfrac{7}{8}+\dfrac{8}{9}</me>
+<me>= \dfrac{1}{1+1} + \dfrac{2}{2 + 1} + \cdots + 
+  \dfrac{8}{8 + 1}
+  = \sum_{i=1}^{8} \dfrac{i}{i+1}</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-288" ww-id="webwork-288">
+    <static seed="288" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_30.pg">
+      <statement><p>The 5 rectangles in the graph below illustrate a 
+<var form="popup">
+<li>
+<p>midpoint</p>
+</li>
+<li>
+<p>left endpoint</p>
+</li>
+<li>
+<p>right endpoint</p>
+</li>
+<li>
+<p>?</p>
+</li>
+</var> 
+Riemann sum for 
+<m>\displaystyle f(x) = 2^x</m> on the interval <m>[1, 4]</m>.</p>
+<p>The value of this Riemann sum 
+is <fillin characters="30" name="optional1"/>.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-288-image-1.png" width="66%"/>
+<p/></cell>
+</row>
+<row>
+<cell>Left endpoint Riemann sum for <m>y = 2^x</m> on 
+<m>\lbrack 1, 4 \rbrack</m></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>20.0529</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+This is a midpoint Riemann sum.  Its value is:
+<me>f(1.3) \cdot 0.6 + 
+  f(1.9) \cdot 0.6 + 
+  f(2.5) \cdot 0.6 + 
+  f(3.1) \cdot 0.6 + 
+  f(3.7) \cdot 0.6</me>
+<me>= \left( 2.46228882668983 + 3.73213196614723 + 5.65685424949238 + 8.57418770029035 + 12.9960383416998 \right)
+  \cdot 0.6</me>
+<me>= 20.0529.</me>
+
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-289" ww-id="webwork-289">
+    <static seed="289" source="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg">
+      <statement><p>a) The rectangles in the graph below illustrate a 
+<var form="popup">
+<li>
+<p>right endpoint</p>
+</li>
+<li>
+<p>left endpoint</p>
+</li>
+<li>
+<p>?</p>
+</li>
+<li>
+<p>midpoint</p>
+</li>
+</var> 
+Riemann sum for 
+<m>\displaystyle f(x) = 5 \sin x</m> on the interval <m>[0, \pi]</m>.</p>
+<p>The value of this Riemann sum 
+is <fillin characters="30" name="optional1"/>.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-289-image-1.png" width="66%"/>
+<p/></cell>
+</row>
+<row>
+<cell>Left endpoint Riemann sum for <m>y = 5 \sin x</m> on 
+<m>\lbrack 0, \pi \rbrack</m></cell>
+</row>
+</tabular>
+<p>b) The rectangles in the graph below illustrate a 
+<var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>right endpoint</p>
+</li>
+<li>
+<p>left endpoint</p>
+</li>
+<li>
+<p>midpoint</p>
+</li>
+</var> 
+Riemann sum 
+for <m>\displaystyle f(x) = 5 \sin x</m> on the interval 
+<m>\lbrack 0, \pi \rbrack</m>.</p>
+<p>The value of this Riemann sum is 
+<fillin characters="30" name="optional3"/>.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-289-image-2.png" width="66%"/>
+<p/></cell>
+</row>
+<row>
+<cell>Right endpoint Riemann sum for <m>y = 5 \sin x</m> on 
+<m>\lbrack 0, \pi \rbrack</m></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>9.48059</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>9.48059</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+a) This is a left endpoint Riemann sum.  Its value is:
+<me>f(0) \cdot \frac{\pi}{4} + 
+  f\left(\frac{\pi}{4}\right) \cdot \frac{\pi}{4} + 
+  f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{4} + 
+  f\left(\frac{3\pi}{4}\right) \cdot \frac{\pi}{4}</me>
+<me>= \left(0 + \frac{5 \sqrt{2}}{2} + 5 + \frac{5 \sqrt{2}}{2}\right) 
+  \cdot \frac{\pi}{4} = 9.48059.</me>
+
+
+
+
+
+
+
+b) This is a right endpoint Riemann sum.  Its value is:
+<me>f\left(\frac{\pi}{4}\right) \cdot \frac{\pi}{4} + 
+  f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{4} + 
+  f\left(\frac{3\pi}{4}\right) \cdot \frac{\pi}{4} +
+  f(\pi) \cdot \frac{\pi}{4}</me>
+<me>= \left(\frac{5 \sqrt{2}}{2} + 5 + \frac{5 \sqrt{2}}{2} + 0\right) 
+  \cdot \frac{\pi}{4} = 9.48059.</me>
+
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-290" ww-id="webwork-290">
+    <static seed="290" source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg">
+      <statement><p>Your task is to estimate how far an object traveled during the time interval <m>0 \leq t \leq 8</m>, but you only have the following data about the velocity of the object.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>time (sec)</cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>4</cell>
+<cell>5</cell>
+<cell>6</cell>
+<cell>7</cell>
+<cell>8</cell>
+</row>
+<row>
+<cell>velocity (feet/sec)</cell>
+<cell>-3</cell>
+<cell>-4</cell>
+<cell>-1</cell>
+<cell>2</cell>
+<cell>4</cell>
+<cell>3</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>1</cell>
+</row>
+</tabular>
+<p>To get an idea of what the velocity function might look like, you pick up a black pen, plot the data points, and connect them by curves.  
+Your sketch looks something like the black curve in the graph below.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-290-image-1.png" width="66%"/>
+<p/></cell>
+</row>
+<row>
+<cell>Left endpoint approximation</cell>
+</row>
+</tabular>
+<p>You decide to use a left endpoint Riemann sum to estimate the total displacement.  So, you pick up a blue pen and draw rectangles whose height is determined by the velocity measurement at the left endpoint of each one-second interval.  By using the left endpoint Riemann sum as an approximation, you are assuming that the actual velocity is approximately constant on each one-second interval (or, equivalently, that the actual acceleration is approximately zero on each one-second interval), and that the velocity and acceleration have discontinuous jumps every second.  This assumption is probably incorrect because it is likely that the velocity and acceleration change continuously over time.  However, you decide to use this approximation anyway since it seems like a reasonable approximation to the actual velocity given the limited amount of data.</p>
+<p>(A) Using the left endpoint Riemann sum, find approximately how far the object traveled.  Your answers must include the correct .</p>
+<p>Total displacement = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Total distance traveled = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>Using the same data, you also decide to estimate how far the object traveled using a right endpoint Riemann sum.  So, you sketch the curve again with a black pen, and draw rectangles whose height is determined by the velocity measurement at the right endpoint of each one-second interval.</p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/webwork-290-image-2.png" width="66%"/>
+<p/></cell>
+</row>
+<row>
+<cell>Right endpoint approximation</cell>
+</row>
+</tabular>
+<p>(B) Using the right endpoint Riemann sum, find approximately how far the object traveled.  Your answers must include the correct .</p>
+<p>Total displacement = <fillin characters="20" name="AnSwEr0003"/></p>
+<p>Total distance traveled = <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>6\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>22\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10\ {\rm ft}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>20\ {\rm ft}</m>
+        </p>
+      </answer>
+      <solution><alert>Solution:</alert>
+
+
+
+
+
+
+
+Using the left endpoint Riemann sum, the total displacement is the net area of the light blue shaded rectangles, and the total distance is the absolute area of the light blue shaded rectangles.
+
+
+
+Total displacement = <m>-3 - 4 - 1+2+4+3+2+3 = 6</m> feet.
+
+
+
+Total distance = <m>|-3|+|-4|+|-1|+|2|+|4|+|3|+|2|+|3| = 22</m> feet.
+
+
+
+
+
+
+
+We can also make similar calculations using the right endpoint Riemann sum.
+
+
+
+Total displacement = <m>-4 - 1+2+4+3+2+3+1 = 10</m> feet.
+
+
+
+Total distance = <m>|-4|+|-1|+|2|+|4|+|3|+|2|+|3|+|1| = 20</m> feet.
+
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-291" ww-id="webwork-291">
+    <static seed="291" source="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg">
+      <statement><p>Estimate the area under the graph of <m>f(x)= x^2 + 3 x</m> from <m>x = 2</m> to <m>x = 8</m> using <m>3</m> approximating rectangles and left endpoints.</p>
+<p>Approximation = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2\cdot \left(10+28+54\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-292" ww-id="webwork-292">
+    <static seed="292" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg">
+      <statement><p>Given the function <m>f(x)={\frac{1}{x^{2}+2}}</m>, compute the left-endpoint (Riemann) sum using <m>n=4</m> on the interval
+<m>{\left[-2, 2\right]}</m>.</p>
+<p><m>\displaystyle{ L_{4} =}</m><fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+      <hint><p>Left-Endpoint Approximation (Left Riemann Sum):</p>
+<p>To use a left-endpoint approximation to estimate the area under a curve <m>y=f(x)</m> on an interval <m>[a,b]</m> with `n` subintervals, we need to first identify a regular partition of the interval.</p>
+<p>With <m>\Delta x = \frac{b-a}{n}</m> we can create a regular partition of subintervals of the form <m>[x_0,x_1], [x_1,x_2],...,[x_{n-1},x_n]</m> where <m>x_0=a, x_n=b</m> and <m>x_i = x_0+i\Delta x</m>.</p>
+<p>Then, construct a rectangle on each subinterval <m>[x_{i-1},x_i]</m>, where the height of the rectangle is determined by the function value <m>f(x_{i-1})</m> at the left endpoint of the subinterval. Then, the area of each rectangle is <m>f(x_{i-1})\Delta x</m> and the approximation for the area, `A`, is given by</p>
+<p><m>\begin{aligned}
+A\approx L_n \amp = f(x_0)\Delta x +f(x_1)\Delta x + ... +f(x_{n-1})\Delta x\\
+\amp =\sum_{i=1}^n f(x_{i-1})\Delta x\\
+\end{aligned}</m></p>
+</hint>
+      <answer>
+        <p>
+          <m>1.33333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-293" ww-id="webwork-293">
+    <static seed="293" source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg">
+      <statement><p>Racing cars driven by Chris and Kelly are side by side at the start of a race.  The table shows the velocities of each car (in miles per hour) during the first ten seconds of the race.</p>
+<p><me>\begin{array}{|c|c|c|}\hline
+t \amp  v_C \amp  v_K \\ \hline
+0       \amp  0               \amp  0               \\ \hline
+1       \amp  20              \amp  22              \\ \hline
+2       \amp  32              \amp  37              \\ \hline
+3       \amp  46              \amp  52              \\ \hline
+4       \amp  54              \amp  61              \\ \hline
+5       \amp  62              \amp  71              \\ \hline
+6       \amp  69              \amp  80              \\ \hline
+7       \amp  75              \amp  86              \\ \hline
+8       \amp  81              \amp  93              \\ \hline
+9       \amp  86              \amp  98              \\ \hline
+10      \amp  90              \amp  102             \\ \hline
+\end{array}</me></p>
+<p>Use the Midpoint Rule (with <m>n = 5</m>) to estimate how much farther (in feet) Kelly travels than Chris does during the first ten seconds.</p>
+<p><fillin characters="20" name="AnSwEr0001"/> feet</p>
+</statement>
+      <answer>
+        <p>
+          <m>117.333333333333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-294" ww-id="webwork-294">
+    <static seed="294">
+      <statement><p>(A) Estimate the area under the graph of</p>
+<p><me>f(x) = \frac{5}{x}</me>
+from <m>x = 1</m> to <m>x = 7</m> using 6 approximating rectangles and right
+endpoints.</p>
+<p>Estimate =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(B) Repeat part (A) using left endpoints.</p>
+<p>Estimate =  <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7.96428571428571</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>12.25</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/4_2_2_12-Calculating_Riemann_sums.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+##  Calculus: Areas and Distances
+## ENDDESCRIPTION
+
+## Tagged by XW
+
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Integrals)
+## DBsection(Riemann sums)
+## Date(5/30/2005)
+## Institution(UVA)
+## Author(Jeff Holt)
+## MLT(AI-A-approx)
+## Level(3)
+## TitleText1('Calculus: Early Transcendentals')
+## AuthorText1('Stewart')
+## EditionText1('5')
+## Section1('5.1')
+## Problem1('3')
+## TitleText2('Calculus: Early Transcendentals')
+## AuthorText2('Stewart')
+## EditionText2('6')
+## Section2('5.1')
+## Problem2('')
+## KEYWORDS('calculus', 'areas', 'distances')
+
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a = random(3,7,1);
+$r = random(4,6,1);
+$rend = 1 + $r;
+
+$rans = 0;
+$xi = 2;
+while ($xi <= $rend) {
+    $rans += $a/$xi;
+    $xi++;
+}
+
+$lans = 0;
+$xi = 1;
+while ($xi < $rend) {
+    $lans += $a/$xi;
+    $xi++;
+}
+
+BEGIN_TEXT
+
+(A) Estimate the area under the graph of
+$BR
+\[
+f(x) = \frac{$a}{x}
+\]
+from \(x = 1\) to \(x = $rend\) using $r approximating rectangles and right
+endpoints.
+$BR
+$BR
+Estimate =  \{ans_rule(20) \}
+$BR
+$BR
+(B) Repeat part (A) using left endpoints.
+$BR
+$BR
+Estimate =  \{ans_rule(20) \}
+$BR
+END_TEXT
+
+@ans = ( num_cmp($rans), num_cmp($lans) );
+ANS(@ans);
+
+ENDDOCUMENT();
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-295" ww-id="webwork-295">
+    <static seed="295" source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg">
+      <statement><p>Definition: The area <m>A</m> of the region
+<m>S</m> that lies under the graph of
+the continuous function <m>f</m> is the limit
+of the sum of the areas of approximating
+rectangles
+<me>A = \lim_{n\to\infty} R_n
+= \lim_{n\to\infty} \bigl[
+f(x_1)\Delta x + f(x_2) \Delta x + \dotsb +
+f(x_n)\Delta x \bigr].</me></p>
+<p>(a) Use the above definition to determine which
+of the following expressions represents the area
+under the graph of <m>f(x)=x^3</m> from <m>x = 0</m>
+to <m>x = 1</m>.
+<var form="checkboxes">
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n \left(\frac{i}{n}\right)\frac{5}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n \left(\frac{i}{n}\right)\frac{1}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n  \left(\frac{i}{n}\right)^3\frac{5}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1} ^ n
+\left(\frac{i}{n}\right)^3\frac{1}{n}</m></p>
+</li>
+</var></p>
+<p>(b) Evaluate the limit that is the correct answer
+to part (a).  You may find the following formula
+for the sum of cubes helpful:
+<me>1^3 + 2^3 + 3^3 + \dotsb + n^3
+= \sum_{i = 1} ^ n i^3
+= \left(\frac{n(n+1)}{2}\right)^2.</me></p>
+<p>The value of the limit is <fillin characters="5" name="AnSwEr0001"/>.</p>
+</statement>
+      <answer>
+        <p>D</p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-296" ww-id="webwork-296">
+    <static seed="296" source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg">
+      <statement><p>In this problem you will calculate the area between 
+<m>f(x) = 3 x</m> and the <m>x</m>-axis over the interval <m>\lbrack 0, 6 \rbrack</m>
+using a limit of right-endpoint Riemann sums:</p>
+<p><me>\mathrm{Area} = \lim_{n \to \infty} \left( \sum_{k=1}^{n} f(x_k) \Delta x \right).</me></p>
+<p>Express the following quantities in terms of <m>n</m>, the number of rectangles in the Riemann sum, and <m>k</m>, the index for the rectangles in the Riemann sum.</p>
+<p><OL TYPE="a"/></p>
+<p><LI> We start by subdividing <m>\lbrack 0, 6 \rbrack</m> into <m>n</m> equal width subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \ldots, \lbrack x_{n-1}, x_{n} \rbrack</m> each of width <m>\Delta x</m>.
+Express the width of each subinterval <m>\Delta x</m> in terms of the number of subintervals <m>n</m>.</LI></p>
+<p><m>\Delta x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><BR><BR>
+<LI> Find the right endpoints <m>x_1, x_2, x_3</m> of the first, second, and third subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \lbrack x_2, x_3 \rbrack</m> and express your answers in terms of <m>n</m>.</LI></BR></BR></p>
+<p><m>x_1, x_2, x_3 =</m> <fillin characters="30" name="AnSwEr0002"/> (Enter a comma separated list.)</p>
+<p><BR><BR>
+<LI> Find a general expression for the right endpoint <m>x_k</m> of the <m>k</m><SUP>th</SUP> subinterval <m>\lbrack x_{k-1}, x_{k} \rbrack</m>, where <m>1 \leq k \leq n</m>.  Express your answer in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>x_k =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+<p><BR><BR>
+<LI> Find <m>f(x_k)</m> in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>f(x_k) =</m> <fillin characters="30" name="AnSwEr0004"/></p>
+<p><BR><BR>
+<LI> Find <m>f(x_k) \Delta x</m> in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>f(x_k) \Delta x =</m> <fillin characters="30" name="AnSwEr0005"/></p>
+<p><BR><BR>
+<LI> Find the value of the right-endpoint Riemann sum in terms of <m>n</m>.</LI></BR></BR></p>
+<p><m>\displaystyle \sum_{k=1}^{n} f(x_k) \Delta x =</m> <fillin characters="60" name="AnSwEr0006"/></p>
+<p><BR><BR>
+<LI> Find the limit of the right-endpoint Riemann sum.</LI></BR></BR></p>
+<p><m>\displaystyle \lim_{n\to\infty} \left( \sum_{k=1}^{n} f(x_k) \Delta x \right) =</m> <fillin characters="20" name="AnSwEr0007"/></p>
+<p/>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{6}{n}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{6}{n}, 2\frac{6}{n}, 3\frac{6}{n}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>k\frac{6}{n}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3k\frac{6}{n}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>3k\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{3n\mathopen{}\left(n+1\right)}{2}\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{3\cdot 6^{2}}{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-297" ww-id="webwork-297">
+    <static seed="297" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg">
+      <statement><p>Evaluate the integral of the function graphed using the formula for areas of triangles.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-297-image-1.png" width="66%"/>
+<p><m>\displaystyle{ \int_{0}^{11} f(x) dx=}</m><fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+      <hint><p>Use the graph given and break it up into multiple triangles to find the area of each triangle. Then combine those areas appropriately to find the definite integral in question.</p>
+</hint>
+      <answer>
+        <p>
+          <m>14.5</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-298" ww-id="webwork-298">
+    <static seed="298" source="Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg">
+      <statement><p>Evaluate the integral below by interpreting it in terms of areas. In other words, draw a picture of the region the integral represents,
+and find the area using high school geometry.</p>
+<p><m>\displaystyle \int_{-7}^{7} \sqrt{49 - x^2 } \; dx =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{2}\pi \cdot 7^{2}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-299" ww-id="webwork-299">
+    <static seed="299" source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-299-image-1.png" width="66%"/>
+<p>A graph of <m>f(x) = \sqrt{1 - (x - 1)^2}</m> is shown above.  
+Using the geometry of the graph, evaluate the definite
+integrals.</p>
+<p>a) <m>\displaystyle\int_0^{1} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle\int_{1}^{2} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle\int_0^{2} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>\displaystyle\int_{0}^{2} -3 f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0.785398163397448</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0.785398163397448</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1.5707963267949</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4.71238898038469</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Find the signed area, using the graph.
+
+
+
+a) Between <m>x = 0</m> and <m>x = 1</m>, find the area of the
+quarter-circle with radius <m>r = 1</m>.
+<me>\int_0^{1} f(x) \, dx = \frac{1}{4} \pi (1)^2 =
+  \dfrac{1 \pi}{4}.</me>
+
+
+
+b) Between <m>x = 1</m> and <m>x = 2</m>, the area under the
+graph is again a quarter circle of radius <m>r = 1</m>, so
+<me>\int_{1}^{2} f(x) \, dx = \dfrac{1 \pi}{4}.</me>
+
+
+
+c) This is the area of the semi-circle:
+<me>\int_{0}^{2} f(x) \, dx = \dfrac{1 \pi}{2}.</me>
+
+
+
+d) Pull out the constant multiple.
+<me>\int_{0}^{2} -3 f(x) \, dx = -3
+  \int_{0}^{2} f(x) \, dx = -3\left(
+  \dfrac{1 \pi}{2}\right).</me>
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-300" ww-id="webwork-300">
+    <static seed="300" source="Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg">
+      <statement><p>Suppose
+<me>f(x) =
+\left\lbrace
+\begin{array}{rll}
+5 \amp \amp  \mbox{ if } 5 \leq x \lt 8,
+\\
+-1 \amp \amp  \mbox{ if } 8 \leq x \leq 11. 
+\end{array}
+\right.</me></p>
+<p>(a) Evaluate the definite integral by interpreting it in terms of signed area.</p>
+<p><m>\displaystyle \int_{5}^{11} f(x) \, dx =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert>Suggestion:</alert> Draw a picture of the region whose signed area is represented by the integral. Then find the signed area using formulas from high school geometry.</p>
+<p>(b) Find the average value of <m>f(x)</m> over the interval <m>\lbrack 5, 11 \rbrack</m>.</p>
+<p>Average value = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>12</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-301" ww-id="webwork-301">
+    <static seed="301" source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg">
+      <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" valign="top">
+<row>
+<cell>Suppose the region on the left in the figure 
+(with blue shading) has area is 33, and the
+region on the right (with green shading) has 
+area 3.  Using the graph of <m>f(x)</m> in
+the figure, find the following integrals.
+<m>\displaystyle \int_a^b f(x) \, dx =</m> <fillin characters="15" name="AnSwEr0001"/>
+<m>\displaystyle \int_b^c f(x) \, dx =</m> <fillin characters="15" name="AnSwEr0002"/>
+<m>\displaystyle \int_a^c f(x) \, dx =</m> <fillin characters="15" name="AnSwEr0003"/>
+<m>\displaystyle \int_a^c |f(x)| dx =</m> <fillin characters="15" name="AnSwEr0004"/></cell>
+<cell>
+<image pi:generated="webwork/images/webwork-301-image-1.png" width="50%"/>
+<p>Graph of <m>y = f(x)</m></p></cell>
+</row>
+</tabular>
+</statement>
+      <answer>
+        <p>
+          <m>33</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>30</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>36</m>
+        </p>
+      </answer>
+      <solution><m>y = f(x)</m> and the <m>x</m>-axis, with area below the axis being
+counted as negative area.  Therefore
+
+
+
+<m>\int_a^b f(x) dx = 33</m>,
+<m>\int_b^c f(x) dx = -3</m>,
+<m>\int_a^c f(x) dx = 33  - 3 = 30</m>, and
+<m>\int_a^c |f(x)| dx = |33| + |-3| = 36</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-302" ww-id="webwork-302">
+    <static seed="302" source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg">
+      <statement><p>Consider the graph of the function <m>f(x)</m>:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-302-image-1.gif" width="72%"/>
+<p>Evaluate the following integrals by interpreting them in terms of areas:</p>
+<p>(a) <m>\displaystyle \int_{0}^{\,2} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle \int_{0}^{\,5} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle \int_{5}^{\,7} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0003"/></p>
+<p>(d) <m>\displaystyle \int_{0}^{\,9} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>10</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-303" ww-id="webwork-303">
+    <static seed="303" source="Library/UMN/calculusStewartCCC/s_5_2_31.pg">
+      <statement><p>The graph of <m>f</m> is shown below.  Evaluate each integral by interpreting it in terms of areas.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-303-image-1.png" width="73%"/>
+<p><alert> 1. </alert> <m>\displaystyle \int_0^2 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert> <m>\displaystyle \int_0^5 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0002"/></p>
+<p><alert> 3. </alert> <m>\displaystyle \int_5^7 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+<p><alert> 4. </alert> <m>\displaystyle \int_0^9 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0004"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>15</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>11</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_5_2_31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_5_2_31.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-304" ww-id="webwork-304">
+    <static seed="304" source="Library/UMN/calculusTaalman/t_4_3_prob01.pg">
+      <statement><p>The graph of <m>f</m> is shown below.  Evaluate each integral by interpreting it in terms of areas.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-304-image-1.png" width="66%"/>
+<p><alert> 1. </alert> <m>\displaystyle \int_{-1}^2 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert> <m>\displaystyle \int_2^4 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0002"/></p>
+<p><alert> 3. </alert> <m>\displaystyle \int_{-1}^7 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1.5</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-2.4292</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-1.9292</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusTaalman/t_4_3_prob01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusTaalman/t_4_3_prob01.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-305" ww-id="webwork-305">
+    <static seed="305" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg with seed 305 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-306" ww-id="webwork-306">
+    <static seed="306" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
+      <statement><p>Suppose</p>
+<p><m>\displaystyle{\int_{8}^{12}f(x) dx=-3  \text{  and  }  \int_{12}^{14}f(x) dx=-2}</m>,</p>
+<p><m>\displaystyle{\int_{8}^{12}g(x) dx=9  \text{  and  }  \int_{12}^{14}g(x) dx=-10}</m>.</p>
+<p>Compute the following integrals.</p>
+<p>(a) <m>\displaystyle{\int_{8}^{14}(f(x)+g(x)) dx=}</m><fillin characters="17" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle{\int_{8}^{14}(f(x)-g(x)) dx=}</m><fillin characters="17" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle{\int_{8}^{14}(7f(x)-9g(x)) dx=}</m><fillin characters="17" name="AnSwEr0003"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-26</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-307" ww-id="webwork-307">
+    <static seed="307" source="Library/ma122DB/set11/s5_2_37.pg">
+      <statement><p>If <m>\displaystyle \int_{5}^{7} f(x) dx = 35</m>, then 
+<m>\displaystyle \int_{7}^{5} f(t) dt =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-35</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set11/s5_2_37.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set11/s5_2_37.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-308" ww-id="webwork-308">
+    <static seed="308">
+      <statement><p><me>\int_{2}^{5} f(x) \,dx - \int_{2}^{3} f(x) \,dx = \int_{a}^{b} f(x) \,dx</me></p>
+<p>where <m>a=</m> <fillin characters="1" name="AnSwEr0001"/>
+and  <m>b=</m> <fillin characters="1" name="AnSwEr0002"/>.</p>
+</statement>
+      <answer>
+        <p>
+          <m>3</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+      <solution><p>First recall that
+<me>\int_{a}^{b} f(x) \,dx + \int_{b}^{c} f(x) \,dx = \int_{a}^{c} f(x) \,dx</me>
+and therefore we can rearrange it to look like this:
+<me>\int_{a}^{c} f(x) \,dx - \int_{a}^{b} f(x) \,dx = \int_{b}^{c} f(x) \,dx</me></p>
+<p>Applying that in this specific context, we find:
+<me>\int_{2}^{5} f(x) \,dx - \int_{2}^{3} f(x) \,dx = \int_{3}^{5} f(x) \,dx</me>
+Thus we find <m>a=3</m> and <m>b=5</m>.</p>
+</solution>
+    </static>
+    <rendering-data problemSource="The_Active_Calculus_Companion/4_3_2_12-Using_properties_of_the_definite_integral.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg><![CDATA[
+## DESCRIPTION
+## Calculus
+## ENDDESCRIPTION
+
+## Tagged by tda2d
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Integrals)
+## DBsection(Conceptual understanding of integration)
+## Institution(Rochester)
+## MLT(integral_concept_partition_ab)
+## MLTleader(1)
+## Level(2)
+## TitleText1('Calculus: Early Transcendentals')
+## AuthorText1('Rogawski')
+## EditionText1('1')
+## Section1('5.2')
+## Problem1('61')
+## KEYWORDS('integral')
+
+DOCUMENT();    # This should be the first executable line in the problem.
+
+loadMacros('PGstandard.pl', 'PGML.pl', 'PGchoicemacros.pl', 'PGcourse.pl');
+
+$showPartialCorrectAnswers = 1;
+
+$a    = random(1, 10, 1);
+$add1 = random(1, 10, 1);
+$add2 = random(1, 10, 1);
+$b    = $a + $add1;
+$c    = $b + $add2;
+
+BEGIN_PGML
+[``` \int_{[$a]}^{[$c]} f(x) \,dx - \int_{[$a]}^{[$b]} f(x) \,dx = \int_{a}^{b} f(x) \,dx```]
+
+
+ where [` a= `] [_]{$b}
+and  [` b= `] [_]{$c}.
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+First recall that
+        [``` \int_{a}^{b} f(x) \,dx + \int_{b}^{c} f(x) \,dx = \int_{a}^{c} f(x) \,dx      ```]
+and therefore we can rearrange it to look like this:
+        [```      \int_{a}^{c} f(x) \,dx - \int_{a}^{b} f(x) \,dx = \int_{b}^{c} f(x) \,dx      ```]
+
+
+Applying that in this specific context, we find:
+        [```
+        \int_{[$a]}^{[$c]} f(x) \,dx - \int_{[$a]}^{[$b]} f(x) \,dx = \int_{[$b]}^{[$c]} f(x) \,dx
+        ```]
+Thus we find [` a=[$b]`] and [`b=[$c]`].
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+]]></pg>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-309" ww-id="webwork-309">
+    <static seed="309" source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg">
+      <statement><p>The sum 
+<me>\int_{-2}^{\,2} {f(x)}\, dx + \int_{2}^{\,5} {f(x)}\, dx - \int_{-2}^{\,-1} {f(x)}\, dx</me>
+can be written as a single integral in the form
+<me>\int_{a}^{\,b} {f(x)}\, dx</me>
+Determine <m>a</m> and <m>b</m>.</p>
+<p><m>a =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+<p><m>b =</m> <fillin characters="40" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-1</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>5</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-310" ww-id="webwork-310">
+    <static seed="310" source="Library/UMN/calculusTaalman/t_4_3_29.pg">
+      <statement><p>If <m>\displaystyle \int_{-2}^{4}\! f(x) \, dx = -5</m>, <m>\displaystyle \int_{2}^{4}\! f(x) \, dx = 6,</m> and <m>\displaystyle \int_{-2}^{4}\! g(x) \, dx = 4,</m> find the following integrals.</p>
+<p><alert> 1. </alert> <m>\displaystyle \int_{-2}^{2}\! f(x) \, dx =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert>  <m>\displaystyle \int_{-2}^{4}\! [g(x) + 6] \, dx =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-5-6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>4+6\cdot \left(4+2\right)</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusTaalman/t_4_3_29.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusTaalman/t_4_3_29.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-311" ww-id="webwork-311">
+    <static seed="311" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg with seed 311 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-312" ww-id="webwork-312">
+    <static seed="312" source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg">
+      <statement><p>The table gives the values of a continuous function <m>f</m>.</p>
+<p><me>\begin{array}{|c|c|c|c|c|c|c|c|}\hline
+ x          \amp  20 \amp  25 \amp  30 \amp  35 \amp  40 \amp  45 \amp  50 \\ \hline
+ f(x) \amp  42 \amp  38 \amp  31 \amp  29 \amp  35 \amp  48 \amp  60 \\ \hline
+\end{array}</me></p>
+<p>Use the Midpoint Rule to estimate the average value of <m>f</m> on [20, 50].</p>
+<p>Midpoint Rule estimate = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>38.3333333333333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-313" ww-id="webwork-313">
+    <static seed="313" source="Library/UMN/calculusStewartCCC/s_5_2_47.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/UMN/calculusStewartCCC/s_5_2_47.pg with seed 313 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-314" ww-id="webwork-314">
+    <static seed="314" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg">
+      <statement><p>If <m>f(x)</m> is the slope of a trail at a distance <m>x</m> miles from the start of the trail, what does <m>\int_{3}^{\,5} {f(x)}\,dx</m> represent?</p>
+<p><var form="checkboxes">
+<li>
+<p>The length of the trail between <m>x = 3</m> mi and <m>x = 5</m> mi from the start of the trail.</p>
+</li>
+<li>
+<p>The change in elevation between <m>x = 3</m> mi and <m>x = 5</m> mi from the start of the trail.</p>
+</li>
+<li>
+<p>The length of the first 3 miles of the trail.</p>
+</li>
+<li>
+<p>The change in elevation over the first three miles of the trail.</p>
+</li>
+</var></p>
+</statement>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-315" ww-id="webwork-315">
+    <static seed="315" source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg">
+      <statement><p>Oil leaks out of a tanker at a rate of <m>r=f(t)</m> liters per minute,
+where <m>t</m> is in minutes.  If <m>f(t) = A e^{-k t}</m>, write a definite
+integral expressing the total quantity of oil which leaks out of the
+tanker in the first hour.</p>
+<p>total quantity = 
+<m>\displaystyle \int_{a}^{b}</m> <fillin characters="20" name="AnSwEr0001"/>,
+where <m>a =</m> <fillin characters="3" name="AnSwEr0002"/> and <m>b =</m> <fillin characters="3" name="AnSwEr0003"/>.</p>
+<p>What are the units of this integral?
+<fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>Ae^{-kt}dt</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>60</m>
+        </p>
+      </answer>
+      <answer>
+        <p>No correct answer specified</p>
+      </answer>
+      <solution><m>t</m>, consider the interval <m>[t, t+\Delta t]</m>.  During 
+this interval, oil is leaking out at an approximately constant rate of
+<m>f(t) = A e^{-kt}</m> liters/minute.  Thus, the amount of oil which
+has leaked out during this interval can be expressed as
+<me>\mbox{amount} = \mbox{rate}\times\mbox{time} = f(t) \Delta t
+  = A e^{-kt} \Delta t.</me>
+and the units of <m>f(t)\,\Delta t</m> are (liters/minute)<m>\times</m>minutes
+<m>=</m> liters.  The total amount of oil leaked is obtained by adding all
+these amounts between <m>t=0</m> and <m>t=60</m>.  (An hour is 60 minutes.)
+The sum of all these infinitesimal amounts is the integral
+<me>\mbox{total amount} = \int_0^{60} A e^{-kt} dt.</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-316" ww-id="webwork-316">
+    <static seed="316" source="Library/Michigan/Chap5Sec4/Q31.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap5Sec4/Q31.pg with seed 316 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-317" ww-id="webwork-317">
+    <static seed="317" source="Contrib/NAU/setCalcI/integralAsArea.pg">
+      <statement><p>Let <m>f</m> be a linear function such that <m>f(9)=-1</m> and <m>\displaystyle \int_0^9 f = 3</m>.</p>
+<p>a.
+The <m>x</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0001"/> .</p>
+<p>b.
+The <m>y</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0002"/> .</p>
+</statement>
+      <answer>
+        <p>
+          <m>5.62499</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1.66667</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Contrib/NAU/setCalcI/integralAsArea.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Contrib/NAU/setCalcI/integralAsArea.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-318" ww-id="webwork-318">
+    <static seed="318" source="Library/Michigan/Chap5Sec4/Q11.pg">
+      <statement><p>For the function <m>F(t) = \ln\mathopen{}\left(t\right)</m>, let <m>f(t) = F'(t)</m>.
+Write the integral <m>\int_a^b\,f(t)\,dt</m> and evaluate it
+with the Fundamental Theorem of Calculus.</p>
+<p><m>\int_{1}^{4}\,</m> <fillin characters="15" name="AnSwEr0001"/> <m>\,dt =</m>
+<fillin characters="25" name="AnSwEr0002"/></p>
+<p><em>(Note that your answer must be exact, not a
+decimal approximation.)</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{1}{t}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>1.38629-0</m>
+        </p>
+      </answer>
+      <solution><m>f(t) = F'(t)</m>, so the integral we want
+is <m>\int_{1}^{4}\,\frac{1}{t}\,dt</m>.  We can evaluate this
+with the Fundamental Theorem of Calculus, and have
+<m>\int_{1}^{4}\,\frac{1}{t}\,dt = 1.38629 - 0</m>.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec4/Q11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec4/Q11.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-319" ww-id="webwork-319">
+    <static seed="319" source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg with seed 319 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-320" ww-id="webwork-320">
+    <static seed="320" source="Library/Michigan/Chap6Sec2/Q09.pg">
+      <statement><p>Find an antiderivative <m>G</m> of 
+<m>\displaystyle g(z)= \frac{1}{z^{5}}</m></p>
+<p><m>G(z) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1}{4z^{4}}</m>
+        </p>
+      </answer>
+      <solution><m>g(z) = z^{-5}</m>.  Then <m>g(z) = G'(z)</m>, so <m>G(z)</m> must
+have the form <m>G(z) = -\frac{1}{4} z^{-4}</m> (or this, plus any
+constant). 
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap6Sec2/Q09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap6Sec2/Q09.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-321" ww-id="webwork-321">
+    <static seed="321" source="Library/Michigan/Chap6Sec2/Q21.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap6Sec2/Q21.pg with seed 321 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-322" ww-id="webwork-322">
+    <static seed="322" source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg">
+      <statement><p>Let <m>\displaystyle f(x) = \frac{7}{x} - 3 e^x</m>.</p>
+<p>Enter an antiderivative of <m>f(x)</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>7\ln\mathopen{}\left(\left|x\right|\right)-3\cdot 2.71828^{x}</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-323" ww-id="webwork-323">
+    <static seed="323" source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg">
+      <statement><p>Evaluate the definite integral by interpreting it in terms of areas. 
+<me>\int_{ 3 } ^ { 9 } (4 x - 24) dx</me>
+<fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-324" ww-id="webwork-324">
+    <static seed="324" source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg with seed 324 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-325" ww-id="webwork-325">
+    <static seed="325" source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg">
+      <statement><p>The value of <m>\displaystyle \int_{6}^{7} \frac{1}{ x^2 } dx</m> is</p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{-1}{7}+\frac{1}{6}</m>
+        </p>
+      </answer>
+      <solution><m>\displaystyle \int u^n du = \frac{u^{n+1}}{n+1}</m>:
+<me>\parbox{0.4\textwidth}{
+
+\ \begin{aligned}
+\int_{6}^{7} \frac 1 {x^2} dx  \amp  = \int_{6}^{7} x^{-2} dx \\\\ 
+\amp  =	\left (-1)x^{-1} \right|_{6}^{7} = \left \frac{-1}{x} \right|_{6}^{7}	\\\\
+\amp  =	\frac{-1}{7} - \frac{-1}{6}	= \frac 1 {6} - \frac 1 {7} = 0.0238095
+\end{aligned} }</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-326" ww-id="webwork-326">
+    <static seed="326" source="Library/Michigan/Chap5Sec2/Q13.pg">
+      <statement><p>Find area of the region under the curve <m>y = 4 x^3 - 2</m> and above the
+<m>x</m>-axis, for <m>3 \le x \le 8</m>.</p>
+<p>area = <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4005</m>
+        </p>
+      </answer>
+      <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-326-image-1.png" width="33%"/>
+
+
+
+<em>(Click on the graph for a larger version.)</em>
+
+
+
+
+The area we want is that above the <m>x</m>-axis and under the function, for
+<m>3 \le x \le 8</m>.  Thus we need to find 
+<me>\int_{3}^{8} (4 x^3 - 2) dx \approx 4005.</me>
+We can find the area in a number of ways, the easiest of which is to use a
+graphing calculator.
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec2/Q13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec2/Q13.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-327" ww-id="webwork-327">
+    <static seed="327" source="Library/Michigan/Chap5Sec2/Q17.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap5Sec2/Q17.pg with seed 327 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-328" ww-id="webwork-328">
+    <static seed="328" source="Library/Michigan/Chap6Sec2/Q63.pg">
+      <statement><p>Evaluate exactly, using the Fundamental Theorem of Calculus:</p>
+<p><m>\int_0^{a} 4 e^x dx =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4\mathopen{}\left(e^{a}-1\right)</m>
+        </p>
+      </answer>
+      <solution><m>e^x</m> is <m>e^x</m>, so an antiderivative of <m>4 e^x</m>
+is <m>4 e^x</m>, and we get 
+<me>\int_0^{a} 4 e^x dx = 4 e^x\big|_0^{a} = 4 e^{a} - 4 e^0 = 
+  4 e^{a} - 4.</me>
+
+
+
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap6Sec2/Q63.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap6Sec2/Q63.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-329" ww-id="webwork-329">
+    <static seed="329" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg with seed 329 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-330" ww-id="webwork-330">
+    <static seed="330" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg">
+      <statement><p>Evaluate the integral
+<me>\int_{0}^{\,9} {\sqrt{6 t}}\,dt</me></p>
+<p>Integral = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>44.0908153700972</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-331" ww-id="webwork-331">
+    <static seed="331" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg">
+      <statement><p>Evaluate the integral
+<me>\int_{1}^{\,9} {\frac{-7 x  - 8}{\sqrt{x}}}\,dx</me></p>
+<p>Integral = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-153.333333333333</m>
+        </p>
+      </answer>
+    </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-332" ww-id="webwork-332">
+    <static seed="332" source="Library/ma122DB/set11/s5_3_32.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/ma122DB/set11/s5_3_32.pg with seed 332 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-333" ww-id="webwork-333">
+    <static seed="333" source="Library/ma122DB/set12/s5_4_26.pg">
+      <statement><p><m>\displaystyle \int_0^{5} (3 e^x+4 \sin x)\, dx</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>445.104828565877</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p><me>\begin{array}{rcl} \displaystyle \int_0^{5} (3 e^x+4 \sin x)\, dx \amp =\amp   
+\displaystyle  3 e^x-4 \cos x  \Big]_0^{5}
+\\ \amp =\amp  (3 e^{5} - 4 \cos 5) - (3 e^0 - 4 \cos0 ) 
+\\ \amp =\amp  3 e^{5} - 4 \cos 5  + 1 
+\end{array}</me></p>
+</solution>
+    </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set12/s5_4_26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set12/s5_4_26.pg"/>
+  </webwork-reps>
+  <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-334" ww-id="webwork-334">
+    <static seed="334" source="Library/UMN/calculusStewartCCC/s_5_3_14.pg" failure="xml">
+      <statement>
+        <p>PTX:ERROR: WeBWorK problem Library/UMN/calculusStewartCCC/s_5_3_14.pg with seed 334 does not return valid XML  
+  It may not be PTX compatible  
+  Use -a to halt with returned content
+</p>
+      </statement>
+    </static>
   </webwork-reps>
 </webwork-representations>

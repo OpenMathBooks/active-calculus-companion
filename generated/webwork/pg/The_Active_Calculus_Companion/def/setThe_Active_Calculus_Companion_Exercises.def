@@ -1,6 +1,6 @@
-openDate          = 11/13/2025 at 12:00am
-dueDate           = 05/13/2026 at 10:00pm
-answerDate        = 05/13/2026 at 10:00pm
+openDate          = 11/20/2025 at 12:00am
+dueDate           = 05/20/2026 at 10:00pm
+answerDate        = 05/20/2026 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion_Exercises.pg
 description       = The Active Calculus Companion
@@ -920,4 +920,212 @@ problem_end
 problem_start
 source_file = Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg
 problem_id = 14
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_30.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/4_2_2_12-Calculating_Riemann_sums.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_5_2_31.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/UMN/calculusTaalman/t_4_3_prob01.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/ma122DB/set11/s5_2_37.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/4_3_2_12-Using_properties_of_the_definite_integral.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UMN/calculusTaalman/t_4_3_29.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_5_2_47.pg
+problem_id = 17
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/Michigan/Chap5Sec4/Q31.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Contrib/NAU/setCalcI/integralAsArea.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/Michigan/Chap5Sec4/Q11.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Michigan/Chap6Sec2/Q09.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap6Sec2/Q21.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Michigan/Chap5Sec2/Q13.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Michigan/Chap5Sec2/Q17.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap6Sec2/Q63.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg
+problem_id = 14
+problem_end
+problem_start
+source_file = Library/ma122DB/set11/s5_3_32.pg
+problem_id = 15
+problem_end
+problem_start
+source_file = Library/ma122DB/set12/s5_4_26.pg
+problem_id = 16
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_5_3_14.pg
+problem_id = 17
 problem_end
