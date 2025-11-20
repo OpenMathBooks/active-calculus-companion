@@ -34,10 +34,95 @@
 
   <exercises xml:id="cp-FTC">
     <title>Calculus Practice</title>
-    <introduction>
-      <p>
-        Coming soon.
-      </p>
-    </introduction>
+
+    <exercise label="ftc-no-antiderivative-1">
+      <webwork source="Library/Michigan/Chap5Sec4/Q11.pg" />
+    </exercise>
+    <exercise label="ftc-linear-1">
+      <webwork source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg" />
+    </exercise>
+    
+    <exercise label="ftc-antiderivative-1">
+      <webwork source="Library/Michigan/Chap6Sec2/Q09.pg" />
+    </exercise>
+    
+    <exercise label="ftc-antiderivative-2">
+      <webwork source="Library/Michigan/Chap6Sec2/Q21.pg" />
+    </exercise>
+    
+    <exercise label="ftc-antiderivative-3">
+      <webwork source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg" />
+    </exercise>
+    
+
+    <exercise label="ftc-definite-integral-linear-1">
+      <webwork source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg" />
+      </exercise>
+      
+      <exercise label="ftc-definite-integral-quadratic-1">
+        <webwork source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg" />
+        </exercise>
+
+    
+    <!-- <exercise label="ftc-definite-integral-quadratic-3">
+      <webwork source="Library/ASU-topics/setCalculusFundamentalTheorem/6-5-20.pg" />
+    </exercise> -->
+
+    <!-- <exercise label="ftc-definite-integral-neg-exp-1">
+      <webwork source="Library/ASU-topics/setCalculusFundamentalTheorem/6-5-28.pg" />
+    </exercise> -->
+    
+    <exercise label="ftc-definite-integral-rational-1">
+      <webwork source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg" />
+    </exercise>
+    
+    <exercise label="ftc-area-1">
+      <webwork source="Library/Michigan/Chap5Sec2/Q13.pg" />
+    </exercise>
+    
+    <exercise label="ftc-area-2">
+      <webwork source="Library/Michigan/Chap5Sec2/Q17.pg" />
+    </exercise>
+    <!--  -->
+    
+    <exercise label="ftc-definite-integral-exp-1">
+      <webwork source="Library/Michigan/Chap6Sec2/Q63.pg" />
+    </exercise>
+    
+    <exercise label="ftc-definite-integral-simplify-1">
+      <webwork source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg" />
+    </exercise>
+    
+    <exercise label="ftc-definite-integral-simplify-2">
+      <webwork source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg" />
+    </exercise>
+    
+    <exercise label="ftc-definite-integral-simplify-3">
+      <webwork source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg" />
+    </exercise>
+    
+    <!-- <exercise label="ftc-definite-integral-exp-2">
+      <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C05S04-IndefInts/5-4-19.pg" />
+    </exercise> -->
+    
+    <!-- <exercise label="ftc-definite-integral-trig-1">
+      <webwork source="Library/Indiana/Indiana_setIntegrals3Definite/s4_4_41.pg" />
+    </exercise> -->
+    
+    <!-- <exercise label="ftc-definite-integral-trig-2">
+      <webwork source="Library/Indiana/Indiana_setIntegrals3Definite/sc5_3_17.pg" />
+    </exercise> -->
+    
+    <exercise label="ftc-definite-integral-trig-3">
+      <webwork source="Library/ma122DB/set11/s5_3_32.pg" />
+    </exercise>
+    
+    <exercise label="ftc-definite-integral-trig-4">
+      <webwork source="Library/ma122DB/set12/s5_4_26.pg" />
+    </exercise>
+    
+    <exercise label="ftc-definite-integral-trig-5">
+      <webwork source="Library/UMN/calculusStewartCCC/s_5_3_14.pg" />
+    </exercise>
   </exercises>
 </section>
