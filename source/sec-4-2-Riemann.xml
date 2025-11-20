@@ -83,6 +83,8 @@
 
     <exercise label="riemannsums-calculating2"><title>Calculating Riemann sums</title>
       <!-- <webwork source="Library/UVA-Stew5e/setUVA-Stew5e-C05S01-AreaDistance/5-1-03.pg" /> -->
+       <!-- the OPL problem above has been modernized as of 11/20/25, so once the host webwork server has pulled in
+        OPL updates, the above source could be uncommented and used instead of the included .pg file below. -->
        <webwork><xi:include parse="text" href="../webworkfiles/riemannsumscalculation.pg"/></webwork>
     </exercise>
 
