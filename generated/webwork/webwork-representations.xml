@@ -92,7 +92,7 @@
 20733 miles. At the end of the trip, 13 hours later, the
 odometer reads 21312 miles.</p>
 <p>What is the average speed the
-car traveled during this trip? <fillin characters="HASH(0x55a2f05e0d68)" name="AnSwEr0001"/> miles/hour</p>
+car traveled during this trip? <fillin characters="HASH(0x5637e91e8b90)" name="AnSwEr0001"/> miles/hour</p>
 </statement>
       <answer>
         <p>
@@ -111,7 +111,7 @@ exactly 3:40 p.m. At this time, he started pumping
 gas into the tank. At exactly 3:44, the tank was full
 and he noticed that he had pumped 10 gallons.</p>
 <p>What is the average rate of flow of the gasoline into
-the gas tank? <fillin characters="HASH(0x55a2f0654768)" name="AnSwEr0001"/> gal/min</p>
+the gas tank? <fillin characters="HASH(0x5637e9262450)" name="AnSwEr0001"/> gal/min</p>
 </statement>
       <answer>
         <p>
@@ -2205,51 +2205,51 @@ Evaluate each of the following:</p>
     <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-79" ww-id="webwork-79">
-    <static seed="79" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg">
+    <static seed="1" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg">
       <statement><p>Let <m>f</m> and <m>g</m> be functions that satisfy
-<m>f'(2) = 6</m> and <m>g'(2) = 7</m>.  Find <m>h'(2)</m>
+<m>f'(2) = -10</m> and <m>g'(2) = 9</m>.  Find <m>h'(2)</m>
 for each function <m>h</m> given below:</p>
-<p>(A) <m>h(x) = 10 f(x)</m>.</p>
+<p>(A) <m>h(x) = 4 f(x)</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
-<p>(B) <m>h(x) = -11 g(x)</m>.</p>
+<p>(B) <m>h(x) = -3 g(x)</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
-<p>(C) <m>h(x) = 12 f(x) + 3 g(x)</m>.</p>
+<p>(C) <m>h(x) = 12 f(x) + 7 g(x)</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0003"/></p>
-<p>(D) <m>h(x) = 6 g(x) - 9 f(x)</m>.</p>
+<p>(D) <m>h(x) = 6 g(x) - 13 f(x)</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0004"/></p>
-<p>(E) <m>h(x) = 12 f(x) + 13 g(x)  +    8</m>.</p>
+<p>(E) <m>h(x) = 4 f(x) + 9 g(x)  -   10</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0005"/></p>
-<p>(F) <m>h(x) = -8 g(x) - 7 f(x)  +    6 x</m>.</p>
+<p>(F) <m>h(x) = -10 g(x) - 5 f(x)  -    8 x</m>.</p>
 <p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0006"/></p>
 </statement>
       <answer>
         <p>
-          <m>60</m>
+          <m>-40</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-77</m>
+          <m>-27</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>93</m>
+          <m>-57</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-12</m>
+          <m>184</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>163</m>
+          <m>41</m>
         </p>
       </answer>
       <answer>
         <p>
-          <m>-92</m>
+          <m>-48</m>
         </p>
       </answer>
     </static>
@@ -4482,44 +4482,44 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </var></p>
 <p>b)<var form="popup">
 <li>
+<p>dP/ds</p>
+</li>
+<li>
 <p>dP/dt</p>
 </li>
 <li>
 <p>ds/dt</p>
 </li>
-<li>
-<p>dP/ds</p>
-</li>
 </var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
 <li>
-<p>m/min</p>
+<p>Pa/min</p>
 </li>
 <li>
 <p>Pa/m</p>
 </li>
 <li>
-<p>Pa/min</p>
+<p>m/min</p>
 </li>
 </var></p>
 <p>c)<var form="popup">
 <li>
+<p>dP/dt</p>
+</li>
+<li>
 <p>dP/ds</p>
 </li>
 <li>
 <p>ds/dt</p>
 </li>
-<li>
-<p>dP/dt</p>
-</li>
 </var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
 <li>
-<p>Pa/m</p>
+<p>Pa/min</p>
 </li>
 <li>
 <p>m/min</p>
 </li>
 <li>
-<p>Pa/min</p>
+<p>Pa/m</p>
 </li>
 </var></p>
 </statement>
@@ -6840,21 +6840,21 @@ and <m>x=3</m> is the lone critical point of <m>f</m>.
 <p>The function is:</p>
 <p><var form="popup">
 <li>
-<p>Decreasing</p>
+<p>?</p>
 </li>
 <li>
 <p>Increasing</p>
 </li>
 <li>
-<p>?</p>
+<p>Decreasing</p>
 </li>
 </var> on <m>(-\infty,c)</m>.</p>
 <p><var form="popup">
 <li>
-<p>?</p>
+<p>Decreasing</p>
 </li>
 <li>
-<p>Decreasing</p>
+<p>?</p>
 </li>
 <li>
 <p>Increasing</p>
@@ -9664,16 +9664,16 @@ lower bound.</p>
       <statement><p>The 5 rectangles in the graph below illustrate a 
 <var form="popup">
 <li>
-<p>midpoint</p>
-</li>
-<li>
-<p>left endpoint</p>
-</li>
-<li>
 <p>right endpoint</p>
 </li>
 <li>
+<p>midpoint</p>
+</li>
+<li>
 <p>?</p>
+</li>
+<li>
+<p>left endpoint</p>
 </li>
 </var> 
 Riemann sum for 
@@ -9728,13 +9728,13 @@ This is a midpoint Riemann sum.  Its value is:
 <p>right endpoint</p>
 </li>
 <li>
-<p>left endpoint</p>
+<p>midpoint</p>
 </li>
 <li>
 <p>?</p>
 </li>
 <li>
-<p>midpoint</p>
+<p>left endpoint</p>
 </li>
 </var> 
 Riemann sum for 
@@ -9755,16 +9755,16 @@ is <fillin characters="30" name="optional1"/>.</p>
 <p>b) The rectangles in the graph below illustrate a 
 <var form="popup">
 <li>
-<p>?</p>
-</li>
-<li>
-<p>right endpoint</p>
-</li>
-<li>
 <p>left endpoint</p>
 </li>
 <li>
 <p>midpoint</p>
+</li>
+<li>
+<p>?</p>
+</li>
+<li>
+<p>right endpoint</p>
 </li>
 </var> 
 Riemann sum 
@@ -10534,14 +10534,81 @@ counted as negative area.  Therefore
     <pg source="Library/UMN/calculusTaalman/t_4_3_prob01.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-305" ww-id="webwork-305">
-    <static seed="305" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg with seed 305 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="305" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg">
+      <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-305-image-1.png" width="66%"/>
+<p>A graph of <m>f</m> is shown above.  The numbers shown represent
+the geometric area of each region.
+Evaluate the following definite integrals.</p>
+<p>a) <m>\displaystyle\int_0^{1} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle\int_{0}^{2} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle\int_0^{3} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>\displaystyle\int_{1}^{2} 2 f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-82.6</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-67.2</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-37.8</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>30.8</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+Find the signed area, using the graph.
+
+
+
+a) The region between <m>x = 0</m> and <m>x = 1</m> represents
+a negative net area, so
+<me>\int_0^{1} f(x) \, dx = -82.6.</me>
+
+
+
+b) Split the integral
+<me>\int_{0}^{2} f(x) \, dx = 
+  \int_{0}^{1} f(x) \, dx +
+  \int_{1}^{2} f(x) \, dx =
+  -82.6 + 15.4 = 
+  -67.2.</me>
+
+
+
+c) Split the integral
+<me>\int_{0}^{3} f(x) \, dx = 
+  \int_{0}^{2} f(x) \, dx + 
+  \int_{2}^{3} f(x) \, dx 
+  = -67.2 + 29.4 = 
+  -37.8.</me>
+
+
+
+d) Pull out the constant multiple.
+<me>\int_{1}^{2} 2 f(x) \, dx = 2
+  \int_{1}^{2} f(x) \, dx = 2(15.4) = 30.8.</me>
+
+
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-306" ww-id="webwork-306">
     <static seed="306" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
@@ -10717,14 +10784,102 @@ Determine <m>a</m> and <m>b</m>.</p>
     <pg source="Library/UMN/calculusTaalman/t_4_3_29.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-311" ww-id="webwork-311">
-    <static seed="311" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg with seed 311 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="311" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg">
+      <statement><p>Let
+<me>\int_{0}^2 f(x) \, dx = 7, \quad
+  \int_{0}^3 f(x) \, dx = -7, \quad
+  \int_{0}^2 g(x) \, dx = 13, \quad
+  \int_{2}^3 g(x) \, dx = 1, \quad</me></p>
+<p>Use these values to evaluate the given definite integrals.</p>
+<p>a) <m>\displaystyle   \int_{0}^2 
+   \left(f(x) + g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle   \int_{0}^3
+   \left(f(x) - g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle   \int_{2}^3
+   \left(3f(x) + 2g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) Find the value <m>a</m> such that
+<m>\displaystyle   \int_{0}^3 
+   \left(a f(x) + g(x)\right) \, dx = 0</m>.</p>
+<p><m>a =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>20</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-21</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>-40</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2</m>
+        </p>
+      </answer>
+      <solution><alert> Solution:</alert> 
+
+
+
+a) 
+<me>\int_0^2 \left(f(x) + g(x)\right) \, dx
+  =  \int_0^2 f(x) \, dx + \int_0^2 g(x) \, dx 
+  = 7 + 13 = 20.</me>
+
+
+
+b) First find the integral of <m>g</m> from 0 to 3.
+<me>\int_0^3 g(x) \, dx = \int_0^2 g(x) \, dx +
+  \int_2^3 g(x) \, dx = 13 + 1 = 14.</me>
+Then
+<me>\int_0^3 \left(f(x) - g(x)\right) \, dx
+  =  \int_0^3 f(x) \, dx - \int_0^3 g(x) \, dx 
+  = -7 - 14 = -21.</me>
+
+
+
+c) First find the integral of <m>f</m> from 2 to 3.
+<me>\begin{array}{rcl}
+    \displaystyle\int_0^3 f(x) \, dx \amp =\amp  
+    \displaystyle\int_0^2 f(x) \, dx +
+    \int_2^3 f(x) \, dx \\
+    -7 \amp =\amp  7 + \displaystyle\int_2^3 f(x) \, dx \\
+    \displaystyle\int_2^3 f(x) \, dx \amp =\amp  -14
+  \end{array}</me>
+Then
+<me>\int_{2}^3
+   \left(3f(x) + 2g(x)\right) \, dx =
+  3\int_{2}^3     
+   f(x)  \, dx + 2\int_{2}^3
+   g(x) \, dx</me>
+<me>= 3(-14) + 2(1) = -40.</me>
+
+
+
+d) Substitute known values for the integrals.
+<me>\begin{array}{rcl}
+    \displaystyle \int_{0}^3 
+   \left(a f(x) + g(x)\right) \, dx \amp =\amp  0 \\
+   a \displaystyle \int_0^3 f(x) \, dx
+   + \int_0^3 g(x) \, dx \amp =\amp  0\\
+   a(-7) + 14 \amp =\amp  \\
+   a \amp =\amp  \frac{-14}{-7}
+  \end{array}</me>
+
+
+
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-312" ww-id="webwork-312">
     <static seed="312" source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg">
@@ -10746,14 +10901,21 @@ Determine <m>a</m> and <m>b</m>.</p>
     <pg source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-313" ww-id="webwork-313">
-    <static seed="313" source="Library/UMN/calculusStewartCCC/s_5_2_47.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/UMN/calculusStewartCCC/s_5_2_47.pg with seed 313 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="313" source="Library/UMN/calculusStewartCCC/s_5_2_47.pg">
+      <statement><p>For the function <m>f</m> whose graph is given below, list the following quantities in increasing order, from smallest to largest.
+<me>\text{A: } \int_0^{8}\! f(x) \, dx \qquad \text{B: } \int_{5}^{8}\! f(x) \, dx \qquad \text{C: } \int_4^{8}\! f(x) \, dx \qquad \text{D: } \int_0^{4}\! f(x) \, dx</me></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-313-image-1.png" width="66%"/>
+<p>Answer (use A, B, C, D, and separate by commas): <fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+      <answer>
+        <p>
+          <m>\text{B}, \text{C}, \text{A}, \text{D}</m>
+        </p>
+      </answer>
     </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_5_2_47.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_5_2_47.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-314" ww-id="webwork-314">
     <static seed="314" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg">
@@ -10827,14 +10989,79 @@ The sum of all these infinitesimal amounts is the integral
     <pg source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-316" ww-id="webwork-316">
-    <static seed="316" source="Library/Michigan/Chap5Sec4/Q31.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap5Sec4/Q31.pg with seed 316 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="316" source="Library/Michigan/Chap5Sec4/Q31.pg">
+      <statement><p>Let <m>\int_{0}^{5}\,f(x)\,dx = 4</m>.</p>
+<p><alert>(a)</alert>
+What is the average value of <m>f(x)</m> on the interval from 
+<m>x = 0</m> to <m>x = 5</m>?</p>
+<p>average value = <fillin characters="15" name="AnSwEr0001"/></p>
+<p><alert>(b)</alert>
+If <m>f(x)</m> is even, find each of the following:</p>
+<p><m>\int_{-5}^{5}\,f(x)\,dx =</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p>the average of <m>f(x)</m> on the interval 
+<m>x = -5</m> to <m>x = 5</m> = <fillin characters="15" name="AnSwEr0003"/></p>
+<p><alert>(c)</alert>
+If <m>f(x)</m> is odd, find each of the following:</p>
+<p><m>\int_{-5}^{5}\,f(x)\,dx =</m> <fillin characters="15" name="AnSwEr0004"/></p>
+<p>the average of <m>f(x)</m> on the interval 
+<m>x = -5</m> to <m>x = 5</m> = <fillin characters="15" name="AnSwEr0005"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{4}{5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>2\cdot 4</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>\frac{4}{5}</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <answer>
+        <p>
+          <m>0</m>
+        </p>
+      </answer>
+      <solution><alert>(a)</alert>
+The average value of <m>f(x)</m> on the interval is given by 
+<me>{1\over {5 - 0}}\,\int_{0}^{5}\,f(x)\,dx = 0.8.</me>
+
+
+
+
+<alert>(b)</alert>
+If <m>f(x)</m> is even, then 
+<m>\int_{-5}^{0}\,f(x)\,dx = \int_0^{5}\,f(x)\,dx = 4</m>.
+Thus
+<me>\int_{-5}^{5}\,f(x)\,dx = 8,</me>
+and the average value is accordingly 
+<me>\hbox{avg} = {1\over (5 - (-5))} (4 + 4) = 0.8.</me>
+
+
+
+
+<alert>(c)</alert>
+If <m>f(x)</m> is odd, then 
+<m>\int_{-5}^{0}\,f(x)\,dx = -\int_0^{5}\,f(x)\,dx = 4</m>.
+Thus
+<me>\int_{-5}^{5}\,f(x)\,dx = 0,</me>
+and the average value is therefore also zero.
+
+
+
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec4/Q31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec4/Q31.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-317" ww-id="webwork-317">
     <static seed="317" source="Contrib/NAU/setCalcI/integralAsArea.pg">
@@ -10891,14 +11118,20 @@ with the Fundamental Theorem of Calculus, and have
     <pg source="Library/Michigan/Chap5Sec4/Q11.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-319" ww-id="webwork-319">
-    <static seed="319" source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg with seed 319 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="319" source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg">
+      <statement><p>Use the Fundamental Theorem of Calculus to evaluate (if it exists)
+<me>\int_{2}^{\,8}{-4 x + 8}\,dx.</me>
+If the integral does not exist, type "DNE" as your answer.</p>
+<p><fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>-72</m>
+        </p>
+      </answer>
     </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-320" ww-id="webwork-320">
     <static seed="320" source="Library/Michigan/Chap6Sec2/Q09.pg">
@@ -10923,14 +11156,26 @@ constant).
     <pg source="Library/Michigan/Chap6Sec2/Q09.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-321" ww-id="webwork-321">
-    <static seed="321" source="Library/Michigan/Chap6Sec2/Q21.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap6Sec2/Q21.pg with seed 321 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="321" source="Library/Michigan/Chap6Sec2/Q21.pg">
+      <statement><p>Find an antiderivative <m>F(x)</m> of 
+<m>f(x)=7 x - \sqrt{x}</m>.</p>
+<p><m>F(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>3.5x^{2}-0.666667x^{1.5}</m>
+        </p>
+      </answer>
+      <solution><m>f(x) = 7 x - x^{1/2}</m>, so <m>F(x)</m> must have the form 
+<m>F(x) = \frac{7}{2} x^2 - \frac{2}{3} x^{3/2}</m>, or this plus any
+constant value.
+
+
+
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap6Sec2/Q21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap6Sec2/Q21.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-322" ww-id="webwork-322">
     <static seed="322" source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg">
@@ -10963,14 +11208,18 @@ constant).
     <pg source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-324" ww-id="webwork-324">
-    <static seed="324" source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg with seed 324 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="324" source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg">
+      <statement><p>Evaluate the definite integral</p>
+<p><m>\displaystyle \int_{ 4 } ^ { 6 } (18x^{2}-6x+9) dx =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\frac{18}{3}\cdot 6^{3}-\frac{6}{2}\cdot 6^{2}+9\cdot 6-\left(\frac{18}{3}\cdot 4^{3}-\frac{6}{2}\cdot 4^{2}+9\cdot 4\right)</m>
+        </p>
+      </answer>
     </static>
+    <rendering-data sourceFilePath="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-325" ww-id="webwork-325">
     <static seed="325" source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg">
@@ -11032,14 +11281,38 @@ graphing calculator.
     <pg source="Library/Michigan/Chap5Sec2/Q13.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-327" ww-id="webwork-327">
-    <static seed="327" source="Library/Michigan/Chap5Sec2/Q17.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/Michigan/Chap5Sec2/Q17.pg with seed 327 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="327" source="Library/Michigan/Chap5Sec2/Q17.pg">
+      <statement><p>Find area of the region under the curve <m>y = 3 - 3 x^2</m> and above the
+<m>x</m>-axis.</p>
+<p>area = <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>4</m>
+        </p>
+      </answer>
+      <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-327-image-1.png" width="33%"/>
+
+
+
+<em>(Click on the graph for a larger version.)</em>
+
+
+
+
+The area we want is that above the <m>x</m>-axis and under the function.  The
+<m>x</m>-intercepts are where <m>y = 3 - 3 x^2 = 0</m>, which is at 
+<m>x = \pm\sqrt{\frac{3}{3}}</m>, so we need to find 
+<me>\int_{-\sqrt{\frac{3}{3}}}^{\sqrt{\frac{3}{3}}} (3 - 3 x^2) dx \approx 4.</me>
+We can find the area in a number of ways, the easiest of which is to use a
+graphing calculator.
+
+
+
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/Michigan/Chap5Sec2/Q17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/Michigan/Chap5Sec2/Q17.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-328" ww-id="webwork-328">
     <static seed="328" source="Library/Michigan/Chap6Sec2/Q63.pg">
@@ -11064,14 +11337,19 @@ is <m>4 e^x</m>, and we get
     <pg source="Library/Michigan/Chap6Sec2/Q63.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-329" ww-id="webwork-329">
-    <static seed="329" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg with seed 329 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="329" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg">
+      <statement><p>Evaluate the integral
+<me>\int_{1}^{\,4} {\sqrt{t}(5 + t)}\,dt</me></p>
+<p>Integral = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>35.7333333333333</m>
+        </p>
+      </answer>
     </static>
+    <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_23.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-330" ww-id="webwork-330">
     <static seed="330" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg">
@@ -11104,14 +11382,26 @@ is <m>4 e^x</m>, and we get
     <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-332" ww-id="webwork-332">
-    <static seed="332" source="Library/ma122DB/set11/s5_3_32.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/ma122DB/set11/s5_3_32.pg with seed 332 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="332" source="Library/ma122DB/set11/s5_3_32.pg">
+      <statement><p>Evaluate the definite integral
+<me>\int_{ 0.6 } ^ { 0.8 } 8 \sec^2(x) \, dx</me>
+Answer: <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>2.76401398966937</m>
+        </p>
+      </answer>
+      <solution><p>SOLUTION</p>
+<p><me>\begin{array}{rcl} \displaystyle \int_{ 0.6 } ^ { 0.8 } 8 \sec^2(x) \, dx 
+\amp =\amp  \displaystyle 8  \int_{ 0.6 } ^ { 0.8 }  \sec^2(x) \, dx
+\\ \amp =\amp   8  \tan (x) \Big]_{0.6}^{0.8}
+\\ \amp =\amp 8 (\tan(0.8)-\tan(0.6)) 
+\end{array}</me></p>
+</solution>
     </static>
+    <rendering-data sourceFilePath="Library/ma122DB/set11/s5_3_32.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/ma122DB/set11/s5_3_32.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-333" ww-id="webwork-333">
     <static seed="333" source="Library/ma122DB/set12/s5_4_26.pg">
@@ -11134,13 +11424,17 @@ is <m>4 e^x</m>, and we get
     <pg source="Library/ma122DB/set12/s5_4_26.pg"/>
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-334" ww-id="webwork-334">
-    <static seed="334" source="Library/UMN/calculusStewartCCC/s_5_3_14.pg" failure="xml">
-      <statement>
-        <p>PTX:ERROR: WeBWorK problem Library/UMN/calculusStewartCCC/s_5_3_14.pg with seed 334 does not return valid XML  
-  It may not be PTX compatible  
-  Use -a to halt with returned content
-</p>
-      </statement>
+    <static seed="334" source="Library/UMN/calculusStewartCCC/s_5_3_14.pg">
+      <statement><p>Evaluate the integral <m>\displaystyle \int_{0}^{\pi/3} \! \!\!\!\sec \theta \tan \theta \, d\theta.</m></p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+      <answer>
+        <p>
+          <m>\sec\mathopen{}\left(\frac{\pi }{3}\right)-1</m>
+        </p>
+      </answer>
     </static>
+    <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_5_3_14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+    <pg source="Library/UMN/calculusStewartCCC/s_5_3_14.pg"/>
   </webwork-reps>
 </webwork-representations>
