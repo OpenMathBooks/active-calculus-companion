@@ -1,68 +1,128 @@
 <?xml version="1.0"?>
 
-
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-1-vel">
   <title>How do we measure velocity?</title>
-    <objectives>
-    <ul>
-      <li>
-        <p>
-          Objective 1
-        </p>
-      </li>
 
-      <li>
-        <p>
-          Objective 2
-        </p>
-      </li>
-    </ul>
-  </objectives>
-  <outcomes>
-      <ul>
-        <li>
-          <p>
-            Foundational knowledge or technique 1
-          </p>
-        </li>
-        <li>
-          <p>
-            Foundational knowledge or technique 1
-          </p>
-        </li>
-      </ul>
-    </outcomes>
+  <introduction>
+    <p>
+      You made it!  This is the first section of the first chapter of the Active Calculus Companion.  As with every section of this book, this section is divided into a subsection called <em>Foundations</em> which contains background material that you might be missing from previous courses, followed by a collection of exercises that can give you additional practice with the content of the corresponding section in <pubtitle>Active Calculus</pubtitle> (in the <em>Calculus Practice</em> subsection).  
+    </p>
 
-    <!-- Any discussion of activities or sticking points?  Maybe asides? 
+    <p>
+      So: <em>Foundations</em>: What you should know and be able to do <em>before</em> you read the corresponding section in <pubtitle>Active Calculus</pubtitle>.  <em>Calculus Practice</em>: What you should be able to do <em>after</em> you read the corresponding section in <pubtitle>Active Calculus</pubtitle>.
+    </p>
+
+    <p>
+      A lot of what is in the <em>Foundations</em> subsection will be familiar to you, and you can skip over what you already know.  But we all have gaps in our mathematical understanding; that's part of learning.  So if you find yourself struggling with the activities or exercises in <pubtitle>Active Calculus</pubtitle>, checking here might help you fill in those gaps.
+    </p>
+  </introduction>
+
+  <!-- Any discussion of activities or sticking points?  Maybe asides? 
      Or something else that can be knowled? -->
-  
-
   <!-- do we put them into separate files for easier editing later? -->
-  <subsection><title>Foundations</title>
-    
-    
-    
-  </subsection>
+  <subsection>
+    <title>Foundations</title>
+    <p>
+      Section 1.1 of <pubtitle>Active Calculus</pubtitle> is about measuring velocity, first as an average velocity on an interval, and then moving toward the instantaneous velocity at a point (and what that even means).  
+    </p>
+    <p>
+      In order to make sense of these ideas, we need to have some fluency with functions and function notation, as well as how we talk about points and intervals.  The section also assumes you remember how to compute the slope of a line passing through two points.
+    </p>
 
-  <exercises><title>Calculus Practice</title>
+    <paragraphs>
+      <title>Points on a plane</title>
+      <exercise label="points-on-plane-1">
+        <title>Identify the points</title>
+        <webwork source="Library/NewHampshire/unh_schoolib/Graphs/grabrs101.pg"/>
+      </exercise>
+      <exercise label="points-on-plane-2">
+        <title>Plot the points</title>
+        <webwork source="Library/NewHampshire/unh_schoolib/Graphs/grabrs102.pg"/>
+      </exercise>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Evaluating functions</title>
+      <exercise label="evaluating-functions-1">
+        <title>Evaluate the function</title>
+        <webwork source="Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_08_Polynomial.pg" />
+      </exercise>
+      <p>
+        A function can also be represented as a table of values.
+      </p>
+      <exercise label="evaluating-functions-2">
+        <title>Evaluate the function from a table</title>
+        <webwork source="Library/FortLewis/Algebra/4-1-What-is-a-function/MCH1-4-1-24-What-is-a-function.pg" />
+      </exercise>
+      <p>
+        We can also evaluate a function from a graph.
+      </p>
+      <exercise label="evaluating-functions-3">
+        <title>Evaluate the function from a graph</title>
+        <webwork source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph20.pg" />
+      </exercise>  
+      <p>
+        Sometimes we need to evaluate a function at an expression, rather than a number. 
+      </p>
+      <exercise label="evaluating-functions-4">
+        <title>Evaluate the function at an expression</title>
+        <webwork><xi:include parse="text" href="wwpg/eval_func_1.pg"/></webwork>
+      </exercise>
+      <exercise label="evaluating-functions-5">
+        <title>Evaluate the function at an expression</title>
+        <webwork><xi:include parse="text" href="wwpg/eval_func_2.pg"/></webwork>
+      </exercise>
+      <p>
+        Careful: it is also possible to combine functions after they are evaluated.  The order in which you do things matters.
+      </p>
+      <exercise label="evaluating-functions-6">
+        <title>Combine functions after evaluation</title>
+        <webwork><xi:include parse="text" href="wwpg/eval_func_3.pg"/></webwork>
+      </exercise>
+      <exercise label="evaluating-functions-7">
+        <title>Combine functions after evaluation</title>
+        <webwork source="Library/ASU-topics/setFunctions/srw2_1_33rat.pg" />
+      </exercise>
+    </paragraphs>
+
+    <paragraphs>
+      <title>Slopes of lines</title>
+      <p>
+        Given any two points on the plane, there is exactly one line that passes through both points.  The slope of that line is a measure of how steep the line is.  The slope is computed as the change in the vertical direction divided by the change in the horizontal direction.
+      </p>
+      <p>
+        Exercises coming soon.
+      </p>
+    </paragraphs>
+  </subsection>
+  <exercises>
+    <title>Calculus Practice</title>
+    <introduction>
+      <p>
+        The exercises in this section are designed to give you additional practice with the content of Section 1.1 of <pubtitle>Active Calculus</pubtitle>.  They are just like the exercises in the textbook, but perhaps you wanted more to practice with.  Well, you've come to the right place.
+      </p>
+    </introduction>
+
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
-  <!-- <exercise label="limits-from-graph-1">
+    <!-- <exercise label="limits-from-graph-1">
     <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
   </exercise>-->
-  <exercise label="avgchange-from-table-1"><title>Average rate of change from a table</title>
-    <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg"/>
-  </exercise>
-  <exercise label="avgspeed-from-twovalues-1"><title>Average speed from two values</title>
-    <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg"/>
-  </exercise>
-  <exercise label="avgchange-from-twovalues-1"><title>Average rate of change from two values</title>
-    <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg"/>
-  </exercise>
-  
-  
-  
-  </exercises>
-    
+    <exercise label="avgchange-from-table-1">
+      <title>Average rate of change from a table</title>
 
-  
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg"/>
+    </exercise>
+
+    <exercise label="avgspeed-from-twovalues-1">
+      <title>Average speed from two values</title>
+
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg"/>
+    </exercise>
+
+    <exercise label="avgchange-from-twovalues-1">
+      <title>Average rate of change from two values</title>
+
+      <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg"/>
+    </exercise>
+  </exercises>
 </section>
