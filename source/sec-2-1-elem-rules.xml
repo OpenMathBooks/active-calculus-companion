@@ -185,7 +185,7 @@
       <webwork source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg" />
     </exercise>
     <exercise label="derivatives-sum-multiple-rules">
-      <webwork source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg" />
+      <webwork source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg" seed="1" />
     </exercise>
     <exercise label="derivatives-polynomial-expand-tangent">
       <webwork source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg" />
