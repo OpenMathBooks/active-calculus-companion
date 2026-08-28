@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-2nd-derivative-test-2" assembly-id="tests-2nd-derivative-test-2">
+  <static seed="253" source="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg">
+    <statement><p>Thus we conclude that <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0003"/> at <m>A</m> (type in
+MAX or MIN).</p>
+</statement>
+    <answer>
+      <p>
+        <m>1.64872127070013</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.270670566473225</m>
+      </p>
+    </answer>
+    <answer>
+      <p>MAX</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob7.pg"/>
+</webwork-reps>

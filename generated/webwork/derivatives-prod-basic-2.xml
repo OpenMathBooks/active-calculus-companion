@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-2" assembly-id="derivatives-prod-basic-2">
+  <static seed="99" source="Library/UMN/calculusStewartCCC/s_3_2_4.pg">
+    <statement><p>Differentiate <m>\displaystyle g(x) = 15 \sqrt{x}\cdot e^x.</m></p>
+<p>Answer: <m>\displaystyle g'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>15\mathopen{}\left(\frac{1}{2}\frac{1}{\sqrt{x}}e^{x}+\sqrt{x}e^{x}\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_2_4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_3_2_4.pg"/>
+</webwork-reps>

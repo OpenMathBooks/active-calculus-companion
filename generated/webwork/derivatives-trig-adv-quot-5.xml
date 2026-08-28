@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-5" assembly-id="derivatives-trig-adv-quot-5">
+  <static seed="144" source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg">
+    <statement><p>Find <m>f'(x)</m> for <me>f(x)=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}</me></p>
+<p><m>f'(x)  =</m> <fillin characters="70" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{5\mathopen{}\left(2x\cot\mathopen{}\left(x\right)-\left(x^{2}+4\right)\csc^{2}\mathopen{}\left(x\right)-2x\cot^{2}\mathopen{}\left(x\right)\right)}{\left(1-\cot\mathopen{}\left(x\right)\right)^{2}}</m>
+      </p>
+    </answer>
+    <solution><me>f(x)=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cot\mathopen{}\left(x\right)}</me>
+Using the quotient rule to differentiate we get,
+<me>f'(x)=\frac{d}{dx}(\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)})=5\frac{\frac{d}{dx}[\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)]\cdot (1-\cot\mathopen{}\left(x\right))-\frac{d}{dx}[1-\cot\mathopen{}\left(x\right)]\cdot \left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{(1-\cot\mathopen{}\left(x\right))^2}</me>
+<me>=5\frac{[2x\cdot \cot\mathopen{}\left(x\right) - \csc^{2}\mathopen{}\left(x\right) \cdot (x^{2}+4)]\cdot  (1-\cot\mathopen{}\left(x\right))-[\csc^{2}\mathopen{}\left(x\right)]\cdot \left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{(1-\cot\mathopen{}\left(x\right))^2}</me>
+<me>=\frac{5\mathopen{}\left(2x\cot\mathopen{}\left(x\right)-\left(x^{2}+4\right)\csc^{2}\mathopen{}\left(x\right)-2x\cot^{2}\mathopen{}\left(x\right)\right)}{\left(1-\cot\mathopen{}\left(x\right)\right)^{2}}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg"/>
+</webwork-reps>

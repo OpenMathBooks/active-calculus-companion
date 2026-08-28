@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-combined-1" assembly-id="derivatives-prod-combined-1">
+  <static seed="114" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_26.pg">
+    <statement><p>Compute the derivative of the given function.</p>
+<p><me>g(t) = -4 t^{4} e^t  - 6 \sin t \cos t</me></p>
+<p><m>g'(t) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-4t^{3}\mathopen{}\left(4+t\right)e^{t}+\left(-6\right)\cos^{2}\mathopen{}\left(t\right)-\left(-6\right)\sin^{2}\mathopen{}\left(t\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Use the Product Rule on each term.
+
+
+
+<me>\begin{array}{rcl}
+    g'(t) \amp =\amp  [(-4 t^{4})(e^t) + (-16 t^{3})(e^t)]
+     - 6 [ (\sin t)(-\sin t) + (\cos t)(\cos t)] \\
+    \amp \amp \\
+    \amp =\amp  -4 t^{3}(4 + t)e^t  + 6 \sin^2 t  - 6 \cos^2 t
+  \end{array}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_26.pg"/>
+</webwork-reps>

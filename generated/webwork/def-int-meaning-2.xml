@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-2" assembly-id="def-int-meaning-2">
+  <static seed="323" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg">
+    <statement><p>If <m>f(x)</m> is the slope of a trail at a distance <m>x</m> miles from the start of the trail, what does <m>\int_{3}^{\,5} {f(x)}\,dx</m> represent?</p>
+<p><var form="checkboxes">
+<li>
+<p>The change in elevation between <m>x = 3</m> mi and <m>x = 5</m> mi from the start of the trail.</p>
+</li>
+<li>
+<p>The change in elevation over the first three miles of the trail.</p>
+</li>
+<li>
+<p>The length of the trail between <m>x = 3</m> mi and <m>x = 5</m> mi from the start of the trail.</p>
+</li>
+<li>
+<p>The length of the first 3 miles of the trail.</p>
+</li>
+</var></p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_50.pg"/>
+</webwork-reps>

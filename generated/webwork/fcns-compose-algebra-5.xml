@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-algebra-5" assembly-id="fcns-compose-algebra-5">
+  <static seed="155" source="Library/Michigan/Chap1Sec3/Q03.pg">
+    <statement><p>For the function <m>f(x)=2 e^{x}</m> and <m>g(x)=x^{4}</m>, find the following:</p>
+<p><alert>(a)</alert> 
+<m>f(g(1))</m>= <fillin characters="35" name="AnSwEr0001"/></p>
+<p><alert>(b)</alert> 
+<m>g(f(1))</m>= <fillin characters="35" name="AnSwEr0002"/></p>
+<p><alert>(c)</alert> 
+<m>f(g(x))</m>= <fillin characters="35" name="AnSwEr0003"/></p>
+<p><alert>(d)</alert> 
+<m>g(f(x))</m>= <fillin characters="35" name="AnSwEr0004"/></p>
+<p><alert>(e)</alert> 
+<m>f(t)g(t)</m>= <fillin characters="35" name="AnSwEr0005"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2e</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(2e\right)^{4}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2e^{x^{4}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(2e^{x}\right)^{4}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2e^{t}t^{4}</m>
+      </p>
+    </answer>
+    <solution><alert>(a)</alert>
+<m>f(g(1))=f(1^{4})=2 e^{(1^{4})}</m>
+
+
+
+<alert>(b)</alert>
+<m>g(f(1))=g(2 e^{1})=(2 e^{1})^{4}</m>
+
+
+
+<alert>(c)</alert>
+<m>f(g(x))=f(x^{4})=2 e^{(x^{4})}</m>
+
+
+
+<alert>(d)</alert>
+<m>g(f(x))=g(2 e^{x})=(2 e^{x})^{4}</m>
+
+
+
+<alert>(e)</alert>
+<m>f(t)g(t)=2 e^{t} t^{4}</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap1Sec3/Q03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap1Sec3/Q03.pg"/>
+</webwork-reps>

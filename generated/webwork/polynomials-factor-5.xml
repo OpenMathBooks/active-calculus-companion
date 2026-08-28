@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-5" assembly-id="polynomials-factor-5">
+  <static seed="21" source="Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg">
+    <statement><p>Factor the expression and simplify your answer as much as possible:</p>
+<p><m>12 x^2  - 11 x + 2 = \big(</m> <fillin characters="20" name="AnSwEr0001"/> <m>\big) \big(</m> <fillin characters="20" name="AnSwEr0002"/> <m>\big)</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>4x-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3x-2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/College_Algebra/Factoring_ax2_bx_c/Factoringarbitrary.pg"/>
+</webwork-reps>

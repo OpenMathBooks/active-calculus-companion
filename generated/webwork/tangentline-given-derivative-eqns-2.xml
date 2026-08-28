@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-eqns-2" assembly-id="tangentline-given-derivative-eqns-2">
+  <static seed="57" source="Contrib/METU-NCC/MAT101/Final/Tangent.pg">
+    <statement><p>In the parts below, <m>f{\small(x)}</m> and <m>f'{\small(x)}</m> have values given in the table below</p>
+<tabular valign="top">
+<col halign="center" right="minor"/>
+<col halign="center"/>
+<col halign="center"/>
+<row bottom="minor" header="yes">
+<cell><m>x</m></cell>
+<cell><m>f{\small(x)}</m></cell>
+<cell><m>f'{\small(x)}</m></cell>
+</row>
+<row>
+<cell><m>1</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>2</m></cell>
+<cell><m>4</m></cell>
+<cell><m>3</m></cell>
+</row>
+<row>
+<cell><m>3</m></cell>
+<cell><m>2</m></cell>
+<cell><m>1</m></cell>
+</row>
+<row>
+<cell><m>4</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+</row>
+</tabular>
+<p>Give formulas for the following tangent lines at <m>x=2</m>.</p>
+<p><alert> (A) </alert> The tangent line to <m>y=f{\small(x)}</m> at <m>x=2</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0001"/></p>
+<p><alert> (B) </alert> The tangent line to <m>y=f{\small(x)} + x</m> at <m>x=2</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0002"/></p>
+<p><alert> (C) </alert> The tangent line to <m>y= x  f{\small(x)}</m> at <m>x=2</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0003"/></p>
+<p><alert> (D) </alert> The tangent line to <m>y= f{\small(x+1)}</m> at <m>x=2</m>.</p>
+<p><m>\quad y =</m><fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3\mathopen{}\left(x-2\right)+4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4\mathopen{}\left(x-2\right)+6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10\mathopen{}\left(x-2\right)+8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x-2+2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Final/Tangent.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/METU-NCC/MAT101/Final/Tangent.pg"/>
+</webwork-reps>

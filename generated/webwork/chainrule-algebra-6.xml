@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-6" assembly-id="chainrule-algebra-6">
+  <static seed="162" source="Library/NAU/setCalcI/chainLeibnitz.pg">
+    <statement><p>Suppose <m>y = \sin(5 x^2+ 3 x - 2 )</m>.
+We can write <m>y = \sin(u)</m>, where <m>u =</m> <fillin characters="15" name="AnSwEr0001"/> .
+The Leibnitz notation for the chain rule is
+<m>\displaystyle \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}</m>.
+The factors are <m>\displaystyle \frac{dy}{du} =</m> <fillin characters="10" name="AnSwEr0002"/> (written as a function of <m>u</m> ) and
+<m>\displaystyle \frac{du}{dx} =</m> <fillin characters="10" name="AnSwEr0003"/> .
+Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
+<p><m>\displaystyle \frac{dy}{dx} =</m> <fillin characters="25" name="AnSwEr0004"/> (written as a function of <m>x</m> ).</p>
+</statement>
+    <answer>
+      <p>
+        <m>5xx+3x+\left(-2\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\cos\mathopen{}\left(u\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10x+3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\cos\mathopen{}\left(5xx+3x+\left(-2\right)\right)\mathopen{}\left(10x+3\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/NAU/setCalcI/chainLeibnitz.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NAU/setCalcI/chainLeibnitz.pg"/>
+</webwork-reps>

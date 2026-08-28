@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quad-basic-5" assembly-id="derivatives-quad-basic-5">
+  <static seed="110" source="Library/ma122DB/set4b/s3_4_10.pg">
+    <statement><p>If 
+<me>f(x) = \frac { 2 \sin x }{ 3 + \cos x }</me>
+find <m>f'( x )</m>.</p>
+<p>Answer:  <fillin characters="50" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{2\cos\mathopen{}\left(x\right)\cdot 3+2}{\left(3+\cos\mathopen{}\left(x\right)\right)^{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set4b/s3_4_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set4b/s3_4_10.pg"/>
+</webwork-reps>

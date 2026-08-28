@@ -1,10 +1,46 @@
-openDate          = 11/24/2025 at 12:00am
-dueDate           = 05/24/2026 at 10:00pm
-answerDate        = 05/24/2026 at 10:00pm
+openDate          = 01/01/2027 at 12:00am
+dueDate           = 12/31/2027 at 10:00pm
+answerDate        = 12/31/2027 at 10:00pm
 paperHeaderFile   = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 screenHeaderFile  = The_Active_Calculus_Companion/header/The_Active_Calculus_Companion.pg
 description       = The Active Calculus Companion
 problemListV2
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Graphs/grabrs101.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/NewHampshire/unh_schoolib/Graphs/grabrs102.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_08_Polynomial.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/FortLewis/Algebra/4-1-What-is-a-function/MCH1-4-1-24-What-is-a-function.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph20.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_1_1_6-Evaluate_the_function_at_an_expression.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_1_1_7-Evaluate_the_function_at_an_expression.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_1_1_8-Combine_functions_after_evaluation.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/ASU-topics/setFunctions/srw2_1_33rat.pg
+problem_id = 9
+problem_end
 problem_start
 source_file = Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg
 problem_id = 1

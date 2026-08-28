@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-area2" assembly-id="riemannsums-area2">
+  <static seed="301" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg">
+    <statement><p>Given the function <m>f(x)={\frac{1}{x^{2}+2}}</m>, compute the left-endpoint (Riemann) sum using <m>n=3</m> on the interval
+<m>{\left[-2, 2\right]}</m>.</p>
+<p><m>\displaystyle{ L_{3} =}</m><fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+    <hint><p>Left-Endpoint Approximation (Left Riemann Sum):</p>
+<p>To use a left-endpoint approximation to estimate the area under a curve <m>y=f(x)</m> on an interval <m>[a,b]</m> with `n` subintervals, we need to first identify a regular partition of the interval.</p>
+<p>With <m>\Delta x = \frac{b-a}{n}</m> we can create a regular partition of subintervals of the form <m>[x_0,x_1], [x_1,x_2],...,[x_{n-1},x_n]</m> where <m>x_0=a, x_n=b</m> and <m>x_i = x_0+i\Delta x</m>.</p>
+<p>Then, construct a rectangle on each subinterval <m>[x_{i-1},x_i]</m>, where the height of the rectangle is determined by the function value <m>f(x_{i-1})</m> at the left endpoint of the subinterval. Then, the area of each rectangle is <m>f(x_{i-1})\Delta x</m> and the approximation for the area, `A`, is given by</p>
+<p><m>\begin{aligned}
+A\approx L_n \amp = f(x_0)\Delta x +f(x_1)\Delta x + ... +f(x_{n-1})\Delta x\\
+\amp =\sum_{i=1}^n f(x_{i-1})\Delta x\\
+\end{aligned}</m></p>
+</hint>
+    <answer>
+      <p>
+        <m>1.31313</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg"/>
+</webwork-reps>

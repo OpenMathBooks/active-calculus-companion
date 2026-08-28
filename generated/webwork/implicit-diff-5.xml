@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-5" assembly-id="implicit-diff-5">
+  <static seed="203" source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg">
+    <statement><p>Find the equation of the tangent line to 
+the curve <m>x^4 + y^4 = 17</m> at the point <m>(2, 1)</m>.</p>
+<p>Tangent line equation: <m>y =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8x+\left(-15\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+First use implicit differentiation to find the derivative.
+<me>\begin{array}{rcl}
+    \dfrac{d}{dx}[x^4 + y^4] \amp =\amp  \dfrac{d}{dx}[17]\\
+  \amp \amp \\
+    4x^3 + 4y^3y' \amp =\amp  0\\
+  \amp \amp \\
+    y' \amp =\amp  \dfrac{-4x^3}{4y^3} = -\dfrac{x^3}{y^3}
+  \end{array}</me>
+Plug in (x = 2\) (y = 1\) get the slope.
+<me>m = -\dfrac{(2)^3}{(1)^3} = 8</me>
+Then use point-slope form to find the equation of the tangent line.
+<me>y - 1 = 8(x - 2) \; \textrm{or,} \;
+  y = 8 x  - 15</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_28.pg"/>
+</webwork-reps>

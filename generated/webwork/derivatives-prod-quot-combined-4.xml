@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-quot-combined-4" assembly-id="derivatives-prod-quot-combined-4">
+  <static seed="118" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.3_Product_and_Quotient_Rules/3.3.35.pg">
+    <statement><p>Calculate the derivative using the appropriate rule or combination of rules.
+<me>g(z)=\frac{z^{2}+8z+16}{z+1}\frac{z^{2}-3z-4}{z+4}</me></p>
+<p><m>g'(z) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2z</m>
+      </p>
+    </answer>
+    <solution><me>g(z)=\frac{z^{2}+8z+16}{z+1}\frac{z^{2}-3z-4}{z+4}=\frac{\left(z+4\right)\mathopen{}\left(z+4\right)}{z+1}\frac{\left(z-4\right)\mathopen{}\left(z+1\right)}{z+4}.</me>
+<m>g(z)=\left(z+4\right)\mathopen{}\left(z-4\right)</m>, assuming <m>z \ne -4</m> and <m>z \ne -1</m>, whence
+<me>g'(z)=(z-4)(1)+(z+4)(1)=2z.</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.3_Product_and_Quotient_Rules/3.3.35.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.3_Product_and_Quotient_Rules/3.3.35.pg"/>
+</webwork-reps>

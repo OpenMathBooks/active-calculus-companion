@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-wire-1" assembly-id="apps-app-opt-wire-1">
+  <static seed="269" source="Library/Michigan/Chap4Sec5/Qweb5.pg">
+    <statement><p>A wire 8 meters long is cut into two pieces.  One piece is bent
+into a square for a frame for a stained glass ornament, while the
+other piece is bent into a circle for a TV antenna.  To reduce storage
+space, where should the wire be cut to minimize the total area of both
+figures? 
+Give the length of wire used for each:</p>
+<p>For the square: <fillin characters="35" name="AnSwEr0001"/></p>
+<p>For the circle: <fillin characters="35" name="AnSwEr0002"/></p>
+<p>(for both, include )</p>
+<p>Where should the wire be cut to maximize the total area?  
+Again, give the length of wire used for each:</p>
+<p>For the square: <fillin characters="35" name="AnSwEr0003"/></p>
+<p>For the circle: <fillin characters="35" name="AnSwEr0004"/></p>
+<p>(for both, include )</p>
+</statement>
+    <answer>
+      <p>
+        <m>4.48079322809246\ {\rm m}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3.51920677190754\ {\rm m}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0\ {\rm m}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8\ {\rm m}</m>
+      </p>
+    </answer>
+    <solution><em>the total area enclosed by
+the two figures</em>.  Our first task is therefore to find an
+equation for this area, which will be the sum of the areas of the two
+figures.
+
+
+
+
+Suppose we cut <m>x</m> meters of wire to make the circular antenna.
+Then there are <m>8 - x</m> meters left for the square.  To find the
+area of the circle we need its radius.  The circumference of a circle
+of radius <m>r</m> is <m>C = 2\pi r</m>, so the radius of the circle is
+given by <m>2\pi r = x</m>, and so <m>r = \frac{x}{2\pi}</m>.  The area
+of the circular antenna is therefore 
+<m>A_c = \pi r^2 = \frac{1}{4\pi} x^2</m>.
+
+
+
+
+Then the perimeter of a square with side length <m>s</m> is 
+<m>P = 4 s = 8 - x</m>, so the side length is 
+<m>s = \frac{1}{4}(8 - x)</m>.  Then the area of a square is 
+<m>A_s =  s^2</m>, so the area of the square is 
+<m>A_s =  (\frac{1}{16})(8 - x)^2</m>.
+
+
+
+
+The total area is therefore
+<me>A = \frac{1}{4\pi} x^2 +  (\frac{1}{16})(8 - x)^2
+  = \frac{1}{4\pi} x^2 + \frac{1}{ (16)}(64 - 16 x + x^2).</me>
+The domain for <m>x</m> is <m>0\le x\le 8</m>.  
+
+
+
+ 
+The maximum and minimum of <m>A</m> will occur at critical or end
+points.  Critical points are where <m>dA/dx = 0</m>, or, where
+<me>\frac{1}{2\pi} x + \frac{1}{ (16)}(2x - 16) = 0.</me>
+Collecting all terms in <m>x</m> we have
+<me>\left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) x = 
+  \frac{16 }{16},</me>
+so, after simplifying, 
+<me>x = \frac{8 \pi}{4 + \pi}.</me>
+
+
+
+
+To determine if this is a local maximum or minimum, we use the second
+derivative test.  
+<me>A'' = \left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) &gt; 0,</me>
+so the function is concave up everywhere and this is a local,
+and because there is only one critical point, global, minimum.  Thus
+to minimize area we use <m>\frac{8 \pi}{4 + \pi}</m> meters of wire for the circle and
+<m>8 - \frac{8 \pi}{4 + \pi}</m> meters for the square. 
+
+
+
+ 
+To maximize the area, we must use the endpoints.  The areas at the
+endpoints are
+<me>A(0) = 4\qquad{\rm and}\qquad
+   A(8) = \frac{16}{\pi} \approx 5.09,</me>
+the larger of which is <m>A(8)</m>, so the maximum area occurs when
+all of the wire is used for the circle and none for the square.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap4Sec5/Qweb5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap4Sec5/Qweb5.pg"/>
+</webwork-reps>

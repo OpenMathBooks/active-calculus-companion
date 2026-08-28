@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-4" assembly-id="def-int-meaning-4">
+  <static seed="325" source="Library/Michigan/Chap5Sec4/Q31.pg">
+    <statement><p>Let <m>\int_{0}^{5}\,f(x)\,dx = 3</m>.</p>
+<p><alert>(a)</alert>
+What is the average value of <m>f(x)</m> on the interval from 
+<m>x = 0</m> to <m>x = 5</m>?</p>
+<p>average value = <fillin characters="15" name="AnSwEr0001"/></p>
+<p><alert>(b)</alert>
+If <m>f(x)</m> is even, find each of the following:</p>
+<p><m>\int_{-5}^{5}\,f(x)\,dx =</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p>the average of <m>f(x)</m> on the interval 
+<m>x = -5</m> to <m>x = 5</m> = <fillin characters="15" name="AnSwEr0003"/></p>
+<p><alert>(c)</alert>
+If <m>f(x)</m> is odd, find each of the following:</p>
+<p><m>\int_{-5}^{5}\,f(x)\,dx =</m> <fillin characters="15" name="AnSwEr0004"/></p>
+<p>the average of <m>f(x)</m> on the interval 
+<m>x = -5</m> to <m>x = 5</m> = <fillin characters="15" name="AnSwEr0005"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{3}{5}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2\cdot 3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{3}{5}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <solution><alert>(a)</alert>
+The average value of <m>f(x)</m> on the interval is given by 
+<me>{1\over {5 - 0}}\,\int_{0}^{5}\,f(x)\,dx = 0.6.</me>
+
+
+
+
+<alert>(b)</alert>
+If <m>f(x)</m> is even, then 
+<m>\int_{-5}^{0}\,f(x)\,dx = \int_0^{5}\,f(x)\,dx = 3</m>.
+Thus
+<me>\int_{-5}^{5}\,f(x)\,dx = 6,</me>
+and the average value is accordingly 
+<me>\hbox{avg} = {1\over (5 - (-5))} (3 + 3) = 0.6.</me>
+
+
+
+
+<alert>(c)</alert>
+If <m>f(x)</m> is odd, then 
+<m>\int_{-5}^{0}\,f(x)\,dx = -\int_0^{5}\,f(x)\,dx = 3</m>.
+Thus
+<me>\int_{-5}^{5}\,f(x)\,dx = 0,</me>
+and the average value is therefore also zero.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap5Sec4/Q31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap5Sec4/Q31.pg"/>
+</webwork-reps>

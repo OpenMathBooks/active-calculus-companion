@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-rational-1" assembly-id="apps-opt-rational-1">
+  <static seed="257" source="Library/UMN/calculusStewartCCC/s_4_2_48.pg">
+    <statement><p>Find the absolute maximum and absolute minimum values of <m>\displaystyle f(x) = \frac{x^2-9}{x^2+9}</m> on the interval <m>[-5,5].</m></p>
+<p><alert> 1. </alert> Find the absolute maximum of <m>f</m> on the interval.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert> Find the absolute minimum of <m>f</m> on the interval.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{25-9}{25+9}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_2_48.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_4_2_48.pg"/>
+</webwork-reps>

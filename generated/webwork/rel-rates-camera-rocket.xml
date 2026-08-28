@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-camera-rocket" assembly-id="rel-rates-camera-rocket">
+  <static seed="227" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg">
+    <statement><p>A television camera is positioned <m>4000\,ft</m> from the base of a rocket launching pad. The angle of elevation of the camera has to change at the correct rate in order to keep the rocket in sight. Also, the mechanism for focusing the camera has to take into account the increasing distance from the camera to the rising rocket. Let's assume the rocket rises vertically and its speed is <m>600\,ft/s</m> when it has risen <m>3000\,ft</m>.</p>
+<p>(a) How fast is the distance from the television camera to the rocket changing at that moment?</p>
+<p>(b) If the television camera is always kept aimed at the rocket, how fast is the camera's angle of elevation changing at that same moment?</p>
+<p>(a) <fillin characters="20" name="AnSwEr0001"/> <m>ft/s</m></p>
+<p>(b) <fillin characters="20" name="AnSwEr0002"/> <m>rad/s</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>360</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.096</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_33.pg"/>
+</webwork-reps>

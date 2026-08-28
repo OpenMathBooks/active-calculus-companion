@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-lin-w-given-d-1" assembly-id="tangentline-lin-w-given-d-1">
+  <static seed="62">
+    <statement><p>It turns out that the function <m>f(x) = {\frac{1}{x}}</m> has derivative <m>f'(x) = {\frac{-1}{x^{2}}}</m>.</p>
+<p>Find the linear approximation <m>L(x)</m> to <m>y={\frac{1}{x}}</m> at <m>x=8</m>.</p>
+<p><m>L(x)=</m><fillin characters="31" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.015625\mathopen{}\left(x-8\right)+0.125</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="The_Active_Calculus_Companion/1_8_2_6.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+## DESCRIPTION
+## College Algebra, use substitution to reduce an equation to a quadratic form
+## ENDDESCRIPTION
+
+
+## DBsubject(Calculus - single variable)
+## DBchapter(Applications of differentiation)
+## DBsection(Linear approximation and differentials)
+## Date(05/11/2018)
+## Institution(Colorado Community College System)
+## Author(Eric Fleming)
+## MO(1)
+## KEYWORDS('Linear approximation','reciprocal')
+
+
+###########################
+#  Initialization
+
+DOCUMENT();
+
+loadMacros(
+"PGstandard.pl",
+"MathObjects.pl",
+"AnswerFormatHelp.pl",
+"PGML.pl",
+"PGcourse.pl",
+"parserAssignment.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+###########################
+#  Setup
+
+Context("Numeric");
+Context()->variables->add(y => 'Real');
+parser::Assignment->Allow;
+parser::Assignment->Function("f");
+
+$a=non_zero_random(-10,10,1);
+$b=non_zero_random(-10,10,1);
+$c=non_zero_random(-10,10,1);
+$d=random(2,10,1);
+
+$f=Formula("1/x");
+$feval=$f->eval(x=>$a);
+$fprime=Formula("-1/x^2");
+$m=$fprime->eval(x=>$a);
+
+
+$ans=Formula("$m (x-$a) +$feval");
+
+###########################
+#  Main text
+
+BEGIN_PGML
+It turns out that the function [`f(x) = [$f]`] has derivative [`f'(x) = [$fprime]`].
+
+Find the linear approximation [`L(x)`] to [`y=[$f]`] at [`x=[$a]`].
+
+[`L(x)=`][_______________________________]{$ans}
+
+
+
+END_PGML
+
+
+############################
+#  Solution
+
+#BEGIN_PGML_SOLUTION
+#Solution explanation goes here.
+#END_PGML_SOLUTION
+
+COMMENT('MathObject version. Uses PGML.');
+
+ENDDOCUMENT();
+    ]]></pg>
+</webwork-reps>

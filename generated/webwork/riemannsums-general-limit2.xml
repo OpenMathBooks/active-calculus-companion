@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-general-limit2" assembly-id="riemannsums-general-limit2">
+  <static seed="305" source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg">
+    <statement><p>In this problem you will calculate the area between 
+<m>f(x) = 2 x</m> and the <m>x</m>-axis over the interval <m>\lbrack 0, 6 \rbrack</m>
+using a limit of right-endpoint Riemann sums:</p>
+<p><me>\mathrm{Area} = \lim_{n \to \infty} \left( \sum_{k=1}^{n} f(x_k) \Delta x \right).</me></p>
+<p>Express the following quantities in terms of <m>n</m>, the number of rectangles in the Riemann sum, and <m>k</m>, the index for the rectangles in the Riemann sum.</p>
+<p><OL TYPE="a"/></p>
+<p><LI> We start by subdividing <m>\lbrack 0, 6 \rbrack</m> into <m>n</m> equal width subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \ldots, \lbrack x_{n-1}, x_{n} \rbrack</m> each of width <m>\Delta x</m>.
+Express the width of each subinterval <m>\Delta x</m> in terms of the number of subintervals <m>n</m>.</LI></p>
+<p><m>\Delta x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><BR><BR>
+<LI> Find the right endpoints <m>x_1, x_2, x_3</m> of the first, second, and third subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \lbrack x_2, x_3 \rbrack</m> and express your answers in terms of <m>n</m>.</LI></BR></BR></p>
+<p><m>x_1, x_2, x_3 =</m> <fillin characters="30" name="AnSwEr0002"/> (Enter a comma separated list.)</p>
+<p><BR><BR>
+<LI> Find a general expression for the right endpoint <m>x_k</m> of the <m>k</m><SUP>th</SUP> subinterval <m>\lbrack x_{k-1}, x_{k} \rbrack</m>, where <m>1 \leq k \leq n</m>.  Express your answer in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>x_k =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+<p><BR><BR>
+<LI> Find <m>f(x_k)</m> in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>f(x_k) =</m> <fillin characters="30" name="AnSwEr0004"/></p>
+<p><BR><BR>
+<LI> Find <m>f(x_k) \Delta x</m> in terms of <m>k</m> and <m>n</m>.</LI></BR></BR></p>
+<p><m>f(x_k) \Delta x =</m> <fillin characters="30" name="AnSwEr0005"/></p>
+<p><BR><BR>
+<LI> Find the value of the right-endpoint Riemann sum in terms of <m>n</m>.</LI></BR></BR></p>
+<p><m>\displaystyle \sum_{k=1}^{n} f(x_k) \Delta x =</m> <fillin characters="60" name="AnSwEr0006"/></p>
+<p><BR><BR>
+<LI> Find the limit of the right-endpoint Riemann sum.</LI></BR></BR></p>
+<p><m>\displaystyle \lim_{n\to\infty} \left( \sum_{k=1}^{n} f(x_k) \Delta x \right) =</m> <fillin characters="20" name="AnSwEr0007"/></p>
+<p/>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{6}{n}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{6}{n}, 2\frac{6}{n}, 3\frac{6}{n}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>k\frac{6}{n}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2k\frac{6}{n}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2k\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{2n\mathopen{}\left(n+1\right)}{2}\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{2\cdot 6^{2}}{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg"/>
+</webwork-reps>

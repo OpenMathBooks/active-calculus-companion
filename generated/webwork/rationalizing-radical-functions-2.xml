@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rationalizing-radical-functions-2" assembly-id="rationalizing-radical-functions-2">
+  <static seed="29" source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg">
+    <statement><p>Rationalize the denominator.</p>
+<p><CENTER/></p>
+<tabular valign="middle">
+<row>
+<cell><m>\displaystyle  \frac{-6}{4 + \sqrt{z }} =</m></cell>
+<cell><fillin characters="20" name="AnSwEr0001"/>
+<p><fillin characters="20" name="AnSwEr0002"/></p></cell>
+</row>
+</tabular>
+<p/>
+<p>Type an exact answer using radical notation if necessary.</p>
+<p><B>Help:</B>
+To enter the square root of a number use <B>sqrt()</B>. For example, to give <m>\sqrt{7x}</m> as an answer, you would type sqrt(7x). If you mistakenly type sqrt 7x instead, Webwork will take this to mean <m>x \sqrt{7}</m>, not <m>\sqrt{7x}</m>. That is, you MUST put parenthesis around everything that you want to take the square root of.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-6\mathopen{}\left(4-\sqrt{z}\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>16-z</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg"/>
+</webwork-reps>

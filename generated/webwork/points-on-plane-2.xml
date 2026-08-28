@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-points-on-plane-2" assembly-id="points-on-plane-2">
+  <static seed="2" source="Library/NewHampshire/unh_schoolib/Graphs/grabrs102.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/points-on-plane-2-image-1.png" width="100%"/>
+<p>In the graph above, the x and y values are shown on the axes.</p>
+<p>Find the coordinates of each of the marked points.</p>
+<p><input name="submitAnswers" onclick="document.getElementById('_panicked').value++" type="submit" value=" Ask for a Hint"/></p>
+<p>The point with coordinates (4,-4) is <fillin characters="1" name="AnSwEr0001"/>.</p>
+<p>The point with coordinates (5,4) is <fillin characters="1" name="AnSwEr0002"/>.</p>
+<p>The point with coordinates (1,1) is <fillin characters="1" name="AnSwEr0003"/>.</p>
+<p>The point with coordinates (1,-3) is <fillin characters="1" name="AnSwEr0004"/>.</p>
+<p>The point with coordinates (2,3) is <fillin characters="1" name="AnSwEr0005"/>.</p>
+<p>The point with coordinates (-1,-4) is <fillin characters="1" name="AnSwEr0006"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{F}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{C}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{B}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{D}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{A}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{E}</m>
+      </p>
+    </answer>
+    <solution><p>Solution</p>
+<p>The coordinates of a point are the pair (x,y) where x is the distance to the
+right</p>
+<p>of the y axis (which is negative if the point is to the left of the
+y axis)</p>
+<p>and y is the distance above the x axis.</p>
+<p>For example, the point with coordinates (2,1) is 2 unit to the right of the y axis</p>
+<p>and 3 units above the x axis, so it is the point A.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/NewHampshire/unh_schoolib/Graphs/grabrs102.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NewHampshire/unh_schoolib/Graphs/grabrs102.pg"/>
+</webwork-reps>

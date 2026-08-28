@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-6" assembly-id="apps-lhr-6">
+  <static seed="234" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg">
+    <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 1} \dfrac{10 \ln x}{8 \sin ( \pi x ) }=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.397887357729739</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_20.pg"/>
+</webwork-reps>

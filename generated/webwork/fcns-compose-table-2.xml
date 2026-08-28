@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-table-2" assembly-id="fcns-compose-table-2">
+  <static seed="151" source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg">
+    <statement><p><sbsgroup margins="0% 0%" widths="10% 10% 10% 10% 10% 10% 10% 10% 10% 10%">
+<sidebyside valign="top">
+<stack>
+<p><m>x</m></p>
+</stack>
+<stack>
+<p>1</p>
+</stack>
+<stack>
+<p>2</p>
+</stack>
+<stack>
+<p>3</p>
+</stack>
+<stack>
+<p>4</p>
+</stack>
+<stack>
+<p>5</p>
+</stack>
+<stack>
+<p>6</p>
+</stack>
+<stack>
+<p>7</p>
+</stack>
+<stack>
+<p>8</p>
+</stack>
+<stack>
+<p>9</p>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<p><m>f(x)</m></p>
+</stack>
+<stack>
+<p>7</p>
+</stack>
+<stack>
+<p>6</p>
+</stack>
+<stack>
+<p>7</p>
+</stack>
+<stack>
+<p>4</p>
+</stack>
+<stack>
+<p>9</p>
+</stack>
+<stack>
+<p>9</p>
+</stack>
+<stack>
+<p>8</p>
+</stack>
+<stack>
+<p>8</p>
+</stack>
+<stack>
+<p>7</p>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<p><m>g(x)</m></p>
+</stack>
+<stack>
+<p>6</p>
+</stack>
+<stack>
+<p>8</p>
+</stack>
+<stack>
+<p>8</p>
+</stack>
+<stack>
+<p>6</p>
+</stack>
+<stack>
+<p>2</p>
+</stack>
+<stack>
+<p>1</p>
+</stack>
+<stack>
+<p>5</p>
+</stack>
+<stack>
+<p>7</p>
+</stack>
+<stack>
+<p>4</p>
+</stack>
+</sidebyside>
+</sbsgroup></p>
+<p>Use the table to evaluate the expression,</p>
+<p><m>(g\circ f)(7)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_61.pg"/>
+</webwork-reps>

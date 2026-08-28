@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-exp-product-1" assembly-id="tests-cps-exp-product-1">
+  <static seed="247" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg">
+    <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
+<p><m>f(x) = 4 x e^{4 x}</m></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+<p><fillin characters="10" name="AnSwEr0002"/></p>
+<p><fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.25</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{N}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{N}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_46.pg"/>
+</webwork-reps>

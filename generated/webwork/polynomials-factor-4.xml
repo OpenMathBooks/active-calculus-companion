@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-4" assembly-id="polynomials-factor-4">
+  <static seed="20" source="Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg">
+    <statement><p>Factor the given polynomial</p>
+<p><m>{5x^{3}-15x^{2}+35x-105}=</m> <fillin characters="19" name="AnSwEr0001"/></p>
+<p>If the expression cannot be factored then answer with <alert>prime</alert>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>5\mathopen{}\left(x^{2}+7\right)\mathopen{}\left(x-3\right)</m>
+      </p>
+    </answer>
+    <solution><p>There is a greatest common factor of <m>5</m>.  Start by factoring that out.</p>
+<p><m>5({x^{3}-3x^{2}+7x-21})</m></p>
+<p>Then we can factor the remaining expression by grouping.</p>
+<p><m>5(x^2(x - 3) + 7(x - 3))</m></p>
+<p><m>{5\mathopen{}\left(x^{2}+7\right)\mathopen{}\left(x-3\right)}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/QuantitativeLiteracy/IA_6.1/OpenStax_IA_6.1_53.pg"/>
+</webwork-reps>

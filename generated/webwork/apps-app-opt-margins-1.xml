@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-margins-1" assembly-id="apps-app-opt-margins-1">
+  <static seed="271" source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg">
+    <statement><p>A printed poster is to have a total area of 740 square inches with top and
+bottom margins of 2 inches and side margins of 6 inches. What should be the
+dimensions of the poster so that the printed area be as large as possible?</p>
+<p>To solve this problem let <m>x</m> denote the width of the poster in inches and
+let <m>y</m> denote the length in inches. We need to maximize the following
+function of <m>x</m> and <m>y</m>:</p>
+<p><fillin characters="35" name="AnSwEr0001"/></p>
+<p>We can reexpress this as the following function of <m>x</m> alone:</p>
+<p><m>f(x) =</m> <fillin characters="45" name="AnSwEr0002"/></p>
+<p>We find that <m>f(x)</m> has a critical number at <m>x=</m><fillin characters="20" name="AnSwEr0003"/></p>
+<p>To verify that <m>f(x)</m> has a maximum at this critical number we compute
+the second derivative <m>f''(x)</m> and find that its value at the critical
+number is <fillin characters="20" name="AnSwEr0004"/>, a negative number.</p>
+<p>Thus the optimal dimensions of the poster are <fillin characters="20" name="AnSwEr0005"/> inches in
+width and <fillin characters="20" name="AnSwEr0006"/> inches in height giving us a maximumal printed
+area of <fillin characters="20" name="AnSwEr0007"/> square inches.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(x-12\right)\mathopen{}\left(y-4\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(x-12\right)\mathopen{}\left(\frac{740}{x}-4\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>47.116875957559</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.169790543991204</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>47.116875957559</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>15.7056253191863</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>411.064992339528</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg"/>
+</webwork-reps>

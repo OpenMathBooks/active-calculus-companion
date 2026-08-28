@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-graph-2" assembly-id="limits-from-graph-2">
+  <static seed="33" source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg">
+    <statement><p>Evaluate each expression using the given graph of <m>f(x)</m>.</p>
+<p>Enter <alert> DNE </alert> if the limit or value does not exist.</p>
+<p>If you are having a hard time seeing the picture clearly, click
+on the picture.  It will expand to a larger picture on its own page so
+that you can inspect it more clearly.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/limits-from-graph-2-image-1.png" width="66%"/>
+<p>a) <m>\displaystyle \lim_{x \to 2^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle \lim_{x \to 2^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle \lim_{x \to 2}f(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>\displaystyle \lim_{x \to -2^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+<p>e) <m>\displaystyle \lim_{x \to -2^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0005"/></p>
+<p>f)  <m>\displaystyle \lim_{x \to -2}f(x) =</m> <fillin characters="20" name="AnSwEr0006"/></p>
+<p>In problems g-i, assume <m>a</m> is an <alert> integer </alert> such that 
+<m>-3 \leq a \leq 3</m>.</p>
+<p>d) <m>\displaystyle \lim_{x \to a^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0007"/></p>
+<p>e) <m>\displaystyle \lim_{x \to a^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0008"/></p>
+<p>f)  <m>\displaystyle \lim_{x \to a}f(x) =</m> <fillin characters="20" name="AnSwEr0009"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>a-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>a</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
+</webwork-reps>

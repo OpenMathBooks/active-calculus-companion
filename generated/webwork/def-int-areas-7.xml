@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-7" assembly-id="def-int-areas-7">
+  <static seed="312" source="Library/UMN/calculusStewartCCC/s_5_2_31.pg">
+    <statement><p>The graph of <m>f</m> is shown below.  Evaluate each integral by interpreting it in terms of areas.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-7-image-1.png" width="73%"/>
+<p><alert> 1. </alert> <m>\displaystyle \int_0^2 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert> <m>\displaystyle \int_0^5 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0002"/></p>
+<p><alert> 3. </alert> <m>\displaystyle \int_5^7 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0003"/></p>
+<p><alert> 4. </alert> <m>\displaystyle \int_0^9 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0004"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_5_2_31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_5_2_31.pg"/>
+</webwork-reps>

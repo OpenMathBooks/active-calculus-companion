@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-quot-combined-3" assembly-id="derivatives-prod-quot-combined-3">
+  <static seed="117" source="Library/Union/setDervProductQuotientRule/3-5-55.pg">
+    <statement><p>Let <m>f(x) = \displaystyle \frac{\left(6x^{2}-5\right)\mathopen{}\left(x^{2}-4\right)}{x^{2}+6}</m>.  Evaluate <m>f'(x)</m> at <m>x = 3</m>.</p>
+<p><m>f'( 3 ) =</m><fillin characters="50" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>25.0667</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setDervProductQuotientRule/3-5-55.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setDervProductQuotientRule/3-5-55.pg"/>
+</webwork-reps>

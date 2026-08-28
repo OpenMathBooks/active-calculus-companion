@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-3" assembly-id="apps-opt-polynomial-3">
+  <static seed="260" source="Library/ma122DB/set7/s4_1_53.pg">
+    <statement><p>Consider the function <m>f(x) = x^4 - 72 x^2+ 8 , \quad  -5 \leq x \leq 13</m>.</p>
+<p>Find the absolute minimum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>find the absolute maximum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1288</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>16401</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_53.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set7/s4_1_53.pg"/>
+</webwork-reps>

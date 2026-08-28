@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-fraction" assembly-id="derivatives-power-fraction">
+  <static seed="76" source="Library/Michigan/Chap3Sec1/Q09.pg">
+    <statement><p>Find the derivative of 
+<m>y=x^{9/10}</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{9}{10}x^{\frac{9}{10}-1}</m>
+      </p>
+    </answer>
+    <solution><me>{dy\over dx} = \frac{9}{10}\cdot x^{(9/10) - 1} = 
+  \frac{9}{10}\cdot x^{-1/10}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap3Sec1/Q09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap3Sec1/Q09.pg"/>
+</webwork-reps>

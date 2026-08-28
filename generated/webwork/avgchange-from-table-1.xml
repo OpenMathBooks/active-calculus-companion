@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-avgchange-from-table-1" assembly-id="avgchange-from-table-1">
+  <static seed="10" source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg">
+    <statement><p><sbsgroup margins="0% 0%" widths="10% 10% 10% 10% 10% 10% 10% 10% 10% 10%">
+<sidebyside valign="top">
+<stack>
+<p>Year</p>
+</stack>
+<stack>
+<p>1998</p>
+</stack>
+<stack>
+<p>1999</p>
+</stack>
+<stack>
+<p>2000</p>
+</stack>
+<stack>
+<p>2001</p>
+</stack>
+<stack>
+<p>2002</p>
+</stack>
+<stack>
+<p>2003</p>
+</stack>
+<stack>
+<p>2004</p>
+</stack>
+<stack>
+<p>2005</p>
+</stack>
+<stack>
+<p>2006</p>
+</stack>
+</sidebyside>
+<sidebyside valign="top">
+<stack>
+<p>Sales (millions of dollars)</p>
+</stack>
+<stack>
+<p>201</p>
+</stack>
+<stack>
+<p>219</p>
+</stack>
+<stack>
+<p>233</p>
+</stack>
+<stack>
+<p>240</p>
+</stack>
+<stack>
+<p>253</p>
+</stack>
+<stack>
+<p>251</p>
+</stack>
+<stack>
+<p>254</p>
+</stack>
+<stack>
+<p>243</p>
+</stack>
+<stack>
+<p>233</p>
+</stack>
+</sidebyside>
+</sbsgroup></p>
+<p>The table above gives the annual sales (in millions of dollars) of a product from 1998 to 2006. What was the average rate of change of annual sales,</p>
+<p>(a) between 2001 and 2002? <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) between 2001 and 2004? <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>13</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4.66667</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_26.pg"/>
+</webwork-reps>

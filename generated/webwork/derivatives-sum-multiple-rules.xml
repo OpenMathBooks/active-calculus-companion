@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-sum-multiple-rules" assembly-id="derivatives-sum-multiple-rules">
+  <static seed="1" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg">
+    <statement><p>Let <m>f</m> and <m>g</m> be functions that satisfy
+<m>f'(2) = -10</m> and <m>g'(2) = 9</m>.  Find <m>h'(2)</m>
+for each function <m>h</m> given below:</p>
+<p>(A) <m>h(x) = 4 f(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(B) <m>h(x) = -3 g(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(C) <m>h(x) = 12 f(x) + 7 g(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0003"/></p>
+<p>(D) <m>h(x) = 6 g(x) - 13 f(x)</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0004"/></p>
+<p>(E) <m>h(x) = 4 f(x) + 9 g(x)  -   10</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0005"/></p>
+<p>(F) <m>h(x) = -10 g(x) - 5 f(x)  -    8 x</m>.</p>
+<p><m>h'(2)</m> = <fillin characters="10" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-40</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-27</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-57</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>184</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>41</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-48</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-19.pg"/>
+</webwork-reps>

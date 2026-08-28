@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-antiderivative-3" assembly-id="ftc-antiderivative-3">
+  <static seed="331" source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg">
+    <statement><p>Let <m>\displaystyle f(x) = \frac{7}{x} - 2 e^x</m>.</p>
+<p>Enter an antiderivative of <m>f(x)</m></p>
+<p><fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7\ln\mathopen{}\left(\left|x\right|\right)-2\cdot 2.71828^{x}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setDerivatives20Antideriv/S04.10.Antiderivatives.PTP02.pg"/>
+</webwork-reps>

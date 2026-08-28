@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-evaluating-functions-2" assembly-id="evaluating-functions-2">
+  <static seed="4" source="Library/FortLewis/Algebra/4-1-What-is-a-function/MCH1-4-1-24-What-is-a-function.pg">
+    <statement><p>Suppose the function <m>g</m> is given by the 
+following table of values.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell> <m>y =</m> </cell>
+<cell> -10 </cell>
+<cell> -5 </cell>
+<cell> 0 </cell>
+<cell> 5 </cell>
+<cell> 10 </cell>
+</row>
+<row>
+<cell> <m>g(y) =</m> </cell>
+<cell> 5 </cell>
+<cell> -10 </cell>
+<cell> -5 </cell>
+<cell> 10 </cell>
+<cell> 0 </cell>
+</row>
+</tabular>
+<p>Use the table to fill in the missing values.
+There may be more than one correct answer, in 
+which case you should enter your answers as a 
+comma separated list.  If there are no correct
+answers, enter <em>NONE.</em></p>
+<p><m>g(0)</m> = <fillin characters="5" name="AnSwEr0001"/></p>
+<p><m>g(10) =</m> <fillin characters="5" name="AnSwEr0002"/></p>
+<p><m>g \big(</m> <fillin characters="5" name="AnSwEr0003"/> <m>\big) = 0</m></p>
+<p><m>g \big(</m> <fillin characters="5" name="AnSwEr0004"/> <m>\big) = 10</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/4-1-What-is-a-function/MCH1-4-1-24-What-is-a-function.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/4-1-What-is-a-function/MCH1-4-1-24-What-is-a-function.pg"/>
+</webwork-reps>

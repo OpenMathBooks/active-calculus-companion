@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-pulley-carts" assembly-id="rel-rates-pulley-carts">
+  <static seed="226" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg">
+    <statement><p>Two carts, A and B, are connected by a rope <m>39\,ft</m> long that passes over a pulley <m>P</m>. The point <m>Q</m> is on the floor <m>12\,ft</m> directly beneath <m>P</m> and between the carts. Cart A is being pulled away from <m>Q</m> at a speed of <m>2\,ft/s</m>.</p>
+<p>How fast is cart B moving toward <m>Q</m> at the instant when cart A is <m>5\,ft</m> from <m>Q</m>?</p>
+<p><fillin characters="20" name="AnSwEr0001"/> <m>ft/s</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.86710996952412</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_32.pg"/>
+</webwork-reps>

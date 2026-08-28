@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-box-no-top" assembly-id="apps-app-opt-box-no-top">
+  <static seed="273" source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg">
+    <statement><p>If 1100 square centimeters of material is available to make a box
+with a square base and an open top, find the largest possible volume
+of the box.</p>
+<p>Volume = <fillin characters="30" name="AnSwEr0001"/>
+(include )</p>
+</statement>
+    <answer>
+      <p>
+        <m>3510.57\ {\rm cm^{3}}</m>
+      </p>
+    </answer>
+    <solution><m>x</m> be the length of the sides of the square base.  Then, if <m>h</m> is 
+the height of the box, the volume is given by <m>x^2h</m>.  We need to 
+find an expression for the height <m>h</m> in terms of <m>x</m>.
+
+
+
+This is where we use our information about the amount of material used
+in constructing the box.  If the base of the box has sides of length <m>x</m>, then <m>x^2</m> square centimeters of material are used to make the 
+base. Therefore, we have only <m>1100 - x^2</m> square centimeters of 
+material left to make the sides, of which there are four.  Each of the 
+sides uses <m>hx</m> square centimeters of material.  Therefore, we
+get the formula:
+
+
+
+<me>1100-x^2 = 4(hx) \Rightarrow h = \frac{1100-x^2}{4x}</me>
+
+
+
+Plugging this into our formula for volume, we can now write out <m>v(x)</m>
+as:
+
+
+
+<me>v(x) = x^2\left(\frac{1100-x^2}{4x}\right) = 
+           \frac{{1100}x - x^3}{4}</me>
+
+
+
+Now, we take the derivative of this expression, using the rules for
+taking derivatives of polynomials, to get <m>v'(x) = \frac{1100}{4} - 
+\frac{3}{4}x^2</m>.  Setting this equal to 0 will give us the critical
+points.  When solving, remember that this is a real world situation, so 
+we can not have a negative value for <m>x</m> (which is a length).
+
+
+
+<me>\begin{array}{rcl}
+    v'(x) \amp  = \amp  0 \\
+    \frac{1100}{4} - \frac{3}{4}x^2 \amp  = \amp  0 \\
+    \frac{3}{4}x^2 \amp  = \amp  \frac{1100}{4} \\
+    x^2 \amp  = \amp  \frac{1100}{3} \\
+    x \amp  = \amp  \sqrt{\frac{1100}{3}} \approx 19.15 \\
+  \end{array}</me>
+
+Now, plugging this width into our formula for volume, <m>v(x)</m>, we get
+the maximal volume of <m>v(19.15) = !{3510.57\ {\rm cm^{3}}:\%5.2f}</m>.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg"/>
+</webwork-reps>

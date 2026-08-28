@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-identify-2" assembly-id="fcns-compose-identify-2">
+  <static seed="154" source="Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg">
+    <statement><p>Let <m>f(x) = \sqrt{ 7 - 2 x }</m> .</p>
+<p>Which of the following decompositions of <m>f(x) = p (q(x) )</m> into a pair of functions <m>p(x)</m> (the outside function)  and <m>q(x)</m> (the inside function) is/are correct ?  Select all that apply if more than one is appropriate.</p>
+<p><var form="checkboxes">
+<li>
+<p><m>p(x) = \sqrt{- 2 x}</m> and <m>q(x) = 7 + x</m></p>
+</li>
+<li>
+<p><m>p(x) = \sqrt{x}</m> and <m>q(x) = 7 - 2 x</m></p>
+</li>
+<li>
+<p><m>p(x) = \sqrt{-x}</m> and <m>q(x) = 2 x - 7</m></p>
+</li>
+<li>
+<p><m>p(x) = \sqrt{7 + x}</m> and <m>q(x) = 2 x</m></p>
+</li>
+<li>
+<p><m>p(x) = \sqrt{7 - x}</m> and <m>q(x) = 2 x</m></p>
+</li>
+<li>
+<p><m>p(x) = 7 - 2 x</m> and <m>q(x) = \sqrt{x}</m></p>
+</li>
+<li>
+<p>All of the above</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+There is often many (even infinite) ways to decompose a given
+function into a suitable pair of inside and outside functions.
+In this case, the following decompositions work:
+<me>\begin{aligned}
+ p(x) = \sqrt{x},\amp \qquad q(x) = 7 - 2 x \\
+ p(x) = \sqrt{7 - x}\amp \qquad q(x) = 2 x \\
+ p(x) = \sqrt{-x} \amp \qquad q(x) = 2 x - 7
+\end{aligned}</me>
+
+
+
+The other choices do not work since:
+
+
+
+If <m>p(x) = 7 - 2 x</m> and <m>q(x) = \sqrt{x}</m>, then
+<m>p(q(x)) = 7 - 2 \sqrt{x} \ne f(x)</m>.
+
+
+
+if <m>p(x) = \sqrt{7 + x}</m> and <m>q(x) = 2 x</m>, then
+<m>p(q(x)) = \sqrt{7+2 x} \ne f(x)</m>.
+
+
+
+if <m>p(x) = \sqrt{- 2 x}</m> and <m>\ q(x) = 7 + x</m>,
+then <m>p(q(x)) = \sqrt{-2 x - 14} \ne f(x)</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap8Sec1/Q52.pg"/>
+</webwork-reps>

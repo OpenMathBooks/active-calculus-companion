@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-polynomial-expand-tangent" assembly-id="derivatives-polynomial-expand-tangent">
+  <static seed="89" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=(1+2x)^2</m> at the point <m>(4,81)</m>.</p>
+<p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>36\mathopen{}\left(x-4\right)+81</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg"/>
+</webwork-reps>

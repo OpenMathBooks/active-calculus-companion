@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-3" assembly-id="chainrule-algebra-3">
+  <static seed="159" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg">
+    <statement><p>Compute the derivative of the given function.</p>
+<p><me>f(x) = \ln(\cos x)</me></p>
+<p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-\tan\mathopen{}\left(x\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Use the Chain Rule with inside function <m>u = \cos x</m>
+and outside function <m>y = \ln u</m>. 
+
+
+
+<me>\begin{array}{rcl}
+    f'(x) \amp =\amp  \displaystyle\frac{dy}{du} \cdot \frac{du}{dx}\\
+    \amp \amp \\
+    \amp =\amp  \displaystyle \left(\frac{1}{u} \right)(-\sin x) \\
+    \amp \amp \\
+    \amp =\amp  \displaystyle\frac{1}{\cos x} (-\sin x) \\
+    \amp \amp \\
+    \amp =\amp  -\tan x
+  \end{array}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg"/>
+</webwork-reps>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-11" assembly-id="implicit-diff-11">
+  <static seed="209" source="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg">
+    <statement><p>Use implicit differentiation to find the
+points where the <alert> parabola </alert>
+defined by 
+<me>x^{2}-2xy+y^{2}+4x-8y+16 = 0</me>
+has horizontal and vertical tangent lines.</p>
+<p>The parabola has horizontal tangent lines
+at the 
+<fillin characters="15" name="AnSwEr0001"/>.</p>
+<p>The parabola has vertical tangent lines
+at the point(s) <fillin characters="15" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(1,3\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(0,4\right)</m>
+      </p>
+    </answer>
+    <solution><p>Differentiating implicitly with respect
+to <m>x</m> gives <me>2x-2y-2x\, \frac{dy}{dx}+2y\, \frac{dy}{dx}+4-8\, \frac{dy}{dx} = 0,</me> or
+<me>(y-x-4) \, \frac{dy}{dx} = y-x-2,</me>
+and so
+<me>\frac{dy}{dx} = \frac{y-x-2}{y-x-4}.</me>
+The tangent line to the parabola is
+horizontal where <m>\frac{dy}{dx} = 0</m>,
+i.e., where <m>x - y = -2</m>.  The
+equation of the parabola can be written
+in the form <me>\left(x-y\right)^{2}+4\mathopen{}\left(x-y\right)+16-4y = 0,</me>
+and <m>x - y = -2</m> gives <m>12 = 4y</m>,
+or <m>y = 3</m>, and <m>x = 1</m>.
+Hence, the tangent line to the parabola is
+horizontal at the point <m>\left(1,3\right)</m>
+and nowhere else.</p>
+<p>The tangent line the the parabola is
+vertical where <me>0 = \frac{dx}{dy} = \frac{y-x-4}{y-x-2},</me> i.e., where <m>x - y = -4</m>.
+Together with the last displayed
+equation of the parabola, this gives
+<m>16 - 4y = 0</m>, or <m>y = 4</m>,
+and <m>x = 0</m>. Hence, the tangent
+line to the parabola is vertical at the
+point <m>\left(0,4\right)</m> and nowhere else.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_3_5_prob02.pg"/>
+</webwork-reps>

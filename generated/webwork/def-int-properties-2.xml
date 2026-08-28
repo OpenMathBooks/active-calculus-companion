@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-2" assembly-id="def-int-properties-2">
+  <static seed="316" source="Library/ma122DB/set11/s5_2_37.pg">
+    <statement><p>If <m>\displaystyle \int_{5}^{7} f(x) dx = 16</m>, then 
+<m>\displaystyle \int_{7}^{5} f(t) dt =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-16</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set11/s5_2_37.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set11/s5_2_37.pg"/>
+</webwork-reps>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-rational-polynomial" assembly-id="derivatives-rational-polynomial">
+  <static seed="78" source="Library/UMN/calculusStewartCCC/s_3_1_18.pg">
+    <statement><p>Differentiate <m>\displaystyle f(x) = \frac{x^{2}-4 x+6}{x^{2}}.</m></p>
+<p>Answer: <m>\displaystyle \frac{d f}{d x} =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(2-1\right)\cdot 4x^{-2}-6\cdot 2x^{-2-1}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_1_18.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_3_1_18.pg"/>
+</webwork-reps>

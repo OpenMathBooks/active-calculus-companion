@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-adding-rational-functions-4" assembly-id="adding-rational-functions-4">
+  <static seed="27" source="Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg">
+    <statement><p>Add or subtract the rational expressions.</p>
+<p><m>\displaystyle{{\frac{p}{p-8}} - {\frac{p-10}{p+8}} = }</m><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{26p+\left(-80\right)}{\left(p+8\right)\mathopen{}\left(p-8\right)}</m>
+      </p>
+    </answer>
+    <solution><p>The LCD must contain each factor from each denominator, so the LCD = <m>{\left(p+8\right)\mathopen{}\left(p-8\right)}</m>.</p>
+<p>We need to rewrite each expression with the LCD:</p>
+<p><m>\displaystyle{ {\frac{p}{p-8}} \cdot \frac{p+8}{p+8} - {\frac{p-10}{p+8}} \cdot \frac{p-8}{p-8} }</m></p>
+<p><m>\displaystyle{ \frac{{p^{2}+8p}}{{\left(p+8\right)\mathopen{}\left(p-8\right)}} - \frac{{p^{2}-10p-8p+80}}{{\left(p+8\right)\mathopen{}\left(p-8\right)}} }</m></p>
+<p>Notice the subtraction applies to every term in the 2nd fraction:</p>
+<p><m>\displaystyle{\frac{{p^{2}+8p}}{{\left(p+8\right)\mathopen{}\left(p-8\right)}} + \frac{{-p^{2}+18p-80}}{{\left(p+8\right)\mathopen{}\left(p-8\right)}}}</m></p>
+<p><m>\displaystyle{{\frac{26p-80}{\left(p+8\right)\mathopen{}\left(p-8\right)}}}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/AlgebraicLiteracy/IA_7.2/OpenStax_IA_7.2_121.pg"/>
+</webwork-reps>

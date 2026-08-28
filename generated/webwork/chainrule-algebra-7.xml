@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-7" assembly-id="chainrule-algebra-7">
+  <static seed="163" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg">
+    <statement><p>Suppose <m>f(x)=\sin{x}</m>, and let <m>k</m> be a real number. Let <m>F(x)=f(x^k)</m> and <m>G(x)=[f(x)]^k</m>.</p>
+<p>Find expressions for (a) <m>F'(x)</m> and (b) <m>G'(x)</m>.</p>
+<p>(a) <m>F'(x)=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p>(b) <m>G'(x)=</m> <fillin characters="30" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\cos\mathopen{}\left(x^{k}\right)kx^{k-1}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>k\mathopen{}\left(\sin\mathopen{}\left(x\right)\right)^{k-1}\cos\mathopen{}\left(x\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_62.pg"/>
+</webwork-reps>

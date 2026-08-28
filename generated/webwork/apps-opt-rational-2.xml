@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-rational-2" assembly-id="apps-opt-rational-2">
+  <static seed="261" source="Library/ma122DB/set7/s4_1_57.pg">
+    <statement><p>Consider the function <m>f(x) = \displaystyle \frac{-x}{9x^{2}+1} , \quad 0\le x\le 2.</m></p>
+<p>This function has an absolute minimum value equal to: <fillin characters="15" name="AnSwEr0001"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p>and an absolute maximum value equal to: <fillin characters="20" name="AnSwEr0003"/></p>
+<p>which is attained at <m>x=</m> <fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-1}{2\sqrt{9}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{1}{\sqrt{9}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <solution><p>SOLUTION</p>
+<p>The quotient rule gives;
+<me>f'(x) = \frac{9 x^2 -1}{(9 x^2 +1)^2}</me>
+Since <m>f'(x)</m> is defined for all <m>x</m>, the only critical numbers  of <m>f</m> occur
+when <m>f'(x) =0</m>, that is <m>9 x^2  -1 =0</m>.</p>
+<p>This equation is satisfied for <m>x = 1/\sqrt{9}</m> and <m>x = -1/\sqrt{9}</m>.</p>
+<p>However, <m>x = -1/\sqrt{9}</m> is not in the interval <m>[0, 2]</m>. Thus the only critical number is <m>x = 1/\sqrt{9}</m>. 
+The value of <m>f</m> at this critical number is
+<me>f\left(\frac{1}{\sqrt{9}}\right) = - \frac{1}{2\sqrt{9}} \approx -0.166667</me> 
+The values of <m>f</m> at the endpoints of the interval are 
+<me>f(0)= 0 \quad \text{and} \quad f(2) =  -{\frac{2}{37}} \approx -0.0540541</me>
+Comparing these values we can see that the absolute minimum  value is equal to
+<m>- \displaystyle \frac{1}{2\sqrt{9}}</m> and it is attained at <m>x = \displaystyle \frac{1}{\sqrt{9}}</m>, while 
+the absolute maximum value is <m>0</m> and it is attained at <m>x = 0</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_57.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set7/s4_1_57.pg"/>
+</webwork-reps>

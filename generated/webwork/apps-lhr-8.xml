@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-8" assembly-id="apps-lhr-8">
+  <static seed="236" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg">
+    <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 0} 2 \cot (2 x) \sin (1 x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_39.pg"/>
+</webwork-reps>

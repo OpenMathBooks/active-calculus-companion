@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-cancel-1" assembly-id="polynomials-factor-cancel-1">
+  <static seed="22" source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg">
+    <statement><p>Simplify the rational expression.  
+<me>\frac{3x+15}{x^{2}-x-30}</me>
+Answer:  <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>No correct answer specified</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_06_01_MultDivRationalExpressions/61IntAlg_08_MultDivRatExp.pg"/>
+</webwork-reps>

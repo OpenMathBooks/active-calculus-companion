@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-mixed-radical" assembly-id="derivatives-power-mixed-radical">
+  <static seed="81" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg">
+    <statement><p>Differentiate the following function:
+<me>\displaystyle u = \sqrt[3]{t^2} + 6 \sqrt{t^3}</me></p>
+<p><m>u'=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.666667t^{-0.333333}+9t^{0.5}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_30.pg"/>
+</webwork-reps>

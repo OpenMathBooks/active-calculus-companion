@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-triangle" assembly-id="apps-app-opt-triangle">
+  <static seed="277" source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg">
+    <statement><p>Find the maximal area of a right triangle
+with hypotenuse of length 6.</p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>9</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Let <m>x, y</m> be the lengths of the legs of the
+triangle.  By the Pythagorean Theorem,
+<m>x^2 + y^2 = 6^2</m>.  Solving for <m>y</m>,
+we get:
+<me>y = \sqrt{36 - x^2}</me>
+
+
+
+The fundamental equation (to be maximized) is the
+area of the triangle,
+<m>A = \frac{1}{2}xy</m>.  
+Substitute <m>y = \sqrt{36 - x^2}</m>
+and find the critical number(s).
+<me>\begin{array}{rcl}
+    A \amp =\amp  \frac{1}{2}x\sqrt{36 - x^2} \\
+    \amp \amp \\
+    A' \amp =\amp  \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{36 - x^2}}
+     + \sqrt{36 - x^2}\right)\\
+    \amp \amp \\
+    \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{36 - x^2}}
+     + \sqrt{36 - x^2}\right) \amp =\amp  \\
+     \amp \amp \\
+     -x^2 + (36 - x^2) \amp =\amp  0 \\
+    2x^2 \amp =\amp  36 \\
+    x \amp =\amp  \pm \sqrt{18}
+  \end{array}</me> 
+
+
+
+Since lengths are required to be positive, we
+choose <m>x = \sqrt{18}</m>.
+The corresponding <m>y</m> value is:
+<me>y = \sqrt{36 - x^2} = 
+   \sqrt{36 - 18} = \sqrt{18}.</me>
+
+
+
+Therefore, the maximal area is:
+<me>A = \frac{1}{2}xy = \frac{1}{2} \sqrt{18} \cdot \sqrt{18} = 9.</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg"/>
+</webwork-reps>

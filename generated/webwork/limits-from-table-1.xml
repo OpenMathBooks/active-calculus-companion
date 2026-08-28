@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-table-1" assembly-id="limits-from-table-1">
+  <static seed="37" source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg">
+    <task><title>Part 1 - 1 point</title>
+<statement><p>Consider the function <m>\displaystyle{ f(x) = {3x-4} }</m>. Complete the table with the appropriate values for <m>f(x)</m>. Round to four decimal places.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+<cell>`x`</cell>
+<cell>`f(x)`</cell>
+</row>
+<row>
+<cell>-4.1</cell>
+<cell><fillin characters="12" name="AnSwEr0001"/></cell>
+<cell>-3.9</cell>
+<cell><fillin characters="12" name="AnSwEr0002"/></cell>
+</row>
+<row>
+<cell>-4.01</cell>
+<cell><fillin characters="12" name="AnSwEr0003"/></cell>
+<cell>-3.99</cell>
+<cell><fillin characters="12" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell>-4.001</cell>
+<cell><fillin characters="12" name="AnSwEr0005"/></cell>
+<cell>-3.999</cell>
+<cell><fillin characters="12" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+</statement><answer><p><m>-16.3</m></p></answer><answer><p><m>-15.7</m></p></answer><answer><p><m>-16.03</m></p></answer><answer><p><m>-15.97</m></p></answer><answer><p><m>-16.003</m></p></answer><answer><p><m>-15.997</m></p></answer></task>
+    <task><title>Part 2 - 1 point</title>
+<statement><p>The results from the table indicate the two-sided limit of <m>\displaystyle{ \lim_{x \to -4} {3x-4}}</m> is <fillin characters="10" name="AnSwEr0007"/>  (if the two-sided limit does not exist, type in DNE).</p>
+</statement><hint><p>Recall, the two sided limit exists if and only if both one sided limits exist and are equal. In other words,</p>
+<p><m>\displaystyle{\lim_{x\rightarrow a} f(x)}</m> exists and is equal to <m>L</m> if and only if <m>\displaystyle{\lim_{x\rightarrow a^+} f(x)=\lim_{x\rightarrow a^-} f(x) = L}</m></p>
+</hint><answer><p><m>-16</m></p></answer></task>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CalculusOne/02.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_02_2_39.pg"/>
+</webwork-reps>

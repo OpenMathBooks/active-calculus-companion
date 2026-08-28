@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-kite-angle" assembly-id="rel-rates-kite-angle">
+  <static seed="228" source="Library/UMN/calculusStewartCCC/s_4_1_30.pg">
+    <statement><p>A kite <m>50\text{ft}</m> above the ground moves horizontally at a speed of <m>8\text{ft/s}.</m>  At what rate is the angle between the string and the horizontal decreasing when <m>300\text{ft}</m> of string has been let out?</p>
+<p>Answer (in radians per second): <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{50}{300^{2}}\cdot 8</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_4_1_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_4_1_30.pg"/>
+</webwork-reps>

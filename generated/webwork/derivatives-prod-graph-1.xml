@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-graph-1" assembly-id="derivatives-prod-graph-1">
+  <static seed="125" source="Library/Michigan/Chap3Sec3/Q31.pg">
+    <statement><p>Use the figure below to estimate the indicated derivatives, or state that
+they do not exist.  If a
+derivative does not exist, enter <alert>dne</alert> in the answer
+blank.  The graph of <m>f(x)</m> is black and has a sharp corner at 
+<m>x = 2</m>.  The graph of <m>g(x)</m> is blue.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/derivatives-prod-graph-1-image-1.png" width="58%"/>
+<p>Let <m>h(x) = f(x)\cdot g(x)</m>.  Find</p>
+<p><ol label="A.">
+<li>
+<p><m>h'(1) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><m>h'(2) =</m> <fillin characters="35" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><m>h'(3) =</m> <fillin characters="35" name="AnSwEr0003"/></p>
+</li>
+</ol></p>
+<p><em>(Enter <alert>dne</alert> for any derivative that does not
+exist.)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>2\cdot \left(2-0.5\cdot 1\right)+2\cdot 1\cdot \left(-0.5\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{dne}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2\cdot \left(2-0.5\cdot 3\right)+\left(2\cdot 2-2\cdot \left(3-2\right)\right)\mathopen{}\left(-0.5\right)</m>
+      </p>
+    </answer>
+    <solution><p>Using the product rule, we know that 
+<m>h'(x) = f'(x) \cdot g(x) + f(x) \cdot g'(x)</m>.
+We use slope to compute the derivatives.  Since <m>f(x)</m> is linear on
+the interval <m>0 \lt  x \lt  2</m>, we compute the slope of the line to see
+that <m>f'(x) = 2</m> on this interval.  Similarly, we compute the slope
+on the interval <m>2 \lt  x \lt  4</m> to see that 
+<m>f'(x) = -2</m> there.  Since <m>f(x)</m> has a corner at 
+<m>x = 2</m>, we know that
+<m>f'(2)</m> does not exist. 
+Similarly, <m>g(x)</m> is linear on the interval
+shown, and we see that the slope of <m>g(x)</m> on this interval is 
+-0.5, so we have <m>g'(x) = -0.5</m> on this interval.</p>
+<p><alert>A.</alert>
+We have 
+<m>h'(1) = f'(1) \cdot g(1) + f(1) \cdot g'(1) = 2\cdot 1.5 +
+2\cdot (-0.5) = 2</m>.</p>
+<p><alert>B.</alert>
+We would like to say
+<m>h'(2) = f'(2) \cdot g(2) + f(2) \cdot g'(2)</m>, but actually can't
+apply the product rule here, because <m>f(x)</m> has a corner at 
+<m>x = 2</m>, and is therefore not differentiable there.</p>
+<p>However, for these functions <m>f(x)</m> and <m>g(x)</m> the product rule
+does apply for all points to the left and right of <m>x=2</m>, and
+because the two functions are piecewise linear we can see that for
+<m>x\lt 2</m>,  <m>h'(x) = 2</m> and for <m>x&gt;2</m>, <m>h'(x) = -2</m>.  
+Thus <m>h(x)</m> has the same characteristic non-differentiability as
+<m>f(x)</m> at <m>x=2</m>, and we can say that <m>h'(2)</m> does not exist.</p>
+<p><alert>C.</alert>
+We have 
+<m>h'(3) = f'(3) \cdot g(3) + f(3) \cdot g'(3) = (-2)\cdot 0.5 + 
+   2\cdot (-0.5) = -2</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap3Sec3/Q31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap3Sec3/Q31.pg"/>
+</webwork-reps>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-8" assembly-id="chainrule-algebra-8">
+  <static seed="164" source="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg">
+    <statement><p>a) The remote operated underwater vessel ROPOS descends at a rate of <m>6</m> meters per minute.</p>
+<p>b) The pressure on ROPOS increases by <m>9</m> Pascals for every meter ROPOS descends.</p>
+<p>c) Therefore the pressure on ROPOS is increasing by <m>54</m> Pascals every minute.</p>
+<p>If the depth of ROPOS beneath the water is measured by s, pressure by P, time by t, and the standard units are , then rewrite each of these sentences in Leibniz derivative notation:</p>
+<p>a)<var form="popup">
+<li>
+<p>ds/dt</p>
+</li>
+<li>
+<p>dP/ds</p>
+</li>
+<li>
+<p>dP/dt</p>
+</li>
+</var>=<fillin characters="10" name="AnSwEr0002"/> <var form="popup">
+<li>
+<p>m/min</p>
+</li>
+<li>
+<p>Pa/m</p>
+</li>
+<li>
+<p>Pa/min</p>
+</li>
+</var></p>
+<p>b)<var form="popup">
+<li>
+<p>ds/dt</p>
+</li>
+<li>
+<p>dP/dt</p>
+</li>
+<li>
+<p>dP/ds</p>
+</li>
+</var>=<fillin characters="10" name="AnSwEr0005"/> <var form="popup">
+<li>
+<p>Pa/m</p>
+</li>
+<li>
+<p>Pa/min</p>
+</li>
+<li>
+<p>m/min</p>
+</li>
+</var></p>
+<p>c)<var form="popup">
+<li>
+<p>dP/dt</p>
+</li>
+<li>
+<p>dP/ds</p>
+</li>
+<li>
+<p>ds/dt</p>
+</li>
+</var>=<fillin characters="10" name="AnSwEr0008"/> <var form="popup">
+<li>
+<p>m/min</p>
+</li>
+<li>
+<p>Pa/m</p>
+</li>
+<li>
+<p>Pa/min</p>
+</li>
+</var></p>
+</statement>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>9</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>54</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter3/3.6/prob15.pg"/>
+</webwork-reps>

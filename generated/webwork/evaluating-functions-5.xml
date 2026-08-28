@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-evaluating-functions-5" assembly-id="evaluating-functions-5">
+  <static seed="7">
+    <statement><p>Evaluate the function <m>f(x)=8 x^2 - 7 x + 7</m> at the indicated values:</p>
+<p><m>f(0)=</m> <fillin characters="15" name="AnSwEr0001"/></p>
+<p><m>f(1)=</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p><m>f(-1)=</m> <fillin characters="15" name="AnSwEr0003"/></p>
+<p><m>f(\frac{3}{2})=</m> <fillin characters="15" name="AnSwEr0004"/></p>
+<p><m>f(\frac{x}{2})=</m> <fillin characters="31" name="AnSwEr0005"/></p>
+<p><m>f(x^2)=</m> <fillin characters="31" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>22</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>14.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8\mathopen{}\left(\frac{x}{2}\right)^{2}-7\frac{x}{2}+7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8x^{4}-7x^{2}+7</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="The_Active_Calculus_Companion/1_1_1_7-Evaluate_the_function_at_an_expression.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 8/6/06
+
+## DBsubject(Algebra)
+## DBchapter(Functions)
+## DBsection(Function notation)
+## Institution(ASU)
+## MLT(PolyMixedInput)
+## MLTleader(1)
+## Level(2)
+## KEYWORDS('algebra','function')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "PGML.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a = random(2,9,1);
+$b = random(2,9,1);
+$c = random(1,10,1);
+#$bstr = ($b==1) ? "" : "$b";
+
+BEGIN_PGML
+Evaluate the function [` f(x)=[$a] x^2 - [$b] x + [$c]`] at the indicated values:
+
+[`f(0)= `] [_______________]
+
+[`f(1)= `] [_______________]
+
+[`f(-1)= `] [_______________]
+
+[`f(\frac{3}{2})= `] [_______________]
+
+[`f(\frac{x}{2})= `] [_______________________________]
+
+[`f(x^2)= `] [_______________________________]
+
+END_PGML
+
+$ans1 = $c;
+$ans2 = $a - $b + $c;
+$ans3 = $a + $b + $c;
+$ans4 = $a * 1.5 * 1.5  - $b * 1.5 + $c;
+$ans5 = "$a*(x/2)**2 - $b*(x/2) + $c";
+$ans6 = "$a*x**4 - $b*x**2 + $c";
+ANS(num_cmp($ans1));
+ANS(num_cmp($ans2));
+ANS(num_cmp($ans3));
+ANS(num_cmp($ans4));
+ANS(fun_cmp($ans5, var => 'x'));
+ANS(fun_cmp($ans6, var => 'x'));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+]]></pg>
+</webwork-reps>

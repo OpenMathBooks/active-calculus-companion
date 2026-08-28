@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-4" assembly-id="apps-opt-polynomial-4">
+  <static seed="263" source="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg">
+    <statement><p>Consider the function <m>f(x) =1-6x^{2}, \quad -4 \leq x \leq 1</m>.</p>
+<p>The absolute maximum value is <fillin characters="20" name="AnSwEr0001"/></p>
+<p>and this occurs at <m>x</m> equals <fillin characters="20" name="AnSwEr0002"/></p>
+<p>The absolute minimum value is <fillin characters="20" name="AnSwEr0003"/></p>
+<p>and this occurs at <m>x</m> equals <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-95</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setDerivatives10MaxMin/s3_1_11_mo.pg"/>
+</webwork-reps>

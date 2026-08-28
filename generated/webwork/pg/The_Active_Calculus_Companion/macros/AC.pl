@@ -4,6 +4,28 @@
 #############################################################################
 
 
+TEXT(
+    MODES(
+        HTML => '<div style="display:none;">' . general_math_ev3(<<'EOF') . '</div>',
+\newcommand{\dollar}{\$}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\arctanh}{arctanh}
+              \DeclareMathOperator{\arcsec}{arcsec}
+\newcommand{\amp}{&}
+EOF
+        TeX => '\ifdefined\ptxmacros\else ' . <<'EOF'
+\newcommand{\dollar}{\$}
+\DeclareMathOperator{\erf}{erf}
+\DeclareMathOperator{\arctanh}{arctanh}
+              \DeclareMathOperator{\arcsec}{arcsec}
+\newcommand{\amp}{&}
+\def\ptxmacros{}
+EOF
+. '\fi',
+        PTX => ''
+    )
+);
+
 # Return a string containing the latex-image-preamble contents.
 # To be used by LaTeXImage objects as in:
 # $image->addToPreamble(latexImagePreamble())
@@ -43,3 +65,5 @@ return <<'END_LATEX_IMAGE_PREAMBLE'
 
 END_LATEX_IMAGE_PREAMBLE
 }
+
+1;

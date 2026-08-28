@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-calculating1" assembly-id="riemannsums-calculating1">
+  <static seed="302" source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg">
+    <statement><p>Racing cars driven by Chris and Kelly are side by side at the start of a race.  The table shows the velocities of each car (in miles per hour) during the first ten seconds of the race.</p>
+<p><me>\begin{array}{|c|c|c|}\hline
+t \amp  v_C \amp  v_K \\ \hline
+0       \amp  0               \amp  0               \\ \hline
+1       \amp  20              \amp  22              \\ \hline
+2       \amp  32              \amp  37              \\ \hline
+3       \amp  46              \amp  52              \\ \hline
+4       \amp  54              \amp  61              \\ \hline
+5       \amp  62              \amp  71              \\ \hline
+6       \amp  69              \amp  80              \\ \hline
+7       \amp  75              \amp  86              \\ \hline
+8       \amp  81              \amp  93              \\ \hline
+9       \amp  86              \amp  98              \\ \hline
+10      \amp  90              \amp  102             \\ \hline
+\end{array}</me></p>
+<p>Use the Midpoint Rule (with <m>n = 5</m>) to estimate how much farther (in feet) Kelly travels than Chris does during the first ten seconds.</p>
+<p><fillin characters="20" name="AnSwEr0001"/> feet</p>
+</statement>
+    <answer>
+      <p>
+        <m>117.333333333333</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg"/>
+</webwork-reps>

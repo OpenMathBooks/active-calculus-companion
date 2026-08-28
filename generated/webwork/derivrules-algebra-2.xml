@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-2" assembly-id="derivrules-algebra-2">
+  <static seed="173" source="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg">
+    <statement><p>Suppose <m>\displaystyle f(x) = h(g(x)k(x)).</m> If <m>g(1)=2,</m> <m>k(1)=0,</m> <m>h(1)=-1,</m> <m>g'(1)=8,</m> <m>k'(1)=-7,</m> <m>h'(1)=6,</m> and <m>h'(0)=8,</m> find <m>f'(1).</m></p>
+<p>Answer: <m>f'(1) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8\cdot 2\cdot \left(-7\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/UMN/calculusTaalman/t_2_4_prob02.pg"/>
+</webwork-reps>

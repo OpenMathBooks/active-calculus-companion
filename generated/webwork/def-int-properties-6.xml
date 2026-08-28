@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-6" assembly-id="def-int-properties-6">
+  <static seed="320" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg">
+    <statement><p>Let
+<me>\int_{0}^2 f(x) \, dx = 7, \quad
+  \int_{0}^3 f(x) \, dx = 3, \quad
+  \int_{0}^2 g(x) \, dx = 11, \quad
+  \int_{2}^3 g(x) \, dx = -13, \quad</me></p>
+<p>Use these values to evaluate the given definite integrals.</p>
+<p>a) <m>\displaystyle   \int_{0}^2 
+   \left(f(x) + g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle   \int_{0}^3
+   \left(f(x) - g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle   \int_{2}^3
+   \left(3f(x) + 2g(x)\right) \, dx =</m>
+   <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) Find the value <m>a</m> such that
+<m>\displaystyle   \int_{0}^3 
+   \left(a f(x) + g(x)\right) \, dx = 0</m>.</p>
+<p><m>a =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>18</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-38</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.666666666666667</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+a) 
+<me>\int_0^2 \left(f(x) + g(x)\right) \, dx
+  =  \int_0^2 f(x) \, dx + \int_0^2 g(x) \, dx 
+  = 7 + 11 = 18.</me>
+
+
+
+b) First find the integral of <m>g</m> from 0 to 3.
+<me>\int_0^3 g(x) \, dx = \int_0^2 g(x) \, dx +
+  \int_2^3 g(x) \, dx = 11  - 13 = -2.</me>
+Then
+<me>\int_0^3 \left(f(x) - g(x)\right) \, dx
+  =  \int_0^3 f(x) \, dx - \int_0^3 g(x) \, dx 
+  = 3  + 2 = 5.</me>
+
+
+
+c) First find the integral of <m>f</m> from 2 to 3.
+<me>\begin{array}{rcl}
+    \displaystyle\int_0^3 f(x) \, dx \amp =\amp  
+    \displaystyle\int_0^2 f(x) \, dx +
+    \int_2^3 f(x) \, dx \\
+    3 \amp =\amp  7 + \displaystyle\int_2^3 f(x) \, dx \\
+    \displaystyle\int_2^3 f(x) \, dx \amp =\amp  -4
+  \end{array}</me>
+Then
+<me>\int_{2}^3
+   \left(3f(x) + 2g(x)\right) \, dx =
+  3\int_{2}^3     
+   f(x)  \, dx + 2\int_{2}^3
+   g(x) \, dx</me>
+<me>= 3(-4) + 2(-13) = -38.</me>
+
+
+
+d) Substitute known values for the integrals.
+<me>\begin{array}{rcl}
+    \displaystyle \int_{0}^3 
+   \left(a f(x) + g(x)\right) \, dx \amp =\amp  0 \\
+   a \displaystyle \int_0^3 f(x) \, dx
+   + \int_0^3 g(x) \, dx \amp =\amp  0\\
+   a(3)  - 2 \amp =\amp  \\
+   a \amp =\amp  \frac{ + 2}{3}
+  \end{array}</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_18-21.pg"/>
+</webwork-reps>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-no-antiderivative-1" assembly-id="ftc-no-antiderivative-1">
+  <static seed="327" source="Library/Michigan/Chap5Sec4/Q11.pg">
+    <statement><p>For the function <m>F(t) = \ln\mathopen{}\left(t\right)</m>, let <m>f(t) = F'(t)</m>.
+Write the integral <m>\int_a^b\,f(t)\,dt</m> and evaluate it
+with the Fundamental Theorem of Calculus.</p>
+<p><m>\int_{1}^{3}\,</m> <fillin characters="15" name="AnSwEr0001"/> <m>\,dt =</m>
+<fillin characters="25" name="AnSwEr0002"/></p>
+<p><em>(Note that your answer must be exact, not a
+decimal approximation.)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{t}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.09861-0</m>
+      </p>
+    </answer>
+    <solution><m>f(t) = F'(t)</m>, so the integral we want
+is <m>\int_{1}^{3}\,\frac{1}{t}\,dt</m>.  We can evaluate this
+with the Fundamental Theorem of Calculus, and have
+<m>\int_{1}^{3}\,\frac{1}{t}\,dt = 1.09861 - 0</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap5Sec4/Q11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap5Sec4/Q11.pg"/>
+</webwork-reps>

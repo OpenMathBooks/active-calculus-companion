@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-boats" assembly-id="rel-rates-boats">
+  <static seed="224" source="Library/OSU/high_school_apcalc/dcrev2/prob5.pg">
+    <statement><p>Suppose that two boats leave a dock at different times. One heads due north,
+the other due east.
+Find the rate at which the distance between the boats is changing
+when the first boat is 39 miles 
+from the dock traveling at a speed of 33 miles per hour
+and the second boat is 76
+miles from the dock traveling at a speed of 24 miles per hour.</p>
+<p>Answer: <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>36.4189850147971</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dcrev2/prob5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dcrev2/prob5.pg"/>
+</webwork-reps>

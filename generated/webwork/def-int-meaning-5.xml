@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-5" assembly-id="def-int-meaning-5">
+  <static seed="326" source="Contrib/NAU/setCalcI/integralAsArea.pg">
+    <statement><p>Let <m>f</m> be a linear function such that <m>f(7)=-1</m> and <m>\displaystyle \int_0^7 f = 2</m>.</p>
+<p>a.
+The <m>x</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0001"/> .</p>
+<p>b.
+The <m>y</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0002"/> .</p>
+</statement>
+    <answer>
+      <p>
+        <m>4.27778</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.57143</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/NAU/setCalcI/integralAsArea.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/NAU/setCalcI/integralAsArea.pg"/>
+</webwork-reps>

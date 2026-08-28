@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-eval-3" assembly-id="derivatives-quot-basic-eval-3">
+  <static seed="105" source="Library/ASU-topics/setProductQuotientRule/5-2-21.pg">
+    <statement><p>Suppose that <me>f(x) = \frac{x^{13}+1}{ e^{x} }.</me>  Find <m>f'(1)</m>.</p>
+<p><m>f'(1)</m> = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{13-2}{\exp\mathopen{}\left(1\right)}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setProductQuotientRule/5-2-21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setProductQuotientRule/5-2-21.pg"/>
+</webwork-reps>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-2" assembly-id="polynomials-factor-2">
+  <static seed="18" source="Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg">
+    <statement><p>Rewrite the expression <m>9 x^2 - 81 x</m> by taking 
+out the greatest common factor and putting it
+in front.</p>
+<p><fillin characters="5" name="AnSwEr0001"/>
+<m>\big(</m>
+<fillin characters="10" name="AnSwEr0002"/>
+<m>\big)</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>9x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x-9</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Algebra/2-2-Distributive-law/MCH1-2-2-12-Distributive-law.pg"/>
+</webwork-reps>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-graph-4" assembly-id="limits-from-graph-4">
+  <static seed="35" source="Library/UMN/calculusStewartCCC/s_2_2_6.pg">
+    <statement><p>Use the given graph of the function <m>f</m> to find the following limits.  If a limit <em> does not exist, </em> type "DNE".</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/limits-from-graph-4-image-1.png" width="66%"/>
+<p><alert> 1. </alert> <m>\displaystyle \lim_{x \to 2^{-}}f(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> 2. </alert>  <m>\displaystyle \lim_{x \to 2^{+}}f(x) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p><alert> 3. </alert>  <m>\displaystyle \lim_{x \to 2}f(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p><alert> 4. </alert>  <m>\displaystyle \lim_{x \to 0}f(x) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+<p><alert> 5. </alert>  <m>\displaystyle f(0) =</m> <fillin characters="20" name="AnSwEr0005"/></p>
+<p><alert> Note: </alert> <em> You can click on the graph to enlarge the image.</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2+3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_2_2_6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_2_2_6.pg"/>
+</webwork-reps>

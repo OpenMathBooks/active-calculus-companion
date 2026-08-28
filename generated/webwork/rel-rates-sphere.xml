@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-sphere" assembly-id="rel-rates-sphere">
+  <static seed="214" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg">
+    <statement><p>A spherical balloon is to be deflated so that its radius decreases at a constant rate of <m>\&gt;7\&gt;</m> cm/min.  At what rate must air be removed when the radius is 
+<m>\&gt;7\&gt;</m>  cm?</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4310.2651207252</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter3/3.7/prob23.pg"/>
+</webwork-reps>

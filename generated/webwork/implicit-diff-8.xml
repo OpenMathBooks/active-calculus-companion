@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-8" assembly-id="implicit-diff-8">
+  <static seed="206" source="Library/Michigan/Chap3Sec7/Q31.pg">
+    <statement><p>If <m>x^{5} + y^3 - 2 x y^2 = 10</m>, find <m>dy/dx</m> in terms of
+<m>x</m> and <m>y</m>.</p>
+<p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+<p>Using your answer for <m>dy/dx</m>, fill in the following table of
+approximate <m>y</m>-values of points on the curve near 
+<m>x=1, y=3</m>.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>0.96</cell>
+<cell>0.98</cell>
+<cell>1.02</cell>
+<cell>1.04</cell>
+</row>
+<row>
+<cell><fillin characters="8" name="AnSwEr0002"/></cell>
+<cell><fillin characters="8" name="AnSwEr0003"/></cell>
+<cell><fillin characters="8" name="AnSwEr0004"/></cell>
+<cell><fillin characters="8" name="AnSwEr0005"/></cell>
+</row>
+</tabular>
+<p>Finally, find the <m>y</m>-value for <m>x=0.96</m> by substituting 
+<m>x=0.96</m> in the original equation and solving for <m>y</m> using a
+computer or calculator.</p>
+<p><m>y(0.96) \approx</m> <fillin characters="8" name="AnSwEr0006"/></p>
+<p>How large (in magnitude) is the difference between your estimate for 
+<m>y(0.96)</m>
+using <m>dy/dx</m> and your solution with a computer or calculator?
+<fillin characters="8" name="AnSwEr0007"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{2y^{2}-5x^{5-1}}{3y^{2}-2\cdot 2xy}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3+0.866667\cdot \left(0.96-1\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3+0.866667\cdot \left(0.98-1\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3+0.866667\cdot \left(1.02-1\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3+0.866667\cdot \left(1.04-1\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2.96485</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left|3+0.866667\cdot \left(0.96-1\right)-2.96485\right|</m>
+      </p>
+    </answer>
+    <solution><m>5 x^{4} + 3 y^2 \frac{dy}{dx} - 2 y^2 - 4 x y \frac{dy}{dx} = 0</m>,
+so that 
+<m>{dy\over dx} = \frac{2 y^2 - 5 x^{4}}{3y^2 - 4 x y}</m>.
+
+
+
+
+
+We can approximate the curve near <m>x=1</m>,  <m>y=3</m> by its tangent line.  The
+tangent line will have slope
+<m>\frac{2 (3)^2 - 5 (1)^{4}}{3 (3)^2 - 4 (1) (3)} \approx 0.867</m>.
+Thus its equation is
+<m>y \approx 3 + 0.867(x - 1)</m>.
+
+
+
+
+
+Using the <m>y</m>-values of the tangent line to approximate the <m>y</m>-values
+of the curve, we get 
+<m>y(0.96) \approx 2.9653</m>,
+<m>y(0.98) \approx 2.9827</m>,
+<m>y(1.02) \approx 3.0173</m>, and
+<m>y(1.04) \approx 3.0347</m>.
+
+
+
+
+
+When <m>x=0.96</m>, we get the equation 
+<m>(0.96)^{5} + y^3 - 2 (0.96) y^2 = 10</m>, whose
+solution by numerical methods (for example, using a calculator) is 2.96485.
+
+
+
+
+
+The difference between 2.96485 and the estimate is just 
+<m>|2.96485 - 2.9653| = 0.0004</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap3Sec7/Q31.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap3Sec7/Q31.pg"/>
+</webwork-reps>

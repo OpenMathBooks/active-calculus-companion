@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-avgspeed-from-twovalues-1" assembly-id="avgspeed-from-twovalues-1">
+  <static seed="11" source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg">
+    <statement><p>At the start of a trip, the odometer on a car reads
+20732 miles. At the end of the trip, 11.5 hours later, the
+odometer reads 21293 miles.</p>
+<p>What is the average speed the
+car traveled during this trip? <fillin characters="HASH(0x56232e8dfea0)" name="AnSwEr0001"/> miles/hour</p>
+</statement>
+    <answer>
+      <p>
+        <m>48.7826</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_44.pg"/>
+</webwork-reps>

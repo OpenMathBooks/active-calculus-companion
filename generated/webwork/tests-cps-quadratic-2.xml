@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-quadratic-2" assembly-id="tests-cps-quadratic-2">
+  <static seed="240" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg">
+    <statement><p>Find all critical points of the function <m>f(x)=x^2-{6}x+{6}</m></p>
+<p><m>x=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+
+Let <m>f(x)=x^2-{6}x+{6}</m>. Then <m>f'(x)=2x - {6}</m>. 
+
+
+Since <m>f(x)</m> is differentiable everywhere, the critical points are the solutions of <m>f'(x)=0</m>.  Then  <m>2x - {6}=0</m>, 
+
+
+implies <m>2x={6}</m>  or  <m>x=\frac{6}{2}</m>, 
+
+
+and <m>x=3</m> is the lone critical point of <m>f</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.3.pg"/>
+</webwork-reps>

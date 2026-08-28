@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-3" assembly-id="derivatives-prod-basic-3">
+  <static seed="101" source="Library/Michigan/Chap3Sec5/Q23.pg">
+    <statement><p>Find the derivative of 
+<m>f(x)=e^{-3 x}\cdot\sin x</m></p>
+<p><m>f'(x) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1\cdot 3e^{-1\cdot 3x}\sin\mathopen{}\left(x\right)+e^{-1\cdot 3x}\cos\mathopen{}\left(x\right)</m>
+      </p>
+    </answer>
+    <solution><m>f'(x) = -3 e^{-3 x} \sin(x) + e^{-3 x} \cos(x)</m>
+
+
+
+<m>\phantom{ f'(x) } = e^{-3 x} ( -3 \sin(x) + \cos(x) )</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap3Sec5/Q23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap3Sec5/Q23.pg"/>
+</webwork-reps>

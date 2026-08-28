@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-3" assembly-id="derivrules-algebra-3">
+  <static seed="174" source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg">
+    <statement><p>Compute the derivative of the given function.
+<me>f(t) = \sqrt[4]{t}(\csc t  - 6 e^{0.9 t}).</me></p>
+<p><m>f'(t) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>t^{0.25}\mathopen{}\left(-\csc\mathopen{}\left(t\right)\cot\mathopen{}\left(t\right)+\left(-5.4\right)e^{0.9t}\right)+0.25t^{-0.75}\mathopen{}\left(\csc\mathopen{}\left(t\right)+\left(-6\right)e^{0.9t}\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Use the Product Rule.
+<me>\begin{array}{rcl}
+  f'(t) \amp =\amp \displaystyle \sqrt[4]{t} \frac{d}{dx}[ \csc t  - 6 e^{0.9 t} ]
+  + \frac{d}{dx}[\sqrt[4]{t}] (\csc t  - 6 e^{0.9 t}) \\
+  \amp \amp \\
+  \amp =\amp \displaystyle \sqrt[4]{t} (-\csc t \cot t  - 5.4 e^{0.9 t}) + \frac{1}{4}t^{-3/4} (\csc t  - 6 e^{0.9 t}) 
+  \end{array}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg"/>
+</webwork-reps>

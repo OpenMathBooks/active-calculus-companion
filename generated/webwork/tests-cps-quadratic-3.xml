@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-quadratic-3" assembly-id="tests-cps-quadratic-3">
+  <static seed="241" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg">
+    <statement><p>Find the critical point and determine if the function is increasing or decreasing on the given intervals.</p>
+<p><m>y= - x^2 + 6 x  - 3</m></p>
+<p>Critical point: <m>c=</m> <fillin characters="4" name="AnSwEr0001"/></p>
+<p>The function is:</p>
+<p><var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>Decreasing</p>
+</li>
+<li>
+<p>Increasing</p>
+</li>
+</var> on <m>(-\infty,c)</m>.</p>
+<p><var form="popup">
+<li>
+<p>?</p>
+</li>
+<li>
+<p>Increasing</p>
+</li>
+<li>
+<p>Decreasing</p>
+</li>
+</var> on <m>(c,\infty)</m>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Let <m>f(x)= - x^2 + 6 x  - 3</m>. Then <m>f'(x)= -2x + 6 = 0</m> yields the critical point <m>c=3</m>. 
+
+
+As shown in the following table, the critical point <m>c=3</m> is a local maximum. 
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+ <row>
+<cell>x</cell>
+<cell><m>( -\infty, 3)</m></cell>
+<cell>3</cell>
+<cell><m>(3, +\infty)</m></cell>
+</row>
+ <row>
+<cell><m>f'</m></cell>
+<cell>+</cell>
+<cell>0</cell>
+<cell>-</cell>
+</row>
+ <row>
+<cell><m>f</m></cell>
+<cell><m>\nearrow</m></cell>
+<cell>M</cell>
+<cell><m>\searrow</m></cell>
+</row>
+ 
+</tabular>
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg"/>
+</webwork-reps>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stone-toss" assembly-id="velocity-distance-stone-toss">
+  <static seed="285" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg">
+    <statement><p>A stone thrown upward from the top of a 80 ft
+cliff at 152 ft/s eventually falls to the
+beach below.  (For this problem take the acceleration
+due to gravity to be <m>g = -32 \ \mathrm{ft/s^2}</m>; take
+upwards to be a positive direction.)</p>
+<p><alert>(a)</alert>
+How long does the stone take to reach its highest point?</p>
+<p>time = <fillin characters="35" name="AnSwEr0001"/>
+(include )</p>
+<p><alert>(b)</alert>
+What is its maximum height?</p>
+<p>height = <fillin characters="35" name="AnSwEr0002"/>
+(include )</p>
+<p><alert>(c)</alert>
+How long before the stone hits the beach?</p>
+<p>time = <fillin characters="35" name="AnSwEr0003"/>
+(include )</p>
+<p><alert>(d)</alert>
+What is the velocity of the stone on impact?</p>
+<p>velocity = <fillin characters="35" name="AnSwEr0004"/>
+(include )</p>
+</statement>
+    <answer>
+      <p>
+        <m>4.75\ {\rm s}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>441\ {\rm ft}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10\ {\rm s}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
+      </p>
+    </answer>
+    <solution><m>h = -16t^{2}+152t+80</m>.
+
+Taking the first derivative, we get
+<m>v = -32t+152</m>.
+
+The second derivative is the acceleration due to gravity,
+<m>a = -32</m>.
+
+
+
+
+<alert>(a)</alert>
+At its highest point, the stone's velocity is zero:
+<m>v = -32t+152 = 0</m>, so that <m>t = 4.75\ {\rm s}</m>.
+
+
+
+
+<alert>(b)</alert>
+At <m>t=4.75\ {\rm s}</m>, the height is
+<m>h = -16\cdot 4.75^{2}+152\cdot 4.75+80 = 441\ {\rm ft}</m>.
+
+
+
+
+<alert>(c)</alert>
+When the stone hits the beach,
+<m>h = 0 = -16t^{2}+152t+80</m>.  Solving, we get <m>t = 10</m> s.
+
+
+
+
+<alert>(d)</alert>
+Impact is at <m>t=10</m>.  The velocity, <m>v</m>, at this time is
+<m>v = -32\cdot 10+152 = -168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>.
+The velocity is negative because the stone is falling.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg"/>
+</webwork-reps>

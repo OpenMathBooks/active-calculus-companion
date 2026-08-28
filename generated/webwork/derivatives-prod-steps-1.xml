@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-steps-1" assembly-id="derivatives-prod-steps-1">
+  <static seed="97" source="Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg">
+    <statement><p>Compute the derivative of the given function in two different ways.</p>
+<p><me>h(s) = (-7 s  - 3)(-7 s + 1)</me></p>
+<p>a) Use the Product Rule, <m>[fg]' = f\cdot g' + f' \cdot g</m>.
+(Fill in each blank, then simplify.)</p>
+<p><m>h'(s) = \Big(</m><fillin characters="5" name="AnSwEr0001"/> <m>\Big) \cdot \Big(</m>
+	<fillin characters="5" name="AnSwEr0002"/> <m>\Big) + \Big(</m>
+	<fillin characters="5" name="AnSwEr0003"/> <m>\Big) \cdot \Big(</m>
+	<fillin characters="5" name="AnSwEr0004"/> <m>\Big)</m></p>
+<p>= <fillin characters="25" name="AnSwEr0005"/>.</p>
+<p>b) Use algebra first to simplify <m>h</m>, then differentiate without
+the Product Rule.</p>
+<p><m>h'(s) =</m> <fillin characters="25" name="AnSwEr0006"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-7s+\left(-3\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-7s+1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>98s+14</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>98s+14</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+First, using the Product Rule,
+
+
+
+<me>\begin{array}{rcl}
+    h'(s) \amp =\amp  (-7 s  - 3) \cdot \frac{d}{dx}[ -7 s + 1 ] + \frac{d}{dx}[ -7 s  - 3 ] (-7 s + 1)\\
+    \amp \amp \\
+    \amp =\amp  (-7 s  - 3)(-7) + (-7)(-7 s + 1) \\
+  \end{array}</me>
+After simplifying the last line, we find <m>h'(s) = 98 s + 14</m>.
+
+
+
+Next, simplify <m>h</m> first.  Then take the derivative.
+<me>\begin{array}{rcl}
+    h(s) \amp =\amp  (-7 s  - 3)(-7 s + 1) = 49 s^2 + 14 s  - 3 \\
+    \amp \amp \\
+    h'(s) \amp =\amp  98 s + 14
+  \end{array}</me>
+The two simplified answers should match.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.4/APEX_2.4_10.pg"/>
+</webwork-reps>

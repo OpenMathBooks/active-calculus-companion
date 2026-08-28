@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-tangent" assembly-id="derivatives-inv-trig-tangent">
+  <static seed="193" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg">
+    <statement><p>Find the equation of the line tangent to the graph
+of <m>f</m> at the indicated <m>x</m> value.
+<me>y = 6 \sin^{-1} 2 x, \quad x = 0</me></p>
+<p>Tangent line: <m>y=</m><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>12x</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Find the derivative: 
+<me>\dfrac{d}{dx}\left[ 6 \sin^{-1} 2 x \right] = \frac{12}{\sqrt{1-4*x^2}},</me>
+and plug in <m>x = 0</m> to get <m>m = 12</m>.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_29.pg"/>
+</webwork-reps>

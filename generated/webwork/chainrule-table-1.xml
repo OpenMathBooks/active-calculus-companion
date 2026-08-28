@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-table-1" assembly-id="chainrule-table-1">
+  <static seed="169" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg">
+    <statement><p>A table of values for <m>f,g,f',</m> and <m>g'</m> is given below:</p>
+<p><me>\begin{array}{|c|c|c|c|c|}
+\hline
+x \amp  f(x) \amp  g(x) \amp  f'(x) \amp  g'(x) \\
+\hline
+1 \amp  3 \amp  2 \amp  4 \amp  6\\ 
+2 \amp  1 \amp  8 \amp  5 \amp  7\\
+3 \amp  7 \amp  2 \amp  7 \amp  9\\
+\hline
+\end{array}</me></p>
+<p>(a) If <m>F(x)=f(f(x))</m>, find <m>F'(2)</m>.</p>
+<p>(b) If <m>G(x)=g(g(x))</m>, find <m>G'(3)</m>.</p>
+<p>(a) <m>F'(2) =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>G'(3) =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>20</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>63</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg"/>
+</webwork-reps>

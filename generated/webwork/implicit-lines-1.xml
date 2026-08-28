@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-lines-1" assembly-id="implicit-lines-1">
+  <static seed="195" source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg">
+    <statement><p><CENTER/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/implicit-lines-1-image-1.png" width="50%"/>
+<p/>
+<p>Use the graphs given above and state if the slope is positive,
+negative, zero or does not exist.</p>
+<p>(Note:  Type either <em> positive </em>, <em> negative </em>, 
+<em> zero </em> or <em> does not exist </em>)</p>
+<p>a) Line A's slope: <fillin characters="25" name="AnSwEr0001"/></p>
+<p>b) Line B's slope: <fillin characters="25" name="AnSwEr0002"/></p>
+<p>c) Line C's slope: <fillin characters="25" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{zero}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{negative}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{does not exist}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg"/>
+</webwork-reps>

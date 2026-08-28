@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-scaffold" assembly-id="derivatives-inv-trig-scaffold">
+  <static seed="192" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg">
+    <statement><p>Let <m>f(x) = \sin( \arccos( x) )</m>.</p>
+<p>a) First find the derivative by using Chain Rule.</p>
+<p><m>f'(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) Next, we will find the derivative in a different way.
+Rewrite <m>f(x)</m> without trigonometric functions (Hint:
+Set up a right triangle with a side <m>x</m>).  When you have
+finished this step, <m>f(x)</m> can be written as:</p>
+<p><m>f(x) =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+<p>Then find the derivative of this equivalent form of <m>f</m>.</p>
+<p><m>f'(x) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-x}{\left(1-x^{2}\right)^{0.5}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\sqrt{1-x^{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-x}{\left(1-x^{2}\right)^{0.5}}</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+<me>\dfrac{d}{dx}\left[ \sin(\arccos( x)) \right]
+  = \cos(\arccos( x)) \cdot \dfrac{-1}{\sqrt{1 - x^2}} = \frac{-x}{\sqrt{1 - x^2}}.</me>
+Let <m>\theta = \arccos( x)</m>.  Then <m>\cos \theta = \frac{x}{1}</m>.  Now 
+in a triangle with leg <m>x</m> and hypotenuse 1, the remaining
+side is equal to <m>\sqrt{1 - x^2}</m>.  This implies that 
+<me>\sin \theta = \frac{\sqrt{1 - x^2}}{1} = \sqrt{1 - x^2}.</me>
+But <m>\sin \theta</m> is exactly <m>\sin(\arccos( x)) = f(x)</m>.  Next, find
+the derivative:
+<me>\dfrac{d}{dx}\left[ \sqrt{1 - x^2} \right]
+  = \dfrac{1}{2}(1 - x^2)^{-1/2}(-2x)
+  = \dfrac{-x}{\sqrt{1-x^2}}.</me>
+The answer should match the derivative you found in the first part.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg"/>
+</webwork-reps>

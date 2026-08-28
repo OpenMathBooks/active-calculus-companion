@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-rectangle-diagonal" assembly-id="rel-rates-rectangle-diagonal">
+  <static seed="212" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg">
+    <statement><p>Let <m>\&gt;l\&gt;</m> be the length of a diagonal of a rectangle whose sides have lengths <m>\&gt;x\&gt;</m> and <m>\&gt;y\&gt;</m>, and assume that <m>\&gt;x\&gt;</m> and <m>\&gt;y\&gt;</m> vary with time.</p>
+<p>If <m>\&gt;x\&gt;</m> increases at a constant rate of <m>\&gt; \frac {1} {5}\&gt;</m> ft/s and <m>\&gt;y\&gt;</m> decreases at a constant rate of <m>\&gt; \frac {1} {5}\&gt;</m> ft/s, how fast is the size of the diagonal changing when <m>\&gt;x = 2\&gt;</m> ft. and <m>\&gt;y = 4\&gt;</m> ft?</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.0894427190999916</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter3/3.7/prob22.pg"/>
+</webwork-reps>

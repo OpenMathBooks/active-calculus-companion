@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-rationalize-2" assembly-id="limits-rationalize-2">
+  <static seed="46" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg">
+    <statement><p>Evaluate the limit:</p>
+<p><m>\lim\limits_{h \to 0} \frac {\sqrt {h + 2} - 2} {h}  =</m>  <fillin characters="6" name="AnSwEr0001"/></p>
+<p>If the limit doesn't exist enter <m>F</m></p>
+</statement>
+    <answer>
+      <p>F</p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+<m>\lim\limits_{h \to 0} \frac {\sqrt {h + 2} - 2} {h}</m> doesn't exist, because the numerator approaches a non-zero value (specifically, <m>\sqrt{2}-2</m>), while the denominator approaches 0.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.5_Evaluating_Limits_Algebraically/2.5.21.pg"/>
+</webwork-reps>

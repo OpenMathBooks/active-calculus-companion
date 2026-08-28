@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-functions-piecewise-1" assembly-id="functions-piecewise-1">
+  <static seed="13" source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg">
+    <statement><p>Given the piecewise function, find the function values.</p>
+<p><m>f(x)={\begin{cases}\displaystyle{4x-6}\amp \text{if}\ x \lt  4\cr
+\displaystyle{5-4x}\amp \text{if}\ x \ge 4\end{cases}}</m></p>
+<p><m>f(-5)=</m> <fillin characters="17" name="AnSwEr0001"/></p>
+<p><m>f(0)=</m> <fillin characters="17" name="AnSwEr0002"/></p>
+<p><m>f(2)=</m> <fillin characters="17" name="AnSwEr0003"/></p>
+<p><m>f(7)=</m> <fillin characters="17" name="AnSwEr0004"/></p>
+</statement>
+    <hint><p>First find which part of the piecewise function the desired `x`-value is part of, then use that piece to evaluate the function value.</p>
+</hint>
+    <answer>
+      <p>
+        <m>-26</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-23</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg"/>
+</webwork-reps>

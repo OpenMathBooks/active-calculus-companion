@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-2" assembly-id="derivatives-ln-2">
+  <static seed="177" source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg">
+    <statement><p>Find <m>\&gt;dy/dx\&gt;</m> if  <m>\&gt;y = x\ln\mathopen{}\left(x\right)</m>.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\ln\mathopen{}\left(x\right)+x\frac{1}{x}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg"/>
+</webwork-reps>

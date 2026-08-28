@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-9" assembly-id="def-int-areas-9">
+  <static seed="314" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-9-image-1.png" width="66%"/>
+<p>A graph of <m>f</m> is shown above.  The numbers shown represent
+the geometric area of each region.
+Evaluate the following definite integrals.</p>
+<p>a) <m>\displaystyle\int_0^{1} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>\displaystyle\int_{0}^{2} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle\int_0^{3} f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>\displaystyle\int_{1}^{2} 9 f(x)
+ \, dx</m> = <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-82.6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-67.2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-37.8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>138.6</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Find the signed area, using the graph.
+
+
+
+a) The region between <m>x = 0</m> and <m>x = 1</m> represents
+a negative net area, so
+<me>\int_0^{1} f(x) \, dx = -82.6.</me>
+
+
+
+b) Split the integral
+<me>\int_{0}^{2} f(x) \, dx = 
+  \int_{0}^{1} f(x) \, dx +
+  \int_{1}^{2} f(x) \, dx =
+  -82.6 + 15.4 = 
+  -67.2.</me>
+
+
+
+c) Split the integral
+<me>\int_{0}^{3} f(x) \, dx = 
+  \int_{0}^{2} f(x) \, dx + 
+  \int_{2}^{3} f(x) \, dx 
+  = -67.2 + 29.4 = 
+  -37.8.</me>
+
+
+
+d) Pull out the constant multiple.
+<me>\int_{1}^{2} 9 f(x) \, dx = 9
+  \int_{1}^{2} f(x) \, dx = 9(15.4) = 138.6.</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_10.pg"/>
+</webwork-reps>

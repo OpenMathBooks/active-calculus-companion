@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-toward-chain" assembly-id="derivatives-prod-toward-chain">
+  <static seed="127" source="Library/NAU/setCalcI/producte2x.pg">
+    <statement><p>Use the product rule to differentiate.</p>
+<p><m>\displaystyle \frac{d}{dx} ( e^{2x} ) =  \frac{d}{dx} ( e^x \cdot e^{x} ) =</m> <fillin characters="20" name="AnSwEr0001"/> .</p>
+<p>Now use the product rule again to differentiate.</p>
+<p><m>\displaystyle \frac{d}{dx} ( e^{3x} ) =  \frac{d}{dx} ( e^x \cdot e^{2x} ) =</m> <fillin characters="20" name="AnSwEr0002"/> .</p>
+</statement>
+    <answer>
+      <p>
+        <m>2\exp\mathopen{}\left(2x\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3\exp\mathopen{}\left(3x\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/NAU/setCalcI/producte2x.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NAU/setCalcI/producte2x.pg"/>
+</webwork-reps>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-3" assembly-id="derivatives-trig-adv-prod-3">
+  <static seed="139" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg">
+    <statement><p>Compute the derivative of the given function.</p>
+<p><me>f(t) = \frac{1}{t^{3}} \left( \tan t + 8 \right)</me></p>
+<p><m>f'(t) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>t^{-3}\sec^{2}\mathopen{}\left(t\right)+\left(-3\right)t^{-4}\mathopen{}\left(\tan\mathopen{}\left(t\right)+8\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Use the Product Rule.
+
+
+
+<me>f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg"/>
+</webwork-reps>

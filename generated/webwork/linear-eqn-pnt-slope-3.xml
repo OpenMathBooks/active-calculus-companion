@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-pnt-slope-3" assembly-id="linear-eqn-pnt-slope-3">
+  <static seed="51" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg">
+    <statement><p>A line<rsq/>s equation is given in point-slope form:</p>
+<p><m>{y}={-4\mathopen{}\left(x+5\right)+15}</m></p>
+<p>This line<rsq/>s slope is <fillin characters="5" name="AnSwEr0001"/>.</p>
+<p>A point on this line that is apparent from the given equation is <fillin characters="10" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(-5,15\right)</m>
+      </p>
+    </answer>
+    <solution><p>Compare the given equation with a generic point-slope equation:</p>
+<p><m>\begin{aligned}
+   y \amp = m(x-x_{1})+y_1 \\
+   {y} \amp = {-4\mathopen{}\left(x+5\right)+15}
+\end{aligned}</m></p>
+<p>We can see the slope is <m>-4</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(-5,15\right)}</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasicsORCCA20.pg"/>
+</webwork-reps>

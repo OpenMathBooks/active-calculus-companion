@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-table-2" assembly-id="chainrule-table-2">
+  <static seed="170" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg">
+    <statement><p>Use the table below to estimate the value of <m>h'(.5)</m>, where <m>h(x)=f(g(x))</m> to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at <m>x=.1</m>, do the secant slopes on <m>[0,.1]</m> and <m>[.1,.2]</m>, and then average them).</p>
+<p><me>\begin{array}{|c|c|c|}
+\hline
+x \amp  f(x) \amp  g(x) \\
+\hline
+0 \amp  12.6 \amp  .58  \\ 
+.1 \amp  14.8 \amp  .40 \\
+.2 \amp  18.4 \amp  .37 \\
+.3 \amp  23.0 \amp  .26 \\
+.4 \amp  25.9 \amp  .17 \\
+.5 \amp  27.5 \amp  .10 \\
+.6 \amp  29.1 \amp  .05 \\
+\hline
+\end{array}</me></p>
+<p><m>h'(.5) =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-17.4</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg"/>
+</webwork-reps>

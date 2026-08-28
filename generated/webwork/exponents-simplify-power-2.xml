@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-power-2" assembly-id="exponents-simplify-power-2">
+  <static seed="72" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg">
+    <statement><p>Simplify and write the following in exponential notation. If</p>
+<p><me>\frac{ x^{ \frac{2}{9} } ~u^{ \frac{4}{9} }  }{ x^{ -\frac{6}{9} }    u^{ \frac{1}{18} } } = x^{m} \cdot u^n</me></p>
+<p>then</p>
+<p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/>
+    and    
+<m>n =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>{\frac{8}{9}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>{\frac{7}{18}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg"/>
+</webwork-reps>

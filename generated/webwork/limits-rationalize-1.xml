@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-rationalize-1" assembly-id="limits-rationalize-1">
+  <static seed="45" source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg">
+    <statement><p>Evaluate the limit, if it exists. If not, enter DNE.</p>
+<p><m>\displaystyle \lim_{x \to 23} \frac{\sqrt{x+26}-7}{x-23} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1}{14}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg"/>
+</webwork-reps>

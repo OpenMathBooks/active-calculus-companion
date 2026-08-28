@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-simple-1" assembly-id="derivatives-inv-trig-simple-1">
+  <static seed="184" source="Library/Michigan/Chap3Sec6/Q17.pg">
+    <statement><p>Find the derivative of the function <m>g(a)</m>, below.  It may be to
+your advantage to simplify before differentiating.</p>
+<p><m>g(a) = \tan(\arctan(3 a))</m></p>
+<p><m>g'(a) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
+<p><em>(Your answer should be in simplified form.)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <solution><m>\arctan(\tan(3 a)) = 3 a</m>, so 
+<m>g'(a) = 3</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap3Sec6/Q17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap3Sec6/Q17.pg"/>
+</webwork-reps>

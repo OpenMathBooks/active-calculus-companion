@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-7" assembly-id="apps-lhr-7">
+  <static seed="235" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg">
+    <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow 0} \dfrac{2 \sin x - 2 x}{5 x^3 }=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.0666666666666667</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_26.pg"/>
+</webwork-reps>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-evaluating-functions-1" assembly-id="evaluating-functions-1">
+  <static seed="3" source="Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_08_Polynomial.pg">
+    <statement><p>Find the indicated functional values.</p>
+<p><me>f(x) =  -1x^{3}+\left(-3\right)x^{2}+x+51</me></p>
+<p>a) <m>f(3)</m> = <fillin characters="15" name="AnSwEr0001"/></p>
+<p>b) <m>f(0)</m> = <fillin characters="15" name="AnSwEr0002"/></p>
+<p>c) <m>f(-2)</m> = <fillin characters="15" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>51</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>45</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_08_Polynomial.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_05_01_IntroPolynomials/51IntAlg_08_Polynomial.pg"/>
+</webwork-reps>

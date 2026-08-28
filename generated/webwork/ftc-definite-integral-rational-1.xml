@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-rational-1" assembly-id="ftc-definite-integral-rational-1">
+  <static seed="334" source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg">
+    <statement><p>The value of <m>\displaystyle \int_{6}^{12} \frac{1}{ x^2 } dx</m> is</p>
+<p><fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-1}{12}+\frac{1}{6}</m>
+      </p>
+    </answer>
+    <solution><m>\displaystyle \int u^n du = \frac{u^{n+1}}{n+1}</m>:
+<me>\parbox{0.4\textwidth}{
+
+\ \begin{aligned}
+\int_{6}^{12} \frac 1 {x^2} dx  \amp  = \int_{6}^{12} x^{-2} dx \\\\ 
+\amp  =	\left (-1)x^{-1} \right|_{6}^{12} = \left \frac{-1}{x} \right|_{6}^{12}	\\\\
+\amp  =	\frac{-1}{12} - \frac{-1}{6}	= \frac 1 {6} - \frac 1 {12} = 0.0833333
+\end{aligned} }</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Indiana/Indiana_setIntegrals3Definite/c4s4p6.pg"/>
+</webwork-reps>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-3" assembly-id="implicit-diff-3">
+  <static seed="201" source="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg">
+    <statement><p>Use implicit differentiation to find <m>\&gt;da/dt\&gt;</m> if <m>\&gt;a^{4}-t^{4} = 6a^{2}t</m>.</p>
+<p>Answer: <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{3a^{2}+2t^{3}}{2a^{3}-6at}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter4/4.1/prob12.pg"/>
+</webwork-reps>

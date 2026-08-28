@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-writingsum1" assembly-id="sigma-notation-writingsum1">
+  <static seed="295" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg">
+    <statement><p>Write the sum in summation notation, using the given
+lower bound.</p>
+<p><me>6+12+18+24+30+36 = \sum_{i=1}^{b} a_i</me>
+<m>b =</m><fillin characters="5" name="AnSwEr0001"/>, <m>a_i =</m><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6i</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Each term is 
+<me>6+12+18+24+30+36</me>
+<me>= 6(1) + 6(2) + 6(3) + \cdots + 6(6)
+  = \sum_{i=1}^{6} 6 i</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg"/>
+</webwork-reps>

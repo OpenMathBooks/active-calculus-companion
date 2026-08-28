@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-falling-1" assembly-id="velocity-distance-falling-1">
+  <static seed="286" source="Library/Michigan/Chap6Sec5/Q05.pg">
+    <statement><p>A ball that is dropped from a window hits the ground in 7 seconds.  How
+high is the window?
+(Give your answer in feet; note that the acceleration due to gravity
+is 32 ft/s<m>{}^2</m>.)</p>
+<p>height = <fillin characters="35" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{32\cdot 7\cdot 7}{2}</m>
+      </p>
+    </answer>
+    <solution><m>a(t)=-32</m>. Since <m>v(t)</m> is the antiderivative of <m>a(t)</m>,
+<m>v(t)=-32t + v_0</m>.  But <m>v_0=0</m>, so <m>v(t)=-32 t</m>.
+Since <m>s(t)</m> is the antiderivative of <m>v(t)</m>,
+<m>s(t)=-16 t^2 + s_0</m>, where
+<m>s_0</m> is the height of the building.  Since the ball hits the ground in
+7 seconds, <m>s(7)=0=-16(7)^2+s_0</m>.  Hence
+<m>s_0=784</m> feet, so the window is
+784 feet high.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap6Sec5/Q05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap6Sec5/Q05.pg"/>
+</webwork-reps>

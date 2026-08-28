@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-3" assembly-id="def-int-meaning-3">
+  <static seed="324" source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg">
+    <statement><p>Oil leaks out of a tanker at a rate of <m>r=f(t)</m> liters per minute,
+where <m>t</m> is in minutes.  If <m>f(t) = A e^{-k t}</m>, write a definite
+integral expressing the total quantity of oil which leaks out of the
+tanker in the first hour.</p>
+<p>total quantity = 
+<m>\displaystyle \int_{a}^{b}</m> <fillin characters="20" name="AnSwEr0001"/>,
+where <m>a =</m> <fillin characters="3" name="AnSwEr0002"/> and <m>b =</m> <fillin characters="3" name="AnSwEr0003"/>.</p>
+<p>What are the units of this integral?
+<fillin characters="15" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>Ae^{-kt}dt</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>60</m>
+      </p>
+    </answer>
+    <answer>
+      <p>No correct answer specified</p>
+    </answer>
+    <solution><m>t</m>, consider the interval <m>[t, t+\Delta t]</m>.  During 
+this interval, oil is leaking out at an approximately constant rate of
+<m>f(t) = A e^{-kt}</m> liters/minute.  Thus, the amount of oil which
+has leaked out during this interval can be expressed as
+<me>\mbox{amount} = \mbox{rate}\times\mbox{time} = f(t) \Delta t
+  = A e^{-kt} \Delta t.</me>
+and the units of <m>f(t)\,\Delta t</m> are (liters/minute)<m>\times</m>minutes
+<m>=</m> liters.  The total amount of oil leaked is obtained by adding all
+these amounts between <m>t=0</m> and <m>t=60</m>.  (An hour is 60 minutes.)
+The sum of all these infinitesimal amounts is the integral
+<me>\mbox{total amount} = \int_0^{60} A e^{-kt} dt.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg"/>
+</webwork-reps>

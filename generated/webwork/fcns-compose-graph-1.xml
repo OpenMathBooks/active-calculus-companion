@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-graph-1" assembly-id="fcns-compose-graph-1">
+  <static seed="145" source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg">
+    <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/fcns-compose-graph-1-image-1.png" width="35%"/>
+</cell>
+<cell>       </cell>
+<cell>
+<image pi:generated="webwork/images/fcns-compose-graph-1-image-2.png" width="35%"/>
+<p/></cell>
+</row>
+<row halign="center" valign="middle">
+<cell><m>y = f(x)</m></cell>
+<cell>       </cell>
+<cell><m>y = g(x)</m></cell>
+</row>
+</tabular>
+<p>Use the graphs of <m>y = f(x)</m> and <m>y = g(x)</m> above to the find the function value.</p>
+<p>(a) <m>(g\circ f)(4) =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+<p>(b) <m>(g\circ g)(0) =</m> <fillin characters="5" name="AnSwEr0002"/></p>
+<p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/b-i7N0hE-Ys" width="420"/></p>
+<p>If the video does not work, <url href="">click here to watch on YouTube.</url></p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_43.pg"/>
+</webwork-reps>

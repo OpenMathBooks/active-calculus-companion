@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-simplify-tangent" assembly-id="derivatives-power-simplify-tangent">
+  <static seed="90" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=x \sqrt{x}</m> at the point <m>(16,64)</m>.</p>
+<p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{3}{2}\cdot 16^{\frac{1}{2}}\mathopen{}\left(x-16\right)+64</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg"/>
+</webwork-reps>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-trig-3" assembly-id="ftc-definite-integral-trig-3">
+  <static seed="341" source="Library/ma122DB/set11/s5_3_32.pg">
+    <statement><p>Evaluate the definite integral
+<me>\int_{ 0.5 } ^ { 1.5 } 8 \sec^2(x) \, dx</me>
+Answer: <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>108.440939658623</m>
+      </p>
+    </answer>
+    <solution><p>SOLUTION</p>
+<p><me>\begin{array}{rcl} \displaystyle \int_{ 0.5 } ^ { 1.5 } 8 \sec^2(x) \, dx 
+\amp =\amp  \displaystyle 8  \int_{ 0.5 } ^ { 1.5 }  \sec^2(x) \, dx
+\\ \amp =\amp   8  \tan (x) \Big]_{0.5}^{1.5}
+\\ \amp =\amp 8 (\tan(1.5)-\tan(0.5)) 
+\end{array}</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set11/s5_3_32.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set11/s5_3_32.pg"/>
+</webwork-reps>

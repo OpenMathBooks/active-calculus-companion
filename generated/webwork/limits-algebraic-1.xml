@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-algebraic-1" assembly-id="limits-algebraic-1">
+  <static seed="39" source="Library/ASU-topics/setLimitConcepts/3-2-25.pg">
+    <statement><p>Evaluate the limit
+<me>\lim_{ x \rightarrow 3 } \frac{6 x}{3 + x^3}</me>
+If the limit does not exist enter DNE.</p>
+<p>Limit = <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.6</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setLimitConcepts/3-2-25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setLimitConcepts/3-2-25.pg"/>
+</webwork-reps>

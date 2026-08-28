@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-4" assembly-id="derivatives-trig-adv-quot-4">
+  <static seed="142" source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg">
+    <statement><p>Find <m>f'(x)</m> for <me>f(x)=\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)}</me></p>
+<p><m>f'(x)  =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{15\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-5\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)^{2}}</m>
+      </p>
+    </answer>
+    <solution><me>f'(x)=\frac{d}{dx}\left(\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)}\right)=\frac{15}{19}\frac{\frac{d}{dx}[\sec\mathopen{}\left(x\right)]\cdot (1+5\tan\mathopen{}\left(x\right))-\frac{d}{dx}[1+5\tan\mathopen{}\left(x\right)]\cdot \sec\mathopen{}\left(x\right)}{(1+5 \tan(x))^2}</me>
+<me>=\frac{15}{19}\frac{\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cdot (1+5\tan\mathopen{}\left(x\right))-5\sec^{2}\mathopen{}\left(x\right)\cdot \sec\mathopen{}\left(x\right)}{(1+5 \tan(x))^2}=\frac{15}{19}\frac{\sec(x)(\tan(x)+5(\tan^2(x)-\sec^2(x))}{(1+5 \tan(x))^2}</me>
+<me>=\frac{15}{19}\frac{\sec(x)(\tan(x)-5)}{(1+5 \tan(x))^2}=\frac{15\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-5\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)^{2}}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg"/>
+</webwork-reps>

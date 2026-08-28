@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-6" assembly-id="tests-intervals-6">
+  <static seed="252" source="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg">
+    <statement><p>Thus <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0005"/> at <m>A</m> (type in MAX or MIN)</p>
+<p>and a local <fillin characters="20" name="AnSwEr0006"/> at <m>B</m> (type in MAX or MIN).</p>
+</statement>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>18</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-18</m>
+      </p>
+    </answer>
+    <answer>
+      <p>MIN</p>
+    </answer>
+    <answer>
+      <p>MAX</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob6.pg"/>
+</webwork-reps>

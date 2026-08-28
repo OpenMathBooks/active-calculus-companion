@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-avgchange-from-twovalues-1" assembly-id="avgchange-from-twovalues-1">
+  <static seed="12" source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg">
+    <statement><p>A driver of a car stopped at a gas station to fill up his
+gas tank. He looked at his watch, and the time read
+exactly 3:40 p.m. At this time, he started pumping
+gas into the tank. At exactly 3:44, the tank was full
+and he noticed that he had pumped 10 gallons.</p>
+<p>What is the average rate of flow of the gasoline into
+the gas tank? <fillin characters="HASH(0x56232e969858)" name="AnSwEr0001"/> gal/min</p>
+</statement>
+    <answer>
+      <p>
+        <m>2.5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg"/>
+</webwork-reps>

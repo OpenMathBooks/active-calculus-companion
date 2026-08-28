@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-2" assembly-id="apps-opt-polynomial-2">
+  <static seed="259" source="Library/ma122DB/set7/s4_1_51.pg">
+    <statement><p>Consider the function <m>f(x) = 2 x^3+ 24 x^2 - 54 x+ 9 , \quad
+- 9 \leq x \leq 2</m>.</p>
+<p>Find the absolute minimum value of this function.</p>
+<p>Answer:  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Find the absolute maximum value of this function.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-19</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>981</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set7/s4_1_51.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set7/s4_1_51.pg"/>
+</webwork-reps>

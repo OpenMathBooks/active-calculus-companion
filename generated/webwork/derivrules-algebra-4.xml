@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-4" assembly-id="derivrules-algebra-4">
+  <static seed="175" source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg">
+    <statement><p>Find  <m>f'</m>, given</p>
+<p><me>f(x) = \frac{x\sin^{3}\mathopen{}\left(x^{3}\right)}{\sqrt{x^{6}+1}}</me></p>
+<p><m>f'( x ) =</m><fillin characters="80" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\left(\sin^{3}\mathopen{}\left(x^{3}\right)+x\cdot 3\sin^{2}\mathopen{}\left(x^{3}\right)\cdot 3x^{2}\cos\mathopen{}\left(x^{3}\right)\right)\sqrt{x^{6}+1}-x\sin^{3}\mathopen{}\left(x^{3}\right)\frac{1}{2\sqrt{x^{6}+1}}\cdot 6x^{5}}{\left(\sqrt{x^{6}+1}\right)^{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg"/>
+</webwork-reps>

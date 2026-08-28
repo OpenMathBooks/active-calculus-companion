@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-power-1" assembly-id="exponents-simplify-power-1">
+  <static seed="71" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg">
+    <statement><p>Simplify. If</p>
+<p><me>\displaystyle \left(9 q^{8}\right)^{3/2} = A q^m</me></p>
+<p>then</p>
+<p><m>A =</m> <fillin characters="10" name="AnSwEr0001"/> and <m>m =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3^{3}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>12</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg"/>
+</webwork-reps>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-1" assembly-id="def-int-areas-1">
+  <static seed="306" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg">
+    <statement><p>Evaluate the integral of the function graphed using the formula for areas of triangles.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-1-image-1.png" width="66%"/>
+<p><m>\displaystyle{ \int_{0}^{11} f(x) dx=}</m><fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+    <hint><p>Use the graph given and break it up into multiple triangles to find the area of each triangle. Then combine those areas appropriately to find the definite integral in question.</p>
+</hint>
+    <answer>
+      <p>
+        <m>13.5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_71.pg"/>
+</webwork-reps>

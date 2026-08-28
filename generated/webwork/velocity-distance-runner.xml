@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-runner" assembly-id="velocity-distance-runner">
+  <static seed="282" source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg">
+    <statement><p>The speed of a runner increased during the first three seconds of a
+race.  Her speed at half-second intervals is given in the table.  Find
+lower and upper estimates for the distance that she traveled during
+these three seconds.  The answer to this problem requires that you
+enter the correct .</p>
+<p><me>\begin{array}{|l|r|r|r|r|r|r|r|}
+\hline
+t \ (s)    \amp  0 \amp  0.5 \amp  1.0 \amp  1.5 \amp  2.0 \amp  2.5 \amp  3.0 \\
+\hline
+v \ (ft/s) \amp  0 \amp  5.6 \amp  9.2 \amp  14 \amp  16.5 \amp  18.8 \amp  19.9 \\
+\hline 
+\end{array}</me></p>
+<p>Lower estimate = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>Upper estimate = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>32.05\ {\rm ft}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>42\ {\rm ft}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP09.pg"/>
+</webwork-reps>

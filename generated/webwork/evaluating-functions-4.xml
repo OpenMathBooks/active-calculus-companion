@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-evaluating-functions-4" assembly-id="evaluating-functions-4">
+  <static seed="6">
+    <statement><p>Evaluate the function <m>f(x)=\frac{14-x}{-3+x}</m> at the indicated values:</p>
+<p><m>f(2)=</m> <fillin characters="8" name="AnSwEr0001"/></p>
+<p><m>f(-2)=</m> <fillin characters="8" name="AnSwEr0002"/></p>
+<p><m>f(\frac{1}{2})=</m> <fillin characters="8" name="AnSwEr0003"/></p>
+<p><m>f(a)=</m> <fillin characters="16" name="AnSwEr0004"/></p>
+<p><m>f(a - 1)=</m> <fillin characters="16" name="AnSwEr0005"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-12</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3.2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-5.4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{14-a}{-3+a}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{14-\left(a-1\right)}{-3+a-1}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data problemSource="The_Active_Calculus_Companion/1_1_1_6-Evaluate_the_function_at_an_expression.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg><![CDATA[
+## DESCRIPTION
+## Algebra
+## ENDDESCRIPTION
+
+## Tagged by cmd6a 8/6/06
+
+## DBsubject(Algebra)
+## DBchapter(Functions)
+## DBsection(Function notation)
+## Institution(ASU)
+## MLT(RationalFcns_VarInput)
+## MLTleader(1)
+## Level(2)
+## KEYWORDS('algebra','function')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGchoicemacros.pl",
+  "PGML.pl",
+  "PGcourse.pl"
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+$a = random(1,20,1);
+$b = - random(3,20,1);
+
+$ans1 = ($a - 2)/($b + 2);
+$ans2 = ($a + 2)/($b - 2);
+$ans3 = ($a - 1/2)/($b + 1/2);
+$ans4 = "($a - a)/($b + a)";
+$ans5 = "($a - (a - 1))/($b + a - 1)";
+#$ans6 = 1/0;
+ANS(num_cmp($ans1));
+ANS(num_cmp($ans2));
+ANS(num_cmp($ans3));
+ANS(fun_cmp($ans4, var=>'a'));
+ANS(fun_cmp($ans5, var=>'a'));
+#ANS(num_cmp($ans6));
+
+BEGIN_PGML
+Evaluate the function [`f(x)=\frac{[$a]-x}{[$b]+x}`] at the indicated values:
+
+[`f(2)=`] [________]
+
+[`f(-2)=`] [________]
+
+[`f(\frac{1}{2})=`] [________]
+
+[`f(a)=`] [________________]
+
+[`f(a - 1)=`] [________________]
+END_PGML
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+]]></pg>
+</webwork-reps>

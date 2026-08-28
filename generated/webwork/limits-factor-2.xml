@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-factor-2" assembly-id="limits-factor-2">
+  <static seed="41" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg">
+    <task><title>Part 1: Evaluate the limit</title>
+<statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to -6} {\frac{x^{2}-36}{x+6}} = \lim_{x\to -6} }</m> <fillin characters="7" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="6" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to -6}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement><answer><p><m>x-6</m></p></answer><answer><p><m>-12</m></p></answer></task>
+    <task><title>Part 2: Follow-up question</title>
+<statement><p>Select the true statement</p>
+<p><var form="buttons">
+<li>
+<p><m>\displaystyle \frac{x^{2}-36}{x+6} = x-6</m> for all <m>x \not= -6</m>.</p>
+</li>
+<li>
+<p><m>\displaystyle \frac{x^{2}-36}{x+6} = x-6</m> for all <m>x</m>.</p>
+</li>
+</var></p>
+</statement></task>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03a.pg"/>
+</webwork-reps>

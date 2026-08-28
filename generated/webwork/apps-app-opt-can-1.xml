@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-can-1" assembly-id="apps-app-opt-can-1">
+  <static seed="267" source="Library/ASU-topics/setRationalFunctions/prat13.pg">
+    <statement><p>An aluminum can is to be constructed to contain 2100 <m>cm^3</m> of liquid.</p>
+<p>Let <m>r</m> and <m>h</m> be the radius of the base and the height of the can
+respectively.</p>
+<p>a) Express <m>h</m> in terms of <m>r</m>. (If needed you can enter <m>\pi</m> as pi.)</p>
+<p><m>h =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+<p>b) Express the surface area of the can in terms of <m>r</m>.</p>
+<p>Surface area = <fillin characters="40" name="AnSwEr0002"/></p>
+<p>c) Approximate the value of <m>r</m> that will minimize the amount of
+required material (i.e. the value of <m>r</m> that will minimize the surface area).</p>
+<p>What is the corresponding value of <m>h</m>?</p>
+<p><m>r =</m> <fillin characters="40" name="AnSwEr0003"/></p>
+<p><m>h =</m> <fillin characters="40" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{2100}{3.14159r^{2}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6.28319r^{2}+\frac{4200}{r}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6.93979234383925</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>13.8795846876785</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setRationalFunctions/prat13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setRationalFunctions/prat13.pg"/>
+</webwork-reps>

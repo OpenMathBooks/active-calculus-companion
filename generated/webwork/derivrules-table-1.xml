@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-table-1" assembly-id="derivrules-table-1">
+  <static seed="172" source="Contrib/METU-NCC/MAT101/Final/Table1.pg">
+    <statement><p>In the parts below, <m>f{\small(x)}</m>, <m>g{\small(x)}</m>, and their derivatives have 
+values given in the table below</p>
+<tabular valign="top">
+<col halign="center" right="minor"/>
+<col halign="center"/>
+<col halign="center" right="minor"/>
+<col halign="center"/>
+<col halign="center"/>
+<row bottom="minor" header="yes">
+<cell><m>x</m></cell>
+<cell><m>f{\small(x)}</m></cell>
+<cell><m>f'{\small(x)}</m></cell>
+<cell><m>g{\small(x)}</m></cell>
+<cell><m>g'{\small(x)}</m></cell>
+</row>
+<row>
+<cell><m>1</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+<cell><m>2</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>2</m></cell>
+<cell><m>2</m></cell>
+<cell><m>1</m></cell>
+<cell><m>4</m></cell>
+<cell><m>3</m></cell>
+</row>
+<row>
+<cell><m>3</m></cell>
+<cell><m>1</m></cell>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>2</m></cell>
+</row>
+<row>
+<cell><m>4</m></cell>
+<cell><m>4</m></cell>
+<cell><m>3</m></cell>
+<cell><m>1</m></cell>
+<cell><m>1</m></cell>
+</row>
+</tabular>
+<p>On your answer paper, write formulas for the following 
+<alert> derivatives </alert> and then 
+give their values at <m>x=1</m></p>
+<p><alert> (A) </alert> The <alert> sum </alert>  <m>(f+g)'</m></p>
+<p><m>\quad (f+g)'(1) =</m><fillin characters="5" name="AnSwEr0001"/></p>
+<p><alert> (B) </alert> The <alert> product </alert>  <m>(fg)'</m></p>
+<p><m>\quad (fg)'(1) =</m><fillin characters="5" name="AnSwEr0002"/></p>
+<p><alert> (C) </alert> The <alert> quotient </alert>  <m>\left(\frac{f}{g}\right)'</m></p>
+<p><m>\quad \left(\frac{f}{g}\right)'(1) =</m><fillin characters="5" name="AnSwEr0003"/></p>
+<p><alert> (D) </alert> The <alert> composition </alert>  <m>(f{\small(g)})'</m></p>
+<p><m>\quad \bigl(f(g)\bigr)'(1) =</m><fillin characters="5" name="AnSwEr0004"/></p>
+<p><alert> (E) </alert> The <alert> logarithm </alert>  <m>\bigl(\ln(f)\bigr)'</m></p>
+<p><m>\quad \bigl(\ln(f)\bigr)'</m> at <m>x=1</m> is <fillin characters="10" name="AnSwEr0005"/></p>
+<p><alert> (F) </alert> The <alert> exponential </alert> <m>\bigl(e^f\bigr)'</m></p>
+<p><m>\quad \bigl(e^f\bigr)'</m> at <m>x=1</m> is <fillin characters="10" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>20</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.33333</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>80.3421</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Final/Table1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/METU-NCC/MAT101/Final/Table1.pg"/>
+</webwork-reps>

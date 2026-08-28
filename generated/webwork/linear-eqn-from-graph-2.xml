@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-from-graph-2" assembly-id="linear-eqn-from-graph-2">
+  <static seed="55" source="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/linear-eqn-from-graph-2-image-1.png" width="41%"/>
+<p>Find the formula for <m>f</m>.</p>
+<p><m>f(x)=</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>No correct answer specified</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Utah/Intermediate_Algebra/2.5A/pr8.pg"/>
+</webwork-reps>

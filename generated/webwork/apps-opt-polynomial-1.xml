@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-1" assembly-id="apps-opt-polynomial-1">
+  <static seed="258" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg">
+    <statement><p>Let <m>f(x)=x^{2}-8x+8</m>.</p>
+<p>Find the critical point <m>c</m> of <m>f(x)</m> and compute <m>f(c)</m>.</p>
+<p>The critical point <m>c</m> is =  <fillin characters="20" name="AnSwEr0001"/></p>
+<p>The value of <m>f(c)</m> =  <fillin characters="20" name="AnSwEr0002"/></p>
+<p>Compute the value of <m>f(x)</m> at the endpoints of the interval <m>[0,8]</m>.</p>
+<p><m>f(0)</m> =  <fillin characters="20" name="AnSwEr0003"/></p>
+<p><m>f(8)</m> =  <fillin characters="20" name="AnSwEr0004"/></p>
+<p>Determine the min and max of <m>f(x)</m> on <m>[0,8]</m>.</p>
+<p>Minimum value =  <fillin characters="20" name="AnSwEr0005"/></p>
+<p>Maximum value =  <fillin characters="20" name="AnSwEr0006"/></p>
+<p>Find the extreme values of <m>f(x)</m> on <m>[0,1]</m>.</p>
+<p>Minimum value =  <fillin characters="20" name="AnSwEr0007"/></p>
+<p>Maximum value =  <fillin characters="20" name="AnSwEr0008"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <solution><m>f(x)</m> is the solution to <m>f'(x)=0</m>. The derivative is<m>f'(x)=2x-8</m>. Setting this equal to zero and solving for <m>x</m> gives <m>x=4</m>. Evaluating <m>f(4)</m> yields the critical value -8.
+
+
+
+Evaluating <m>f(0)</m> and <m>f(8)</m>, we find that each is equal to 8.
+
+
+
+The extreme values must occur at critical points or at the endpoints of the interval. Since the value at the critical point is smaller than the value at the endpoints, the value of <m>f(4)</m> is a minimum, and the value of <m>f(0)</m> (or <m>f(8)</m> since they are equal) is a maximum.
+
+
+
+There are no critical points in the interval <m>[0,1]</m>, so the extreme values lie at the endpoints of the interval. Computation yields <m>f(0)=8</m>,<m>f(1)=1</m>, so the minimum is 1 and the maximum is 8.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.21.pg"/>
+</webwork-reps>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-points-on-plane-1" assembly-id="points-on-plane-1">
+  <static seed="1" source="Library/NewHampshire/unh_schoolib/Graphs/grabrs101.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/points-on-plane-1-image-1.png" width="100%"/>
+<p>In the graph above, the <m>x</m> and <m>y</m> values are shown on the axes.</p>
+<p>Find the coordinates of each of the marked points.</p>
+<p><input name="submitAnswers" onclick="document.getElementById('_panicked').value++" type="submit" value=" Ask for a Hint"/></p>
+<p>The coordinates of point A are ( <fillin characters="1" name="AnSwEr0001"/>,<fillin characters="1" name="AnSwEr0002"/>).</p>
+<p>The coordinates of point B  are ( <fillin characters="1" name="AnSwEr0003"/>,<fillin characters="1" name="AnSwEr0004"/>).</p>
+<p>The coordinates of point C  are ( <fillin characters="1" name="AnSwEr0005"/>,<fillin characters="1" name="AnSwEr0006"/>).</p>
+<p>The coordinates of point D  are ( <fillin characters="1" name="AnSwEr0007"/>,<fillin characters="1" name="AnSwEr0008"/>).</p>
+<p>The coordinates of point E  are ( <fillin characters="1" name="AnSwEr0009"/>,<fillin characters="1" name="AnSwEr0010"/>).</p>
+<p>The coordinates of point F  are ( <fillin characters="1" name="AnSwEr0011"/>,<fillin characters="1" name="AnSwEr0012"/>).</p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+    <solution><p>Solution</p>
+<p>The coordinates of a point are the pair <m>(x,y)</m> where <m>x</m> is the 
+distance to the
+right of the <m>y</m> axis (which is negative if the point is to the left of the
+<m>y</m> axis) and <m>y</m> is the distance above the <m>x</m> axis.</p>
+<p>The point <m>A</m> is 1 units to the right of the <m>y</m> axis and 4 units 
+above the <m>x</m> axis
+so its coordinates are (1,4).</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/NewHampshire/unh_schoolib/Graphs/grabrs101.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NewHampshire/unh_schoolib/Graphs/grabrs101.pg"/>
+</webwork-reps>

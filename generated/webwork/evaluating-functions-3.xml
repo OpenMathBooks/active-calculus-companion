@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-evaluating-functions-3" assembly-id="evaluating-functions-3">
+  <static seed="5" source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph20.pg">
+    <statement><p>The graph of a function <m>f</m> is shown below.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/evaluating-functions-3-image-1.png" width="40%"/>
+<p>Use the given graph of <m>f</m>. If there is more than one answer to a question, you can use commas and the word <lq/>or<rq/>. When solving an equation for the variable <m>x</m>, your answer should be in the form <lq/>x=___<rq/>.</p>
+<p><ol label="a.">
+<li>
+<p>Evaluate <m>\displaystyle{f(0)}</m>.</p>
+<p><m>\displaystyle{f(0)={}}</m><fillin characters="9" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>Solve <m>\displaystyle{f(x)=2}</m>.</p>
+<p><fillin characters="23" name="AnSwEr0002"/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x = 2</m>
+      </p>
+    </answer>
+    <solution><p>To evaluate <m>f(0)</m>, we understand that we have been given an <m>x</m>-value of <m>0</m>. On the graph, we draw a dotted vertical line at <m>x=0</m>, and it intersects the function<rsq/>s graph at <m>(0,-1)</m>. This implies <m>f(0)=-1</m>. See the graph below.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/evaluating-functions-3-image-2.png" width="40%"/>
+<p>To solve <m>f(x)=2</m>, we understand that we have been given a <m>y</m>-value of <m>2</m>. On the graph, we draw a dotted horizontal line at <m>y=2</m>, and it intersects the function<rsq/>s graph at <m>(2,2)</m>. This implies <m>f(2)=2</m>. See the graph below.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/evaluating-functions-3-image-3.png" width="40%"/>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph20.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph20.pg"/>
+</webwork-reps>

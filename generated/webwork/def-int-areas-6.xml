@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-6" assembly-id="def-int-areas-6">
+  <static seed="311" source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg">
+    <statement><p>Consider the graph of the function <m>f(x)</m>:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-6-image-1.gif" width="72%"/>
+<p>Evaluate the following integrals by interpreting them in terms of areas:</p>
+<p>(a) <m>\displaystyle \int_{0}^{\,2} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle \int_{0}^{\,5} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle \int_{5}^{\,7} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0003"/></p>
+<p>(d) <m>\displaystyle \int_{0}^{\,9} {f(x)}\,dx =</m> <fillin characters="25" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_33/Stewart5_5_2_33.pg"/>
+</webwork-reps>

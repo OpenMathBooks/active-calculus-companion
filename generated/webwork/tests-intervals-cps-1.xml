@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-cps-1" assembly-id="tests-intervals-cps-1">
+  <static seed="254" source="Library/Michigan/Chap4Sec1/Q09.pg">
+    <statement><p>For the function
+<m>f(x)=-3 x^3 + 81 x + 10</m>,
+find all intervals where the function is increasing:
+<m>f</m> is increasing on <fillin characters="35" name="AnSwEr0001"/></p>
+<p><em>(Give your answer as an interval or a list of intervals,
+e.g.,</em> <alert>(-infinity,8]</alert> <em>or</em>
+<alert>(1,5),(7,10)</alert> <em>.)</em></p>
+<p>Similarly, find all intervals where the function is decreasing:
+<m>f</m> is decreasing on <fillin characters="35" name="AnSwEr0002"/></p>
+<p><em>(Give your answer as an interval or a list of intervals,
+e.g.,</em> <alert>(-infinity,8]</alert> <em>or</em>
+<alert>(1,5),(7,10)</alert> <em>.)</em></p>
+<p>Finally, find all critical points in the graph of <m>f(x)</m></p>
+<p>critical points: <m>x =</m> <fillin characters="35" name="AnSwEr0003"/></p>
+<p><em>(Enter your <m>x</m>-values as a comma-separated list,
+or</em> <alert>none</alert> <em>if there are no critical
+points.)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(-3,3\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(-\infty ,-3\right), \left(3,\infty \right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3, 3</m>
+      </p>
+    </answer>
+    <solution><m>f'(x) &gt; 0</m>
+and <m>f'(x) \lt  0</m>; critical points are where <m>f'(x) = 0</m>.
+Here <m>f'(x) = -9 x^2  + 81 = -9 ( x - 3 )( x + 3 )</m>,
+so <m>f</m> is increasing on <m>(-3, 3)</m> and decreasing on <m>(-\infty, -3), (3, \infty)</m>.
+Critical points are <m>x = -3</m> and <m>x = 3</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap4Sec1/Q09.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap4Sec1/Q09.pg"/>
+</webwork-reps>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-writingsum2" assembly-id="sigma-notation-writingsum2">
+  <static seed="296" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg">
+    <statement><p>Write the sum in summation notation, using the given
+lower bound.</p>
+<p><me>\dfrac{1}{2}+\dfrac{2}{3}+\dfrac{3}{4}+\dfrac{4}{5}+\dfrac{5}{6}+\dfrac{6}{7}+\dfrac{7}{8}+\dfrac{8}{9} = \sum_{i=1}^{b} a_i</me>
+<m>b =</m><fillin characters="5" name="AnSwEr0001"/>, <m>a_i =</m><fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{i}{i+1}</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+<me>\dfrac{1}{2}+\dfrac{2}{3}+\dfrac{3}{4}+\dfrac{4}{5}+\dfrac{5}{6}+\dfrac{6}{7}+\dfrac{7}{8}+\dfrac{8}{9}</me>
+<me>= \dfrac{1}{1+1} + \dfrac{2}{2 + 1} + \cdots + 
+  \dfrac{8}{8 + 1}
+  = \sum_{i=1}^{8} \dfrac{i}{i+1}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_14.pg"/>
+</webwork-reps>

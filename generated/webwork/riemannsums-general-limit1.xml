@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-general-limit1" assembly-id="riemannsums-general-limit1">
+  <static seed="304" source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg">
+    <statement><p>Definition: The area <m>A</m> of the region
+<m>S</m> that lies under the graph of
+the continuous function <m>f</m> is the limit
+of the sum of the areas of approximating
+rectangles
+<me>A = \lim_{n\to\infty} R_n
+= \lim_{n\to\infty} \bigl[
+f(x_1)\Delta x + f(x_2) \Delta x + \dotsb +
+f(x_n)\Delta x \bigr].</me></p>
+<p>(a) Use the above definition to determine which
+of the following expressions represents the area
+under the graph of <m>f(x)=x^3</m> from <m>x = 0</m>
+to <m>x = 1</m>.
+<var form="checkboxes">
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1} ^ n
+\left(\frac{i}{n}\right)^3\frac{1}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n \left(\frac{i}{n}\right)\frac{1}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n \left(\frac{i}{n}\right)\frac{5}{n}</m></p>
+</li>
+<li>
+<p><m>\displaystyle \lim_{n \to \infty}
+\sum_{i = 1}^n  \left(\frac{i}{n}\right)^3\frac{5}{n}</m></p>
+</li>
+</var></p>
+<p>(b) Evaluate the limit that is the correct answer
+to part (a).  You may find the following formula
+for the sum of cubes helpful:
+<me>1^3 + 2^3 + 3^3 + \dotsb + n^3
+= \sum_{i = 1} ^ n i^3
+= \left(\frac{n(n+1)}{2}\right)^2.</me></p>
+<p>The value of the limit is <fillin characters="5" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>A</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg"/>
+</webwork-reps>

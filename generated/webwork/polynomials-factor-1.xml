@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-1" assembly-id="polynomials-factor-1">
+  <static seed="17" source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg">
+    <statement><p>Factor out the greatest common factor:</p>
+<p><m>25x^{3}y^{5}-15x^{2}y^{4} =</m>  <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>5x^{2}y^{4}\mathopen{}\left(5xy-3\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_09_FactorGrouping.pg"/>
+</webwork-reps>

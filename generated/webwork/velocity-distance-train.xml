@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-train" assembly-id="velocity-distance-train">
+  <static seed="288" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg">
+    <statement><p>A high-speed "bullet" train accelerates and decelerates at the rate <m>4 ft/s^2.</m>  Its maximum cruising speed is 90 mi/hr.</p>
+<p>(a) What is the maximum distance (in miles) the train can travel if it accelerates from rest until it reaches its cruising speed and then runs at that speed for 15 minutes?</p>
+<p>Maximum distance = <fillin characters="30" name="AnSwEr0001"/> miles</p>
+<p>(b) Suppose that the train starts from rest and must come to a complete stop in 15 minutes.  What is the maximum distance (in miles) it can travel under these conditions?</p>
+<p>Maximum distance = <fillin characters="30" name="AnSwEr0002"/> miles</p>
+<p>(c) Find the minimum time (in minutes) that the train takes to travel between two consecutive stations that are 45 miles apart.</p>
+<p>Minimum time = <fillin characters="30" name="AnSwEr0003"/> minutes</p>
+<p>(d) The trip from one station to the next takes 37.5 minutes.  How far apart (in miles) are the stations?</p>
+<p>Distance apart = <fillin characters="30" name="AnSwEr0004"/> miles</p>
+</statement>
+    <answer>
+      <p>
+        <m>22.9125</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>21.675</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>30.55</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>55.425</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg"/>
+</webwork-reps>

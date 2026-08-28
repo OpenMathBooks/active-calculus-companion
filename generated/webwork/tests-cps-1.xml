@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-1" assembly-id="tests-cps-1">
+  <static seed="255" source="Library/Michigan/Chap4Sec1/Q21.pg">
+    <statement><p>Find and classify the critical points of<m>f(x)=3 x^{5}(5 - x)^4</m> as
+local maxima and minima.</p>
+<p>Critical points: <m>x =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p>Classifications: <fillin characters="25" name="AnSwEr0002"/></p>
+<p><em>(Enter your critical points and classifications as
+comma-separated lists, and enter the types in the same order
+as your critical points.  Note that you must enter something
+in both blanks for either to be evaluated.  For the types,
+enter <alert>min</alert>, <alert>max</alert>, or
+<alert>neither</alert>.</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>0, 2.77778, 5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{neither}, \text{max}, \text{min}</m>
+      </p>
+    </answer>
+    <solution><m>f'(x) = 3\left( 5 x^{4} (5 - x)^{4} - 
+    4 x^{5}(5 - x)^{3} \right)</m>.
+Critical points are where this is zero, or, where
+<m>3 x^{4} (5-x)^{3} \left( 5(5 - x) - 4 x \right) = 
+   3 x^{4} (5-x)^{3} \left( 25 - 9 x \right) = 0</m>.
+So critical points are <m>x = 0</m>, <m>x = 5</m> and 
+<m>x = 25/9</m>.  Because 4, the multiplicity of the root 
+<m>x=0</m>, is even, the derivative does not 
+change sign at <m>x = 0</m>.  Checking points on either
+side of the other two critical points shows that 
+<m>x = 5</m> is a local minimum (<m>f'</m> changes from
+negative to positive) and <m>x = 25/9</m> is a local maximum.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap4Sec1/Q21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap4Sec1/Q21.pg"/>
+</webwork-reps>

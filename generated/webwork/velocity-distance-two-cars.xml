@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-two-cars" assembly-id="velocity-distance-two-cars">
+  <static seed="281" source="Library/Michigan/Chap5Sec1/Q25.pg">
+    <statement><p>Two cars start at the same time and travel in the same direction along
+a straight road.  The figure below gives the velocity, <m>v</m> (in
+km/hr), of each car as a function of time (in hr).</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/velocity-distance-two-cars-image-1.png" width="25%"/>
+<p>The velocity of car A is given by the dashed, red curve, and the velocity of car
+B by solid, blue curve.</p>
+<p><alert>(a)</alert></p>
+<p>Which car attains the larger maximum velocity?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+<p><alert>(b)</alert></p>
+<p>Which stops first?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+<p><alert>(c)</alert></p>
+<p>Which travels farther?
+<var form="buttons">
+<li>
+<p>A</p>
+</li>
+<li>
+<p>B</p>
+</li>
+</var></p>
+</statement>
+    <solution><p>SOLUTION</p>
+<p><alert>(a)</alert></p>
+<p>Car A has a velocity that attains the
+largest maximum value.</p>
+<p><alert>(b)</alert></p>
+<p>The graph of the velocity of car A
+returns to zero first, so that car stops first.</p>
+<p><alert>(c)</alert></p>
+<p>The area under the velocity curve for B
+is largest, so that car travels the farthest.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap5Sec1/Q25.pg"/>
+</webwork-reps>

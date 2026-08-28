@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-eval-1" assembly-id="derivatives-ln-eval-1">
+  <static seed="178" source="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg">
+    <statement><p>Suppose that <m>f(x) = 15 e^{x} + 6 \ln(x)</m>.  Find <m>f'(3)</m>.</p>
+<p><m>f'(3)</m> = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>303.283</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setDerivativeBasicFunctions/5-2-02.pg"/>
+</webwork-reps>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-piecewise-1" assembly-id="limits-from-piecewise-1">
+  <static seed="36" source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg">
+    <statement><p>Approximate the given limit both numerically and graphically.</p>
+<p><m>f(x) = \left\lbrace\begin{array}{ll}
+   x + 7 \amp  \quad x \leq 4, \\
+   3x  - 3 \amp  \quad x &gt; 4
+   \end{array}\right.</m></p>
+<p><m>\lim\limits_{x \to 4} f(x)  =</m>  <fillin characters="5" name="AnSwEr0001"/></p>
+<p>(Enter DNE if the limit doesn't exist)</p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{DNE}</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+        <row>
+<cell> <m>x</m> </cell>
+<cell> <m>f(x)</m> </cell>
+<cell> <m>x</m> </cell>
+<cell> <m>f(x)</m> </cell>
+</row>
+
+        <row>
+<cell> 4.002 </cell>
+<cell>9.006</cell>
+<cell> 3.998 </cell>
+<cell>10.998</cell>
+</row>
+
+        <row>
+<cell> 4.001 </cell>
+<cell>9.003</cell>
+<cell> 3.999 </cell>
+<cell>10.999</cell>
+</row>
+
+        <row>
+<cell> 4.0005 </cell>
+<cell>9.0015</cell>
+<cell>3.9995 </cell>
+<cell>10.9995</cell>
+</row>
+
+        <row>
+<cell> 4.0001 </cell>
+<cell>9.0003</cell>
+<cell>3.9999  </cell>
+<cell>10.9999</cell>
+</row>
+
+        
+</tabular>
+
+
+
+The limit as <m>x \to 4</m> does not exist because the function does not
+approach a single number from both left and right.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg"/>
+</webwork-reps>

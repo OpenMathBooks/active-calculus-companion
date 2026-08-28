@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-eqn" assembly-id="tangentline-given-derivative-eqn">
+  <static seed="58" source="Library/Wiley/setAnton_Section_2.2/Question7.pg">
+    <statement><p>Given that <m>\small{f(4) = 9}</m> and <m>\small{f'(4) = 8}</m>, find an equation for the
+tangent line to the graph of <m>\small{y = f(x)}</m> at <m>\small{x = 4}</m>.</p>
+<p><m>\small{y =}</m> <fillin characters="15" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8x+\left(-23\right)</m>
+      </p>
+    </answer>
+    <solution><m>\small{f'(4) = 8}</m>, the slope of the tangent line at <m>\small{x = 4}</m> is <m>\small{8}</m>.
+Since <m>\small{f(4) = 9}</m>, the tangent line contains the point <m>\small{(4,9)}</m>.
+
+
+
+Therefore, the equation of the tangent line to <m>\small{f(x)}</m> at <m>\small{x = 4}</m> is <m>\small{y - 9 = 8(x - 4)}</m>,
+or <m>\small{y = 8 x  - 23}</m>.
+ 
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Wiley/setAnton_Section_2.2/Question7.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Wiley/setAnton_Section_2.2/Question7.pg"/>
+</webwork-reps>

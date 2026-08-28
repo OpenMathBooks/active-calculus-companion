@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-ladder" assembly-id="rel-rates-ladder">
+  <static seed="216" source="Library/Union/setDervRelatedRates/an3_7_17.pg">
+    <statement><p>A 17 foot ladder is leaning against a wall.</p>
+<p>If the top slips down the wall at a rate of 4 ft/s,
+how fast will the foot be moving away from the wall when the top is
+16 feet above the ground?</p>
+<p>The foot will be moving at <fillin characters="25" name="AnSwEr0001"/> ft/s.</p>
+</statement>
+    <answer>
+      <p>
+        <m>11.141</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setDervRelatedRates/an3_7_17.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setDervRelatedRates/an3_7_17.pg"/>
+</webwork-reps>

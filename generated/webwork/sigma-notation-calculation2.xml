@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-calculation2" assembly-id="sigma-notation-calculation2">
+  <static seed="294" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg">
+    <statement><p>For the following, write out each term of the
+summation in the boxes provided.  Then compute
+the sum.</p>
+<p>a) <m>\displaystyle\sum_{i=1}^{5} \dfrac{1}{i}</m> 
+= <fillin characters="5" name="AnSwEr0001"/> <m>+</m> <fillin characters="5" name="AnSwEr0002"/> <m>+</m> <fillin characters="5" name="AnSwEr0003"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0004"/> <m>+</m> <fillin characters="5" name="AnSwEr0005"/>  
+<m>=</m> <fillin characters="10" name="AnSwEr0006"/></p>
+<p>b) <m>\displaystyle\sum_{i=1}^{6} (-1)^i i</m> 
+= <fillin characters="5" name="AnSwEr0007"/> <m>+</m> <fillin characters="5" name="AnSwEr0008"/> <m>+</m> <fillin characters="5" name="AnSwEr0009"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0010"/> <m>+</m> <fillin characters="5" name="AnSwEr0011"/>  <m>+</m> <fillin characters="5" name="AnSwEr0012"/>
+<m>=</m> <fillin characters="10" name="AnSwEr0013"/></p>
+<p>c) <m>\displaystyle\sum_{i=1}^{4}\left( \dfrac{1}{i} - \dfrac{1}{i+1} 
+\right)</m> 
+= <fillin characters="5" name="AnSwEr0014"/> <m>+</m> <fillin characters="5" name="AnSwEr0015"/> <m>+</m> <fillin characters="5" name="AnSwEr0016"/>
+<m>+</m> <fillin characters="5" name="AnSwEr0017"/> 
+<m>=</m> <fillin characters="10" name="AnSwEr0018"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.333333333333333</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.25</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2.28333333333333</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.166666666666667</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.0833333333333333</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.05</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.8</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+a) Write out the terms for each value of <m>i</m> from 1 to 5,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = \frac{1}{1} = 1\\
+    i = 2 \amp \to\amp  a_{2} = \frac{1}{2} \\
+    i = 3 \amp \to\amp  a_{3} = \frac{1}{3} \\
+    i = 4 \amp \to\amp  a_{4} = \frac{1}{4} \\
+    i = 5 \amp \to\amp  a_{5} = \frac{1}{5} \\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=1}^{5} \dfrac{1}{i} =
+1 + \frac{1}{2} + \frac{1}{3} + \frac{1}{4} + \frac{1}{5} =
+\frac{137}{60}</m>.
+
+
+
+
+b) Write out the terms for each value of <m>i</m> from 1 to 6,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = (-1)^1 (1) = -1\\
+    i = 2 \amp \to\amp  a_{2} = (-1)^2 (2) = 2\\
+    i = 3 \amp \to\amp  a_{3} = (-1)^3 (3) = -3\\
+    i = 4 \amp \to\amp  a_{4} = (-1)^4 (4) = 4\\
+    i = 5 \amp \to\amp  a_{5} = (-1)^5 (5) = -5\\
+    i = 6 \amp \to\amp  a_{6} = (-1)^6 (6) = 6\\
+  \end{array}</me>
+The sum is: <m>\displaystyle\sum_{i=1}^{6} (-1)^i i = -1 + 2
+-3 + 4 - 5 + 6 = 3</m> 
+
+
+
+
+c) Write out the terms for each value of <m>i</m> from 1 to 6,
+then add the terms.
+<me>\begin{array}{rcl}
+    i = 1 \amp \to\amp  a_{1} = \frac{1}{1} - \frac{1}{2} = \frac{1}{2}\\
+    i = 2 \amp \to\amp  a_{2} = \frac{1}{2} - \frac{1}{3} = \frac{1}{6}\\
+    i = 3 \amp \to\amp  a_{3} = \frac{1}{3} - \frac{1}{4} = \frac{1}{12}\\
+    i = 4 \amp \to\amp  a_{4} = \frac{1}{4} - \frac{1}{5} = \frac{1}{20}\\
+  \end{array}</me>
+Note, the sum <alert> telescopes </alert>, which may save you
+some work when computing the
+sum.
+<me>\sum_{i=1}^{4}\left( \dfrac{1}{i} - \dfrac{1}{i+1} 
+  \right)  = \frac{1}{1} - \frac{1}{2} +
+  \frac{1}{2} - \frac{1}{3} +
+  \frac{1}{3} - \frac{1}{4} + 
+  \frac{1}{4} - \frac{1}{5}</me>
+<me>= 1 - \frac{1}{5} = \frac{4}{5}.</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg"/>
+</webwork-reps>

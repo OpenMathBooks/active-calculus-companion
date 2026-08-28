@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-1" assembly-id="derivatives-trig-adv-quot-1">
+  <static seed="136" source="Library/ma122DB/set4b/s3_4_9.pg">
+    <statement><p>Let <m>\displaystyle f(x) =\frac { 2 \tan x }{ x }</m>. Find <m>f'( x ).</m></p>
+<p>Answer: <fillin characters="50" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{2}{\cos^{2}\mathopen{}\left(x\right)x}-\frac{2\tan\mathopen{}\left(x\right)}{x^{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set4b/s3_4_9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set4b/s3_4_9.pg"/>
+</webwork-reps>

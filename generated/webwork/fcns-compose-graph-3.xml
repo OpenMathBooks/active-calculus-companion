@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-graph-3" assembly-id="fcns-compose-graph-3">
+  <static seed="156" source="Library/Michigan/Chap1Sec3/Q43.pg">
+    <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/fcns-compose-graph-3-image-1.png" width="41%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/fcns-compose-graph-3-image-2.png" width="41%"/>
+<p/></cell>
+</row>
+<row>
+<cell><m>f(x)</m></cell>
+<cell><m>g(x)</m></cell>
+</row>
+</tabular>
+<p>Use the figures above, which show the functions <m>f(x)</m> and <m>g(x)</m>,
+to find the following values. Note that you can find exact values.</p>
+<p><alert>1.</alert> <m>f(g(-1))</m>=<fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert>2.</alert> <m>g(f(0))</m>=<fillin characters="30" name="AnSwEr0002"/></p>
+<p><alert>3.</alert> <m>g(g(7))</m>=<fillin characters="30" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2</m>
+      </p>
+    </answer>
+    <solution><alert>1.</alert>
+<m>f(g(-1)) = f(2)</m> which is <m>-5</m>.
+
+
+
+
+<alert>2.</alert>
+<m>g(f(0)) = g(5)</m> which is <m>-2</m>.
+
+
+
+
+<alert>3.</alert>
+<m>g(g(7)) = g(-1)</m> which is <m>2</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap1Sec3/Q43.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap1Sec3/Q43.pg"/>
+</webwork-reps>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-average-value" assembly-id="def-int-average-value">
+  <static seed="321" source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg">
+    <statement><p>The table gives the values of a continuous function <m>f</m>.</p>
+<p><me>\begin{array}{|c|c|c|c|c|c|c|c|}\hline
+ x          \amp  20 \amp  25 \amp  30 \amp  35 \amp  40 \amp  45 \amp  50 \\ \hline
+ f(x) \amp  42 \amp  38 \amp  31 \amp  29 \amp  35 \amp  48 \amp  60 \\ \hline
+\end{array}</me></p>
+<p>Use the Midpoint Rule to estimate the average value of <m>f</m> on [20, 50].</p>
+<p>Midpoint Rule estimate = <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>38.3333333333333</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg"/>
+</webwork-reps>

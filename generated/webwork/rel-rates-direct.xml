@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-direct" assembly-id="rel-rates-direct">
+  <static seed="211" source="Library/Michigan/Chap4Sec6/Q12.pg">
+    <statement><p>If <m>x^2 + y^2 = 36</m> and <m>dx/dt=7</m>,
+find <m>dy/dt</m> when <m>y</m> is positive and</p>
+<p><alert>(a)</alert>
+<m>x=0</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0001"/></p>
+<p><alert>(b)</alert>
+<m>x=2</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0002"/></p>
+<p><alert>(c)</alert>
+<m>x=4</m>:</p>
+<p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2.47487373415292</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-6.26099033699941</m>
+      </p>
+    </answer>
+    <solution><me>2x \frac{dx}{dt} + 2y\frac{dy}{dt} = 0</me>
+and hence
+<me>\frac{dy}{dt} = -\frac{x\frac{dx}{dt}}{y}.</me>
+
+
+
+<alert>(a)</alert>
+When <m>x=0</m>, <m>y=\sqrt{36-0^2}=6</m>, so we have
+<me>\frac{dy}{dt} = -\frac{0\cdot7}{6} = 0.</me>
+
+
+
+
+<alert>(b)</alert>
+When <m>x=2</m>, <m>y=\sqrt{36-2^2}=\sqrt{32}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{2\cdot7}{\sqrt{32}}.</me>
+
+
+
+
+<alert>(c)</alert>
+When <m>x=4</m>, <m>y=\sqrt{36-4^2}=\sqrt{20}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{4\cdot7}{\sqrt{20}}.</me>
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap4Sec6/Q12.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap4Sec6/Q12.pg"/>
+</webwork-reps>

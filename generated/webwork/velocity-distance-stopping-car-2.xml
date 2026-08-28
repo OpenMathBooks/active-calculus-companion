@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stopping-car-2" assembly-id="velocity-distance-stopping-car-2">
+  <static seed="279" source="Library/Michigan/Chap5Sec1/Q15.pg">
+    <statement><p>A student is speeding down Route 11 in his fancy red Porsche when his
+radar system warns him of an obstacle 400 feet ahead.  He immediately
+applies the brakes, starts to slow down, and spots a skunk in the road
+directly ahead of him.  The "black box" in the Porsche records the car's
+speed every two seconds, producing the following table.  The speed
+decreases throughout the 10 seconds it takes to stop, although not
+necessarily at a uniform rate.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>Time since brakes applied (sec)</cell>
+<cell>0</cell>
+<cell>2</cell>
+<cell>4</cell>
+<cell>6</cell>
+<cell>8</cell>
+<cell>10</cell>
+</row>
+<row>
+<cell>Speed (ft/sec)</cell>
+<cell>120</cell>
+<cell>70</cell>
+<cell>40</cell>
+<cell>30</cell>
+<cell>5</cell>
+<cell>0</cell>
+</row>
+</tabular>
+<p><alert>A.</alert>
+What is your best estimate of the total distance the student's car traveled
+before coming to rest (note that the best estimate is probably not the
+over or under estimate that you can most easily find)?</p>
+<p>distance = <fillin characters="35" name="AnSwEr0001"/>
+(include )</p>
+<p><alert>B.</alert>
+Which one of the following statements can you justify from the information given?</p>
+<p><var form="buttons">
+<li>
+<p>The car stopped before getting to the skunk.</p>
+</li>
+<li>
+<p>The "black box" data is inconclusive.  The skunk may or may not have been hit.</p>
+</li>
+<li>
+<p>The skunk was hit by the car.</p>
+</li>
+</var></p>
+</statement>
+    <answer>
+      <p>
+        <m>410\ {\rm ft}</m>
+      </p>
+    </answer>
+    <solution><m>= v</m>,
+<me>\mbox{left-hand sum} = 2 (v(0) + v(2) + v(4) + v(6) + v(8)),</me>
+or
+<me>\mbox{left-hand sum} = 
+  2 (120 + 70 + 40 + 30 + 5)
+  = 530,</me>
+and 
+<me>\mbox{right-hand sum} = 2 (v(2) + v(4) + v(6) + v(8) + v(10)),</me>
+or
+<me>\mbox{right-hand sum} = 
+  2 (70 + 40 + 30 + 5 + 0)
+  = 290.</me>
+Thus we estimate that the distance traveled is 
+<me>\mbox{distance} = \frac12 (530 + 290) = 410.</me>
+
+
+
+
+Using the overestimate and underestimate for the distance traveled, we can
+answer the last question.
+The underestimate for the distance traveled by the Porsche (290) is less than the 400 foot distance to the skunk, but the overestimate (530) is more than that, so the "black box" data is inconclusive.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap5Sec1/Q15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap5Sec1/Q15.pg"/>
+</webwork-reps>

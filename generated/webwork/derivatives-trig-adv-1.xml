@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-1" assembly-id="derivatives-trig-adv-1">
+  <static seed="133" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg">
+    <statement><p>Let <m>f(x) = 7 \csc x</m>.  Find the requested
+derivatives.</p>
+<p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/></p>
+<p><m>f''(x) =</m><fillin characters="25" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-7\csc\mathopen{}\left(x\right)\cot\mathopen{}\left(x\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7\mathopen{}\left(\csc^{3}\mathopen{}\left(x\right)+\csc\mathopen{}\left(x\right)\cot^{2}\mathopen{}\left(x\right)\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+<me>\begin{array}{rcl}
+   f'(x) \amp =\amp  -7 \csc x \cot x \\
+   f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \\
+   \amp =\amp  7( \csc^3 x + \csc x \cot^2 x)
+  \end{array}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg"/>
+</webwork-reps>

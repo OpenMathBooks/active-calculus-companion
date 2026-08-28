@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rationalizing-conjugates-1" assembly-id="rationalizing-conjugates-1">
+  <static seed="28" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg">
+    <statement><p>Multiply the radical expression and reduce your answer.</p>
+<p>Do not use rational exponents. Use "sqrt(...)" instead.</p>
+<p><me>\large{ \left(\sqrt{2}-x\right)\left(\sqrt{2}+x\right) }</me></p>
+<p><fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <hint><p>Use the distributive property.</p>
+<p>Simplify your radicals.</p>
+<p>Make sure you're not trying to combine terms that don't have a common radical.</p>
+<p>Did you recognize that this is a "difference of squares" type problem?</p>
+</hint>
+    <answer>
+      <p>
+        <m>2-x^{2}</m>
+      </p>
+    </answer>
+    <solution><p><alert> Distribute: </alert></p>
+<p><m>\displaystyle \left(\sqrt{2}-x\right) \left( \sqrt{2}+x \right) = \left(\sqrt{2} \cdot \sqrt{2}\right) + \left(\sqrt{2} \cdot x \right) + \left(-x \cdot \sqrt{2}\right) + \left(-x \cdot x\right)</m></p>
+<p><alert> Simplify each product: </alert></p>
+<p><em> First: </em></p>
+<p><m>\displaystyle \sqrt{2} \cdot \sqrt{2} = 2</m></p>
+<p><em> Outer: </em></p>
+<p><m>\displaystyle \sqrt{2} \cdot x = x\sqrt{2}</m></p>
+<p><em> Inner: </em></p>
+<p><m>\displaystyle -x \cdot \sqrt{2} = -x\sqrt{2}</m></p>
+<p><em> Last: </em></p>
+<p><m>\displaystyle -x \cdot x = -x^2</m></p>
+<p><alert> Bring our simplified terms back together: </alert></p>
+<p><m>\displaystyle \left(\sqrt{2}-x\right) \left( \sqrt{2}-x \right) = 2 + x\sqrt{2} - x\sqrt{2} - x^2</m></p>
+<p><alert> Combine like terms: </alert></p>
+<p><m>\displaystyle 2 + (x\sqrt{2} - x\sqrt{2}) - x^2 = 2 + 0 - x^2</m></p>
+<p><m>\displaystyle 2 +0 - x^2 = 2-x^{2}</m></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/MultiplyRadicals/algebraic-conjugates.pg"/>
+</webwork-reps>

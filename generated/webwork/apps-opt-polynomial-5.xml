@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-5" assembly-id="apps-opt-polynomial-5">
+  <static seed="264" source="Library/Union/setDervOptimization/4-5-23.pg">
+    <statement><p>Find the absolute maximum and absolute minimum values of  the function
+<me>f(x) = x^{3}+6x^{2}-63x+5</me>
+over each of the indicated intervals.</p>
+<p>(a) Interval = <m>[-8, 0]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0002"/></cell>
+</row>
+</tabular>
+<p>(b) Interval = <m>[-5, 4]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0003"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0004"/></cell>
+</row>
+</tabular>
+<p>(c) Interval = <m>[-8, 4]</m>.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell>Absolute maximum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0005"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell>Absolute minimum</cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="25" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+</statement>
+    <answer>
+      <p>
+        <m>397</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>345</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-103</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>397</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-103</m>
+      </p>
+    </answer>
+    <solution><p>SOLUTION</p>
+<p><me>f'(x) = 3x^{2}+12x-63 = 3(x-3)(x+7)</me>
+The critical numbers are <m>x = 3</m> and <m>x = -7</m>.</p>
+<p>(a) Only the critical number <m>x = -7</m> is in the interval <m>[-8, 0]</m>.
+The value of the function at this critical number is
+<me>f(-7) = 397</me>
+The values at the endpoints are 
+<me>f(-8) = 381 \quad \text{and} \quad f(0)=5</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>397</m></p>
+<p><B> 2. </B> Absolute minimum = <m>5</m>.</p>
+<p>(b) Only the critical number <m>x = 3</m> is in the interval <m>[-5, 4]</m>.
+The value of the function at this critical number is
+<me>f(3) = -103</me>
+The values at the endpoints are 
+<me>f(-5) = 345 \quad \text{and} \quad f(4)=-87</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>345</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-103</m>.</p>
+<p>(c) Both  critical numbers <m>x = -7</m> and <m>x = 3</m> are in the interval <m>[-8, 4]</m>.
+The values of the function at these critical numbers are
+<me>f(-7) = 397 \quad \text{and} \quad f(3) = -103</me>
+The values at the endpoints are 
+<me>f(-8) = 381 \quad \text{and} \quad f(4)=-87</me>
+Comparing these values we see that:</p>
+<p><B> 1. </B>   Absolute maximum = <m>397</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-103</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setDervOptimization/4-5-23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setDervOptimization/4-5-23.pg"/>
+</webwork-reps>

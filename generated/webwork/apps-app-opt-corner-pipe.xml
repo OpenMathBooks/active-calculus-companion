@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-corner-pipe" assembly-id="apps-app-opt-corner-pipe">
+  <static seed="275" source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg">
+    <statement><p>A steel pipe is being carried down a hallway 9 ft wide. At the
+end of the hall there is a right-angled turn into a narrower
+hallway 6 ft wide. What is the length of the longest pipe that
+can be carried horizontally around the corner?</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/apps-app-opt-corner-pipe-image-1.gif" width="75%"/>
+<p><fillin characters="20" name="AnSwEr0001"/> ft</p>
+</statement>
+    <answer>
+      <p>
+        <m>21.0704471376599</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg"/>
+</webwork-reps>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-quadratic-1" assembly-id="ftc-definite-integral-quadratic-1">
+  <static seed="333" source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg">
+    <statement><p>Evaluate the definite integral</p>
+<p><m>\displaystyle \int_{ 3 } ^ { 9 } (18x^{2}-4x+7) dx =</m> <fillin characters="40" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{18}{3}\cdot 9^{3}-\frac{4}{2}\cdot 9^{2}+7\cdot 9-\left(\frac{18}{3}\cdot 3^{3}-\frac{4}{2}\cdot 3^{2}+7\cdot 3\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setIntegrals3Definite/s4_4_20_mo.pg"/>
+</webwork-reps>

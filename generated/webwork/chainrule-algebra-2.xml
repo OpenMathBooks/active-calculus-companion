@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-2" assembly-id="chainrule-algebra-2">
+  <static seed="158" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg">
+    <statement><p>Compute the derivative of the given function.</p>
+<p><me>f(x) = -8 \sec(10 x)</me></p>
+<p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-80\sec\mathopen{}\left(10x\right)\tan\mathopen{}\left(10x\right)</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Use the Chain Rule with inside function <m>u = 10 x</m>
+and outside function <m>y = -8\sec u</m>.
+
+
+
+<me>\begin{array}{rcl}
+    f'(x) \amp =\amp  \displaystyle\frac{dy}{du} \cdot \frac{du}{dx}\\
+    \amp \amp \\
+    \amp =\amp  (-8\sec u \tan u)(10) \\
+    \amp =\amp  -80 \sec(10 x)\tan(10 x)
+  \end{array}</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_13.pg"/>
+</webwork-reps>

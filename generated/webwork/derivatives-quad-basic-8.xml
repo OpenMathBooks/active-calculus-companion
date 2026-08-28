@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quad-basic-8" assembly-id="derivatives-quad-basic-8">
+  <static seed="113" source="Library/UMN/calculusStewartCCC/s_3_3_10.pg">
+    <statement><p>Differentiate <m>\displaystyle y = \frac{4+\sin x}{x+\cos x}.</m></p>
+<p><m>\displaystyle y' =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{1-4+x\cos\mathopen{}\left(x\right)+\left(4-1\right)\sin\mathopen{}\left(x\right)}{\left(x+\cos\mathopen{}\left(x\right)\right)^{2}}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UMN/calculusStewartCCC/s_3_3_10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UMN/calculusStewartCCC/s_3_3_10.pg"/>
+</webwork-reps>

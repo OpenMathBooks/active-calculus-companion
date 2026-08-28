@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stopping-car-steps" assembly-id="velocity-distance-stopping-car-steps">
+  <static seed="284" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg">
+    <statement><p>A car going at <m>36 \ \mathrm{ft/s}</m> decelerates at a
+constant <m>6 \ \mathrm{ft/s^2}</m> to come to a stop.</p>
+<p><alert>(a)</alert>
+Fill in the following table showing the velocity of the car every second.
+Fill in a zero velocity for any time after that at which the
+car comes to a rest.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell><m>t=</m></cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>4</cell>
+<cell>5</cell>
+<cell>6</cell>
+<cell>7</cell>
+</row>
+<row>
+<cell><m>v=</m></cell>
+<cell><fillin characters="5" name="AnSwEr0001"/></cell>
+<cell><fillin characters="5" name="AnSwEr0002"/></cell>
+<cell><fillin characters="5" name="AnSwEr0003"/></cell>
+<cell><fillin characters="5" name="AnSwEr0004"/></cell>
+<cell><fillin characters="5" name="AnSwEr0005"/></cell>
+<cell><fillin characters="5" name="AnSwEr0006"/></cell>
+<cell><fillin characters="5" name="AnSwEr0007"/></cell>
+<cell><fillin characters="5" name="AnSwEr0008"/></cell>
+</row>
+</tabular>
+<p><alert>(b)</alert>
+When does the car come to a stop?</p>
+<p>at <m>t =</m> <fillin characters="10" name="AnSwEr0009"/></p>
+<p>Using your table, find left and right sums which estimate the total
+distance traveled before the car comes to rest.  Which is an
+overestimate, and which is an underestimate?</p>
+<p>The <ul form="popup" name="AnSwEr0010"><li>
+<p>?</p>
+</li><li>
+<p>left sum</p>
+</li><li>
+<p>right sum</p>
+</li></ul> is an underestimate, and is = <fillin characters="15" name="AnSwEr0011"/></p>
+<p>The <ul form="popup" name="AnSwEr0012"><li>
+<p>?</p>
+</li><li>
+<p>left sum</p>
+</li><li>
+<p>right sum</p>
+</li></ul> is an overestimate, and is = <fillin characters="15" name="AnSwEr0013"/></p>
+<p><alert>(c)</alert>
+On a sheet of paper, sketch a graph of velocity against time. On the
+graph, show an area representing the distance traveled before the car
+comes to rest.  Use the graph to calculate this distance.</p>
+<p>distance = <fillin characters="10" name="AnSwEr0014"/></p>
+<p><alert>(d)</alert>
+Now find a formula for the velocity of the car as a function of time:</p>
+<p>velocity = <fillin characters="10" name="AnSwEr0015"/></p>
+<p>and then find the total distance traveled by antidifferentiation.</p>
+<p>distance = <fillin characters="10" name="AnSwEr0016"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>36</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>36-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>30-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>24-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>18-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>12-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{right sum}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>90</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{left sum}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>126</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{36\cdot 6}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>36-6t</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{36\cdot 6}{2}</m>
+      </p>
+    </answer>
+    <solution><alert>(a)</alert>
+Since the velocity is constantly decreasing, every second its velocity
+decreases by 6 ft/s, so that the car stops after 6 seconds, and we
+have the time and speed values
+
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+<row>
+<cell><m>t=</m></cell>
+<cell>0</cell>
+<cell>1</cell>
+<cell>2</cell>
+<cell>3</cell>
+<cell>4</cell>
+<cell>5</cell>
+<cell>6</cell>
+<cell>7</cell>
+</row>
+
+<row>
+<cell><m>v=</m></cell>
+<cell>36</cell>
+<cell>30</cell>
+<cell>24</cell>
+<cell>18</cell>
+<cell>12</cell>
+<cell>6</cell>
+<cell>0</cell>
+<cell>0</cell>
+</row>
+
+
+</tabular>
+
+
+
+
+
+
+<alert>(b)</alert>
+Over the interval <m>a \leq t \leq a + 1</m>, the left-hand velocity
+is <m>v(a)</m>, and the right-hand velocity is <m>v(a + 1)</m>.  Since we
+are considering one-second intervals, <m>\Delta t = 1</m>, and <m>n = 6</m>.
+The left sum is then 126 ft, and the right sum is 90 ft.  Thus
+the left sum is an overestimate and the right is an underestimate.
+
+
+
+
+<alert>(c)</alert>
+Area <m>A</m> in the figure below represents distance traveled.
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/velocity-distance-stopping-car-steps-image-1.png" width="33%"/>
+
+
+
+
+<m>A = \frac12 (\mbox{base})(\mbox{height}) = \frac12 \cdot 36 \cdot 6
+    = 108</m> ft.
+
+
+
+
+<alert>(d)</alert>
+The velocity is constantly decreasing at a rate of 6 ft/s, so
+after each second the velocity has dropped by 6 ft.
+Therefore <m>v(t) = 36-6t</m>.
+
+
+
+An antiderivative for <m>v(t)</m> is <m>s(t)</m>, where
+<m>s(t) = 36 t -  t^2</m>.  Thus by the Fundamental Theorem of Calculus,
+the distance traveled
+<m>= s(6) - s(0) = 108 - 0 = 108</m> ft.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-19a.pg"/>
+</webwork-reps>

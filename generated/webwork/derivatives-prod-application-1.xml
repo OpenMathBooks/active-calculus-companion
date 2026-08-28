@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-application-1" assembly-id="derivatives-prod-application-1">
+  <static seed="122" source="Library/ASU-topics/setProductQuotientRule/3-5-70.pg">
+    <statement><p>One hour after <m>x</m> milligrams of a drug are given to a person, the
+change in body temperature <m>T(x)</m> (in degrees fahrenheit)
+is given by the function
+ <me>T(x) = x^2 (1 - \frac{x}{7}).</me>
+Further, the rate <m>T'(x)</m> at which <m>T</m> changes with respect to
+the size of the dosage, <m>x</m>, is called the sensitivity
+of the body to the dosage.  Find:</p>
+<p>(A) <m>T'(1)</m> = <fillin characters="40" name="AnSwEr0001"/></p>
+<p>(B) <m>T'(3)</m> = <fillin characters="40" name="AnSwEr0002"/></p>
+<p>(C) <m>T'(6)</m> = <fillin characters="40" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2\cdot \left(1-\frac{1}{7}\right)+\frac{-1}{7}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6\cdot \left(1-\frac{3}{7}\right)+9\cdot \frac{-1}{7}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>12\cdot \left(1-\frac{6}{7}\right)+36\cdot \frac{-1}{7}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ASU-topics/setProductQuotientRule/3-5-70.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ASU-topics/setProductQuotientRule/3-5-70.pg"/>
+</webwork-reps>

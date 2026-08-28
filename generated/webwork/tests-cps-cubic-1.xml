@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-cubic-1" assembly-id="tests-cps-cubic-1">
+  <static seed="242" source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg">
+    <statement><p>Find all critical numbers of the polynomial
+<me>f(x) = 4x^{3}-42x^{2}-96x-6</me>
+and then list them (separated by commas) in the box below.
+If there are no critical numbers, enter <alert>None</alert>.</p>
+<p>List of critical numbers: <fillin characters="36" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1, 8</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg"/>
+</webwork-reps>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-factor-3" assembly-id="limits-factor-3">
+  <static seed="42" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg">
+    <task><title>Part 1: Evaluate the limit</title>
+<statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 7} {\frac{x^{2}-49}{x-7}} = \lim_{x\to 7} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 7}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement><answer><p><m>x+7</m></p></answer><answer><p><m>14</m></p></answer></task>
+    <task><title>Part 2: Follow-up question</title>
+<statement><p><m>\displaystyle{ \lim_{x\to 7} \frac{ x - 7 }{ \sqrt{x} - \sqrt{7} } = \lim_{x\to 7} }</m> <fillin characters="17" name="AnSwEr0003"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0004"/>.</p>
+<p>Hint: Think of <m>x-7</m> as a difference of squares and factor it, or use the <lq/>conjugate trick<rq/>.</p>
+</statement><answer><p><m>\sqrt{x}+2.64575</m></p></answer><answer><p><m>5.2915</m></p></answer></task>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_03b.pg"/>
+</webwork-reps>

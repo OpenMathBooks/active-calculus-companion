@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-fractions-2" assembly-id="limits-fractions-2">
+  <static seed="44" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg">
+    <statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
+<p><m>\displaystyle{ \lim_{x\to 9} \left( {\frac{\frac{1}{x}-\frac{1}{9}}{x-9}} \right) = \lim_{x\to 9} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 9}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-1}{9x}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.0123457</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_05.pg"/>
+</webwork-reps>

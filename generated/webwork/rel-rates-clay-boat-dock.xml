@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-clay-boat-dock" assembly-id="rel-rates-clay-boat-dock">
+  <static seed="219" source="Library/Union/setDervRelatedRates/an3_7_30.pg">
+    <statement><p>A boat is pulled into a dock by means of a rope attached to a pulley on the
+dock. The rope is attached to the front of the boat, which is 6
+feet below the level of the pulley.</p>
+<p>If the rope is pulled through the pulley at a rate of 20
+ft/min, at what rate will the boat be approaching the dock when
+90 ft of rope is out?</p>
+<p>The boat will be approaching the dock at <fillin characters="25" name="AnSwEr0001"/> ft/min.</p>
+<p><em>Hint</em>: Sketch a diagram of this situation.</p>
+</statement>
+    <answer>
+      <p>
+        <m>20.0446</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Union/setDervRelatedRates/an3_7_30.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Union/setDervRelatedRates/an3_7_30.pg"/>
+</webwork-reps>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-val-3" assembly-id="tangentline-given-derivative-val-3">
+  <static seed="60" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg">
+    <statement><p>Given that <m>f(3) = 3</m> and <m>f'(3) = -4</m>, approximate
+<m>f(3.4)</m>.</p>
+<p><m>f(3.4) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.4</m>
+      </p>
+    </answer>
+    <solution><alert> Solution:</alert> 
+
+
+
+Using the formula, <m>f(c + h) \approx f(c) + f'(c)\cdot h</m>,
+<me>f(3.4) = f(3 + 0.4) \approx f(3) + f'(3)\cdot (0.4)
+  = 3  - 4 \cdot (0.4) = 1.4.</me>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg"/>
+</webwork-reps>

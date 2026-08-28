@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-polynomials-factor-3" assembly-id="polynomials-factor-3">
+  <static seed="19" source="Library/PCC/BasicAlgebra/Factoring/factoring115.pg">
+    <statement><p>Factor the given polynomial</p>
+<p><m>{2x\mathopen{}\left(x+y\right)-5\mathopen{}\left(x+y\right)}=</m> <fillin characters="19" name="AnSwEr0001"/></p>
+<p>If the expression cannot be factored then answer with <alert>prime</alert>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(2x-5\right)\mathopen{}\left(x+y\right)</m>
+      </p>
+    </answer>
+    <solution><p>The greatest common factor to both terms is <m>x+y</m>, so we can factor the polynomial using the 
+<em>factor by grouping</em> method as follows:</p>
+<p><m>{2x\mathopen{}\left(x+y\right)-5\mathopen{}\left(x+y\right)}={\left(2x-5\right)\mathopen{}\left(x+y\right)}</m></p>
+<p>Note that this answer can be checked by using the FOIL (<alert>F</alert>irst <alert>O</alert>utside <alert>I</alert>nside <alert>L</alert>ast) technique (exercise).</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/Factoring/factoring115.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/Factoring/factoring115.pg"/>
+</webwork-reps>

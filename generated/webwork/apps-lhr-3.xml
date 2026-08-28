@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-3" assembly-id="apps-lhr-3">
+  <static seed="231" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg">
+    <statement><p>Find the limit for <m>n&gt;0</m>. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
+<p><m>\lim\limits_{x\rightarrow \infty} \dfrac{\ln x}{x^n} =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_68.pg"/>
+</webwork-reps>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-trough" assembly-id="rel-rates-trough">
+  <static seed="225" source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg">
+    <statement><p>A water trough is <m>10\,m</m> long and a cross-section has the shape of an isosceles trapezoid that is <m>30\,cm</m> wide at the bottom, <m>80\,cm</m> wide at the top, and has height <m>50\,cm</m>. If the trough is being filled with water at a rate of <m>.2\,m^3/min</m>, how fast is the water level rising when the water is <m>30\,cm</m> deep?</p>
+<p><fillin characters="20" name="AnSwEr0001"/> <m>m/min</m></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.0333333333333333</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/UCSB/Stewart5_3_10/Stewart5_3_10_21.pg"/>
+</webwork-reps>

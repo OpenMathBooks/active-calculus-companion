@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-5" assembly-id="tests-intervals-5">
+  <static seed="251" source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg">
+    <statement><p>Thus we conclude that <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0005"/> at <m>B</m> (type in
+MAX or MIN).</p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.18136041286565</m>
+      </p>
+    </answer>
+    <answer>
+      <p>+</p>
+    </answer>
+    <answer>
+      <p>-</p>
+    </answer>
+    <answer>
+      <p>MAX</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg"/>
+</webwork-reps>

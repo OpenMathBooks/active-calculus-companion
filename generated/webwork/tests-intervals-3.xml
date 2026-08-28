@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-3" assembly-id="tests-intervals-3">
+  <static seed="249" source="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg">
+    <statement><p>Consider the function <m>f(x) = x^{2}e^{12 x}</m>.</p>
+<p>For this function there are three important intervals:
+ <m>(-\infty, A]</m>, <m>[A,B]</m>, and <m>[B,\infty)</m> where
+ <m>A</m> and  <m>B</m> are the critical numbers.</p>
+<p>Find <m>A</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>and  <m>B</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>For each of the following intervals, tell whether <m>f(x)</m>
+is increasing (type in INC) or decreasing (type in DEC).</p>
+<p><m>(-\infty, A]</m>: <fillin characters="20" name="AnSwEr0003"/></p>
+<p><m>[A,B]</m>: <fillin characters="20" name="AnSwEr0004"/></p>
+<p><m>[B,\infty)</m> <fillin characters="20" name="AnSwEr0005"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.166667</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{INC}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{DEC}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{INC}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setDerivatives10MaxMin/sc4_3_10_mo.pg"/>
+</webwork-reps>

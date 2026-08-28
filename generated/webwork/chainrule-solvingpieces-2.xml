@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-solvingpieces-2" assembly-id="chainrule-solvingpieces-2">
+  <static seed="166" source="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg">
+    <statement><p>It is given to you that an equation of the tangent line to the graph
+of <m>y=g(x)</m> at <m>x = 9</m> is
+<me>7 x + 8 y = 23</me>
+It follows that <m>y =</m> <fillin characters="20" name="AnSwEr0001"/> is the equation of the tangent line
+to <m>y = g(x^2)</m> at <m>x = 3</m></p>
+<p>and that <m>y =</m> <fillin characters="20" name="AnSwEr0002"/> is the equation
+of the tangent line to <m>y = \left(g(x)\right)^2</m> at <m>x = 9</m>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-5.25\mathopen{}\left(x-3\right)+-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>8.75\mathopen{}\left(x-9\right)+\left(-5\right)^{2}</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/OSU/high_school_apcalc/dchmwk2/prob15.pg"/>
+</webwork-reps>

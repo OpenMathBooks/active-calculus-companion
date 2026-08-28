@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-1" assembly-id="derivatives-trig-adv-prod-1">
+  <static seed="135" source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg">
+    <statement><p>Let <m>p(x) = 2^{x}\tan\mathopen{}\left(x\right)</m>. Which of the following best describes its fundamental 
+algebraic structure?</p>
+<p><dl form="buttons" name="AnSwEr0001" width="narrow">
+<li>
+<title>A</title>
+<p>A composition <m>f(g(x))</m> of basic functions</p>
+</li>
+<li>
+<title>B</title>
+<p>A sum <m>f(x)+g(x)</m> of basic functions</p>
+</li>
+<li>
+<title>C</title>
+<p>A product <m>f(x) \cdot g(x)</m> of basic functions</p>
+</li>
+<li>
+<title>D</title>
+<p>A quotient <m>f(x)/g(x)</m> of basic functions</p>
+</li>
+</dl></p>
+<p>Compute the derivative <m>p'(x)</m>.</p>
+<p><m>p'(x) =</m> <fillin characters="25" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{C}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.693147\cdot 2^{x}\tan\mathopen{}\left(x\right)+2^{x}\sec^{2}\mathopen{}\left(x\right)</m>
+      </p>
+    </answer>
+    <solution><m>p(x)</m> is a product of basic functions,
+so we compute its derivative using the product
+rule:  <m>p'(x) = 0.693147\cdot 2^{x}\tan\mathopen{}\left(x\right)+2^{x}\sec^{2}\mathopen{}\left(x\right)</m>.
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg"/>
+</webwork-reps>

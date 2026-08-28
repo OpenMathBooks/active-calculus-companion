@@ -19,86 +19,28 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
-<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
-<script>
-var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
-window.MathJax = {
-  "tex": {
-    "inlineMath": [
-      [
-        "\\(",
-        "\\)"
-      ]
-    ],
-    "tags": "none",
-    "tagSide": "right",
-    "tagIndent": ".8em",
-    "packages": {
-      "[+]": [
-        "base",
-        "extpfeil",
-        "ams",
-        "amscd",
-        "color",
-        "newcommand",
-        "knowl"
-      ]
-    }
-  },
-  "options": {
-    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math",
-    "renderActions": {
-      "findScript": [
-        10,
-        function (doc) {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
-                var display = !!node.type.match(/; *mode=display/);
-                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-                var text = document.createTextNode('');
-                node.parentNode.replaceChild(text, node);
-                math.start = {node: text, delim: '', n: 0};
-                math.end = {node: text, delim: '', n: 0};
-                doc.math.push(math);
-            });
-        },
-        ""
-      ]
-    }
-  },
-  "chtml": {
-    "scale": 0.98,
-    "mtextInheritFont": true
-  },
-  "loader": {
-    "load": [
-      "input/asciimath",
-      "[tex]/extpfeil",
-      "[tex]/amscd",
-      "[tex]/color",
-      "[tex]/newcommand",
-      "[pretext]/mathjaxknowl3.js"
-    ],
-    "paths": {
-      "pretext": "_static/pretext/js/lib"
-    }
-  },
-  "startup": {
-    pageReady() {
-      return MathJax.startup.defaultPageReady().then(function () {
-      console.log("in ready function");
-      rsMathReady();
-      }
-    )}
-  }
-};
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<style>
+@counter-style ptx-marker-1 { system: extends lower-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-2 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+</style>
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: true,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
+<meta name="twitter:title" content="The Active Calculus Companion">
+<meta property="og:title" content="The Active Calculus Companion">
 <meta property="book:title" content="The Active Calculus Companion">
-<meta property="book:author" content="Oscar Levin">
-<meta property="book:author" content="Christina Safranski">
-<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<meta name="twitter:description" content="The Active Calculus Companion is intended to give students using Active Calculus (Single Variable) additional practice exercises, as well as help them sure up foundational skills. Note: this book is still in early draft form.">
+<meta property="og:description" content="The Active Calculus Companion is intended to give students using Active Calculus (Single Variable) additional practice exercises, as well as help them sure up foundational skills. Note: this book is still in early draft form.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -120,35 +62,62 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.10.0';
+eBookConfig.runestone_version = '8.2.9';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.fe35e59c546f8d19.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
-<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork.runestone.academy/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="_static/pretext/js/dist/pretext-webwork.js"></script><script src="https://webwork.runestone.academy/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body id="ac-companion" class="pretext book ignore-math">
-<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="root-1-2.html"><span class="title">The Active Calculus Companion</span></a></h1>
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">The Active Calculus Companion</span></a></div>
 <p class="byline">Oscar Levin, Christina Safranski</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
-<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
-<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
-<div class="search-results-controls">
-<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
-<h2 class="search-results-heading">Search Results: </h2>
-<div id="searchempty" class="searchempty"><span>No results.</span></div>
-<ol id="searchresults" class="searchresults"></ol>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
+<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
 </div>
-<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-3-5-optimization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="C-3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="C-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="sec-3-5-optimization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="C-3.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="C-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\dollar}{\$}
 \DeclareMathOperator{\erf}{erf}
 \DeclareMathOperator{\arctanh}{arctanh}
@@ -160,63 +129,63 @@ eBookConfig.enable_chatcodes =  false;
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth3 focused" data-preexpanded-levels="0" data-max-levels="3"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="C-1.html" class="internal"><span class="codenumber">1</span> <span class="title">Understanding the Derivative</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-C-1" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-1-vel.html" class="internal"><span class="codenumber">1.1</span> <span class="title">How do we measure velocity?</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-4" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Foundations</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-5" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
+<ul id="ptx-toc-group-sec-1-1-vel" class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-1-vel.html#sec-1-1-vel-4" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-2-lim.html" class="internal"><span class="codenumber">1.2</span> <span class="title">The notion of limit</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-2-lim" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-2-lim.html#subsec-limits-foundations" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-2-lim.html#ap-limits" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-3-derivative-pt.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The derivative of a function at a point</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-3-derivative-pt" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Additional Section Exercises</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-5" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Foundational Exercises</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The derivative function</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-4-derivative-fxn" class="structural toc-item-list">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-2" class="internal"><span class="codenumber">1.4</span> <span class="title">Additional Practice</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-3" class="internal"><span class="codenumber">1.4</span> <span class="title">Foundations</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-5-units.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Interpreting, estimating, and using the derivative</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-5-units" class="structural toc-item-list">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-2" class="internal"><span class="codenumber">1.5</span> <span class="title">Additional Practice</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-3" class="internal"><span class="codenumber">1.5</span> <span class="title">Foundations</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-6-second-d.html" class="internal"><span class="codenumber">1.6</span> <span class="title">The second derivative</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-6-second-d" class="structural toc-item-list">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-2" class="internal"><span class="codenumber">1.6</span> <span class="title">Additional Practice</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-3" class="internal"><span class="codenumber">1.6</span> <span class="title">Foundations</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Limits, continuity, and differentiability</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-7-lim-cont-diff" class="structural toc-item-list">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-2" class="internal"><span class="codenumber">1.7</span> <span class="title">Additional Practice</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-3" class="internal"><span class="codenumber">1.7</span> <span class="title">Foundations</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html" class="internal"><span class="codenumber">1.8</span> <span class="title">The tangent line approximation</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-1-8-tan-line-approx" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#fe-tan-line-approx" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-8-tan-line-approx.html#ap-tan-line-approx" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
@@ -225,55 +194,55 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="C-2.html" class="internal"><span class="codenumber">2</span> <span class="title">Computing Derivatives</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-C-2" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-1-elem-rules.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Elementary derivative rules</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-1-elem-rules" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#fe-elem-rules" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-1-elem-rules.html#ap-elem-rules" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-2-sin-cos.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The sine and cosine functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-2-sin-cos" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#fe-sin-cos" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-2-sin-cos.html#ap-sin-cos" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-3-prod-quot.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The product and quotient rules</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-3-prod-quot" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#sec-2-3-prod-quot-2" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-3-prod-quot.html#ap-prod-quot" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-4-other-trig.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Derivatives of other trigonometric functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-4-other-trig" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#fe-other-trig" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-4-other-trig.html#ae-other-trig" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-5-chain.html" class="internal"><span class="codenumber">2.5</span> <span class="title">The chain rule</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-5-chain" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-5-chain.html#sec-2-5-chain-4" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-5-chain.html#ap-chainrule" class="internal"><span class="codenumber">2.5.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-6-inverse.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Derivatives of inverse functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-6-inverse" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-2-6-inverse.html#fe-inverse" class="internal"><span class="codenumber">2.6.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-2-6-inverse.html#ae-inverse" class="internal"><span class="codenumber">2.6.2</span> <span class="title">Additional Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-2-7-implicit.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Derivatives of functions given implicitly</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-2-7-implicit" class="structural toc-item-list">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-2-7-implicit.html#subsec-implicit-foundations" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Foundations</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-subsec-implicit-foundations" class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-what-implicit-fcns" class="internal"><span class="codenumber">2.7.1.1</span> <span class="title">What are implicit and explicit functions?</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-slopes-horiz-vert" class="internal"><span class="codenumber">2.7.1.2</span> <span class="title">Slopes of horizontal and vertical lines</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-2-7-implicit.html#subsubsec-solving-eqns-mult-vars" class="internal"><span class="codenumber">2.7.1.3</span> <span class="title">Solving an equation with multiple variables</span></a></div></li>
@@ -288,45 +257,45 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="C-3.html" class="internal"><span class="codenumber">3</span> <span class="title">Using Derivatives</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-C-3">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-1-rel-rates.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Related rates</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-3-1-rel-rates" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-1-rel-rates.html#subsec-rel-rates-foundations" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-1-rel-rates.html#ap-rel-rates" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-2-LHR.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Using derivatives to evaluate limits</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-3-2-LHR" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-2-LHR.html#subsec-LHR-foundations" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-2-LHR.html#ap-LHR" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-3-tests.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Using derivatives to identify extreme values</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-3-3-tests" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-3-tests.html#subsec-tests-foundations" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-3-tests.html#cp-tests" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-4-families.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Using derivatives to describe families of functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-3-4-families" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-4-families.html#subsec-families-foundations" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-4-families.html#cp-families" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-3-5-optimization.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Global optimization</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-3-5-optimization" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-5-optimization.html#subsec-optimization-foundations" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-5-optimization.html#cp-optimization" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="sec-3-6-applied-opt.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Applied optimization</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list active" id="ptx-toc-group-sec-3-6-applied-opt">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-3-6-applied-opt.html#subsec-applied-opt-foundations" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-3-6-applied-opt.html#cp-applied-opt" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
@@ -335,31 +304,31 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-chapter">
 <div class="toc-title-box"><a href="C-4.html" class="internal"><span class="codenumber">4</span> <span class="title">The Definite Integral</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-C-4" class="structural toc-item-list">
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-4-1-velocity-distance.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Determining distance traveled from velocity</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-4-1-velocity-distance" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-1-velocity-distance.html#subsec-velocity-distance-foundations" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-1-velocity-distance.html#cp-velocity-distance" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-4-2-Riemann.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Riemann sums</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-4-2-Riemann" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-2-Riemann.html#subsec-Riemann-foundations" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-2-Riemann.html#cp-Riemann" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-4-3-definite-integral.html" class="internal"><span class="codenumber">4.3</span> <span class="title">The definite integral</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-4-3-definite-integral" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-3-definite-integral.html#subsec-definite-integral-foundations" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-3-definite-integral.html#cp-definite-integral" class="internal"><span class="codenumber">4.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-4-4-FTC.html" class="internal"><span class="codenumber">4.4</span> <span class="title">The Fundamental Theorem of Calculus</span></a></div>
-<ul class="structural toc-item-list">
+<ul id="ptx-toc-group-sec-4-4-FTC" class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-4-4-FTC.html#subsec-FTC-foundations" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Foundations</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-4-4-FTC.html#cp-FTC" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
@@ -368,206 +337,276 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-backmatter">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="integral-table.html" class="internal"><span class="codenumber">A</span> <span class="title">A Short Table of Integrals</span></a></div></li>
-<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="activities-answers.html" class="internal"><span class="codenumber">B</span> <span class="title">Answers to Activities</span></a></div></li>
-<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="exercises-answers.html" class="internal"><span class="codenumber">C</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
+<ul id="ptx-toc-group-backmatter" class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="integral-table.html" class="internal"><span class="codenumber">A.</span> <span class="title">A Short Table of Integrals</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="activities-answers.html" class="internal"><span class="codenumber">B.</span> <span class="title">Answers to Activities</span></a></div></li>
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a href="exercises-answers.html" class="internal"><span class="codenumber">C.</span> <span class="title">Answers to Selected Exercises</span></a></div></li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
 <li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-3-6-applied-opt"><h2 class="heading hide-type">
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="sec-3-6-applied-opt">
+<h1 class="heading hide-type">
 <span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Applied optimization</span>
-</h2>
-<section class="subsection" id="subsec-applied-opt-foundations"><h3 class="heading hide-type">
+</h1>
+<section class="subsection" id="subsec-applied-opt-foundations">
+<h2 class="heading hide-type">
 <span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Foundations</span>
-</h3>
-<div class="para" id="subsec-applied-opt-foundations-2">Coming soon.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-applied-opt-foundations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</h2>
+<div class="para" id="subsec-applied-opt-foundations-2">Coming soon.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#subsec-applied-opt-foundations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 3.6.1: Foundations"><a href="#subsec-applied-opt-foundations" title="Copy heading and permalink for Subsection 3.6.1: Foundations" aria-label="Copy heading and permalink for Subsection 3.6.1: Foundations">🔗</a></div></section><section class="exercises" id="cp-applied-opt"><h3 class="heading hide-type">
+<div class="autopermalink" aria-hidden="true" data-description="Subsection 3.6.1: Foundations"><a tabindex="-1" href="#subsec-applied-opt-foundations" title="Copy heading and permalink for Subsection 3.6.1: Foundations" aria-label="Copy heading and permalink for Subsection 3.6.1: Foundations">🔗</a></div>
+</section>
+<section class="exercises" id="cp-applied-opt">
+<h2 class="heading hide-type">
 <span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.6.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculus Practice</span>
-</h3>
-<article class="exercise exercise-like" id="apps-app-opt-can-1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-258" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="258" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/ASU-topics/setRationalFunctions/prat13.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-258')">Activate</button></div>
+</h2>
+<article class="exercise exercise-like" id="apps-app-opt-can-1"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-can-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="267" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/ASU-topics/setRationalFunctions/prat13.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-can-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-258-1-1-1">An aluminum can is to be constructed to contain 2100 <span class="process-math">\(cm^3\)</span> of liquid.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-2">Let <span class="process-math">\(r\)</span> and <span class="process-math">\(h\)</span> be the radius of the base and the height of the can respectively.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-3">a) Express <span class="process-math">\(h\)</span> in terms of <span class="process-math">\(r\text{.}\)</span> (If needed you can enter <span class="process-math">\(\pi\)</span> as pi.)<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-4">
-<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-5">b) Express the surface area of the can in terms of <span class="process-math">\(r\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-6">Surface area = <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-7">c) Approximate the value of <span class="process-math">\(r\)</span> that will minimize the amount of required material (i.e. the value of <span class="process-math">\(r\)</span> that will minimize the surface area).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-8">What is the corresponding value of <span class="process-math">\(h\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-9">
-<span class="process-math">\(r =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-258-1-1-10">
-<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-258-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-1">An aluminum can is to be constructed to contain 2100 <span class="process-math">\(cm^3\)</span> of liquid.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-2">Let <span class="process-math">\(r\)</span> and <span class="process-math">\(h\)</span> be the radius of the base and the height of the can respectively.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-3">a) Express <span class="process-math">\(h\)</span> in terms of <span class="process-math">\(r\text{.}\)</span> (If needed you can enter <span class="process-math">\(\pi\)</span> as pi.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-4">
+<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-5">b) Express the surface area of the can in terms of <span class="process-math">\(r\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-6">Surface area = <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-7">c) Approximate the value of <span class="process-math">\(r\)</span> that will minimize the amount of required material (i.e. the value of <span class="process-math">\(r\)</span> that will minimize the surface area).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-8">What is the corresponding value of <span class="process-math">\(h\text{?}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-9">
+<span class="process-math">\(r =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-can-1-1-1-10">
+<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-can-1-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.1"><a href="#apps-app-opt-can-1" title="Copy heading and permalink for Exercise 3.6.2.1" aria-label="Copy heading and permalink for Exercise 3.6.2.1">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-window-triangle"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-259" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="259" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Q25.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-259')">Activate</button></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.1"><a tabindex="-1" href="#apps-app-opt-can-1" title="Copy heading and permalink for Exercise 3.6.2.1" aria-label="Copy heading and permalink for Exercise 3.6.2.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-window-triangle"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-window-triangle-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="268" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Q25.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-window-triangle-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-259-1-1-1">Consider a window the shape of which is a rectangle of height <span class="process-math">\(h\)</span> surmounted by a triangle having a height <span class="process-math">\(T\)</span> that is 1.2 times the width <span class="process-math">\(w\)</span> of the rectangle (as shown in the figure below).<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-259-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-259-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-259-1-1-3">If the cross-sectional area is <span class="process-math">\(A\text{,}\)</span> determine the dimensions of the window which minimize the perimeter.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-259-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-259-1-1-4">
-<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="55-character blank" style="width: 25em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-259-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-259-1-1-5">
-<span class="process-math">\(w =\)</span> <span class="fillin underline" role="img" aria-label="55-character blank" style="width: 25em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-259-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-window-triangle-1-1-1">Consider a window the shape of which is a rectangle of height <span class="process-math">\(h\)</span> surmounted by a triangle having a height <span class="process-math">\(T\)</span> that is 1.2 times the width <span class="process-math">\(w\)</span> of the rectangle (as shown in the figure below).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-window-triangle-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/apps-app-opt-window-triangle-image-1.png" class="contained"></div> 
+<div class="para" id="extracted-apps-app-opt-window-triangle-1-1-3">If the cross-sectional area is <span class="process-math">\(A\text{,}\)</span> determine the dimensions of the window which minimize the perimeter.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-window-triangle-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-window-triangle-1-1-4">
+<span class="process-math">\(h =\)</span> <span class="fillin underline" role="img" aria-label="55-character blank" style="width: 25em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-window-triangle-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-window-triangle-1-1-5">
+<span class="process-math">\(w =\)</span> <span class="fillin underline" role="img" aria-label="55-character blank" style="width: 25em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-window-triangle-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-259-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<span class="process-math">\(h w\text{,}\)</span><span class="process-math">\(\frac12 w T = 0.6 w^2\text{.}\)</span><span class="process-math">\(A\)</span><div class="displaymath process-math" id="extracted-webwork-259-1-4-4">
+<div class="solutions">
+<details id="extracted-apps-app-opt-window-triangle-1-4" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<span class="process-math">\(h w\text{,}\)</span><span class="process-math">\(\frac12 w T = 0.6 w^2\text{.}\)</span><span class="process-math">\(A\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-window-triangle-1-4-4">
 \begin{equation*}
 A = h w + 0.6 w^2.
 \end{equation*}
 </div>
 <span class="process-math">\(P = w + 2 h + 2 d\text{,}\)</span><span class="process-math">\(d\)</span><span class="process-math">\(d\)</span><span class="process-math">\(d = \sqrt{ (\frac12 w)^2 + T^2 } = \sqrt{ \frac14 w^2 + 1.2^2 w^2 }
-= \sqrt{ \frac14 + 1.2^2 } w \approx 1.3 w\text{.}\)</span><div class="displaymath process-math" id="extracted-webwork-259-1-4-9">
+= \sqrt{ \frac14 + 1.2^2 } w \approx 1.3 w\text{.}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-window-triangle-1-4-9">
 \begin{equation*}
 P = w + 2h + 2(1.3) w = 3.6 w + 2h.
 \end{equation*}
 </div>
-<span class="process-math">\(A = h w + 0.6 w^2\)</span><span class="process-math">\(h = \frac{A}{w} - 0.6 w\text{.}\)</span><div class="displaymath process-math" id="extracted-webwork-259-1-4-12">
+<span class="process-math">\(A = h w + 0.6 w^2\)</span><span class="process-math">\(h = \frac{A}{w} - 0.6 w\text{.}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-window-triangle-1-4-12">
 \begin{equation*}
 P = \frac{2A}{w} - 1.2 w + 3.6 w = \frac{2A}{w} + 2.4 w.
 \end{equation*}
 </div>
-<span class="process-math">\(w\)</span><span class="process-math">\(A\text{.}\)</span><div class="displaymath process-math" id="extracted-webwork-259-1-4-15">
+<span class="process-math">\(w\)</span><span class="process-math">\(A\text{.}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-window-triangle-1-4-15">
 \begin{equation*}
 \frac{dP}{dw} = -\frac{2A}{w^2} + 2.4.
 \end{equation*}
 </div>
 <span class="process-math">\(P'=0\)</span><span class="process-math">\(w\text{,}\)</span><span class="process-math">\(w = \sqrt{2A/2.4} \approx 0.913 \sqrt{A}\text{.}\)</span><span class="process-math">\(h\text{,}\)</span><span class="process-math">\(h = \frac{A}{0.913 \sqrt{A}} - \frac12 (1.2) 0.913 \sqrt{A}
-\approx 0.548 \sqrt{A}.\)</span><span class="process-math">\(P\to\infty\)</span><span class="process-math">\(w\to 0^+\)</span><span class="process-math">\(w\to\infty\text{,}\)</span><span class="process-math">\(P'' = 4A/w^3 &gt; 0\text{,}\)</span><span class="process-math">\(P\)</span><div class="autopermalink" data-description="Solution 3.6.2.2.1"><a href="#extracted-webwork-259-1-4" title="Copy heading and permalink for Solution 3.6.2.2.1" aria-label="Copy heading and permalink for Solution 3.6.2.2.1">🔗</a></div>
-</div></details></div>
+\approx 0.548 \sqrt{A}.\)</span><span class="process-math">\(P\to\infty\)</span><span class="process-math">\(w\to 0^+\)</span><span class="process-math">\(w\to\infty\text{,}\)</span><span class="process-math">\(P'' = 4A/w^3 &gt; 0\text{,}\)</span><span class="process-math">\(P\)</span><div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.2.1"><a tabindex="-1" href="#extracted-apps-app-opt-window-triangle-1-4" title="Copy heading and permalink for Solution 3.6.2.2.1" aria-label="Copy heading and permalink for Solution 3.6.2.2.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.2"><a href="#apps-app-opt-window-triangle" title="Copy heading and permalink for Exercise 3.6.2.2" aria-label="Copy heading and permalink for Exercise 3.6.2.2">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-wire-1"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-260" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="260" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Qweb5.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-260')">Activate</button></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.2"><a tabindex="-1" href="#apps-app-opt-window-triangle" title="Copy heading and permalink for Exercise 3.6.2.2" aria-label="Copy heading and permalink for Exercise 3.6.2.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-wire-1"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-wire-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="269" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Qweb5.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-wire-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-260-1-1-1">A wire 8 meters long is cut into two pieces.  One piece is bent into a square for a frame for a stained glass ornament, while the other piece is bent into a circle for a TV antenna.  To reduce storage space, where should the wire be cut to minimize the total area of both figures? Give the length of wire used for each:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-2">For the square: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-3">For the circle: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-4">(for both, include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-5">Where should the wire be cut to maximize the total area? Again, give the length of wire used for each:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-6">For the square: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-7">For the circle: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-260-1-1-8">(for both, include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-260-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-1">A wire 8 meters long is cut into two pieces.  One piece is bent into a square for a frame for a stained glass ornament, while the other piece is bent into a circle for a TV antenna.  To reduce storage space, where should the wire be cut to minimize the total area of both figures? Give the length of wire used for each:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-2">For the square: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-3">For the circle: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-4">(for both, include )<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-5">Where should the wire be cut to maximize the total area? Again, give the length of wire used for each:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-6">For the square: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-7">For the circle: <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-wire-1-1-1-8">(for both, include )<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-260-1-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<em class="emphasis">the total area enclosed by the two figures</em><span class="process-math">\(x\)</span><span class="process-math">\(8 - x\)</span><span class="process-math">\(r\)</span><span class="process-math">\(C = 2\pi r\text{,}\)</span><span class="process-math">\(2\pi r = x\text{,}\)</span><span class="process-math">\(r = \frac{x}{2\pi}\text{.}\)</span><span class="process-math">\(A_c = \pi r^2 = \frac{1}{4\pi} x^2\text{.}\)</span><span class="process-math">\(s\)</span><span class="process-math">\(P = 4 s = 8 - x\text{,}\)</span><span class="process-math">\(s = \frac{1}{4}(8 - x)\text{.}\)</span><span class="process-math">\(A_s =  s^2\text{,}\)</span><span class="process-math">\(A_s =  (\frac{1}{16})(8 - x)^2\text{.}\)</span><div class="displaymath process-math" id="extracted-webwork-260-1-6-14">
+<div class="solutions">
+<details id="extracted-apps-app-opt-wire-1-1-6" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<em class="emphasis">the total area enclosed by the two figures</em><span class="process-math">\(x\)</span><span class="process-math">\(8 - x\)</span><span class="process-math">\(r\)</span><span class="process-math">\(C = 2\pi r\text{,}\)</span><span class="process-math">\(2\pi r = x\text{,}\)</span><span class="process-math">\(r = \frac{x}{2\pi}\text{.}\)</span><span class="process-math">\(A_c = \pi r^2 = \frac{1}{4\pi} x^2\text{.}\)</span><span class="process-math">\(s\)</span><span class="process-math">\(P = 4 s = 8 - x\text{,}\)</span><span class="process-math">\(s = \frac{1}{4}(8 - x)\text{.}\)</span><span class="process-math">\(A_s =  s^2\text{,}\)</span><span class="process-math">\(A_s =  (\frac{1}{16})(8 - x)^2\text{.}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-14">
 \begin{equation*}
 A = \frac{1}{4\pi} x^2 +  (\frac{1}{16})(8 - x)^2
 = \frac{1}{4\pi} x^2 + \frac{1}{ (16)}(64 - 16 x + x^2).
 \end{equation*}
 </div>
-<span class="process-math">\(x\)</span><span class="process-math">\(0\le x\le 8\text{.}\)</span><span class="process-math">\(A\)</span><span class="process-math">\(dA/dx = 0\text{,}\)</span><div class="displaymath process-math" id="extracted-webwork-260-1-6-19">
+<span class="process-math">\(x\)</span><span class="process-math">\(0\le x\le 8\text{.}\)</span><span class="process-math">\(A\)</span><span class="process-math">\(dA/dx = 0\text{,}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-19">
 \begin{equation*}
 \frac{1}{2\pi} x + \frac{1}{ (16)}(2x - 16) = 0.
 \end{equation*}
 </div>
-<span class="process-math">\(x\)</span><div class="displaymath process-math" id="extracted-webwork-260-1-6-21">
+<span class="process-math">\(x\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-21">
 \begin{equation*}
 \left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) x = 
 \frac{16 }{16},
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="extracted-webwork-260-1-6-22">
+<div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-22">
 \begin{equation*}
 x = \frac{8 \pi}{4 + \pi}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="extracted-webwork-260-1-6-23">
+<div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-23">
 \begin{equation*}
 A'' = \left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) &gt; 0,
 \end{equation*}
 </div>
-<span class="process-math">\(\frac{8 \pi}{4 + \pi}\)</span><span class="process-math">\(8 - \frac{8 \pi}{4 + \pi}\)</span><div class="displaymath process-math" id="extracted-webwork-260-1-6-26">
+<span class="process-math">\(\frac{8 \pi}{4 + \pi}\)</span><span class="process-math">\(8 - \frac{8 \pi}{4 + \pi}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-wire-1-1-6-26">
 \begin{equation*}
 A(0) = 4\qquad{\rm and}\qquad
 A(8) = \frac{16}{\pi} \approx 5.09,
 \end{equation*}
 </div>
-<span class="process-math">\(A(8)\text{,}\)</span><div class="autopermalink" data-description="Solution 3.6.2.3.1"><a href="#extracted-webwork-260-1-6" title="Copy heading and permalink for Solution 3.6.2.3.1" aria-label="Copy heading and permalink for Solution 3.6.2.3.1">🔗</a></div>
-</div></details></div>
+<span class="process-math">\(A(8)\text{,}\)</span><div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.3.1"><a tabindex="-1" href="#extracted-apps-app-opt-wire-1-1-6" title="Copy heading and permalink for Solution 3.6.2.3.1" aria-label="Copy heading and permalink for Solution 3.6.2.3.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.3"><a href="#apps-app-opt-wire-1" title="Copy heading and permalink for Exercise 3.6.2.3" aria-label="Copy heading and permalink for Exercise 3.6.2.3">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-baggage-1"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-261" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="261" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Qweb6.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-261')">Activate</button></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.3"><a tabindex="-1" href="#apps-app-opt-wire-1" title="Copy heading and permalink for Exercise 3.6.2.3" aria-label="Copy heading and permalink for Exercise 3.6.2.3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-baggage-1"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-baggage-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="270" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Michigan/Chap4Sec5/Qweb6.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-baggage-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-261-1-1-1">Some airlines have restrictions on the size of items of luggage that passengers are allowed to take with them.  Suppose that one has a rule that the sum of the length, width and height of any piece of luggage must be less than or equal to 234 cm.  A passenger wants to take a box of the maximum allowable volume.  If the length and width are to be equal, what should the dimensions be?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-2">length = width = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-3">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-4">In this case, what is the volume?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-5">volume = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-6">(for each, include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-7">If the length is be twice the width, what should the dimensions be?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-8">length = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-9">width = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-10">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-11">In this case, what is the volume?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-12">volume = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-261-1-1-13">(for each, include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-261-1-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-1">Some airlines have restrictions on the size of items of luggage that passengers are allowed to take with them.  Suppose that one has a rule that the sum of the length, width and height of any piece of luggage must be less than or equal to 234 cm.  A passenger wants to take a box of the maximum allowable volume.  If the length and width are to be equal, what should the dimensions be?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-2">length = width = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-3">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-4">In this case, what is the volume?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-5">volume = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-6">(for each, include )<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-7">If the length is be twice the width, what should the dimensions be?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-8">length = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-9">width = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-10">height = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-11">In this case, what is the volume?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-12">volume = <span class="fillin underline" role="img" aria-label="35-character blank" style="width: 15.9090909090909em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-baggage-1-1-1-13">(for each, include )<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-1-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-261-1-9" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<span class="process-math">\(L\text{,}\)</span><span class="process-math">\(w\)</span><span class="process-math">\(h\text{,}\)</span><span class="process-math">\(V = Lwh\text{.}\)</span><span class="process-math">\(L + w + h = 234\text{,}\)</span><span class="process-math">\(L = w\text{.}\)</span><span class="process-math">\(2w + h = 234\text{,}\)</span><span class="process-math">\(h = 234 - 2w\text{,}\)</span><span class="process-math">\(V = Lwh = w\cdot w\cdot(234 - 2w) = 234\cdot w^2 - 2w^3\text{.}\)</span><span class="process-math">\(w\)</span><span class="process-math">\(0\le w\le 234\text{.}\)</span><span class="process-math">\(\frac{dV}{dw} = 2\cdot 234\cdot w - 6\cdot w^2 = 0\text{,}\)</span><span class="process-math">\(w = 0\)</span><span class="process-math">\(w = 78\text{.}\)</span><span class="process-math">\(V(78) &gt; 0\)</span><span class="process-math">\(V(0) = V(234) = 0\text{,}\)</span><span class="process-math">\(L=w=78\text{,}\)</span><span class="process-math">\(h=78\)</span><span class="process-math">\(V = 78^3 = 474552 {\rm cm}^3\text{.}\)</span><span class="process-math">\(L = 2w\text{,}\)</span><span class="process-math">\(2w + w + h = 234\text{,}\)</span><span class="process-math">\(V = (2w)(w)(234 - 3w) = 468 w^2 - 6 w^3\text{.}\)</span><span class="process-math">\(w = 52\text{,}\)</span><span class="process-math">\(L = 104\)</span><span class="process-math">\(h = 78\text{,}\)</span><span class="process-math">\(V = 421824\text{.}\)</span><div class="autopermalink" data-description="Solution 3.6.2.4.1"><a href="#extracted-webwork-261-1-9" title="Copy heading and permalink for Solution 3.6.2.4.1" aria-label="Copy heading and permalink for Solution 3.6.2.4.1">🔗</a></div>
-</div></details></div>
+<div class="solutions">
+<details id="extracted-apps-app-opt-baggage-1-1-9" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<span class="process-math">\(L\text{,}\)</span><span class="process-math">\(w\)</span><span class="process-math">\(h\text{,}\)</span><span class="process-math">\(V = Lwh\text{.}\)</span><span class="process-math">\(L + w + h = 234\text{,}\)</span><span class="process-math">\(L = w\text{.}\)</span><span class="process-math">\(2w + h = 234\text{,}\)</span><span class="process-math">\(h = 234 - 2w\text{,}\)</span><span class="process-math">\(V = Lwh = w\cdot w\cdot(234 - 2w) = 234\cdot w^2 - 2w^3\text{.}\)</span><span class="process-math">\(w\)</span><span class="process-math">\(0\le w\le 234\text{.}\)</span><span class="process-math">\(\frac{dV}{dw} = 2\cdot 234\cdot w - 6\cdot w^2 = 0\text{,}\)</span><span class="process-math">\(w = 0\)</span><span class="process-math">\(w = 78\text{.}\)</span><span class="process-math">\(V(78) &gt; 0\)</span><span class="process-math">\(V(0) = V(234) = 0\text{,}\)</span><span class="process-math">\(L=w=78\text{,}\)</span><span class="process-math">\(h=78\)</span><span class="process-math">\(V = 78^3 = 474552 {\rm cm}^3\text{.}\)</span><span class="process-math">\(L = 2w\text{,}\)</span><span class="process-math">\(2w + w + h = 234\text{,}\)</span><span class="process-math">\(V = (2w)(w)(234 - 3w) = 468 w^2 - 6 w^3\text{.}\)</span><span class="process-math">\(w = 52\text{,}\)</span><span class="process-math">\(L = 104\)</span><span class="process-math">\(h = 78\text{,}\)</span><span class="process-math">\(V = 421824\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.4.1"><a tabindex="-1" href="#extracted-apps-app-opt-baggage-1-1-9" title="Copy heading and permalink for Solution 3.6.2.4.1" aria-label="Copy heading and permalink for Solution 3.6.2.4.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.4"><a href="#apps-app-opt-baggage-1" title="Copy heading and permalink for Exercise 3.6.2.4" aria-label="Copy heading and permalink for Exercise 3.6.2.4">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-margins-1"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-262" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="262" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-262')">Activate</button></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.4"><a tabindex="-1" href="#apps-app-opt-baggage-1" title="Copy heading and permalink for Exercise 3.6.2.4" aria-label="Copy heading and permalink for Exercise 3.6.2.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-margins-1"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-margins-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="271" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-margins-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-262-1-1-1">A printed poster is to have a total area of 797 square inches with top and bottom margins of 3 inches and side margins of 2 inches. What should be the dimensions of the poster so that the printed area be as large as possible?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-2">To solve this problem let <span class="process-math">\(x\)</span> denote the width of the poster in inches and let <span class="process-math">\(y\)</span> denote the length in inches. We need to maximize the following function of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{:}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-3">We can reexpress this as the following function of <span class="process-math">\(x\)</span> alone:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-4">
-<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="45-character blank" style="width: 20.4545454545455em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-5">We find that <span class="process-math">\(f(x)\)</span> has a critical number at <span class="process-math">\(x=\)</span><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-6">To verify that <span class="process-math">\(f(x)\)</span> has a maximum at this critical number we compute the second derivative <span class="process-math">\(f''(x)\)</span> and find that its value at the critical number is <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>, a negative number.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-262-1-1-7">Thus the optimal dimensions of the poster are <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> inches in width and <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> inches in height giving us a maximumal printed area of <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> square inches.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-262-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-1">A printed poster is to have a total area of 740 square inches with top and bottom margins of 2 inches and side margins of 6 inches. What should be the dimensions of the poster so that the printed area be as large as possible?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-2">To solve this problem let <span class="process-math">\(x\)</span> denote the width of the poster in inches and let <span class="process-math">\(y\)</span> denote the length in inches. We need to maximize the following function of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\text{:}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-3">We can reexpress this as the following function of <span class="process-math">\(x\)</span> alone:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-4">
+<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="45-character blank" style="width: 20.4545454545455em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-5">We find that <span class="process-math">\(f(x)\)</span> has a critical number at <span class="process-math">\(x=\)</span><span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-6">To verify that <span class="process-math">\(f(x)\)</span> has a maximum at this critical number we compute the second derivative <span class="process-math">\(f''(x)\)</span> and find that its value at the critical number is <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span>, a negative number.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-margins-1-1-1-7">Thus the optimal dimensions of the poster are <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> inches in width and <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> inches in height giving us a maximumal printed area of <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> square inches.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-margins-1-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.5"><a href="#apps-app-opt-margins-1" title="Copy heading and permalink for Exercise 3.6.2.5" aria-label="Copy heading and permalink for Exercise 3.6.2.5">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-rectangle-under-parabola"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-263" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="263" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/OSU/high_school_apcalc/dcrev3/prob4.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-263')">Activate</button></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.5"><a tabindex="-1" href="#apps-app-opt-margins-1" title="Copy heading and permalink for Exercise 3.6.2.5" aria-label="Copy heading and permalink for Exercise 3.6.2.5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-rectangle-under-parabola"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-rectangle-under-parabola-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="272" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/OSU/high_school_apcalc/dcrev3/prob4.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-rectangle-under-parabola-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-263-1-1-1">A certain magical substance that is used to make solid magical spheres costs <span class="process-math">\(\$400\)</span> per cubic foot. The power of a magical sphere depends on its surface area, and a magical sphere can be sold for <span class="process-math">\(\$60\)</span> per square foot of surface area. If you are manufacturing such a sphere, what size should you make them to maximize your profit per sphere?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-263-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-263-1-1-2">
-<span class="process-math">\(r=\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-263-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-263-1-1-3">Note 1: the formulas for the volume and surface area of a sphere of radius <span class="process-math">\(r\)</span> are <span class="process-math">\(V=\frac{4\pi}{3}r^3\)</span> and <span class="process-math">\(A=4\pi r^2\)</span> respectively.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-263-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-263-1-1-4">Note 2: on a real exam you would be expected to justify that the answer above is actually a maximum, rather than, say a minimum.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-263-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-rectangle-under-parabola-1-1-1">A certain magical substance that is used to make solid magical spheres costs <span class="process-math">\(\$400\)</span> per cubic foot. The power of a magical sphere depends on its surface area, and a magical sphere can be sold for <span class="process-math">\(\$50\)</span> per square foot of surface area. If you are manufacturing such a sphere, what size should you make them to maximize your profit per sphere?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-rectangle-under-parabola-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-rectangle-under-parabola-1-1-2">
+<span class="process-math">\(r=\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span> ft.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-rectangle-under-parabola-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-rectangle-under-parabola-1-1-3">Note 1: the formulas for the volume and surface area of a sphere of radius <span class="process-math">\(r\)</span> are <span class="process-math">\(V=\frac{4\pi}{3}r^3\)</span> and <span class="process-math">\(A=4\pi r^2\)</span> respectively.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-rectangle-under-parabola-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-rectangle-under-parabola-1-1-4">Note 2: on a real exam you would be expected to justify that the answer above is actually a maximum, rather than, say a minimum.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-rectangle-under-parabola-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.6"><a href="#apps-app-opt-rectangle-under-parabola" title="Copy heading and permalink for Exercise 3.6.2.6" aria-label="Copy heading and permalink for Exercise 3.6.2.6">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-box-no-top"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-264" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="264" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-264')">Activate</button></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.6"><a tabindex="-1" href="#apps-app-opt-rectangle-under-parabola" title="Copy heading and permalink for Exercise 3.6.2.6" aria-label="Copy heading and permalink for Exercise 3.6.2.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-box-no-top"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-box-no-top-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="273" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP06.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-box-no-top-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-264-1-1-1">If 1100 square centimeters of material is available to make a box with a square base and an open top, find the largest possible volume of the box.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-264-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-264-1-1-2">Volume = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> (include )<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-264-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-box-no-top-1-1-1">If 1100 square centimeters of material is available to make a box with a square base and an open top, find the largest possible volume of the box.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-box-no-top-1-1-2">Volume = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> (include )<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-264-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<span class="process-math">\(x\)</span><span class="process-math">\(h\)</span><span class="process-math">\(x^2h\text{.}\)</span><span class="process-math">\(h\)</span><span class="process-math">\(x\text{.}\)</span><span class="process-math">\(x\text{,}\)</span><span class="process-math">\(x^2\)</span><span class="process-math">\(1100 - x^2\)</span><span class="process-math">\(hx\)</span><div class="displaymath process-math" id="extracted-webwork-264-1-3-10">
+<div class="solutions">
+<details id="extracted-apps-app-opt-box-no-top-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<span class="process-math">\(x\)</span><span class="process-math">\(h\)</span><span class="process-math">\(x^2h\text{.}\)</span><span class="process-math">\(h\)</span><span class="process-math">\(x\text{.}\)</span><span class="process-math">\(x\text{,}\)</span><span class="process-math">\(x^2\)</span><span class="process-math">\(1100 - x^2\)</span><span class="process-math">\(hx\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-1-3-10">
 \begin{equation*}
 1100-x^2 = 4(hx) \Rightarrow h = \frac{1100-x^2}{4x}
 \end{equation*}
 </div>
-<span class="process-math">\(v(x)\)</span><div class="displaymath process-math" id="extracted-webwork-264-1-3-12">
+<span class="process-math">\(v(x)\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-1-3-12">
 \begin{equation*}
 v(x) = x^2\left(\frac{1100-x^2}{4x}\right) = 
 \frac{{1100}x - x^3}{4}
 \end{equation*}
 </div>
 <span class="process-math">\(v'(x) = \frac{1100}{4} - 
-\frac{3}{4}x^2\text{.}\)</span><span class="process-math">\(x\)</span><div class="displaymath process-math" id="extracted-webwork-264-1-3-15">
+\frac{3}{4}x^2\text{.}\)</span><span class="process-math">\(x\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-1-3-15">
 \begin{equation*}
 \begin{array}{rcl}
 v'(x) \amp  = \amp  0 \\
@@ -578,104 +617,122 @@ x \amp  = \amp  \sqrt{\frac{1100}{3}} \approx 19.15 \\
 \end{array}
 \end{equation*}
 </div>
-<span class="process-math">\(v(x)\text{,}\)</span><span class="process-math">\(v(19.15) = !{3510.57\ {\rm cm^{3}}:\%5.2f}\text{.}\)</span><div class="autopermalink" data-description="Solution 3.6.2.7.1"><a href="#extracted-webwork-264-1-3" title="Copy heading and permalink for Solution 3.6.2.7.1" aria-label="Copy heading and permalink for Solution 3.6.2.7.1">🔗</a></div>
-</div></details></div>
+<span class="process-math">\(v(x)\text{,}\)</span><span class="process-math">\(v(19.15) = !{3510.57\ {\rm cm^{3}}:\%5.2f}\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.7.1"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-1-3" title="Copy heading and permalink for Solution 3.6.2.7.1" aria-label="Copy heading and permalink for Solution 3.6.2.7.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.7"><a href="#apps-app-opt-box-no-top" title="Copy heading and permalink for Exercise 3.6.2.7" aria-label="Copy heading and permalink for Exercise 3.6.2.7">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-box-no-top-2"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-265" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="265" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-265')">Activate</button></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.7"><a tabindex="-1" href="#apps-app-opt-box-no-top" title="Copy heading and permalink for Exercise 3.6.2.7" aria-label="Copy heading and permalink for Exercise 3.6.2.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-box-no-top-2"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-box-no-top-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="274" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-box-no-top-2-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-265-1-1-1">A rectangular storage container with an open top is to have a volume of 16 cubic meters.  The length of its base is twice the width. Material for the base costs 15 dollars per square meter. Material for the sides costs 5 dollars per square meter.  Find the cost of materials for the cheapest such container.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-265-1-1-2">Total cost = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> (Round to the nearest penny and include monetary units. For example, if your answer is 1.095, enter $1.10 including the dollar sign and second decimal place.)<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-box-no-top-2-1-1-1">A rectangular storage container with an open top is to have a volume of 16 cubic meters.  The length of its base is twice the width. Material for the base costs 15 dollars per square meter. Material for the sides costs 9 dollars per square meter.  Find the cost of materials for the cheapest such container.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-box-no-top-2-1-1-2">Total cost = <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span> (Round to the nearest penny and include monetary units. For example, if your answer is 1.095, enter $1.10 including the dollar sign and second decimal place.)<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-265-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="extracted-webwork-265-1-3-1">SOLUTION<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="solutions">
+<details id="extracted-apps-app-opt-box-no-top-2-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<div class="para" id="extracted-apps-app-opt-box-no-top-2-1-3-1">SOLUTION<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="extracted-webwork-265-1-3-2">Let <span class="process-math">\(w\)</span> and <span class="process-math">\(h\)</span> denote the width of the base and the height of the container, respectively.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-box-no-top-2-1-3-2">Let <span class="process-math">\(w\)</span> and <span class="process-math">\(h\)</span> denote the width of the base and the height of the container, respectively.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="extracted-webwork-265-1-3-3">
+<div class="para logical" id="extracted-apps-app-opt-box-no-top-2-1-3-3">
 <div class="para">Since the length of the base is twice the width, the volume of the container is</div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-3-1">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-3-1">
 \begin{equation*}
 V= (2w)(w)h =2 w^2 h =  16
 \end{equation*}
 </div>
 <div class="para">so</div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-3-2">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-3-2">
 \begin{equation*}
 h = \frac{16}{ 2 w^2}
 \end{equation*}
 </div>
 <div class="para">The sides have total  area <span class="process-math">\(2(2w)h+ 2wh = 6wh\text{,}\)</span> while the base has area <span class="process-math">\(w(2w) = 2 w^2\text{,}\)</span> so the cost is</div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-3-5">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-3-5">
 \begin{equation*}
-5 \cdot (6wh ) + 15\cdot (2 w^2)
+9 \cdot (6wh ) + 15\cdot (2 w^2)
 \end{equation*}
 </div>
 <div class="para">Substuting the expression for <span class="process-math">\(h\)</span> gives</div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-3-7">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-3-7">
 \begin{equation*}
-C(w) = 5 \cdot 6 w\cdot  \frac{16}{ 2 w^2} + 15\cdot( 2 w^2 ) 
-= \frac{240}{w} + 30 w^2 \quad w &gt;0
+C(w) = 9 \cdot 6 w\cdot  \frac{16}{ 2 w^2} + 15\cdot( 2 w^2 ) 
+= \frac{432}{w} + 30 w^2 \quad w &gt;0
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-3-8">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-3-8">
 \begin{equation*}
-C'(w) = -\frac{240}{w^2} + 60 w  = \frac{-240+ 60 w^3}{w^2}
+C'(w) = -\frac{432}{w^2} + 60 w  = \frac{-432+ 60 w^3}{w^2}
 \end{equation*}
 </div>
 <div class="para">
-<span class="process-math">\(\displaystyle w = \left(4\right)^{1/3}\)</span> is the critical number. There is an absolute minimum at this critical number since <span class="process-math">\(C'(w) \lt 0\)</span> for <span class="process-math">\(0 \lt  w \lt   \left(4\right)^{1/3}\)</span> and <span class="process-math">\(C'(w) &gt;0\)</span> for <span class="process-math">\(w &gt; \left(4\right)^{1/3}\text{.}\)</span>
+<span class="process-math">\(\displaystyle w = \left({\frac{36}{5}}\right)^{1/3}\)</span> is the critical number. There is an absolute minimum at this critical number since <span class="process-math">\(C'(w) \lt 0\)</span> for <span class="process-math">\(0 \lt  w \lt   \left({\frac{36}{5}}\right)^{1/3}\)</span> and <span class="process-math">\(C'(w) &gt;0\)</span> for <span class="process-math">\(w &gt; \left({\frac{36}{5}}\right)^{1/3}\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="extracted-webwork-265-1-3-4">
+<div class="para logical" id="extracted-apps-app-opt-box-no-top-2-1-3-4">
 <div class="para">The total minimum cost is</div>
-<div class="displaymath process-math" id="extracted-webwork-265-1-3-4-1">
+<div class="displaymath process-math" id="extracted-apps-app-opt-box-no-top-2-1-3-4-1">
 \begin{equation*}
-C\left(\left(4\right)^{1/3} \right) \approx  \$226.79
+C\left(\left({\frac{36}{5}}\right)^{1/3} \right) \approx  \$335.58
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-265-1-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Solution 3.6.2.8.1"><a href="#extracted-webwork-265-1-3" title="Copy heading and permalink for Solution 3.6.2.8.1" aria-label="Copy heading and permalink for Solution 3.6.2.8.1">🔗</a></div>
-</div></details></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.8.1"><a tabindex="-1" href="#extracted-apps-app-opt-box-no-top-2-1-3" title="Copy heading and permalink for Solution 3.6.2.8.1" aria-label="Copy heading and permalink for Solution 3.6.2.8.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.8"><a href="#apps-app-opt-box-no-top-2" title="Copy heading and permalink for Exercise 3.6.2.8" aria-label="Copy heading and permalink for Exercise 3.6.2.8">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-corner-pipe"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-266" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="266" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-266')">Activate</button></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.8"><a tabindex="-1" href="#apps-app-opt-box-no-top-2" title="Copy heading and permalink for Exercise 3.6.2.8" aria-label="Copy heading and permalink for Exercise 3.6.2.8">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-corner-pipe"><h3 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-corner-pipe-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="275" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-corner-pipe-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-266-1-1-1">A steel pipe is being carried down a hallway 9 ft wide. At the end of the hall there is a right-angled turn into a narrower hallway 6 ft wide. What is the length of the longest pipe that can be carried horizontally around the corner?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-266-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/webwork/images/webwork-266-image-1.gif" class="contained"></div> <div class="para" id="extracted-webwork-266-1-1-3">
-<span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> ft<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-266-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-corner-pipe-1-1-1">A steel pipe is being carried down a hallway 9 ft wide. At the end of the hall there is a right-angled turn into a narrower hallway 6 ft wide. What is the length of the longest pipe that can be carried horizontally around the corner?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-corner-pipe-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/webwork/images/apps-app-opt-corner-pipe-image-1.gif" class="contained"></div> 
+<div class="para" id="extracted-apps-app-opt-corner-pipe-1-1-3">
+<span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> ft<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-corner-pipe-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.9"><a href="#apps-app-opt-corner-pipe" title="Copy heading and permalink for Exercise 3.6.2.9" aria-label="Copy heading and permalink for Exercise 3.6.2.9">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-ladder-fence"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-267" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="267" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Union/setDervOptimization/nsc4_6_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-267')">Activate</button></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.9"><a tabindex="-1" href="#apps-app-opt-corner-pipe" title="Copy heading and permalink for Exercise 3.6.2.9" aria-label="Copy heading and permalink for Exercise 3.6.2.9">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-ladder-fence"><h3 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-ladder-fence-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="276" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Union/setDervOptimization/nsc4_6_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-ladder-fence-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-267-1-1-1">A fence 6 feet tall runs parallel to a tall building at a distance of 3 feet from the building.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-267-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-267-1-1-2">What is the length of the shortest ladder that will reach from the ground over the fence to the wall of the building?<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-267-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="extracted-webwork-267-1-1-3">Length of ladder = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> feet.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-267-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-ladder-fence-1-1-1">A fence 6 feet tall runs parallel to a tall building at a distance of 2 feet from the building.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-ladder-fence-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-ladder-fence-1-1-2">What is the length of the shortest ladder that will reach from the ground over the fence to the wall of the building?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-ladder-fence-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> 
+<div class="para" id="extracted-apps-app-opt-ladder-fence-1-1-3">Length of ladder = <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span> feet.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-ladder-fence-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.10"><a href="#apps-app-opt-ladder-fence" title="Copy heading and permalink for Exercise 3.6.2.10" aria-label="Copy heading and permalink for Exercise 3.6.2.10">🔗</a></div></article><article class="exercise exercise-like" id="apps-app-opt-triangle"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
-<div id="webwork-268" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="268" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-268')">Activate</button></div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.10"><a tabindex="-1" href="#apps-app-opt-ladder-fence" title="Copy heading and permalink for Exercise 3.6.2.10" aria-label="Copy heading and permalink for Exercise 3.6.2.10">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="apps-app-opt-triangle"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
+<div id="apps-app-opt-triangle-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="277" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('apps-app-opt-triangle-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-webwork-268-1-1-1">Find the maximal area of a right triangle with hypotenuse of length 6.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-268-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-apps-app-opt-triangle-1-1-1">Find the maximal area of a right triangle with hypotenuse of length 6.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-apps-app-opt-triangle-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="solutions"><details id="extracted-webwork-268-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
-<em class="alert">Solution:</em><span class="process-math">\(x, y\)</span><span class="process-math">\(x^2 + y^2 = 6^2\text{.}\)</span><span class="process-math">\(y\text{,}\)</span><div class="displaymath process-math" id="extracted-webwork-268-1-3-5">
+<div class="solutions">
+<details id="extracted-apps-app-opt-triangle-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
+<div class="solution solution-like knowl__content">
+<em class="alert">Solution:</em><span class="process-math">\(x, y\)</span><span class="process-math">\(x^2 + y^2 = 6^2\text{.}\)</span><span class="process-math">\(y\text{,}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-triangle-1-3-5">
 \begin{equation*}
 y = \sqrt{36 - x^2}
 \end{equation*}
 </div>
-<span class="process-math">\(A = \frac{1}{2}xy\text{.}\)</span><span class="process-math">\(y = \sqrt{36 - x^2}\)</span><div class="displaymath process-math" id="extracted-webwork-268-1-3-8">
+<span class="process-math">\(A = \frac{1}{2}xy\text{.}\)</span><span class="process-math">\(y = \sqrt{36 - x^2}\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-triangle-1-3-8">
 \begin{equation*}
 \begin{array}{rcl}
 A \amp =\amp  \frac{1}{2}x\sqrt{36 - x^2} \\
@@ -692,22 +749,27 @@ x \amp =\amp  \pm \sqrt{18}
 \end{array}
 \end{equation*}
 </div>
-<span class="process-math">\(x = \sqrt{18}\text{.}\)</span><span class="process-math">\(y\)</span><div class="displaymath process-math" id="extracted-webwork-268-1-3-11">
+<span class="process-math">\(x = \sqrt{18}\text{.}\)</span><span class="process-math">\(y\)</span><div class="displaymath process-math" id="extracted-apps-app-opt-triangle-1-3-11">
 \begin{equation*}
 y = \sqrt{36 - x^2} = 
 \sqrt{36 - 18} = \sqrt{18}.
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="extracted-webwork-268-1-3-12">
+<div class="displaymath process-math" id="extracted-apps-app-opt-triangle-1-3-12">
 \begin{equation*}
 A = \frac{1}{2}xy = \frac{1}{2} \sqrt{18} \cdot \sqrt{18} = 9.
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Solution 3.6.2.11.1"><a href="#extracted-webwork-268-1-3" title="Copy heading and permalink for Solution 3.6.2.11.1" aria-label="Copy heading and permalink for Solution 3.6.2.11.1">🔗</a></div>
-</div></details></div>
+<div class="autopermalink" aria-hidden="true" data-description="Solution 3.6.2.11.1"><a tabindex="-1" href="#extracted-apps-app-opt-triangle-1-3" title="Copy heading and permalink for Solution 3.6.2.11.1" aria-label="Copy heading and permalink for Solution 3.6.2.11.1">🔗</a></div>
+</div></details>
 </div>
 </div>
-<div class="autopermalink" data-description="Exercise 3.6.2.11"><a href="#apps-app-opt-triangle" title="Copy heading and permalink for Exercise 3.6.2.11" aria-label="Copy heading and permalink for Exercise 3.6.2.11">🔗</a></div></article><div class="autopermalink" data-description="Exercises 3.6.2: Calculus Practice"><a href="#cp-applied-opt" title="Copy heading and permalink for Exercises 3.6.2: Calculus Practice" aria-label="Copy heading and permalink for Exercises 3.6.2: Calculus Practice">🔗</a></div></section><div class="autopermalink" data-description="Section 3.6: Applied optimization"><a href="#sec-3-6-applied-opt" title="Copy heading and permalink for Section 3.6: Applied optimization" aria-label="Copy heading and permalink for Section 3.6: Applied optimization">🔗</a></div></section></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Exercise 3.6.2.11"><a tabindex="-1" href="#apps-app-opt-triangle" title="Copy heading and permalink for Exercise 3.6.2.11" aria-label="Copy heading and permalink for Exercise 3.6.2.11">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Exercises 3.6.2: Calculus Practice"><a tabindex="-1" href="#cp-applied-opt" title="Copy heading and permalink for Exercises 3.6.2: Calculus Practice" aria-label="Copy heading and permalink for Exercises 3.6.2: Calculus Practice">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 3.6: Applied optimization"><a tabindex="-1" href="#sec-3-6-applied-opt" title="Copy heading and permalink for Section 3.6: Applied optimization" aria-label="Copy heading and permalink for Section 3.6: Applied optimization">🔗</a></div>
+</section>
+</div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec-3-5-optimization.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="C-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

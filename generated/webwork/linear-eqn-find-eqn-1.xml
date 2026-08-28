@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-find-eqn-1" assembly-id="linear-eqn-find-eqn-1">
+  <static seed="52" source="Contrib/METU-NCC/MAT101/Midterm/line.pg">
+    <statement><p>Give the equations for the following lines:</p>
+<p><alert> (A) </alert>
+Line through the point <m>(2,-2)</m> with slope <m>-4</m>.</p>
+<p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0001"/></p>
+<p><alert> (B) </alert>
+Line satisfying <m>y(-4) = 2</m> and <m>y(2) = -1</m>.</p>
+<p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-\left(2+4\mathopen{}\left(x-2\right)\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2-\left({\frac{1}{2}}\right)\mathopen{}\left(x+4\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Contrib/METU-NCC/MAT101/Midterm/line.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Contrib/METU-NCC/MAT101/Midterm/line.pg"/>
+</webwork-reps>
