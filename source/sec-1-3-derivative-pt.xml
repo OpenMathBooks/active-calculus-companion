@@ -1,61 +1,68 @@
 <?xml version="1.0"?>
 
- 
+
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-3-derivative-pt">
   <title>The derivative of a function at a point</title>
-    <objectives>
-    <ul>
-      <li>
-        <p>
-          Objective 1
-        </p>
-      </li>
 
-      <li>
-        <p>
-          Objective 2
-        </p>
-      </li>
-    </ul>
-  </objectives>
-  <outcomes>
-      <ul>
-        <li>
-          <p>
-            Foundational knowledge or technique 1
-          </p>
-        </li>
-        <li>
-          <p>
-            Foundational knowledge or technique 1
-          </p>
-        </li>
-      </ul>
-    </outcomes>
 
-    <!-- Any discussion of activities or sticking points?  Maybe asides? 
+    <!-- Any discussion of activities or sticking points?  Maybe asides?
      Or something else that can be knowled? -->
-  
+
 
   <!-- do we put them into separate files for easier editing later? -->
-  
 
-  <subsection><title>Additional Section Exercises</title>
-    <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
-  <!-- <exercise label="limits-from-graph-1">
-    <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork>
+  <subsection>
+    <title>Foundations</title>
+
+    <p>
+      In this section of Active Calculus, you will take the algebraic skills you mastered in section 1.2 about limits and apply them to a very specific limit: the limit as <m>h</m> goes to 0 of the average rate of change.  This will require the same sort of algebraic manipulation you practiced in section 1.2, so it would be a good idea to review <xref ref="subsec-limits-foundations"/> before doing additional practice in this section.
+    </p>
+
+
+  </subsection>
+
+  <exercises>
+    <title>Calculus Practice</title>
+    <exercise label="derivative-at-pt-limit-definition-reverse">
+      <webwork source="Library/Wiley/setAnton_Section_2.2/Anton2_2Q32.pg" />
+    </exercise>
+    <exercise label="derivative-at-pt-limit-definition-1">
+      <webwork source="Library/Hope/Calc1/APEX_02_01_Deriv_def/Limit_01.pg" />
+    </exercise>
+    <exercise label="derivative-at-pt-limit-definition-2">
+      <webwork source="Library/Hope/Calc1/APEX_02_01_Deriv_def/Limit_02.pg" />
+    </exercise>
+    <exercise label="derivative-at-pt-limit-definition-3">
+      <webwork><xi:include parse="text" href="./wwpg/deriv-def-2.pg"/></webwork>
+    </exercise>
+<exercise label="Library__Michigan__Chap2Sec2__Q15_pg">
+    <webwork source="Library/Michigan/Chap2Sec2/Q15.pg"/>
   </exercise>
-  <exercise label="limits-from-graph-2">
-    <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
-  </exercise> -->
-  
-  <!-- </exercises> -->
-    
-  </subsection>
+  <exercise label="Library__Michigan__Chap2Sec1__Q05_pg">
+    <webwork source="Library/Michigan/Chap2Sec1/Q05.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_3HW_prob3_pg">
+    <webwork source="csafranski/1.3HW_prob3.pg"/>
+  </exercise>
+  <exercise label="Library__WHFreeman__Rogawski_Calculus_Early_Transcendentals_Second_Edition__3_Differentiation__3_1_Definition_of_the_Derivative__3_1_11_pg">
+    <webwork source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.11.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec2__Q09_pg">
+    <webwork source="Library/Michigan/Chap2Sec2/Q09.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec2__Q13_pg">
+    <webwork source="Library/Michigan/Chap2Sec2/Q13.pg"/>
+  </exercise>
+  <exercise label="Library__ASU-topics__setRateChange__3-3-17_pg">
+    <webwork source="Library/ASU-topics/setRateChange/3-3-17.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_3HW_prob8_pg">
+    <webwork source="csafranski/1.3HW_prob8.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_3HW_prob9_pg">
+    <webwork source="csafranski/1.3HW_prob9.pg"/>
+  </exercise>
 
-  <subsection><title>Foundational Exercises</title>
-    
-    
-    
-  </subsection>
+  </exercises>
+
 </section>

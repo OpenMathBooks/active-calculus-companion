@@ -124,5 +124,27 @@
 
       <webwork source="Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_3_45.pg"/>
     </exercise>
+
+      <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q10_pg">
+    <webwork source="csafranski/1.1HW_prob1.pg"/>
+  </exercise>
+  <exercise label="Library__ma122DB__set1__ns_2_1_5_pg">
+    <webwork source="Library/ma122DB/set1/ns_2_1_5.pg"/>
+  </exercise>
+  <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q16_pg">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg"/>
+  </exercise>
+  <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q25_pg">
+    <webwork source="csafranski/1.1HW_prob4.pg"/>
+  </exercise>
+  <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q07_pg">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q07.pg"/>
+  </exercise>
+  <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q06_pg">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q06.pg"/>
+  </exercise>
+  <exercise label="Library__LoyolaChicago__Precalc__Chap1Sec2__Q18_pg">
+    <webwork source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q18.pg"/>
+  </exercise>
   </exercises>
 </section>

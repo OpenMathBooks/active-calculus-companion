@@ -83,14 +83,49 @@
       </ul>
     </p>
   </subsection> -->
-
-  <exercises>
-    <title>Additional Practice</title>
-    
-  </exercises>
-
-  <exercises>
+  <subsection>
     <title>Foundations</title>
 
+  </subsection>
+
+  <exercises>
+    <title>Calculus Practice</title>
+    <exercise label="derivative-limit-definition-1">
+      <webwork source="Library/AlfredUniv/anton8e/chapter3/3.2/prob3.pg" />
+    </exercise>
+    <exercise label="derivative-limit-definition-2">
+      <webwork><xi:include parse="text" href="wwpg/deriv-def-1.pg"/></webwork>
+    </exercise>
+    <exercise label="derivative-limit-definition-3">
+      <webwork source="Library/ma122DB/set3/s2_9_19.pg" />
+    </exercise>
+      <exercise label="Library__Michigan__Chap2Sec3__Q09_pg">
+    <webwork source="Library/Michigan/Chap2Sec3/Q09.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec3__Q31_pg">
+    <webwork source="Library/Michigan/Chap2Sec3/Q31.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_4HW_prob3_pg">
+    <webwork source="csafranski/1.4HW_prob3.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec3__Q41_pg">
+    <webwork source="Library/Michigan/Chap2Sec3/Q41.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec3__Q37_pg">
+    <webwork source="Library/Michigan/Chap2Sec3/Q37.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_4HW_prob6_pg">
+    <webwork source="csafranski/1.4HW_prob6.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_4HW_prob7_pg">
+    <webwork source="csafranski/1.4HW_prob7.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec3__Q15_pg">
+    <webwork source="Library/Michigan/Chap2Sec3/Q15.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_4HW_prob9_pg">
+    <webwork source="csafranski/1.4HW_prob9.pg"/>
+  </exercise>
   </exercises>
+
 </section>

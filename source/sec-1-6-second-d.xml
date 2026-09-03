@@ -2,93 +2,41 @@
 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-6-second-d">
   <title>The second derivative</title>
-  <!-- <objectives>
-    <ul>
-      <li>
-        <p>
-          How does the derivative of a function tell us whether the function is increasing or decreasing  on an interval?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          What can we learn by taking the derivative of the derivative
-          (the <em>second</em> derivative)
-          of a function <m>f</m>?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          What does it mean to say that a function is concave up or concave down?
-          How are these characteristics connected to certain properties of the derivative of the function?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          What are the units of the second derivative?
-          How do they help us understand the rate of change of the rate of change?
-        </p>
-      </li>
-    </ul>
-  </objectives>
 
 
-  <subsection>
-    <title>Summary</title>
-    <p>
-      <ul>
-        <li>
-          <p>
-            A differentiable function <m>f</m> is increasing on an interval whenever its first derivative is positive,
-            and decreasing whenever its first derivative is negative.
-          </p>
-        </li>
+    <subsection>
+      <title>Foundations</title>
 
-        <li>
-          <p>
-            By taking the derivative of the derivative of a function <m>f</m>,
-            we arrive at the second derivative, <m>f''</m>.
-            The second derivative measures the instantaneous rate of change of the first derivative.
-            The sign of the second derivative tells us whether the slope of the tangent line to <m>f</m> is increasing or decreasing.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            A differentiable function is concave up whenever its first derivative is increasing
-            (or equivalently whenever its second derivative is positive),
-            and concave down whenever its first derivative is decreasing
-            (or equivalently whenever its second derivative is negative).  When a differentiable function is concave up on an interval,
-            its tangent line always lies below the curve; when a differentiable function is concave down on an interval,
-            its tangent line always lies above the curve.
-            Examples of functions that are everywhere concave up are <m>y = x^2</m> and <m>y = e^x</m>;
-            examples of functions that are everywhere concave down are <m>y = -x^2</m> and <m>y = -e^x</m>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The units on the second derivative are
-            <q>units of output per unit of input per unit of input.</q>
-            Is is best not to try to simplify these units, as the second derivative's units and value 
-            tell us how the value of the derivative function is changing in response to changes in the input.
-            In other words,
-            the second derivative tells us the rate of change of the rate of change of the original function.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection> -->
+    </subsection>
 
   <exercises>
-    <title>Additional Practice</title>
-    
-  </exercises>
-
-  <exercises>
-    <title>Foundations</title>
-
+    <title>Calculus Practice</title>
+    <exercise label="Library__Michigan__Chap2Sec5__Q01_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q01.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q21_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q21.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q13_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q13.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q16_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q16.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q19_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q19.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q03_pg">
+    <webwork source="Library/Michigan/Chap2Sec5/Q03.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec5__Q15_pg">
+    <webwork source="csafranski/1.6HW_prob7.pg"/>
+  </exercise>
+  <exercise label="Library__Rochester__setDerivatives1__nsc2s10p1_mo_pg">
+    <webwork source="Library/Rochester/setDerivatives1/nsc2s10p1_mo.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_6HW_prob9_pg">
+    <webwork source="csafranski/1.6HW_prob9.pg"/>
+  </exercise>
   </exercises>
 </section>

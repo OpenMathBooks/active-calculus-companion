@@ -3,52 +3,23 @@
 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-2-lim">
   <title>The notion of limit</title>
-  <objectives>
-    <ul>
-      <li>
-        <p>
-          Determine the limit of a function at a point using graphical, numerical, and algebraic methods.
-        </p>
-      </li>
 
-      <li>
-        <p>
-          Explain how average velocity and instantaneous velocity are connected using the notion of limit.
-        </p>
-      </li>
-    </ul>
-  </objectives>
-  <outcomes>
-      <ul>
-        <li>
-          <p>
-            Algebra: factoring, multiplying out, common denominator, rationalizing
-          </p>
-        </li>
-        <li>
-          <p>
-            Graphs: holes and jumps
-          </p>
-        </li>
-      </ul>
-    </outcomes>
-
-  
 
   <!-- do we put them into separate files for easier editing later? -->
-  
 
-  <subsection xml:id="subsec-limits-foundations"><title>Foundations</title>
+
+  <subsection xml:id="subsec-limits-foundations">
+    <title>Foundations</title>
     <p>
       This section is about limits, the behavior of a function's output value as the input value is getting closer
       and closer (but not equal to) a specified number.  A function can be described by a graph, a table of values,
       or by an algebraic formula, so we work on interpreting limits of functions described in graphical, numerical, and algebraic ways.
     </p>
     <p>
-      It would be helpful to practice how we can interpret information about a function from a graph, or from a 
+      It would be helpful to practice how we can interpret information about a function from a graph, or from a
       piecewise description of a function.  Calculating an algebraic limit can also require us to use algebraic simplification
       techniques such as factoring, combining rational functions using a common denominator, and rationalizing a radical function
-      using the conjugate.  
+      using the conjugate.
     </p>
     <exercise label="functions-piecewise-1"><title>Values of a piecewise function</title>
       <webwork source="Contrib/CCCS/CollegeAlgebra/3.2/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_2_49.pg"/>
@@ -100,7 +71,7 @@
     </exercise>
     <exercise label="rationalizing-radical-functions-2"><title>Rationalizing radicals</title>
       <webwork source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg"/>
-    </exercise> 
+    </exercise>
     <exercise label="rationalizing-radical-functions-3"><title>Rationalizing radicals</title>
       <webwork source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg"/>
     </exercise>
@@ -110,12 +81,13 @@
   </subsection>
 
 
-  <exercises xml:id="ap-limits"><title>Calculus Practice</title>
+  <exercises xml:id="ap-limits">
+    <title>Calculus Practice</title>
     <!-- <exercises xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ez-1-1"><title>Additional Exercises</title> -->
   <exercise label="limits-from-graph-1"><title>Limits from a graph</title>
     <webwork source="Library/UMN/calculusStewartCCC/s_2_2_5.pg"/>
     <!-- <webwork><xi:include parse="text" href="../webworkfiles/sec_1-2_prob1.pg"/></webwork> -->
-  </exercise> 
+  </exercise>
   <!-- weird cached image stuff happening with problem above.  -->
   <exercise label="limits-from-graph-2"><title>Limits from a graph</title>
     <webwork source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg"/>
@@ -166,13 +138,33 @@
   <exercise label="average-instant-velocity-2"><title>Average and instantaneous velocity</title>
     <webwork source="Library/Rochester/setLimitsRates6Rates/s1_6_14.pg"/>
   </exercise>
-  
-  
-  
-  
-  
+
+  <exercise label="Library__Michigan__Chap1Sec8__Q01_pg">
+    <webwork source="csafranski/1.2HW_prob1.pg"/>
+  </exercise>
+  <exercise label="Library__UMN__calculusStewartCCC__s_2_3_4_pg">
+    <webwork source="Library/UMN/calculusStewartCCC/s_2_3_4.pg"/>
+  </exercise>
+  <exercise label="Library__Union__setLimitConcepts__s1_3_19_pg">
+    <webwork source="Library/Union/setLimitConcepts/s1_3_19.pg"/>
+  </exercise>
+  <exercise label="Library__UMN__calculusStewartCCC__s_2_3_18_pg">
+    <webwork source="Library/UMN/calculusStewartCCC/s_2_3_18.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap2Sec1__Q18_pg">
+    <webwork source="Library/Michigan/Chap2Sec1/Q18.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap1Sec8__Q13_pg">
+    <webwork source="Library/Michigan/Chap1Sec8/Q13.pg"/>
+  </exercise>
+  <exercise label="Library__ASU-topics__setLimitConcepts__3-2-50_pg">
+    <webwork source="csafranski/1.2HW_prob7.pg"/>
+  </exercise>
+
+
+
   <!-- </exercises> -->
-    
+
 </exercises>
 
 </section>

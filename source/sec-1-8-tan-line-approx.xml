@@ -3,75 +3,7 @@
 
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-1-8-tan-line-approx">
   <title>The tangent line approximation</title>
-  <!-- <objectives>
-    <ul>
-      <li>
-        <p>
-          What is the formula for the general tangent line approximation to a differentiable function
-          <m>y = f(x)</m> at the point <m>(a,f(a))</m>?
-        </p>
-      </li>
 
-      <li>
-        <p>
-          What is the principle of local linearity and what is the local linearization of a differentiable function <m>f</m> at a point <m>(a,f(a))</m>?
-        </p>
-      </li>
-
-      <li>
-        <p>
-          How does knowing just the tangent line approximation tell us information about the behavior of the original function itself near the point of approximation?
-          How does knowing the second derivative's value at this point provide us additional knowledge of the original function's behavior?
-        </p>
-      </li>
-    </ul>
-  </objectives> -->
-
-
-  <!-- <subsection>
-    <title>Summary</title>
-    <p>
-      <ul>
-        <li>
-          <p>
-            The tangent line to a differentiable function <m>y = f(x)</m> at the point
-            <m>(a,f(a))</m> is given in point-slope form by the equation
-            <me>
-              y - f(a) = f'(a)(x-a)
-            </me>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            The principle of local linearity tells us that if we zoom in on a point where a function <m>y = f(x)</m> is differentiable,
-            the function will be indistinguishable from its tangent line.
-            That is,
-            a differentiable function looks linear when viewed up close.
-            We rename the tangent line to be the function
-            <m>y = L(x)</m>, where <m>L(x) = f(a) + f'(a)(x-a)</m>.
-            Thus,
-            <m>f(x) \approx L(x)</m> for all <m>x</m> near <m>x = a</m>.
-          </p>
-        </li>
-
-        <li>
-          <p>
-            If we know the tangent line approximation
-            <m>L(x) = f(a) + f'(a)(x-a)</m> to a function <m>y=f(x)</m>,
-            then because <m>L(a) = f(a)</m> and <m>L'(a) = f'(a)</m>,
-            we also know the values of both the function
-            and its derivative at the point where <m>x = a</m>.
-            In other words,
-            the linear approximation tells us the height and slope of the original function.
-            If, in addition, we know the value of <m>f''(a)</m>,
-            we then know whether the tangent line lies above or below the graph of
-            <m>y = f(x)</m>, depending on the concavity of <m>f</m>.
-          </p>
-        </li>
-      </ul>
-    </p>
-  </subsection> -->
 
 <subsection xml:id="fe-tan-line-approx">
   <title>Foundations</title>
@@ -151,6 +83,24 @@
     </webwork>
   </exercise>
 
+    <exercise label="Library__Michigan__Chap2Sec2__Q11_pg">
+    <webwork source="Library/Michigan/Chap2Sec2/Q11.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_8HW_prob2_pg">
+    <webwork source="csafranski/1.8HW_prob2.pg"/>
+  </exercise>
+  <exercise label="csafranski__1_8HW_prob3_pg">
+    <webwork source="csafranski/1.8HW_prob3.pg"/>
+  </exercise>
+  <exercise label="Library__ma122DB__set7__s3_11_9_pg">
+    <webwork source="Library/ma122DB/set7/s3_11_9.pg"/>
+  </exercise>
+  <exercise label="Library__Michigan__Chap3Sec9__Q11_pg">
+    <webwork source="Library/Michigan/Chap3Sec9/Q11.pg"/>
+  </exercise>
+  <exercise label="Library__Valdosta__APEX_Calculus__2_2__APEX_2_2_8_pg">
+    <webwork source="Library/Valdosta/APEX_Calculus/2.2/APEX_2.2_8.pg"/>
+  </exercise>
 
 </exercises>
 
