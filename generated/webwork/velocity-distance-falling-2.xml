@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-falling-2" assembly-id="velocity-distance-falling-2">
-  <static seed="287" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg">
+  <static seed="352" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_69.pg">
     <statement><p>A stone was dropped off a cliff and hit the ground with a speed of 120 ft/s.  Using the fact that acceleration due to gravity is <m>-32 ft/s^2,</m> what is the height (in feet) of the cliff?</p>
 <p>Height of cliff = <fillin characters="35" name="AnSwEr0001"/> feet</p>
 </statement>

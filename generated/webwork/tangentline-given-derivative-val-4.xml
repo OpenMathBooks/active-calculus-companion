@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-val-4" assembly-id="tangentline-given-derivative-val-4">
-  <static seed="61" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg">
-    <statement><p>Given that <m>P(110) = 75</m> and <m>P'(110) = -4</m>, approximate
-<m>P(109)</m>.</p>
-<p><m>P(109) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+  <static seed="120" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_5.pg">
+    <statement><p>Given that <m>P(91) = 43</m> and <m>P'(91) = 16</m>, approximate
+<m>P(95)</m>.</p>
+<p><m>P(95) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>79</m>
+        <m>107</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -16,8 +16,8 @@
 
 Using the formula, <m>f(c + h) \approx f(c) + f'(c)\cdot h</m>, with 
 the function <m>P</m>,
-<me>P(109) = P(110  - 1) \approx P(110) + P'(110)\cdot (-1)
-  = 75  - 4 \cdot (-1) = 79.</me>
+<me>P(95) = P(91 + 4) \approx P(91) + P'(91)\cdot (4)
+  = 43 + 16 \cdot (4) = 107.</me>
 
 
 </solution>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-tangent-2" assembly-id="derivatives-prod-tangent-2">
-  <static seed="128" source="Library/UVA-Stew5e/setUVA-Stew5e-C03S02-ProdQuotRules/3-2-25.pg">
+  <static seed="193" source="Library/UVA-Stew5e/setUVA-Stew5e-C03S02-ProdQuotRules/3-2-25.pg">
     <statement><p>Find an equation for the line tangent to the graph of
-<me>f(x) = 3 x e^x</me>
+<me>f(x) = -4 x e^x</me>
 at the point <m>(a,f(a))</m> for <m>a=1</m>.</p>
 <p><m>y</m> = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>8.15485+16.3097\mathopen{}\left(x-1\right)</m>
+        <m>-10.8731+-21.7463\mathopen{}\left(x-1\right)</m>
       </p>
     </answer>
   </static>

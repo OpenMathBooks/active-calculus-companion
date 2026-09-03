@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-adding-rational-functions-3" assembly-id="adding-rational-functions-3">
-  <static seed="26" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
+  <static seed="33" source="Library/UMN/algebraKaufmannSchwitters/ks_5_1_76.pg">
     <statement><p>Simplify the rational expression
-<me>\frac{1}{x^{4}} + \frac{1}{x^{6}}</me>
+<me>\frac{1}{x^{3}} + \frac{1}{x^{5}}</me>
 in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction using positive exponents only.</p>
 <p>Answer: <m>A =</m> <fillin characters="20" name="AnSwEr0001"/> and <m>B =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
@@ -13,7 +13,7 @@ in the form <m>\frac{A}{B}</m>.  Express the final result in a single fraction u
     </answer>
     <answer>
       <p>
-        <m>x^{4+2}</m>
+        <m>x^{3+2}</m>
       </p>
     </answer>
   </static>

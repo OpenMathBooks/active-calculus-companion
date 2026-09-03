@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-graph-3" assembly-id="fcns-compose-graph-3">
-  <static seed="156" source="Library/Michigan/Chap1Sec3/Q43.pg">
+  <static seed="221" source="Library/Michigan/Chap1Sec3/Q43.pg">
     <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
 <row>
 <cell>
@@ -17,13 +17,13 @@
 </tabular>
 <p>Use the figures above, which show the functions <m>f(x)</m> and <m>g(x)</m>,
 to find the following values. Note that you can find exact values.</p>
-<p><alert>1.</alert> <m>f(g(-1))</m>=<fillin characters="30" name="AnSwEr0001"/></p>
-<p><alert>2.</alert> <m>g(f(0))</m>=<fillin characters="30" name="AnSwEr0002"/></p>
-<p><alert>3.</alert> <m>g(g(7))</m>=<fillin characters="30" name="AnSwEr0003"/></p>
+<p><alert>1.</alert> <m>f(g(6))</m>=<fillin characters="30" name="AnSwEr0001"/></p>
+<p><alert>2.</alert> <m>g(f(-1))</m>=<fillin characters="30" name="AnSwEr0002"/></p>
+<p><alert>3.</alert> <m>g(g(-5))</m>=<fillin characters="30" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
-        <m>-5</m>
+        <m>-10</m>
       </p>
     </answer>
     <answer>
@@ -33,23 +33,23 @@ to find the following values. Note that you can find exact values.</p>
     </answer>
     <answer>
       <p>
-        <m>2</m>
+        <m>-2</m>
       </p>
     </answer>
     <solution><alert>1.</alert>
-<m>f(g(-1)) = f(2)</m> which is <m>-5</m>.
+<m>f(g(6)) = f(-2)</m> which is <m>-10</m>.
 
 
 
 
 <alert>2.</alert>
-<m>g(f(0)) = g(5)</m> which is <m>-2</m>.
+<m>g(f(-1)) = g(1)</m> which is <m>-2</m>.
 
 
 
 
 <alert>3.</alert>
-<m>g(g(7)) = g(-1)</m> which is <m>2</m>.
+<m>g(g(-5)) = g(2)</m> which is <m>-2</m>.
 
 
 

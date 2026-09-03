@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-exponential-power-3" assembly-id="derivatives-exponential-power-3">
-  <static seed="85" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg">
+  <static seed="150" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_17.pg">
     <statement><p>Differentiate the  function 
-<m>\displaystyle G(x) = \sqrt{x}+6 e^x</m></p>
+<m>\displaystyle G(x) = \sqrt{x}+9 e^x</m></p>
 <p><m>G'(x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>0.5x^{-0.5}+6e^{x}</m>
+        <m>0.5x^{-0.5}+9e^{x}</m>
       </p>
     </answer>
   </static>

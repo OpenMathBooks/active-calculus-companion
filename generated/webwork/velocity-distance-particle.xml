@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-particle" assembly-id="velocity-distance-particle">
-  <static seed="289" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg">
+  <static seed="354" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_53.pg">
     <statement><p>The velocity function (in meters per second) for a particle moving along a line is given by 
-<me>v(t)= 3 t - 7,\,\, 0 \le t \le 3.</me></p>
+<me>v(t)= 3 t - 3,\,\, 0 \le t \le 3.</me></p>
 <p>(a) Find the displacement (in meters) of the particle.</p>
 <p>Displacement = <fillin characters="30" name="AnSwEr0001"/> meters</p>
 <p>(b) Find the total distance traveled (in meters) by the particle.</p>
@@ -10,12 +10,12 @@
 </statement>
     <answer>
       <p>
-        <m>-7.5</m>
+        <m>4.5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>8.83333333333333</m>
+        <m>7.5</m>
       </p>
     </answer>
   </static>

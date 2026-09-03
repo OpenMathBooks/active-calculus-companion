@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-rectangle-area" assembly-id="rel-rates-rectangle-area">
-  <static seed="213" source="Library/Michigan/Chap4Sec6/Q16.pg">
-    <statement><p>A rectangle has one side of <m>9</m> cm.
+  <static seed="278" source="Library/Michigan/Chap4Sec6/Q16.pg">
+    <statement><p>A rectangle has one side of <m>10</m> cm.
 How fast is the area of the rectangle changing
-at the instant when the other side is <m>12</m> cm
+at the instant when the other side is <m>16</m> cm
 and increasing at <m>4</m> cm per minute?
 (Give <url href="">units</url>.)</p>
 <p>Answer: <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>36\ {\textstyle\frac{\rm\mathstrut cm^{2}}{\rm\mathstrut min}}</m>
+        <m>40\ {\textstyle\frac{\rm\mathstrut cm^{2}}{\rm\mathstrut min}}</m>
       </p>
     </answer>
-    <solution><m>9</m> cm
-and that the other (say, the height) is increasing at <m>4</m> cm/min when it is <m>12</m> cm.
+    <solution><m>10</m> cm
+and that the other (say, the height) is increasing at <m>4</m> cm/min when it is <m>16</m> cm.
 
 Differentiating the equation <m>A = wh</m> with respect to <m>t</m>
 and treating the width <m>w</m> as constant, we have
-<me>\frac{dA}{dt} = w\frac{dh}{dt} = 9\cdot4 = 36 \hbox{ cm}^2\hbox{/min}.</me>
+<me>\frac{dA}{dt} = w\frac{dh}{dt} = 10\cdot4 = 40 \hbox{ cm}^2\hbox{/min}.</me>
 
 
 

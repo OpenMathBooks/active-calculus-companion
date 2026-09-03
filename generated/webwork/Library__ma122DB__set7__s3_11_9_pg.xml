@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__ma122DB__set7__s3_11_9_pg" assembly-id="Library__ma122DB__set7__s3_11_9_pg">
+  <static seed="126" source="Library/ma122DB/set7/s3_11_9.pg">
+    <statement><p>Use linear approximation to approximate
+<m>\sqrt {81.2}</m> as follows.</p>
+<p>Let <m>f(x) = \sqrt x</m>. The equation of the tangent line to <m>f(x)</m> at <m>x = 81</m> can be written in the form <m>y = mx+b</m>. Compute <m>m</m> and <m>b</m>.</p>
+<p><m>m=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>b=</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>Using this find the approximation for <m>\sqrt {81.2}</m>.</p>
+<p>Answer: <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.0555555555555556</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4.5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>9.01111111111111</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set7/s3_11_9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set7/s3_11_9.pg"/>
+</webwork-reps>

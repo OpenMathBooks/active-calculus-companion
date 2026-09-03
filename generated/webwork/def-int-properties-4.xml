@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-4" assembly-id="def-int-properties-4">
-  <static seed="318" source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg">
+  <static seed="383" source="Library/UCSB/Stewart5_5_2/Stewart5_5_2_47.pg">
     <statement><p>The sum 
 <me>\int_{-2}^{\,2} {f(x)}\, dx + \int_{2}^{\,5} {f(x)}\, dx - \int_{-2}^{\,-1} {f(x)}\, dx</me>
 can be written as a single integral in the form

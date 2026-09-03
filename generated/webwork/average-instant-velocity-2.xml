@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-average-instant-velocity-2" assembly-id="average-instant-velocity-2">
-  <static seed="48" source="Library/Rochester/setLimitsRates6Rates/s1_6_14.pg">
+  <static seed="55" source="Library/Rochester/setLimitsRates6Rates/s1_6_14.pg">
     <statement><p>The displacement (in meters) of a particle moving in a straight line
 is given by <m>s = 2 t^3</m> where <m>t</m> is measured in seconds.</p>
 <p>Find the average velocity of the particle over the time interval
-<m>[ 7 , 10]</m>.
+<m>[ 10 , 13]</m>.
 <fillin characters="20" name="AnSwEr0001"/></p>
-<p>Find the (instantaneous) velocity of the particle when <m>t = 7</m>.
+<p>Find the (instantaneous) velocity of the particle when <m>t = 10</m>.
 <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{2\cdot \left(10^{3}-7^{3}\right)}{3}</m>
+        <m>\frac{2\cdot \left(13^{3}-10^{3}\right)}{3}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3\cdot 2\cdot 7\cdot 7</m>
+        <m>3\cdot 2\cdot 10\cdot 10</m>
       </p>
     </answer>
   </static>

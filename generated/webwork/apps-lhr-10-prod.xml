@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-10-prod" assembly-id="apps-lhr-10-prod">
-  <static seed="238" source="Library/UMN/calculusStewartCCC/s_4_5_28.pg">
+  <static seed="303" source="Library/UMN/calculusStewartCCC/s_4_5_28.pg">
     <statement><p>Find the limit.  Use l'Hospital's Rule where appropriate.
-<me>\lim_{x \to -\infty} x^{2} e^{x}</me></p>
+<me>\lim_{x \to -\infty} x^{3} e^{x}</me></p>
 <p>Limit: <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>

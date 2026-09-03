@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-2" assembly-id="def-int-areas-2">
-  <static seed="307" source="Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg">
+  <static seed="372" source="Contrib/CUNY/OPLremix/Library/Rochester/setIntegrals0Theory/sc5_2_24_mo.pg">
     <statement><p>Evaluate the integral below by interpreting it in terms of areas. In other words, draw a picture of the region the integral represents,
 and find the area using high school geometry.</p>
-<p><m>\displaystyle \int_{-7}^{7} \sqrt{49 - x^2 } \; dx =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>\displaystyle \int_{-2}^{2} \sqrt{4 - x^2 } \; dx =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{1}{2}\pi \cdot 7^{2}</m>
+        <m>\frac{1}{2}\pi \cdot 2^{2}</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-1" assembly-id="def-int-meaning-1">
-  <static seed="322" source="Library/UMN/calculusStewartCCC/s_5_2_47.pg">
+  <static seed="387" source="Library/UMN/calculusStewartCCC/s_5_2_47.pg">
     <statement><p>For the function <m>f</m> whose graph is given below, list the following quantities in increasing order, from smallest to largest.
 <me>\text{A: } \int_0^{8}\! f(x) \, dx \qquad \text{B: } \int_{5}^{8}\! f(x) \, dx \qquad \text{C: } \int_4^{8}\! f(x) \, dx \qquad \text{D: } \int_0^{4}\! f(x) \, dx</me></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-meaning-1-image-1.png" width="66%"/>
@@ -9,7 +9,7 @@
 </statement>
     <answer>
       <p>
-        <m>\text{B}, \text{C}, \text{A}, \text{D}</m>
+        <m>\text{D}, \text{A}, \text{C}, \text{B}</m>
       </p>
     </answer>
   </static>

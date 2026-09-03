@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-1" assembly-id="derivatives-trig-adv-prod-1">
-  <static seed="135" source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg">
+  <static seed="200" source="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg">
     <statement><p>Let <m>p(x) = 2^{x}\tan\mathopen{}\left(x\right)</m>. Which of the following best describes its fundamental 
 algebraic structure?</p>
 <p><dl form="buttons" name="AnSwEr0001" width="narrow">

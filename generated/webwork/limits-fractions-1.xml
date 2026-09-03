@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-fractions-1" assembly-id="limits-fractions-1">
-  <static seed="43" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg">
+  <static seed="50" source="Contrib/Hope/Calc1/APEX_01_03_Limits_analytical/Limit_06.pg">
     <statement><p>Evaluate the following limit by simplifying the expression (first answer box) and then evaluating the limit (second answer box).</p>
-<p><m>\displaystyle{ \lim_{x\to 8} \left( {\frac{1}{x-8}-\frac{16}{x^{2}-64}} \right) = \lim_{x\to 8} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
-<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 8}}</m> in every step except the last one, where the limit is finally evaluated.</p>
+<p><m>\displaystyle{ \lim_{x\to 6} \left( {\frac{1}{x-6}-\frac{12}{x^{2}-36}} \right) = \lim_{x\to 6} }</m> <fillin characters="17" name="AnSwEr0001"/> <m>\displaystyle{= }</m> <fillin characters="11" name="AnSwEr0002"/>.</p>
+<p>Note: In your written solution, you should write the limit statement <m>\displaystyle{\lim_{x \to 6}}</m> in every step except the last one, where the limit is finally evaluated.</p>
 </statement>
     <answer>
       <p>
-        <m>\frac{1}{x+8}</m>
+        <m>\frac{1}{x+6}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>0.0625</m>
+        <m>0.0833333</m>
       </p>
     </answer>
   </static>

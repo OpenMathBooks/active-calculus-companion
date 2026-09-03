@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec3__Q37_pg" assembly-id="Library__Michigan__Chap2Sec3__Q37_pg">
+  <static seed="83" source="Library/Michigan/Chap2Sec3/Q37.pg">
+    <statement><p>A child fills a pail by using a water hose.  After finishing, the child
+plays in a sandbox for a while before tipping the pail over to empty it.  
+If <m>V(t)</m> gives the volume of the water in the pail at time <m>t</m>,
+then the figure below shows <m>V'(t)</m> as a function of <m>t</m>.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__Michigan__Chap2Sec3__Q37_pg-image-1.png" width="66%"/>
+<p>At what time does the child:</p>
+<p><alert>A.</alert>
+Begin to fill the pail?
+<m>t =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+<p><alert>B.</alert>
+Finish filling the pail?
+<m>t =</m> <fillin characters="5" name="AnSwEr0002"/></p>
+<p><alert>C.</alert>
+Tip the pail over?
+<m>t =</m> <fillin characters="5" name="AnSwEr0003"/></p>
+<p><em>(What would the graph of <m>V'(t)</m> look like if the child filled the pail by using a play shovel to repeatedly scoop water from a larger bucket and dump it in the pail instead of using a hose?)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>9</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>14</m>
+      </p>
+    </answer>
+    <solution><m>V'(t)</m> becomes positive,
+which is when the volume of water in the pail starts increasing.  This is
+at <m>t = 3</m>.  The child finishes filling the pail when the volume stops
+increasing, which is at <m>t = 9</m>.  The child tips the pail over when the 
+volume of water in the pail start decreasing, which is where  <m>V'(t)</m>
+first becomes negative, which is at <m>t=14</m>.
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap2Sec3/Q37.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap2Sec3/Q37.pg"/>
+</webwork-reps>

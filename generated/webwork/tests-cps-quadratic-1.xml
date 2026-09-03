@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-quadratic-1" assembly-id="tests-cps-quadratic-1">
-  <static seed="239" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_31.pg">
+  <static seed="304" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_31.pg">
     <statement><p>List the critical numbers of the following function separating the values by commas.</p>
-<p><m>f(x) = 5 x^2 + 1 x</m></p>
+<p><m>f(x) = 7 x^2 + 5 x</m></p>
 <p><fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-0.1</m>
+        <m>-0.357143</m>
       </p>
     </answer>
   </static>

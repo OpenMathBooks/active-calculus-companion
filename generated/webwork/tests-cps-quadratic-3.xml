@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-quadratic-3" assembly-id="tests-cps-quadratic-3">
-  <static seed="241" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg">
+  <static seed="306" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.3_The_Mean_Value_Theorem_and_Monotonicity/4.3.23.pg">
     <statement><p>Find the critical point and determine if the function is increasing or decreasing on the given intervals.</p>
-<p><m>y= - x^2 + 6 x  - 3</m></p>
+<p><m>y= - x^2 + 8 x +4</m></p>
 <p>Critical point: <m>c=</m> <fillin characters="4" name="AnSwEr0001"/></p>
 <p>The function is:</p>
 <p><var form="popup">
@@ -30,17 +30,17 @@
 </statement>
     <answer>
       <p>
-        <m>3</m>
+        <m>4</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
 
 
 
-Let <m>f(x)= - x^2 + 6 x  - 3</m>. Then <m>f'(x)= -2x + 6 = 0</m> yields the critical point <m>c=3</m>. 
+Let <m>f(x)= - x^2 + 8 x +4</m>. Then <m>f'(x)= -2x + 8 = 0</m> yields the critical point <m>c=4</m>. 
 
 
-As shown in the following table, the critical point <m>c=3</m> is a local maximum. 
+As shown in the following table, the critical point <m>c=4</m> is a local maximum. 
 
 
 
@@ -49,9 +49,9 @@ As shown in the following table, the critical point <m>c=3</m> is a local maximu
 <tabular bottom="medium" left="medium" right="medium" top="medium">
  <row>
 <cell>x</cell>
-<cell><m>( -\infty, 3)</m></cell>
-<cell>3</cell>
-<cell><m>(3, +\infty)</m></cell>
+<cell><m>( -\infty, 4)</m></cell>
+<cell>4</cell>
+<cell><m>(4, +\infty)</m></cell>
 </row>
  <row>
 <cell><m>f'</m></cell>

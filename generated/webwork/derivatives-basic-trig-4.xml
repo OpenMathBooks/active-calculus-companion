@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-basic-trig-4" assembly-id="derivatives-basic-trig-4">
-  <static seed="94" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
-    <statement><p>Differentiate <m>\displaystyle f(x) = 5 x^2 - 5 \cos x.</m></p>
+  <static seed="159" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
+    <statement><p>Differentiate <m>\displaystyle f(x) = 6 x^2 - 8 \cos x.</m></p>
 <p>Answer: <m>\displaystyle f'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2\cdot 5x+5\sin\mathopen{}\left(x\right)</m>
+        <m>2\cdot 6x+8\sin\mathopen{}\left(x\right)</m>
       </p>
     </answer>
   </static>

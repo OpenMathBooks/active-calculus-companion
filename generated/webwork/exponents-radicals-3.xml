@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-radicals-3" assembly-id="exponents-radicals-3">
-  <static seed="69" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
+  <static seed="134" source="Library/LoyolaChicago/Precalc/Chap3Tools/Connally3-3-Tools-46.pg">
     <statement><p>Simplify each expression as much as possible
 and leave it without radicals.</p>
-<p>(a) <m>\sqrt{ w^{6} x^{2} } =</m>
+<p>(a) <m>\sqrt{ w^{8} x^{6} } =</m>
 <fillin characters="10" name="AnSwEr0001"/></p>
 <p>(b) <m>\sqrt[3]{ 64 w^{6} } =</m>
 <fillin characters="10" name="AnSwEr0002"/></p>
-<p>(c) <m>\sqrt{25 x^{2} y^{6} } =</m>
+<p>(c) <m>\sqrt{25 x^{6} y^{4} } =</m>
 <fillin characters="10" name="AnSwEr0003"/></p>
-<p>(d) <m>\sqrt{ 18 w^{9} y^{2} } \sqrt{ 2 y^{6} w^{5} } =</m>
+<p>(d) <m>\sqrt{ 32 w^{7} y^{2} } \sqrt{ 2 y^{4} w^{9} } =</m>
 <fillin characters="10" name="AnSwEr0004"/></p>
 </statement>
     <answer>
       <p>
-        <m>w^{3}x^{1}</m>
+        <m>w^{4}x^{3}</m>
       </p>
     </answer>
     <answer>
@@ -24,20 +24,20 @@ and leave it without radicals.</p>
     </answer>
     <answer>
       <p>
-        <m>5x^{1}y^{3}</m>
+        <m>5x^{3}y^{2}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>6w^{7}y^{4}</m>
+        <m>8w^{8}y^{3}</m>
       </p>
     </answer>
     <solution><alert> SOLUTION </alert>
 
 
 
-(a) <m>\sqrt{ w^{6} x^{2} } = (w^{6} x^{2})^{1/2} =
-       w^{6/2} x^{2/2} = w^{3}x^{1}</m>.
+(a) <m>\sqrt{ w^{8} x^{6} } = (w^{8} x^{6})^{1/2} =
+       w^{8/2} x^{6/2} = w^{4}x^{3}</m>.
 
 
 
@@ -46,15 +46,15 @@ and leave it without radicals.</p>
 
 
 
-(c) <m>\sqrt{25 x^{2} y^{6} } = (25 x^{2} y^{6})^{1/2} =
-       5x^{1}y^{3}</m>.
+(c) <m>\sqrt{25 x^{6} y^{4} } = (25 x^{6} y^{4})^{1/2} =
+       5x^{3}y^{2}</m>.
 
 
 
-(d) <m>\sqrt{ 18 w^{9} y^{2} } \sqrt{ 2 y^{6} w^{5} } =
-       \sqrt{ (18 w^{9} y^{2})\cdot (2 y^{6} w^{5}) } =
-       ( 36 w^{14} y^{8} )^{1/2} =
-       6w^{7}y^{4}</m>.
+(d) <m>\sqrt{ 32 w^{7} y^{2} } \sqrt{ 2 y^{4} w^{9} } =
+       \sqrt{ (32 w^{7} y^{2})\cdot (2 y^{4} w^{9}) } =
+       ( 64 w^{16} y^{6} )^{1/2} =
+       8w^{8}y^{3}</m>.
 
 
 

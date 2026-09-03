@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-area1" assembly-id="riemannsums-area1">
-  <static seed="300" source="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg">
-    <statement><p>Estimate the area under the graph of <m>f(x)= x^2 + 2 x</m> from <m>x = 2</m> to <m>x = 10</m> using <m>4</m> approximating rectangles and left endpoints.</p>
+  <static seed="365" source="Library/Rochester/setIntegrals0Theory/ur_in_0_1_mo.pg">
+    <statement><p>Estimate the area under the graph of <m>f(x)= x^2 + 2 x</m> from <m>x = 3</m> to <m>x = 7</m> using <m>4</m> approximating rectangles and left endpoints.</p>
 <p>Approximation = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2\cdot \left(8+24+48+80\right)</m>
+        <m>1\cdot \left(15+24+35+48\right)</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-5" assembly-id="tests-intervals-5">
-  <static seed="251" source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg">
+  <static seed="316" source="Library/OSU/high_school_apcalc/dchmwk8/prob5.pg">
     <statement><p>Thus we conclude that <m>f(x)</m> has a local <fillin characters="20" name="AnSwEr0005"/> at <m>B</m> (type in
 MAX or MIN).</p>
 </statement>
@@ -11,7 +11,7 @@ MAX or MIN).</p>
     </answer>
     <answer>
       <p>
-        <m>1.18136041286565</m>
+        <m>1.15356499489511</m>
       </p>
     </answer>
     <answer>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-eval-2" assembly-id="derivatives-quot-basic-eval-2">
-  <static seed="104" source="Library/ASU-topics/setProductQuotientRule/3-5-51.pg">
+  <static seed="169" source="Library/ASU-topics/setProductQuotientRule/3-5-51.pg">
     <statement><p>Let
-<me>f(x) =  \frac{3 \sqrt{x} }{5 x^2 + 4 x - 9}.</me>
-Evaluate <m>f'(x)</m> at <m>x = 4</m>.</p>
-<p><m>f'(4)</m> = <fillin characters="50" name="AnSwEr0001"/></p>
+<me>f(x) =  \frac{4 \sqrt{x} }{5 x^2 + 5 x - 12}.</me>
+Evaluate <m>f'(x)</m> at <m>x = 3</m>.</p>
+<p><m>f'(3)</m> = <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{87\cdot 0.75-6\cdot 44}{87^{2}}</m>
+        <m>\frac{48\cdot 1.1547-6.9282\cdot 35}{48^{2}}</m>
       </p>
     </answer>
   </static>

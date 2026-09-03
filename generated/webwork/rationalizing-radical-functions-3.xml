@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rationalizing-radical-functions-3" assembly-id="rationalizing-radical-functions-3">
-  <static seed="30" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg">
+  <static seed="37" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg">
     <statement><p>Rationalize the denominator.</p>
-<p><m>\displaystyle{ {\frac{x-3}{\sqrt{x}+\sqrt{3}}} }</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p><m>\displaystyle{ {\frac{x-2}{\sqrt{x}+\sqrt{2}}} }</m> = <fillin characters="10" name="AnSwEr0001"/></p>
 <p><ul label="disc">
 <li>
 <p>Use <lq/>sqrt<rq/> to input a square-root into WeBWorK. For example <lq/>sqrt(5)<rq/> represents <m>\sqrt{5}</m></p>
@@ -25,18 +25,18 @@
 </hint>
     <answer>
       <p>
-        <m>\sqrt{x}-\sqrt{3}</m>
+        <m>\sqrt{x}-\sqrt{2}</m>
       </p>
     </answer>
-    <solution><p><alert>Use the conjugate to rationalize the denominator:</alert><m>{\frac{x-3}{\sqrt{x}+\sqrt{3}}} \rightarrow \left({\frac{x-3}{\sqrt{x}+\sqrt{3}}}\right)\left(\frac{{\sqrt{x}-\sqrt{3}}}{{\sqrt{x}-\sqrt{3}}}\right)</m></p>
-<p><m>\left({\frac{x-3}{\sqrt{x}+\sqrt{3}}}\right)\left(\frac{{\sqrt{x}-\sqrt{3}}}{{\sqrt{x}-\sqrt{3}}}\right) \rightarrow \frac{({x-3})({\sqrt{x}-\sqrt{3}})}{({\sqrt{x}+\sqrt{3}})({\sqrt{x}-\sqrt{3}})}</m></p>
-<p><m>\frac{({x-3})({\sqrt{x}-\sqrt{3}})}{({\sqrt{x}+\sqrt{3}})({\sqrt{x}-\sqrt{3}})} \rightarrow \frac{({x-3})({\sqrt{x}-\sqrt{3}})}{x - 3}</m></p>
-<p><em>If you didn<rsq/>t catch what happened on that last step, remember:</em><m>({\sqrt{x}+\sqrt{3}})({\sqrt{x}-\sqrt{3}}) \rightarrow ({\sqrt{x}})^2 - {\sqrt{x}}\sqrt{3} + {\sqrt{x}}\sqrt{3} - (\sqrt{3})^2</m></p>
-<p><em>which simplifies to:</em> <m>{x-3}</m>.</p>
-<p><alert>Notice that our fraction has a common factor of <m>{x-3}</m>:</alert><m>\frac{({x-3})({\sqrt{x}-\sqrt{3}})}{{x-3}} \rightarrow \frac{{\sqrt{x}-\sqrt{3}}}{1}</m></p>
-<p><em>Note that <m>({x-3})</m> is the common factor - the <m>x</m> and the <m>3</m> are <alert>not</alert> cancelling separately!</em></p>
+    <solution><p><alert>Use the conjugate to rationalize the denominator:</alert><m>{\frac{x-2}{\sqrt{x}+\sqrt{2}}} \rightarrow \left({\frac{x-2}{\sqrt{x}+\sqrt{2}}}\right)\left(\frac{{\sqrt{x}-\sqrt{2}}}{{\sqrt{x}-\sqrt{2}}}\right)</m></p>
+<p><m>\left({\frac{x-2}{\sqrt{x}+\sqrt{2}}}\right)\left(\frac{{\sqrt{x}-\sqrt{2}}}{{\sqrt{x}-\sqrt{2}}}\right) \rightarrow \frac{({x-2})({\sqrt{x}-\sqrt{2}})}{({\sqrt{x}+\sqrt{2}})({\sqrt{x}-\sqrt{2}})}</m></p>
+<p><m>\frac{({x-2})({\sqrt{x}-\sqrt{2}})}{({\sqrt{x}+\sqrt{2}})({\sqrt{x}-\sqrt{2}})} \rightarrow \frac{({x-2})({\sqrt{x}-\sqrt{2}})}{x - 2}</m></p>
+<p><em>If you didn<rsq/>t catch what happened on that last step, remember:</em><m>({\sqrt{x}+\sqrt{2}})({\sqrt{x}-\sqrt{2}}) \rightarrow ({\sqrt{x}})^2 - {\sqrt{x}}\sqrt{2} + {\sqrt{x}}\sqrt{2} - (\sqrt{2})^2</m></p>
+<p><em>which simplifies to:</em> <m>{x-2}</m>.</p>
+<p><alert>Notice that our fraction has a common factor of <m>{x-2}</m>:</alert><m>\frac{({x-2})({\sqrt{x}-\sqrt{2}})}{{x-2}} \rightarrow \frac{{\sqrt{x}-\sqrt{2}}}{1}</m></p>
+<p><em>Note that <m>({x-2})</m> is the common factor - the <m>x</m> and the <m>2</m> are <alert>not</alert> cancelling separately!</em></p>
 <p>All our radicals are now simplified, our fraction is reduced, and our denominator contains <em>no</em> radicals.</p>
-<p><alert>Answer:</alert> <m>\frac{{\sqrt{x}-\sqrt{3}}}{1} \rightarrow {\sqrt{x}-\sqrt{3}}</m></p>
+<p><alert>Answer:</alert> <m>\frac{{\sqrt{x}-\sqrt{2}}}{1} \rightarrow {\sqrt{x}-\sqrt{2}}</m></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/RationalizeDenominators/conjugate4-algebra.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

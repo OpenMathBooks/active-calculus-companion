@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-trig-5" assembly-id="ftc-definite-integral-trig-5">
-  <static seed="343" source="Library/UMN/calculusStewartCCC/s_5_3_14.pg">
-    <statement><p>Evaluate the integral <m>\displaystyle \int_{0}^{\pi/3} \! \!\!\!\sec \theta \tan \theta \, d\theta.</m></p>
+  <static seed="408" source="Library/UMN/calculusStewartCCC/s_5_3_14.pg">
+    <statement><p>Evaluate the integral <m>\displaystyle \int_{0}^{\pi/6} \! \!\!\!\sec \theta \tan \theta \, d\theta.</m></p>
 <p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\sec\mathopen{}\left(\frac{\pi }{3}\right)-1</m>
+        <m>\sec\mathopen{}\left(\frac{\pi }{6}\right)-1</m>
       </p>
     </answer>
   </static>

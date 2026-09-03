@@ -1,49 +1,49 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-chainrule-2" assembly-id="implicit-chainrule-2">
-  <static seed="198" source="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg">
+  <static seed="263" source="Contrib/METU-NCC/MAT101/Derivatives/Review2.pg">
     <statement><p>Compute implicit derivatives of the following expressions</p>
 <p>Write <m>y'</m> for <m>\frac{dy}{dx}</m>.</p>
-<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;ye^{x}\;\Biggr] =</m>
+<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;xe^{y}\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
-<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;x\ln\mathopen{}\left(y\right)\;\Biggr] =</m>
+<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;y\ln\mathopen{}\left(x\right)\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0002"/></p>
-<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{x+y}\;\Biggr] =</m>
+<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{2x+y}\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0003"/></p>
-<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{xy}\;\Biggr] =</m>
+<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;e^{2xy}\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0004"/></p>
-<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(x+y\right)\;\Biggr] =</m>
+<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(2xy\right)\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0005"/></p>
-<p><alert> F.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(xy\right)\;\Biggr] =</m>
+<p><alert> F.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\;\ln\mathopen{}\left(2x+y\right)\;\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0006"/></p>
 </statement>
     <answer>
       <p>
-        <m>y'e^{x}+ye^{x}</m>
+        <m>e^{y}+y'xe^{y}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\ln\mathopen{}\left(y\right)+x\frac{y'}{y}</m>
+        <m>y'\ln\mathopen{}\left(x\right)+y\frac{1}{x}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(1+y'\right)e^{x+y}</m>
+        <m>\left(2+y'\right)e^{2x+y}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(y+xy'\right)e^{xy}</m>
+        <m>\left(2y+2xy'\right)e^{2xy}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{1+y'}{x+y}</m>
+        <m>\frac{2y+2xy'}{2xy}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{y+xy'}{xy}</m>
+        <m>\frac{2+y'}{2x+y}</m>
       </p>
     </answer>
   </static>

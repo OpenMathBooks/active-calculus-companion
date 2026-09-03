@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-direct" assembly-id="rel-rates-direct">
-  <static seed="211" source="Library/Michigan/Chap4Sec6/Q12.pg">
-    <statement><p>If <m>x^2 + y^2 = 36</m> and <m>dx/dt=7</m>,
+  <static seed="276" source="Library/Michigan/Chap4Sec6/Q12.pg">
+    <statement><p>If <m>x^2 + y^2 = 49</m> and <m>dx/dt=7</m>,
 find <m>dy/dt</m> when <m>y</m> is positive and</p>
 <p><alert>(a)</alert>
 <m>x=0</m>:</p>
 <p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0001"/></p>
 <p><alert>(b)</alert>
-<m>x=2</m>:</p>
+<m>x=1</m>:</p>
 <p><m>dy/dt=</m> <fillin characters="35" name="AnSwEr0002"/></p>
 <p><alert>(c)</alert>
 <m>x=4</m>:</p>
@@ -20,12 +20,12 @@ find <m>dy/dt</m> when <m>y</m> is positive and</p>
     </answer>
     <answer>
       <p>
-        <m>-2.47487373415292</m>
+        <m>-1.01036297108185</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-6.26099033699941</m>
+        <m>-4.87417436675954</m>
       </p>
     </answer>
     <solution><me>2x \frac{dx}{dt} + 2y\frac{dy}{dt} = 0</me>
@@ -35,22 +35,22 @@ and hence
 
 
 <alert>(a)</alert>
-When <m>x=0</m>, <m>y=\sqrt{36-0^2}=6</m>, so we have
-<me>\frac{dy}{dt} = -\frac{0\cdot7}{6} = 0.</me>
+When <m>x=0</m>, <m>y=\sqrt{49-0^2}=7</m>, so we have
+<me>\frac{dy}{dt} = -\frac{0\cdot7}{7} = 0.</me>
 
 
 
 
 <alert>(b)</alert>
-When <m>x=2</m>, <m>y=\sqrt{36-2^2}=\sqrt{32}</m>, so we have
-<me>\frac{dy}{dt} = -\frac{2\cdot7}{\sqrt{32}}.</me>
+When <m>x=1</m>, <m>y=\sqrt{49-1^2}=\sqrt{48}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{1\cdot7}{\sqrt{48}}.</me>
 
 
 
 
 <alert>(c)</alert>
-When <m>x=4</m>, <m>y=\sqrt{36-4^2}=\sqrt{20}</m>, so we have
-<me>\frac{dy}{dt} = -\frac{4\cdot7}{\sqrt{20}}.</me>
+When <m>x=4</m>, <m>y=\sqrt{49-4^2}=\sqrt{33}</m>, so we have
+<me>\frac{dy}{dt} = -\frac{4\cdot7}{\sqrt{33}}.</me>
 
 
 

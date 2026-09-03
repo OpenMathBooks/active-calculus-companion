@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-can-1" assembly-id="apps-app-opt-can-1">
-  <static seed="267" source="Library/ASU-topics/setRationalFunctions/prat13.pg">
-    <statement><p>An aluminum can is to be constructed to contain 2100 <m>cm^3</m> of liquid.</p>
+  <static seed="332" source="Library/ASU-topics/setRationalFunctions/prat13.pg">
+    <statement><p>An aluminum can is to be constructed to contain 2500 <m>cm^3</m> of liquid.</p>
 <p>Let <m>r</m> and <m>h</m> be the radius of the base and the height of the can
 respectively.</p>
 <p>a) Express <m>h</m> in terms of <m>r</m>. (If needed you can enter <m>\pi</m> as pi.)</p>
@@ -16,22 +16,22 @@ required material (i.e. the value of <m>r</m> that will minimize the surface are
 </statement>
     <answer>
       <p>
-        <m>\frac{2100}{3.14159r^{2}}</m>
+        <m>\frac{2500}{3.14159r^{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>6.28319r^{2}+\frac{4200}{r}</m>
+        <m>6.28319r^{2}+\frac{5000}{r}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>6.93979234383925</m>
+        <m>7.35506835839066</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>13.8795846876785</m>
+        <m>14.7101367167813</m>
       </p>
     </answer>
   </static>

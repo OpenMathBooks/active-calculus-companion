@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-graph-2" assembly-id="chainrule-graph-2">
-  <static seed="168" source="Library/Michigan/Chap3Sec6/Q49.pg">
+  <static seed="233" source="Library/Michigan/Chap3Sec6/Q49.pg">
     <statement><p>Consider the graphs below, which give <m>m(x)</m> in the left graph, in
 black, and <m>n(x)</m> in the right graph, in blue.  Both functions
 have a sharp corner at <m>x = 50</m>.</p>
@@ -19,7 +19,7 @@ have a sharp corner at <m>x = 50</m>.</p>
 </row>
 </tabular>
 <p>Let <m>h(x) = n(m(x))</m>.  Find a point <m>x</m> where 
-<m>h'(x) = 1.96</m>.</p>
+<m>h'(x) = 1.4</m>.</p>
 <p><m>x =</m> <fillin characters="15" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -28,24 +28,24 @@ have a sharp corner at <m>x = 50</m>.</p>
       </p>
     </answer>
     <solution><p>Since  the chain rule gives  
-<m>h'(x) = n'(m(x)) m'(x) = 1.96</m>
+<m>h'(x) = n'(m(x)) m'(x) = 1.4</m>
 we must find values <m>a</m> and <m>x</m> such that <m>a=m(x)</m> and
-<m>n'(a) m'(x)= 1.96</m>.</p>
+<m>n'(a) m'(x)= 1.4</m>.</p>
 <p>Calculating slopes from the graph of <m>n</m> gives  
-<m>n'(a) = 1.4</m> for <m>0 \lt  a \lt  50</m> and 
+<m>n'(a) = 1</m> for <m>0 \lt  a \lt  50</m> and 
 <m>n'(a) = 0.6</m> for <m>50 \lt  a \lt  100</m>.
 Similarly calculating slopes from the graph of <m>m</m> gives  
 <m>m'(x) = -1.4</m> for <m>0 \lt  x \lt  50</m> and 
 <m>m'(x) = 1.4</m> for <m>50 \lt  x \lt  100</m>.</p>
-<p>The only values of the derivative <m>n'</m> are 1.4 and 0.6 and the
+<p>The only values of the derivative <m>n'</m> are 1 and 0.6 and the
 only values of the derivative <m>m'</m> are -1.4 and 1.4.  In order to
-have <m>n'(a) m'(x)= 1.96</m> we must therefore have 
-<m>n'(a)=1.4</m> and <m>m'(x) = 1.4</m>.  Thus <m>0 \lt  a \lt  50</m> and 
+have <m>n'(a) m'(x)= 1.4</m> we must therefore have 
+<m>n'(a)=1</m> and <m>m'(x) = 1.4</m>.  Thus <m>0 \lt  a \lt  50</m> and 
 <m>50 \lt  x \lt  100</m>.</p>
 <p>Now <m>a=m(x)</m> and from the graph of <m>m</m> we see that <m>0 \lt  m(x) \lt  50</m>
 for <m>35.71 \lt  x \lt  64.29</m>.  The two conditions on <m>x</m> we have found
 are both satisfied when <m>50 \lt  x \lt  64.29</m>.  
-Thus  <m>h'(x)= 1.96</m> for all
+Thus  <m>h'(x)= 1.4</m> for all
 <m>x</m> in the interval <m>50 \lt  x \lt  64.29</m>.  
 The question asks for just one of these <m>x</m> values (any will work).</p>
 </solution>

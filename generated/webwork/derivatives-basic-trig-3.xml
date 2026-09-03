@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-basic-trig-3" assembly-id="derivatives-basic-trig-3">
-  <static seed="93" source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg">
-    <statement><p>Let <me>f(x) = 5 \sin x + 10 \cos x</me></p>
+  <static seed="158" source="Library/Rochester/setDerivatives4Trig/s2_4_21a.pg">
+    <statement><p>Let <me>f(x) = 7 \sin x + 3 \cos x</me></p>
 <p><m>f'(x) =</m>  <fillin characters="35" name="AnSwEr0001"/></p>
-<p><m>f'(  \frac { 5 \pi } {4} ) =</m> <fillin characters="35" name="AnSwEr0002"/></p>
+<p><m>f'(  \frac { 7 \pi } {4} ) =</m> <fillin characters="35" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>5\cos\mathopen{}\left(x\right)-10\sin\mathopen{}\left(x\right)</m>
+        <m>7\cos\mathopen{}\left(x\right)-3\sin\mathopen{}\left(x\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>5\cos\mathopen{}\left(3.92699\right)-10\sin\mathopen{}\left(3.92699\right)</m>
+        <m>7\cos\mathopen{}\left(5.49779\right)-3\sin\mathopen{}\left(5.49779\right)</m>
       </p>
     </answer>
   </static>

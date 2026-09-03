@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-4" assembly-id="derivatives-trig-adv-prod-4">
-  <static seed="141" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg">
+  <static seed="206" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg">
     <statement><p>Compute the derivative of the given function.</p>
-<p><me>f(x) = x^{-9} e^x \cot x</me></p>
+<p><me>f(x) = x^{-11} e^x \cot x</me></p>
 <p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>-9x^{-10}e^{x}\cot\mathopen{}\left(x\right)+x^{-9}e^{x}\cot\mathopen{}\left(x\right)+x^{-9}e^{x}\mathopen{}\left(-\csc^{2}\mathopen{}\left(x\right)\right)</m>
+        <m>-11x^{-12}e^{x}\cot\mathopen{}\left(x\right)+x^{-11}e^{x}\cot\mathopen{}\left(x\right)+x^{-11}e^{x}\mathopen{}\left(-\csc^{2}\mathopen{}\left(x\right)\right)</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -19,12 +19,12 @@ Use the Product Rule twice.
 
 
 <me>\begin{array}{rcl}
-    f'(x) \amp =\amp  x^{-9} \cdot \frac{d}{dx}[ e^x \cot x]
-    + \frac{d}{dx}[ x^{-9} ] \cdot (e^x \cot x) \\
-    \amp =\amp  x^{-9}\left( e^x \frac{d}{dx}[ \cot x ] + \frac{d}{dx}[e^x] \cot x \right)
-         - 9 x^{-10} (e^x \cot x) \\
-    \amp =\amp  x^{-9} (e^x( -\csc^2 x) + e^x \cot x)  - 9 x^{-10} e^x \cot x \\
-    \amp =\amp  x^{-9} e^x( -\csc^2 x) + x^{-9} e^x \cot x  - 9 x^{-10} e^x \cot x \\
+    f'(x) \amp =\amp  x^{-11} \cdot \frac{d}{dx}[ e^x \cot x]
+    + \frac{d}{dx}[ x^{-11} ] \cdot (e^x \cot x) \\
+    \amp =\amp  x^{-11}\left( e^x \frac{d}{dx}[ \cot x ] + \frac{d}{dx}[e^x] \cot x \right)
+         - 11 x^{-12} (e^x \cot x) \\
+    \amp =\amp  x^{-11} (e^x( -\csc^2 x) + e^x \cot x)  - 11 x^{-12} e^x \cot x \\
+    \amp =\amp  x^{-11} e^x( -\csc^2 x) + x^{-11} e^x \cot x  - 11 x^{-12} e^x \cot x \\
   \end{array}</me>
 
 

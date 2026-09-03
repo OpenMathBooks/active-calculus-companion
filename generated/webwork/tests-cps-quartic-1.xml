@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-quartic-1" assembly-id="tests-cps-quartic-1">
-  <static seed="245" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_35.pg">
+  <static seed="310" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_35.pg">
     <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
-<p><m>s(t) = 6 t^4 + 8 t^3 - 12 t^2</m></p>
+<p><m>s(t) = 12 t^4 + 16 t^3 - 24 t^2</m></p>
 <p><fillin characters="10" name="AnSwEr0001"/></p>
 <p><fillin characters="10" name="AnSwEr0002"/></p>
 <p><fillin characters="10" name="AnSwEr0003"/></p>

@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-4" assembly-id="derivatives-ln-4">
-  <static seed="181" source="Library/Michigan/Chap3Sec6/Q27.pg">
+  <static seed="246" source="Library/Michigan/Chap3Sec6/Q27.pg">
     <statement><p>Find the derivative of the function <m>f(z)</m>, below.</p>
-<p><m>\displaystyle f(z) = \frac{1}{\ln(3z)}</m></p>
+<p><m>\displaystyle f(z) = \frac{4}{\ln(6z)}</m></p>
 <p><m>f'(z) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-1\cdot 1\mathopen{}\left(\ln\mathopen{}\left(3z\right)\right)^{-2}}{z}</m>
+        <m>\frac{-1\cdot 4\mathopen{}\left(\ln\mathopen{}\left(6z\right)\right)^{-2}}{z}</m>
       </p>
     </answer>
-    <solution><m>\displaystyle \frac{1}{\ln(3z)} = 1 (\ln(3z))^{-1}</m>, so
+    <solution><m>\displaystyle \frac{4}{\ln(6z)} = 4 (\ln(6z))^{-1}</m>, so
 that, applying the chain rule,
 
-<m>\displaystyle f'(z) = -1 (\ln(3 z))^{-2}\cdot\left(\frac{3}{3 z}\right) = 
-    \frac{-1}{z (\ln(3z))^2}</m>
+<m>\displaystyle f'(z) = -4 (\ln(6 z))^{-2}\cdot\left(\frac{6}{6 z}\right) = 
+    \frac{-4}{z (\ln(6z))^2}</m>
 
 
 

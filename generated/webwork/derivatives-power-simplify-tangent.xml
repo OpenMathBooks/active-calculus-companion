@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-simplify-tangent" assembly-id="derivatives-power-simplify-tangent">
-  <static seed="90" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg">
-    <statement><p>Find the equation of the tangent line to the curve <m>y=x \sqrt{x}</m> at the point <m>(16,64)</m>.</p>
+  <static seed="155" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_42.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=x \sqrt{x}</m> at the point <m>(1,1)</m>.</p>
 <p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{3}{2}\cdot 16^{\frac{1}{2}}\mathopen{}\left(x-16\right)+64</m>
+        <m>\frac{3}{2}\cdot 1^{\frac{1}{2}}\mathopen{}\left(x-1\right)+1</m>
       </p>
     </answer>
   </static>

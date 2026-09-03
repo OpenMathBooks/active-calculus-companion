@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-3" assembly-id="derivrules-algebra-3">
-  <static seed="174" source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg">
+  <static seed="239" source="Contrib/Valdosta/APEX_Calculus/2.6/APEX_2.6_12.pg">
     <statement><p>Compute the derivative of the given function.
-<me>f(t) = \sqrt[4]{t}(\csc t  - 6 e^{0.9 t}).</me></p>
+<me>f(t) = \sqrt[5]{t}(\tan t  - 2 e^{0.9 t}).</me></p>
 <p><m>f'(t) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>t^{0.25}\mathopen{}\left(-\csc\mathopen{}\left(t\right)\cot\mathopen{}\left(t\right)+\left(-5.4\right)e^{0.9t}\right)+0.25t^{-0.75}\mathopen{}\left(\csc\mathopen{}\left(t\right)+\left(-6\right)e^{0.9t}\right)</m>
+        <m>t^{0.2}\mathopen{}\left(\sec^{2}\mathopen{}\left(t\right)+\left(-1.8\right)e^{0.9t}\right)+0.2t^{-0.8}\mathopen{}\left(\tan\mathopen{}\left(t\right)+\left(-2\right)e^{0.9t}\right)</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -16,10 +16,10 @@
 
 Use the Product Rule.
 <me>\begin{array}{rcl}
-  f'(t) \amp =\amp \displaystyle \sqrt[4]{t} \frac{d}{dx}[ \csc t  - 6 e^{0.9 t} ]
-  + \frac{d}{dx}[\sqrt[4]{t}] (\csc t  - 6 e^{0.9 t}) \\
+  f'(t) \amp =\amp \displaystyle \sqrt[5]{t} \frac{d}{dx}[ \tan t  - 2 e^{0.9 t} ]
+  + \frac{d}{dx}[\sqrt[5]{t}] (\tan t  - 2 e^{0.9 t}) \\
   \amp \amp \\
-  \amp =\amp \displaystyle \sqrt[4]{t} (-\csc t \cot t  - 5.4 e^{0.9 t}) + \frac{1}{4}t^{-3/4} (\csc t  - 6 e^{0.9 t}) 
+  \amp =\amp \displaystyle \sqrt[5]{t} (\sec^2 t  - 1.8 e^{0.9 t}) + \frac{1}{5}t^{-4/5} (\tan t  - 2 e^{0.9 t}) 
   \end{array}</me>
 
 

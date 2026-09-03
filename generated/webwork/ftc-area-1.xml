@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-area-1" assembly-id="ftc-area-1">
-  <static seed="335" source="Library/Michigan/Chap5Sec2/Q13.pg">
-    <statement><p>Find area of the region under the curve <m>y = 4 x^3 - 2</m> and above the
-<m>x</m>-axis, for <m>2 \le x \le 5</m>.</p>
+  <static seed="400" source="Library/Michigan/Chap5Sec2/Q13.pg">
+    <statement><p>Find area of the region under the curve <m>y =  x^3 - 4</m> and above the
+<m>x</m>-axis, for <m>3 \le x \le 6</m>.</p>
 <p>area = <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>603</m>
+        <m>291.75</m>
       </p>
     </answer>
     <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/ftc-area-1-image-1.png" width="33%"/>
@@ -20,8 +20,8 @@
 
 
 The area we want is that above the <m>x</m>-axis and under the function, for
-<m>2 \le x \le 5</m>.  Thus we need to find 
-<me>\int_{2}^{5} (4 x^3 - 2) dx \approx 603.</me>
+<m>3 \le x \le 6</m>.  Thus we need to find 
+<me>\int_{3}^{6} ( x^3 - 4) dx \approx 291.75.</me>
 We can find the area in a number of ways, the easiest of which is to use a
 graphing calculator.
 

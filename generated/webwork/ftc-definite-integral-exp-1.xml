@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-exp-1" assembly-id="ftc-definite-integral-exp-1">
-  <static seed="337" source="Library/Michigan/Chap6Sec2/Q63.pg">
+  <static seed="402" source="Library/Michigan/Chap6Sec2/Q63.pg">
     <statement><p>Evaluate exactly, using the Fundamental Theorem of Calculus:</p>
-<p><m>\int_0^{s} 4 e^x dx =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+<p><m>\int_0^{b} 6 e^x dx =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>4\mathopen{}\left(e^{s}-1\right)</m>
+        <m>6\mathopen{}\left(e^{b}-1\right)</m>
       </p>
     </answer>
-    <solution><m>e^x</m> is <m>e^x</m>, so an antiderivative of <m>4 e^x</m>
-is <m>4 e^x</m>, and we get 
-<me>\int_0^{s} 4 e^x dx = 4 e^x\big|_0^{s} = 4 e^{s} - 4 e^0 = 
-  4 e^{s} - 4.</me>
+    <solution><m>e^x</m> is <m>e^x</m>, so an antiderivative of <m>6 e^x</m>
+is <m>6 e^x</m>, and we get 
+<me>\int_0^{b} 6 e^x dx = 6 e^x\big|_0^{b} = 6 e^{b} - 6 e^0 = 
+  6 e^{b} - 6.</me>
 
 
 

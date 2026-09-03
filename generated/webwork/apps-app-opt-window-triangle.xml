@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-window-triangle" assembly-id="apps-app-opt-window-triangle">
-  <static seed="268" source="Library/Michigan/Chap4Sec5/Q25.pg">
+  <static seed="333" source="Library/Michigan/Chap4Sec5/Q25.pg">
     <statement><p>Consider a window the shape of which is a rectangle of height <m>h</m>
-surmounted by a triangle having a height <m>T</m> that is 1.2 times the
+surmounted by a triangle having a height <m>T</m> that is 1.5 times the
 width <m>w</m> of the rectangle (as shown in the figure below).</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/apps-app-opt-window-triangle-image-1.png" width="33%"/>
 <p>If the cross-sectional area is <m>A</m>, determine the dimensions of
@@ -12,43 +12,43 @@ the window which minimize the perimeter.</p>
 </statement>
     <answer>
       <p>
-        <m>\frac{A}{\sqrt{\frac{2A}{2.4}}}-\frac{1.2\sqrt{\frac{2A}{2.4}}}{2}</m>
+        <m>\frac{A}{\sqrt{\frac{2A}{2.66228}}}-\frac{1.5\sqrt{\frac{2A}{2.66228}}}{2}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\sqrt{\frac{2A}{2.4}}</m>
+        <m>\sqrt{\frac{2A}{2.66228}}</m>
       </p>
     </answer>
     <solution><m>h w</m>, and the
-area of the triangle is <m>\frac12 w T = 0.6 w^2</m>.  Thus the
+area of the triangle is <m>\frac12 w T = 0.75 w^2</m>.  Thus the
 cross-sectional area, <m>A</m> is 
-<me>A = h w + 0.6 w^2.</me>
+<me>A = h w + 0.75 w^2.</me>
 
 
 
 The perimeter of the window is <m>P = w + 2 h + 2 d</m>, where <m>d</m> is
 the length of the angled top edges of the triangle.  We can find <m>d</m> by
 looking at half of the triangle and using the Pythagorean theorem: 
-<m>d = \sqrt{ (\frac12 w)^2 + T^2 } = \sqrt{ \frac14 w^2 + 1.2^2 w^2 }
-     = \sqrt{ \frac14 + 1.2^2 } w \approx 1.3 w</m>.  Thus
-<me>P = w + 2h + 2(1.3) w = 3.6 w + 2h.</me>
+<m>d = \sqrt{ (\frac12 w)^2 + T^2 } = \sqrt{ \frac14 w^2 + 1.5^2 w^2 }
+     = \sqrt{ \frac14 + 1.5^2 } w \approx 1.581 w</m>.  Thus
+<me>P = w + 2h + 2(1.581) w = 4.162 w + 2h.</me>
 
 
 
-From <m>A = h w + 0.6 w^2</m> we get
-<m>h = \frac{A}{w} - 0.6 w</m>.
+From <m>A = h w + 0.75 w^2</m> we get
+<m>h = \frac{A}{w} - 0.75 w</m>.
 Thus,
-<me>P = \frac{2A}{w} - 1.2 w + 3.6 w = \frac{2A}{w} + 2.4 w.</me>
+<me>P = \frac{2A}{w} - 1.5 w + 4.162 w = \frac{2A}{w} + 2.662 w.</me>
 We now have the perimeter in terms of <m>w</m> and the constant <m>A</m>.
 Differentiating, we obtain
-<me>\frac{dP}{dw} = -\frac{2A}{w^2} + 2.4.</me>
+<me>\frac{dP}{dw} = -\frac{2A}{w^2} + 2.662.</me>
 To find the critical points we set <m>P'=0</m> and solve for <m>w</m>,
 finding
-<m>w = \sqrt{2A/2.4} \approx 0.913 \sqrt{A}</m>.
+<m>w = \sqrt{2A/2.662} \approx 0.867 \sqrt{A}</m>.
 Substituting this back into our expression for <m>h</m>, we have
-<m>h = \frac{A}{0.913 \sqrt{A}} - \frac12 (1.2) 0.913 \sqrt{A}
-     \approx 0.548 \sqrt{A}.</m>
+<m>h = \frac{A}{0.867 \sqrt{A}} - \frac12 (1.5) 0.867 \sqrt{A}
+     \approx 0.504 \sqrt{A}.</m>
 
 
 

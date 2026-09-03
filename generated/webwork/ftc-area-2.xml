@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-area-2" assembly-id="ftc-area-2">
-  <static seed="336" source="Library/Michigan/Chap5Sec2/Q17.pg">
-    <statement><p>Find area of the region under the curve <m>y = 3 - 2 x^2</m> and above the
+  <static seed="401" source="Library/Michigan/Chap5Sec2/Q17.pg">
+    <statement><p>Find area of the region under the curve <m>y = 5 - 4 x^2</m> and above the
 <m>x</m>-axis.</p>
 <p>area = <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>4.89897948556636</m>
+        <m>7.4535599249993</m>
       </p>
     </answer>
     <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/ftc-area-2-image-1.png" width="33%"/>
@@ -20,9 +20,9 @@
 
 
 The area we want is that above the <m>x</m>-axis and under the function.  The
-<m>x</m>-intercepts are where <m>y = 3 - 2 x^2 = 0</m>, which is at 
-<m>x = \pm\sqrt{\frac{3}{2}}</m>, so we need to find 
-<me>\int_{-\sqrt{\frac{3}{2}}}^{\sqrt{\frac{3}{2}}} (3 - 2 x^2) dx \approx 4.898.</me>
+<m>x</m>-intercepts are where <m>y = 5 - 4 x^2 = 0</m>, which is at 
+<m>x = \pm\sqrt{\frac{5}{4}}</m>, so we need to find 
+<me>\int_{-\sqrt{\frac{5}{4}}}^{\sqrt{\frac{5}{4}}} (5 - 4 x^2) dx \approx 7.453.</me>
 We can find the area in a number of ways, the easiest of which is to use a
 graphing calculator.
 

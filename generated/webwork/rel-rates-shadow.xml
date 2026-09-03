@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-shadow" assembly-id="rel-rates-shadow">
-  <static seed="223" source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg">
-    <statement><p>A street light is at the top of a 26 ft pole.  A 5 ft tall girl
+  <static seed="288" source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg">
+    <statement><p>A street light is at the top of a 29 ft pole.  A 6 ft tall girl
 walks along a straight path away from the pole with a speed of 7 ft/sec.</p>
 <p>At what rate is the tip of her shadow moving away from the light (ie. away
 from the <alert> top </alert> of the pole) when the girl is 31 ft away from the pole?</p>
@@ -11,12 +11,12 @@ from the <alert> top </alert> of the pole) when the girl is 31 ft away from the 
 </statement>
     <answer>
       <p>
-        <m>\frac{\left(31+7.38095\right)\mathopen{}\left(7+1.66667\right)}{46.3584}</m>
+        <m>\frac{\left(31+8.08696\right)\mathopen{}\left(7+1.82609\right)}{48.6702}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{7}{\frac{26}{5}-1}</m>
+        <m>\frac{7}{\frac{29}{6}-1}</m>
       </p>
     </answer>
   </static>

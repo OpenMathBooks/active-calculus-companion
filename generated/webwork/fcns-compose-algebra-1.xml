@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-algebra-1" assembly-id="fcns-compose-algebra-1">
-  <static seed="147" source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_11.pg">
-    <statement><p>Let <m>f(x) = {-7x^{2}-9}</m> and <m>g(x) = {2x-1}</m>.</p>
+  <static seed="212" source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_11.pg">
+    <statement><p>Let <m>f(x) = {-6x^{2}-2}</m> and <m>g(x) = {3x-1}</m>.</p>
 <p><ul label="square">
 <li>
 <p><m>(f\circ g)(x) =</m> <fillin characters="15" name="AnSwEr0001"/></p>
@@ -10,7 +10,7 @@
 <p><m>(g\circ f)(x) =</m> <fillin characters="15" name="AnSwEr0002"/></p>
 </li>
 <li>
-<p><m>(f\circ g)(4) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
+<p><m>(f\circ g)(-3) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
 </li>
 </ul></p>
 <p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/qxBmISCJSME" width="420"/></p>
@@ -18,17 +18,17 @@
 </statement>
     <answer>
       <p>
-        <m>-7\mathopen{}\left(2x-1\right)^{2}-9</m>
+        <m>-6\mathopen{}\left(3x-1\right)^{2}-2</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2\mathopen{}\left(-7x^{2}-9\right)-1</m>
+        <m>3\mathopen{}\left(-6x^{2}-2\right)-1</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-352</m>
+        <m>-602</m>
       </p>
     </answer>
   </static>

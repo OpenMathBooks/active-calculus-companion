@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-clay-cylinder" assembly-id="rel-rates-clay-cylinder">
-  <static seed="218" source="Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg">
+  <static seed="283" source="Library/FortLewis/Calc1/04-06-Related-rates/04-06-Related-rates-03.pg">
     <statement><p>A potter forms a piece of clay into a right circular cylinder. 
 As she rolls it, the height <m>h</m> of the cylinder 
 increases and the radius <m>r</m> decreases.  Assume that 
 no clay is lost in the process.  Suppose the height of 
-the cylinder is increasing by <m>0.2</m> centimeters 
+the cylinder is increasing by <m>0.4</m> centimeters 
 per second.  What is the rate at which the radius is 
-changing when the radius is <m>4</m> centimeters and the 
+changing when the radius is <m>6</m> centimeters and the 
 height is <m>10</m> centimeters?</p>
 <p><fillin characters="30" name="AnSwEr0001"/>
 (Include  with your
@@ -15,7 +15,7 @@ answer.)</p>
 </statement>
     <answer>
       <p>
-        <m>-0.04\ {\textstyle\frac{\rm\mathstrut cm}{\rm\mathstrut s}}</m>
+        <m>-0.12\ {\textstyle\frac{\rm\mathstrut cm}{\rm\mathstrut s}}</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-from-graph-1" assembly-id="linear-eqn-from-graph-1">
-  <static seed="54" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg">
+  <static seed="113" source="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg">
     <statement><p>Find an equation for the line graphed below:</p>
 <!-- PTX:WARNING: PGML wanted to center align here. -->
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/linear-eqn-from-graph-1-image-1.png" width="66%"/>
@@ -17,15 +17,15 @@
 </hint>
     <answer>
       <p>
-        <m>y = \frac{4}{3}\mathopen{}\left(x+1\right)-2</m>
+        <m>y = \frac{6}{7}\mathopen{}\left(x-5\right)-1</m>
       </p>
     </answer>
-    <solution><p>The graphed line passes through the points: <m>A = (-4,-6)</m>, <m>B = (-1,-2)</m>, <m>C = (2,2)</m></p>
+    <solution><p>The graphed line passes through the points: <m>A = (-2,-7)</m>, <m>B = (5,-1)</m>, <m>C = (12,5)</m></p>
 <p><alert>Select any pair of points on the line to compute the slope:</alert></p>
-<p><m>m = \frac{\Delta y}{\Delta x} = \frac{-2 + 6}{-1 + 4} = {{\frac{4}{3}}}</m></p>
+<p><m>m = \frac{\Delta y}{\Delta x} = \frac{-1 + 7}{5 + 2} = {{\frac{6}{7}}}</m></p>
 <p><alert>Use the point-slope form of a line:</alert></p>
 <p><m>y = m (x - x_A) + y_A</m></p>
-<p><m>y = {{\frac{4}{3}}\mathopen{}\left(x+1\right)-2}</m></p>
+<p><m>y = {{\frac{6}{7}}\mathopen{}\left(x-5\right)-1}</m></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Contrib/CUNY/CityTech/CollegeAlgebra_Trig/setLinesReview/from-graph-ratl-inter.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

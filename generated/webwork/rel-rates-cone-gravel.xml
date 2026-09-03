@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-cone-gravel" assembly-id="rel-rates-cone-gravel">
-  <static seed="222" source="Library/Union/setDervRelatedRates/s2_8_21.pg">
+  <static seed="287" source="Library/Union/setDervRelatedRates/s2_8_21.pg">
     <statement><p>Gravel is being dumped from a conveyor belt at a rate of
-30 <m>{\rm ft}^3{\rm /min}</m>. It forms a pile in the shape of a right circular
+40 <m>{\rm ft}^3{\rm /min}</m>. It forms a pile in the shape of a right circular
 cone whose base diameter and height are always the same.</p>
-<p>How fast is the height of the pile increasing when the pile is 24 ft high?</p>
+<p>How fast is the height of the pile increasing when the pile is 15 ft high?</p>
 <p>The height is increasing at <fillin characters="20" name="AnSwEr0001"/> ft/min.</p>
 </statement>
     <answer>
       <p>
-        <m>0.0663146</m>
+        <m>0.226354</m>
       </p>
     </answer>
   </static>

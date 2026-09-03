@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-5" assembly-id="apps-opt-polynomial-5">
-  <static seed="264" source="Library/Union/setDervOptimization/4-5-23.pg">
+  <static seed="329" source="Library/Union/setDervOptimization/4-5-23.pg">
     <statement><p>Find the absolute maximum and absolute minimum values of  the function
-<me>f(x) = x^{3}+6x^{2}-63x+5</me>
+<me>f(x) = x^{3}-6x^{2}-63x+12</me>
 over each of the indicated intervals.</p>
-<p>(a) Interval = <m>[-8, 0]</m>.</p>
+<p>(a) Interval = <m>[-4, 0]</m>.</p>
 <tabular>
 <row>
 <cell>1.</cell>
@@ -19,7 +19,7 @@ over each of the indicated intervals.</p>
 <cell><fillin characters="25" name="AnSwEr0002"/></cell>
 </row>
 </tabular>
-<p>(b) Interval = <m>[-5, 4]</m>.</p>
+<p>(b) Interval = <m>[-1, 8]</m>.</p>
 <tabular>
 <row>
 <cell>1.</cell>
@@ -34,7 +34,7 @@ over each of the indicated intervals.</p>
 <cell><fillin characters="25" name="AnSwEr0004"/></cell>
 </row>
 </tabular>
-<p>(c) Interval = <m>[-8, 4]</m>.</p>
+<p>(c) Interval = <m>[-4, 8]</m>.</p>
 <tabular>
 <row>
 <cell>1.</cell>
@@ -52,61 +52,61 @@ over each of the indicated intervals.</p>
 </statement>
     <answer>
       <p>
-        <m>397</m>
+        <m>120</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>5</m>
+        <m>12</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>345</m>
+        <m>68</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-103</m>
+        <m>-380</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>397</m>
+        <m>120</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-103</m>
+        <m>-380</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
-<p><me>f'(x) = 3x^{2}+12x-63 = 3(x-3)(x+7)</me>
-The critical numbers are <m>x = 3</m> and <m>x = -7</m>.</p>
-<p>(a) Only the critical number <m>x = -7</m> is in the interval <m>[-8, 0]</m>.
+<p><me>f'(x) = 3x^{2}-12x-63 = 3(x-7)(x+3)</me>
+The critical numbers are <m>x = 7</m> and <m>x = -3</m>.</p>
+<p>(a) Only the critical number <m>x = -3</m> is in the interval <m>[-4, 0]</m>.
 The value of the function at this critical number is
-<me>f(-7) = 397</me>
+<me>f(-3) = 120</me>
 The values at the endpoints are 
-<me>f(-8) = 381 \quad \text{and} \quad f(0)=5</me>
+<me>f(-4) = 104 \quad \text{and} \quad f(0)=12</me>
 Comparing these values we see that:</p>
-<p><B> 1. </B>   Absolute maximum = <m>397</m></p>
-<p><B> 2. </B> Absolute minimum = <m>5</m>.</p>
-<p>(b) Only the critical number <m>x = 3</m> is in the interval <m>[-5, 4]</m>.
+<p><B> 1. </B>   Absolute maximum = <m>120</m></p>
+<p><B> 2. </B> Absolute minimum = <m>12</m>.</p>
+<p>(b) Only the critical number <m>x = 7</m> is in the interval <m>[-1, 8]</m>.
 The value of the function at this critical number is
-<me>f(3) = -103</me>
+<me>f(7) = -380</me>
 The values at the endpoints are 
-<me>f(-5) = 345 \quad \text{and} \quad f(4)=-87</me>
+<me>f(-1) = 68 \quad \text{and} \quad f(8)=-364</me>
 Comparing these values we see that:</p>
-<p><B> 1. </B>   Absolute maximum = <m>345</m></p>
-<p><B> 2. </B> Absolute minimum = <m>-103</m>.</p>
-<p>(c) Both  critical numbers <m>x = -7</m> and <m>x = 3</m> are in the interval <m>[-8, 4]</m>.
+<p><B> 1. </B>   Absolute maximum = <m>68</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-380</m>.</p>
+<p>(c) Both  critical numbers <m>x = -3</m> and <m>x = 7</m> are in the interval <m>[-4, 8]</m>.
 The values of the function at these critical numbers are
-<me>f(-7) = 397 \quad \text{and} \quad f(3) = -103</me>
+<me>f(-3) = 120 \quad \text{and} \quad f(7) = -380</me>
 The values at the endpoints are 
-<me>f(-8) = 381 \quad \text{and} \quad f(4)=-87</me>
+<me>f(-4) = 104 \quad \text{and} \quad f(8)=-364</me>
 Comparing these values we see that:</p>
-<p><B> 1. </B>   Absolute maximum = <m>397</m></p>
-<p><B> 2. </B> Absolute minimum = <m>-103</m>.</p>
+<p><B> 1. </B>   Absolute maximum = <m>120</m></p>
+<p><B> 2. </B> Absolute minimum = <m>-380</m>.</p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Union/setDervOptimization/4-5-23.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcn-implicit-or-not-1" assembly-id="fcn-implicit-or-not-1">
-  <static seed="194">
+  <static seed="259">
     <statement><p>Determine if the following relations represent <m>y</m> as an explicit or implicit function of <m>x</m>.</p>
 <p><ul label="square">
 <li>
-<p><m>x={y^{4}}</m></p>
+<p><m>x={y^{6}}</m></p>
 </li>
 </ul>
 <ul form="popup" name="AnSwEr0001"><li>
@@ -22,7 +22,7 @@
 </li></ul></p>
 <p><ul label="square">
 <li>
-<p><m>{6x^{2}}+y=4</m></p>
+<p><m>{2x^{2}}+y=4</m></p>
 </li>
 </ul>
 <ul form="popup" name="AnSwEr0003"><li>
@@ -40,7 +40,7 @@
 </li></ul></p>
 <p><ul label="square">
 <li>
-<p><m>{4x}+{y^{2}}=-1</m></p>
+<p><m>{4x}+{y^{2}}=2</m></p>
 </li>
 </ul>
 <ul form="popup" name="AnSwEr0005"><li>
@@ -58,7 +58,7 @@
 </li></ul></p>
 <p><ul label="square">
 <li>
-<p><m>y={\sqrt{1-x^{6}}}</m></p>
+<p><m>y={\sqrt{1-x^{2}}}</m></p>
 </li>
 </ul>
 <ul form="popup" name="AnSwEr0007"><li>

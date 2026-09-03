@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-eval-1" assembly-id="derivatives-prod-basic-eval-1">
-  <static seed="119" source="Library/Union/setDervProductQuotientRule/s2_2_13.pg">
-    <statement><p>Let <m>f(t) = \displaystyle \left(t^{2}+3t+7\right)\mathopen{}\left(4t^{2}+3\right)</m>.  Find <m>f'(t)</m>.</p>
+  <static seed="184" source="Library/Union/setDervProductQuotientRule/s2_2_13.pg">
+    <statement><p>Let <m>f(t) = \displaystyle \left(t^{2}+4t+2\right)\mathopen{}\left(4t^{2}+2\right)</m>.  Find <m>f'(t)</m>.</p>
 <p><m>f'(t) =</m> <fillin characters="50" name="AnSwEr0001"/></p>
-<p>Find <m>f'( 2 )</m>.</p>
-<p><m>f'( 2 ) =</m><fillin characters="50" name="AnSwEr0002"/></p>
+<p>Find <m>f'( 3 )</m>.</p>
+<p><m>f'( 3 ) =</m><fillin characters="50" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\left(2t+3\right)\mathopen{}\left(4t^{2}+3\right)+\left(t^{2}+3t+7\right)\cdot 8t</m>
+        <m>\left(2t+4\right)\mathopen{}\left(4t^{2}+2\right)+\left(t^{2}+4t+2\right)\cdot 8t</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>405</m>
+        <m>932</m>
       </p>
     </answer>
   </static>

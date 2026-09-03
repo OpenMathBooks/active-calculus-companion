@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quad-basic-4" assembly-id="derivatives-quad-basic-4">
-  <static seed="109" source="Library/Rochester/setDerivatives2Formulas/s2_2_8f.pg">
+  <static seed="174" source="Library/Rochester/setDerivatives2Formulas/s2_2_8f.pg">
     <statement><p>If 
-<me>f(t) =  \frac { \sqrt {2 }} {t ^{ 5 } }</me>
+<me>f(t) =  \frac { \sqrt {3 }} {t ^{ 6 } }</me>
 find <m>f'( t )</m>.</p>
 <p><m>f'( t )</m> = <fillin characters="48" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\sqrt{2}\mathopen{}\left(-5\right)t^{-5-1}</m>
+        <m>\sqrt{3}\mathopen{}\left(-6\right)t^{-6-1}</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-corner-pipe" assembly-id="apps-app-opt-corner-pipe">
-  <static seed="275" source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg">
+  <static seed="340" source="Library/UCSB/Stewart5_4_7/Stewart5_4_7_54/Stewart5_4_7_54.pg">
     <statement><p>A steel pipe is being carried down a hallway 9 ft wide. At the
 end of the hall there is a right-angled turn into a narrower
 hallway 6 ft wide. What is the length of the longest pipe that

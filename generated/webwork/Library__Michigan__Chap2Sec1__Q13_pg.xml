@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec1__Q13_pg" assembly-id="Library__Michigan__Chap2Sec1__Q13_pg">
+  <static seed="20" source="csafranski/1.1HW_prob8.pg" failure="compile">
+    <statement>
+      <p>PTX:ERROR: WeBWorK problem csafranski/1.1HW_prob8.pg with seed 20 is either empty or failed to compile  
+  Use -a to halt with returned content
+</p>
+    </statement>
+  </static>
+  <rendering-data problemSource="RE9DVU1FTlQoKTsKbG9hZE1hY3JvcygnUEdzdGFuZGFyZC5wbCcpOwpURVhUKCdXZUJXb3JLIFByb2JsZW0gRG9lcyBOb3QgRXhpc3QgT3IgRGlkIE5vdCBDb21waWxlJyk7CkVORERPQ1VNRU5UKCk7" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="csafranski/1.1HW_prob8.pg"/>
+</webwork-reps>

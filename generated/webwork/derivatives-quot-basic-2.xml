@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-2" assembly-id="derivatives-quot-basic-2">
-  <static seed="102" source="Library/Michigan/Chap3Sec3/Q11.pg">
+  <static seed="167" source="Library/Michigan/Chap3Sec3/Q11.pg">
     <statement><p>Find the derivative of the function <m>f(x)</m>, below.  It may be to your
 advantage to simplify  first.</p>
-<p><me>\displaystyle f(x) = \frac{x^4}{6^x}</me></p>
+<p><me>\displaystyle f(x) = \frac{x^5}{e^x}</me></p>
 <p><m>f'(x) =</m> <fillin characters="55" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{4x^{4-1}\cdot 6^{x}-x^{4}\ln\mathopen{}\left(6\right)\cdot 6^{x}}{6^{2x}}</m>
+        <m>\frac{5x^{5-1}e^{x}-x^{5}\ln\mathopen{}\left(e\right)e^{x}}{e^{2x}}</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
-<p><me>f'(x) = \frac{(4 x^{-1})(6^x) - (x^4) \ln(6) (6^x)}{6^{2x}}.</me></p>
+<p><me>f'(x) = \frac{(5 x^{-1})(e^x) - (x^5)  (e^x)}{e^{2x}}.</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Michigan/Chap3Sec3/Q11.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_8HW_prob3_pg" assembly-id="csafranski__1_8HW_prob3_pg">
+  <static seed="125" source="csafranski/1.8HW_prob3.pg">
+    <statement><p>Use linear approximation, i.e. the tangent line,  to approximate
+<m>6.86^3</m> as follows:</p>
+<p>Let <m>f(x) =  x ^3</m>.
+The equation of the tangent line to <m>f(x)</m> at <m>x = 7</m>
+can be written in the form <m>y = mx+b</m>
+where:</p>
+<p><m>m</m> = <fillin characters="20" name="AnSwEr0001"/>
+and</p>
+<p><m>b</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>Using this, we find our approximation for <m>6.86 ^3</m> is <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>147</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-686</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>322.42</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="csafranski/1.8HW_prob3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="csafranski/1.8HW_prob3.pg"/>
+</webwork-reps>

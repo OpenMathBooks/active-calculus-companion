@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-exponential-power-2" assembly-id="derivatives-exponential-power-2">
-  <static seed="84" source="Library/Michigan/Chap3Sec2/Q05.pg">
+  <static seed="149" source="Library/Michigan/Chap3Sec2/Q05.pg">
     <statement><p>Find the derivative of 
-<m>y = 6 x^9 + 8^x + 23</m>.</p>
+<m>y = 8 x^4 + 9^x + 23</m>.</p>
 <p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>6\cdot 9x^{9-1}+\ln\mathopen{}\left(8\right)\cdot 8^{x}</m>
+        <m>8\cdot 4x^{4-1}+\ln\mathopen{}\left(9\right)\cdot 9^{x}</m>
       </p>
     </answer>
-    <solution><me>{dy\over dx} = 54 x^{8} + \ln(8)\cdot 8^x</me>
+    <solution><me>{dy\over dx} = 32 x^{3} + \ln(9)\cdot 9^x</me>
 
 
 </solution>

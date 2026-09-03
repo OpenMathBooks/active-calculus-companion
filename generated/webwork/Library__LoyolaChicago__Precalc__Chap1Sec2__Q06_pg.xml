@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap1Sec2__Q06_pg" assembly-id="Library__LoyolaChicago__Precalc__Chap1Sec2__Q06_pg">
+  <static seed="18" source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q06.pg">
+    <statement><p>Consider the graphs of <m>f(x)</m> and <m>g(x)</m> below:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap1Sec2__Q06_pg-image-1.png" width="60%"/>
+<p>For each interval given below, decide whether the average rate of change of <m>f(x)</m> is positive, negative, or zero over that particular interval.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>Interval</cell>
+<cell>Sign of Average Rate of Change of <m>f(x)</m></cell>
+</row>
+<row>
+<cell><m>5.2 \leq x \leq 8</m></cell>
+<cell><ul form="popup" name="AnSwEr0001"><li>
+?
+</li><li>
+positive
+</li><li>
+negative
+</li><li>
+zero
+</li></ul></cell>
+</row>
+<row>
+<cell><m>5.2 \leq x \leq 6.1</m></cell>
+<cell><ul form="popup" name="AnSwEr0002"><li>
+?
+</li><li>
+positive
+</li><li>
+negative
+</li><li>
+zero
+</li></ul></cell>
+</row>
+<row>
+<cell><m>0 \leq x \leq 4</m></cell>
+<cell><ul form="popup" name="AnSwEr0003"><li>
+?
+</li><li>
+positive
+</li><li>
+negative
+</li><li>
+zero
+</li></ul></cell>
+</row>
+<row>
+<cell><m>0 \leq x \leq 8</m></cell>
+<cell><ul form="popup" name="AnSwEr0004"><li>
+?
+</li><li>
+positive
+</li><li>
+negative
+</li><li>
+zero
+</li></ul></cell>
+</row>
+<row>
+<cell><m>2.2 \leq x \leq 6.1</m></cell>
+<cell><ul form="popup" name="AnSwEr0005"><li>
+?
+</li><li>
+positive
+</li><li>
+negative
+</li><li>
+zero
+</li></ul></cell>
+</row>
+</tabular>
+</statement>
+    <answer>
+      <p>
+        <m>\text{negative}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{zero}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{zero}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+The average rate of change of a function can be approximated graphically by looking at the steepness of the line segment connecting the two endpoints of the interval on the graph of <m>f(x)</m>.  If the line segment is going up, the average rate of change over the interval is positive.  If the line segment is going down, the average rate of change over the interval is negative.  If the line segment is horizontal, the average rate of change over the interval is zero.  Based on this interpretation, you should determine the following answers:
+
+
+
+
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+
+<row>
+<cell>Interval</cell>
+<cell>Sign of Average Rate of Change of <m>f(x)</m></cell>
+</row>
+
+<row>
+<cell><m>5.2 \leq x \leq 8</m></cell>
+<cell>negative</cell>
+</row>
+
+<row>
+<cell><m>5.2 \leq x \leq 6.1</m></cell>
+<cell>positive</cell>
+</row>
+
+<row>
+<cell><m>0 \leq x \leq 4</m></cell>
+<cell>zero</cell>
+</row>
+
+<row>
+<cell><m>0 \leq x \leq 8</m></cell>
+<cell>zero</cell>
+</row>
+
+<row>
+<cell><m>2.2 \leq x \leq 6.1</m></cell>
+<cell>positive</cell>
+</row>
+
+
+</tabular>
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap1Sec2/Q06.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q06.pg"/>
+</webwork-reps>

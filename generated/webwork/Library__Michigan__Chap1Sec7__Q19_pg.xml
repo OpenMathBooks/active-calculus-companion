@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap1Sec7__Q19_pg" assembly-id="Library__Michigan__Chap1Sec7__Q19_pg">
+  <static seed="106" source="Library/Michigan/Chap1Sec7/Q19.pg">
+    <statement><p>If possible, choose <m>k</m> so that the following function is continuous
+on any interval:
+<me>f(x)= \begin{cases} \frac{7x^{3}-35x^{2}}{x-5}\quad \amp   x \ne 5 \\
+                 k        \amp   x = 5. \end{cases}</me></p>
+<p><m>k =</m> <fillin characters="15" name="AnSwEr0001"/></p>
+<p><em>(If no k will make the function continuous, enter
+<alert>none</alert>)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>7\cdot 5^{2}</m>
+      </p>
+    </answer>
+    <solution><m>k</m>, the function is continuous on any interval that
+does not contain <m>x=5</m>.
+
+
+
+
+Since <m>7 x^{3} - 35 x^{2} = 7 x^{2}(x - 5)</m>, we can cancel
+<m>(x-5)</m> provided <m>x\ne 5</m>,
+giving
+
+<me>f(x) = \frac{7x^{3}-35x^{2}}{x-5} = 7 x^{2},\quad\quad x\ne 5.</me>
+Thus, if we pick <m>k = 7 (5)^{2} = 175</m>, the function is continuous.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/Chap1Sec7/Q19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/Chap1Sec7/Q19.pg"/>
+</webwork-reps>

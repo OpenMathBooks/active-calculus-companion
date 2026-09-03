@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivative-limit-definition-3" assembly-id="derivative-limit-definition-3">
+  <static seed="78" source="Library/ma122DB/set3/s2_9_19.pg">
+    <statement><p>If <m>f(x) =  5 x -12</m>, use the definition of derivative to
+find <m>f'( x )</m>.</p>
+<p>Answer: <fillin characters="25" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/ma122DB/set3/s2_9_19.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/ma122DB/set3/s2_9_19.pg"/>
+</webwork-reps>

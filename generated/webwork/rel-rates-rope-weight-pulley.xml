@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-rope-weight-pulley" assembly-id="rel-rates-rope-weight-pulley">
-  <static seed="220" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg">
+  <static seed="285" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_12.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/rel-rates-rope-weight-pulley-image-1.jpg" width="66%"/>
 <p>A rope, attached to a weight, goes up through a pulley
 at the ceiling and back down to a worker.  The worker
 holds the rope at the same height as the connection
 point between the rope and weight.  
-The distance from the connection point to the ceiling is 30 ft.
+The distance from the connection point to the ceiling is 35 ft.
 Suppose the worker
 stands directly next to the weight (i.e., a total rope
-length of 60 ft) and begins to walk away at a constant rate
-of 3 ft/s.  How fast is the weight rising
+length of 70 ft) and begins to walk away at a constant rate
+of 2 ft/s.  How fast is the weight rising
 when the worker has walked:</p>
 <tabular>
 <row>
@@ -27,12 +27,12 @@ when the worker has walked:</p>
 </statement>
     <answer>
       <p>
-        <m>0.948683</m>
+        <m>0.549442</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2.12132</m>
+        <m>1.30158</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -40,7 +40,7 @@ when the worker has walked:</p>
 
 
 The worker, weight and pulley form a right
-triangle with height 30, base length <m>x</m>,
+triangle with height 35, base length <m>x</m>,
 and hypotenuse <m>z</m>.
 The speed at which the weight rises is the
 same as the speed the rope is being pulled.
@@ -48,30 +48,30 @@ This means the rate we are looking for
 is <m>\dfrac{dz}{dt}</m>.
 
 By the Pythagorean Theorem,
-<me>x^2 + 30^2 = z^2</me>
+<me>x^2 + 35^2 = z^2</me>
 Take time-derivatives of both sides of the
 equation.  
 <me>2x\dfrac{dx}{dt} = 2z\dfrac{dz}{dt}.</me>
 
 
 
-Then plug in <m>\dfrac{dx}{dt} = 3</m> and solve for
+Then plug in <m>\dfrac{dx}{dt} = 2</m> and solve for
 the unknown rate.
-<me>\dfrac{dz}{dt} = \dfrac{3 x}{z}.</me>
+<me>\dfrac{dz}{dt} = \dfrac{2 x}{z}.</me>
 
 
 
 When <m>x = 10</m>,
-<me>10^2 + 30^2 = z^2 \;\Rightarrow\; z = \sqrt{1000}.</me>
-<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{30}{\sqrt{1000}}
-  \approx 0.948683298050514.</me>
+<me>10^2 + 35^2 = z^2 \;\Rightarrow\; z = \sqrt{1325}.</me>
+<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{20}{\sqrt{1325}}
+  \approx 0.549442255794756.</me>
 
 
 
 When <m>x = 30</m>,
-<me>30^2 + 30^2 = z^2 \;\Rightarrow\; z = \sqrt{1800}.</me>
-<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{90}{\sqrt{1800}}
-  \approx 2.12132034355964.</me>
+<me>30^2 + 35^2 = z^2 \;\Rightarrow\; z = \sqrt{2125}.</me>
+<me>\Rightarrow \dfrac{dz}{dt} = \dfrac{60}{\sqrt{2125}}
+  \approx 1.30158274691194.</me>
 
 
 </solution>

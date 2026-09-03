@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-linear-1" assembly-id="ftc-linear-1">
-  <static seed="328" source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg">
+  <static seed="393" source="Library/UCSB/Stewart5_5_3/Stewart5_5_3_21.pg">
     <statement><p>Use the Fundamental Theorem of Calculus to evaluate (if it exists)
-<me>\int_{2}^{\,8}{-4 x  - 6}\,dx.</me>
+<me>\int_{2}^{\,8}{-6 x  - 7}\,dx.</me>
 If the integral does not exist, type "DNE" as your answer.</p>
 <p><fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-156</m>
+        <m>-222</m>
       </p>
     </answer>
   </static>

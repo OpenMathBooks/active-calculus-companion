@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-area2" assembly-id="riemannsums-area2">
-  <static seed="301" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg">
-    <statement><p>Given the function <m>f(x)={\frac{1}{x^{2}+2}}</m>, compute the left-endpoint (Riemann) sum using <m>n=3</m> on the interval
-<m>{\left[-2, 2\right]}</m>.</p>
+  <static seed="366" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_17.pg">
+    <statement><p>Given the function <m>f(x)={\frac{1}{x^{2}+3}}</m>, compute the left-endpoint (Riemann) sum using <m>n=3</m> on the interval
+<m>{\left[-3, 3\right]}</m>.</p>
 <p><m>\displaystyle{ L_{3} =}</m><fillin characters="15" name="AnSwEr0001"/></p>
 </statement>
     <hint><p>Left-Endpoint Approximation (Left Riemann Sum):</p>
@@ -16,7 +16,7 @@ A\approx L_n \amp = f(x_0)\Delta x +f(x_1)\Delta x + ... +f(x_{n-1})\Delta x\\
 </hint>
     <answer>
       <p>
-        <m>1.31313</m>
+        <m>1.16667</m>
       </p>
     </answer>
   </static>

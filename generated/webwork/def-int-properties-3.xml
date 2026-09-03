@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-3" assembly-id="def-int-properties-3">
-  <static seed="317">
-    <statement><p><me>\int_{1}^{21} f(x) \,dx - \int_{1}^{11} f(x) \,dx = \int_{a}^{b} f(x) \,dx</me></p>
+  <static seed="382">
+    <statement><p><me>\int_{3}^{8} f(x) \,dx - \int_{3}^{7} f(x) \,dx = \int_{a}^{b} f(x) \,dx</me></p>
 <p>where <m>a=</m> <fillin characters="1" name="AnSwEr0001"/>
 and  <m>b=</m> <fillin characters="1" name="AnSwEr0002"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>11</m>
+        <m>7</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>21</m>
+        <m>8</m>
       </p>
     </answer>
     <solution><p>First recall that
@@ -20,8 +20,8 @@ and  <m>b=</m> <fillin characters="1" name="AnSwEr0002"/>.</p>
 and therefore we can rearrange it to look like this:
 <me>\int_{a}^{c} f(x) \,dx - \int_{a}^{b} f(x) \,dx = \int_{b}^{c} f(x) \,dx</me></p>
 <p>Applying that in this specific context, we find:
-<me>\int_{1}^{21} f(x) \,dx - \int_{1}^{11} f(x) \,dx = \int_{11}^{21} f(x) \,dx</me>
-Thus we find <m>a=11</m> and <m>b=21</m>.</p>
+<me>\int_{3}^{8} f(x) \,dx - \int_{3}^{7} f(x) \,dx = \int_{7}^{8} f(x) \,dx</me>
+Thus we find <m>a=7</m> and <m>b=8</m>.</p>
 </solution>
   </static>
   <rendering-data problemSource="The_Active_Calculus_Companion/4_3_2_12-Using_properties_of_the_definite_integral.pg" origin="generated" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-accel-vel" assembly-id="velocity-distance-accel-vel">
-  <static seed="291" source="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg">
+  <static seed="356" source="Library/Valdosta/APEX_Calculus/5.4/APEX_5.4_47.pg">
     <statement><p>The acceleration (in ft/s<SUP>2</SUP>) 
 of an object moving along a straight
 line is given by
-<me>a(t) = 7 {t}</me></p>
+<me>a(t) = 11 {t}</me></p>
 <p>Find the change of the objects's velocity over the
-time interval <m>[10, 20]</m>.</p>
+time interval <m>[4, 15]</m>.</p>
 <p><fillin characters="15" name="AnSwEr0001"/> <ul form="popup" name="AnSwEr0002"><li>
 <p>?</p>
 </li><li>
@@ -21,7 +21,7 @@ time interval <m>[10, 20]</m>.</p>
 </statement>
     <answer>
       <p>
-        <m>1050</m>
+        <m>1149.5</m>
       </p>
     </answer>
     <answer>
@@ -34,9 +34,9 @@ time interval <m>[10, 20]</m>.</p>
 The change in velocity is 
 found by a definite integral:
 <me>\begin{array}{rcl}
-    \displaystyle \int_{10}^{20} \left( 7 t \right) \, dt \amp =\amp  
-    \left( 3.5 t^{2}\right) \Big|_{10}^{20}    \\
-    \amp =\amp  1050
+    \displaystyle \int_{4}^{15} \left( 11 t \right) \, dt \amp =\amp  
+    \left( 5.5 t^{2}\right) \Big|_{4}^{15}    \\
+    \amp =\amp  1149.5
   \end{array}</me>
 
 

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-eval-1" assembly-id="derivatives-quot-basic-eval-1">
-  <static seed="103" source="Library/ASU-topics/setProductQuotientRule/5-2-22.pg">
-    <statement><p>Suppose that <me>f(x) = \frac{x+9}{ e^{x} }.</me>  Find <m>f'(2)</m>.</p>
+  <static seed="168" source="Library/ASU-topics/setProductQuotientRule/5-2-22.pg">
+    <statement><p>Suppose that <me>f(x) = \frac{x+13}{ e^{x} }.</me>  Find <m>f'(2)</m>.</p>
 <p><m>f'(2)</m> = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-1-9}{\exp\mathopen{}\left(2\right)}</m>
+        <m>\frac{-1-13}{\exp\mathopen{}\left(2\right)}</m>
       </p>
     </answer>
   </static>

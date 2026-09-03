@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-cubic-2" assembly-id="tests-cps-cubic-2">
-  <static seed="243" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_34.pg">
+  <static seed="308" source="Library/UCSB/Stewart5_4_1/Stewart5_4_1_34.pg">
     <statement><p>List the critical numbers of the following function in increasing order. Enter N in any blank that you don't need to use.</p>
-<p><m>f(x) = 10 x^3 + 10 x^2 + 10 x</m></p>
+<p><m>f(x) = 2 x^3 + 2 x^2 + 2 x</m></p>
 <p><fillin characters="10" name="AnSwEr0001"/></p>
 <p><fillin characters="10" name="AnSwEr0002"/></p>
 <p><fillin characters="10" name="AnSwEr0003"/></p>

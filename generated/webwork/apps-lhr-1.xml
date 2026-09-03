@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-1" assembly-id="apps-lhr-1">
-  <static seed="229" source="Library/AlfredUniv/anton8e/chapter2/2.6/prob5.pg">
+  <static seed="294" source="Library/AlfredUniv/anton8e/chapter2/2.6/prob5.pg">
     <statement><p>Find <m>\&gt; \displaystyle \lim_{x \to 0} \frac{x^{2}-3\sin\mathopen{}\left(x\right)}{x}</m>.</p>
 <p>Enter <alert> I </alert> for <m>\infty</m>, <alert> -I </alert> for <m>-\infty</m>,
 and <alert> DNE </alert> if the limit does not exist.</p>

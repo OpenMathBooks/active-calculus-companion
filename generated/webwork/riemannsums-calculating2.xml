@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-calculating2" assembly-id="riemannsums-calculating2">
-  <static seed="303">
+  <static seed="368">
     <statement><p>(A) Estimate the area under the graph of</p>
-<p><me>f(x) = \frac{5}{x}</me>
-from <m>x = 1</m> to <m>x = 7</m> using 6 approximating rectangles and right
+<p><me>f(x) = \frac{6}{x}</me>
+from <m>x = 1</m> to <m>x = 5</m> using 4 approximating rectangles and right
 endpoints.</p>
 <p>Estimate =  <fillin characters="20" name="AnSwEr0001"/></p>
 <p>(B) Repeat part (A) using left endpoints.</p>
@@ -11,12 +11,12 @@ endpoints.</p>
 </statement>
     <answer>
       <p>
-        <m>7.96428571428571</m>
+        <m>7.7</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>12.25</m>
+        <m>12.5</m>
       </p>
     </answer>
   </static>

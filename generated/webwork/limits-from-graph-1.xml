@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-graph-1" assembly-id="limits-from-graph-1">
-  <static seed="32" source="Library/UMN/calculusStewartCCC/s_2_2_5.pg">
+  <static seed="39" source="Library/UMN/calculusStewartCCC/s_2_2_5.pg">
     <statement><p>Use the given graph of the function <m>g</m> to find the following limits:</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/limits-from-graph-1-image-1.png" width="66%"/>
 <p><alert> 1. </alert> <m>\displaystyle \lim_{x \to 2^{-}}g(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
@@ -12,7 +12,7 @@
 </statement>
     <answer>
       <p>
-        <m>2+1</m>
+        <m>2+0</m>
       </p>
     </answer>
     <answer>
@@ -32,7 +32,7 @@
     </answer>
     <answer>
       <p>
-        <m>1+1</m>
+        <m>0+1</m>
       </p>
     </answer>
   </static>

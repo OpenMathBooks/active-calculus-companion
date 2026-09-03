@@ -1,41 +1,41 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-7" assembly-id="implicit-diff-7">
-  <static seed="205" source="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg">
+  <static seed="270" source="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg">
     <statement><p>Find the slope of the tangent line to the curve
-<m>\sqrt{x+3y}+\sqrt{5xy} = 9</m> at the point <m>(1, 5)</m>.</p>
+<m>\sqrt{x+5y}+\sqrt{3xy} = 7</m> at the point <m>(1, 3)</m>.</p>
 <p>The slope of the tangent line to the curve at
 the given point is <fillin characters="15" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>-3</m>
+        <m>-{\frac{13}{9}}</m>
       </p>
     </answer>
     <solution><p>Differentiating implicitly with respect
 to <m>x</m> gives
-<me>\frac{1}{2 \sqrt{x+3y}} + \frac{3}{2 \sqrt{x+3y}} \, \frac{dy}{dx}
-+ \frac{5}{2 \sqrt{5xy}} \left(
+<me>\frac{1}{2 \sqrt{x+5y}} + \frac{5}{2 \sqrt{x+5y}} \, \frac{dy}{dx}
++ \frac{3}{2 \sqrt{3xy}} \left(
 y + x \, \frac{dy}{dx} \right) = 0,</me>
-or (multiplying by <m>2 \sqrt{5xy} \sqrt{x+3y}</m>)
-<me>1 \sqrt{5xy} + 3 \sqrt{5xy} \; \frac{dy}{dx} +
-5 y \sqrt{x+3y} + 5 x \sqrt{x+3y} \; \frac{dy}{dx} = 0,</me>
+or (multiplying by <m>2 \sqrt{3xy} \sqrt{x+5y}</m>)
+<me>1 \sqrt{3xy} + 5 \sqrt{3xy} \; \frac{dy}{dx} +
+3 y \sqrt{x+5y} + 3 x \sqrt{x+5y} \; \frac{dy}{dx} = 0,</me>
 so
-<me>\left( 3 \sqrt{5xy} + 5 x \sqrt{x+3y} \right) \, \frac{dy}{dx}
-= - \left( 1 \sqrt{5xy} + 5 y \sqrt{x+3y} \right),</me>
+<me>\left( 5 \sqrt{3xy} + 3 x \sqrt{x+5y} \right) \, \frac{dy}{dx}
+= - \left( 1 \sqrt{3xy} + 3 y \sqrt{x+5y} \right),</me>
 and therefore
 <me>\frac{dy}{dx} = - \frac
-{1 \sqrt{5xy} + 5 y \sqrt{x+3y}}{3 \sqrt{5xy} + 5 x \sqrt{x+3y}}.</me>
-If <m>x = 1</m> and <m>y = 5</m>, then
-<m>\sqrt{x+3y} = 4</m>, <m>\sqrt{5xy} = 5</m>, and
+{1 \sqrt{3xy} + 3 y \sqrt{x+5y}}{5 \sqrt{3xy} + 3 x \sqrt{x+5y}}.</me>
+If <m>x = 1</m> and <m>y = 3</m>, then
+<m>\sqrt{x+5y} = 4</m>, <m>\sqrt{3xy} = 3</m>, and
 hence the slope of the tangent line to
-the curve at the point <m>(1, 5)</m>
+the curve at the point <m>(1, 3)</m>
 is
-<me>\frac{dy}{dx} \Bigg|_{(x, y) = (1, 5)}
-= - \frac {1 \left( 5 \right) +
-5 \left( 5 \right) \left( 4 \right)}
-{3 \left( 5 \right) +
-5 \left( 1 \right) \left( 4 \right)}
-= -3.</me></p>
+<me>\frac{dy}{dx} \Bigg|_{(x, y) = (1, 3)}
+= - \frac {1 \left( 3 \right) +
+3 \left( 3 \right) \left( 4 \right)}
+{5 \left( 3 \right) +
+3 \left( 1 \right) \left( 4 \right)}
+= -{\frac{13}{9}}.</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Rochester/setDerivatives2_5Implicit/c2s6p1.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

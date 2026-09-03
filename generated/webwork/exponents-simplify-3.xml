@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-3" assembly-id="exponents-simplify-3">
-  <static seed="66" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg">
+  <static seed="131" source="Library/FortLewis/Algebra/6-1-Exponent-rules/MCH1-6-1-36-Exponent-rules.pg">
     <statement><p>Rewrite the following using a single exponent.</p>
-<p><m>\displaystyle \frac{4^a 3^a}{12^b} = 12^x</m> for <m>x</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p><m>\displaystyle \frac{6^a 6^a}{36^b} = 36^x</m> for <m>x</m> = <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>

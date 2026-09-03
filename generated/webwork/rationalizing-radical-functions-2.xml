@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rationalizing-radical-functions-2" assembly-id="rationalizing-radical-functions-2">
-  <static seed="29" source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg">
+  <static seed="36" source="Library/Mizzou/Algebra/radicals_rationalizing/denominator_01.pg">
     <statement><p>Rationalize the denominator.</p>
 <p><CENTER/></p>
 <tabular valign="middle">
 <row>
-<cell><m>\displaystyle  \frac{-6}{4 + \sqrt{z }} =</m></cell>
+<cell><m>\displaystyle  \frac{-5}{9 + \sqrt{v }} =</m></cell>
 <cell><fillin characters="20" name="AnSwEr0001"/>
 <p><fillin characters="20" name="AnSwEr0002"/></p></cell>
 </row>
@@ -17,12 +17,12 @@ To enter the square root of a number use <B>sqrt()</B>. For example, to give <m>
 </statement>
     <answer>
       <p>
-        <m>-6\mathopen{}\left(4-\sqrt{z}\right)</m>
+        <m>-5\mathopen{}\left(9-\sqrt{v}\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>16-z</m>
+        <m>81-v</m>
       </p>
     </answer>
   </static>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-resistance" assembly-id="rel-rates-resistance">
-  <static seed="221" source="Library/Michigan/Chap4Sec6/Q11.pg">
+  <static seed="286" source="Library/Michigan/Chap4Sec6/Q11.pg">
     <statement><p>A voltage <m>V</m> across a resistance <m>R</m> generates a current 
 <m>I=V/R</m>. 
-If a constant voltage of 12 volts is put across a resistance that 
-is increasing at a rate of 0.3 ohms per second when the resistance
+If a constant voltage of 17 volts is put across a resistance that 
+is increasing at a rate of 0.6 ohms per second when the resistance
 is 8 ohms, 
 at what rate is the current changing?
 (Give .)</p>
@@ -12,15 +12,15 @@ at what rate is the current changing?
 </statement>
     <answer>
       <p>
-        <m>-0.05625\ {\textstyle\frac{\rm\mathstrut amp}{\rm\mathstrut s}}</m>
+        <m>-0.159375\ {\textstyle\frac{\rm\mathstrut amp}{\rm\mathstrut s}}</m>
       </p>
     </answer>
-    <solution><m>dR/dt=0.3</m> when <m>R=8</m> and <m>V=12</m> and we want to know 
+    <solution><m>dR/dt=0.6</m> when <m>R=8</m> and <m>V=17</m> and we want to know 
 <m>dI/dt</m>.  Differentiating <m>I=V/R</m> with <m>V</m> constant gives
 <me>\frac{dI}{dt}=V\left(-\frac{1}{R^2}\frac{dR}{dt}\right),</me>
 so substituting  gives
-<me>\frac{dI}{dt}=12\left(-\frac{1}{8^2}\cdot 0.3\right)
-\approx -0.0563 \hbox{ amp/s }.</me>
+<me>\frac{dI}{dt}=17\left(-\frac{1}{8^2}\cdot 0.6\right)
+\approx -0.1594 \hbox{ amp/s }.</me>
 (Note that we know the units are amp/s from the Leibnitz form of the
 derivative, <m>dI\over dt</m>.  It is, of course, equally correct to use
 the expression on the right-hand side to determine the units, 

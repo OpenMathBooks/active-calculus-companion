@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-applications-racoons" assembly-id="tests-applications-racoons">
-  <static seed="256" source="Library/ASU-topics/setPolynomialFunctions/di6.pg">
-    <statement><p>The rabbit population on a small island is observed to be given by the function</p>
-<p><me>P(t) = 120 t - 0.4 t^4 + 1000</me></p>
+  <static seed="321" source="Library/ASU-topics/setPolynomialFunctions/di6.pg">
+    <statement><p>The moose population on a small island is observed to be given by the function</p>
+<p><me>P(t) = 120 t - 0.4 t^4 + 1100</me></p>
 <p>where <m>t</m> is the time (in months) since observations of the island began.</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/tests-applications-racoons-image-1.png" width="33%"/>
 <p><alert> Note: </alert> you can get a larger view of the graph by clicking on it</p>
 <p>(a) The maximum population attained at</p>
 <p><m>t =</m> <fillin characters="20" name="AnSwEr0001"/> months.</p>
 <p>The maximum population is</p>
-<p><m>P(t) =</m> <fillin characters="20" name="AnSwEr0002"/> rabbits.</p>
-<p>(b) When does the rabbit population disappear from the island?</p>
+<p><m>P(t) =</m> <fillin characters="20" name="AnSwEr0002"/> moose.</p>
+<p>(b) When does the moose population disappear from the island?</p>
 <p><m>t =</m> <fillin characters="20" name="AnSwEr0003"/> months</p>
 </statement>
     <answer>
@@ -20,12 +20,12 @@
     </answer>
     <answer>
       <p>
-        <m>1379.54469938579</m>
+        <m>1479.54469938579</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>8.419856527</m>
+        <m>8.536795221</m>
       </p>
     </answer>
   </static>

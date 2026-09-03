@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-general-limit1" assembly-id="riemannsums-general-limit1">
-  <static seed="304" source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg">
+  <static seed="369" source="Library/UCSB/Stewart5_5_1/Stewart5_5_1_22.pg">
     <statement><p>Definition: The area <m>A</m> of the region
 <m>S</m> that lies under the graph of
 the continuous function <m>f</m> is the limit

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-eval-2" assembly-id="derivatives-prod-eval-2">
-  <static seed="124" source="Library/ASU-topics/setProductQuotientRule/5-2-12.pg">
-    <statement><p>Suppose that <m>f(x) = x^{15} e^{x}</m>.  Find <m>f'(1)</m>.</p>
+  <static seed="189" source="Library/ASU-topics/setProductQuotientRule/5-2-12.pg">
+    <statement><p>Suppose that <m>f(x) = x^{19} e^{x}</m>.  Find <m>f'(1)</m>.</p>
 <p><m>f'(1)</m> = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\exp\mathopen{}\left(1\right)\mathopen{}\left(15+1\right)</m>
+        <m>\exp\mathopen{}\left(1\right)\mathopen{}\left(19+1\right)</m>
       </p>
     </answer>
   </static>

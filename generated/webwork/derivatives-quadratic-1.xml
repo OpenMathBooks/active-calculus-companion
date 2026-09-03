@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quadratic-1" assembly-id="derivatives-quadratic-1">
-  <static seed="74" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg">
-    <statement><p>Suppose that <m>f(x) =  4x^{2}-4x+5</m>.
+  <static seed="139" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-33.pg">
+    <statement><p>Suppose that <m>f(x) =  6x^{2}-6x+6</m>.
 Evaluate each of the following:</p>
 <p><m>f'(7)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
-<p><m>f'(-2)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+<p><m>f'(-12)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>52</m>
+        <m>78</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-20</m>
+        <m>-150</m>
       </p>
     </answer>
   </static>

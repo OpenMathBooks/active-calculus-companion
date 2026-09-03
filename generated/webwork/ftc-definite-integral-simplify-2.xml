@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-simplify-2" assembly-id="ftc-definite-integral-simplify-2">
-  <static seed="339" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg">
+  <static seed="404" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_24.pg">
     <statement><p>Evaluate the integral
-<me>\int_{0}^{\,9} {\sqrt{6 t}}\,dt</me></p>
+<me>\int_{0}^{\,9} {\sqrt{8 t}}\,dt</me></p>
 <p>Integral = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>44.0908153700972</m>
+        <m>50.9116882454314</m>
       </p>
     </answer>
   </static>

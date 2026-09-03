@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-constant" assembly-id="derivatives-constant">
-  <static seed="73" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg">
-    <statement><p>Let <m>f(x) = 3</m>.
+  <static seed="138" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg">
+    <statement><p>Let <m>f(x) = 7</m>.
 Find <m>f'(x)</m>.</p>
 <p><m>f'(x)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-piecewise-1" assembly-id="limits-from-piecewise-1">
-  <static seed="36" source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg">
+  <static seed="43" source="Library/Valdosta/APEX_Calculus/1.1/APEX_1.1_12.pg">
     <statement><p>Approximate the given limit both numerically and graphically.</p>
 <p><m>f(x) = \left\lbrace\begin{array}{ll}
-   x + 7 \amp  \quad x \leq 4, \\
-   3x  - 3 \amp  \quad x &gt; 4
+   x + 3 \amp  \quad x \leq 2, \\
+   3x  - 3 \amp  \quad x &gt; 2
    \end{array}\right.</m></p>
-<p><m>\lim\limits_{x \to 4} f(x)  =</m>  <fillin characters="5" name="AnSwEr0001"/></p>
+<p><m>\lim\limits_{x \to 2} f(x)  =</m>  <fillin characters="5" name="AnSwEr0001"/></p>
 <p>(Enter DNE if the limit doesn't exist)</p>
 </statement>
     <answer>
@@ -31,31 +31,31 @@
 </row>
 
         <row>
-<cell> 4.002 </cell>
-<cell>9.006</cell>
-<cell> 3.998 </cell>
-<cell>10.998</cell>
+<cell> 2.002 </cell>
+<cell>3.006</cell>
+<cell> 1.998 </cell>
+<cell>4.998</cell>
 </row>
 
         <row>
-<cell> 4.001 </cell>
-<cell>9.003</cell>
-<cell> 3.999 </cell>
-<cell>10.999</cell>
+<cell> 2.001 </cell>
+<cell>3.003</cell>
+<cell> 1.999 </cell>
+<cell>4.999</cell>
 </row>
 
         <row>
-<cell> 4.0005 </cell>
-<cell>9.0015</cell>
-<cell>3.9995 </cell>
-<cell>10.9995</cell>
+<cell> 2.0005 </cell>
+<cell>3.0015</cell>
+<cell>1.9995 </cell>
+<cell>4.9995</cell>
 </row>
 
         <row>
-<cell> 4.0001 </cell>
-<cell>9.0003</cell>
-<cell>3.9999  </cell>
-<cell>10.9999</cell>
+<cell> 2.0001 </cell>
+<cell>3.0003</cell>
+<cell>1.9999  </cell>
+<cell>4.9999</cell>
 </row>
 
         
@@ -63,7 +63,7 @@
 
 
 
-The limit as <m>x \to 4</m> does not exist because the function does not
+The limit as <m>x \to 2</m> does not exist because the function does not
 approach a single number from both left and right.
 
 

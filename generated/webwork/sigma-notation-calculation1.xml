@@ -1,22 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-calculation1" assembly-id="sigma-notation-calculation1">
-  <static seed="293" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg">
+  <static seed="358" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_5-6.pg">
     <statement><p>For the following, write out each term of the
 summation in the boxes provided.  Then compute
 the sum.</p>
-<p>a) <m>\displaystyle\sum_{i=3}^{5} i^2</m> 
+<p>a) <m>\displaystyle\sum_{i=4}^{6} i^2</m> 
 = <fillin characters="5" name="AnSwEr0001"/> <m>+</m> <fillin characters="5" name="AnSwEr0002"/> <m>+</m> <fillin characters="5" name="AnSwEr0003"/> <m>=</m>
 <fillin characters="10" name="AnSwEr0004"/></p>
-<p>b) <m>\displaystyle\sum_{i=-3}^{2} (5 i  - 7)</m> 
+<p>b) <m>\displaystyle\sum_{i=-2}^{3} (2 i  - 7)</m> 
 = <fillin characters="5" name="AnSwEr0005"/> <m>+</m> <fillin characters="5" name="AnSwEr0006"/> <m>+</m> <fillin characters="5" name="AnSwEr0007"/>
 <m>+</m> <fillin characters="5" name="AnSwEr0008"/> <m>+</m> <fillin characters="5" name="AnSwEr0009"/>  <m>+</m> <fillin characters="5" name="AnSwEr0010"/>
 <m>=</m> <fillin characters="10" name="AnSwEr0011"/></p>
 </statement>
-    <answer>
-      <p>
-        <m>9</m>
-      </p>
-    </answer>
     <answer>
       <p>
         <m>16</m>
@@ -29,22 +24,22 @@ the sum.</p>
     </answer>
     <answer>
       <p>
-        <m>50</m>
+        <m>36</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-22</m>
+        <m>77</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-17</m>
+        <m>-11</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-12</m>
+        <m>-9</m>
       </p>
     </answer>
     <answer>
@@ -54,46 +49,51 @@ the sum.</p>
     </answer>
     <answer>
       <p>
-        <m>-2</m>
+        <m>-5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3</m>
+        <m>-3</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-57</m>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-36</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
 
 
 
-a) Write out the terms for each value of <m>i</m> from 3 to 5,
+a) Write out the terms for each value of <m>i</m> from 4 to 6,
 then add the terms.
 <me>\begin{array}{rcl}
-    i = 3 \amp \to\amp  a_{3} = (3)^2 = 9\\
     i = 4 \amp \to\amp  a_{4} = (4)^2 = 16\\
     i = 5 \amp \to\amp  a_{5} = (5)^2 = 25\\
+    i = 6 \amp \to\amp  a_{6} = (6)^2 = 36\\
   \end{array}</me>
-The sum is: <m>\displaystyle\sum_{i=3}^{5} i^2  = 50</m> 
+The sum is: <m>\displaystyle\sum_{i=4}^{6} i^2  = 77</m> 
 
 
 
 
-b) Write out the terms for each value of <m>i</m> from -3 to 2,
+b) Write out the terms for each value of <m>i</m> from -2 to 3,
 then add the terms.
 <me>\begin{array}{rcl}
-    i = -3 \amp \to\amp  a_{-3} = 5(-3)  - 7 = -22\\
-    i = -2 \amp \to\amp  a_{-2} = 5(-2)  - 7 = -17\\
-    i = -1 \amp \to\amp  a_{-1} = 5(-1)  - 7 = -12\\
-    i = 0 \amp \to\amp  a_{0} = 5(0)  - 7 = -7\\
-    i = 1 \amp \to\amp  a_{1} = 5(1)  - 7 = -2\\
-    i = 2 \amp \to\amp  a_{2} = 5(2)  - 7 = 3\\
+    i = -2 \amp \to\amp  a_{-2} = 2(-2)  - 7 = -11\\
+    i = -1 \amp \to\amp  a_{-1} = 2(-1)  - 7 = -9\\
+    i = 0 \amp \to\amp  a_{0} = 2(0)  - 7 = -7\\
+    i = 1 \amp \to\amp  a_{1} = 2(1)  - 7 = -5\\
+    i = 2 \amp \to\amp  a_{2} = 2(2)  - 7 = -3\\
+    i = 3 \amp \to\amp  a_{3} = 2(3)  - 7 = -1\\
   \end{array}</me>
-The sum is: <m>\displaystyle\sum_{i=-3}^{2} (5 i  - 7)  = -57</m> 
+The sum is: <m>\displaystyle\sum_{i=-2}^{3} (2 i  - 7)  = -36</m> 
 
 
 </solution>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-algebra-2" assembly-id="fcns-compose-algebra-2">
-  <static seed="148" source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_13.pg">
-    <statement><p>Let <m>f(x) = {\sqrt{x}-2}</m> and <m>g(x) = {x^{2}+6}</m>.</p>
+  <static seed="213" source="Contrib/CCCS/CollegeAlgebra/3.4/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_4_13.pg">
+    <statement><p>Let <m>f(x) = {\sqrt{x}+2}</m> and <m>g(x) = {x^{2}+1}</m>.</p>
 <p><ul label="square">
 <li>
 <p><m>(f\circ g)(x) =</m> <fillin characters="15" name="AnSwEr0001"/></p>
@@ -17,12 +17,12 @@
 </hint>
     <answer>
       <p>
-        <m>\sqrt{x^{2}+6}-2</m>
+        <m>\sqrt{x^{2}+1}+2</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(\sqrt{x}-2\right)^{2}+6</m>
+        <m>\left(\sqrt{x}+2\right)^{2}+1</m>
       </p>
     </answer>
   </static>

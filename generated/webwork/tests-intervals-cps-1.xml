@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-intervals-cps-1" assembly-id="tests-intervals-cps-1">
-  <static seed="254" source="Library/Michigan/Chap4Sec1/Q09.pg">
+  <static seed="319" source="Library/Michigan/Chap4Sec1/Q09.pg">
     <statement><p>For the function
-<m>f(x)=-3 x^3 + 81 x + 10</m>,
+<m>f(x)=-1 x^3 + 3 x + 12</m>,
 find all intervals where the function is increasing:
 <m>f</m> is increasing on <fillin characters="35" name="AnSwEr0001"/></p>
 <p><em>(Give your answer as an interval or a list of intervals,
@@ -21,24 +21,24 @@ points.)</em></p>
 </statement>
     <answer>
       <p>
-        <m>\left(-3,3\right)</m>
+        <m>\left(-1,1\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(-\infty ,-3\right), \left(3,\infty \right)</m>
+        <m>\left(-\infty ,-1\right), \left(1,\infty \right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-3, 3</m>
+        <m>-1, 1</m>
       </p>
     </answer>
     <solution><m>f'(x) &gt; 0</m>
 and <m>f'(x) \lt  0</m>; critical points are where <m>f'(x) = 0</m>.
-Here <m>f'(x) = -9 x^2  + 81 = -9 ( x - 3 )( x + 3 )</m>,
-so <m>f</m> is increasing on <m>(-3, 3)</m> and decreasing on <m>(-\infty, -3), (3, \infty)</m>.
-Critical points are <m>x = -3</m> and <m>x = 3</m>.
+Here <m>f'(x) = -3 x^2  + 3 = -3 ( x - 1 )( x + 1 )</m>,
+so <m>f</m> is increasing on <m>(-1, 1)</m> and decreasing on <m>(-\infty, -1), (1, \infty)</m>.
+Critical points are <m>x = -1</m> and <m>x = 1</m>.
 
 
 

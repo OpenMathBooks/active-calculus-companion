@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-exponential-1" assembly-id="derivatives-exponential-1">
-  <static seed="83" source="Library/Michigan/Chap3Sec2/Q03.pg">
+  <static seed="148" source="Library/Michigan/Chap3Sec2/Q03.pg">
     <statement><p>Find the derivative of
-<m>y = 4^x + 7</m>.</p>
+<m>y = 7^x + 17</m>.</p>
 <p><m>{dy\over dx} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\ln\mathopen{}\left(4\right)\cdot 4^{x}</m>
+        <m>\ln\mathopen{}\left(7\right)\cdot 7^{x}</m>
       </p>
     </answer>
-    <solution><me>{dy\over dx} = \ln(4) 4^x</me>
+    <solution><me>{dy\over dx} = \ln(7) 7^x</me>
 
 
 </solution>

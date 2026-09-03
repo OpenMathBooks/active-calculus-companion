@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-1" assembly-id="implicit-diff-1">
-  <static seed="199" source="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg">
-    <statement><p>If <m>2 x^2+ 5 x + xy = 1</m> and <m>y(1) = -6</m>,
+  <static seed="264" source="Library/OSU/high_school_apcalc/dchmwk5/prob10.pg">
+    <statement><p>If <m>2 x^2+ 3 x + xy = 1</m> and <m>y(1) = -4</m>,
 find <m>y'(1)</m> by implicit differentiation.</p>
 <p><m>y' (1) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 <p>Thus an equation of the tangent line to the graph at the point
-<m>(1, -6)</m> is</p>
+<m>(1, -4)</m> is</p>
 <p><m>y =</m> <fillin characters="35" name="AnSwEr0002"/></p>
 </statement>
     <answer>
@@ -15,7 +15,7 @@ find <m>y'(1)</m> by implicit differentiation.</p>
     </answer>
     <answer>
       <p>
-        <m>-3x-3</m>
+        <m>-3x-1</m>
       </p>
     </answer>
   </static>

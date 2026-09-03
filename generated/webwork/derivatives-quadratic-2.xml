@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quadratic-2" assembly-id="derivatives-quadratic-2">
-  <static seed="75" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg">
+  <static seed="140" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_7.pg">
     <statement><p>Differentiate the following function:
-<me>\displaystyle f(x)= x^2 - 4 x + 4</me></p>
+<me>\displaystyle f(x)= x^2 - 6 x + 13</me></p>
 <p><m>f'(x)=</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2x+-4</m>
+        <m>2x+-6</m>
       </p>
     </answer>
   </static>

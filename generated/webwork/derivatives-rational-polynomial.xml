@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-rational-polynomial" assembly-id="derivatives-rational-polynomial">
-  <static seed="78" source="Library/UMN/calculusStewartCCC/s_3_1_18.pg">
-    <statement><p>Differentiate <m>\displaystyle f(x) = \frac{x^{2}-4 x+6}{x^{2}}.</m></p>
+  <static seed="143" source="Library/UMN/calculusStewartCCC/s_3_1_18.pg">
+    <statement><p>Differentiate <m>\displaystyle f(x) = \frac{x^{2}-5 x+3}{x^{2}}.</m></p>
 <p>Answer: <m>\displaystyle \frac{d f}{d x} =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\left(2-1\right)\cdot 4x^{-2}-6\cdot 2x^{-2-1}</m>
+        <m>\left(2-1\right)\cdot 5x^{-2}-3\cdot 2x^{-2-1}</m>
       </p>
     </answer>
   </static>

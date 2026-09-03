@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-average-value" assembly-id="def-int-average-value">
-  <static seed="321" source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg">
+  <static seed="386" source="Library/UCSB/Stewart5_6_5/Stewart5_6_5_15.pg">
     <statement><p>The table gives the values of a continuous function <m>f</m>.</p>
 <p><me>\begin{array}{|c|c|c|c|c|c|c|c|}\hline
  x          \amp  20 \amp  25 \amp  30 \amp  35 \amp  40 \amp  45 \amp  50 \\ \hline

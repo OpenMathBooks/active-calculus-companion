@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-5" assembly-id="def-int-areas-5">
-  <static seed="310" source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg">
+  <static seed="375" source="Library/FortLewis/Calc1/05-02-Definite-integral/HGM5-05-02-Definite-integral-27.pg">
     <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" valign="top">
 <row>
 <cell>Suppose the region on the left in the figure 
-(with blue shading) has area is 44, and the
+(with blue shading) has area is 15, and the
 region on the right (with green shading) has 
-area 4.  Using the graph of <m>f(x)</m> in
+area 5.  Using the graph of <m>f(x)</m> in
 the figure, find the following integrals.
 <m>\displaystyle \int_a^b f(x) \, dx =</m> <fillin characters="15" name="AnSwEr0001"/>
 <m>\displaystyle \int_b^c f(x) \, dx =</m> <fillin characters="15" name="AnSwEr0002"/>
@@ -20,22 +20,22 @@ the figure, find the following integrals.
 </statement>
     <answer>
       <p>
-        <m>44</m>
+        <m>-15</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-4</m>
+        <m>5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>40</m>
+        <m>-10</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>48</m>
+        <m>20</m>
       </p>
     </answer>
     <solution><m>y = f(x)</m> and the <m>x</m>-axis, with area below the axis being
@@ -43,10 +43,10 @@ counted as negative area.  Therefore
 
 
 
-<m>\int_a^b f(x) dx = 44</m>,
-<m>\int_b^c f(x) dx = -4</m>,
-<m>\int_a^c f(x) dx = 44  - 4 = 40</m>, and
-<m>\int_a^c |f(x)| dx = |44| + |-4| = 48</m>.
+<m>\int_a^b f(x) dx = -15</m>,
+<m>\int_b^c f(x) dx = 5</m>,
+<m>\int_a^c f(x) dx = -15 + 5 = -10</m>, and
+<m>\int_a^c |f(x)| dx = |-15| + |5| = 20</m>.
 
 
 

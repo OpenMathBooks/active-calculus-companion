@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-antiderivative-2" assembly-id="ftc-antiderivative-2">
-  <static seed="330" source="Library/Michigan/Chap6Sec2/Q21.pg">
+  <static seed="395" source="Library/Michigan/Chap6Sec2/Q21.pg">
     <statement><p>Find an antiderivative <m>F(x)</m> of 
-<m>f(x)=7 x - \sqrt{x}</m>.</p>
+<m>f(x)=9 x - \sqrt{x}</m>.</p>
 <p><m>F(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>3.5x^{2}-0.666667x^{1.5}</m>
+        <m>4.5x^{2}-0.666667x^{1.5}</m>
       </p>
     </answer>
-    <solution><m>f(x) = 7 x - x^{1/2}</m>, so <m>F(x)</m> must have the form 
-<m>F(x) = \frac{7}{2} x^2 - \frac{2}{3} x^{3/2}</m>, or this plus any
+    <solution><m>f(x) = 9 x - x^{1/2}</m>, so <m>F(x)</m> must have the form 
+<m>F(x) = \frac{9}{2} x^2 - \frac{2}{3} x^{3/2}</m>, or this plus any
 constant value.
 
 

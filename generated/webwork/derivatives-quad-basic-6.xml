@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quad-basic-6" assembly-id="derivatives-quad-basic-6">
-  <static seed="111" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_13.pg">
-    <statement><p>Differentiate <m>\displaystyle y =\frac{\sin{x}}{x^{3}}</m>.</p>
+  <static seed="176" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_13.pg">
+    <statement><p>Differentiate <m>\displaystyle y =\frac{\sin{x}}{x^{5}}</m>.</p>
 <p><m>y' =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{x\cos\mathopen{}\left(x\right)-3\sin\mathopen{}\left(x\right)}{x^{3+1}}</m>
+        <m>\frac{x\cos\mathopen{}\left(x\right)-5\sin\mathopen{}\left(x\right)}{x^{5+1}}</m>
       </p>
     </answer>
   </static>

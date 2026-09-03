@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-rational-polynomial-evaluate" assembly-id="derivatives-rational-polynomial-evaluate">
-  <static seed="86" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg">
+  <static seed="151" source="Library/ASU-topics/setDerivativeBasicFunctions/3-4-69.pg">
     <statement><p>Suppose that
-<m>\displaystyle{f(x) = \frac{8 x + 8}{x}}</m>.
+<m>\displaystyle{f(x) = \frac{10 x + 14}{x}}</m>.
 Evaluate each of the following:</p>
 <p><m>f'(-2)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
 <p><m>f'(2)</m> = <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-8}{\left(-2\right)^{2}}</m>
+        <m>\frac{-14}{\left(-2\right)^{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{-8}{2^{2}}</m>
+        <m>\frac{-14}{2^{2}}</m>
       </p>
     </answer>
   </static>

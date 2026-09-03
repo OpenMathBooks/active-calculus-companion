@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-box-no-top-2" assembly-id="apps-app-opt-box-no-top-2">
-  <static seed="274" source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg">
+  <static seed="339" source="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg">
     <statement><p>A rectangular storage container with an open top is to have a volume
-of 16 cubic meters.  The length of its base is twice the width.
-Material for the base costs 15 dollars per square meter.
-Material for the sides costs 9 dollars per square meter.  Find
+of 20 cubic meters.  The length of its base is twice the width.
+Material for the base costs 11 dollars per square meter.
+Material for the sides costs 4 dollars per square meter.  Find
 the cost of materials for the cheapest such container.</p>
 <p>Total cost = <fillin characters="30" name="AnSwEr0001"/>
 (Round to the nearest penny and include monetary units. 
@@ -13,28 +13,28 @@ including the dollar sign and second decimal place.)</p>
 </statement>
     <answer>
       <p>
-        <m>\$335.58</m>
+        <m>\$204.51</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
 <p>Let <m>w</m> and <m>h</m> denote the width of the base and the height of the container,
 respectively.</p>
 <p>Since the length of the base is twice the width, the volume of the container is
-<me>V= (2w)(w)h =2 w^2 h =  16</me>
+<me>V= (2w)(w)h =2 w^2 h =  20</me>
 so 
-<me>h = \frac{16}{ 2 w^2}</me>
+<me>h = \frac{20}{ 2 w^2}</me>
 The sides have total  area <m>2(2w)h+ 2wh = 6wh</m>, while the base has area <m>w(2w) = 2 w^2</m>, so the cost is
-<me>9 \cdot (6wh ) + 15\cdot (2 w^2)</me>
+<me>4 \cdot (6wh ) + 11\cdot (2 w^2)</me>
 Substuting the expression for <m>h</m> gives
-<me>C(w) = 9 \cdot 6 w\cdot  \frac{16}{ 2 w^2} + 15\cdot( 2 w^2 ) 
-= \frac{432}{w} + 30 w^2 \quad w &gt;0</me>
-<me>C'(w) = -\frac{432}{w^2} + 60 w  = \frac{-432+ 60 w^3}{w^2}</me>
-<m>\displaystyle w = \left({\frac{36}{5}}\right)^{1/3}</m> is the critical number. 
+<me>C(w) = 4 \cdot 6 w\cdot  \frac{20}{ 2 w^2} + 11\cdot( 2 w^2 ) 
+= \frac{240}{w} + 22 w^2 \quad w &gt;0</me>
+<me>C'(w) = -\frac{240}{w^2} + 44 w  = \frac{-240+ 44 w^3}{w^2}</me>
+<m>\displaystyle w = \left({\frac{60}{11}}\right)^{1/3}</m> is the critical number. 
 There is an absolute minimum at this critical number since <m>C'(w) \lt 0</m> for
-<m>0 \lt  w \lt   \left({\frac{36}{5}}\right)^{1/3}</m> and <m>C'(w) &gt;0</m> for 
-<m>w &gt; \left({\frac{36}{5}}\right)^{1/3}</m>.</p>
+<m>0 \lt  w \lt   \left({\frac{60}{11}}\right)^{1/3}</m> and <m>C'(w) &gt;0</m> for 
+<m>w &gt; \left({\frac{60}{11}}\right)^{1/3}</m>.</p>
 <p>The total minimum cost is
-<me>C\left(\left({\frac{36}{5}}\right)^{1/3} \right) \approx  \$335.58</me></p>
+<me>C\left(\left({\frac{60}{11}}\right)^{1/3} \right) \approx  \$204.51</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Rochester/setDerivatives10_5Optim/S04.07.Optimization.PTP10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

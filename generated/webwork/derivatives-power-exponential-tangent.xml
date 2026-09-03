@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-exponential-tangent" assembly-id="derivatives-power-exponential-tangent">
-  <static seed="87" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg">
-    <statement><p>Find the equation of the tangent line to the curve <m>y=x^4+5 e^x</m> at the point <m>(0,5)</m>.</p>
+  <static seed="152" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_39.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=x^4+6 e^x</m> at the point <m>(0,6)</m>.</p>
 <p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>5\mathopen{}\left(x+1\right)</m>
+        <m>6\mathopen{}\left(x+1\right)</m>
       </p>
     </answer>
   </static>

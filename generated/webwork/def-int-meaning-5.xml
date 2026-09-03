@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-5" assembly-id="def-int-meaning-5">
-  <static seed="326" source="Contrib/NAU/setCalcI/integralAsArea.pg">
-    <statement><p>Let <m>f</m> be a linear function such that <m>f(7)=-1</m> and <m>\displaystyle \int_0^7 f = 2</m>.</p>
+  <static seed="391" source="Contrib/NAU/setCalcI/integralAsArea.pg">
+    <statement><p>Let <m>f</m> be a linear function such that <m>f(2)=-1</m> and <m>\displaystyle \int_0^2 f = 5.5</m>.</p>
 <p>a.
 The <m>x</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0001"/> .</p>
 <p>b.
@@ -9,12 +9,12 @@ The <m>y</m>-intercept of <m>f</m> is <fillin characters="25" name="AnSwEr0002"/
 </statement>
     <answer>
       <p>
-        <m>4.27778</m>
+        <m>1.73333</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>1.57143</m>
+        <m>6.5</m>
       </p>
     </answer>
   </static>

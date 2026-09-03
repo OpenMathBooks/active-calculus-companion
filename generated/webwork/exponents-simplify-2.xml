@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-2" assembly-id="exponents-simplify-2">
-  <static seed="65" source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg">
+  <static seed="130" source="Library/PCC/BasicAlgebra/Exponents/negExp36.pg">
     <statement><p>Simplify the following expression, and write your answer using only <em>positive</em> exponents.</p>
-<p><m>\displaystyle\frac{-5x^{23}}{11x^{27}}=</m><fillin characters="12" name="AnSwEr0001"/></p>
-<p>Note that you may have to be careful with grouping parenthesis in this problem; 1/2x
-is not the same as 1/(2x).</p>
+<p><m>\displaystyle\frac{-5y^{44}}{9y^{46}}=</m><fillin characters="12" name="AnSwEr0001"/></p>
+<p>Note that you may have to be careful with grouping parenthesis in this problem; 1/2y
+is not the same as 1/(2y).</p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-5}{11x^{4}}</m>
+        <m>\frac{-5}{9y^{2}}</m>
       </p>
     </answer>
     <solution><p>We use the properties of exponents to help us here, remembering that <m>\displaystyle{\frac{a^m}{a^n} = a^{m-n}}</m></p>
 <p><m>\displaystyle{           \begin{aligned}
-                 \displaystyle\frac{-5x^{23}}{11x^{27}} \amp = \frac{-5}{11}x^{23-27}\\
-                                                       \amp  =\frac{-5}{11}x^{-4}\\
-                                    \amp  = -\frac{5}{11 x^{4}}
+                 \displaystyle\frac{-5y^{44}}{9y^{46}} \amp = \frac{-5}{9}y^{44-46}\\
+                                                       \amp  =\frac{-5}{9}y^{-2}\\
+                                    \amp  = -\frac{5}{9 y^{2}}
            \end{aligned}
     }</m></p>
 </solution>

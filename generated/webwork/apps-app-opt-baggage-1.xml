@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-baggage-1" assembly-id="apps-app-opt-baggage-1">
-  <static seed="270" source="Library/Michigan/Chap4Sec5/Qweb6.pg">
+  <static seed="335" source="Library/Michigan/Chap4Sec5/Qweb6.pg">
     <statement><p>Some airlines have restrictions on the size of items of luggage that
 passengers are allowed to take with them.  Suppose that one has a rule
 that the sum of the length, width and height of any piece of luggage
-must be less than or equal to 234 cm.  A passenger wants to take a
+must be less than or equal to 156 cm.  A passenger wants to take a
 box of the maximum allowable volume.  If the length and width are to
 be equal, what should the dimensions be?</p>
 <p>length = width = <fillin characters="35" name="AnSwEr0001"/></p>
@@ -22,22 +22,7 @@ be equal, what should the dimensions be?</p>
 </statement>
     <answer>
       <p>
-        <m>78\ {\rm cm}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>78\ {\rm cm}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>474552\ {\rm cm^{3}}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>104\ {\rm cm}</m>
+        <m>52\ {\rm cm}</m>
       </p>
     </answer>
     <answer>
@@ -47,39 +32,54 @@ be equal, what should the dimensions be?</p>
     </answer>
     <answer>
       <p>
-        <m>78\ {\rm cm}</m>
+        <m>140608\ {\rm cm^{3}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>421824\ {\rm cm^{3}}</m>
+        <m>69.3333333333333\ {\rm cm}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>34.6666666666667\ {\rm cm}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>52\ {\rm cm}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>124984.888888889\ {\rm cm^{3}}</m>
       </p>
     </answer>
     <solution><m>L</m>, <m>w</m> and <m>h</m>,
 respectively.  Then the volume of the box is <m>V = Lwh</m>.  The sum 
-<m>L + w + h = 234</m>, and, for the first part, we know that 
-<m>L = w</m>.  Thus <m>2w + h = 234</m>, so <m>h = 234 - 2w</m>, and
+<m>L + w + h = 156</m>, and, for the first part, we know that 
+<m>L = w</m>.  Thus <m>2w + h = 156</m>, so <m>h = 156 - 2w</m>, and
 the volume equation becomes 
-<m>V = Lwh = w\cdot w\cdot(234 - 2w) = 234\cdot w^2 - 2w^3</m>.
-The domain for <m>w</m> is <m>0\le w\le 234</m>.  
+<m>V = Lwh = w\cdot w\cdot(156 - 2w) = 156\cdot w^2 - 2w^3</m>.
+The domain for <m>w</m> is <m>0\le w\le 156</m>.  
 
 
 
 Critical points are where 
-<m>\frac{dV}{dw} = 2\cdot 234\cdot w - 6\cdot w^2 = 0</m>, so 
-<m>w = 0</m> or <m>w = 78</m>.  The global maximum must occur either at
-this point or at the end points.  <m>V(78) &gt; 0</m> while 
-<m>V(0) = V(234) = 0</m>, so the global maximum is at <m>L=w=78</m>, 
-in which case <m>h=78</m> as well.  The volume is then 
-<m>V = 78^3 = 474552 {\rm cm}^3</m>.
+<m>\frac{dV}{dw} = 2\cdot 156\cdot w - 6\cdot w^2 = 0</m>, so 
+<m>w = 0</m> or <m>w = 52</m>.  The global maximum must occur either at
+this point or at the end points.  <m>V(52) &gt; 0</m> while 
+<m>V(0) = V(156) = 0</m>, so the global maximum is at <m>L=w=52</m>, 
+in which case <m>h=52</m> as well.  The volume is then 
+<m>V = 52^3 = 140608 {\rm cm}^3</m>.
 
 
 
 
-If <m>L = 2w</m>, <m>2w + w + h = 234</m>, so 
-<m>V = (2w)(w)(234 - 3w) = 468 w^2 - 6 w^3</m>.  Proceeding as
-before, we find <m>w = 52</m>, <m>L = 104</m> and <m>h = 78</m>, so that 
-<m>V = 421824</m>.
+If <m>L = 2w</m>, <m>2w + w + h = 156</m>, so 
+<m>V = (2w)(w)(156 - 3w) = 312 w^2 - 6 w^3</m>.  Proceeding as
+before, we find <m>w = \frac{104}{3}</m>, <m>L = \frac{208}{3}</m> and <m>h = 52</m>, so that 
+<m>V = \frac{1124864}{9}</m>.
 
 
 

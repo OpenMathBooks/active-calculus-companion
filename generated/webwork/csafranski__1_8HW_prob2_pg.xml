@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_8HW_prob2_pg" assembly-id="csafranski__1_8HW_prob2_pg">
+  <static seed="124" source="csafranski/1.8HW_prob2.pg">
+    <statement><p>Use linear approximation, i.e. the tangent line,  to approximate
+<m>\frac 1{0.501}</m> as follows: Let <m>f(x) = \frac 1x</m> and
+find the equation of the tangent line to  <m>f(x)</m> at a "nice"
+point near <m>0.501</m>.  Then use this to approximate <m>\frac 1{0.501}</m>.</p>
+<p><m>\frac 1{0.501} \approx</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.996</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="csafranski/1.8HW_prob2.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="csafranski/1.8HW_prob2.pg"/>
+</webwork-reps>

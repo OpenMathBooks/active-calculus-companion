@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-cubic-3" assembly-id="tests-cps-cubic-3">
-  <static seed="244" source="Library/UMN/calculusStewartCCC/s_4_2_24.pg">
+  <static seed="309" source="Library/UMN/calculusStewartCCC/s_4_2_24.pg">
     <statement><p>Find the critical numbers of the function
-<me>f(x) = 2x^{3}+3x^{2}-36x.</me></p>
+<me>f(x) = 2x^{3}+6x^{2}-48x.</me></p>
 <p>Answer (separate by commas): <m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2, -3</m>
+        <m>2, -4</m>
       </p>
     </answer>
   </static>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-rectangle-under-parabola" assembly-id="apps-app-opt-rectangle-under-parabola">
-  <static seed="272" source="Library/OSU/high_school_apcalc/dcrev3/prob4.pg">
+  <static seed="337" source="Library/OSU/high_school_apcalc/dcrev3/prob4.pg">
     <statement><p>A certain magical substance that is used to make solid magical spheres
-costs <m>\$400</m> per cubic foot. The power of a magical sphere depends on its
-surface area, and a magical sphere can be sold for <m>\$50</m> per square foot
+costs <m>\$500</m> per cubic foot. The power of a magical sphere depends on its
+surface area, and a magical sphere can be sold for <m>\$70</m> per square foot
 of surface area. If you are manufacturing such a sphere, what size should
 you make them to maximize your profit per sphere?</p>
 <p><m>r=</m> <fillin characters="10" name="AnSwEr0001"/> ft.</p>
@@ -14,7 +14,7 @@ above is actually a maximum, rather than, say a minimum.</p>
 </statement>
     <answer>
       <p>
-        <m>0.25</m>
+        <m>0.28</m>
       </p>
     </answer>
   </static>

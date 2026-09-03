@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-basic-trig-2" assembly-id="derivatives-basic-trig-2">
-  <static seed="92" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
-    <statement><p>Differentiate <m>\displaystyle f(x) = 3 x^2 - 3 \cos x.</m></p>
+  <static seed="157" source="Library/UMN/calculusStewartCCC/s_3_3_1.pg">
+    <statement><p>Differentiate <m>\displaystyle f(x) = 5 x^2 - 6 \cos x.</m></p>
 <p>Answer: <m>\displaystyle f'(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2\cdot 3x+3\sin\mathopen{}\left(x\right)</m>
+        <m>2\cdot 5x+6\sin\mathopen{}\left(x\right)</m>
       </p>
     </answer>
   </static>

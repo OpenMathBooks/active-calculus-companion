@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-12" assembly-id="implicit-diff-12">
-  <static seed="210" source="Library/Michigan/Chap3Sec7/Q15.pg">
+  <static seed="275" source="Library/Michigan/Chap3Sec7/Q15.pg">
     <statement><p>Find <m>dy/dx</m> in terms of <m>x</m> and <m>y</m> 
 if
-<m>\arcsin(x^{3} y) = x y^{3}</m>.</p>
+<m>\arctan(x^{4} y) = x y^{4}</m>.</p>
 <p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-1y^{3}+\frac{3x^{3-1}y}{\sqrt{1-x^{2\cdot 3}y^{2}}}}{3xy^{3-1}-\frac{x^{3}}{\sqrt{1-x^{2\cdot 3}y^{2}}}}</m>
+        <m>\frac{4x^{4-1}y-y^{4}-x^{2\cdot 4}y^{4+2}}{4xy^{4-1}+4x^{2\cdot 4+1}y^{4+1}-x^{4}}</m>
       </p>
     </answer>
     <solution><m>x</m>.
-<me>\frac{1}{\sqrt{1 - x^{6} y^2}} (3 x^{2} y + x^{3} \frac{dy}{dx}) =
-    y^{3} + 3 x y^{2} \frac{dy}{dx},</me>
+<me>\frac{1}{(1 + x^{8} y^2)} (4 x^{3} y + x^{4} \frac{dy}{dx}) =
+    y^{4} + 4 x y^{3} \frac{dy}{dx},</me>
 so, clearing the denominator,
-<me>3 x^{2} y + x^{3} \frac{dy}{dx} = 
-    \sqrt{1 - x^{6} y^2} (y^{3} + 3 x y^{2} \frac{dy}{dx}).</me>
+<me>4 x^{3} y + x^{4} \frac{dy}{dx} = 
+    (1 + x^{8} y^2) (y^{4} + 4 x y^{3} \frac{dy}{dx}).</me>
 Thus
-<me>( x^{3} - (3 x y^{2}) \sqrt{1 - x^{6} y^2} ) \frac{dy}{dx} = 
-    y^{3} \sqrt{1 - x^{6} y^2} - 3 x^{2} y,</me>
+<me>( x^{4} - (4 x y^{3}) (1 + x^{8} y^2) ) \frac{dy}{dx} = 
+    y^{4} (1 + x^{8} y^2) - 4 x^{3} y,</me>
 and finally
 <me>\frac{dy}{dx} = 
-\frac{y^{3} \sqrt{1 - x^{6} y^2} - 3 x^{2} y}{x^{3} - (3 x y^{2}) \sqrt{1 - x^{6} y^2}}.</me>
+\frac{y^{4} (1 + x^{8} y^2) - 4 x^{3} y}{x^{4} - (4 x y^{3}) (1 + x^{8} y^2)}.</me>
 
 
 

@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-5" assembly-id="chainrule-algebra-5">
-  <static seed="161" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg">
+  <static seed="226" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_14.pg">
     <statement><p>Compute the derivative of the given function.</p>
-<p><me>f(x) = \cos^{7}(2 x)</me></p>
+<p><me>f(x) = \cos^{3}(4 x)</me></p>
 <p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>-14\cos^{6}\mathopen{}\left(2x\right)\sin\mathopen{}\left(2x\right)</m>
+        <m>-12\cos^{2}\mathopen{}\left(4x\right)\sin\mathopen{}\left(4x\right)</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
 
 
 
-It may help to rewrite <m>f(x) = [\cos (2 x)]^{7}</m>.
-Use the Chain Rule with inside function <m>u = \cos (2 x)</m>
-and outside function <m>y = u^{7}</m>. A second application
+It may help to rewrite <m>f(x) = [\cos (4 x)]^{3}</m>.
+Use the Chain Rule with inside function <m>u = \cos (4 x)</m>
+and outside function <m>y = u^{3}</m>. A second application
 of Chain Rule is used to find <m>\frac{du}{dx}</m>.
 
 
@@ -24,8 +24,8 @@ of Chain Rule is used to find <m>\frac{du}{dx}</m>.
 <me>\begin{array}{rcl}
     f'(x) \amp =\amp  \displaystyle\frac{dy}{du} \cdot \frac{du}{dx}\\
     \amp \amp \\
-    \amp =\amp  (7 u^{6})(-\sin(2 x) \cdot 2) \\
-    \amp =\amp  -14 \cos^{6}(2 x)\sin(2 x)
+    \amp =\amp  (3 u^{2})(-\sin(4 x) \cdot 4) \\
+    \amp =\amp  -12 \cos^{2}(4 x)\sin(4 x)
   \end{array}</me>
 
 

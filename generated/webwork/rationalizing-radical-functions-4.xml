@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rationalizing-radical-functions-4" assembly-id="rationalizing-radical-functions-4">
-  <static seed="31" source="Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rationalizing/Rationalize2.pg">
+  <static seed="38" source="Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rationalizing/Rationalize2.pg">
     <answer>
       <p>
-        <m>\left(-9+w\right)\mathopen{}\left(\sqrt{w}+\sqrt{q}\right)</m>
+        <m>\left(-8+y\right)\mathopen{}\left(\sqrt{y}+\sqrt{q}\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>w-q</m>
+        <m>y-q</m>
       </p>
     </answer>
   </static>

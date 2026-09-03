@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-cars-picture" assembly-id="rel-rates-cars-picture">
-  <static seed="215" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg">
+  <static seed="280" source="Library/Valdosta/APEX_Calculus/4.2/APEX_4.2_6.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/rel-rates-cars-picture-image-1.jpg" width="66%"/>
 <p>Suppose a police officer is 1/2 mile south of an intersection, driving
-north towards the intersection at 45 mph. At the same time,
+north towards the intersection at 25 mph. At the same time,
 another car is 1/2 mile east of the intersection, 
 driving east (away
 from the intersection) at an unknown speed.  The officer's
-radar gun indicates 20 mph when pointed at the other
+radar gun indicates 15 mph when pointed at the other
 car (that is, the straight-line distance between the officer
-and the other car is increasing at a rate of 20 mph).
+and the other car is increasing at a rate of 15 mph).
 What is the speed of the other car?</p>
 <p>Speed = <fillin characters="15" name="AnSwEr0001"/> mph.</p>
-<p>Now suppose that the officer's radar gun indicates -20 mph
+<p>Now suppose that the officer's radar gun indicates -15 mph
 instead
 (that is, the straight-line distance is decreasing at
-a rate of 20 mph).  What is the speed of the other
+a rate of 15 mph).  What is the speed of the other
 car this time?</p>
 <p>Speed = <fillin characters="15" name="AnSwEr0002"/> mph.</p>
 </statement>
     <answer>
       <p>
-        <m>73.2842712474619</m>
+        <m>46.2132034355964</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>16.7157287525381</m>
+        <m>3.78679656440357</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -51,29 +51,29 @@ equation.
   \end{array}</me>
 Then plug in
 the known information and solve.
-We have <m>\dfrac{da}{dt} = -45</m>, which is negative
+We have <m>\dfrac{da}{dt} = -25</m>, which is negative
 because the distance from the officer to the intersection
-is decreasing.  We also have <m>\dfrac{dc}{dt} = 20</m>.
+is decreasing.  We also have <m>\dfrac{dc}{dt} = 15</m>.
 We can find the distance between the cars at this
 specific moment: <m>c = \sqrt{(1/2)^2 + (1/2)^2}
 = \frac{\sqrt{2}}{2}</m>.
 <me>\begin{array}{rcl}
-    2\left(\frac{1}{2}\right)\left(-45\right) + 
+    2\left(\frac{1}{2}\right)\left(-25\right) + 
     2\left(\frac{1}{2}\right)\dfrac{db}{dt} \amp =\amp  
-    2\left(\frac{\sqrt{2}}{2}\right)(20)\\
+    2\left(\frac{\sqrt{2}}{2}\right)(15)\\
     \amp \amp \\
-    \dfrac{db}{dt} = 20 \sqrt{2} + 45 \approx 73.2842712474619.
+    \dfrac{db}{dt} = 15 \sqrt{2} + 25 \approx 46.2132034355964.
   \end{array}</me>
 
 
 
-For the second part, <m>\dfrac{dc}{dt} =  -20</m>.
+For the second part, <m>\dfrac{dc}{dt} =  -15</m>.
 <me>\begin{array}{rcl}
-    2\left(\frac{1}{2}\right)\left(-45\right) + 
+    2\left(\frac{1}{2}\right)\left(-25\right) + 
     2\left(\frac{1}{2}\right)\dfrac{db}{dt} \amp =\amp  
-    2\left(\frac{\sqrt{2}}{2}\right)(-20)\\
+    2\left(\frac{\sqrt{2}}{2}\right)(-15)\\
     \amp \amp \\
-    \dfrac{db}{dt} = -20 \sqrt{2} + 45 \approx 16.7157287525381.
+    \dfrac{db}{dt} = -15 \sqrt{2} + 25 \approx 3.78679656440357.
   \end{array}</me>
 
 

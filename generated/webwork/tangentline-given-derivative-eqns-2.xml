@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-eqns-2" assembly-id="tangentline-given-derivative-eqns-2">
-  <static seed="57" source="Contrib/METU-NCC/MAT101/Final/Tangent.pg">
+  <static seed="116" source="Contrib/METU-NCC/MAT101/Final/Tangent.pg">
     <statement><p>In the parts below, <m>f{\small(x)}</m> and <m>f'{\small(x)}</m> have values given in the table below</p>
 <tabular valign="top">
 <col halign="center" right="minor"/>
@@ -13,23 +13,23 @@
 </row>
 <row>
 <cell><m>1</m></cell>
-<cell><m>3</m></cell>
 <cell><m>4</m></cell>
+<cell><m>2</m></cell>
 </row>
 <row>
 <cell><m>2</m></cell>
-<cell><m>4</m></cell>
 <cell><m>3</m></cell>
-</row>
-<row>
-<cell><m>3</m></cell>
-<cell><m>2</m></cell>
 <cell><m>1</m></cell>
 </row>
 <row>
+<cell><m>3</m></cell>
+<cell><m>2</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
 <cell><m>4</m></cell>
 <cell><m>1</m></cell>
-<cell><m>2</m></cell>
+<cell><m>3</m></cell>
 </row>
 </tabular>
 <p>Give formulas for the following tangent lines at <m>x=2</m>.</p>
@@ -44,22 +44,22 @@
 </statement>
     <answer>
       <p>
-        <m>3\mathopen{}\left(x-2\right)+4</m>
+        <m>x-2+3</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>4\mathopen{}\left(x-2\right)+6</m>
+        <m>2\mathopen{}\left(x-2\right)+5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10\mathopen{}\left(x-2\right)+8</m>
+        <m>5\mathopen{}\left(x-2\right)+6</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>x-2+2</m>
+        <m>4\mathopen{}\left(x-2\right)+2</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quad-basic-7" assembly-id="derivatives-quad-basic-7">
-  <static seed="112" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_9.pg">
+  <static seed="177" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_9.pg">
     <statement><p>Differentiate <m>\displaystyle y =\frac{x}{\cos{x}}</m>.</p>
 <p><m>y'=</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>

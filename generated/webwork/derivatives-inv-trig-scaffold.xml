@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-scaffold" assembly-id="derivatives-inv-trig-scaffold">
-  <static seed="192" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg">
+  <static seed="257" source="Library/Valdosta/APEX_Calculus/2.7/APEX_2.7_27.pg">
     <statement><p>Let <m>f(x) = \sin( \arccos( x) )</m>.</p>
 <p>a) First find the derivative by using Chain Rule.</p>
 <p><m>f'(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>

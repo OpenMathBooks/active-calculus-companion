@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-eval-4" assembly-id="derivatives-quot-basic-eval-4">
-  <static seed="120" source="Library/Rochester/setDerivatives2Formulas/s2_2_16.pg">
+  <static seed="185" source="Library/Rochester/setDerivatives2Formulas/s2_2_16.pg">
     <statement><p>If 
-<me>f(x) =  \frac {\sqrt { x } - 3 }{\sqrt { x } + 3 }</me> 
+<me>f(x) =  \frac {\sqrt { x } - 4 }{\sqrt { x } + 4 }</me> 
 find <m>f'( x )</m>.</p>
 <p><m>f'( x )</m> = <fillin characters="48" name="AnSwEr0001"/></p>
-<p>Find <m>f'( 3 )</m>.</p>
-<p><m>f'( 3 )</m> = <fillin characters="48" name="AnSwEr0002"/></p>
+<p>Find <m>f'( 5 )</m>.</p>
+<p><m>f'( 5 )</m> = <fillin characters="48" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{\frac{3}{\sqrt{x}}}{\left(\sqrt{x}+3\right)^{2}}</m>
+        <m>\frac{\frac{4}{\sqrt{x}}}{\left(\sqrt{x}+4\right)^{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{\frac{3}{\sqrt{3}}}{\left(\sqrt{3}+3\right)^{2}}</m>
+        <m>\frac{\frac{4}{\sqrt{5}}}{\left(\sqrt{5}+4\right)^{2}}</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-train" assembly-id="velocity-distance-train">
-  <static seed="288" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg">
+  <static seed="353" source="Library/UCSB/Stewart5_4_10/Stewart5_4_10_79.pg">
     <statement><p>A high-speed "bullet" train accelerates and decelerates at the rate <m>4 ft/s^2.</m>  Its maximum cruising speed is 90 mi/hr.</p>
 <p>(a) What is the maximum distance (in miles) the train can travel if it accelerates from rest until it reaches its cruising speed and then runs at that speed for 15 minutes?</p>
 <p>Maximum distance = <fillin characters="30" name="AnSwEr0001"/> miles</p>

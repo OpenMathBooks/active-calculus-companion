@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-1" assembly-id="def-int-properties-1">
-  <static seed="315" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
+  <static seed="380" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
     <statement><p>Suppose</p>
-<p><m>\displaystyle{\int_{8}^{11}f(x) dx=-9  \text{  and  }  \int_{11}^{13}f(x) dx=8}</m>,</p>
-<p><m>\displaystyle{\int_{8}^{11}g(x) dx=6  \text{  and  }  \int_{11}^{13}g(x) dx=0}</m>.</p>
+<p><m>\displaystyle{\int_{-9}^{-4}f(x) dx=-7  \text{  and  }  \int_{-4}^{-2}f(x) dx=8}</m>,</p>
+<p><m>\displaystyle{\int_{-9}^{-4}g(x) dx=9  \text{  and  }  \int_{-4}^{-2}g(x) dx=7}</m>.</p>
 <p>Compute the following integrals.</p>
-<p>(a) <m>\displaystyle{\int_{8}^{13}(f(x)+g(x)) dx=}</m><fillin characters="17" name="AnSwEr0001"/></p>
-<p>(b) <m>\displaystyle{\int_{8}^{13}(f(x)-g(x)) dx=}</m><fillin characters="17" name="AnSwEr0002"/></p>
-<p>(c) <m>\displaystyle{\int_{8}^{13}(5f(x)-6g(x)) dx=}</m><fillin characters="17" name="AnSwEr0003"/></p>
+<p>(a) <m>\displaystyle{\int_{-9}^{-2}(f(x)+g(x)) dx=}</m><fillin characters="17" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle{\int_{-9}^{-2}(f(x)-g(x)) dx=}</m><fillin characters="17" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle{\int_{-9}^{-2}(3f(x)-9g(x)) dx=}</m><fillin characters="17" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
-        <m>5</m>
+        <m>17</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-7</m>
+        <m>-15</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-41</m>
+        <m>-141</m>
       </p>
     </answer>
   </static>

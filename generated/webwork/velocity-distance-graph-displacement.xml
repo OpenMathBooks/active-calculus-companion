@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-graph-displacement" assembly-id="velocity-distance-graph-displacement">
-  <static seed="290" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg">
+  <static seed="355" source="Library/Valdosta/APEX_Calculus/5.2/APEX_5.2_15.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/velocity-distance-graph-displacement-image-1.png" width="66%"/>
 <p>A graph of the velocity function <m>v(t)</m> of an object moving in
 a straight line is given above.  Velocity is measured in m/s, and
@@ -28,7 +28,7 @@ time in seconds.</p>
 </statement>
     <answer>
       <p>
-        <m>3</m>
+        <m>4</m>
       </p>
     </answer>
     <answer>
@@ -36,7 +36,7 @@ time in seconds.</p>
     </answer>
     <answer>
       <p>
-        <m>28.5</m>
+        <m>52</m>
       </p>
     </answer>
     <answer>
@@ -47,21 +47,21 @@ time in seconds.</p>
 
 
 a) The maximum velocity is the highest value on the graph,
-<m>v = 3</m> m/s.
+<m>v = 4</m> m/s.
 
 
 
-b) Since <m>v \geq 0</m> on <m>[0, 13]</m>, the maximum displacement
+b) Since <m>v \geq 0</m> on <m>[0, 17]</m>, the maximum displacement
 is the entire area under the curve on this interval.  Break up
 the integral into rectangles and triangles.
-<me>\int_{0}^{13} v(t) \, dt = 
-  \int_{0}^{2} v(t) \, dt +
-  \int_{2}^{5} v(t) \, dt + 
-  \int_{5}^{9} v(t) \, dt + 
-  \int_{9}^{13} v(t) \, dt</me>
-<me>= (2)(3) + \frac{1}{2}(3)(3)
-  + \frac{1}{2}(4)(3) + (4)(3)
-  = 28.5</me>
+<me>\int_{0}^{17} v(t) \, dt = 
+  \int_{0}^{4} v(t) \, dt +
+  \int_{4}^{8} v(t) \, dt + 
+  \int_{8}^{12} v(t) \, dt + 
+  \int_{12}^{17} v(t) \, dt</me>
+<me>= (4)(4) + \frac{1}{2}(4)(4)
+  + \frac{1}{2}(4)(4) + (5)(4)
+  = 52</me>
 The units are m (meters) because displacement is a distance measurement.
 
 

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-val-1" assembly-id="tangentline-given-derivative-val-1">
-  <static seed="59" source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg">
-    <statement><p>Suppose <m>f(x)</m> is a function with <m>f(1) = -1</m> and 
-<m>f'(1) = 2</m>.</p>
+  <static seed="118" source="Contrib/METU-NCC/MAT101/Derivatives/Linear_approx.pg">
+    <statement><p>Suppose <m>f(x)</m> is a function with <m>f(-3) = -3</m> and 
+<m>f'(-3) = 3</m>.</p>
 <p><alert> A.</alert> <m>\quad</m> Give the equation of the 
-tangent line to <m>y=f(x)</m> at <m>x=1</m></p>
+tangent line to <m>y=f(x)</m> at <m>x=-3</m></p>
 <p><m>\quad y =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 <p><alert> B.</alert> <m>\quad</m> Estimate the following values.</p>
-<p><m>\quad \displaystyle f\left({\frac{3}{2}}\right) \approx</m> <fillin characters="20" name="AnSwEr0002"/></p>
-<p><m>\quad \displaystyle f\left({\frac{1}{2}}\right) \approx</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p><m>\quad \displaystyle f\left(-2\right) \approx</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p><m>\quad \displaystyle f\left(-4\right) \approx</m> <fillin characters="20" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
-        <m>-1+2\mathopen{}\left(x-1\right)</m>
+        <m>-3+3\mathopen{}\left(x-\left(-3\right)\right)</m>
       </p>
     </answer>
     <answer>
@@ -22,7 +22,7 @@ tangent line to <m>y=f(x)</m> at <m>x=1</m></p>
     </answer>
     <answer>
       <p>
-        <m>-2</m>
+        <m>-6</m>
       </p>
     </answer>
   </static>

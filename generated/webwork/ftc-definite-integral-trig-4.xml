@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-trig-4" assembly-id="ftc-definite-integral-trig-4">
-  <static seed="342" source="Library/ma122DB/set12/s5_4_26.pg">
-    <statement><p><m>\displaystyle \int_0^{5} (2 e^x+3 \sin x)\, dx</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
+  <static seed="407" source="Library/ma122DB/set12/s5_4_26.pg">
+    <statement><p><m>\displaystyle \int_0^{1} (4 e^x+3 \sin x)\, dx</m> =  <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>296.975331648763</m>
+        <m>8.25222039623176</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
-<p><me>\begin{array}{rcl} \displaystyle \int_0^{5} (2 e^x+3 \sin x)\, dx \amp =\amp   
-\displaystyle  2 e^x-3 \cos x  \Big]_0^{5}
-\\ \amp =\amp  (2 e^{5} - 3 \cos 5) - (2 e^0 - 3 \cos0 ) 
-\\ \amp =\amp  2 e^{5} - 3 \cos 5  + 1 
+<p><me>\begin{array}{rcl} \displaystyle \int_0^{1} (4 e^x+3 \sin x)\, dx \amp =\amp   
+\displaystyle  4 e^x-3 \cos x  \Big]_0^{1}
+\\ \amp =\amp  (4 e^{1} - 3 \cos 1) - (4 e^0 - 3 \cos0 ) 
+\\ \amp =\amp  4 e^{1} - 3 \cos 1 - 1 
 \end{array}</me></p>
 </solution>
   </static>

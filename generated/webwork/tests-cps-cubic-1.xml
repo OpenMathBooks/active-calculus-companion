@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-cps-cubic-1" assembly-id="tests-cps-cubic-1">
-  <static seed="242" source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg">
+  <static seed="307" source="Library/Rochester/setDerivatives10MaxMin/S04.01.MaxMinValues.PTP01.pg">
     <statement><p>Find all critical numbers of the polynomial
-<me>f(x) = 4x^{3}-42x^{2}-96x-6</me>
+<me>f(x) = 6x^{3}-27x^{2}-7</me>
 and then list them (separated by commas) in the box below.
 If there are no critical numbers, enter <alert>None</alert>.</p>
 <p>List of critical numbers: <fillin characters="36" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-1, 8</m>
+        <m>0, 3</m>
       </p>
     </answer>
   </static>

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-functions-find-x-or-y-values-1" assembly-id="functions-find-x-or-y-values-1">
-  <static seed="15" source="Contrib/RRCC/College_Algebra/MAT121/3.1/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_1_53.pg">
+  <static seed="22" source="Contrib/RRCC/College_Algebra/MAT121/3.1/RRCC_CCCS_Openstax_AlgTrig_AT-1-001-AS_3_1_53.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/functions-find-x-or-y-values-1-image-1.png" width="66%"/>
 <p>(Click on graph to enlarge)</p>
-<p>Evaluate <m>f(0)</m>, and solve for <m>f(x) = -4</m>.  If part b has more than one answer, input the larger number in the second field.  Otherwise leave the second field blank.</p>
+<p>Evaluate <m>f(0)</m>, and solve for <m>f(x) = -1</m>.  If part b has more than one answer, input the larger number in the second field.  Otherwise leave the second field blank.</p>
 <p>(a) <m>f(0) =</m> <fillin characters="15" name="AnSwEr0001"/></p>
-<p>(b) <m>f(</m> <fillin characters="1" name="AnSwEr0002"/> <m>) = -4</m></p>
-<p><m>f(</m> <fillin characters="1" name="AnSwEr0003"/> <m>) = -4</m></p>
+<p>(b) <m>f(</m> <fillin characters="1" name="AnSwEr0002"/> <m>) = -1</m></p>
+<p><m>f(</m> <fillin characters="1" name="AnSwEr0003"/> <m>) = -1</m></p>
 </statement>
     <answer>
       <p>
-        <m>1</m>
+        <m>3</m>
       </p>
     </answer>
     <answer>

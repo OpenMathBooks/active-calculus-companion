@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-from-graph-3" assembly-id="linear-eqn-from-graph-3">
-  <static seed="56" source="Library/NAU/setFunctionBasicGraphs/Linear.pg">
+  <static seed="115" source="Library/NAU/setFunctionBasicGraphs/Linear.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/linear-eqn-from-graph-3-image-1.png" width="41%"/>
 <p>Find the formula for <m>f</m>.</p>
 <p><m>f(x)=</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>2-x</m>
+        <m>x-4</m>
       </p>
     </answer>
   </static>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-1" assembly-id="chainrule-algebra-1">
-  <static seed="157" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg">
-    <statement><p>Given the following functions: <m>f(u)=u^{5/2}</m> and <m>g(x)=x^{6}+1</m>. Find:</p>
+  <static seed="222" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.7_The_Chain_Rule/3.7.1.pg">
+    <statement><p>Given the following functions: <m>f(u)=u^{7/2}</m> and <m>g(x)=x^{8}+1</m>. Find:</p>
 <p><m>f(g(x))=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 <p><m>f'(u)=</m> <fillin characters="20" name="AnSwEr0002"/></p>
 <p><m>f'(g(x))=</m> <fillin characters="20" name="AnSwEr0003"/></p>
@@ -10,27 +10,27 @@
 </statement>
     <answer>
       <p>
-        <m>\left(x^{6}+1\right)^{\frac{5}{2}}</m>
+        <m>\left(x^{8}+1\right)^{\frac{7}{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{5}{2}u^{\frac{5}{2}-1}</m>
+        <m>\frac{7}{2}u^{\frac{7}{2}-1}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{5}{2}\mathopen{}\left(x^{6}+1\right)^{\frac{5}{2}-1}</m>
+        <m>\frac{7}{2}\mathopen{}\left(x^{8}+1\right)^{\frac{7}{2}-1}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>6x^{6-1}</m>
+        <m>8x^{8-1}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{5}{2}\mathopen{}\left(x^{6}+1\right)^{\frac{5}{2}-1}\cdot 6x^{6-1}</m>
+        <m>\frac{7}{2}\mathopen{}\left(x^{8}+1\right)^{\frac{7}{2}-1}\cdot 8x^{8-1}</m>
       </p>
     </answer>
     <solution><p><alert> Solution:</alert></p>
@@ -43,11 +43,11 @@
 <cell> <m>(f \circ g)'</m> </cell>
 </row></p>
 <p><row>
-<cell><m>(x^{6}+1)^{\frac {5}{2}}</m>  </cell>
-<cell> <m>\frac {5}{2} u^{\frac {3}{2}}</m> </cell>
-<cell> <m>\frac {5}{2} (x^{6}+1)^{\frac {3}{2}}</m></cell>
-<cell><m>6 x^{5}</m></cell>
-<cell> <m>15 x^{5}(x^{6}+1)^{\frac {3}{2}}</m> </cell>
+<cell><m>(x^{8}+1)^{\frac {7}{2}}</m>  </cell>
+<cell> <m>\frac {7}{2} u^{\frac {5}{2}}</m> </cell>
+<cell> <m>\frac {7}{2} (x^{8}+1)^{\frac {5}{2}}</m></cell>
+<cell><m>8 x^{7}</m></cell>
+<cell> <m>28 x^{7}(x^{8}+1)^{\frac {5}{2}}</m> </cell>
 </row></p>
 <p/></tabular>
 </solution>

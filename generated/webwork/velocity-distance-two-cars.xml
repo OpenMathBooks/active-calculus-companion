@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-two-cars" assembly-id="velocity-distance-two-cars">
-  <static seed="281" source="Library/Michigan/Chap5Sec1/Q25.pg">
+  <static seed="346" source="Library/Michigan/Chap5Sec1/Q25.pg">
     <statement><p>Two cars start at the same time and travel in the same direction along
 a straight road.  The figure below gives the velocity, <m>v</m> (in
 km/hr), of each car as a function of time (in hr).</p>

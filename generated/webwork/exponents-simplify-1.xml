@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-1" assembly-id="exponents-simplify-1">
-  <static seed="64" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg">
-    <statement><p>Evaluate: <m>x^{3} \cdot x^{6} = x^{n}</m> for <m>n =</m>
+  <static seed="129" source="Library/FortLewis/Basic-skills-pretest/Skill-Assessment-09.pg">
+    <statement><p>Evaluate: <m>x^{4} \cdot x^{5} = x^{n}</m> for <m>n =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
 <p>Note: Your answer should be completely simplified.
 Unsimplified answers will not be accepted.</p>

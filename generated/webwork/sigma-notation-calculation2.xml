@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-calculation2" assembly-id="sigma-notation-calculation2">
-  <static seed="294" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg">
+  <static seed="359" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_8-10.pg">
     <statement><p>For the following, write out each term of the
 summation in the boxes provided.  Then compute
 the sum.</p>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-meaning-3" assembly-id="def-int-meaning-3">
-  <static seed="324" source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg">
+  <static seed="389" source="Library/FortLewis/Calc1/05-03-FTC/HGM5-05-03-FTC-13.pg">
     <statement><p>Oil leaks out of a tanker at a rate of <m>r=f(t)</m> liters per minute,
 where <m>t</m> is in minutes.  If <m>f(t) = A e^{-k t}</m>, write a definite
 integral expressing the total quantity of oil which leaks out of the

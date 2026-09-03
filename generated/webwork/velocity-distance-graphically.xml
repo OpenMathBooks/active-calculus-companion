@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-graphically" assembly-id="velocity-distance-graphically">
-  <static seed="283" source="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg">
+  <static seed="348" source="Library/FortLewis/Calc1/06-01-Antiderivatives-graphically/AF7/AF7.pg">
     <statement><tabular valign="top">
 <row>
 <cell>The figure shows an interactive graph of velocity <m>v(t)</m>, in 
@@ -11,10 +11,10 @@ the red dot along the horizontal <m>t</m>-axis.
 and <m>t = 3</m> seconds?
 <fillin characters="20" name="AnSwEr0001"/> (include )
 (b) What is the displacement between <m>t = 0</m> seconds
-and <m>t = 7</m> seconds?
+and <m>t = 5</m> seconds?
 <fillin characters="20" name="AnSwEr0002"/> (include )
 (c) What is the displacement between <m>t = 3</m> seconds
-and <m>t = 7</m> seconds?
+and <m>t = 5</m> seconds?
 <fillin characters="20" name="AnSwEr0003"/> (include )</cell>
 <cell><alert>Graph of velocity <m>y = v(t)</m></alert>
 <p>applet </p></cell>
@@ -23,17 +23,17 @@ and <m>t = 7</m> seconds?
 </statement>
     <answer>
       <p>
-        <m>6.21806\ {\rm m}</m>
+        <m>6.75848\ {\rm m}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10.0165\ {\rm m}</m>
+        <m>11.291\ {\rm m}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3.79845\ {\rm m}</m>
+        <m>4.53254\ {\rm m}</m>
       </p>
     </answer>
   </static>

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-meaning" assembly-id="sigma-notation-meaning">
-  <static seed="292" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg">
+  <static seed="357" source="Contrib/CCCS/CalculusOne/05.1/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_1_34.pg">
     <statement><p>Let <m>t_j</m> denote the time it took Tejay van Garderen to ride the j-th stage of the Tour de France in 2013.
-If there was a total of 21 stages, interpret <m>\displaystyle{ \sum_{j=1}^{8}t_j }</m>.</p>
-<p><m>\displaystyle{ \sum_{j=1}^{8}t_j}</m> represents <ul form="popup" name="AnSwEr0001"><li>
+If there was a total of 21 stages, interpret <m>\displaystyle{ \sum_{j=1}^{12}t_j }</m>.</p>
+<p><m>\displaystyle{ \sum_{j=1}^{12}t_j}</m> represents <ul form="popup" name="AnSwEr0001"><li>
 <p>?</p>
 </li><li>
-<p>the average time it took 8 cyclists to ride each stage.</p>
+<p>the average time it took 12 cyclists to ride each stage.</p>
 </li><li>
-<p>the time to ride the first 8 stages.</p>
+<p>the time to ride the first 12 stages.</p>
 </li><li>
-<p>the average distance rode afters 8 stages.</p>
+<p>the average distance rode afters 12 stages.</p>
 </li></ul></p>
 </statement>
     <answer>
       <p>
-        <m>\text{the time to ride the first 8 stages.}</m>
+        <m>\text{the time to ride the first 12 stages.}</m>
       </p>
     </answer>
   </static>

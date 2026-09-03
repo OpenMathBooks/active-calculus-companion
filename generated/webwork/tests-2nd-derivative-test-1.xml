@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tests-2nd-derivative-test-1" assembly-id="tests-2nd-derivative-test-1">
-  <static seed="248" source="Library/NAU/setCalcI/secondDerTest.pg">
+  <static seed="313" source="Library/NAU/setCalcI/secondDerTest.pg">
     <statement><p>The function <m>f</m> has  a continuous
-second derivative, and it satisfies <m>f(3) = -7</m>, <m>f'(3) = 0</m> and <m>f''(3) = 2</m>.</p>
+second derivative, and it satisfies <m>f(6) = -5</m>, <m>f'(6) = 0</m> and <m>f''(6) = -1</m>.</p>
 <p>We can conclude that
 <var form="buttons">
 <li>
-<p><m>f</m> has a local minimum at 3</p>
+<p><m>f</m> has neither a local maximum nor a local minimum at 6.</p>
 </li>
 <li>
-<p><m>f</m> has neither a local maximum nor a local minimum at 3</p>
+<p><m>f</m> has a local minimum at 6.</p>
 </li>
 <li>
-<p><m>f</m> has a local maximum at 3</p>
+<p><m>f</m> has a local maximum at 6.</p>
 </li>
 <li>
 <p>We cannot determine if A, B, or C hold without more information.</p>

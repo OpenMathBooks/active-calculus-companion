@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-2" assembly-id="derivatives-trig-adv-prod-2">
-  <static seed="137" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg">
+  <static seed="202" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg">
     <statement><p>Differentiate <m>y =\csc{x}(x+\cot{x})</m>.</p>
 <p><m>y' =</m> <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-lines-1" assembly-id="implicit-lines-1">
-  <static seed="195" source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg">
+  <static seed="260" source="Contrib/Utah/Intermediate_Algebra/2.1/pr2.pg">
     <statement><p><CENTER/></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/implicit-lines-1-image-1.png" width="50%"/>
 <p/>
@@ -14,7 +14,7 @@ negative, zero or does not exist.</p>
 </statement>
     <answer>
       <p>
-        <m>\text{zero}</m>
+        <m>\text{does not exist}</m>
       </p>
     </answer>
     <answer>
@@ -24,7 +24,7 @@ negative, zero or does not exist.</p>
     </answer>
     <answer>
       <p>
-        <m>\text{does not exist}</m>
+        <m>\text{zero}</m>
       </p>
     </answer>
   </static>

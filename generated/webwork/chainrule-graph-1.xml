@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-graph-1" assembly-id="chainrule-graph-1">
-  <static seed="167" source="Library/Michigan/Chap3Sec4/Q57.pg">
+  <static seed="232" source="Library/Michigan/Chap3Sec4/Q57.pg">
     <statement><p>Use the figures below to evaluate the indicated derivative, or state
 that it does not exist.  If the derivative does not exist, enter
 <alert>dne</alert> in the answer blank.  The graph to the left (in
 black) gives <m>f(x)</m>, while the graph to the right gives <m>g(x)</m>
-(which is constant for values of <m>x</m> greater than 20).</p>
+(which is constant for values of <m>x</m> greater than 60).</p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
 <row>
 <cell>
@@ -20,19 +20,19 @@ black) gives <m>f(x)</m>, while the graph to the right gives <m>g(x)</m>
 <cell><m>g(x)</m></cell>
 </row>
 </tabular>
-<p><m>\frac{d}{dx}f(g(x))|_{x=10} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
+<p><m>\frac{d}{dx}f(g(x))|_{x=45} =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 <p><em>(If the derivative does not exist, enter
 <alert>dne</alert>.)</em></p>
 </statement>
     <answer>
       <p>
-        <m>0.666667</m>
+        <m>0.5</m>
       </p>
     </answer>
     <solution><p>The chain rule gives</p>
 <p><m>\displaystyle
-  \frac{d}{dx}f(g(x))\bigg|_{x=10} = f'(g(10)) g'(10)=
-  f'(30) (1) = (0.6667)(1) = 0.6667.</m></p>
+  \frac{d}{dx}f(g(x))\bigg|_{x=45} = f'(g(45)) g'(45)=
+  f'(82.5) (0.5) = (1)(0.5) = 0.5.</m></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Michigan/Chap3Sec4/Q57.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

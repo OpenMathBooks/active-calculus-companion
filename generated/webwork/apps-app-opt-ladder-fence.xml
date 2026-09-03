@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-ladder-fence" assembly-id="apps-app-opt-ladder-fence">
-  <static seed="276" source="Library/Union/setDervOptimization/nsc4_6_16.pg">
-    <statement><p>A fence 6 feet tall runs parallel to a tall building at a distance
-of 2 feet from the building.</p>
+  <static seed="341" source="Library/Union/setDervOptimization/nsc4_6_16.pg">
+    <statement><p>A fence 7 feet tall runs parallel to a tall building at a distance
+of 4 feet from the building.</p>
 <p>What is the length of the shortest ladder that will
 reach from the ground over the fence to the wall of the building?</p>
 <p>Length of ladder = <fillin characters="20" name="AnSwEr0001"/> feet.</p>
 </statement>
     <answer>
       <p>
-        <m>10.8112</m>
+        <m>15.3601</m>
       </p>
     </answer>
   </static>

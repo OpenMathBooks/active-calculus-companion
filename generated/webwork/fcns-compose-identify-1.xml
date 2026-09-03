@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-identify-1" assembly-id="fcns-compose-identify-1">
-  <static seed="153" source="Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg">
-    <statement><p>Express the function <m>y = \sqrt{ x^2 + 9 }</m> 
+  <static seed="218" source="Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg">
+    <statement><p>Express the function <m>y = \sqrt{ x^2 + 3 }</m> 
 as a composition <m>y = f(g(x))</m> of two simpler
 functions <m>y = f(u)</m> and <m>u = g(x)</m>.</p>
 <p><m>f(u)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
@@ -11,7 +11,7 @@ functions <m>y = f(u)</m> and <m>u = g(x)</m>.</p>
       <p>sqrt(u)</p>
     </answer>
     <answer>
-      <p>x^2+9</p>
+      <p>x^2+3</p>
     </answer>
   </static>
   <rendering-data sourceFilePath="Library/FortLewis/Algebra/8-2-Function-composition/MCH1-8-2-09-Function-composition.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

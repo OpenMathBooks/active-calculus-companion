@@ -21,7 +21,8 @@
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
 <style>
 @counter-style ptx-marker-1 { system: extends lower-alpha; prefix: ''; suffix: '. '; }
-@counter-style ptx-marker-2 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
+@counter-style ptx-marker-2 { system: extends upper-alpha; prefix: ''; suffix: ' '; }
+@counter-style ptx-marker-3 { system: extends upper-alpha; prefix: ''; suffix: '. '; }
 </style>
 <script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
 startMathJax({
@@ -40,7 +41,7 @@ lang: "en-US",
 <meta name="twitter:description" content="The Active Calculus Companion is intended to give students using Active Calculus (Single Variable) additional practice exercises, as well as help them sure up foundational skills. Note: this book is still in early draft form.">
 <meta property="og:description" content="The Active Calculus Companion is intended to give students using Active Calculus (Single Variable) additional practice exercises, as well as help them sure up foundational skills. Note: this book is still in early draft form.">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.52"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.52"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -62,14 +63,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '8.2.9';
+eBookConfig.runestone_version = '8.2.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.5ef53875c58b216b.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<script src="_static/prefix-runtime.e3f9706509fcf6f7.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.c5ba0ffa5f963084.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
 <script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="_static/pretext/js/dist/pretext-webwork.js"></script><script src="https://webwork.runestone.academy/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -151,36 +152,36 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-3-derivative-pt.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The derivative of a function at a point</span></a></div>
 <ul id="ptx-toc-group-sec-1-3-derivative-pt" class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-4" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Additional Section Exercises</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-5" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Foundational Exercises</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-2" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-3-derivative-pt.html#sec-1-3-derivative-pt-3" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html" class="internal"><span class="codenumber">1.4</span> <span class="title">The derivative function</span></a></div>
 <ul id="ptx-toc-group-sec-1-4-derivative-fxn" class="structural toc-item-list">
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-2" class="internal"><span class="codenumber">1.4</span> <span class="title">Additional Practice</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-3" class="internal"><span class="codenumber">1.4</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-2" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-4-derivative-fxn.html#sec-1-4-derivative-fxn-3" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-5-units.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Interpreting, estimating, and using the derivative</span></a></div>
 <ul id="ptx-toc-group-sec-1-5-units" class="structural toc-item-list">
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-2" class="internal"><span class="codenumber">1.5</span> <span class="title">Additional Practice</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-3" class="internal"><span class="codenumber">1.5</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-2" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-5-units.html#sec-1-5-units-3" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-6-second-d.html" class="internal"><span class="codenumber">1.6</span> <span class="title">The second derivative</span></a></div>
 <ul id="ptx-toc-group-sec-1-6-second-d" class="structural toc-item-list">
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-2" class="internal"><span class="codenumber">1.6</span> <span class="title">Additional Practice</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-3" class="internal"><span class="codenumber">1.6</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-2" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-6-second-d.html#sec-1-6-second-d-3" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Limits, continuity, and differentiability</span></a></div>
 <ul id="ptx-toc-group-sec-1-7-lim-cont-diff" class="structural toc-item-list">
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-2" class="internal"><span class="codenumber">1.7</span> <span class="title">Additional Practice</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-3" class="internal"><span class="codenumber">1.7</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-2" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Foundations</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-1-7-lim-cont-diff.html#sec-1-7-lim-cont-diff-3" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Calculus Practice</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -364,10 +365,10 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Calculus Practice</span>
 </h2>
 <article class="exercise exercise-like" id="derivatives-trig-adv-1"><h3 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="133" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="198" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_40.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-derivatives-trig-adv-1-1-1-1">Let <span class="process-math">\(f(x) = 7 \csc x\text{.}\)</span>  Find the requested derivatives.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-derivatives-trig-adv-1-1-1-1">Let <span class="process-math">\(f(x) = 9 \sec x\text{.}\)</span>  Find the requested derivatives.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="extracted-derivatives-trig-adv-1-1-1-2">
 <span class="process-math">\(f'(x) =\)</span><span class="fillin underline" role="img" aria-label="25-character blank" style="width: 11.3636363636364em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -381,9 +382,9 @@ eBookConfig.enable_chatcodes =  false;
 <em class="alert">Solution:</em><div class="displaymath process-math" id="extracted-derivatives-trig-adv-1-1-4-2">
 \begin{equation*}
 \begin{array}{rcl}
-f'(x) \amp =\amp  -7 \csc x \cot x \\
-f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \\
-\amp =\amp  7( \csc^3 x + \csc x \cot^2 x)
+f'(x) \amp =\amp  9 \sec x \tan x \\
+f''(x) \amp =\amp  9\big((\sec x)(\sec^2 x) + (\sec x \tan x)(\tan x)\big) \\
+\amp =\amp  9(\sec^3 x + \sec x \tan^2 x)
 \end{array}
 \end{equation*}
 </div>
@@ -395,7 +396,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.1"><a tabindex="-1" href="#derivatives-trig-adv-1" title="Copy heading and permalink for Exercise 2.4.2.1" aria-label="Copy heading and permalink for Exercise 2.4.2.1">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-2"><h3 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="134" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_e.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="199" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_e.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-2-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-2-1-1-1">Let <span class="process-math">\(w(x) = \sqrt{x}+\tan\mathopen{}\left(x\right)\text{.}\)</span> Which of the following best describes its fundamental algebraic structure?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -445,7 +446,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.2"><a tabindex="-1" href="#derivatives-trig-adv-2" title="Copy heading and permalink for Exercise 2.4.2.2" aria-label="Copy heading and permalink for Exercise 2.4.2.2">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-prod-1"><h3 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-prod-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="135" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-prod-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="200" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Westmont/ActiveCalculus/Preview_2_5/preview_2_5_b.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-prod-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-prod-1-1-1-1">Let <span class="process-math">\(p(x) = 2^{x}\tan\mathopen{}\left(x\right)\text{.}\)</span> Which of the following best describes its fundamental algebraic structure?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -495,10 +496,10 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.3"><a tabindex="-1" href="#derivatives-trig-adv-prod-1" title="Copy heading and permalink for Exercise 2.4.2.3" aria-label="Copy heading and permalink for Exercise 2.4.2.3">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-quot-1"><h3 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-quot-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="136" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/ma122DB/set4b/s3_4_9.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-quot-1-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="201" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/ma122DB/set4b/s3_4_9.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-quot-1-ww-inner')">Activate</button></div>
 <div class="problem-contents">
-<div class="para" id="extracted-derivatives-trig-adv-quot-1-1-1-1">Let <span class="process-math">\(\displaystyle f(x) =\frac { 2 \tan x }{ x }\text{.}\)</span> Find <span class="process-math">\(f'( x ).\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="extracted-derivatives-trig-adv-quot-1-1-1-1">Let <span class="process-math">\(\displaystyle f(x) =\frac { 3 \tan x }{ x }\text{.}\)</span> Find <span class="process-math">\(f'( x ).\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="extracted-derivatives-trig-adv-quot-1-1-1-2">Answer: <span class="fillin underline" role="img" aria-label="50-character blank" style="width: 22.7272727272727em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-1-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -507,7 +508,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.4"><a tabindex="-1" href="#derivatives-trig-adv-quot-1" title="Copy heading and permalink for Exercise 2.4.2.4" aria-label="Copy heading and permalink for Exercise 2.4.2.4">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-prod-2"><h3 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-prod-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="137" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-prod-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="202" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UCSB/Stewart5_3_4/Stewart5_3_4_14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-prod-2-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-prod-2-1-1-1">Differentiate <span class="process-math">\(y =\csc{x}(x+\cot{x})\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -520,7 +521,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.5"><a tabindex="-1" href="#derivatives-trig-adv-prod-2" title="Copy heading and permalink for Exercise 2.4.2.5" aria-label="Copy heading and permalink for Exercise 2.4.2.5">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-quot-2"><h3 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-quot-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="138" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Union/setDervTrigonometric/s2_4_31.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-quot-2-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="203" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Union/setDervTrigonometric/s2_4_31.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-quot-2-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-quot-2-1-1-1">Let <span class="process-math">\(f(x) = \displaystyle \frac{3x^{2}\tan\mathopen{}\left(x\right)}{\sec\mathopen{}\left(x\right)}\text{.}\)</span>  Find the following:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -543,7 +544,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.6"><a tabindex="-1" href="#derivatives-trig-adv-quot-2" title="Copy heading and permalink for Exercise 2.4.2.6" aria-label="Copy heading and permalink for Exercise 2.4.2.6">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-prod-3"><h3 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-prod-3-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="139" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-prod-3-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="204" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-prod-3-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-prod-3-1-1-1">Compute the derivative of the given function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -551,7 +552,7 @@ f''(x) \amp =\amp  0a\big( (\csc x)(-\csc^2 x) + (-\csc x \cot x)(\cot x)\big) \
 <div class="para logical" id="extracted-derivatives-trig-adv-prod-3-1-1-2">
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-3-1-1-2-1">
 \begin{equation*}
-f(t) = \frac{1}{t^{3}} \left( \tan t + 8 \right)
+f(t) = \frac{1}{t^{4}} \left( \tan t + 2 \right)
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-3-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -564,7 +565,7 @@ f(t) = \frac{1}{t^{3}} \left( \tan t + 8 \right)
 <div class="solution solution-like knowl__content">
 <em class="alert">Solution:</em><div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-3-1-3-2">
 \begin{equation*}
-f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).
+f'(t) = (t^{-4})(\sec^2 t) + (-4 t^{-5})(\tan t + 2).
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Solution 2.4.2.7.1"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-3-1-3" title="Copy heading and permalink for Solution 2.4.2.7.1" aria-label="Copy heading and permalink for Solution 2.4.2.7.1">🔗</a></div>
@@ -575,7 +576,7 @@ f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.7"><a tabindex="-1" href="#derivatives-trig-adv-prod-3" title="Copy heading and permalink for Exercise 2.4.2.7" aria-label="Copy heading and permalink for Exercise 2.4.2.7">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-quot-3"><h3 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-quot-3-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="140" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UMN/calculusStewartCCC/s_3_3_8.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-quot-3-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="205" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/UMN/calculusStewartCCC/s_3_3_8.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-quot-3-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-quot-3-1-1-1">Differentiate <span class="process-math">\(\displaystyle f(t) = \frac{\cot t}{e^t}.\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-3-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -588,7 +589,7 @@ f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.8"><a tabindex="-1" href="#derivatives-trig-adv-quot-3" title="Copy heading and permalink for Exercise 2.4.2.8" aria-label="Copy heading and permalink for Exercise 2.4.2.8">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-prod-4"><h3 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-prod-4-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="141" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-prod-4-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="206" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_28.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-prod-4-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-prod-4-1-1-1">Compute the derivative of the given function.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -596,7 +597,7 @@ f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).
 <div class="para logical" id="extracted-derivatives-trig-adv-prod-4-1-1-2">
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-4-1-1-2-1">
 \begin{equation*}
-f(x) = x^{-9} e^x \cot x
+f(x) = x^{-11} e^x \cot x
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-4-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -610,12 +611,12 @@ f(x) = x^{-9} e^x \cot x
 <em class="alert">Solution:</em><div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-4-1-3-2">
 \begin{equation*}
 \begin{array}{rcl}
-f'(x) \amp =\amp  x^{-9} \cdot \frac{d}{dx}[ e^x \cot x]
-+ \frac{d}{dx}[ x^{-9} ] \cdot (e^x \cot x) \\
-\amp =\amp  x^{-9}\left( e^x \frac{d}{dx}[ \cot x ] + \frac{d}{dx}[e^x] \cot x \right)
-- 9 x^{-10} (e^x \cot x) \\
-\amp =\amp  x^{-9} (e^x( -\csc^2 x) + e^x \cot x)  - 9 x^{-10} e^x \cot x \\
-\amp =\amp  x^{-9} e^x( -\csc^2 x) + x^{-9} e^x \cot x  - 9 x^{-10} e^x \cot x \\
+f'(x) \amp =\amp  x^{-11} \cdot \frac{d}{dx}[ e^x \cot x]
++ \frac{d}{dx}[ x^{-11} ] \cdot (e^x \cot x) \\
+\amp =\amp  x^{-11}\left( e^x \frac{d}{dx}[ \cot x ] + \frac{d}{dx}[e^x] \cot x \right)
+- 11 x^{-12} (e^x \cot x) \\
+\amp =\amp  x^{-11} (e^x( -\csc^2 x) + e^x \cot x)  - 11 x^{-12} e^x \cot x \\
+\amp =\amp  x^{-11} e^x( -\csc^2 x) + x^{-11} e^x \cot x  - 11 x^{-12} e^x \cot x \\
 \end{array}
 \end{equation*}
 </div>
@@ -627,14 +628,14 @@ f'(x) \amp =\amp  x^{-9} \cdot \frac{d}{dx}[ e^x \cot x]
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.9"><a tabindex="-1" href="#derivatives-trig-adv-prod-4" title="Copy heading and permalink for Exercise 2.4.2.9" aria-label="Copy heading and permalink for Exercise 2.4.2.9">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-quot-4"><h3 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-quot-4-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="142" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-quot-4-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="207" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-quot-4-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para logical" id="extracted-derivatives-trig-adv-quot-4-1-1-1">
 <div class="para">Find <span class="process-math">\(f'(x)\)</span> for</div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-4-1-1-1-2">
 \begin{equation*}
-f(x)=\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)}
+f(x)=\frac{19\sec\mathopen{}\left(x\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-4-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -647,17 +648,17 @@ f(x)=\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\left(1+5\tan\mathopen{
 <div class="solution solution-like knowl__content">
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-4-1-3-1">
 \begin{equation*}
-f'(x)=\frac{d}{dx}\left(\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)}\right)=\frac{15}{19}\frac{\frac{d}{dx}[\sec\mathopen{}\left(x\right)]\cdot (1+5\tan\mathopen{}\left(x\right))-\frac{d}{dx}[1+5\tan\mathopen{}\left(x\right)]\cdot \sec\mathopen{}\left(x\right)}{(1+5 \tan(x))^2}
+f'(x)=\frac{d}{dx}\left(\frac{19\sec\mathopen{}\left(x\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}\right)=\frac{19}{4}\frac{\frac{d}{dx}[\sec\mathopen{}\left(x\right)]\cdot (1+2\tan\mathopen{}\left(x\right))-\frac{d}{dx}[1+2\tan\mathopen{}\left(x\right)]\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}
 \end{equation*}
 </div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-4-1-3-2">
 \begin{equation*}
-=\frac{15}{19}\frac{\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cdot (1+5\tan\mathopen{}\left(x\right))-5\sec^{2}\mathopen{}\left(x\right)\cdot \sec\mathopen{}\left(x\right)}{(1+5 \tan(x))^2}=\frac{15}{19}\frac{\sec(x)(\tan(x)+5(\tan^2(x)-\sec^2(x))}{(1+5 \tan(x))^2}
+=\frac{19}{4}\frac{\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cdot (1+2\tan\mathopen{}\left(x\right))-2\sec^{2}\mathopen{}\left(x\right)\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}=\frac{19}{4}\frac{\sec(x)(\tan(x)+2(\tan^2(x)-\sec^2(x))}{(1+2 \tan(x))^2}
 \end{equation*}
 </div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-4-1-3-3">
 \begin{equation*}
-=\frac{15}{19}\frac{\sec(x)(\tan(x)-5)}{(1+5 \tan(x))^2}=\frac{15\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-5\right)}{19\mathopen{}\left(1+5\tan\mathopen{}\left(x\right)\right)^{2}}
+=\frac{19}{4}\frac{\sec(x)(\tan(x)-2)}{(1+2 \tan(x))^2}=\frac{19\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-2\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)^{2}}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Solution 2.4.2.10.1"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-4-1-3" title="Copy heading and permalink for Solution 2.4.2.10.1" aria-label="Copy heading and permalink for Solution 2.4.2.10.1">🔗</a></div>
@@ -668,13 +669,13 @@ f'(x)=\frac{d}{dx}\left(\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\lef
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.10"><a tabindex="-1" href="#derivatives-trig-adv-quot-4" title="Copy heading and permalink for Exercise 2.4.2.10" aria-label="Copy heading and permalink for Exercise 2.4.2.10">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-prod-5"><h3 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-prod-5-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="143" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.6_Trigonometric_Functions/3.6.5.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-prod-5-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="208" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.6_Trigonometric_Functions/3.6.5.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-prod-5-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para" id="extracted-derivatives-trig-adv-prod-5-1-1-1">Use the Product Rule to find the derivative of <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="extracted-derivatives-trig-adv-prod-5-1-1-2">
-<span class="process-math">\(f(x) = \cot\mathopen{}\left(x\right)\sec\mathopen{}\left(x\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-5-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(f(x) = \sin\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\)</span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-5-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div> 
 <div class="para" id="extracted-derivatives-trig-adv-prod-5-1-1-3">
 <span class="process-math">\(f'(x) =\)</span> <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-5-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -682,9 +683,9 @@ f'(x)=\frac{d}{dx}\left(\frac{15\sec\mathopen{}\left(x\right)}{19\mathopen{}\lef
 <div class="solutions">
 <details id="extracted-derivatives-trig-adv-prod-5-1-3" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary>
 <div class="solution solution-like knowl__content">
-<span class="process-math">\(f(x)= \cot\mathopen{}\left(x\right)\sec\mathopen{}\left(x\right)\text{.}\)</span><div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-5-1-3-2">
+<span class="process-math">\(f(x)= \sin\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\text{.}\)</span><div class="displaymath process-math" id="extracted-derivatives-trig-adv-prod-5-1-3-2">
 \begin{equation*}
-f'(x) =  \sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cot\mathopen{}\left(x\right)-\csc^{2}\mathopen{}\left(x\right)\sec\mathopen{}\left(x\right)
+f'(x) =  \sec^{2}\mathopen{}\left(x\right)\sin\mathopen{}\left(x\right)+\tan\mathopen{}\left(x\right)\cos\mathopen{}\left(x\right)
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Solution 2.4.2.11.1"><a tabindex="-1" href="#extracted-derivatives-trig-adv-prod-5-1-3" title="Copy heading and permalink for Solution 2.4.2.11.1" aria-label="Copy heading and permalink for Solution 2.4.2.11.1">🔗</a></div>
@@ -695,14 +696,14 @@ f'(x) =  \sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cot\mathopen
 <div class="autopermalink" aria-hidden="true" data-description="Exercise 2.4.2.11"><a tabindex="-1" href="#derivatives-trig-adv-prod-5" title="Copy heading and permalink for Exercise 2.4.2.11" aria-label="Copy heading and permalink for Exercise 2.4.2.11">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="derivatives-trig-adv-quot-5"><h3 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h3>
-<div id="derivatives-trig-adv-quot-5-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="144" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div id="derivatives-trig-adv-quot-5-ww-inner" class="exercise-wrapper" data-domain="https://webwork.runestone.academy" data-seed="209" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/Wiley/setAnton_Section_2.5/Anton2_5Q18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
 <div class="problem-buttons"><button class="webwork-button" onclick="handleWW('derivatives-trig-adv-quot-5-ww-inner')">Activate</button></div>
 <div class="problem-contents">
 <div class="para logical" id="extracted-derivatives-trig-adv-quot-5-1-1-1">
 <div class="para">Find <span class="process-math">\(f'(x)\)</span> for</div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-5-1-1-1-2">
 \begin{equation*}
-f(x)=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}
+f(x)=\frac{1\mathopen{}\left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{2-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-5-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -715,22 +716,22 @@ f(x)=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos
 <div class="solution solution-like knowl__content">
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-5-1-3-1">
 \begin{equation*}
-f(x)=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}=\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cot\mathopen{}\left(x\right)}
+f(x)=\frac{1\mathopen{}\left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{2-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)}=\frac{1\mathopen{}\left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{2-\cot\mathopen{}\left(x\right)}
 \end{equation*}
 </div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-5-1-3-2">
 \begin{equation*}
-f'(x)=\frac{d}{dx}(\frac{5\mathopen{}\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{1-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)})=5\frac{\frac{d}{dx}[\left(x^{2}+4\right)\cot\mathopen{}\left(x\right)]\cdot (1-\cot\mathopen{}\left(x\right))-\frac{d}{dx}[1-\cot\mathopen{}\left(x\right)]\cdot \left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{(1-\cot\mathopen{}\left(x\right))^2}
+f'(x)=\frac{d}{dx}(\frac{1\mathopen{}\left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{2-\cos\mathopen{}\left(x\right)\csc\mathopen{}\left(x\right)})=1\frac{\frac{d}{dx}[\left(x^{2}+5\right)\cot\mathopen{}\left(x\right)]\cdot (2-\cot\mathopen{}\left(x\right))-\frac{d}{dx}[2-\cot\mathopen{}\left(x\right)]\cdot \left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{(2-\cot\mathopen{}\left(x\right))^2}
 \end{equation*}
 </div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-5-1-3-3">
 \begin{equation*}
-=5\frac{[2x\cdot \cot\mathopen{}\left(x\right) - \csc^{2}\mathopen{}\left(x\right) \cdot (x^{2}+4)]\cdot  (1-\cot\mathopen{}\left(x\right))-[\csc^{2}\mathopen{}\left(x\right)]\cdot \left(x^{2}+4\right)\cot\mathopen{}\left(x\right)}{(1-\cot\mathopen{}\left(x\right))^2}
+=1\frac{[2x\cdot \cot\mathopen{}\left(x\right) - \csc^{2}\mathopen{}\left(x\right) \cdot (x^{2}+5)]\cdot  (2-\cot\mathopen{}\left(x\right))-[\csc^{2}\mathopen{}\left(x\right)]\cdot \left(x^{2}+5\right)\cot\mathopen{}\left(x\right)}{(2-\cot\mathopen{}\left(x\right))^2}
 \end{equation*}
 </div>
 <div class="displaymath process-math" id="extracted-derivatives-trig-adv-quot-5-1-3-4">
 \begin{equation*}
-=\frac{5\mathopen{}\left(2x\cot\mathopen{}\left(x\right)-\left(x^{2}+4\right)\csc^{2}\mathopen{}\left(x\right)-2x\cot^{2}\mathopen{}\left(x\right)\right)}{\left(1-\cot\mathopen{}\left(x\right)\right)^{2}}
+=\frac{4x\cot\mathopen{}\left(x\right)-2\mathopen{}\left(x^{2}+5\right)\csc^{2}\mathopen{}\left(x\right)-2x\cot^{2}\mathopen{}\left(x\right)}{\left(2-\cot\mathopen{}\left(x\right)\right)^{2}}
 \end{equation*}
 </div>
 <div class="autopermalink" aria-hidden="true" data-description="Solution 2.4.2.12.1"><a tabindex="-1" href="#extracted-derivatives-trig-adv-quot-5-1-3" title="Copy heading and permalink for Solution 2.4.2.12.1" aria-label="Copy heading and permalink for Solution 2.4.2.12.1">🔗</a></div>

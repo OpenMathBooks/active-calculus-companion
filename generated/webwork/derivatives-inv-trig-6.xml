@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-6" assembly-id="derivatives-inv-trig-6">
-  <static seed="191" source="Library/Union/setDervInverseTrig/ur_dr_6_1.pg">
-    <statement><p>Let <m>f(x) = \displaystyle 3x\sin^{-1}\mathopen{}\left(x\right)</m>.  Find <m>f'(x)</m>.</p>
+  <static seed="256" source="Library/Union/setDervInverseTrig/ur_dr_6_1.pg">
+    <statement><p>Let <m>f(x) = \displaystyle 4x\sin^{-1}\mathopen{}\left(x\right)</m>.  Find <m>f'(x)</m>.</p>
 <p><m>f'(x) =</m> <fillin characters="50" name="AnSwEr0001"/></p>
-<p>Find <m>f'( 0.7 )</m>.</p>
-<p><m>f'( 0.7 ) =</m><fillin characters="50" name="AnSwEr0002"/></p>
+<p>Find <m>f'( 0.3 )</m>.</p>
+<p><m>f'( 0.3 ) =</m><fillin characters="50" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>3\sin^{-1}\mathopen{}\left(x\right)+3x\frac{1}{\sqrt{1-x^{2}}}</m>
+        <m>4\sin^{-1}\mathopen{}\left(x\right)+4x\frac{1}{\sqrt{1-x^{2}}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>5.26678</m>
+        <m>2.47671</m>
       </p>
     </answer>
   </static>

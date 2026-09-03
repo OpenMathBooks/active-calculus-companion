@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-1" assembly-id="derivrules-algebra-1">
-  <static seed="171" source="Library/AlfredUniv/gateway/calcI/misc/prob2.pg">
+  <static seed="236" source="Library/AlfredUniv/gateway/calcI/misc/prob2.pg">
     <statement><p>Find <m>\&gt;dy/dx\&gt;</m> if  <m>\&gt;y = e^{x}\sqrt{x^{2}+1}</m>.</p>
 <p><m>\frac{dy}{dx} =</m> <fillin characters="80" name="AnSwEr0001"/></p>
 </statement>

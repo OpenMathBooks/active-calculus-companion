@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-radicals-rational-1" assembly-id="exponents-radicals-rational-1">
-  <static seed="70" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
-    <statement><p>Simplify and write the following as a single rational exponent of <m>y</m>. If</p>
-<p><me>\displaystyle \frac{y^{7/6}}{y^{10/7}} = y^m</me></p>
+  <static seed="135" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_02.pg">
+    <statement><p>Simplify and write the following as a single rational exponent of <m>z</m>. If</p>
+<p><me>\displaystyle \frac{z^{5/6}}{z^{4/3}} = z^m</me></p>
 <p>then</p>
 <p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-{\frac{11}{42}}</m>
+        <m>-{\frac{1}{2}}</m>
       </p>
     </answer>
   </static>

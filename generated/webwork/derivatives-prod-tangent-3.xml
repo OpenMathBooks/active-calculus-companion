@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-tangent-3" assembly-id="derivatives-prod-tangent-3">
-  <static seed="129" source="Library/UVA-Stew5e/setUVA-Stew5e-C03S04-DerivsTrig/3-4-25.pg">
+  <static seed="194" source="Library/UVA-Stew5e/setUVA-Stew5e-C03S04-DerivsTrig/3-4-25.pg">
     <statement><p>Find the equation of the line that is tangent to the curve
- <me>y =   3 x \cos x</me>
-at the point <m>( \pi , -3 \pi)</m>.</p>
+ <me>y =   4 x \cos x</me>
+at the point <m>( \pi , -4 \pi)</m>.</p>
 <p>The equation of this tangent line can be written in the form <m>y = mx+b</m> where</p>
 <p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 <p>and <m>b =</m> <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>-3</m>
+        <m>-4</m>
       </p>
     </answer>
     <answer>
@@ -20,11 +20,11 @@ at the point <m>( \pi , -3 \pi)</m>.</p>
     </answer>
     <solution><p>SOLUTION</p>
 <p>The product rule gives
-<me>f'(x) = 3 \cos x - 3 x \sin x</me>
-The slope of the tangent line at <m>( \pi , -3 \pi)</m> is
-<me>m = f'(\pi) = -3</me>
+<me>f'(x) = 4 \cos x - 4 x \sin x</me>
+The slope of the tangent line at <m>( \pi , -4 \pi)</m> is
+<me>m = f'(\pi) = -4</me>
 So the equation of the tangent line is 
-<me>y  + 3 \pi = -3 (x - \pi) \quad \text{or}  \quad y = -3 x</me></p>
+<me>y  + 4 \pi = -4 (x - \pi) \quad \text{or}  \quad y = -4 x</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/UVA-Stew5e/setUVA-Stew5e-C03S04-DerivsTrig/3-4-25.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

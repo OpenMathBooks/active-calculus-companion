@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-calculating1" assembly-id="riemannsums-calculating1">
-  <static seed="302" source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg">
+  <static seed="367" source="Library/UCSB/Stewart5_6_1/Stewart5_6_1_39.pg">
     <statement><p>Racing cars driven by Chris and Kelly are side by side at the start of a race.  The table shows the velocities of each car (in miles per hour) during the first ten seconds of the race.</p>
 <p><me>\begin{array}{|c|c|c|}\hline
 t \amp  v_C \amp  v_K \\ \hline

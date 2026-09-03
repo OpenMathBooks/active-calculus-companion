@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-5" assembly-id="derivatives-prod-basic-5">
-  <static seed="108" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_28.pg">
+  <static seed="173" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_28.pg">
     <statement><p>If <m>f(x)=\sqrt{x}\sin{x}</m>, find <m>f'(x)</m>.</p>
 <p><m>f'(x) =</m> <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>

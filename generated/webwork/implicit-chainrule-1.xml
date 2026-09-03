@@ -1,32 +1,32 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-chainrule-1" assembly-id="implicit-chainrule-1">
-  <static seed="197" source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg">
+  <static seed="262" source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg">
     <statement><p>Compute implicit derivatives of the following expressions</p>
 <p>Write <m>y'</m> for <m>\frac{dy}{dx}</m>.</p>
-<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[3+x+4y\Biggr] =</m>
+<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[4y-\left(4+4x\right)\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
-<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[x^{2}y^{4}+y\Biggr] =</m>
+<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[x^{2}y+y\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0002"/></p>
-<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\frac{y+2}{x-1}\Biggr] =</m>
+<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\frac{y+4}{x-1}\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0003"/></p>
 <p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[e^{x^{3}+y^{3}}\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0004"/></p>
-<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\ln\mathopen{}\left(x^{2}y^{2}\right)\Biggr] =</m>
+<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\ln\mathopen{}\left(x^{2}y\right)\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0005"/></p>
 </statement>
     <answer>
       <p>
-        <m>1+4y'</m>
+        <m>4y'-4</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2xy^{4}+4x^{2}y^{3}y'+y'</m>
+        <m>2xy+x^{2}y'+y'</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{y'\mathopen{}\left(x-1\right)-\left(y+2\right)}{\left(x-1\right)^{2}}</m>
+        <m>\frac{y'\mathopen{}\left(x-1\right)-\left(y+4\right)}{\left(x-1\right)^{2}}</m>
       </p>
     </answer>
     <answer>
@@ -36,7 +36,7 @@
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{x}+2\frac{y'}{y}</m>
+        <m>\frac{2}{x}+\frac{y'}{y}</m>
       </p>
     </answer>
   </static>

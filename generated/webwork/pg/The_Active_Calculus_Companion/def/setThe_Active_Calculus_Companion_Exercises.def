@@ -18,6 +18,34 @@ source_file = Contrib/CCCS/CollegeAlgebra/3.3/RRCC_CCCS_Openstax_AlgTrig_AT-1-00
 problem_id = 3
 problem_end
 problem_start
+source_file = csafranski/1.1HW_prob1.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ma122DB/set1/ns_2_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = csafranski/1.1HW_prob4.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q07.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q06.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q18.pg
+problem_id = 10
+problem_end
+problem_start
 source_file = Library/UMN/calculusStewartCCC/s_2_2_5.pg
 problem_id = 1
 problem_end
@@ -86,6 +114,214 @@ source_file = Library/Rochester/setLimitsRates6Rates/s1_6_14.pg
 problem_id = 17
 problem_end
 problem_start
+source_file = csafranski/1.2HW_prob1.pg
+problem_id = 18
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_2_3_4.pg
+problem_id = 19
+problem_end
+problem_start
+source_file = Library/Union/setLimitConcepts/s1_3_19.pg
+problem_id = 20
+problem_end
+problem_start
+source_file = Library/UMN/calculusStewartCCC/s_2_3_18.pg
+problem_id = 21
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec1/Q18.pg
+problem_id = 22
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec8/Q13.pg
+problem_id = 23
+problem_end
+problem_start
+source_file = csafranski/1.2HW_prob7.pg
+problem_id = 24
+problem_end
+problem_start
+source_file = Library/Wiley/setAnton_Section_2.2/Anton2_2Q32.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Hope/Calc1/APEX_02_01_Deriv_def/Limit_01.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Hope/Calc1/APEX_02_01_Deriv_def/Limit_02.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_3_2_4.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec2/Q15.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec1/Q05.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = csafranski/1.3HW_prob3.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.1_Definition_of_the_Derivative/3.1.11.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec2/Q09.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec2/Q13.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/ASU-topics/setRateChange/3-3-17.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = csafranski/1.3HW_prob8.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = csafranski/1.3HW_prob9.pg
+problem_id = 13
+problem_end
+problem_start
+source_file = Library/AlfredUniv/anton8e/chapter3/3.2/prob3.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = The_Active_Calculus_Companion/1_4_2_2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/ma122DB/set3/s2_9_19.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec3/Q09.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec3/Q31.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = csafranski/1.4HW_prob3.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec3/Q41.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec3/Q37.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = csafranski/1.4HW_prob6.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = csafranski/1.4HW_prob7.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec3/Q15.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = csafranski/1.4HW_prob9.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = csafranski/1.5HW_prob1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec4/Q03.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec4/Q11.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec4/Q15.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = csafranski/1.5HW_prob5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q01.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q21.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q13.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q16.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q19.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec5/Q03.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = csafranski/1.6HW_prob7.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/Rochester/setDerivatives1/nsc2s10p1_mo.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = csafranski/1.6HW_prob9.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = csafranski/1.7HW_prob1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec8/Q21.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = csafranski/1.7HW_prob3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec6/Q02.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec7/Q19.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/UBC/setContinuity/graphs.pg
+problem_id = 6
+problem_end
+problem_start
 source_file = Contrib/METU-NCC/MAT101/Final/Tangent.pg
 problem_id = 1
 problem_end
@@ -112,6 +348,30 @@ problem_end
 problem_start
 source_file = The_Active_Calculus_Companion/1_8_2_7.pg
 problem_id = 7
+problem_end
+problem_start
+source_file = Library/Michigan/Chap2Sec2/Q11.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = csafranski/1.8HW_prob2.pg
+problem_id = 9
+problem_end
+problem_start
+source_file = csafranski/1.8HW_prob3.pg
+problem_id = 10
+problem_end
+problem_start
+source_file = Library/ma122DB/set7/s3_11_9.pg
+problem_id = 11
+problem_end
+problem_start
+source_file = Library/Michigan/Chap3Sec9/Q11.pg
+problem_id = 12
+problem_end
+problem_start
+source_file = Library/Valdosta/APEX_Calculus/2.2/APEX_2.2_8.pg
+problem_id = 13
 problem_end
 problem_start
 source_file = Library/ASU-topics/setDerivativeBasicFunctions/3-4-01.pg

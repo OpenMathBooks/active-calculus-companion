@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-area-velocity" assembly-id="riemannsums-area-velocity">
-  <static seed="299" source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg">
+  <static seed="364" source="Library/Rochester/setIntegrals0Theory/S05.01.AreaDistance.PTP03.pg">
     <statement><p>Your task is to estimate how far an object traveled during the time interval <m>0 \leq t \leq 8</m>, but you only have the following data about the velocity of the object.</p>
 <tabular bottom="medium" left="medium" right="medium" top="medium">
 <row>
@@ -17,11 +17,11 @@
 </row>
 <row>
 <cell>velocity (feet/sec)</cell>
+<cell>-3</cell>
 <cell>-2</cell>
 <cell>-1</cell>
-<cell>3</cell>
-<cell>4</cell>
-<cell>3</cell>
+<cell>-4</cell>
+<cell>2</cell>
 <cell>1</cell>
 <cell>3</cell>
 <cell>1</cell>
@@ -61,22 +61,22 @@ Your sketch looks something like the black curve in the graph below.</p>
 </statement>
     <answer>
       <p>
-        <m>12\ {\rm ft}</m>
+        <m>-3\ {\rm ft}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>18\ {\rm ft}</m>
+        <m>17\ {\rm ft}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2\ {\rm ft}</m>
       </p>
     </answer>
     <answer>
       <p>
         <m>16\ {\rm ft}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>18\ {\rm ft}</m>
       </p>
     </answer>
     <solution><alert>Solution:</alert>
@@ -91,11 +91,11 @@ Using the left endpoint Riemann sum, the total displacement is the net area of t
 
 
 
-Total displacement = <m>-2 - 1+3+4+3+1+3+1 = 12</m> feet.
+Total displacement = <m>-3 - 2 - 1 - 4+2+1+3+1 = -3</m> feet.
 
 
 
-Total distance = <m>|-2|+|-1|+|3|+|4|+|3|+|1|+|3|+|1| = 18</m> feet.
+Total distance = <m>|-3|+|-2|+|-1|+|-4|+|2|+|1|+|3|+|1| = 17</m> feet.
 
 
 
@@ -107,11 +107,11 @@ We can also make similar calculations using the right endpoint Riemann sum.
 
 
 
-Total displacement = <m>-1+3+4+3+1+3+1+2 = 16</m> feet.
+Total displacement = <m>-2 - 1 - 4+2+1+3+1+2 = 2</m> feet.
 
 
 
-Total distance = <m>|-1|+|3|+|4|+|3|+|1|+|3|+|1|+|2| = 18</m> feet.
+Total distance = <m>|-2|+|-1|+|-4|+|2|+|1|+|3|+|1|+|2| = 16</m> feet.
 
 
 

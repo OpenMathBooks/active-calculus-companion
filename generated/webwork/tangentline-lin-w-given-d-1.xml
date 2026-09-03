@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-lin-w-given-d-1" assembly-id="tangentline-lin-w-given-d-1">
-  <static seed="62">
+  <static seed="121">
     <statement><p>It turns out that the function <m>f(x) = {\frac{1}{x}}</m> has derivative <m>f'(x) = {\frac{-1}{x^{2}}}</m>.</p>
-<p>Find the linear approximation <m>L(x)</m> to <m>y={\frac{1}{x}}</m> at <m>x=8</m>.</p>
+<p>Find the linear approximation <m>L(x)</m> to <m>y={\frac{1}{x}}</m> at <m>x=-2</m>.</p>
 <p><m>L(x)=</m><fillin characters="31" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-0.015625\mathopen{}\left(x-8\right)+0.125</m>
+        <m>-0.25\mathopen{}\left(x-\left(-2\right)\right)+\left(-0.5\right)</m>
       </p>
     </answer>
   </static>

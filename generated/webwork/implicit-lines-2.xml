@@ -1,19 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-lines-2" assembly-id="implicit-lines-2">
-  <static seed="196" source="Library/ASU-topics/setLinesInPlane/lines2.pg">
-    <statement><p>What is the slope of the line through (-3,
--3) and (-3,2)?
+  <static seed="261" source="Library/ASU-topics/setLinesInPlane/lines2.pg">
+    <statement><p>What is the slope of the line through (2,
+7) and (-7,7)?
 If the slope is undefined, type <em> undefined</em>.</p>
 <p><fillin characters="30" name="AnSwEr0001"/></p>
-<p>What is the slope of the line through (4,
-10) and (10,7)?
+<p>What is the slope of the line through (0,
+3) and (0,-2)?
 If the slope is undefined, type <em> undefined</em>.</p>
 <p><fillin characters="30" name="AnSwEr0002"/></p>
-<p>What is the slope of the line through (-1,
-8) and (-6,8)?
+<p>What is the slope of the line through (8,
+-3) and (-2,-2)?
 If the slope is undefined, type <em> undefined</em>.</p>
 <p><fillin characters="30" name="AnSwEr0003"/></p>
 </statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
     <answer>
       <p>
         <m>\text{undefined}</m>
@@ -21,12 +26,7 @@ If the slope is undefined, type <em> undefined</em>.</p>
     </answer>
     <answer>
       <p>
-        <m>-0.5</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>0</m>
+        <m>-0.1</m>
       </p>
     </answer>
   </static>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-graph-1" assembly-id="derivatives-quot-graph-1">
-  <static seed="126" source="Library/Michigan/Chap3Sec3/Q33.pg">
+  <static seed="191" source="Library/Michigan/Chap3Sec3/Q33.pg">
     <statement><p>Use the figure below to estimate the indicated derivatives.  If a
 derivative does not exist, enter <alert>dne</alert> in the answer
 blank.  The graph of <m>f(x)</m> is black and has a sharp corner at 
@@ -21,7 +21,7 @@ blank.  The graph of <m>f(x)</m> is black and has a sharp corner at
 </statement>
     <answer>
       <p>
-        <m>\frac{-0.25\cdot 2\cdot 1-2\cdot \left(1-0.25\cdot 1\right)}{2\cdot 2}</m>
+        <m>\frac{-0.75\cdot 1\cdot 1-1\cdot \left(3-0.75\cdot 1\right)}{1\cdot 1}</m>
       </p>
     </answer>
     <answer>
@@ -31,7 +31,7 @@ blank.  The graph of <m>f(x)</m> is black and has a sharp corner at
     </answer>
     <answer>
       <p>
-        <m>\frac{-0.25\cdot \left(2\cdot 2-2\cdot \left(3-2\right)\right)-\left(1-0.25\cdot 3\right)\mathopen{}\left(-2\right)}{\left(2\cdot 2-2\cdot \left(3-2\right)\right)^{2}}</m>
+        <m>\frac{-0.75\cdot \left(1\cdot 2-1\cdot \left(3-2\right)\right)-\left(3-0.75\cdot 3\right)\mathopen{}\left(-1\right)}{\left(1\cdot 2-1\cdot \left(3-2\right)\right)^{2}}</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
@@ -39,20 +39,20 @@ blank.  The graph of <m>f(x)</m> is black and has a sharp corner at
 <m>j'(x) = (g'(x) \cdot f(x) - g(x) \cdot f'(x))/(f(x))^2</m>.
 We use slope to compute the derivatives.  Since <m>f(x)</m> is linear on
 the interval <m>0 \lt  x \lt  2</m>, we compute the slope of the line to see
-that <m>f'(x) = 2</m> on this interval.  Similarly, we compute the slope
-on the interval <m>2 \lt  x \lt  4</m> to see that <m>f'(x) = -2</m> on that
+that <m>f'(x) = 1</m> on this interval.  Similarly, we compute the slope
+on the interval <m>2 \lt  x \lt  4</m> to see that <m>f'(x) = -1</m> on that
 interval. 
 Since <m>f(x)</m> has a corner at <m>x = 2</m>, we know that
 <m>f'(2)</m> does not exist. 
 Similarly, <m>g(x)</m> is linear on the interval shown, and we see that
-the slope of <m>g(x)</m> on this interval is <m>-0.25</m> so we have 
-<m>g'(x) = -0.25</m>
+the slope of <m>g(x)</m> on this interval is <m>-0.75</m> so we have 
+<m>g'(x) = -0.75</m>
 on this interval.</p>
 <p><alert>A.</alert>
 We have
 <me>j'(1) = \frac{g'(1) \cdot f(1) - g(1) \cdot f'(1)}{(f(1))^2} 
-  = \frac{(-0.25) 2 - 0.75\cdot (2)}{2^2}
-  = -0.5.</me></p>
+  = \frac{(-0.75) 1 - 2.25\cdot (1)}{1^2}
+  = -3.</me></p>
 <p><alert>B.</alert>
 We have <m>j'(2) = (g'(2) \cdot f(2) - g(2) \cdot f'(2))/(f(2)^2)</m>.
 Since <m>f(x)</m> has a corner at <m>x = 2</m> we know that <m>f'(2)</m>
@@ -62,7 +62,7 @@ given here, and thus <m>j'(2)</m> does not exist.</p>
 <p><alert>C.</alert>
 We have 
 <me>j'(3) = \frac{g'(3) \cdot f(3) - g(3) \cdot f'(3)}{(f(3))^2} 
-= \frac{(-0.25) 2 - 0.25 (-2)}{2^2}
+= \frac{(-0.75) 1 - 0.75 (-1)}{1^2}
 = 0.</me></p>
 </solution>
   </static>

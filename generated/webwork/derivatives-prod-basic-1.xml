@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-1" assembly-id="derivatives-prod-basic-1">
-  <static seed="98" source="Library/UMN/calculusStewartCCC/s_3_2_10.pg">
-    <statement><p>Differentiate <m>\displaystyle R(t) = (6 t + e^t)(2 - \sqrt{t}).</m></p>
+  <static seed="163" source="Library/UMN/calculusStewartCCC/s_3_2_10.pg">
+    <statement><p>Differentiate <m>\displaystyle R(t) = (2 t + e^t)(3 - \sqrt{t}).</m></p>
 <p>Answer: <m>\displaystyle R'(t) =</m> <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>6\cdot 2-\frac{3}{2}\cdot 6\sqrt{t}+2e^{t}-\frac{1}{2}\frac{1}{\sqrt{t}}e^{t}-\sqrt{t}e^{t}</m>
+        <m>2\cdot 3-\frac{3}{2}\cdot 2\sqrt{t}+3e^{t}-\frac{1}{2}\frac{1}{\sqrt{t}}e^{t}-\sqrt{t}e^{t}</m>
       </p>
     </answer>
   </static>

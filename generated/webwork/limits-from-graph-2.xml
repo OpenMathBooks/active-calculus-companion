@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-graph-2" assembly-id="limits-from-graph-2">
-  <static seed="33" source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg">
+  <static seed="40" source="Library/Valdosta/APEX_Calculus/1.4/APEX_1.4_12.pg">
     <statement><p>Evaluate each expression using the given graph of <m>f(x)</m>.</p>
 <p>Enter <alert> DNE </alert> if the limit or value does not exist.</p>
 <p>If you are having a hard time seeing the picture clearly, click

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-3" assembly-id="derivatives-ln-3">
-  <static seed="180" source="Library/Michigan/Chap3Sec6/Q07.pg">
+  <static seed="245" source="Library/Michigan/Chap3Sec6/Q07.pg">
     <statement><p>Find the derivative of the function <m>f(x)</m>, below.</p>
-<p><m>f(x) = \ln(e^x + 20)</m></p>
+<p><m>f(x) = \ln(e^x + 3)</m></p>
 <p><m>f'(x) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{e^{x}}{e^{x}+20}</m>
+        <m>\frac{e^{x}}{e^{x}+3}</m>
       </p>
     </answer>
-    <solution><m>f'(x) = \frac{e^x}{e^x + 20}</m>
+    <solution><m>f'(x) = \frac{e^x}{e^x + 3}</m>
 
 
 

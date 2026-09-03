@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-denominator-1" assembly-id="derivatives-power-denominator-1">
-  <static seed="77" source="Library/Michigan/Chap3Sec1/Q11.pg">
+  <static seed="142" source="Library/Michigan/Chap3Sec1/Q11.pg">
     <statement><p>Find the derivative of 
-<m>\displaystyle{f(x)=\frac{1}{x^{11}} }</m>.</p>
+<m>\displaystyle{f(x)=\frac{1}{x^{15}} }</m>.</p>
 <p><m>f'(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-1\cdot 11x^{-1\cdot \left(11+1\right)}</m>
+        <m>-1\cdot 15x^{-1\cdot \left(15+1\right)}</m>
       </p>
     </answer>
-    <solution><m>f(x) = \frac{1}{x^{11}} = x^{-11}</m>, so
+    <solution><m>f(x) = \frac{1}{x^{15}} = x^{-15}</m>, so
 
-<me>f'(x) = -11 x^{-11 - 1} = -11 x^{-12}.</me>
+<me>f'(x) = -15 x^{-15 - 1} = -15 x^{-16}.</me>
 
 
 

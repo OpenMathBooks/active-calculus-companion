@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-3" assembly-id="def-int-areas-3">
-  <static seed="308" source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg">
+  <static seed="373" source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-3-image-1.png" width="66%"/>
 <p>A graph of <m>f(x) = \sqrt{1 - (x - 1)^2}</m> is shown above.  
 Using the geometry of the graph, evaluate the definite
@@ -11,7 +11,7 @@ integrals.</p>
  \, dx</m> = <fillin characters="20" name="AnSwEr0002"/></p>
 <p>c) <m>\displaystyle\int_0^{2} f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0003"/></p>
-<p>d) <m>\displaystyle\int_{0}^{2} -2 f(x)
+<p>d) <m>\displaystyle\int_{0}^{2} -5 f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0004"/></p>
 </statement>
     <answer>
@@ -31,7 +31,7 @@ integrals.</p>
     </answer>
     <answer>
       <p>
-        <m>-3.14159265358979</m>
+        <m>-7.85398163397448</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -61,8 +61,8 @@ c) This is the area of the semi-circle:
 
 
 d) Pull out the constant multiple.
-<me>\int_{0}^{2} -2 f(x) \, dx = -2
-  \int_{0}^{2} f(x) \, dx = -2\left(
+<me>\int_{0}^{2} -5 f(x) \, dx = -5
+  \int_{0}^{2} f(x) \, dx = -5\left(
   \dfrac{1 \pi}{2}\right).</me>
 
 

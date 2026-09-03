@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivative-limit-definition-1" assembly-id="derivative-limit-definition-1">
+  <static seed="76" source="Library/AlfredUniv/anton8e/chapter3/3.2/prob3.pg">
+    <statement><p>Let <m>\&gt;f(x) = -2x^{2}</m>.</p>
+<p>a) Find <m>\&gt;f(x+h)</m>: <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) Find <m>\&gt;f(x+h)-f(x)</m>: <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) Find <m>\&gt; \frac {f(x+h)-f(x)} {h}</m>: <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) Find <m>\&gt; f'(x)</m>: <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-2\mathopen{}\left(x+h\right)^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2x^{2}-2\mathopen{}\left(x+h\right)^{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{2x^{2}-2\mathopen{}\left(x+h\right)^{2}}{h}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-\left(4x\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/AlfredUniv/anton8e/chapter3/3.2/prob3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/AlfredUniv/anton8e/chapter3/3.2/prob3.pg"/>
+</webwork-reps>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-9" assembly-id="implicit-diff-9">
-  <static seed="207" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg">
-    <statement><p>If <m>51 + 8f(x) + x^2 \left( f(x) \right)^3 = 0</m> and <m>f(-1) = -3</m>,
+  <static seed="272" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_21.pg">
+    <statement><p>If <m>56 + 8f(x) + 5x^2 \left( f(x) \right)^3 = 0</m> and <m>f(-1) = -2</m>,
 find <m>f'(-1)</m>.</p>
 <p><m>f'(-1) =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-{\frac{54}{35}}</m>
+        <m>-{\frac{20}{17}}</m>
       </p>
     </answer>
   </static>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-lin-w-given-d-2" assembly-id="tangentline-lin-w-given-d-2">
-  <static seed="63">
-    <statement><p>The function <m>f(x) = x^{4}+2x^{2}-2</m> has derivative <m>f'(x) = 4x^{3}+4x</m>.</p>
-<p>Find the local linearization <m>L(x)</m> of <m>f</m> at <m>x=2.</m></p>
+  <static seed="122">
+    <statement><p>The function <m>f(x) = x^{4}-x^{2}+2</m> has derivative <m>f'(x) = 4x^{3}-2x</m>.</p>
+<p>Find the local linearization <m>L(x)</m> of <m>f</m> at <m>x=1.</m></p>
 <p><m>L(x) =</m> <fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>40\mathopen{}\left(x-2\right)+22</m>
+        <m>2\mathopen{}\left(x-1\right)+2</m>
       </p>
     </answer>
   </static>

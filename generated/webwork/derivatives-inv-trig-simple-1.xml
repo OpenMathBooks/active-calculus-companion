@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-simple-1" assembly-id="derivatives-inv-trig-simple-1">
-  <static seed="184" source="Library/Michigan/Chap3Sec6/Q17.pg">
+  <static seed="249" source="Library/Michigan/Chap3Sec6/Q17.pg">
     <statement><p>Find the derivative of the function <m>g(a)</m>, below.  It may be to
 your advantage to simplify before differentiating.</p>
 <p><m>g(a) = \tan(\arctan(3 a))</m></p>

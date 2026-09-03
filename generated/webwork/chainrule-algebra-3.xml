@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-3" assembly-id="chainrule-algebra-3">
-  <static seed="159" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg">
+  <static seed="224" source="Contrib/Valdosta/APEX_Calculus/2.5/APEX_2.5_16.pg">
     <statement><p>Compute the derivative of the given function.</p>
 <p><me>f(x) = \ln(\cos x)</me></p>
 <p><m>f'(x) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-prod-3" assembly-id="derivatives-trig-adv-prod-3">
-  <static seed="139" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg">
+  <static seed="204" source="Library/Valdosta/APEX_Calculus/2.4/APEX_2.4_16.pg">
     <statement><p>Compute the derivative of the given function.</p>
-<p><me>f(t) = \frac{1}{t^{3}} \left( \tan t + 8 \right)</me></p>
+<p><me>f(t) = \frac{1}{t^{4}} \left( \tan t + 2 \right)</me></p>
 <p><m>f'(t) =</m><fillin characters="25" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>t^{-3}\sec^{2}\mathopen{}\left(t\right)+\left(-3\right)t^{-4}\mathopen{}\left(\tan\mathopen{}\left(t\right)+8\right)</m>
+        <m>t^{-4}\sec^{2}\mathopen{}\left(t\right)+\left(-4\right)t^{-5}\mathopen{}\left(\tan\mathopen{}\left(t\right)+2\right)</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -18,7 +18,7 @@ Use the Product Rule.
 
 
 
-<me>f'(t) = (t^{-3})(\sec^2 t) + (-3 t^{-4})(\tan t + 8).</me>
+<me>f'(t) = (t^{-4})(\sec^2 t) + (-4 t^{-5})(\tan t + 2).</me>
 
 
 </solution>

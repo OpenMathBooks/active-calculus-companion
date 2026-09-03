@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-aircraft" assembly-id="rel-rates-aircraft">
-  <static seed="217" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg">
-    <statement><p>A aircraft is climbing at a 30 degree angle to the horizontal.  How fast is the aircraft gaining altitude if its speed is <m>\&gt;200\&gt;</m> mi/h?</p>
+  <static seed="282" source="Library/AlfredUniv/anton8e/chapter3/3.7/prob26.pg">
+    <statement><p>A aircraft is climbing at a 30 degree angle to the horizontal.  How fast is the aircraft gaining altitude if its speed is <m>\&gt;300\&gt;</m> mi/h?</p>
 <p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>100</m>
+        <m>150</m>
       </p>
     </answer>
   </static>

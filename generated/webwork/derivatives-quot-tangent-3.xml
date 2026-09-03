@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-tangent-3" assembly-id="derivatives-quot-tangent-3">
-  <static seed="132" source="Library/Rochester/instructiveProblems/OldProblems/ur_dr_4_1.pg">
-    <statement><p>Let <m>\displaystyle f(x)= \frac{6 \sin x}{2 \sin x + 4 \cos x}</m>.</p>
+  <static seed="197" source="Library/Rochester/instructiveProblems/OldProblems/ur_dr_4_1.pg">
+    <statement><p>Let <m>\displaystyle f(x)= \frac{8 \sin x}{4 \sin x + 6 \cos x}</m>.</p>
 <p>Then <m>f'(x) =</m> <fillin characters="40" name="AnSwEr0001"/>.</p>
-<p>The equation of the tangent line to <m>y=f(x)</m> at <m>a = \pi/3</m> can be written in the form <m>y=mx+b</m> where</p>
+<p>The equation of the tangent line to <m>y=f(x)</m> at <m>a = \pi/4</m> can be written in the form <m>y=mx+b</m> where</p>
 <p><m>m =</m> <fillin characters="20" name="AnSwEr0002"/> and</p>
 <p><m>b =</m> <fillin characters="20" name="AnSwEr0003"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>\frac{6\cdot 4}{\left(2\sin\mathopen{}\left(x\right)+4\cos\mathopen{}\left(x\right)\right)^{2}}</m>
+        <m>\frac{8\cdot 6}{\left(4\sin\mathopen{}\left(x\right)+6\cos\mathopen{}\left(x\right)\right)^{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>1.72312</m>
+        <m>0.96</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-0.412145</m>
+        <m>0.0460178</m>
       </p>
     </answer>
   </static>

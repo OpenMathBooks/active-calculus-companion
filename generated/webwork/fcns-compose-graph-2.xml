@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-fcns-compose-graph-2" assembly-id="fcns-compose-graph-2">
-  <static seed="146" source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_45.pg">
+  <static seed="211" source="Contrib/CCCS/CollegeAlgebra/3.4/Openstax_AlgTrig_AT-1-001-AS_3_4_45.pg">
     <statement><tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
 <cell>
@@ -18,17 +18,17 @@
 </row>
 </tabular>
 <p>Use the graphs of <m>y = f(x)</m> and <m>y = g(x)</m> above to the find the function value.</p>
-<p>(a) <m>(g\circ f)(3) =</m> <fillin characters="5" name="AnSwEr0001"/></p>
-<p>(b) <m>(g\circ g)(0) =</m> <fillin characters="5" name="AnSwEr0002"/></p>
+<p>(a) <m>(g\circ f)(0) =</m> <fillin characters="5" name="AnSwEr0001"/></p>
+<p>(b) <m>(g\circ g)(1) =</m> <fillin characters="5" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>0</m>
+        <m>4</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>0</m>
+        <m>4</m>
       </p>
     </answer>
   </static>

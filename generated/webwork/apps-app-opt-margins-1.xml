@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-margins-1" assembly-id="apps-app-opt-margins-1">
-  <static seed="271" source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg">
-    <statement><p>A printed poster is to have a total area of 740 square inches with top and
-bottom margins of 2 inches and side margins of 6 inches. What should be the
+  <static seed="336" source="Library/OSU/high_school_apcalc/dchmwk8/prob21.pg">
+    <statement><p>A printed poster is to have a total area of 757 square inches with top and
+bottom margins of 4 inches and side margins of 3 inches. What should be the
 dimensions of the poster so that the printed area be as large as possible?</p>
 <p>To solve this problem let <m>x</m> denote the width of the poster in inches and
 let <m>y</m> denote the length in inches. We need to maximize the following
@@ -20,37 +20,37 @@ area of <fillin characters="20" name="AnSwEr0007"/> square inches.</p>
 </statement>
     <answer>
       <p>
-        <m>\left(x-12\right)\mathopen{}\left(y-4\right)</m>
+        <m>\left(x-6\right)\mathopen{}\left(y-8\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(x-12\right)\mathopen{}\left(\frac{740}{x}-4\right)</m>
+        <m>\left(x-6\right)\mathopen{}\left(\frac{757}{x}-8\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>47.116875957559</m>
+        <m>23.8275051148877</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-0.169790543991204</m>
+        <m>-0.671492878622991</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>47.116875957559</m>
+        <m>23.8275051148877</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>15.7056253191863</m>
+        <m>31.7700068198503</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>411.064992339528</m>
+        <m>423.759918161797</m>
       </p>
     </answer>
   </static>

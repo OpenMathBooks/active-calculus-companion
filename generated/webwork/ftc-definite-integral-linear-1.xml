@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-linear-1" assembly-id="ftc-definite-integral-linear-1">
-  <static seed="332" source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg">
+  <static seed="397" source="Library/Rochester/setIntegrals0Theory/ur_in_0_2.pg">
     <statement><p>Evaluate the definite integral by interpreting it in terms of areas. 
-<me>\int_{ 3 } ^ { 9 } (2 x - 8) dx</me>
+<me>\int_{ 2 } ^ { 9 } (2 x - 8) dx</me>
 <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>24</m>
+        <m>21</m>
       </p>
     </answer>
   </static>

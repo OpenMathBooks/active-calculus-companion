@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-ladder" assembly-id="rel-rates-ladder">
-  <static seed="216" source="Library/Union/setDervRelatedRates/an3_7_17.pg">
-    <statement><p>A 17 foot ladder is leaning against a wall.</p>
+  <static seed="281" source="Library/Union/setDervRelatedRates/an3_7_17.pg">
+    <statement><p>A 12 foot ladder is leaning against a wall.</p>
 <p>If the top slips down the wall at a rate of 4 ft/s,
 how fast will the foot be moving away from the wall when the top is
-16 feet above the ground?</p>
+9 feet above the ground?</p>
 <p>The foot will be moving at <fillin characters="25" name="AnSwEr0001"/> ft/s.</p>
 </statement>
     <answer>
       <p>
-        <m>11.141</m>
+        <m>4.53557</m>
       </p>
     </answer>
   </static>

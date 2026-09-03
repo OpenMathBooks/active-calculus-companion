@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-power-denominator-2" assembly-id="derivatives-power-denominator-2">
-  <static seed="80" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg">
+  <static seed="145" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_21.pg">
     <statement><p>Differentiate the following function:
-<me>\displaystyle g(x) = x^{6} + \frac{1}{x^{6}}</me></p>
+<me>\displaystyle g(x) = x^{2} + \frac{1}{x^{2}}</me></p>
 <p><m>g'(x)=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>6x^{5}-6x^{-7}</m>
+        <m>2x^{1}-2x^{-3}</m>
       </p>
     </answer>
   </static>

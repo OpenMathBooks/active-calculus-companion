@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqns-pnt-slope-1" assembly-id="linear-eqns-pnt-slope-1">
-  <static seed="49" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg">
+  <static seed="108" source="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg">
     <statement><p>A line<rsq/>s equation is given in point-slope form:</p>
-<p><m>{y+2}={3\mathopen{}\left(x-1\right)}</m></p>
+<p><m>{y-21}={5\mathopen{}\left(x-4\right)}</m></p>
 <p>This line<rsq/>s slope is <fillin characters="5" name="AnSwEr0001"/>.</p>
 <p>A point on this line that is apparent from the given equation is <fillin characters="10" name="AnSwEr0002"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>3</m>
+        <m>5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(1,-2\right)</m>
+        <m>\left(4,21\right)</m>
       </p>
     </answer>
     <solution><p>Compare the given equation with a generic point-slope equation:</p>
 <p><m>\begin{aligned}
    y-y_{1} \amp = m(x-x_{1}) \\
-   {y+2} \amp = {3\mathopen{}\left(x-1\right)}
+   {y-21} \amp = {5\mathopen{}\left(x-4\right)}
 \end{aligned}</m></p>
-<p>We can see the slope is <m>3</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(1,-2\right)}</m>.</p>
+<p>We can see the slope is <m>5</m>, and an apparent point on the line <m>(x_{1},y_{1})</m> is <m>{\left(4,21\right)}</m>.</p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

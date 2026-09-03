@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-general-limit2" assembly-id="riemannsums-general-limit2">
-  <static seed="305" source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg">
+  <static seed="370" source="Contrib/Hope/Calc1/05-02-Riemann-sums/Riemann-sums-03.pg">
     <statement><p>In this problem you will calculate the area between 
-<m>f(x) = 2 x</m> and the <m>x</m>-axis over the interval <m>\lbrack 0, 6 \rbrack</m>
+<m>f(x) = 5 x</m> and the <m>x</m>-axis over the interval <m>\lbrack 0, 7 \rbrack</m>
 using a limit of right-endpoint Riemann sums:</p>
 <p><me>\mathrm{Area} = \lim_{n \to \infty} \left( \sum_{k=1}^{n} f(x_k) \Delta x \right).</me></p>
 <p>Express the following quantities in terms of <m>n</m>, the number of rectangles in the Riemann sum, and <m>k</m>, the index for the rectangles in the Riemann sum.</p>
 <p><OL TYPE="a"/></p>
-<p><LI> We start by subdividing <m>\lbrack 0, 6 \rbrack</m> into <m>n</m> equal width subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \ldots, \lbrack x_{n-1}, x_{n} \rbrack</m> each of width <m>\Delta x</m>.
+<p><LI> We start by subdividing <m>\lbrack 0, 7 \rbrack</m> into <m>n</m> equal width subintervals <m>\lbrack x_0, x_1 \rbrack, \lbrack x_1, x_2 \rbrack, \ldots, \lbrack x_{n-1}, x_{n} \rbrack</m> each of width <m>\Delta x</m>.
 Express the width of each subinterval <m>\Delta x</m> in terms of the number of subintervals <m>n</m>.</LI></p>
 <p><m>\Delta x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
 <p><BR><BR>
@@ -32,37 +32,37 @@ Express the width of each subinterval <m>\Delta x</m> in terms of the number of 
 </statement>
     <answer>
       <p>
-        <m>\frac{6}{n}</m>
+        <m>\frac{7}{n}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{6}{n}, 2\frac{6}{n}, 3\frac{6}{n}</m>
+        <m>\frac{7}{n}, 2\frac{7}{n}, 3\frac{7}{n}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>k\frac{6}{n}</m>
+        <m>k\frac{7}{n}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2k\frac{6}{n}</m>
+        <m>5k\frac{7}{n}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2k\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+        <m>5k\mathopen{}\left(\frac{7}{n}\right)^{2}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2n\mathopen{}\left(n+1\right)}{2}\mathopen{}\left(\frac{6}{n}\right)^{2}</m>
+        <m>\frac{5n\mathopen{}\left(n+1\right)}{2}\mathopen{}\left(\frac{7}{n}\right)^{2}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2\cdot 6^{2}}{2}</m>
+        <m>\frac{5\cdot 7^{2}}{2}</m>
       </p>
     </answer>
   </static>

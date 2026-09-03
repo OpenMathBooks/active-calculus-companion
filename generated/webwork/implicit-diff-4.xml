@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-4" assembly-id="implicit-diff-4">
-  <static seed="202" source="Library/ma122DB/set5/s3_6_25_mo.pg">
+  <static seed="267" source="Library/ma122DB/set5/s3_6_25_mo.pg">
     <statement><p>Find the slope of the tangent line to the
-curve defined by <m>2x^{4}-4xy+5y^{2} = 386</m> at the point
-<m>( -3,-8 )</m>.</p>
-<p>The slope of the curve at the point <m>(-3, -8)</m>
+curve defined by <m>x^{5}-6xy-y^{2} = 9</m> at the point
+<m>( 1,-4 )</m>.</p>
+<p>The slope of the curve at the point <m>(1, -4)</m>
 is <fillin characters="8" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>-{\frac{46}{17}}</m>
+        <m>-{\frac{29}{2}}</m>
       </p>
     </answer>
     <solution><p>Differentiating implicitly with respect
 to <m>x</m> gives
-<me>8x^{3}-4y-4x\, \frac{dy}{dx}+10y\, \frac{dy}{dx} = 0,</me>
+<me>5x^{4}-6y-6x\, \frac{dy}{dx}-2y\, \frac{dy}{dx} = 0,</me>
 or
-<me>\left(10y-4x\right)\, \frac{dy}{dx} = -(8x^{3}-4y),</me>
+<me>-\left(6x+2y\right)\, \frac{dy}{dx} = -(5x^{4}-6y),</me>
 and so
-<me>\frac{dy}{dx} = -\frac{8x^{3}-4y}{10y-4x}.</me>
+<me>\frac{dy}{dx} = \frac{5x^{4}-6y}{6x+2y}.</me>
 Hence, the slope of the tangent line to the
 curve at the given point is
-<me>\frac{dy}{dx} \bigg \vert _ {(x, y) = (-3, -8)}
-= -\frac{8\mathopen{}\left(-3\right)^{3}-4\cdot \left(-8\right)}{10\cdot \left(-8\right)-4\cdot \left(-3\right)} \textstyle =-\frac{184}{68} =-{\frac{46}{17}}.</me></p>
+<me>\frac{dy}{dx} \bigg \vert _ {(x, y) = (1, -4)}
+= \frac{5\cdot 1^{4}-6\cdot \left(-4\right)}{6\cdot 1+2\cdot \left(-4\right)} \textstyle =-\frac{29}{2} .</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/ma122DB/set5/s3_6_25_mo.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

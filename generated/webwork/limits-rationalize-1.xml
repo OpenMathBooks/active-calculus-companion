@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-rationalize-1" assembly-id="limits-rationalize-1">
-  <static seed="45" source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg">
+  <static seed="52" source="Library/UCSB/Stewart5_2_3/Stewart5_2_3_23.pg">
     <statement><p>Evaluate the limit, if it exists. If not, enter DNE.</p>
-<p><m>\displaystyle \lim_{x \to 23} \frac{\sqrt{x+26}-7}{x-23} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+<p><m>\displaystyle \lim_{x \to 3} \frac{\sqrt{x+33}-6}{x-3} =</m> <fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{1}{14}</m>
+        <m>\frac{1}{12}</m>
       </p>
     </answer>
   </static>

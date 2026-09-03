@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-8" assembly-id="def-int-areas-8">
-  <static seed="313" source="Library/UMN/calculusTaalman/t_4_3_prob01.pg">
+  <static seed="378" source="Library/UMN/calculusTaalman/t_4_3_prob01.pg">
     <statement><p>The graph of <m>f</m> is shown below.  Evaluate each integral by interpreting it in terms of areas.</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-8-image-1.png" width="66%"/>
 <p><alert> 1. </alert> <m>\displaystyle \int_{-1}^2 \! f(x) \, dx =</m> <fillin characters="30" name="AnSwEr0001"/></p>
@@ -20,7 +20,7 @@
     </answer>
     <answer>
       <p>
-        <m>-1.9292</m>
+        <m>2.0708</m>
       </p>
     </answer>
   </static>

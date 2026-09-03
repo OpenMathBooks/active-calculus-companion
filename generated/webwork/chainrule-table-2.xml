@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-table-2" assembly-id="chainrule-table-2">
-  <static seed="170" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg">
+  <static seed="235" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_59.pg">
     <statement><p>Use the table below to estimate the value of <m>h'(.5)</m>, where <m>h(x)=f(g(x))</m> to the nearest tenth. To estimate the appropriate derivatives, use the average of the two second slopes near the point in question (if approximating a derivative at <m>x=.1</m>, do the secant slopes on <m>[0,.1]</m> and <m>[.1,.2]</m>, and then average them).</p>
 <p><me>\begin{array}{|c|c|c|}
 \hline

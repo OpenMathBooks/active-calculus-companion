@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-4" assembly-id="def-int-areas-4">
-  <static seed="309" source="Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg">
+  <static seed="374" source="Library/FortLewis/Calc1/05-02-Definite-integral/Definite-integral-01.pg">
     <statement><p>Suppose
 <me>f(x) =
 \left\lbrace
 \begin{array}{rll}
-3 \amp \amp  \mbox{ if } 3 \leq x \lt 6,
+-4 \amp \amp  \mbox{ if } 1 \leq x \lt 5,
 \\
--5 \amp \amp  \mbox{ if } 6 \leq x \leq 9. 
+3 \amp \amp  \mbox{ if } 5 \leq x \leq 9. 
 \end{array}
 \right.</me></p>
 <p>(a) Evaluate the definite integral by interpreting it in terms of signed area.</p>
-<p><m>\displaystyle \int_{3}^{9} f(x) \, dx =</m>
+<p><m>\displaystyle \int_{1}^{9} f(x) \, dx =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
 <p><alert>Suggestion:</alert> Draw a picture of the region whose signed area is represented by the integral. Then find the signed area using formulas from high school geometry.</p>
-<p>(b) Find the average value of <m>f(x)</m> over the interval <m>\lbrack 3, 9 \rbrack</m>.</p>
+<p>(b) Find the average value of <m>f(x)</m> over the interval <m>\lbrack 1, 9 \rbrack</m>.</p>
 <p>Average value = <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>-6</m>
+        <m>-4</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-1</m>
+        <m>-0.5</m>
       </p>
     </answer>
   </static>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stopping-car-3" assembly-id="velocity-distance-stopping-car-3">
-  <static seed="280" source="Library/Michigan/Chap5Sec1/Q23.pg">
-    <statement><p>A car initially going 50 ft/sec brakes at a constant rate (constant
-negative acceleration), coming to a stop in 7 seconds.</p>
-<p>Graph the velocity for <m>t=0</m> to <m>t=7</m>.  How far does the car travel
+  <static seed="345" source="Library/Michigan/Chap5Sec1/Q23.pg">
+    <statement><p>A car initially going 55 ft/sec brakes at a constant rate (constant
+negative acceleration), coming to a stop in 4 seconds.</p>
+<p>Graph the velocity for <m>t=0</m> to <m>t=4</m>.  How far does the car travel
 before stopping?</p>
 <p>distance = <fillin characters="35" name="AnSwEr0001"/>
 (include )</p>
@@ -14,12 +14,12 @@ doubled, but it brakes at the same constant rate?</p>
 </statement>
     <answer>
       <p>
-        <m>175\ {\rm ft}</m>
+        <m>110\ {\rm ft}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>700\ {\rm ft}</m>
+        <m>440\ {\rm ft}</m>
       </p>
     </answer>
     <solution><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/velocity-distance-stopping-car-3-image-1.png" width="33%"/>
@@ -32,11 +32,11 @@ doubled, but it brakes at the same constant rate?</p>
 
 
 The distance traveled is just the area under the curve, so the distance is
-is d<m>= \frac12 (7)(50) = 175</m>.
+is d<m>= \frac12 (4)(55) = 110</m>.
 
 
 
-If the car starts off traveling twice the original velocity of 50, but
+If the car starts off traveling twice the original velocity of 55, but
 decelerates at the same rate, we have the graph
 
 
@@ -53,7 +53,7 @@ decelerates at the same rate, we have the graph
 
 (In this, the blue curve is the new velocity graph, while the thinner
 black curve is the original.)  As before, we have 
-d<m>= \frac12 (14) (100) = 700</m>.  Note that doubling the initial
+d<m>= \frac12 (8) (110) = 440</m>.  Note that doubling the initial
 speed results in multiplying the required distance by
 <em>four</em>.
 

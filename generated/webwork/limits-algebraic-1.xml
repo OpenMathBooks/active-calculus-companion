@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-algebraic-1" assembly-id="limits-algebraic-1">
-  <static seed="39" source="Library/ASU-topics/setLimitConcepts/3-2-25.pg">
+  <static seed="46" source="Library/ASU-topics/setLimitConcepts/3-2-25.pg">
     <statement><p>Evaluate the limit
-<me>\lim_{ x \rightarrow 3 } \frac{6 x}{3 + x^3}</me>
+<me>\lim_{ x \rightarrow 2 } \frac{3 x}{8 + x^3}</me>
 If the limit does not exist enter DNE.</p>
 <p>Limit = <fillin characters="25" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>0.6</m>
+        <m>0.375</m>
       </p>
     </answer>
   </static>

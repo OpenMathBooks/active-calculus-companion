@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-10" assembly-id="implicit-diff-10">
-  <static seed="208" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg">
+  <static seed="273" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_34.pg">
     <statement><p>The curve with equation <m>2y^3+y^2-y^5=x^4-2x^3+x^2</m> has been likened to a bouncing wagon (graph it to see why).</p>
 <p>Find the <m>x</m>-coordinates of the points on this curve that have horizontal tangents. List them below, separating the values with commas.</p>
 <p><m>x =</m> <fillin characters="30" name="AnSwEr0001"/></p>

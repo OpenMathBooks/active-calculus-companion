@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-limits-from-graph-3" assembly-id="limits-from-graph-3">
-  <static seed="34" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg">
-    <statement><p>Determine <m>\lim\limits_{x \to 3} f(x)</m> for the function <m>f(x)</m> shown in the figure below</p>
+  <static seed="41" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.2_Limits-_A_Numerical_and_Graphical_Approach/2.2.5.pg">
+    <statement><p>Determine <m>\lim\limits_{x \to 8} f(x)</m> for the function <m>f(x)</m> shown in the figure below</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/limits-from-graph-3-image-1.png" width="50%"/>
-<p>The limit as <m>x \to 3</m> is  <fillin characters="5" name="AnSwEr0001"/></p>
+<p>The limit as <m>x \to 8</m> is  <fillin characters="5" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>7</m>
+        <m>5</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
 
 
 
-The graph suggests that <m>f(x) \to 7</m> as <m>x \to 3</m>
+The graph suggests that <m>f(x) \to 5</m> as <m>x \to 8</m>
 
 
 </solution>

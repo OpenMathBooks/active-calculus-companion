@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-functions-find-x-or-y-values-2" assembly-id="functions-find-x-or-y-values-2">
-  <static seed="16" source="Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_14_function.pg">
+  <static seed="23" source="Library/CollegeOfIdaho/setAlgebra_02_01_IntroFunctions/21IntAlg_14_function.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/functions-find-x-or-y-values-2-image-1.png" width="66%"/>
 <p>The graph above shows the cost of mailing a first-class retail flat
 letter (for example, a letter in a manila envelop), <em> c(x) </em>, 
 as a function of its weight, <em> x </em>, in ounces.  
 Use the graph of the function to find:</p>
-<p>a) The cost to mail a 4.8 ounce first-class letter.</p>
+<p>a) The cost to mail a 4.4 ounce first-class letter.</p>
 <p>Answer:<fillin characters="10" name="AnSwEr0001"/></p>
-<p>b) The cost to mail a 3 ounce first-class letter.</p>
+<p>b) The cost to mail a 4 ounce first-class letter.</p>
 <p>Answer:<fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
@@ -18,7 +18,7 @@ Use the graph of the function to find:</p>
     </answer>
     <answer>
       <p>
-        <m>\$1.14</m>
+        <m>\$1.31</m>
       </p>
     </answer>
     <solution/>

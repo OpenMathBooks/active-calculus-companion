@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-5" assembly-id="apps-lhr-5">
-  <static seed="233" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg">
+  <static seed="298" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg">
     <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use 
 <em> inf</em> to represent positive infinity, 
 <em> -inf</em> for negative infinity, and 
 <em> dne</em> for the limit does not exist.</p>
-<p><m>\lim\limits_{x\rightarrow 0^+}\dfrac{8\ln x}{2  x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>\lim\limits_{x\rightarrow 0^+}\dfrac{10\ln x}{6  x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>

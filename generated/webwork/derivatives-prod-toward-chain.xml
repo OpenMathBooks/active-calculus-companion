@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-toward-chain" assembly-id="derivatives-prod-toward-chain">
-  <static seed="127" source="Library/NAU/setCalcI/producte2x.pg">
+  <static seed="192" source="Library/NAU/setCalcI/producte2x.pg">
     <statement><p>Use the product rule to differentiate.</p>
 <p><m>\displaystyle \frac{d}{dx} ( e^{2x} ) =  \frac{d}{dx} ( e^x \cdot e^{x} ) =</m> <fillin characters="20" name="AnSwEr0001"/> .</p>
 <p>Now use the product rule again to differentiate.</p>

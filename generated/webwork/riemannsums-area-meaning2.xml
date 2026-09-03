@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-riemannsums-area-meaning2" assembly-id="riemannsums-area-meaning2">
-  <static seed="298" source="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg">
+  <static seed="363" source="Library/Valdosta/APEX_Calculus/5.3/APEX_5.3_29.pg">
     <statement><p>a) The rectangles in the graph below illustrate a 
 <var form="popup">
 <li>
-<p>?</p>
+<p>right endpoint</p>
 </li>
 <li>
-<p>left endpoint</p>
+<p>?</p>
 </li>
 <li>
 <p>midpoint</p>
 </li>
 <li>
-<p>right endpoint</p>
+<p>left endpoint</p>
 </li>
 </var> 
 Riemann sum for 
-<m>\displaystyle f(x) = 5 \sin x</m> on the interval <m>[0, \pi]</m>.</p>
+<m>\displaystyle f(x) = 2 \sin x</m> on the interval <m>[0, \pi]</m>.</p>
 <p>The value of this Riemann sum 
 is <fillin characters="30" name="optional1"/>.</p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
@@ -27,7 +27,7 @@ is <fillin characters="30" name="optional1"/>.</p>
 <p/></cell>
 </row>
 <row>
-<cell>Left endpoint Riemann sum for <m>y = 5 \sin x</m> on 
+<cell>Left endpoint Riemann sum for <m>y = 2 \sin x</m> on 
 <m>\lbrack 0, \pi \rbrack</m></cell>
 </row>
 </tabular>
@@ -47,7 +47,7 @@ is <fillin characters="30" name="optional1"/>.</p>
 </li>
 </var> 
 Riemann sum 
-for <m>\displaystyle f(x) = 5 \sin x</m> on the interval 
+for <m>\displaystyle f(x) = 2 \sin x</m> on the interval 
 <m>\lbrack 0, \pi \rbrack</m>.</p>
 <p>The value of this Riemann sum is 
 <fillin characters="30" name="optional3"/>.</p>
@@ -58,19 +58,19 @@ for <m>\displaystyle f(x) = 5 \sin x</m> on the interval
 <p/></cell>
 </row>
 <row>
-<cell>Right endpoint Riemann sum for <m>y = 5 \sin x</m> on 
+<cell>Right endpoint Riemann sum for <m>y = 2 \sin x</m> on 
 <m>\lbrack 0, \pi \rbrack</m></cell>
 </row>
 </tabular>
 </statement>
     <answer>
       <p>
-        <m>9.48059</m>
+        <m>3.79224</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>9.48059</m>
+        <m>3.79224</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -82,8 +82,8 @@ a) This is a left endpoint Riemann sum.  Its value is:
   f\left(\frac{\pi}{4}\right) \cdot \frac{\pi}{4} + 
   f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{4} + 
   f\left(\frac{3\pi}{4}\right) \cdot \frac{\pi}{4}</me>
-<me>= \left(0 + \frac{5 \sqrt{2}}{2} + 5 + \frac{5 \sqrt{2}}{2}\right) 
-  \cdot \frac{\pi}{4} = 9.48059.</me>
+<me>= \left(0 + \frac{2 \sqrt{2}}{2} + 2 + \frac{2 \sqrt{2}}{2}\right) 
+  \cdot \frac{\pi}{4} = 3.79224.</me>
 
 
 
@@ -96,8 +96,8 @@ b) This is a right endpoint Riemann sum.  Its value is:
   f\left(\frac{\pi}{2}\right) \cdot \frac{\pi}{4} + 
   f\left(\frac{3\pi}{4}\right) \cdot \frac{\pi}{4} +
   f(\pi) \cdot \frac{\pi}{4}</me>
-<me>= \left(\frac{5 \sqrt{2}}{2} + 5 + \frac{5 \sqrt{2}}{2} + 0\right) 
-  \cdot \frac{\pi}{4} = 9.48059.</me>
+<me>= \left(\frac{2 \sqrt{2}}{2} + 2 + \frac{2 \sqrt{2}}{2} + 0\right) 
+  \cdot \frac{\pi}{4} = 3.79224.</me>
 
 
 

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-inv-trig-1" assembly-id="derivatives-inv-trig-1">
-  <static seed="186" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg">
+  <static seed="251" source="Library/UCSB/Stewart5_3_6/Stewart5_3_6_41.pg">
     <statement><p>Differentiate <m>\displaystyle y=\tan^{-1}(\sqrt{x})</m>.</p>
 <p><m>y' =</m> <fillin characters="40" name="AnSwEr0001"/></p>
 </statement>

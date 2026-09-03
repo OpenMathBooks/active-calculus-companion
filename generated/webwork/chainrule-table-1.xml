@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-table-1" assembly-id="chainrule-table-1">
-  <static seed="169" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg">
+  <static seed="234" source="Library/UCSB/Stewart5_3_5/Stewart5_3_5_56.pg">
     <statement><p>A table of values for <m>f,g,f',</m> and <m>g'</m> is given below:</p>
 <p><me>\begin{array}{|c|c|c|c|c|}
 \hline

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-chainrule-algebra-6" assembly-id="chainrule-algebra-6">
-  <static seed="162" source="Library/NAU/setCalcI/chainLeibnitz.pg">
-    <statement><p>Suppose <m>y = \sin(5 x^2+ 3 x - 2 )</m>.
+  <static seed="227" source="Library/NAU/setCalcI/chainLeibnitz.pg">
+    <statement><p>Suppose <m>y = \sin(-4 x^2 - 3 x-1)</m>.
 We can write <m>y = \sin(u)</m>, where <m>u =</m> <fillin characters="15" name="AnSwEr0001"/> .
 The Leibnitz notation for the chain rule is
 <m>\displaystyle \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}</m>.
@@ -12,7 +12,7 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
 </statement>
     <answer>
       <p>
-        <m>5xx+3x+\left(-2\right)</m>
+        <m>-4xx+\left(-3\right)x+\left(-1\right)</m>
       </p>
     </answer>
     <answer>
@@ -22,12 +22,12 @@ Now substitue in the function of <m>x</m> for <m>u</m> to get</p>
     </answer>
     <answer>
       <p>
-        <m>10x+3</m>
+        <m>-8x+\left(-3\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\cos\mathopen{}\left(5xx+3x+\left(-2\right)\right)\mathopen{}\left(10x+3\right)</m>
+        <m>\cos\mathopen{}\left(-4xx+\left(-3\right)x+\left(-1\right)\right)\mathopen{}\left(-8x+\left(-3\right)\right)</m>
       </p>
     </answer>
   </static>

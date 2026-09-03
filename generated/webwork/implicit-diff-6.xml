@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-6" assembly-id="implicit-diff-6">
-  <static seed="204" source="Library/Michigan/Chap3Sec7/Q13.pg">
+  <static seed="269" source="Library/Michigan/Chap3Sec7/Q13.pg">
     <statement><p>Find <m>dy/dx</m> in terms of <m>x</m> and <m>y</m> 
 if
-<m>\cos^2(6 y) + \sin^2(6 y) = y + 3</m>.</p>
+<m>\cos^2(8 y) + \sin^2(8 y) = y + 9</m>.</p>
 <p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 </statement>
     <answer>
@@ -12,7 +12,7 @@ if
       </p>
     </answer>
     <solution><m>\cos^2\theta+\sin^2\theta=1</m>, the equation becomes:
-<m>1=y+3</m> or <m>y=-2</m>. Hence, <m>\frac{dy}{dx}=0</m>.
+<m>1=y+9</m> or <m>y=-8</m>. Hence, <m>\frac{dy}{dx}=0</m>.
 
 
 

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-2" assembly-id="derivatives-ln-2">
-  <static seed="177" source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg">
+  <static seed="242" source="Library/AlfredUniv/anton8e/chapter4/4.2/prob19.pg">
     <statement><p>Find <m>\&gt;dy/dx\&gt;</m> if  <m>\&gt;y = x\ln\mathopen{}\left(x\right)</m>.</p>
 <p>Answer: <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>

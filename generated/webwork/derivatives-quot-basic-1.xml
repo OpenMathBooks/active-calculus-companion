@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-1" assembly-id="derivatives-quot-basic-1">
-  <static seed="100" source="Library/ASU-topics/setProductQuotientRule/s2_2_11a.pg">
-    <statement><p>Let <m>f(x) =  \dfrac { 2 } { 4 x + 4 }</m>.</p>
+  <static seed="165" source="Library/ASU-topics/setProductQuotientRule/s2_2_11a.pg">
+    <statement><p>Let <m>f(x) =  \dfrac { 3 } { 7 x + 5 }</m>.</p>
 <p><m>f'( x ) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-8}{\left(4x+4\right)^{2}}</m>
+        <m>\frac{-21}{\left(7x+5\right)^{2}}</m>
       </p>
     </answer>
   </static>

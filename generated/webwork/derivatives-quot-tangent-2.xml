@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-tangent-2" assembly-id="derivatives-quot-tangent-2">
-  <static seed="131" source="Library/UCSB/Stewart5_3_2/Stewart5_3_2_24.pg">
+  <static seed="196" source="Library/UCSB/Stewart5_3_2/Stewart5_3_2_24.pg">
     <statement><p>Find an equation of the tangent line to the given curve at the
 specified point:
-<me>y=\dfrac{\sqrt{x}}{x+3},\quad \left(4,\frac{2}{7}\right)</me></p>
+<me>y=\dfrac{\sqrt{x}}{x+5},\quad \left(4,\frac{2}{9}\right)</me></p>
 <p><m>y =</m> <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-0.00510204\mathopen{}\left(x-4\right)+0.285714</m>
+        <m>0.00308642\mathopen{}\left(x-4\right)+0.222222</m>
       </p>
     </answer>
   </static>

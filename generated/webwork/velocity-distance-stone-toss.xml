@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stone-toss" assembly-id="velocity-distance-stone-toss">
-  <static seed="285" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg">
-    <statement><p>A stone thrown upward from the top of a 80 ft
-cliff at 152 ft/s eventually falls to the
+  <static seed="350" source="Library/FortLewis/Calc1/06-03-Diff-eq/HGM5-06-03-Diff-eq-21.pg">
+    <statement><p>A stone thrown upward from the top of a 110 ft
+cliff at 166 ft/s eventually falls to the
 beach below.  (For this problem take the acceleration
 due to gravity to be <m>g = -32 \ \mathrm{ft/s^2}</m>; take
 upwards to be a positive direction.)</p>
@@ -25,28 +25,28 @@ What is the velocity of the stone on impact?</p>
 </statement>
     <answer>
       <p>
-        <m>4.75\ {\rm s}</m>
+        <m>5.1875\ {\rm s}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>441\ {\rm ft}</m>
+        <m>540.562\ {\rm ft}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10\ {\rm s}</m>
+        <m>11\ {\rm s}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
+        <m>-186\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>
       </p>
     </answer>
-    <solution><m>h = -16t^{2}+152t+80</m>.
+    <solution><m>h = -16t^{2}+166t+110</m>.
 
 Taking the first derivative, we get
-<m>v = -32t+152</m>.
+<m>v = -32t+166</m>.
 
 The second derivative is the acceleration due to gravity,
 <m>a = -32</m>.
@@ -56,28 +56,28 @@ The second derivative is the acceleration due to gravity,
 
 <alert>(a)</alert>
 At its highest point, the stone's velocity is zero:
-<m>v = -32t+152 = 0</m>, so that <m>t = 4.75\ {\rm s}</m>.
+<m>v = -32t+166 = 0</m>, so that <m>t = 5.1875\ {\rm s}</m>.
 
 
 
 
 <alert>(b)</alert>
-At <m>t=4.75\ {\rm s}</m>, the height is
-<m>h = -16\cdot 4.75^{2}+152\cdot 4.75+80 = 441\ {\rm ft}</m>.
+At <m>t=5.1875\ {\rm s}</m>, the height is
+<m>h = -16\cdot 5.1875^{2}+166\cdot 5.1875+110 = 540.562\ {\rm ft}</m>.
 
 
 
 
 <alert>(c)</alert>
 When the stone hits the beach,
-<m>h = 0 = -16t^{2}+152t+80</m>.  Solving, we get <m>t = 10</m> s.
+<m>h = 0 = -16t^{2}+166t+110</m>.  Solving, we get <m>t = 11</m> s.
 
 
 
 
 <alert>(d)</alert>
-Impact is at <m>t=10</m>.  The velocity, <m>v</m>, at this time is
-<m>v = -32\cdot 10+152 = -168\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>.
+Impact is at <m>t=11</m>.  The velocity, <m>v</m>, at this time is
+<m>v = -32\cdot 11+166 = -186\ {\textstyle\frac{\rm\mathstrut ft}{\rm\mathstrut s}}</m>.
 The velocity is negative because the stone is falling.
 
 

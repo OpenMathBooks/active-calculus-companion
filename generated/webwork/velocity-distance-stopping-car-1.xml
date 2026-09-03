@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-velocity-distance-stopping-car-1" assembly-id="velocity-distance-stopping-car-1">
-  <static seed="278" source="Library/Michigan/Chap5Sec1/Q01.pg">
+  <static seed="343" source="Library/Michigan/Chap5Sec1/Q01.pg">
     <statement><p>A car comes to a stop six seconds after the driver applies the brakes.
 While the brakes are on, the following velocities are recorded:</p>
 <tabular bottom="medium" left="medium" right="medium" top="medium">
@@ -13,8 +13,8 @@ While the brakes are on, the following velocities are recorded:</p>
 </row>
 <row>
 <cell>Velocity (ft/s)</cell>
-<cell>96</cell>
-<cell>49</cell>
+<cell>100</cell>
+<cell>51</cell>
 <cell>18</cell>
 <cell>0</cell>
 </row>
@@ -29,12 +29,12 @@ estimates you found above.</em>.</p>
 </statement>
     <answer>
       <p>
-        <m>134\ {\rm ft}</m>
+        <m>138\ {\rm ft}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>326\ {\rm ft}</m>
+        <m>338\ {\rm ft}</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
@@ -42,10 +42,10 @@ estimates you found above.</em>.</p>
 lowest velocity for each of the intervals <m>0\le t\le 2</m>, <m>2\le t\le 4</m>, 
 and <m>4\le t\le 6</m> to calculate an estimated distance traveled in each
 interval.  This gives 
-<me>\mbox{dist} = (49)(2) + (18)(2) + (0)(2) = 134.</me>
+<me>\mbox{dist} = (51)(2) + (18)(2) + (0)(2) = 138.</me>
 Similarly, for the upper estimate, we take the maximum velocity for each
 interval, to get 
-<me>\mbox{dist} = (96)(2) + (49)(2) + (18)(2) = 326.</me></p>
+<me>\mbox{dist} = (100)(2) + (51)(2) + (18)(2) = 338.</me></p>
 <p>Graphically, each of the terms in these sums is the area of a rectangle,
 as shown outlined in blue in the figures below.  The lower- and
 upper estimates are the sum of the areas of these rectangles.  (Note

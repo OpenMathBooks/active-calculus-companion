@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-quot-basic-3" assembly-id="derivatives-quot-basic-3">
-  <static seed="107" source="Library/Michigan/Chap3Sec3/Q15.pg">
+  <static seed="172" source="Library/Michigan/Chap3Sec3/Q15.pg">
     <statement><p>Find the derivative of the function <m>q(r)</m>, below.  It may be to your
 advantage to simplify  first.</p>
-<p><me>\displaystyle q(r)={8 r\over 9 r + 6}</me></p>
+<p><me>\displaystyle q(r)={2 r\over 4 r + 8}</me></p>
 <p><m>q'(r) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{8\mathopen{}\left(9r+6\right)-8\cdot 9r}{\left(9r+6\right)^{2}}</m>
+        <m>\frac{2\mathopen{}\left(4r+8\right)-2\cdot 4r}{\left(4r+8\right)^{2}}</m>
       </p>
     </answer>
     <solution><p>SOLUTION</p>
-<p><me>q'(r) = \frac{8 (9 r + 6) - 72 r}{(9 r + 6)^2} 
-         = \frac{48}{(9 r + 6)^2}.</me></p>
+<p><me>q'(r) = \frac{2 (4 r + 8) - 8 r}{(4 r + 8)^2} 
+         = \frac{16}{(4 r + 8)^2}.</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="Library/Michigan/Chap3Sec3/Q15.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-polynomial-6" assembly-id="apps-opt-polynomial-6">
-  <static seed="265" source="Library/Wiley/setAnton_Section_4.4/question8.pg">
-    <statement><p>Find the absolute maximum and minimum values of <m>f(x) = 5x-x^{2}</m> over the closed interval [0, 4].</p>
+  <static seed="330" source="Library/Wiley/setAnton_Section_4.4/question8.pg">
+    <statement><p>Find the absolute maximum and minimum values of <m>f(x) = 7x-x^{2}</m> over the closed interval [0, 5].</p>
 <p>absolute maximum is <fillin characters="15" name="AnSwEr0001"/> and it occurs at x = <fillin characters="15" name="AnSwEr0002"/></p>
 <p>absolute minimum is <fillin characters="15" name="AnSwEr0003"/> and it occurs at x = <fillin characters="15" name="AnSwEr0004"/></p>
 <p><B> Notes:</B>
@@ -9,12 +9,12 @@ If there is more than one <m>\small x</m> value, enter as a comma separated list
 </statement>
     <answer>
       <p>
-        <m>\frac{25}{4}</m>
+        <m>\frac{49}{4}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2.5</m>
+        <m>3.5</m>
       </p>
     </answer>
     <answer>
@@ -28,13 +28,13 @@ If there is more than one <m>\small x</m> value, enter as a comma separated list
       </p>
     </answer>
     <solution><m>f</m> is continuous everywhere and therefore the Extreme-Value Theorem guarantees that <m>f</m> has a maximum and a minimum value
- on the interval [0, 4]. 
+ on the interval [0, 5]. 
 
  Differentiating, we obtain
 
-<me>f'(x) = 5-2x</me>
+<me>f'(x) = 7-2x</me>
 
-Thus <m>f'(x) =0</m> if <m>x ={\frac{5}{2}}</m>.
+Thus <m>f'(x) =0</m> if <m>x ={\frac{7}{2}}</m>.
 
 
 Evaluating <m>f</m> at these critical values and end points yields the following table
@@ -45,15 +45,15 @@ Evaluating <m>f</m> at these critical values and end points yields the following
 <row>
 <cell>x</cell>
 <cell><m>0</m></cell>
-<cell><m>{\frac{5}{2}}</m></cell>
-<cell><m>4</m></cell>
+<cell><m>{\frac{7}{2}}</m></cell>
+<cell><m>5</m></cell>
 </row>
 
 <row>
 <cell><m>\small f(x)</m></cell>
 <cell><m>0</m></cell>
-<cell><m>{\frac{25}{4}}</m></cell>
-<cell><m>4</m></cell>
+<cell><m>{\frac{49}{4}}</m></cell>
+<cell><m>10</m></cell>
 </row>
 
 
@@ -64,7 +64,7 @@ Evaluating <m>f</m> at these critical values and end points yields the following
 We conclude that
 
 
-<m>f</m> has an absolute maximum of <m>\; \small {\frac{25}{4}} \;</m>which occurs at <m>\small{x = {\frac{5}{2}}}</m> and 
+<m>f</m> has an absolute maximum of <m>\; \small {\frac{49}{4}} \;</m>which occurs at <m>\small{x = {\frac{7}{2}}}</m> and 
 
 
 <m>f</m> has an absolute minimum of <m>\; \small 0 \;</m> which occurs at <m>\small x =0</m>.

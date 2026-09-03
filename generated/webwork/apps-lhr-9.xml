@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-9" assembly-id="apps-lhr-9">
-  <static seed="237" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_6.pg">
+  <static seed="302" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_6.pg">
     <statement><p>Find the .
 Use L'Hospital's Rule if appropriate.</p>
-<p><m>\displaystyle \lim_{x \to 1} \frac{x-1}{x^{2}-8x+7} =</m>
+<p><m>\displaystyle \lim_{x \to -1} \frac{x+1}{x^{2}+9x+8} =</m>
 <fillin characters="5" name="AnSwEr0001"/>.</p>
 </statement>
     <answer>
       <p>
-        <m>\frac{1}{-6}</m>
+        <m>\frac{1}{7}</m>
       </p>
     </answer>
   </static>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-ftc-definite-integral-simplify-3" assembly-id="ftc-definite-integral-simplify-3">
-  <static seed="340" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg">
+  <static seed="405" source="Library/UCSB/Stewart5_5_4/Stewart5_5_4_30.pg">
     <statement><p>Evaluate the integral
-<me>\int_{1}^{\,9} {\frac{7 x + 6}{\sqrt{x}}}\,dx</me></p>
+<me>\int_{1}^{\,9} {\frac{-9 x + 7}{\sqrt{x}}}\,dx</me></p>
 <p>Integral = <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>145.333333333333</m>
+        <m>-128</m>
       </p>
     </answer>
   </static>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-lhr-4" assembly-id="apps-lhr-4">
-  <static seed="232" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_15.pg">
+  <static seed="297" source="Library/UCSB/Stewart5_4_4/Stewart5_4_4_15.pg">
     <statement><p>Find the limit. Use l'Hospital's Rule if appropriate. Use INF to represent positive infinity, NINF for negative infinity, and D for the limit does not exist.</p>
-<p><m>\lim\limits_{x\rightarrow \infty}\dfrac{-7 \ln x}{5 x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p><m>\lim\limits_{x\rightarrow \infty}\dfrac{9 \ln x}{6 x}=</m> <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>

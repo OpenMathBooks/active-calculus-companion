@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-basic-trig-tangent-2" assembly-id="derivatives-basic-trig-tangent-2">
-  <static seed="96" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg">
-    <statement><p>Find the equation of the tangent line to the curve <m>y=x+7 \cos{x}</m> at the point <m>(0,7)</m>.</p>
+  <static seed="161" source="Library/UCSB/Stewart5_3_4/Stewart5_3_4_23.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=x - 9 \cos{x}</m> at the point <m>(0,-9)</m>.</p>
 <p><m>y =</m> <fillin characters="50" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>x+7</m>
+        <m>x+-9</m>
       </p>
     </answer>
   </static>
