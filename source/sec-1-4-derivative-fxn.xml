@@ -85,6 +85,29 @@
   </subsection> -->
   <subsection>
     <title>Foundations</title>
+    <p>
+      In this section we explore the derivative <em>function</em>, including what its graph might look like.  Since we will be comparing a function <m>f</m> and its derivative <m>f'</m> graphically, it is important to be fluent with reading and drawing graphs.  Here are some practice problems with these foundational skills.
+    </p>
+
+    <exercise label="interpreting-graphs-1">
+      <webwork source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_32_Functions_Review.pg" />
+    </exercise>
+
+    <exercise label="interpreting-graphs-2">
+      <webwork source="Library/Mizzou/Algebra/functions_evaluating/two_graphs_equal_inequal_02.pg" />
+    </exercise>
+
+    <exercise label="interpreting-graphs-3">
+      <webwork source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph30.pg" />
+    </exercise>
+
+    <exercise label="interpreting-graphs-4">
+      <webwork source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph55.pg" />
+    </exercise>
+
+    <exercise label="interpreting-graphs-5">
+      <webwork source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph57.pg" />
+    </exercise>
 
   </subsection>
 
