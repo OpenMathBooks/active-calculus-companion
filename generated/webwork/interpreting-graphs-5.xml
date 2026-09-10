@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-interpreting-graphs-5" assembly-id="interpreting-graphs-5">
+  <static seed="80" source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph57.pg">
+    <statement><p>The graphs of functions <m>f</m> and <m>g</m> are shown below.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-5-image-1.png" width="40%"/>
+<p>Use interval notation in your answers. Use <alert>inf</alert> to represent infinity.</p>
+<p><ol label="a.">
+<li>
+<p>Solve <m>\displaystyle{ f(x) \gt g(x) }</m></p>
+<p>Solution: <fillin characters="9" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>Solve <m>\displaystyle{ f(x) \le g(x) }</m></p>
+<p>Solution: <fillin characters="9" name="AnSwEr0002"/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(-\infty ,3\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left[3,\infty \right)</m>
+      </p>
+    </answer>
+    <solution><p>The question <m>f(x) \gt g(x)</m> is asking: For what <m>x</m> values, are function <m>f</m><rsq/>s <m>y</m> values greater than function <m>g</m><rsq/>s <m>y</m> values? We can break down this question into two steps:</p>
+<p><ol label="1.">
+<li>
+<p>In the graph, identify the part(s) where function <m>f</m><rsq/>s <m>y</m> values are greater than function <m>g</m><rsq/>s <m>y</m> values.</p>
+</li>
+<li>
+<p>Identify the <m>x</m> values corresponding to that part(s).</p>
+</li>
+</ol></p>
+<p>The following graph identifies the part which satisfies <m>f(x) \gt g(x)</m>.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-5-image-2.png" width="40%"/>
+<p>The corresponding <m>x</m> values in the graph are in <m>{\left(-\infty ,3\right)}</m>. In other words, to satisfy <m>f(x) \gt g(x)</m>, the <m>x</m> values need to be in <m>{\left(-\infty ,3\right)}</m>.</p>
+<p>Similarly, in the other part(s) of the graph, function <m>f</m><rsq/>s <m>y</m> values are smaller than or equal to function <m>g</m><rsq/>s <m>y</m> values. To satisfy <m>f(x) \le g(x)</m>, the <m>x</m> values need to be in <m>{\left[3,\infty \right)}</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph57.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph57.pg"/>
+</webwork-reps>

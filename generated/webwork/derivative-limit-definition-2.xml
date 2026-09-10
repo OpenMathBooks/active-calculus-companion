@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivative-limit-definition-2" assembly-id="derivative-limit-definition-2">
-  <static seed="77">
+  <static seed="82">
     <statement><p>Suppose that
-<m>\displaystyle{ f(x+h)-f(x) = -3 h x^2  +    6 h x  +    6 h^2 x  +    7 h^2  -    6 h^3.
+<m>\displaystyle{ f(x+h)-f(x) = -7 h x^2  +    2 h x  +    8 h^2 x  -    1 h^2  +    6 h^3.
 }</m></p>
 <p>Find <m>f'(x)</m>.</p>
 <p><m>f'(x) =</m> <fillin characters="8" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-3x^{2}+6x</m>
+        <m>-7x^{2}+2x</m>
       </p>
     </answer>
   </static>

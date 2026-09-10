@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_4HW_prob6_pg" assembly-id="csafranski__1_4HW_prob6_pg">
-  <static seed="84" source="csafranski/1.4HW_prob6.pg">
-    <statement><p>Let <m>f(x)</m> be the function <m>5 x^2 - 11 x + 10</m>. Then the quotient</p>
-<p><m>\frac{f(10+h)-f(10)}{h}</m> can be simplified to <m>ah+b</m> for:</p>
+  <static seed="89" source="csafranski/1.4HW_prob6.pg">
+    <statement><p>Let <m>f(x)</m> be the function <m>11 x^2 - 3 x + 11</m>. Then the quotient</p>
+<p><m>\frac{f(6+h)-f(6)}{h}</m> can be simplified to <m>ah+b</m> for:</p>
 <p><m>a=</m><fillin characters="10" name="AnSwEr0001"/></p>
 <p>and</p>
 <p><m>b=</m> <fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>5</m>
+        <m>11</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>89</m>
+        <m>129</m>
       </p>
     </answer>
   </static>

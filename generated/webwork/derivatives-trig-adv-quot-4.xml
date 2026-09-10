@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-4" assembly-id="derivatives-trig-adv-quot-4">
-  <static seed="207" source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg">
-    <statement><p>Find <m>f'(x)</m> for <me>f(x)=\frac{19\sec\mathopen{}\left(x\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}</me></p>
+  <static seed="212" source="Library/Wiley/setAnton_Section_2.5/Anton2_5Q14.pg">
+    <statement><p>Find <m>f'(x)</m> for <me>f(x)=\frac{10\sec\mathopen{}\left(x\right)}{11\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}</me></p>
 <p><m>f'(x)  =</m> <fillin characters="40" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{19\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-2\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)^{2}}</m>
+        <m>\frac{10\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-2\right)}{11\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)^{2}}</m>
       </p>
     </answer>
-    <solution><me>f'(x)=\frac{d}{dx}\left(\frac{19\sec\mathopen{}\left(x\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}\right)=\frac{19}{4}\frac{\frac{d}{dx}[\sec\mathopen{}\left(x\right)]\cdot (1+2\tan\mathopen{}\left(x\right))-\frac{d}{dx}[1+2\tan\mathopen{}\left(x\right)]\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}</me>
-<me>=\frac{19}{4}\frac{\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cdot (1+2\tan\mathopen{}\left(x\right))-2\sec^{2}\mathopen{}\left(x\right)\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}=\frac{19}{4}\frac{\sec(x)(\tan(x)+2(\tan^2(x)-\sec^2(x))}{(1+2 \tan(x))^2}</me>
-<me>=\frac{19}{4}\frac{\sec(x)(\tan(x)-2)}{(1+2 \tan(x))^2}=\frac{19\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-2\right)}{4\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)^{2}}</me>
+    <solution><me>f'(x)=\frac{d}{dx}\left(\frac{10\sec\mathopen{}\left(x\right)}{11\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)}\right)=\frac{10}{11}\frac{\frac{d}{dx}[\sec\mathopen{}\left(x\right)]\cdot (1+2\tan\mathopen{}\left(x\right))-\frac{d}{dx}[1+2\tan\mathopen{}\left(x\right)]\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}</me>
+<me>=\frac{10}{11}\frac{\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)\cdot (1+2\tan\mathopen{}\left(x\right))-2\sec^{2}\mathopen{}\left(x\right)\cdot \sec\mathopen{}\left(x\right)}{(1+2 \tan(x))^2}=\frac{10}{11}\frac{\sec(x)(\tan(x)+2(\tan^2(x)-\sec^2(x))}{(1+2 \tan(x))^2}</me>
+<me>=\frac{10}{11}\frac{\sec(x)(\tan(x)-2)}{(1+2 \tan(x))^2}=\frac{10\sec\mathopen{}\left(x\right)\mathopen{}\left(\tan\mathopen{}\left(x\right)-2\right)}{11\mathopen{}\left(1+2\tan\mathopen{}\left(x\right)\right)^{2}}</me>
 
 
 </solution>

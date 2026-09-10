@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-triangle" assembly-id="apps-app-opt-triangle">
-  <static seed="342" source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg">
+  <static seed="347" source="Library/Valdosta/APEX_Calculus/4.3/APEX_4.3_7.pg">
     <statement><p>Find the maximal area of a right triangle
-with hypotenuse of length 7.</p>
+with hypotenuse of length 4.</p>
 <p><fillin characters="10" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>12.25</m>
+        <m>4</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -16,43 +16,43 @@ with hypotenuse of length 7.</p>
 
 Let <m>x, y</m> be the lengths of the legs of the
 triangle.  By the Pythagorean Theorem,
-<m>x^2 + y^2 = 7^2</m>.  Solving for <m>y</m>,
+<m>x^2 + y^2 = 4^2</m>.  Solving for <m>y</m>,
 we get:
-<me>y = \sqrt{49 - x^2}</me>
+<me>y = \sqrt{16 - x^2}</me>
 
 
 
 The fundamental equation (to be maximized) is the
 area of the triangle,
 <m>A = \frac{1}{2}xy</m>.  
-Substitute <m>y = \sqrt{49 - x^2}</m>
+Substitute <m>y = \sqrt{16 - x^2}</m>
 and find the critical number(s).
 <me>\begin{array}{rcl}
-    A \amp =\amp  \frac{1}{2}x\sqrt{49 - x^2} \\
+    A \amp =\amp  \frac{1}{2}x\sqrt{16 - x^2} \\
     \amp \amp \\
-    A' \amp =\amp  \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{49 - x^2}}
-     + \sqrt{49 - x^2}\right)\\
+    A' \amp =\amp  \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{16 - x^2}}
+     + \sqrt{16 - x^2}\right)\\
     \amp \amp \\
-    \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{49 - x^2}}
-     + \sqrt{49 - x^2}\right) \amp =\amp  \\
+    \frac{1}{2}\left( \dfrac{-x^2}{\sqrt{16 - x^2}}
+     + \sqrt{16 - x^2}\right) \amp =\amp  \\
      \amp \amp \\
-     -x^2 + (49 - x^2) \amp =\amp  0 \\
-    2x^2 \amp =\amp  49 \\
-    x \amp =\amp  \pm \sqrt{24.5}
+     -x^2 + (16 - x^2) \amp =\amp  0 \\
+    2x^2 \amp =\amp  16 \\
+    x \amp =\amp  \pm \sqrt{8}
   \end{array}</me> 
 
 
 
 Since lengths are required to be positive, we
-choose <m>x = \sqrt{24.5}</m>.
+choose <m>x = \sqrt{8}</m>.
 The corresponding <m>y</m> value is:
-<me>y = \sqrt{49 - x^2} = 
-   \sqrt{49 - 24.5} = \sqrt{24.5}.</me>
+<me>y = \sqrt{16 - x^2} = 
+   \sqrt{16 - 8} = \sqrt{8}.</me>
 
 
 
 Therefore, the maximal area is:
-<me>A = \frac{1}{2}xy = \frac{1}{2} \sqrt{24.5} \cdot \sqrt{24.5} = 9.</me>
+<me>A = \frac{1}{2}xy = \frac{1}{2} \sqrt{8} \cdot \sqrt{8} = 9.</me>
 
 
 </solution>

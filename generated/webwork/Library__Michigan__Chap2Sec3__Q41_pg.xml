@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec3__Q41_pg" assembly-id="Library__Michigan__Chap2Sec3__Q41_pg">
-  <static seed="82" source="Library/Michigan/Chap2Sec3/Q41.pg">
+  <static seed="87" source="Library/Michigan/Chap2Sec3/Q41.pg">
     <statement><p>On a piece of paper, draw the graph of a continuous function
 <m>y=f(x)</m> that satisfies the
 following three conditions.
-<me>f'(x) &gt; 0\quad\mbox{for}\quad x \lt  -2,</me>
-<me>f'(x) \lt  0\quad\mbox{for}\quad -2 \lt  x \lt  2,</me>
-<me>f'(x) &gt; 0\quad\mbox{for}\quad 2 \lt  x</me></p>
+<me>f'(x) \lt  0\quad\mbox{for}\quad x \lt  -3,</me>
+<me>f'(x) &gt; 0\quad\mbox{for}\quad -3 \lt  x \lt  3,</me>
+<me>f'(x) &gt; 0\quad\mbox{for}\quad 3 \lt  x</me></p>
 <p>Approximate your function by picking a segment from the following for
-each of the sections of your graph, first for <m>x \lt  -2</m>, then for
-<m>-2 \lt  x \lt  2</m>, and then for <m>2 \lt  x</m>.  (You should, of course,
+each of the sections of your graph, first for <m>x \lt  -3</m>, then for
+<m>-3 \lt  x \lt  3</m>, and then for <m>3 \lt  x</m>.  (You should, of course,
 imagine sliding the pieces vertically up or down to make the function
 you create be continuous.)</p>
-<p>For <m>x \lt  -2</m>, use segment <fillin characters="5" name="AnSwEr0001"/></p>
-<p>For <m>-2 \lt  x \lt  2</m>, use segment <fillin characters="5" name="AnSwEr0002"/></p>
-<p>For <m>2 \lt  x</m>, use segment <fillin characters="5" name="AnSwEr0003"/></p>
+<p>For <m>x \lt  -3</m>, use segment <fillin characters="5" name="AnSwEr0001"/></p>
+<p>For <m>-3 \lt  x \lt  3</m>, use segment <fillin characters="5" name="AnSwEr0002"/></p>
+<p>For <m>3 \lt  x</m>, use segment <fillin characters="5" name="AnSwEr0003"/></p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
 <cell>
@@ -73,18 +73,18 @@ you create be continuous.)</p>
     </answer>
     <answer>
       <p>
-        <m>2</m>
+        <m>3</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>1</m>
+        <m>3</m>
       </p>
     </answer>
-    <solution><m>f'(x) &gt; 0</m> for <m>x \lt  -2</m>, the first segment must be
-one of 1, 8, or 9.  Similarly, because <m>f'(x) \lt  0</m> for <m>-2 \lt  x \lt  2</m>,
-the second segment must be one of 2, 4, or 6.  And lastly, the third segment
-must be 1, 8, or 9.
+    <solution><m>f'(x) \lt  0</m> for <m>x \lt  -3</m>, the first segment must be
+one of 1, 7, or 9.  Similarly, because <m>f'(x) &gt; 0</m> for <m>-3 \lt  x \lt  3</m>,
+the second segment must be one of 3, 4, or 6.  And lastly, the third segment
+must be 3, 4, or 6.
 
 
 

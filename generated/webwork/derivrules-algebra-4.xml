@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivrules-algebra-4" assembly-id="derivrules-algebra-4">
-  <static seed="240" source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg">
+  <static seed="245" source="Library/Utah/AP_Calculus_I/set7_Trigonometric_Functions/1210s4p17.pg">
     <statement><p>Find  <m>f'</m>, given</p>
-<p><me>f(x) = \frac{x\sin^{4}\mathopen{}\left(x^{5}\right)}{\sqrt{x^{6}+1}}</me></p>
+<p><me>f(x) = \frac{x\sin^{2}\mathopen{}\left(x^{6}\right)}{\sqrt{x^{7}+1}}</me></p>
 <p><m>f'( x ) =</m><fillin characters="80" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{\left(\sin^{4}\mathopen{}\left(x^{5}\right)+x\cdot 4\sin^{3}\mathopen{}\left(x^{5}\right)\cdot 5x^{4}\cos\mathopen{}\left(x^{5}\right)\right)\sqrt{x^{6}+1}-x\sin^{4}\mathopen{}\left(x^{5}\right)\frac{1}{2\sqrt{x^{6}+1}}\cdot 6x^{5}}{\left(\sqrt{x^{6}+1}\right)^{2}}</m>
+        <m>\frac{\left(\sin^{2}\mathopen{}\left(x^{6}\right)+x\cdot 2\sin\mathopen{}\left(x^{6}\right)\cdot 6x^{5}\cos\mathopen{}\left(x^{6}\right)\right)\sqrt{x^{7}+1}-x\sin^{2}\mathopen{}\left(x^{6}\right)\frac{1}{2\sqrt{x^{7}+1}}\cdot 7x^{6}}{\left(\sqrt{x^{7}+1}\right)^{2}}</m>
       </p>
     </answer>
   </static>

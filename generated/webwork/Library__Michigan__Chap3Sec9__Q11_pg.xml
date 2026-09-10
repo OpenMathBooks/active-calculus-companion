@@ -1,27 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap3Sec9__Q11_pg" assembly-id="Library__Michigan__Chap3Sec9__Q11_pg">
-  <static seed="127" source="Library/Michigan/Chap3Sec9/Q11.pg">
+  <static seed="132" source="Library/Michigan/Chap3Sec9/Q11.pg">
     <statement><p>The figure below shows <m>f(x)</m> and its local linearization at
-<m>x=a</m>, <m>y = 5 x - 4</m>.  (The local linearization is shown in
+<m>x=a</m>, <m>y = 2 x - 4</m>.  (The local linearization is shown in
 blue.)</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__Michigan__Chap3Sec9__Q11_pg-image-1.png" width="33%"/>
 <p>What is the value of <m>a</m>?</p>
 <p><m>a =</m> <fillin characters="15" name="AnSwEr0001"/></p>
 <p>What is the value of <m>f(a)</m>?</p>
 <p><m>f(a) =</m> <fillin characters="15" name="AnSwEr0002"/></p>
-<p>Use the linearization to approximate the value of <m>f(1.6)</m>.</p>
-<p><m>f(1.6) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
+<p>Use the linearization to approximate the value of <m>f(4.4)</m>.</p>
+<p><m>f(4.4) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
 <p>Is the approximation an under- or overestimate?</p>
 <p><fillin characters="15" name="AnSwEr0004"/> (Enter <alert>under</alert> or <alert>over</alert>.)</p>
 </statement>
     <answer>
       <p>
-        <m>1</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>1</m>
+        <m>4</m>
       </p>
     </answer>
     <answer>
@@ -31,15 +26,20 @@ blue.)</p>
     </answer>
     <answer>
       <p>
+        <m>4.8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
         <m>\text{under}</m>
       </p>
     </answer>
-    <solution><m>x=1</m>, we have <m>a=1</m>.  Since the
-point with <m>x=1</m> lies on both the line and the curve, we have
-<me>f(a) = f(1) = 5(1) - 4 = 1.</me>
+    <solution><m>x=4</m>, we have <m>a=4</m>.  Since the
+point with <m>x=4</m> lies on both the line and the curve, we have
+<me>f(a) = f(4) = 2(4) - 4 = 4.</me>
 The approximation is an underestimate because the line lies under the
 curve.  Since the linear function approximates <m>f(x)</m>, we have
-<me>f(1.6) \approx 5(1.6) - 4 = 4.</me>
+<me>f(4.4) \approx 2(4.4) - 4 = 4.8.</me>
 
 
 

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-ln-tangent" assembly-id="derivatives-ln-tangent">
-  <static seed="244" source="Library/ASU-topics/setProductQuotientRule/5-2-35.pg">
-    <statement><p>Find the equation of the line tangent to the graph of <m>y=3 \ln(x)</m>
-at <m>x=1</m>.</p>
+  <static seed="249" source="Library/ASU-topics/setProductQuotientRule/5-2-35.pg">
+    <statement><p>Find the equation of the line tangent to the graph of <m>y=4 \ln(x)</m>
+at <m>x=3</m>.</p>
 <p>Tangent Line: <m>y =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>3\mathopen{}\left(x-1\right)+3\ln\mathopen{}\left(1\right)</m>
+        <m>1.33333\mathopen{}\left(x-3\right)+4\ln\mathopen{}\left(3\right)</m>
       </p>
     </answer>
   </static>

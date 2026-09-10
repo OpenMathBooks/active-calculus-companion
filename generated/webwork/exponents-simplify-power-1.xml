@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-power-1" assembly-id="exponents-simplify-power-1">
-  <static seed="136" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg">
+  <static seed="141" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_one_term_01.pg">
     <statement><p>Simplify. If</p>
-<p><me>\displaystyle \left(25 x^{10}\right)^{1/2} = A x^m</me></p>
+<p><me>\displaystyle \left(4 v^{10}\right)^{1/2} = A v^m</me></p>
 <p>then</p>
 <p><m>A =</m> <fillin characters="10" name="AnSwEr0001"/> and <m>m =</m> <fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>5^{1}</m>
+        <m>2^{1}</m>
       </p>
     </answer>
     <answer>

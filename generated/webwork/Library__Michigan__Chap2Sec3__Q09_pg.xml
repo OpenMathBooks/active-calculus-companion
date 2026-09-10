@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec3__Q09_pg" assembly-id="Library__Michigan__Chap2Sec3__Q09_pg">
-  <static seed="79" source="Library/Michigan/Chap2Sec3/Q09.pg">
+  <static seed="84" source="Library/Michigan/Chap2Sec3/Q09.pg">
     <statement><p>Consider the function <m>f(x)</m> shown in the graph below.</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__Michigan__Chap2Sec3__Q09_pg-image-1.png" width="41%"/>
 <p><em>(Note that you can click on the graph to get a larger version of
@@ -29,12 +29,12 @@ estimate the following values on the derivative function.</p>
 </statement>
     <answer>
       <p>
-        <m>-1</m>
+        <m>-2</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2</m>
+        <m>1</m>
       </p>
     </answer>
     <answer>
@@ -44,7 +44,7 @@ estimate the following values on the derivative function.</p>
     </answer>
     <answer>
       <p>
-        <m>-2</m>
+        <m>2</m>
       </p>
     </answer>
     <solution><m>x</m>, we estimate the derivative by estimating the 
@@ -65,16 +65,16 @@ From the graph and our calculations, it appears that
 
 
 
-<m>f'(-3) \approx -1</m>, 
+<m>f'(-3) \approx -2</m>, 
 
 
-<m>f'(-1) \approx 2</m>, 
+<m>f'(-1) \approx 1</m>, 
 
 
 <m>f'(1) \approx 0</m>, and 
 
 
-<m>f'(3) \approx -2</m>. 
+<m>f'(3) \approx 2</m>. 
 
 
 

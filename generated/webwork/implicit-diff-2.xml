@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-2" assembly-id="implicit-diff-2">
-  <static seed="265" source="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg">
+  <static seed="270" source="Library/ASU-topics/setImplicitDerivatives/5-4-17.pg">
     <statement><p>For the equation given below, evaluate <m>y'</m> at the point
-<m>(-1,2)</m>.
-<me>e^y  +   19 - e^{2} = 3 x^2 + 4 y^2.</me></p>
-<p><m>y'</m> at <m>(-1,2)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<m>(2,-1)</m>.
+<me>e^y  +   15 - e^{-1} = 3 x^2 + 3 y^2.</me></p>
+<p><m>y'</m> at <m>(2,-1)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>0.696787723730832</m>
+        <m>1.88445778706396</m>
       </p>
     </answer>
   </static>

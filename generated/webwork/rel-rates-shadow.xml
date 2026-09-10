@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-rel-rates-shadow" assembly-id="rel-rates-shadow">
-  <static seed="288" source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg">
-    <statement><p>A street light is at the top of a 29 ft pole.  A 6 ft tall girl
-walks along a straight path away from the pole with a speed of 7 ft/sec.</p>
+  <static seed="293" source="Library/OSU/high_school_apcalc/dcfrev/prob7.pg">
+    <statement><p>A street light is at the top of a 22 ft pole.  A 4 ft tall girl
+walks along a straight path away from the pole with a speed of 8 ft/sec.</p>
 <p>At what rate is the tip of her shadow moving away from the light (ie. away
-from the <alert> top </alert> of the pole) when the girl is 31 ft away from the pole?</p>
+from the <alert> top </alert> of the pole) when the girl is 50 ft away from the pole?</p>
 <p>Answer: <fillin characters="40" name="AnSwEr0001"/></p>
 <p>How fast is her shadow lengthening?</p>
 <p>Answer: <fillin characters="40" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{\left(31+8.08696\right)\mathopen{}\left(7+1.82609\right)}{48.6702}</m>
+        <m>\frac{\left(50+11.1111\right)\mathopen{}\left(8+1.77778\right)}{64.9505}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{7}{\frac{29}{6}-1}</m>
+        <m>\frac{8}{\frac{22}{4}-1}</m>
       </p>
     </answer>
   </static>

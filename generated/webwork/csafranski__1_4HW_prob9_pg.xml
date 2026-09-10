@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_4HW_prob9_pg" assembly-id="csafranski__1_4HW_prob9_pg">
-  <static seed="87" source="csafranski/1.4HW_prob9.pg">
-    <statement><p>Let <m>f(x) = 6  +    2 \sqrt{x}</m>.  Then the expression
+  <static seed="92" source="csafranski/1.4HW_prob9.pg">
+    <statement><p>Let <m>f(x) = -6  -    5 \sqrt{x}</m>.  Then the expression
 <me>\frac{f(x + h) - f(x)}{h}</me>
 can be written in the form
 <me>\frac{A}{\left(\sqrt{Bx + Ch} \right) + \left(\sqrt{x} \right)},</me>
@@ -23,7 +23,7 @@ f(x)}{h}} =</m> <fillin characters="20" name="AnSwEr0004"/></p>
 </statement>
     <answer>
       <p>
-        <m>2</m>
+        <m>-5</m>
       </p>
     </answer>
     <answer>
@@ -38,35 +38,35 @@ f(x)}{h}} =</m> <fillin characters="20" name="AnSwEr0004"/></p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{2\sqrt{x}}</m>
+        <m>\frac{-5}{2\sqrt{x}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{2\sqrt{1}}</m>
+        <m>\frac{-5}{2\sqrt{1}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{2\sqrt{2}}</m>
+        <m>\frac{-5}{2\sqrt{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{2\sqrt{3}}</m>
+        <m>\frac{-5}{2\sqrt{3}}</m>
       </p>
     </answer>
-    <solution><p>We simplify the expression <me>\frac{f(x+h)-f(x)}{h} = \frac{6+2\sqrt{x+h}-(6+2\sqrt{x})}{h}</me> by multiplying both numerator and denominator by the conjugate and simplifying.</p>
-<p><me>\frac{6+2\sqrt{x+h}-(6+2\sqrt{x})}{h} = \frac{2\sqrt{x+h}-2\sqrt{x}}{h} =\frac{(2\sqrt{x+h}-2\sqrt{x})(2\sqrt{x+h}+2\sqrt{x})}{h(2\sqrt{x+h}+2\sqrt{x})}</me> 
-<me>= \frac{4\mathopen{}\left(x+h\right)-4x}{h(2\sqrt{x+h}+2\sqrt{x})} = \frac{4h}{h(2\sqrt{x+h}+2\sqrt{x})} = \frac{4h}{2 h(\sqrt{x+h}+\sqrt{x})}</me> 
+    <solution><p>We simplify the expression <me>\frac{f(x+h)-f(x)}{h} = \frac{-6-5\sqrt{x+h}-(-6-5\sqrt{x})}{h}</me> by multiplying both numerator and denominator by the conjugate and simplifying.</p>
+<p><me>\frac{-6-5\sqrt{x+h}-(-6-5\sqrt{x})}{h} = \frac{-5\sqrt{x+h} + 5\sqrt{x}}{h} =\frac{(-5\sqrt{x+h} + 5\sqrt{x})(-5\sqrt{x+h} - 5\sqrt{x})}{h(-5\sqrt{x+h} - 5\sqrt{x})}</me> 
+<me>= \frac{-25\mathopen{}\left(x+h\right) + 25x}{h(-5\sqrt{x+h} - 5\sqrt{x})} = \frac{25h}{h(-5\sqrt{x+h} - 5\sqrt{x})} = \frac{25h}{-5 h(\sqrt{x+h}+\sqrt{x})}</me> 
 Finally, we can divide to get
-<me>=\frac{2}{\sqrt{x+h}+\sqrt{x}}</me>
-That means A=2, while B=C=1.</p>
-<p>Now, we can take <me>\lim_{h\to 0} \frac{2}{\sqrt{x+h}+\sqrt{x}} = \frac{2}{2\sqrt{x}} .</me></p>
+<me>=\frac{-5}{\sqrt{x+h}+\sqrt{x}}</me>
+That means A=-5, while B=C=1.</p>
+<p>Now, we can take <me>\lim_{h\to 0} \frac{-5}{\sqrt{x+h}+\sqrt{x}} = \frac{-5}{2\sqrt{x}} .</me></p>
 <p>Lastly, we can use this to calculate:
-<me>f'(1)= \frac{2}{2\sqrt{1}}</me>
-<me>f'(2)= \frac{2}{2\sqrt{2}}</me>
-<me>f'(3)= \frac{2}{2\sqrt{3}}</me></p>
+<me>f'(1)= \frac{-5}{2\sqrt{1}}</me>
+<me>f'(2)= \frac{-5}{2\sqrt{2}}</me>
+<me>f'(3)= \frac{-5}{2\sqrt{3}}</me></p>
 </solution>
   </static>
   <rendering-data sourceFilePath="csafranski/1.4HW_prob9.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

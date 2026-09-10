@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-app-opt-wire-1" assembly-id="apps-app-opt-wire-1">
-  <static seed="334" source="Library/Michigan/Chap4Sec5/Qweb5.pg">
-    <statement><p>A wire 9 meters long is cut into two pieces.  One piece is bent
-into a square for a frame for a stained glass ornament, while the
+  <static seed="339" source="Library/Michigan/Chap4Sec5/Qweb5.pg">
+    <statement><p>A wire 6 meters long is cut into two pieces.  One piece is bent
+into a equilateral triangle for a frame for a stained glass ornament, while the
 other piece is bent into a circle for a TV antenna.  To reduce storage
 space, where should the wire be cut to minimize the total area of both
 figures? 
 Give the length of wire used for each:</p>
-<p>For the square: <fillin characters="35" name="AnSwEr0001"/></p>
+<p>For the equilateral triangle: <fillin characters="35" name="AnSwEr0001"/></p>
 <p>For the circle: <fillin characters="35" name="AnSwEr0002"/></p>
 <p>(for both, include )</p>
 <p>Where should the wire be cut to maximize the total area?  
 Again, give the length of wire used for each:</p>
-<p>For the square: <fillin characters="35" name="AnSwEr0003"/></p>
+<p>For the equilateral triangle: <fillin characters="35" name="AnSwEr0003"/></p>
 <p>For the circle: <fillin characters="35" name="AnSwEr0004"/></p>
 <p>(for both, include )</p>
 </statement>
     <answer>
       <p>
-        <m>5.04089238160402\ {\rm m}</m>
+        <m>3.73925015108382\ {\rm m}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3.95910761839598\ {\rm m}</m>
+        <m>2.26074984891618\ {\rm m}</m>
       </p>
     </answer>
     <answer>
@@ -33,7 +33,7 @@ Again, give the length of wire used for each:</p>
     </answer>
     <answer>
       <p>
-        <m>9\ {\rm m}</m>
+        <m>6\ {\rm m}</m>
       </p>
     </answer>
     <solution><em>the total area enclosed by
@@ -45,7 +45,7 @@ figures.
 
 
 Suppose we cut <m>x</m> meters of wire to make the circular antenna.
-Then there are <m>9 - x</m> meters left for the square.  To find the
+Then there are <m>6 - x</m> meters left for the equilateral triangle.  To find the
 area of the circle we need its radius.  The circumference of a circle
 of radius <m>r</m> is <m>C = 2\pi r</m>, so the radius of the circle is
 given by <m>2\pi r = x</m>, and so <m>r = \frac{x}{2\pi}</m>.  The area
@@ -55,52 +55,52 @@ of the circular antenna is therefore
 
 
 
-Then the perimeter of a square with side length <m>s</m> is 
-<m>P = 4 s = 9 - x</m>, so the side length is 
-<m>s = \frac{1}{4}(9 - x)</m>.  Then the area of a square is 
-<m>A_s =  s^2</m>, so the area of the square is 
-<m>A_s =  (\frac{1}{16})(9 - x)^2</m>.
+Then the perimeter of a equilateral triangle with side length <m>s</m> is 
+<m>P = 3 s = 6 - x</m>, so the side length is 
+<m>s = \frac{1}{3}(6 - x)</m>.  Then the area of a equilateral triangle is 
+<m>A_t = \frac{\sqrt{3}}{4} s^2</m>, so the area of the equilateral triangle is 
+<m>A_t = \frac{\sqrt{3}}{4} (\frac{1}{9})(6 - x)^2</m>.
 
 
 
 
 The total area is therefore
-<me>A = \frac{1}{4\pi} x^2 +  (\frac{1}{16})(9 - x)^2
-  = \frac{1}{4\pi} x^2 + \frac{1}{ (16)}(81 - 18 x + x^2).</me>
-The domain for <m>x</m> is <m>0\le x\le 9</m>.  
+<me>A = \frac{1}{4\pi} x^2 + \frac{\sqrt{3}}{4} (\frac{1}{9})(6 - x)^2
+  = \frac{1}{4\pi} x^2 + \frac{\sqrt{3}}{4 (9)}(36 - 12 x + x^2).</me>
+The domain for <m>x</m> is <m>0\le x\le 6</m>.  
 
 
 
  
 The maximum and minimum of <m>A</m> will occur at critical or end
 points.  Critical points are where <m>dA/dx = 0</m>, or, where
-<me>\frac{1}{2\pi} x + \frac{1}{ (16)}(2x - 18) = 0.</me>
+<me>\frac{1}{2\pi} x + \frac{\sqrt{3}}{4 (9)}(2x - 12) = 0.</me>
 Collecting all terms in <m>x</m> we have
-<me>\left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) x = 
-  \frac{18 }{16},</me>
+<me>\left( \frac{1}{2\pi} + \frac{2 \sqrt{3}}{4 (9)}\right) x = 
+  \frac{12 \frac{\sqrt{3}}{4}}{9},</me>
 so, after simplifying, 
-<me>x = \frac{9 \pi}{4 + \pi}.</me>
+<me>x = \frac{6\sqrt{3} \pi}{9 + \sqrt{3} \pi}.</me>
 
 
 
 
 To determine if this is a local maximum or minimum, we use the second
 derivative test.  
-<me>A'' = \left( \frac{1}{2\pi} + \frac{2 }{ (16)}\right) &gt; 0,</me>
+<me>A'' = \left( \frac{1}{2\pi} + \frac{2 \sqrt{3}}{4 (9)}\right) &gt; 0,</me>
 so the function is concave up everywhere and this is a local,
 and because there is only one critical point, global, minimum.  Thus
-to minimize area we use <m>\frac{9 \pi}{4 + \pi}</m> meters of wire for the circle and
-<m>9 - \frac{9 \pi}{4 + \pi}</m> meters for the square. 
+to minimize area we use <m>\frac{6\sqrt{3} \pi}{9 + \sqrt{3} \pi}</m> meters of wire for the circle and
+<m>6 - \frac{6\sqrt{3} \pi}{9 + \sqrt{3} \pi}</m> meters for the equilateral triangle. 
 
 
 
  
 To maximize the area, we must use the endpoints.  The areas at the
 endpoints are
-<me>A(0) = \frac{81}{16} \approx 5.06\qquad{\rm and}\qquad
-   A(9) = \frac{81}{4\pi} \approx 6.45,</me>
-the larger of which is <m>A(9)</m>, so the maximum area occurs when
-all of the wire is used for the circle and none for the square.
+<me>A(0) = 2\qquad{\rm and}\qquad
+   A(6) = \frac{9}{\pi} \approx 2.86,</me>
+the larger of which is <m>A(6)</m>, so the maximum area occurs when
+all of the wire is used for the circle and none for the equilateral triangle.
 
 
 

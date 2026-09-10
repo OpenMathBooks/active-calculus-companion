@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-interpreting-graphs-2" assembly-id="interpreting-graphs-2">
+  <static seed="77" source="Library/Mizzou/Algebra/functions_evaluating/two_graphs_equal_inequal_02.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-2-image-1.png" width="80%"/>
+<p>Given the graph of <m>y = f(x)</m> (drawn in blue) and <m>y = g(x)</m> (drawn in red) below, answer all of the following questions.  Express each of your answers
+as either a set, such as <em> {2,3,4}</em> (including the set braces),
+or using .</p>
+<p>(a) Solve <m>f (x) = 0</m>: <fillin characters="35" name="AnSwEr0001"/></p>
+<p>(b) Solve <m>f (x) \geq 0</m>: <fillin characters="35" name="AnSwEr0002"/></p>
+<p>(c) Solve <m>f (x) \lt  0</m>: <fillin characters="35" name="AnSwEr0003"/></p>
+<p>(d) Solve <m>f(x) = g(x)</m>: <fillin characters="35" name="AnSwEr0004"/></p>
+<p>(e) Solve <m>f(x) \leq g(x)</m>: <fillin characters="35" name="AnSwEr0005"/></p>
+<p>(f) Solve <m>f(x) &gt; g(x)</m>: <fillin characters="35" name="AnSwEr0006"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left\{-5,0,5\right\}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left[-5,0\right]\cup \left[5,8\right]</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left[-8,-5\right)\cup \left(0,5\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left\{-8,0,8\right\}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left[0,8\right]\cup \left\{-8\right\}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(-8,0\right)</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Mizzou/Algebra/functions_evaluating/two_graphs_equal_inequal_02.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Mizzou/Algebra/functions_evaluating/two_graphs_equal_inequal_02.pg"/>
+</webwork-reps>

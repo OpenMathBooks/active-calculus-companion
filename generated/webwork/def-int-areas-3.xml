@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-areas-3" assembly-id="def-int-areas-3">
-  <static seed="373" source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg">
+  <static seed="378" source="Contrib/Valdosta/APEX_Calculus/5.2/APEX_5.2_9.pg">
     <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/def-int-areas-3-image-1.png" width="66%"/>
-<p>A graph of <m>f(x) = \sqrt{1 - (x - 1)^2}</m> is shown above.  
+<p>A graph of <m>f(x) = \sqrt{25 - (x - 5)^2}</m> is shown above.  
 Using the geometry of the graph, evaluate the definite
 integrals.</p>
-<p>a) <m>\displaystyle\int_0^{1} f(x)
+<p>a) <m>\displaystyle\int_0^{5} f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0001"/></p>
-<p>b) <m>\displaystyle\int_{1}^{2} f(x)
+<p>b) <m>\displaystyle\int_{5}^{10} f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0002"/></p>
-<p>c) <m>\displaystyle\int_0^{2} f(x)
+<p>c) <m>\displaystyle\int_0^{10} f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0003"/></p>
-<p>d) <m>\displaystyle\int_{0}^{2} -5 f(x)
+<p>d) <m>\displaystyle\int_{0}^{10} -7 f(x)
  \, dx</m> = <fillin characters="20" name="AnSwEr0004"/></p>
 </statement>
     <answer>
       <p>
-        <m>0.785398163397448</m>
+        <m>19.6349540849362</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>0.785398163397448</m>
+        <m>19.6349540849362</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>1.5707963267949</m>
+        <m>39.2699081698724</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-7.85398163397448</m>
+        <m>-274.889357189107</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -42,28 +42,28 @@ Find the signed area, using the graph.
 
 
 
-a) Between <m>x = 0</m> and <m>x = 1</m>, find the area of the
-quarter-circle with radius <m>r = 1</m>.
-<me>\int_0^{1} f(x) \, dx = \frac{1}{4} \pi (1)^2 =
-  \dfrac{1 \pi}{4}.</me>
+a) Between <m>x = 0</m> and <m>x = 5</m>, find the area of the
+quarter-circle with radius <m>r = 5</m>.
+<me>\int_0^{5} f(x) \, dx = \frac{1}{4} \pi (5)^2 =
+  \dfrac{25 \pi}{4}.</me>
 
 
 
-b) Between <m>x = 1</m> and <m>x = 2</m>, the area under the
-graph is again a quarter circle of radius <m>r = 1</m>, so
-<me>\int_{1}^{2} f(x) \, dx = \dfrac{1 \pi}{4}.</me>
+b) Between <m>x = 5</m> and <m>x = 10</m>, the area under the
+graph is again a quarter circle of radius <m>r = 5</m>, so
+<me>\int_{5}^{10} f(x) \, dx = \dfrac{25 \pi}{4}.</me>
 
 
 
 c) This is the area of the semi-circle:
-<me>\int_{0}^{2} f(x) \, dx = \dfrac{1 \pi}{2}.</me>
+<me>\int_{0}^{10} f(x) \, dx = \dfrac{25 \pi}{2}.</me>
 
 
 
 d) Pull out the constant multiple.
-<me>\int_{0}^{2} -5 f(x) \, dx = -5
-  \int_{0}^{2} f(x) \, dx = -5\left(
-  \dfrac{1 \pi}{2}\right).</me>
+<me>\int_{0}^{10} -7 f(x) \, dx = -7
+  \int_{0}^{10} f(x) \, dx = -7\left(
+  \dfrac{25 \pi}{2}\right).</me>
 
 
 </solution>

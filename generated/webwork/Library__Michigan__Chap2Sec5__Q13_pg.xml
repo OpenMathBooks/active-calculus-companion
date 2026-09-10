@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec5__Q13_pg" assembly-id="Library__Michigan__Chap2Sec5__Q13_pg">
-  <static seed="95" source="Library/Michigan/Chap2Sec5/Q13.pg">
+  <static seed="100" source="Library/Michigan/Chap2Sec5/Q13.pg">
     <statement><p>The position of a particle moving along the <m>x</m>-axis is given
-by <m>s(t) = 5t^{2}+2</m>.  Use difference quotients to find the
+by <m>s(t) = 2t^{2}+4</m>.  Use difference quotients to find the
 velocity <m>v(t)</m> and acceleration <m>a(t)</m>, filling in the following
 expressions as you do so:</p>
 <p><m>v(t) = \lim\limits_{h\to0}</m>
@@ -12,31 +12,31 @@ expressions as you do so:</p>
 </statement>
     <answer>
       <p>
-        <m>5\mathopen{}\left(t+h\right)^{2}+2-\left(5t^{2}+2\right)</m>
+        <m>2\mathopen{}\left(t+h\right)^{2}+4-\left(2t^{2}+4\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10t</m>
+        <m>4t</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10\mathopen{}\left(t+h\right)-10t</m>
+        <m>4\mathopen{}\left(t+h\right)-4t</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>10</m>
+        <m>4</m>
       </p>
     </answer>
-    <solution><me>v(t) = \lim_{h\to0} \frac{5\mathopen{}\left(t+h\right)^{2}+2 - 5t^{2}+2}{h}
-        = \lim_{h\to0} \frac{5t^{2}+10th+5h^{2}+2-5t^{2}-2}{h}
-        = \lim_{h\to0} 10t+5h = 10 t</me>
+    <solution><me>v(t) = \lim_{h\to0} \frac{2\mathopen{}\left(t+h\right)^{2}+4 - 2t^{2}+4}{h}
+        = \lim_{h\to0} \frac{2t^{2}+4th+2h^{2}+4-2t^{2}-4}{h}
+        = \lim_{h\to0} 4t+2h = 4 t</me>
 and
-<me>v(t) = \lim_{h\to0} \frac{10\mathopen{}\left(t+h\right) - 10t}{h}
-        = \lim_{h\to0} \frac{10t+10h-10t}{h}
-        = \lim_{h\to0} 10 = 10.</me>
+<me>v(t) = \lim_{h\to0} \frac{4\mathopen{}\left(t+h\right) - 4t}{h}
+        = \lim_{h\to0} \frac{4t+4h-4t}{h}
+        = \lim_{h\to0} 4 = 4.</me>
 
 
 

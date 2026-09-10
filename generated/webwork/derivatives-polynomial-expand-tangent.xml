@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-polynomial-expand-tangent" assembly-id="derivatives-polynomial-expand-tangent">
-  <static seed="154" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg">
-    <statement><p>Find the equation of the tangent line to the curve <m>y=(1+2x)^2</m> at the point <m>(1,9)</m>.</p>
+  <static seed="159" source="Library/UCSB/Stewart5_3_1/Stewart5_3_1_40.pg">
+    <statement><p>Find the equation of the tangent line to the curve <m>y=(1+2x)^2</m> at the point <m>(3,49)</m>.</p>
 <p><m>y=</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>12\mathopen{}\left(x-1\right)+9</m>
+        <m>28\mathopen{}\left(x-3\right)+49</m>
       </p>
     </answer>
   </static>

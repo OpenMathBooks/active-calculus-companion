@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-exponential-power-1" assembly-id="derivatives-exponential-power-1">
-  <static seed="147" source="Library/Michigan/Chap3Sec2/Q01.pg">
+  <static seed="152" source="Library/Michigan/Chap3Sec2/Q01.pg">
     <statement><p>Find the derivative of
-<m>f(x)=5 e^x+x^{2}</m>.</p>
+<m>f(x)=13 e^x+x^{4}</m>.</p>
 <p><m>f'(x) =</m> <fillin characters="35" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>5e^{x}+2x^{2-1}</m>
+        <m>13e^{x}+4x^{4-1}</m>
       </p>
     </answer>
-    <solution><me>f'(x) = 5 e^x + 2 x</me>
+    <solution><me>f'(x) = 13 e^x + 4 x^{3}</me>
 
 
 </solution>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-exponents-simplify-power-2" assembly-id="exponents-simplify-power-2">
-  <static seed="137" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg">
+  <static seed="142" source="Library/Mizzou/Algebra/exponents_rational/conv_exp_to_exp_two_term_div_01.pg">
     <statement><p>Simplify and write the following in exponential notation. If</p>
-<p><me>\frac{ z^{ \frac{2}{3} } ~v^{ \frac{2}{7} }  }{ z^{ -\frac{2}{3} }    v^{ \frac{1}{21} } } = z^{m} \cdot v^n</me></p>
+<p><me>\frac{ w^{ \frac{5}{6} } ~v^{ \frac{3}{4} }  }{ w^{ -\frac{2}{6} }    v^{ \frac{1}{16} } } = w^{m} \cdot v^n</me></p>
 <p>then</p>
 <p><m>m =</m> <fillin characters="20" name="AnSwEr0001"/>
     and    
@@ -10,12 +10,12 @@
 </statement>
     <answer>
       <p>
-        <m>{\frac{4}{3}}</m>
+        <m>{\frac{7}{6}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>{\frac{5}{21}}</m>
+        <m>{\frac{11}{16}}</m>
       </p>
     </answer>
   </static>

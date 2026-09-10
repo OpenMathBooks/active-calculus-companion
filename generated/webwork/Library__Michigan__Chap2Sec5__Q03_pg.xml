@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec5__Q03_pg" assembly-id="Library__Michigan__Chap2Sec5__Q03_pg">
-  <static seed="98" source="Library/Michigan/Chap2Sec5/Q03.pg">
+  <static seed="103" source="Library/Michigan/Chap2Sec5/Q03.pg">
     <statement><p>At exactly two of the labeled points in the figure below, which shows
 a function <m>f</m>, the derivative <m>f'</m> is zero; the second derivative
 <m>f''</m> is not zero at any of the labeled points.  Select the correct
@@ -163,41 +163,6 @@ negative
 </statement>
     <answer>
       <p>
-        <m>\text{positive}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{positive}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{positive}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{negative}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{negative}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{positive}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
-        <m>\text{zero}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
         <m>\text{negative}</m>
       </p>
     </answer>
@@ -219,6 +184,41 @@ negative
     <answer>
       <p>
         <m>\text{negative}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{zero}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{zero}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{positive}</m>
       </p>
     </answer>
     <answer>
@@ -262,8 +262,8 @@ gives the table
 
 <row>
 <cell><m>f</m></cell>
-<cell>positive</cell>
-<cell>positive</cell>
+<cell>negative</cell>
+<cell>zero</cell>
 <cell>positive</cell>
 <cell>negative</cell>
 <cell>negative</cell>
@@ -271,17 +271,17 @@ gives the table
 
 <row>
 <cell><m>f'</m></cell>
-<cell>positive</cell>
 <cell>zero</cell>
-<cell>negative</cell>
+<cell>positive</cell>
+<cell>positive</cell>
 <cell>zero</cell>
 <cell>positive</cell>
 </row>
 
 <row>
 <cell><m>f''</m></cell>
-<cell>negative</cell>
-<cell>negative</cell>
+<cell>positive</cell>
+<cell>positive</cell>
 <cell>negative</cell>
 <cell>positive</cell>
 <cell>positive</cell>

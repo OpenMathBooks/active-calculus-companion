@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-3" assembly-id="derivatives-trig-adv-quot-3">
-  <static seed="205" source="Library/UMN/calculusStewartCCC/s_3_3_8.pg">
-    <statement><p>Differentiate <m>\displaystyle f(t) = \frac{\cot t}{e^t}.</m></p>
+  <static seed="210" source="Library/UMN/calculusStewartCCC/s_3_3_8.pg">
+    <statement><p>Differentiate <m>\displaystyle f(t) = \frac{\tan t}{e^t}.</m></p>
 <p><m>\displaystyle f'(t) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>\frac{-\csc^{2}\mathopen{}\left(t\right)-\cot\mathopen{}\left(t\right)}{e^{t}}</m>
+        <m>\frac{\sec^{2}\mathopen{}\left(t\right)-\tan\mathopen{}\left(t\right)}{e^{t}}</m>
       </p>
     </answer>
   </static>

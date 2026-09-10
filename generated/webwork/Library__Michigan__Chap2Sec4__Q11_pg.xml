@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec4__Q11_pg" assembly-id="Library__Michigan__Chap2Sec4__Q11_pg">
-  <static seed="90" source="Library/Michigan/Chap2Sec4/Q11.pg">
+  <static seed="95" source="Library/Michigan/Chap2Sec4/Q11.pg">
     <statement><p>A laboratory study investigating the relationship between
 diet and weight in adult humans found that the weight of a subject,
 <m>W</m>, in pounds, was a function, <m>W=f(c)</m>, of the
 average number of Calories, <m>c</m>, consumed by the subject in a day.</p>
 <p><alert>(a)</alert>
-In the statement <m>f(1900) = 165</m></p>
-<p>what are the units of 1900? <ul form="popup" name="AnSwEr0001"><li>
+In the statement <m>f(1700) = 145</m></p>
+<p>what are the units of 1700? <ul form="popup" name="AnSwEr0001"><li>
 <p>?</p>
 </li><li>
 <p>lb</p>
@@ -28,7 +28,7 @@ In the statement <m>f(1900) = 165</m></p>
 </li><li>
 <p>day/cal</p>
 </li></ul></p>
-<p>what are the units of 165? <ul form="popup" name="AnSwEr0002"><li>
+<p>what are the units of 145? <ul form="popup" name="AnSwEr0002"><li>
 <p>?</p>
 </li><li>
 <p>lb</p>
@@ -100,8 +100,8 @@ In the statement <m>f'(2000)=0</m>,</p>
 weight of the subject and the number of calories that the subject
 consumes.)</em></p>
 <p><alert>(c)</alert>
-In the statement <m>f^{-1}(171) = 2200</m>,</p>
-<p>what are the units of 171? <ul form="popup" name="AnSwEr0005"><li>
+In the statement <m>f^{-1}(155) = 2200</m>,</p>
+<p>what are the units of 155? <ul form="popup" name="AnSwEr0005"><li>
 <p>?</p>
 </li><li>
 <p>lb</p>
@@ -171,8 +171,8 @@ What are the units of <m>f'(c)=dW/dc</m>?  <ul form="popup" name="AnSwEr0007"><l
 <p><alert>(e)</alert>
 Suppose that Sam reads about <m>f'</m> in this study and draws the
 following conclusion: If Sam increases his average calorie intake
-from 2900 to 2930 calories per day, then his weight will increase by
-approximately 0.45 pounds.</p>
+from 2900 to 2940 calories per day, then his weight will increase by
+approximately 0.4 pounds.</p>
 <p>Fill in the blanks below so that the equation supports his conclusion.</p>
 <p><m>f'\Big(</m> <fillin characters="25" name="AnSwEr0008"/> <m>\Big)=</m> <fillin characters="25" name="AnSwEr0009"/></p>
 </statement>
@@ -218,7 +218,7 @@ approximately 0.45 pounds.</p>
     </answer>
     <answer>
       <p>
-        <m>0.015</m>
+        <m>0.01</m>
       </p>
     </answer>
     <solution><m>W=f(c)</m> where <m>W</m> is weight in pounds and <m>c</m>
@@ -227,8 +227,8 @@ is the number of Calories consumed per day:
 
 
 <alert>(a)</alert>
-<m>f(1900) = 165</m> means that consuming 1900 cal each day results in a
-weight of 165 lb (the units of 1900 are cal, and 165 lb).
+<m>f(1700) = 145</m> means that consuming 1700 cal each day results in a
+weight of 145 lb (the units of 1700 are cal, and 145 lb).
 
 
 
@@ -239,8 +239,8 @@ weight gain nor loss (the units of the 2000 are cal, and 0 lb/cal).
 
 
 <alert>(c)</alert>
-<m>f^{-1}(171)=2200</m> means that a weight of 171 lb is caused by a
-consumption of 2200 cal each day (the units of 171 are lb, and 2200 cal).
+<m>f^{-1}(155)=2200</m> means that a weight of 155 lb is caused by a
+consumption of 2200 cal each day (the units of 155 are lb, and 2200 cal).
 
 
 
@@ -251,7 +251,7 @@ The units of <m>dW/dc</m> are lb/cal
 
 <alert>(e)</alert>
 Based on Sam's conclusion,  <m>f'(2900)</m> should equal
-<m>\frac{\Delta W}{\Delta c} = \frac{0.45}{30} = 0.015</m>.
+<m>\frac{\Delta W}{\Delta c} = \frac{0.4}{40} = 0.01</m>.
 
 
 

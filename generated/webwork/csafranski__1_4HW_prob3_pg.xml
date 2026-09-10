@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_4HW_prob3_pg" assembly-id="csafranski__1_4HW_prob3_pg">
-  <static seed="81" source="csafranski/1.4HW_prob3.pg">
+  <static seed="86" source="csafranski/1.4HW_prob3.pg">
     <statement><p>(Click on a graph to enlarge it.)</p>
 <tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
 <row halign="center" valign="middle">
@@ -55,7 +55,7 @@
 <p>You can also look for where there are any horizontal tangent lines - the derivative function will cross the x-axis at that point.</p>
 </hint>
     <answer>
-      <p>A</p>
+      <p>C</p>
     </answer>
     <answer>
       <p>D</p>
@@ -64,12 +64,12 @@
       <p>B</p>
     </answer>
     <answer>
-      <p>C</p>
+      <p>A</p>
     </answer>
-    <solution><p>The function shown in Graph 1 has the derivative function shown in Graph A.</p>
+    <solution><p>The function shown in Graph 1 has the derivative function shown in Graph C.</p>
 <p>The function shown in Graph 2 has the derivative function shown in Graph D.</p>
 <p>The function shown in Graph 3 has the derivative function shown in Graph B.</p>
-<p>The function shown in Graph 4 has the derivative function shown in Graph C.</p>
+<p>The function shown in Graph 4 has the derivative function shown in Graph A.</p>
 </solution>
   </static>
   <rendering-data sourceFilePath="csafranski/1.4HW_prob3.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>

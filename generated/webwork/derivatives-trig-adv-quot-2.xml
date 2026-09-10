@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-trig-adv-quot-2" assembly-id="derivatives-trig-adv-quot-2">
-  <static seed="203" source="Library/Union/setDervTrigonometric/s2_4_31.pg">
-    <statement><p>Let <m>f(x) = \displaystyle \frac{3x^{2}\tan\mathopen{}\left(x\right)}{\sec\mathopen{}\left(x\right)}</m>.  Find the following:</p>
+  <static seed="208" source="Library/Union/setDervTrigonometric/s2_4_31.pg">
+    <statement><p>Let <m>f(x) = \displaystyle \frac{2x^{2}\tan\mathopen{}\left(x\right)}{\sec\mathopen{}\left(x\right)}</m>.  Find the following:</p>
 <tabular>
 <row>
 <cell>1.</cell>
@@ -11,7 +11,7 @@
 </row>
 <row>
 <cell>2.</cell>
-<cell><m>f'(2)</m></cell>
+<cell><m>f'(3)</m></cell>
 <cell><m>=</m></cell>
 <cell><fillin characters="80" name="AnSwEr0002"/></cell>
 </row>
@@ -19,12 +19,12 @@
 </statement>
     <answer>
       <p>
-        <m>\frac{\left(6x\tan\mathopen{}\left(x\right)+3x^{2}\sec^{2}\mathopen{}\left(x\right)\right)\sec\mathopen{}\left(x\right)-3x^{2}\tan\mathopen{}\left(x\right)\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)}{\sec^{2}\mathopen{}\left(x\right)}</m>
+        <m>\frac{\left(4x\tan\mathopen{}\left(x\right)+2x^{2}\sec^{2}\mathopen{}\left(x\right)\right)\sec\mathopen{}\left(x\right)-2x^{2}\tan\mathopen{}\left(x\right)\sec\mathopen{}\left(x\right)\tan\mathopen{}\left(x\right)}{\sec^{2}\mathopen{}\left(x\right)}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>5.91781</m>
+        <m>-16.1264</m>
       </p>
     </answer>
   </static>

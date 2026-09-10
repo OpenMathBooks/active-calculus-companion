@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec4__Q03_pg" assembly-id="Library__Michigan__Chap2Sec4__Q03_pg">
-  <static seed="89" source="Library/Michigan/Chap2Sec4/Q03.pg">
+  <static seed="94" source="Library/Michigan/Chap2Sec4/Q03.pg">
     <statement><p>The cost, <m>C</m> (in dollars) to produce <m>g</m> gallons of ice cream can
 be expressed as <m>C = f(g)</m>.</p>
 <p><alert>(a)</alert>
-In the expression <m>f(275) = 225</m>,</p>
-<p>what are the units of 275? <ul form="popup" name="AnSwEr0001"><li>
+In the expression <m>f(175) = 275</m>,</p>
+<p>what are the units of 175? <ul form="popup" name="AnSwEr0001"><li>
 <p>?</p>
 </li><li>
 <p>dollars</p>
@@ -18,7 +18,7 @@ In the expression <m>f(275) = 225</m>,</p>
 </li><li>
 <p>gallons/dollar</p>
 </li></ul></p>
-<p>what are the units of 225? <ul form="popup" name="AnSwEr0002"><li>
+<p>what are the units of 275? <ul form="popup" name="AnSwEr0002"><li>
 <p>?</p>
 </li><li>
 <p>dollars</p>
@@ -32,8 +32,8 @@ In the expression <m>f(275) = 225</m>,</p>
 <p>gallons/dollar</p>
 </li></ul></p>
 <p><alert>(b)</alert>
-In the expression <m>f'(275) = 1.8</m>,</p>
-<p>what are the units of 275? <ul form="popup" name="AnSwEr0003"><li>
+In the expression <m>f'(175) = 1.8</m>,</p>
+<p>what are the units of 175? <ul form="popup" name="AnSwEr0003"><li>
 <p>?</p>
 </li><li>
 <p>dollars</p>
@@ -84,17 +84,17 @@ money.)</em></p>
       </p>
     </answer>
     <solution><alert>(a)</alert>
-The statement <m>f(275) = 225</m> means that it costs 225 dollars to
-produce 275 gallons of ice cream.
+The statement <m>f(175) = 275</m> means that it costs 275 dollars to
+produce 175 gallons of ice cream.
 
 
 
 
 <alert>(b)</alert>
-The statement <m>f'(275) = 1.8</m> means that when the number of
-gallons produced is 275, costs are increasing by 1.8 dollars/gallon
+The statement <m>f'(175) = 1.8</m> means that when the number of
+gallons produced is 175, costs are increasing by 1.8 dollars/gallon
 In other words, it costs about 1.8 dollars to produce the
-276th gallon of ice cream.
+176th gallon of ice cream.
 
 
 

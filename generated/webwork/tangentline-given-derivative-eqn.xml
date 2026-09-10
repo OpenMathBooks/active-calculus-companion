@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-eqn" assembly-id="tangentline-given-derivative-eqn">
-  <static seed="117" source="Library/Wiley/setAnton_Section_2.2/Question7.pg">
-    <statement><p>Given that <m>\small{f(9) = -1}</m> and <m>\small{f'(9) = 1}</m>, find an equation for the
-tangent line to the graph of <m>\small{y = f(x)}</m> at <m>\small{x = 9}</m>.</p>
+  <static seed="122" source="Library/Wiley/setAnton_Section_2.2/Question7.pg">
+    <statement><p>Given that <m>\small{f(5) = 3}</m> and <m>\small{f'(5) = 2}</m>, find an equation for the
+tangent line to the graph of <m>\small{y = f(x)}</m> at <m>\small{x = 5}</m>.</p>
 <p><m>\small{y =}</m> <fillin characters="15" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>1x+\left(-10\right)</m>
+        <m>2x+\left(-7\right)</m>
       </p>
     </answer>
-    <solution><m>\small{f'(9) = 1}</m>, the slope of the tangent line at <m>\small{x = 9}</m> is <m>\small{1}</m>.
-Since <m>\small{f(9) = -1}</m>, the tangent line contains the point <m>\small{(9,-1)}</m>.
+    <solution><m>\small{f'(5) = 2}</m>, the slope of the tangent line at <m>\small{x = 5}</m> is <m>\small{2}</m>.
+Since <m>\small{f(5) = 3}</m>, the tangent line contains the point <m>\small{(5,3)}</m>.
 
 
 
-Therefore, the equation of the tangent line to <m>\small{f(x)}</m> at <m>\small{x = 9}</m> is <m>\small{y  + 1 = 1(x - 9)}</m>,
-or <m>\small{y = 1 x  - 10}</m>.
+Therefore, the equation of the tangent line to <m>\small{f(x)}</m> at <m>\small{x = 5}</m> is <m>\small{y - 3 = 2(x - 5)}</m>,
+or <m>\small{y = 2 x  - 7}</m>.
  
 
 

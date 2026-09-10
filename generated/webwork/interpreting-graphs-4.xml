@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-interpreting-graphs-4" assembly-id="interpreting-graphs-4">
+  <static seed="79" source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph55.pg">
+    <statement><p>The graph of a function <m>f</m> is shown below.</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-4-image-1.png" width="40%"/>
+<p>Use interval notation in your answers. Use <alert>inf</alert> to represent infinity.</p>
+<p><ol label="a.">
+<li>
+<p>Solve <m>\displaystyle{ f(x) \ge 1 }</m></p>
+<p>Solution: <fillin characters="9" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p>Solve <m>\displaystyle{ f(x) \lt 1 }</m></p>
+<p>Solution: <fillin characters="9" name="AnSwEr0002"/></p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(-\infty ,1\right]</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(1,\infty \right)</m>
+      </p>
+    </answer>
+    <solution><p>The question <m>f(x) \ge 1</m> is asking: For what <m>x</m> values, are function <m>f</m><rsq/>s <m>y</m> values greater than or equal to <m>1</m>? We can break down this question into two steps:</p>
+<p><ol label="1.">
+<li>
+<p>In function <m>f</m><rsq/>s graph, identify the part(s) whose <m>y</m> values are greater than or equal to <m>1</m>.</p>
+</li>
+<li>
+<p>Identify those <m>x</m> values corresponding to that part(s) of the function.</p>
+</li>
+</ol></p>
+<p>In this function<rsq/>s graph, the blue part<rsq/>s <m>y</m> values are greater than or equal to <m>1</m>:</p>
+<!-- PTX:WARNING: PGML wanted to center align here. -->
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-4-image-2.png" width="40%"/>
+<p>The corresponding <m>x</m> values of the blue part(s) are in <m>{\left(-\infty ,1\right]}</m>. In other words, to satisfy <m>f(x) \ge 1</m>, function <m>f</m><rsq/>s <m>x</m> values need to be in <m>{\left(-\infty ,1\right]}</m>.</p>
+<p>Similarly, the function<rsq/>s red part<rsq/>s <m>y</m> values are smaller than <m>1</m>, and the corresponding <m>x</m> values of the red part are in <m>{\left(1,\infty \right)}</m>. In other words, to satisfy <m>f(x) \lt 1</m>, function <m>f</m><rsq/>s <m>x</m> values need to be in <m>{\left(1,\infty \right)}</m>.</p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph55.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph55.pg"/>
+</webwork-reps>

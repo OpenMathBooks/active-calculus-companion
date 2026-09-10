@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-csafranski__1_6HW_prob9_pg" assembly-id="csafranski__1_6HW_prob9_pg">
-  <static seed="101" source="csafranski/1.6HW_prob9.pg">
+  <static seed="106" source="csafranski/1.6HW_prob9.pg">
     <statement><p>The figure below shows three graphs: A (in blue), B (in red), and C (in green).  Identify each curve as <m>f,</m> <m>f',</m> and <m>f''.</m></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/csafranski__1_6HW_prob9_pg-image-1.png" width="83%"/>
 <p>1. <m>f</m> <fillin characters="3" name="AnSwEr0001"/> 2. <m>f'</m> <fillin characters="3" name="AnSwEr0002"/> 3.  <m>f''</m> <fillin characters="3" name="AnSwEr0003"/></p>

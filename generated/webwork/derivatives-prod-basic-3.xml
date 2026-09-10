@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-derivatives-prod-basic-3" assembly-id="derivatives-prod-basic-3">
-  <static seed="166" source="Library/Michigan/Chap3Sec5/Q23.pg">
+  <static seed="171" source="Library/Michigan/Chap3Sec5/Q23.pg">
     <statement><p>Find the derivative of 
-<m>f(x)=e^{-5 x}\cdot\sin x</m></p>
+<m>f(x)=e^{-11 x}\cdot\sin x</m></p>
 <p><m>f'(x) =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-1\cdot 5e^{-1\cdot 5x}\sin\mathopen{}\left(x\right)+e^{-1\cdot 5x}\cos\mathopen{}\left(x\right)</m>
+        <m>-1\cdot 11e^{-1\cdot 11x}\sin\mathopen{}\left(x\right)+e^{-1\cdot 11x}\cos\mathopen{}\left(x\right)</m>
       </p>
     </answer>
-    <solution><m>f'(x) = -5 e^{-5 x} \sin(x) + e^{-5 x} \cos(x)</m>
+    <solution><m>f'(x) = -11 e^{-11 x} \sin(x) + e^{-11 x} \cos(x)</m>
 
 
 
-<m>\phantom{ f'(x) } = e^{-5 x} ( -5 \sin(x) + \cos(x) )</m>
+<m>\phantom{ f'(x) } = e^{-11 x} ( -11 \sin(x) + \cos(x) )</m>
 
 
 

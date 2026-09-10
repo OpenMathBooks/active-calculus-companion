@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-tangentline-given-derivative-val-3" assembly-id="tangentline-given-derivative-val-3">
-  <static seed="119" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg">
-    <statement><p>Given that <m>f(-7) = -8</m> and <m>f'(-7) = -2</m>, approximate
-<m>f(-6.9)</m>.</p>
-<p><m>f(-6.9) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+  <static seed="124" source="Contrib/Valdosta/APEX_Calculus/2.2/APEX_2.2_4.pg">
+    <statement><p>Given that <m>f(5) = -1</m> and <m>f'(5) = -5</m>, approximate
+<m>f(4.7)</m>.</p>
+<p><m>f(4.7) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>-8.2</m>
+        <m>0.5</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -15,8 +15,8 @@
 
 
 Using the formula, <m>f(c + h) \approx f(c) + f'(c)\cdot h</m>,
-<me>f(-6.9) = f(-7 + 0.1) \approx f(-7) + f'(-7)\cdot (0.1)
-  = -8  - 2 \cdot (0.1) = -8.2.</me>
+<me>f(4.7) = f(5  - 0.3) \approx f(5) + f'(5)\cdot (-0.3)
+  = -1  - 5 \cdot (-0.3) = 0.5.</me>
 
 
 </solution>

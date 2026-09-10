@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-sigma-notation-writingsum1" assembly-id="sigma-notation-writingsum1">
-  <static seed="360" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg">
+  <static seed="365" source="Contrib/Valdosta/APEX_Calculus/5.3/APEX_5.3_12.pg">
     <statement><p>Write the sum in summation notation, using the given
 lower bound.</p>
-<p><me>7+14+21+28+35+42+49+56 = \sum_{i=1}^{b} a_i</me>
+<p><me>5+10+15+20+25 = \sum_{i=1}^{b} a_i</me>
 <m>b =</m><fillin characters="5" name="AnSwEr0001"/>, <m>a_i =</m><fillin characters="10" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>8</m>
+        <m>5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>7i</m>
+        <m>5i</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -21,9 +21,9 @@ lower bound.</p>
 
 
 Each term is 
-<me>7+14+21+28+35+42+49+56</me>
-<me>= 7(1) + 7(2) + 7(3) + \cdots + 7(8)
-  = \sum_{i=1}^{8} 7 i</me>
+<me>5+10+15+20+25</me>
+<me>= 5(1) + 5(2) + 5(3) + \cdots + 5(5)
+  = \sum_{i=1}^{5} 5 i</me>
 
 
 </solution>

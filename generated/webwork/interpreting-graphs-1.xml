@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-interpreting-graphs-1" assembly-id="interpreting-graphs-1">
+  <static seed="76" source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_32_Functions_Review.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/interpreting-graphs-1-image-1.png" width="66%"/>
+<p>Use the graph of <m>g</m>, given above, to find each 
+indicated function value.</p>
+<p>a) <m>g(-4)</m> = <fillin characters="10" name="AnSwEr0001"/></p>
+<p>b) <m>g(3)</m> = <fillin characters="10" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-2.66667</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_32_Functions_Review.pg" origin="webwork2" domain="https://webwork.runestone.academy" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_32_Functions_Review.pg"/>
+</webwork-reps>

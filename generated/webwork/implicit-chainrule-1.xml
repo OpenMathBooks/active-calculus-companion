@@ -1,42 +1,42 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-chainrule-1" assembly-id="implicit-chainrule-1">
-  <static seed="262" source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg">
+  <static seed="267" source="Contrib/METU-NCC/MAT101/Derivatives/Implicit1.pg">
     <statement><p>Compute implicit derivatives of the following expressions</p>
 <p>Write <m>y'</m> for <m>\frac{dy}{dx}</m>.</p>
-<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[4y-\left(4+4x\right)\Biggr] =</m>
+<p><alert> A.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[1-2x-4y\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0001"/></p>
-<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[x^{2}y+y\Biggr] =</m>
+<p><alert> B.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[x^{2}y^{3}+x\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0002"/></p>
-<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\frac{y+4}{x-1}\Biggr] =</m>
+<p><alert> C.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\frac{x+4}{y+4}\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0003"/></p>
-<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[e^{x^{3}+y^{3}}\Biggr] =</m>
+<p><alert> D.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[e^{x+y^{3}}\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0004"/></p>
-<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\ln\mathopen{}\left(x^{2}y\right)\Biggr] =</m>
+<p><alert> E.</alert> <m>\quad \frac{d}{dx} \displaystyle \Biggl[\ln\mathopen{}\left(xy^{3}\right)\Biggr] =</m>
 <fillin characters="20" name="AnSwEr0005"/></p>
 </statement>
     <answer>
       <p>
-        <m>4y'-4</m>
+        <m>-\left(2+4y'\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2xy+x^{2}y'+y'</m>
+        <m>2xy^{3}+3x^{2}y^{2}y'+1</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{y'\mathopen{}\left(x-1\right)-\left(y+4\right)}{\left(x-1\right)^{2}}</m>
+        <m>\frac{y+4-y'\mathopen{}\left(x+4\right)}{\left(y+4\right)^{2}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left(3x^{2}+3y^{2}y'\right)e^{x^{3}+y^{3}}</m>
+        <m>\left(1+3y^{2}y'\right)e^{x+y^{3}}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\frac{2}{x}+\frac{y'}{y}</m>
+        <m>\frac{1}{x}+3\frac{y'}{y}</m>
       </p>
     </answer>
   </static>

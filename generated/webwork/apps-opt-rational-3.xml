@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-apps-opt-rational-3" assembly-id="apps-opt-rational-3">
-  <static seed="331" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg">
-    <statement><p>Find the maximum and minimum values of the function <m>f(x)=x-\frac{64x}{x+4}</m> on the interval [0,13].</p>
+  <static seed="336" source="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/4_Applications_of_the_Derivative/4.2_Extreme_Values/4.2.41.pg">
+    <statement><p>Find the maximum and minimum values of the function <m>f(x)=x-\frac{8x}{x+2}</m> on the interval [0,3].</p>
 <p>The minimum value =  <fillin characters="20" name="AnSwEr0001"/></p>
 <p>The maximum value =  <fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>-36</m>
+        <m>-2</m>
       </p>
     </answer>
     <answer>
@@ -15,7 +15,7 @@
         <m>0</m>
       </p>
     </answer>
-    <solution><m>f(x)</m> is the solution to <m>f'(x)=0</m>. The derivative is<m>f'(x)=1-\frac{256}{\left(x+4\right)^{2}}</m>. Setting this equal to zero and solving for <m>x</m> gives <m>x=-4\pm 16</m>, and of these two critical points only -4+16=12 lies in our interval. Evaluating <m>f(-4+16)=f(12)</m> yields the critical value -36. The values of the function at the endpoints of the interval are <m>f(0)=0</m>, <m>f(13)=-35.9412</m>, so the minimum value is -36, and the maximum value is 0.
+    <solution><m>f(x)</m> is the solution to <m>f'(x)=0</m>. The derivative is<m>f'(x)=1-\frac{16}{\left(x+2\right)^{2}}</m>. Setting this equal to zero and solving for <m>x</m> gives <m>x=-2\pm 4</m>, and of these two critical points only -2+4=2 lies in our interval. Evaluating <m>f(-2+4)=f(2)</m> yields the critical value -2. The values of the function at the endpoints of the interval are <m>f(0)=0</m>, <m>f(3)=-1.8</m>, so the minimum value is -2, and the maximum value is 0.
 
 
 

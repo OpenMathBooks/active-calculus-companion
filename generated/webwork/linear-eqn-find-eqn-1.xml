@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-linear-eqn-find-eqn-1" assembly-id="linear-eqn-find-eqn-1">
-  <static seed="111" source="Contrib/METU-NCC/MAT101/Midterm/line.pg">
+  <static seed="116" source="Contrib/METU-NCC/MAT101/Midterm/line.pg">
     <statement><p>Give the equations for the following lines:</p>
 <p><alert> (A) </alert>
-Line through the point <m>(-2,0)</m> with slope <m>{\frac{1}{3}}</m>.</p>
+Line through the point <m>(3,-1)</m> with slope <m>{\frac{3}{2}}</m>.</p>
 <p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0001"/></p>
 <p><alert> (B) </alert>
-Line satisfying <m>y(0) = -4</m> and <m>y(1) = 0</m>.</p>
+Line satisfying <m>y(3) = 1</m> and <m>y(-4) = 2</m>.</p>
 <p><m>\qquad y =</m><fillin characters="20" name="AnSwEr0002"/></p>
 </statement>
     <answer>
       <p>
-        <m>\left({\frac{1}{3}}\right)\mathopen{}\left(x+2\right)</m>
+        <m>\left({\frac{3}{2}}\right)\mathopen{}\left(x-3\right)-1</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>4x-4</m>
+        <m>1-\left({\frac{1}{7}}\right)\mathopen{}\left(x-3\right)</m>
       </p>
     </answer>
   </static>

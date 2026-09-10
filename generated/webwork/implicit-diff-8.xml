@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-implicit-diff-8" assembly-id="implicit-diff-8">
-  <static seed="271" source="Library/Michigan/Chap3Sec7/Q31.pg">
-    <statement><p>If <m>x^{2} + y^3 - 3 x y^2 = 1</m>, find <m>dy/dx</m> in terms of
+  <static seed="276" source="Library/Michigan/Chap3Sec7/Q31.pg">
+    <statement><p>If <m>x^{4} + y^3 -  x y^2 = 49</m>, find <m>dy/dx</m> in terms of
 <m>x</m> and <m>y</m>.</p>
 <p><m>{dy\over dx} =</m> <fillin characters="65" name="AnSwEr0001"/></p>
 <p>Using your answer for <m>dy/dx</m>, fill in the following table of
 approximate <m>y</m>-values of points on the curve near 
-<m>x=1, y=3</m>.</p>
+<m>x=1, y=4</m>.</p>
 <tabular bottom="medium" left="medium" right="medium" top="medium">
 <row>
 <cell>0.96</cell>
@@ -32,52 +32,52 @@ using <m>dy/dx</m> and your solution with a computer or calculator?
 </statement>
     <answer>
       <p>
-        <m>\frac{3y^{2}-2x^{2-1}}{3y^{2}-2\cdot 3xy}</m>
+        <m>\frac{1y^{2}-4x^{4-1}}{3y^{2}-2\cdot 1xy}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3+2.77778\cdot \left(0.96-1\right)</m>
+        <m>4+0.3\cdot \left(0.96-1\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3+2.77778\cdot \left(0.98-1\right)</m>
+        <m>4+0.3\cdot \left(0.98-1\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3+2.77778\cdot \left(1.02-1\right)</m>
+        <m>4+0.3\cdot \left(1.02-1\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>3+2.77778\cdot \left(1.04-1\right)</m>
+        <m>4+0.3\cdot \left(1.04-1\right)</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2.88939</m>
+        <m>3.98782</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\left|3+2.77778\cdot \left(0.96-1\right)-2.88939\right|</m>
+        <m>\left|4+0.3\cdot \left(0.96-1\right)-3.98782\right|</m>
       </p>
     </answer>
-    <solution><m>2 x + 3 y^2 \frac{dy}{dx} - 3 y^2 - 6 x y \frac{dy}{dx} = 0</m>,
+    <solution><m>4 x^{3} + 3 y^2 \frac{dy}{dx} -  y^2 - 2 x y \frac{dy}{dx} = 0</m>,
 so that 
-<m>{dy\over dx} = \frac{3 y^2 - 2 x}{3y^2 - 6 x y}</m>.
+<m>{dy\over dx} = \frac{1 y^2 - 4 x^{3}}{3y^2 - 2 x y}</m>.
 
 
 
 
 
-We can approximate the curve near <m>x=1</m>,  <m>y=3</m> by its tangent line.  The
+We can approximate the curve near <m>x=1</m>,  <m>y=4</m> by its tangent line.  The
 tangent line will have slope
-<m>\frac{3 (3)^2 - 2 (1)}{3 (3)^2 - 6 (1) (3)} \approx 2.778</m>.
+<m>\frac{1 (4)^2 - 4 (1)^{3}}{3 (4)^2 - 2 (1) (4)} = 0.3</m>.
 Thus its equation is
-<m>y \approx 3 + 2.778(x - 1)</m>.
+<m>y = 4 + 0.3(x - 1)</m>.
 
 
 
@@ -85,25 +85,25 @@ Thus its equation is
 
 Using the <m>y</m>-values of the tangent line to approximate the <m>y</m>-values
 of the curve, we get 
-<m>y(0.96) \approx 2.8889</m>,
-<m>y(0.98) \approx 2.9444</m>,
-<m>y(1.02) \approx 3.0556</m>, and
-<m>y(1.04) \approx 3.1111</m>.
+<m>y(0.96) \approx 3.988</m>,
+<m>y(0.98) \approx 3.994</m>,
+<m>y(1.02) \approx 4.006</m>, and
+<m>y(1.04) \approx 4.012</m>.
 
 
 
 
 
 When <m>x=0.96</m>, we get the equation 
-<m>(0.96)^{2} + y^3 - 3 (0.96) y^2 = 1</m>, whose
-solution by numerical methods (for example, using a calculator) is 2.88939.
+<m>(0.96)^{4} + y^3 -  (0.96) y^2 = 49</m>, whose
+solution by numerical methods (for example, using a calculator) is 3.98782.
 
 
 
 
 
-The difference between 2.88939 and the estimate is just 
-<m>|2.88939 - 2.8889| = 0.0005</m>.
+The difference between 3.98782 and the estimate is just 
+<m>|3.98782 - 3.988| = 0.0002</m>.
 
 
 

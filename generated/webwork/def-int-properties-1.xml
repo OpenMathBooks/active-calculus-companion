@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-def-int-properties-1" assembly-id="def-int-properties-1">
-  <static seed="380" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
+  <static seed="385" source="Contrib/CCCS/CalculusOne/05.2/CCD_CCCS_Openstax_Calc1_C1-2016-002_5_2_88.pg">
     <statement><p>Suppose</p>
-<p><m>\displaystyle{\int_{-9}^{-4}f(x) dx=-7  \text{  and  }  \int_{-4}^{-2}f(x) dx=8}</m>,</p>
-<p><m>\displaystyle{\int_{-9}^{-4}g(x) dx=9  \text{  and  }  \int_{-4}^{-2}g(x) dx=7}</m>.</p>
+<p><m>\displaystyle{\int_{3}^{5}f(x) dx=-5  \text{  and  }  \int_{5}^{7}f(x) dx=0}</m>,</p>
+<p><m>\displaystyle{\int_{3}^{5}g(x) dx=8  \text{  and  }  \int_{5}^{7}g(x) dx=-4}</m>.</p>
 <p>Compute the following integrals.</p>
-<p>(a) <m>\displaystyle{\int_{-9}^{-2}(f(x)+g(x)) dx=}</m><fillin characters="17" name="AnSwEr0001"/></p>
-<p>(b) <m>\displaystyle{\int_{-9}^{-2}(f(x)-g(x)) dx=}</m><fillin characters="17" name="AnSwEr0002"/></p>
-<p>(c) <m>\displaystyle{\int_{-9}^{-2}(3f(x)-9g(x)) dx=}</m><fillin characters="17" name="AnSwEr0003"/></p>
+<p>(a) <m>\displaystyle{\int_{3}^{7}(f(x)+g(x)) dx=}</m><fillin characters="17" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle{\int_{3}^{7}(f(x)-g(x)) dx=}</m><fillin characters="17" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle{\int_{3}^{7}(7f(x)-9g(x)) dx=}</m><fillin characters="17" name="AnSwEr0003"/></p>
 </statement>
     <answer>
       <p>
-        <m>17</m>
+        <m>-1</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-15</m>
+        <m>-9</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>-141</m>
+        <m>-71</m>
       </p>
     </answer>
   </static>

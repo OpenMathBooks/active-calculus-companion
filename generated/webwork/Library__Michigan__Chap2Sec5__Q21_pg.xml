@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap2Sec5__Q21_pg" assembly-id="Library__Michigan__Chap2Sec5__Q21_pg">
-  <static seed="94" source="Library/Michigan/Chap2Sec5/Q21.pg">
+  <static seed="99" source="Library/Michigan/Chap2Sec5/Q21.pg">
     <statement><p>The graph of <m>f'</m> (<alert>not</alert> <m>f</m>) is given below.</p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__Michigan__Chap2Sec5__Q21_pg-image-1.png" width="50%"/>
 <p><em>(Note that this is a graph of <m>f'</m>, not a graph of <m>f</m>.)</em></p>
@@ -30,22 +30,22 @@
     </answer>
     <answer>
       <p>
-        <m>\text{x5}</m>
-      </p>
-    </answer>
-    <answer>
-      <p>
         <m>\text{x3}</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>\text{x4}</m>
+        <m>\text{x5}</m>
       </p>
     </answer>
     <answer>
       <p>
         <m>\text{x6}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{x4}</m>
       </p>
     </answer>
     <solution><alert>A,B.</alert>
@@ -59,7 +59,7 @@ of <m>f</m> is at x1.
 
 <alert>C,D.</alert>
 Directly from the graph, we see that <m>f'</m>
-is greatest at x5 and least at x3.
+is greatest at x3 and least at x5.
 
 
 
@@ -68,8 +68,8 @@ is greatest at x5 and least at x3.
 <alert>E,F.</alert>
 Since <m>f''</m> gives the
 slope of the graph of <m>f'</m>, <m>f''</m> is greatest where <m>f'</m> is
-rising most rapidly, namely at x4, and <m>f''</m> is least where
-<m>f'</m> is falling most rapidly, namely at x6.
+rising most rapidly, namely at x6, and <m>f''</m> is least where
+<m>f'</m> is falling most rapidly, namely at x4.
 
 
 

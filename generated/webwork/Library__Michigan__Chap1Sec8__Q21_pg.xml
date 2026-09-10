@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__Chap1Sec8__Q21_pg" assembly-id="Library__Michigan__Chap1Sec8__Q21_pg">
-  <static seed="103" source="Library/Michigan/Chap1Sec8/Q21.pg">
+  <static seed="108" source="Library/Michigan/Chap1Sec8/Q21.pg">
     <statement><p>For the function
-<me>f(x) = \begin{cases} x^2 - 3, \amp  0\le x \lt  2\\ 3, \amp  x = 2\\ 3 x  - 5, \amp  2 \lt  x \end{cases}</me>
+<me>f(x) = \begin{cases} 2 x - 5, \amp  0\le x \lt  3\\ 4, \amp  x = 3\\ x^2 - 6 x + 10, \amp  3 \lt  x \end{cases}</me>
 use algebra to find each of the following limits:</p>
-<p><m>\lim\limits_{x\to 2^{+}}\, f(x) =</m> <fillin characters="15" name="AnSwEr0001"/></p>
-<p><m>\lim\limits_{x\to 2^{-}}\, f(x) =</m> <fillin characters="15" name="AnSwEr0002"/></p>
-<p><m>\lim\limits_{x\to 2}\, f(x) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
+<p><m>\lim\limits_{x\to 3^{+}}\, f(x) =</m> <fillin characters="15" name="AnSwEr0001"/></p>
+<p><m>\lim\limits_{x\to 3^{-}}\, f(x) =</m> <fillin characters="15" name="AnSwEr0002"/></p>
+<p><m>\lim\limits_{x\to 3}\, f(x) =</m> <fillin characters="15" name="AnSwEr0003"/></p>
 <p><em>(For each, enter <alert>DNE</alert> if the limit does not
 exist.)</em></p>
 <p>Sketch a graph of <m>f(x)</m> to confirm your answers.</p>
 </statement>
     <answer>
       <p>
-        <m>3\cdot 2+-5</m>
+        <m>2\cdot 3-5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2\cdot 2-3</m>
+        <m>2\cdot 3-5</m>
       </p>
     </answer>
     <answer>
       <p>
-        <m>2\cdot 2-3</m>
+        <m>2\cdot 3-5</m>
       </p>
     </answer>
     <solution><m>f(x)</m> is shown below.
@@ -40,21 +40,21 @@ From this, and from the given formula for <m>f(x)</m>, we can see that
 
 
 
-<m>\lim\limits_{x\to 2^{+}}\, f(x) = 1</m>, and
+<m>\lim\limits_{x\to 3^{+}}\, f(x) = 1</m>, and
 
 
 
-<m>\lim\limits_{x\to 2^{-}}\, f(x) = 1</m>.
+<m>\lim\limits_{x\to 3^{-}}\, f(x) = 1</m>.
 
 
 
 These are the same value, so we know that the limit must exist:
-<m>\lim\limits_{x\to 2}\, f(x) = 1</m>.
+<m>\lim\limits_{x\to 3}\, f(x) = 1</m>.
 
 
 
-Note, however, that <m>f(x)</m> is not continuous at <m>x=2</m> since
-<m>f(2)=3 \ne 1</m>.
+Note, however, that <m>f(x)</m> is not continuous at <m>x=3</m> since
+<m>f(3)=4 \ne 1</m>.
 
 
 

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Valdosta__APEX_Calculus__2_2__APEX_2_2_8_pg" assembly-id="Library__Valdosta__APEX_Calculus__2_2__APEX_2_2_8_pg">
-  <static seed="128" source="Library/Valdosta/APEX_Calculus/2.2/APEX_2.2_8.pg">
-    <statement><p>Given that <m>f(-6.6) = -7.5</m> and <m>f(-6.2) = 4.2</m>, approximate
-<m>f'(-6.6)</m>.</p>
-<p><m>f'(-6.6) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
+  <static seed="133" source="Library/Valdosta/APEX_Calculus/2.2/APEX_2.2_8.pg">
+    <statement><p>Given that <m>f(4.6) = -5.8</m> and <m>f(5.1) = -3.5</m>, approximate
+<m>f'(4.6)</m>.</p>
+<p><m>f'(4.6) \approx</m> <fillin characters="6" name="AnSwEr0001"/></p>
 </statement>
     <answer>
       <p>
-        <m>29.25</m>
+        <m>4.6</m>
       </p>
     </answer>
     <solution><alert> Solution:</alert> 
@@ -16,10 +16,10 @@
 
 For small values of <m>h</m>,  
  <m>f'(c) \approx \frac{f(c+h) - f(c)}{h}</m>.
-In this problem, <m>c = -6.6</m>, and <m>h = -6.2  + 6.6 = 0.4</m>.
-<me>f'(-6.6) \approx \frac{f(-6.2) - f(-6.6)}{0.4}
-  = \frac{4.2  + 7.5}{0.4}
-  = 29.25.</me>
+In this problem, <m>c = 4.6</m>, and <m>h = 5.1 - 4.6 = 0.5</m>.
+<me>f'(4.6) \approx \frac{f(5.1) - f(4.6)}{0.5}
+  = \frac{-3.5  + 5.8}{0.5}
+  = 4.6.</me>
 
 
 </solution>

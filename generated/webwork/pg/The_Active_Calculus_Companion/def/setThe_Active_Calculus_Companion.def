@@ -118,6 +118,26 @@ source_file = Library/Mizzou/College_Algebra/Rational_and_Radical_Exponents_Rati
 problem_id = 19
 problem_end
 problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_05_03_FactoringByGrouping/53IntAlg_32_Functions_Review.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Mizzou/Algebra/functions_evaluating/two_graphs_equal_inequal_02.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph30.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph55.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/PCC/BasicAlgebra/FunctionBasics/FunctionValuesByGraph57.pg
+problem_id = 5
+problem_end
+problem_start
 source_file = Library/PCC/BasicAlgebra/PointSlopeForm/PointSlopeBasics10.pg
 problem_id = 1
 problem_end
